@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "source": "moe-bot",
+    "generated_at": "2025-06-02T19:26:00Z",
+    "description": "Price boxes/rectangles for drawing rectangular areas on charts"
+  },
+  "price_boxes": [
+    {
+      "symbol": "SPY",
+      "type": "consolidation",
+      "top_left": {
+        "timestamp": "2025-05-28T09:30:00Z",
+        "price": 524.50
+      },
+      "bottom_right": {
+        "timestamp": "2025-06-02T16:00:00Z",
+        "price": 520.75
+      },
+      "color": "blue",
+      "opacity": 0.3,
+      "label": "Consolidation Zone"
+    },
+    {
+      "symbol": "QQQ",
+      "type": "breakout_zone",
+      "top_left": {
+        "timestamp": "2025-05-30T10:00:00Z",
+        "price": 448.25
+      },
+      "bottom_right": {
+        "timestamp": "2025-06-02T15:30:00Z",
+        "price": 445.80
+      },
+      "color": "green",
+      "opacity": 0.25,
+      "label": "Breakout Target"
+    },
+    {
+      "symbol": "AAPL",
+      "type": "resistance_zone",
+      "top_left": {
+        "timestamp": "2025-05-25T11:15:00Z",
+        "price": 196.50
+      },
+      "bottom_right": {
+        "timestamp": "2025-06-02T14:30:00Z",
+        "price": 194.75
+      },
+      "color": "red",
+      "opacity": 0.2,
+      "label": "Resistance Area"
+    },
+    {
+      "symbol": "TSLA",
+      "type": "support_zone",
+      "top_left": {
+        "timestamp": "2025-05-29T12:00:00Z",
+        "price": 188.00
+      },
+      "bottom_right": {
+        "timestamp": "2025-06-02T16:00:00Z",
+        "price": 185.50
+      },
+      "color": "yellow",
+      "opacity": 0.35,
+      "label": "Support Zone"
+    }
+  ]
+} 

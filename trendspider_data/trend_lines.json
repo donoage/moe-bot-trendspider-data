@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "source": "moe-bot",
+    "generated_at": "2025-06-02T19:26:00Z",
+    "description": "Trend lines for drawing diagonal lines on charts"
+  },
+  "trend_lines": [
+    {
+      "symbol": "SPY",
+      "type": "uptrend",
+      "start_point": {
+        "timestamp": "2025-05-15T09:30:00Z",
+        "price": 515.25
+      },
+      "end_point": {
+        "timestamp": "2025-06-02T16:00:00Z",
+        "price": 522.80
+      },
+      "strength": "strong",
+      "touches": 5,
+      "slope": 0.42
+    },
+    {
+      "symbol": "QQQ",
+      "type": "downtrend",
+      "start_point": {
+        "timestamp": "2025-05-20T10:15:00Z",
+        "price": 450.75
+      },
+      "end_point": {
+        "timestamp": "2025-06-02T15:30:00Z",
+        "price": 446.20
+      },
+      "strength": "medium",
+      "touches": 3,
+      "slope": -0.35
+    },
+    {
+      "symbol": "TSLA",
+      "type": "uptrend",
+      "start_point": {
+        "timestamp": "2025-05-25T11:00:00Z",
+        "price": 185.50
+      },
+      "end_point": {
+        "timestamp": "2025-06-02T14:45:00Z",
+        "price": 192.30
+      },
+      "strength": "weak",
+      "touches": 2,
+      "slope": 0.85
+    }
+  ]
+} 
