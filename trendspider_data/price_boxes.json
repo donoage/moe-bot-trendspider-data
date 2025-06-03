@@ -1,10 +1,10 @@
 {
   "metadata": {
     "source": "volumeleaders.com",
-    "generated_at": "2025-06-02T23:51:25.375423Z",
+    "generated_at": "2025-06-02T23:54:02.624099Z",
     "description": "Price boxes (sweep zones) from VolumeLeaders showing support/resistance zones with volume data",
     "date_range": "2025-05-03 to 2025-06-02",
-    "criteria": "Sweep boxes from top trades per ticker over 30-day lookback period",
+    "criteria": "Sweep boxes from top trades per ticker over 30-day lookback period with per-ticker box numbering",
     "data_source": "Moe Bot - VolumeLeaders.com",
     "script": "populate_price_boxes.py"
   },
@@ -23,7 +23,7 @@
       },
       "color": "green",
       "opacity": 0.3,
-      "label": "BOX 1: Support/Resistance Zone",
+      "label": "BOX 1: 94.7K shares | $19.7M | 1 trades",
       "volume": 94676,
       "value": 19741839,
       "trades": 1,
@@ -32,7 +32,7 @@
     {
       "symbol": "IWM",
       "type": "sweep_box",
-      "box_number": 2,
+      "box_number": 1,
       "top_left": {
         "timestamp": "2025-05-03T09:30:00Z",
         "price": 206.45
@@ -41,9 +41,9 @@
         "timestamp": "2025-06-02T16:00:00Z",
         "price": 200.55
       },
-      "color": "orange",
+      "color": "green",
       "opacity": 0.3,
-      "label": "BOX 2: Support/Resistance Zone",
+      "label": "BOX 1: 756.3K shares | $154.1M | 6 trades",
       "volume": 756279,
       "value": 154113962,
       "trades": 6,
@@ -52,7 +52,7 @@
     {
       "symbol": "IWM",
       "type": "sweep_box",
-      "box_number": 3,
+      "box_number": 2,
       "top_left": {
         "timestamp": "2025-05-03T09:30:00Z",
         "price": 207.77
@@ -61,9 +61,9 @@
         "timestamp": "2025-06-02T16:00:00Z",
         "price": 207.66
       },
-      "color": "red",
+      "color": "orange",
       "opacity": 0.3,
-      "label": "BOX 3: Support/Resistance Zone",
+      "label": "BOX 2: 260.5K shares | $54.1M | 2 trades",
       "volume": 260541,
       "value": 54115686,
       "trades": 2,
@@ -72,7 +72,7 @@
     {
       "symbol": "IWM",
       "type": "sweep_box",
-      "box_number": 4,
+      "box_number": 3,
       "top_left": {
         "timestamp": "2025-05-03T09:30:00Z",
         "price": 199.99
@@ -81,9 +81,9 @@
         "timestamp": "2025-06-02T16:00:00Z",
         "price": 199.61
       },
-      "color": "purple",
+      "color": "red",
       "opacity": 0.3,
-      "label": "BOX 4: Support/Resistance Zone",
+      "label": "BOX 3: 241.1K shares | $48.2M | 2 trades",
       "volume": 241090,
       "value": 48171963,
       "trades": 2,
@@ -92,7 +92,7 @@
     {
       "symbol": "MSFT",
       "type": "sweep_box",
-      "box_number": 5,
+      "box_number": 1,
       "top_left": {
         "timestamp": "2025-05-03T09:30:00Z",
         "price": 457.29
@@ -101,9 +101,9 @@
         "timestamp": "2025-06-02T16:00:00Z",
         "price": 434.1
       },
-      "color": "yellow",
+      "color": "green",
       "opacity": 0.3,
-      "label": "BOX 5: Support/Resistance Zone",
+      "label": "BOX 1: 289.6K shares | $127.9M | 6 trades",
       "volume": 289583,
       "value": 127912941,
       "trades": 6,
@@ -112,7 +112,7 @@
     {
       "symbol": "NVDA",
       "type": "sweep_box",
-      "box_number": 6,
+      "box_number": 1,
       "top_left": {
         "timestamp": "2025-05-03T09:30:00Z",
         "price": 135.03
@@ -121,9 +121,9 @@
         "timestamp": "2025-06-02T16:00:00Z",
         "price": 135.03
       },
-      "color": "cyan",
+      "color": "green",
       "opacity": 0.3,
-      "label": "BOX 6: Support/Resistance Zone",
+      "label": "BOX 1: 159.2K shares | $21.5M | 1 trades",
       "volume": 159207,
       "value": 21497721,
       "trades": 1,
@@ -132,7 +132,7 @@
     {
       "symbol": "QQQ",
       "type": "sweep_box",
-      "box_number": 7,
+      "box_number": 1,
       "top_left": {
         "timestamp": "2025-05-03T09:30:00Z",
         "price": 510.73
@@ -141,9 +141,9 @@
         "timestamp": "2025-06-02T16:00:00Z",
         "price": 489.19
       },
-      "color": "magenta",
+      "color": "green",
       "opacity": 0.3,
-      "label": "BOX 7: Support/Resistance Zone",
+      "label": "BOX 1: 921.7K shares | $464.6M | 5 trades",
       "volume": 921690,
       "value": 464648746,
       "trades": 5,
@@ -152,7 +152,7 @@
     {
       "symbol": "QQQ",
       "type": "sweep_box",
-      "box_number": 8,
+      "box_number": 2,
       "top_left": {
         "timestamp": "2025-05-03T09:30:00Z",
         "price": 519.52
@@ -161,9 +161,9 @@
         "timestamp": "2025-06-02T16:00:00Z",
         "price": 516.92
       },
-      "color": "blue",
+      "color": "orange",
       "opacity": 0.3,
-      "label": "BOX 8: Support/Resistance Zone",
+      "label": "BOX 2: 679.1K shares | $351.7M | 5 trades",
       "volume": 679051,
       "value": 351718966,
       "trades": 5,
@@ -172,7 +172,7 @@
     {
       "symbol": "SPY",
       "type": "sweep_box",
-      "box_number": 9,
+      "box_number": 1,
       "top_left": {
         "timestamp": "2025-05-03T09:30:00Z",
         "price": 569.17
@@ -183,7 +183,7 @@
       },
       "color": "green",
       "opacity": 0.3,
-      "label": "BOX 9: Support/Resistance Zone",
+      "label": "BOX 1: 867.6K shares | $490.5M | 5 trades",
       "volume": 867649,
       "value": 490452606,
       "trades": 5,
@@ -192,7 +192,7 @@
     {
       "symbol": "SPY",
       "type": "sweep_box",
-      "box_number": 10,
+      "box_number": 2,
       "top_left": {
         "timestamp": "2025-05-03T09:30:00Z",
         "price": 580.25
@@ -203,7 +203,7 @@
       },
       "color": "orange",
       "opacity": 0.3,
-      "label": "BOX 10: Support/Resistance Zone",
+      "label": "BOX 2: 799.9K shares | $463.5M | 3 trades",
       "volume": 799863,
       "value": 463474898,
       "trades": 3,
@@ -212,7 +212,7 @@
     {
       "symbol": "SPY",
       "type": "sweep_box",
-      "box_number": 11,
+      "box_number": 3,
       "top_left": {
         "timestamp": "2025-05-03T09:30:00Z",
         "price": 561.5
@@ -223,7 +223,7 @@
       },
       "color": "red",
       "opacity": 0.3,
-      "label": "BOX 11: Support/Resistance Zone",
+      "label": "BOX 3: 618.2K shares | $347.0M | 2 trades",
       "volume": 618243,
       "value": 347014160,
       "trades": 2,
