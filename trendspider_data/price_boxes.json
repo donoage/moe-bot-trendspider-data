@@ -1,69 +1,71 @@
 {
   "metadata": {
-    "source": "moe-bot",
-    "generated_at": "2025-06-02T19:26:00Z",
-    "description": "Price boxes/rectangles for drawing rectangular areas on charts"
+    "source": "volumeleaders.com",
+    "generated_at": "2025-06-02T20:35:00Z",
+    "description": "SPY sweep boxes from VolumeLeaders showing support/resistance zones with volume data",
+    "date_range": "2025-05-04 to 2025-06-03",
+    "data_source": "Moe Bot - VolumeLeaders.com"
   },
   "price_boxes": [
     {
       "symbol": "SPY",
-      "type": "consolidation",
+      "type": "sweep_box",
+      "box_number": 1,
       "top_left": {
-        "timestamp": "2025-05-28T09:30:00Z",
-        "price": 524.50
+        "timestamp": "2025-05-05T09:30:00Z",
+        "price": 569.17
       },
       "bottom_right": {
-        "timestamp": "2025-06-02T16:00:00Z",
-        "price": 520.75
+        "timestamp": "2025-05-09T16:00:00Z",
+        "price": 563.88
       },
       "color": "blue",
       "opacity": 0.3,
-      "label": "Consolidation Zone"
+      "label": "BOX 1: Support/Resistance Zone",
+      "volume": 867650,
+      "value": 490450000,
+      "trades": 5,
+      "date_range": "2025-05-05 to 2025-05-09"
     },
     {
-      "symbol": "QQQ",
-      "type": "breakout_zone",
+      "symbol": "SPY",
+      "type": "sweep_box",
+      "box_number": 2,
       "top_left": {
-        "timestamp": "2025-05-30T10:00:00Z",
-        "price": 448.25
+        "timestamp": "2025-05-12T09:30:00Z",
+        "price": 580.25
       },
       "bottom_right": {
-        "timestamp": "2025-06-02T15:30:00Z",
-        "price": 445.80
+        "timestamp": "2025-05-23T16:00:00Z",
+        "price": 578.90
       },
       "color": "green",
-      "opacity": 0.25,
-      "label": "Breakout Target"
+      "opacity": 0.3,
+      "label": "BOX 2: Support/Resistance Zone",
+      "volume": 799860,
+      "value": 463470000,
+      "trades": 3,
+      "date_range": "2025-05-12 to 2025-05-23"
     },
     {
-      "symbol": "AAPL",
-      "type": "resistance_zone",
+      "symbol": "SPY",
+      "type": "sweep_box",
+      "box_number": 3,
       "top_left": {
-        "timestamp": "2025-05-25T11:15:00Z",
-        "price": 196.50
+        "timestamp": "2025-05-06T09:30:00Z",
+        "price": 561.50
       },
       "bottom_right": {
-        "timestamp": "2025-06-02T14:30:00Z",
-        "price": 194.75
+        "timestamp": "2025-05-06T16:00:00Z",
+        "price": 561.01
       },
-      "color": "red",
-      "opacity": 0.2,
-      "label": "Resistance Area"
-    },
-    {
-      "symbol": "TSLA",
-      "type": "support_zone",
-      "top_left": {
-        "timestamp": "2025-05-29T12:00:00Z",
-        "price": 188.00
-      },
-      "bottom_right": {
-        "timestamp": "2025-06-02T16:00:00Z",
-        "price": 185.50
-      },
-      "color": "yellow",
-      "opacity": 0.35,
-      "label": "Support Zone"
+      "color": "orange",
+      "opacity": 0.3,
+      "label": "BOX 3: Support/Resistance Zone",
+      "volume": 618240,
+      "value": 347010000,
+      "trades": 2,
+      "date_range": "2025-05-06"
     }
   ]
 } 
