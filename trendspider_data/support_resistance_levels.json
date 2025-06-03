@@ -1,74 +1,372 @@
 {
   "metadata": {
     "source": "volumeleaders.com",
-    "generated_at": "2025-06-02T20:11:55Z",
+    "generated_at": "2025-06-02T22:49:20.697676Z",
     "description": "Support and resistance levels derived from VolumeLeaders trade data",
-    "date_range": "2025-05-03 to 2025-06-02",
-    "criteria": "High volume trade levels with significant dollar amounts"
+    "date_range": "2025-03-04 to 2025-06-02",
+    "criteria": "Top 5 trade levels per ticker over 90-day lookback period",
+    "script": "populate_support_resistance.py"
   },
   "levels": [
     {
-      "symbol": "SPY",
-      "price": 594.20,
-      "timestamp": "2025-06-02T20:11:55Z",
+      "symbol": "AAPL",
+      "price": 228.2,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
       "volume_confirmation": true,
-      "touches": 146,
-      "volume": 28500764,
-      "dollars": 16935201216
-    },
-    {
-      "symbol": "SPY",
-      "price": 590.50,
-      "timestamp": "2025-06-02T20:11:55Z",
-      "volume_confirmation": true,
-      "touches": 139,
-      "volume": 24280147,
-      "dollars": 14337608902
-    },
-    {
-      "symbol": "SPY",
-      "price": 586.60,
-      "timestamp": "2025-06-02T20:11:55Z",
-      "volume_confirmation": true,
-      "touches": 109,
-      "volume": 23878906,
-      "dollars": 14007413879
-    },
-    {
-      "symbol": "SPY",
-      "price": 583.80,
-      "timestamp": "2025-06-02T20:11:55Z",
-      "volume_confirmation": true,
-      "touches": 89,
-      "volume": 18439912,
-      "dollars": 10764869170
-    },
-    {
-      "symbol": "SPY",
-      "price": 581.50,
-      "timestamp": "2025-06-02T20:11:55Z",
-      "volume_confirmation": true,
-      "touches": 118,
-      "volume": 26531219,
-      "dollars": 15427615710
-    },
-    {
-      "symbol": "QQQ",
-      "type": "support",
-      "price": 445.20,
-      "strength": "strong",
-      "timestamp": "2025-06-02T16:00:00Z",
-      "volume_confirmation": true,
-      "touches": 4
+      "dollars": 43730000000,
+      "rank": "1",
+      "level_type": "support"
     },
     {
       "symbol": "AAPL",
-      "type": "resistance",
-      "price": 195.50,
-      "strength": "weak",
-      "timestamp": "2025-06-02T13:45:00Z",
-      "volume_confirmation": false,
-      "touches": 1
+      "price": 207.5,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 32630000000,
+      "rank": "2",
+      "level_type": "resistance"
+    },
+    {
+      "symbol": "AAPL",
+      "price": 171.1,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 14720000000,
+      "rank": "5",
+      "level_type": "support"
+    },
+    {
+      "symbol": "AAPL",
+      "price": 173.0,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 13450000000,
+      "rank": "6",
+      "level_type": "resistance"
+    },
+    {
+      "symbol": "AAPL",
+      "price": 180.8,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 13270000000,
+      "rank": "7",
+      "level_type": "support"
+    },
+    {
+      "symbol": "AMD",
+      "price": 113.5,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 3060000000,
+      "rank": "2",
+      "level_type": "support"
+    },
+    {
+      "symbol": "AMD",
+      "price": 111.0,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 2800000000,
+      "rank": "3",
+      "level_type": "resistance"
+    },
+    {
+      "symbol": "AMD",
+      "price": 114.3,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 2720000000,
+      "rank": "5",
+      "level_type": "support"
+    },
+    {
+      "symbol": "AMD",
+      "price": 96.8,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 2690000000,
+      "rank": "6",
+      "level_type": "resistance"
+    },
+    {
+      "symbol": "AMD",
+      "price": 119.2,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 2590000000,
+      "rank": "7",
+      "level_type": "support"
+    },
+    {
+      "symbol": "IWM",
+      "price": 196.5,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 5750000000,
+      "rank": "0",
+      "level_type": "support"
+    },
+    {
+      "symbol": "IWM",
+      "price": 200.5,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 5400000000,
+      "rank": "0",
+      "level_type": "resistance"
+    },
+    {
+      "symbol": "IWM",
+      "price": 171.2,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 5280000000,
+      "rank": "0",
+      "level_type": "support"
+    },
+    {
+      "symbol": "IWM",
+      "price": 177.5,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 5120000000,
+      "rank": "0",
+      "level_type": "resistance"
+    },
+    {
+      "symbol": "IWM",
+      "price": 201.3,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 4960000000,
+      "rank": "0",
+      "level_type": "support"
+    },
+    {
+      "symbol": "MSFT",
+      "price": 435.3,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 19840000000,
+      "rank": "1",
+      "level_type": "support"
+    },
+    {
+      "symbol": "MSFT",
+      "price": 370.7,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 16200000000,
+      "rank": "3",
+      "level_type": "resistance"
+    },
+    {
+      "symbol": "MSFT",
+      "price": 436.6,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 13930000000,
+      "rank": "5",
+      "level_type": "support"
+    },
+    {
+      "symbol": "MSFT",
+      "price": 415.1,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 12850000000,
+      "rank": "9",
+      "level_type": "resistance"
+    },
+    {
+      "symbol": "MSFT",
+      "price": 343.8,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 12280000000,
+      "rank": "11",
+      "level_type": "support"
+    },
+    {
+      "symbol": "NVDA",
+      "price": 126.6,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 30730000000,
+      "rank": "1",
+      "level_type": "support"
+    },
+    {
+      "symbol": "NVDA",
+      "price": 116.0,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 19750000000,
+      "rank": "3",
+      "level_type": "resistance"
+    },
+    {
+      "symbol": "NVDA",
+      "price": 123.5,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 14750000000,
+      "rank": "5",
+      "level_type": "support"
+    },
+    {
+      "symbol": "NVDA",
+      "price": 123.7,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 14060000000,
+      "rank": "6",
+      "level_type": "resistance"
+    },
+    {
+      "symbol": "NVDA",
+      "price": 136.0,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 14020000000,
+      "rank": "7",
+      "level_type": "support"
+    },
+    {
+      "symbol": "QQQ",
+      "price": 521.6,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 6560000000,
+      "rank": "53",
+      "level_type": "support"
+    },
+    {
+      "symbol": "QQQ",
+      "price": 510.3,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 5720000000,
+      "rank": "90",
+      "level_type": "resistance"
+    },
+    {
+      "symbol": "QQQ",
+      "price": 438.9,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 5250000000,
+      "rank": "0",
+      "level_type": "support"
+    },
+    {
+      "symbol": "QQQ",
+      "price": 403.1,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 4960000000,
+      "rank": "0",
+      "level_type": "resistance"
+    },
+    {
+      "symbol": "QQQ",
+      "price": 432.8,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 4830000000,
+      "rank": "0",
+      "level_type": "support"
+    },
+    {
+      "symbol": "SPY",
+      "price": 566.9,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 17620000000,
+      "rank": "0",
+      "level_type": "support"
+    },
+    {
+      "symbol": "SPY",
+      "price": 512.9,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 17020000000,
+      "rank": "0",
+      "level_type": "resistance"
+    },
+    {
+      "symbol": "SPY",
+      "price": 594.2,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 16940000000,
+      "rank": "0",
+      "level_type": "support"
+    },
+    {
+      "symbol": "SPY",
+      "price": 581.5,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 15430000000,
+      "rank": "0",
+      "level_type": "resistance"
+    },
+    {
+      "symbol": "SPY",
+      "price": 590.5,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 14340000000,
+      "rank": "0",
+      "level_type": "support"
+    },
+    {
+      "symbol": "TSLA",
+      "price": 231.7,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 60320000000,
+      "rank": "1",
+      "level_type": "support"
+    },
+    {
+      "symbol": "TSLA",
+      "price": 253.2,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 8520000000,
+      "rank": "3",
+      "level_type": "resistance"
+    },
+    {
+      "symbol": "TSLA",
+      "price": 303.4,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 8500000000,
+      "rank": "4",
+      "level_type": "support"
+    },
+    {
+      "symbol": "TSLA",
+      "price": 310.9,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 7910000000,
+      "rank": "5",
+      "level_type": "resistance"
+    },
+    {
+      "symbol": "TSLA",
+      "price": 260.5,
+      "timestamp": "2025-06-02T22:49:18.045085Z",
+      "volume_confirmation": true,
+      "dollars": 7770000000,
+      "rank": "6",
+      "level_type": "support"
     }
   ]
-} 
+}
