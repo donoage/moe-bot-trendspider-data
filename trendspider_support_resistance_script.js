@@ -1,4 +1,4 @@
-describe_indicator('Support & Resistance Levels with Price Boxes from JSON', 'overlay');
+describe_indicator('Moebot VL Trendspider', 'overlay');
 
 // Configuration - these can be modified directly in the code
 const showSupport = true;
