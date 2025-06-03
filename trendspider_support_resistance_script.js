@@ -81,7 +81,7 @@ try {
                 // Use light blue color for all support/resistance levels
                 let color = '#87CEEB'; // Light blue for all levels
                 
-                // Create horizontal line at the price level
+                // Create horizontal line at the price level - match exact chart length
                 const levelLine = Array.from({length: close.length}, function() { return level.price; });
                 
                 // Create title with price and rank information
@@ -138,10 +138,10 @@ try {
         if (boxes.length > 0 && showPriceBoxes) {
             console.log('Found ' + boxes.length + ' price boxes for ' + currentSymbol);
             
-            // Calculate box positioning at the right side of the chart
+            // Calculate box positioning further to the right side of the chart
             const chartLength = close.length;
             const boxWidth = Math.max(10, Math.floor(chartLength * 0.1)); // 10% of chart width or minimum 10 bars
-            const startOffset = Math.max(5, Math.floor(chartLength * 0.02)); // Small offset from the right edge
+            const startOffset = Math.max(25, Math.floor(chartLength * 0.05)); // Larger offset from the right edge (5% or min 25 bars)
             
             boxes.forEach(function(box, index) {
                 try {
@@ -185,8 +185,8 @@ try {
                             const dateText = box.date_range || '';
                             const labelText = '[BOX ' + box.box_number + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText + (dateText ? ' • ' + dateText : '');
                             
-                            // Place label above the top of the box for better organization
-                            const labelBarIndex = Math.floor((boxStartIndex + boxEndIndex) / 2);
+                            // Place label on the right side like level labels
+                            const labelBarIndex = close.length - 1;
                             
                             paint_label_at_line(topLine, labelBarIndex, labelText, {
                                 color: boxLineColor, // Match the box line color (purple)
@@ -215,7 +215,7 @@ try {
                 // Use a different color for prints (orange)
                 let printColor = '#FFA500'; // Orange for prints
                 
-                // Create horizontal line at the print price
+                // Create horizontal line at the print price - match exact chart length
                 const printLine = Array.from({length: close.length}, function() { return print.price; });
                 
                 // Create title with print information
