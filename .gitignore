@@ -62,13 +62,12 @@ discord-bot/msd_weekly_report_preview.txt
 # launchd plist files
 *.plist 
 
-# BasesForming JSON files
-basesforming_*.json 
-
 # Cache files
-cache/stock_info_cache.json
 cache/*.json
 !cache/.gitkeep
+
+# BasesForming JSON files
+basesforming_*.json 
 
 # JSON files section
 # Ignore various JSON data files
