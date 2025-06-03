@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.moebot.trendspider.ticker.monitor</string>
+    
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/stephenbae/Projects/moe-bot/.venv/bin/python3</string>
+        <string>/Users/stephenbae/Projects/moe-bot/trendspider_data/monitor_ticker_changes.py</string>
+    </array>
+    
+    <key>WorkingDirectory</key>
+    <string>/Users/stephenbae/Projects/moe-bot/trendspider_data</string>
+    
+    <key>RunAtLoad</key>
+    <true/>
+    
+    <key>KeepAlive</key>
+    <dict>
+        <key>SuccessfulExit</key>
+        <false/>
+        <key>Crashed</key>
+        <true/>
+    </dict>
+    
+    <key>ProcessType</key>
+    <string>Background</string>
+    
+    <key>StandardOutPath</key>
+    <string>/Users/stephenbae/Projects/moe-bot/logs/ticker_monitor_stdout.log</string>
+    
+    <key>StandardErrorPath</key>
+    <string>/Users/stephenbae/Projects/moe-bot/logs/ticker_monitor_stderr.log</string>
+    
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/Users/stephenbae/Projects/moe-bot/.venv/bin:/usr/local/bin:/usr/bin:/bin</string>
+        <key>PYTHONPATH</key>
+        <string>/Users/stephenbae/Projects/moe-bot</string>
+    </dict>
+    
+    <key>ThrottleInterval</key>
+    <integer>10</integer>
+    
+    <key>ExitTimeOut</key>
+    <integer>30</integer>
+    
+    <key>Nice</key>
+    <integer>1</integer>
+    
+    <key>WatchPaths</key>
+    <array>
+        <string>/Users/stephenbae/Projects/moe-bot/trendspider_data/ticker_list.json</string>
+    </array>
+</dict>
+</plist> 
