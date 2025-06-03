@@ -54,33 +54,4 @@ cookie_string.txt
 *.swo
 
 # launchd plist files
-*.plist
-
-# Cache files
-cache/*.json
-!cache/.gitkeep
-
-# BasesForming JSON files
-basesforming_*.json 
-
-# JSON files section
-# Ignore various JSON data files
-*.json
-# Explicitly don't ignore configuration files and specific tracked JSONs
-!config.json
-!volumeleaders_config.json
-!package.json
-!package-lock.json
-!data/analyst_upgrades_*.json
-
-# Data directory should be tracked
-# Explicitly track analyst upgrades JSON files
-!data/
-!data/analyst_upgrades_*.json
-
-# TrendSpider data should be tracked
-!trendspider_data/
-!trendspider_data/*.json
-
-# Volume Leaders data files
-volume_leaders.json 
+*.plist 
