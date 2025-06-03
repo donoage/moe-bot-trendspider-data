@@ -1,27 +1,56 @@
 {
   "metadata": {
-    "source": "moe-bot",
-    "generated_at": "2025-06-02T19:26:00Z",
-    "description": "Support and resistance levels for drawing horizontal lines"
+    "source": "volumeleaders.com",
+    "generated_at": "2025-06-02T20:11:55Z",
+    "description": "Support and resistance levels derived from VolumeLeaders trade data",
+    "date_range": "2025-05-03 to 2025-06-02",
+    "criteria": "High volume trade levels with significant dollar amounts"
   },
   "levels": [
     {
       "symbol": "SPY",
-      "type": "support",
-      "price": 520.50,
-      "strength": "strong",
-      "timestamp": "2025-06-02T15:30:00Z",
+      "price": 594.20,
+      "timestamp": "2025-06-02T20:11:55Z",
       "volume_confirmation": true,
-      "touches": 3
+      "touches": 146,
+      "volume": 28500764,
+      "dollars": 16935201216
     },
     {
       "symbol": "SPY",
-      "type": "resistance",
-      "price": 525.75,
-      "strength": "medium",
-      "timestamp": "2025-06-02T14:15:00Z",
-      "volume_confirmation": false,
-      "touches": 2
+      "price": 590.50,
+      "timestamp": "2025-06-02T20:11:55Z",
+      "volume_confirmation": true,
+      "touches": 139,
+      "volume": 24280147,
+      "dollars": 14337608902
+    },
+    {
+      "symbol": "SPY",
+      "price": 586.60,
+      "timestamp": "2025-06-02T20:11:55Z",
+      "volume_confirmation": true,
+      "touches": 109,
+      "volume": 23878906,
+      "dollars": 14007413879
+    },
+    {
+      "symbol": "SPY",
+      "price": 583.80,
+      "timestamp": "2025-06-02T20:11:55Z",
+      "volume_confirmation": true,
+      "touches": 89,
+      "volume": 18439912,
+      "dollars": 10764869170
+    },
+    {
+      "symbol": "SPY",
+      "price": 581.50,
+      "timestamp": "2025-06-02T20:11:55Z",
+      "volume_confirmation": true,
+      "touches": 118,
+      "volume": 26531219,
+      "dollars": 15427615710
     },
     {
       "symbol": "QQQ",
