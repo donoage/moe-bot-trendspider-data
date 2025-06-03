@@ -85,16 +85,22 @@ try {
             if (symbolLevels.length > 0) {
                 // Process each level
                 symbolLevels.forEach(function(level, index) {
+                    // Use the same light blue color for all support/resistance levels
+                    let color = '#87CEEB'; // Light blue for all levels
+                    
                     // For SPY, we don't have type/strength fields, so we'll determine based on price analysis
                     // or treat all as key levels. For other symbols, use existing logic.
                     let levelType = 'key'; // default for SPY
                     let levelStrength = 'strong'; // default for SPY
-                    let color = '#FFFF00'; // default yellow for key levels
                     
-                    // If the level has type field (non-SPY symbols), use it
+                    // Legacy support: If the level has type field (old format), use it
                     if (level.type) {
                         levelType = level.type;
-                        color = level.type === 'support' ? supportColor : resistanceColor;
+                    }
+                    
+                    // Legacy support: If the level has level_type field (old format), use it
+                    if (level.level_type) {
+                        levelType = level.level_type;
                     }
                     
                     // If the level has strength field, use it
@@ -129,22 +135,40 @@ try {
                     // Paint the level with appropriate styling
                     const paintedLine = paint(levelLine, {
                         title: title,
-                        color: 'lightblue',
+                        color: color,
                         linewidth: width,
                         linestyle: 'dashed'
                     });
                     
                     // Add text label with volume and dollar information using paint_label_at_line
-                    if (showLabels && level.volume && level.dollars) {
-                        const sharesText = formatNumber(level.volume) + ' shares';
-                        const dollarsText = '$' + formatNumber(level.dollars);
-                        const labelText = sharesText + ' | ' + dollarsText;
+                    if (showLabels && (level.volume || level.dollars)) {
+                        let labelText = '';
                         
-                        // Use the correct syntax: paint_label_at_line(paintedLine, barIndex, labelText, options)
-                        paint_label_at_line(paintedLine, close.length - 1, labelText, {
-                            color: color,
-                            vertical_align: 'top'
-                        });
+                        if (level.volume && level.dollars) {
+                            // Both volume and dollars available - show shares, dollars, and rank
+                            const sharesText = formatNumber(level.volume) + ' shares';
+                            const dollarsText = '$' + formatNumber(level.dollars);
+                            const rankText = (level.rank && parseInt(level.rank) > 0) ? 'Rank ' + level.rank : '';
+                            labelText = sharesText + ' | ' + dollarsText + (rankText ? ' | ' + rankText : '');
+                        } else if (level.dollars) {
+                            // Only dollars available
+                            const dollarsText = '$' + formatNumber(level.dollars);
+                            const rankText = (level.rank && parseInt(level.rank) > 0) ? 'Rank ' + level.rank : '';
+                            labelText = dollarsText + (rankText ? ' | ' + rankText : '');
+                        } else if (level.volume) {
+                            // Only volume available
+                            const sharesText = formatNumber(level.volume) + ' shares';
+                            const rankText = (level.rank && parseInt(level.rank) > 0) ? 'Rank ' + level.rank : '';
+                            labelText = sharesText + (rankText ? ' | ' + rankText : '');
+                        }
+                        
+                        if (labelText) {
+                            // Use the exact same color as the line
+                            paint_label_at_line(paintedLine, close.length - 1, labelText, {
+                                color: color,
+                                vertical_align: 'top'
+                            });
+                        }
                     }
                     
                     paintedCount++;
@@ -180,46 +204,41 @@ try {
                             const topPrice = box.top_left.price;
                             const bottomPrice = box.bottom_right.price;
                             
-                            // Determine box color
-                            let boxColor = 'lightblue'; // Use light blue for all box lines
+                            // Use consistent purple color for all boxes
+                            let boxLineColor = '#9932CC'; // Purple for all box lines
+                            let fillColor = '#9932CC'; // Same purple for all box fills
                             
                             // Create horizontal lines for top and bottom of the box using horizontal_line()
                             const topLine = paint(horizontal_line(topPrice, boxStartIndex), {
                                 title: 'Box ' + box.box_number + ' Top: $' + topPrice.toFixed(2),
-                                color: boxColor,
-                                linewidth: 1,
-                                linestyle: 'dashed'
+                                color: boxLineColor,
+                                linewidth: 2,
+                                linestyle: 'solid' // Solid lines instead of dashed
                             });
                             
                             const bottomLine = paint(horizontal_line(bottomPrice, boxStartIndex), {
                                 title: 'Box ' + box.box_number + ' Bottom: $' + bottomPrice.toFixed(2),
-                                color: boxColor,
-                                linewidth: 1,
-                                linestyle: 'dashed'
+                                color: boxLineColor,
+                                linewidth: 2,
+                                linestyle: 'solid' // Solid lines instead of dashed
                             });
                             
                             // Fill the area between top and bottom lines to create the box
-                            // Use original box color for the fill but with reduced opacity
-                            let fillColor = 'blue'; // default blue
-                            if (box.color === 'green') fillColor = 'green';
-                            else if (box.color === 'orange') fillColor = 'orange';
-                            else if (box.color === 'red') fillColor = 'red';
-                            
-                            fill(topLine, bottomLine, fillColor, box.opacity || 0.3, 'Box ' + box.box_number);
+                            fill(topLine, bottomLine, fillColor, box.opacity || 0.2, 'Box ' + box.box_number);
                             
                             // Add label with box information
                             if (showLabels) {
-                                const volumeText = formatNumber(box.volume || 0) + ' shares';
+                                const volumeText = formatNumber(box.volume || 0) + ' vol';
                                 const valueText = '$' + formatNumber(box.value || 0);
                                 const tradesText = (box.trades || 0) + ' trades';
-                                const labelText = 'BOX ' + box.box_number + ': ' + volumeText + ' | ' + valueText + ' | ' + tradesText;
+                                const labelText = '[BOX ' + box.box_number + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
                                 
-                                // Place label at the middle of the box
+                                // Place label above the top of the box for better organization
                                 const labelBarIndex = Math.floor((boxStartIndex + boxEndIndex) / 2);
                                 
                                 paint_label_at_line(topLine, labelBarIndex, labelText, {
-                                    color: boxColor,
-                                    vertical_align: 'bottom'
+                                    color: boxLineColor, // Match the box line color (purple)
+                                    vertical_align: 'top' // Place label above the top line
                                 });
                             }
                             
