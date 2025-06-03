@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "volumeleaders.com",
-    "generated_at": "2025-06-02T22:49:06.000Z",
+    "generated_at": "2025-06-02T23:51:25.375423Z",
     "description": "Price boxes (sweep zones) from VolumeLeaders showing support/resistance zones with volume data",
     "date_range": "2025-05-03 to 2025-06-02",
     "criteria": "Sweep boxes from top trades per ticker over 30-day lookback period",
@@ -23,7 +23,7 @@
       },
       "color": "green",
       "opacity": 0.3,
-      "label": "AAPL BOX 1: Support/Resistance Zone",
+      "label": "BOX 1: Support/Resistance Zone",
       "volume": 94676,
       "value": 19741839,
       "trades": 1,
@@ -32,7 +32,7 @@
     {
       "symbol": "IWM",
       "type": "sweep_box",
-      "box_number": 1,
+      "box_number": 2,
       "top_left": {
         "timestamp": "2025-05-03T09:30:00Z",
         "price": 206.45
@@ -43,7 +43,7 @@
       },
       "color": "orange",
       "opacity": 0.3,
-      "label": "IWM BOX 1: Support/Resistance Zone",
+      "label": "BOX 2: Support/Resistance Zone",
       "volume": 756279,
       "value": 154113962,
       "trades": 6,
@@ -52,7 +52,7 @@
     {
       "symbol": "IWM",
       "type": "sweep_box",
-      "box_number": 2,
+      "box_number": 3,
       "top_left": {
         "timestamp": "2025-05-03T09:30:00Z",
         "price": 207.77
@@ -63,7 +63,7 @@
       },
       "color": "red",
       "opacity": 0.3,
-      "label": "IWM BOX 2: Support/Resistance Zone",
+      "label": "BOX 3: Support/Resistance Zone",
       "volume": 260541,
       "value": 54115686,
       "trades": 2,
@@ -72,7 +72,7 @@
     {
       "symbol": "IWM",
       "type": "sweep_box",
-      "box_number": 3,
+      "box_number": 4,
       "top_left": {
         "timestamp": "2025-05-03T09:30:00Z",
         "price": 199.99
@@ -83,7 +83,7 @@
       },
       "color": "purple",
       "opacity": 0.3,
-      "label": "IWM BOX 3: Support/Resistance Zone",
+      "label": "BOX 4: Support/Resistance Zone",
       "volume": 241090,
       "value": 48171963,
       "trades": 2,
@@ -92,7 +92,7 @@
     {
       "symbol": "MSFT",
       "type": "sweep_box",
-      "box_number": 1,
+      "box_number": 5,
       "top_left": {
         "timestamp": "2025-05-03T09:30:00Z",
         "price": 457.29
@@ -103,7 +103,7 @@
       },
       "color": "yellow",
       "opacity": 0.3,
-      "label": "MSFT BOX 1: Support/Resistance Zone",
+      "label": "BOX 5: Support/Resistance Zone",
       "volume": 289583,
       "value": 127912941,
       "trades": 6,
@@ -112,7 +112,7 @@
     {
       "symbol": "NVDA",
       "type": "sweep_box",
-      "box_number": 1,
+      "box_number": 6,
       "top_left": {
         "timestamp": "2025-05-03T09:30:00Z",
         "price": 135.03
@@ -123,7 +123,7 @@
       },
       "color": "cyan",
       "opacity": 0.3,
-      "label": "NVDA BOX 1: Support/Resistance Zone",
+      "label": "BOX 6: Support/Resistance Zone",
       "volume": 159207,
       "value": 21497721,
       "trades": 1,
@@ -132,7 +132,7 @@
     {
       "symbol": "QQQ",
       "type": "sweep_box",
-      "box_number": 1,
+      "box_number": 7,
       "top_left": {
         "timestamp": "2025-05-03T09:30:00Z",
         "price": 510.73
@@ -143,7 +143,7 @@
       },
       "color": "magenta",
       "opacity": 0.3,
-      "label": "QQQ BOX 1: Support/Resistance Zone",
+      "label": "BOX 7: Support/Resistance Zone",
       "volume": 921690,
       "value": 464648746,
       "trades": 5,
@@ -152,7 +152,7 @@
     {
       "symbol": "QQQ",
       "type": "sweep_box",
-      "box_number": 2,
+      "box_number": 8,
       "top_left": {
         "timestamp": "2025-05-03T09:30:00Z",
         "price": 519.52
@@ -163,7 +163,7 @@
       },
       "color": "blue",
       "opacity": 0.3,
-      "label": "QQQ BOX 2: Support/Resistance Zone",
+      "label": "BOX 8: Support/Resistance Zone",
       "volume": 679051,
       "value": 351718966,
       "trades": 5,
@@ -172,7 +172,7 @@
     {
       "symbol": "SPY",
       "type": "sweep_box",
-      "box_number": 1,
+      "box_number": 9,
       "top_left": {
         "timestamp": "2025-05-03T09:30:00Z",
         "price": 569.17
@@ -183,7 +183,7 @@
       },
       "color": "green",
       "opacity": 0.3,
-      "label": "SPY BOX 1: Support/Resistance Zone",
+      "label": "BOX 9: Support/Resistance Zone",
       "volume": 867649,
       "value": 490452606,
       "trades": 5,
@@ -192,7 +192,7 @@
     {
       "symbol": "SPY",
       "type": "sweep_box",
-      "box_number": 2,
+      "box_number": 10,
       "top_left": {
         "timestamp": "2025-05-03T09:30:00Z",
         "price": 580.25
@@ -203,7 +203,7 @@
       },
       "color": "orange",
       "opacity": 0.3,
-      "label": "SPY BOX 2: Support/Resistance Zone",
+      "label": "BOX 10: Support/Resistance Zone",
       "volume": 799863,
       "value": 463474898,
       "trades": 3,
@@ -212,7 +212,7 @@
     {
       "symbol": "SPY",
       "type": "sweep_box",
-      "box_number": 3,
+      "box_number": 11,
       "top_left": {
         "timestamp": "2025-05-03T09:30:00Z",
         "price": 561.5
@@ -223,7 +223,7 @@
       },
       "color": "red",
       "opacity": 0.3,
-      "label": "SPY BOX 3: Support/Resistance Zone",
+      "label": "BOX 11: Support/Resistance Zone",
       "volume": 618243,
       "value": 347014160,
       "trades": 2,
