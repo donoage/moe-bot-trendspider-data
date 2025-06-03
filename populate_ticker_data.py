@@ -11,10 +11,11 @@ import subprocess
 import sys
 import os
 import argparse
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import time
+from tqdm import tqdm
 
 def get_date_range(days_back=90):
     """Calculate date range for the past N days (excluding weekends)"""
@@ -51,7 +52,7 @@ def load_ticker_list():
 def get_cookies():
     """Load cookies from cookies.json file"""
     try:
-        cookies_file = Path(__file__).parent.parent / 'cookies.json'
+        cookies_file = Path("/Users/stephenbae/Projects/moe-bot/cookies.json")
         with open(cookies_file, 'r') as f:
             cookies_list = json.load(f)
             # Convert the list to a cookie string
@@ -194,8 +195,8 @@ def fetch_big_prints_for_ticker(ticker, start_date, end_date):
 
 def fetch_support_resistance_for_ticker(ticker, start_date, end_date):
     """Fetch support/resistance levels for a single ticker"""
-    script_path = Path(__file__).parent.parent / 'discord-bot-slash' / 'fetch_levels_for_slash.py'
-    python_path = Path(__file__).parent.parent / '.venv' / 'bin' / 'python3'
+    script_path = Path("/Users/stephenbae/Projects/moe-bot/discord-bot-slash/fetch_levels_for_slash.py")
+    python_path = Path("/Users/stephenbae/Projects/moe-bot/.venv/bin/python")
     
     # Change to the project root directory
     original_cwd = os.getcwd()
@@ -215,6 +216,7 @@ def fetch_support_resistance_for_ticker(ticker, start_date, end_date):
         
         result = subprocess.run(
             cmd,
+            cwd="/Users/stephenbae/Projects/moe-bot",
             capture_output=True,
             text=True,
             timeout=60  # 60 second timeout
@@ -290,8 +292,8 @@ def fetch_support_resistance_for_ticker(ticker, start_date, end_date):
 
 def fetch_price_boxes_for_ticker(ticker, start_date, end_date):
     """Fetch price boxes for a single ticker"""
-    script_path = Path(__file__).parent.parent / 'fetch_sweep_boxes.py'
-    python_path = Path(__file__).parent.parent / '.venv' / 'bin' / 'python3'
+    script_path = Path("/Users/stephenbae/Projects/moe-bot/fetch_sweep_boxes.py")
+    python_path = Path("/Users/stephenbae/Projects/moe-bot/.venv/bin/python")
     
     # Change to the project root directory
     original_cwd = os.getcwd()
@@ -313,6 +315,7 @@ def fetch_price_boxes_for_ticker(ticker, start_date, end_date):
         
         result = subprocess.run(
             cmd,
+            cwd="/Users/stephenbae/Projects/moe-bot",
             capture_output=True,
             text=True,
             timeout=120  # 2 minute timeout for sweep data
@@ -378,22 +381,19 @@ def fetch_price_boxes_for_ticker(ticker, start_date, end_date):
 
 def process_ticker(ticker, start_date, end_date, output_dir):
     """Process a single ticker and save its data"""
-    print(f"Processing {ticker}...")
+    # Remove verbose print statement since we have progress bar
+    # print(f"Processing {ticker}...")
     
     # Fetch all data types for this ticker
     prints = fetch_big_prints_for_ticker(ticker, start_date, end_date)
-    time.sleep(0.5)  # Rate limiting
-    
     levels = fetch_support_resistance_for_ticker(ticker, start_date, end_date)
-    time.sleep(0.5)  # Rate limiting
-    
     boxes = fetch_price_boxes_for_ticker(ticker, start_date, end_date)
     
-    # Create the ticker data structure
+    # Create ticker data structure
     ticker_data = {
         "metadata": {
             "ticker": ticker,
-            "generated_at": datetime.now().isoformat() + "Z",
+            "generated_at": datetime.now(timezone.utc).isoformat() + "Z",
             "date_range": f"{start_date} to {end_date}",
             "source": "volumeleaders.com",
             "script": "populate_ticker_data.py"
@@ -403,15 +403,18 @@ def process_ticker(ticker, start_date, end_date, output_dir):
         "boxes": boxes
     }
     
-    # Save to individual ticker file
+    # Save to file
     output_file = output_dir / f"{ticker}.json"
     try:
         with open(output_file, 'w') as f:
             json.dump(ticker_data, f, indent=2)
-        print(f"✓ Saved data for {ticker} ({len(prints)} prints, {len(levels)} levels, {len(boxes)} boxes)")
+        
+        # Only show summary instead of verbose output
+        # print(f"✓ Saved data for {ticker} ({len(prints)} prints, {len(levels)} levels, {len(boxes)} boxes)")
         return True
+        
     except Exception as e:
-        print(f"✗ Error saving data for {ticker}: {e}")
+        print(f"\n✗ Error saving {ticker}: {e}")
         return False
 
 def main():
@@ -436,15 +439,18 @@ def main():
         print(f"Processing specified tickers: {', '.join(tickers)}")
     else:
         tickers = load_ticker_list()
-        # The print statement is already handled in load_ticker_list()
+        print(f"Processing all base_tickers: {len(tickers)} tickers")
     
     if not tickers:
         print("No tickers to process")
         sys.exit(1)
     
-    # Process tickers with controlled concurrency
+    # Process tickers with controlled concurrency and progress bar
     successful = 0
     failed = 0
+    
+    print(f"\n🚀 Starting processing of {len(tickers)} tickers with {args.max_workers} workers...")
+    print(f"📊 Progress updates will be shown every 10 completed tickers...")
     
     with ThreadPoolExecutor(max_workers=args.max_workers) as executor:
         # Submit all tasks
@@ -453,20 +459,36 @@ def main():
             for ticker in tickers
         }
         
-        # Process completed tasks
-        for future in as_completed(future_to_ticker):
-            ticker = future_to_ticker[future]
-            try:
-                if future.result():
-                    successful += 1
-                else:
+        # Process completed tasks with progress bar and periodic updates
+        completed = 0
+        with tqdm(total=len(tickers), desc="Processing tickers", unit="ticker", 
+                  bar_format="{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}<{remaining}, {rate_fmt}] {postfix}",
+                  file=sys.stdout, dynamic_ncols=True) as pbar:
+            for future in as_completed(future_to_ticker):
+                ticker = future_to_ticker[future]
+                try:
+                    if future.result():
+                        successful += 1
+                        pbar.set_postfix({"✓": successful, "✗": failed, "current": ticker})
+                    else:
+                        failed += 1
+                        pbar.set_postfix({"✓": successful, "✗": failed, "current": ticker})
+                except Exception as e:
+                    print(f"\n✗ Exception processing {ticker}: {e}")
                     failed += 1
-            except Exception as e:
-                print(f"✗ Exception processing {ticker}: {e}")
-                failed += 1
+                    pbar.set_postfix({"✓": successful, "✗": failed, "current": ticker})
+                
+                completed += 1
+                pbar.update(1)
+                
+                # Print periodic progress updates for logs
+                if completed % 10 == 0 or completed == len(tickers):
+                    progress_pct = (completed / len(tickers)) * 100
+                    print(f"\n📈 Progress Update: {completed}/{len(tickers)} tickers processed ({progress_pct:.1f}%) - ✓{successful} ✗{failed}")
+                    sys.stdout.flush()  # Force output to appear in logs
     
-    print(f"\nCompleted: {successful} successful, {failed} failed")
-    print(f"Output directory: {output_dir}")
+    print(f"\n✅ Completed: {successful} successful, {failed} failed")
+    print(f"📁 Output directory: {output_dir}")
 
 if __name__ == "__main__":
     main() 

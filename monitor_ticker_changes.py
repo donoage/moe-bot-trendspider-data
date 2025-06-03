@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """
-Monitor ticker_list.json for changes and automatically repopulate TrendSpider data files.
+Monitor volumeleaders_config.json for changes and automatically update per-ticker TrendSpider data files.
 When changes are detected:
-1. Repopulate price_boxes.json and support_resistance_levels.json (incremental for new tickers)
-2. Copy files to /Users/stephenbae/Projects/moe-bot-trendspider-data/trendspider_data
-3. Commit and push changes to git repository
+1. Update individual ticker files using populate_ticker_data.py
+2. Commit and push changes to git repository
 """
 
 import os
@@ -31,16 +30,10 @@ logger = logging.getLogger(__name__)
 # Paths
 MAIN_PROJECT_DIR = "/Users/stephenbae/Projects/moe-bot"
 REPO_DIR = "/Users/stephenbae/Projects/moe-bot-trendspider-data"
-TICKER_LIST_FILE = f"{MAIN_PROJECT_DIR}/trendspider_data/ticker_list.json"
-MAIN_TRENDSPIDER_DIR = f"{MAIN_PROJECT_DIR}/trendspider_data"
-REPO_TRENDSPIDER_DIR = f"{REPO_DIR}/trendspider_data"
+CONFIG_FILE = f"{MAIN_PROJECT_DIR}/volumeleaders_config.json"
 TICKER_CACHE_FILE = f"{MAIN_PROJECT_DIR}/logs/ticker_cache.json"
-
-# Scripts to run for repopulation
-POPULATE_SCRIPTS = {
-    "support_resistance_levels.json": f"{MAIN_TRENDSPIDER_DIR}/populate_support_resistance.py",
-    "price_boxes.json": f"{MAIN_TRENDSPIDER_DIR}/populate_price_boxes.py"
-}
+POPULATE_SCRIPT = f"{REPO_DIR}/populate_ticker_data.py"
+PYTHON_PATH = f"{MAIN_PROJECT_DIR}/.venv/bin/python3"
 
 def get_file_hash(filepath):
     """Get MD5 hash of a file for change detection"""
@@ -53,16 +46,16 @@ def get_file_hash(filepath):
         logger.error(f"Error calculating hash for {filepath}: {e}")
         return None
 
-def load_ticker_list():
-    """Load current ticker list"""
+def load_base_tickers():
+    """Load current base_tickers from volumeleaders_config.json"""
     try:
-        with open(TICKER_LIST_FILE, 'r') as f:
+        with open(CONFIG_FILE, 'r') as f:
             data = json.load(f)
-            tickers = data.get('tickers', [])
-            logger.info(f"Current ticker list: {', '.join(tickers)}")
+            tickers = data.get('base_tickers', [])
+            logger.info(f"Current base_tickers count: {len(tickers)}")
             return tickers
     except Exception as e:
-        logger.error(f"Error loading ticker list: {e}")
+        logger.error(f"Error loading base_tickers: {e}")
         return []
 
 def load_ticker_cache():
@@ -70,7 +63,7 @@ def load_ticker_cache():
     try:
         with open(TICKER_CACHE_FILE, 'r') as f:
             data = json.load(f)
-            return data.get('tickers', [])
+            return data.get('base_tickers', [])
     except FileNotFoundError:
         logger.info("No ticker cache found, treating all tickers as new")
         return []
@@ -82,7 +75,7 @@ def save_ticker_cache(tickers):
     """Save current ticker list to cache"""
     try:
         cache_data = {
-            "tickers": tickers,
+            "base_tickers": tickers,
             "last_updated": datetime.now().isoformat()
         }
         with open(TICKER_CACHE_FILE, 'w') as f:
@@ -101,84 +94,81 @@ def detect_ticker_changes(current_tickers, cached_tickers):
     
     return new_tickers, removed_tickers
 
-def run_populate_script_for_tickers(script_path, data_file, tickers=None, full_refresh=False):
-    """Run a populate script for specific tickers or full refresh"""
+def update_ticker_data(tickers=None, full_refresh=False):
+    """Update ticker data using populate_ticker_data.py"""
     try:
         if full_refresh or not tickers:
-            logger.info(f"Running full populate script for {data_file}...")
-            cmd = [sys.executable, script_path]
+            logger.info(f"Running full ticker data update...")
+            cmd = [PYTHON_PATH, POPULATE_SCRIPT, '--max-workers', '5']
         else:
-            logger.info(f"Running incremental populate script for {data_file} with tickers: {', '.join(tickers)}")
-            cmd = [sys.executable, script_path, '--incremental'] + tickers
+            logger.info(f"Running incremental update for {len(tickers)} tickers: {', '.join(tickers[:10])}{'...' if len(tickers) > 10 else ''}")
+            cmd = [PYTHON_PATH, POPULATE_SCRIPT, '--tickers'] + tickers + ['--max-workers', '3']
         
-        # Change to the script directory
-        script_dir = os.path.dirname(script_path)
-        
-        # Run the script with proper environment
+        # Run the script with proper encoding handling
         result = subprocess.run(
             cmd,
-            cwd=script_dir,
+            cwd=REPO_DIR,
             capture_output=True,
             text=True,
-            timeout=300  # 5 minute timeout
+            encoding='utf-8',
+            errors='replace',  # Replace invalid UTF-8 characters instead of failing
+            timeout=1800  # 30 minute timeout for large updates
         )
         
         if result.returncode == 0:
-            logger.info(f"✅ Successfully populated {data_file}")
-            logger.debug(f"Script output: {result.stdout}")
+            logger.info(f"✅ Successfully updated ticker data")
+            # Only log first few lines of output to avoid encoding issues in logs
+            if result.stdout:
+                output_lines = result.stdout.split('\n')
+                for line in output_lines[-10:]:  # Show last 10 lines
+                    if line.strip():
+                        logger.debug(f"Script output: {line.strip()}")
             return True
         else:
-            logger.error(f"❌ Failed to populate {data_file}")
-            logger.error(f"Error output: {result.stderr}")
+            logger.error(f"❌ Failed to update ticker data")
+            if result.stderr:
+                # Handle stderr with encoding safety
+                stderr_lines = result.stderr.split('\n')
+                for line in stderr_lines[-5:]:  # Show last 5 error lines
+                    if line.strip():
+                        logger.error(f"Error output: {line.strip()}")
             return False
             
     except subprocess.TimeoutExpired:
-        logger.error(f"❌ Timeout running populate script for {data_file}")
+        logger.error(f"❌ Timeout updating ticker data")
+        return False
+    except UnicodeDecodeError as e:
+        logger.error(f"❌ Encoding error updating ticker data: {e}")
         return False
     except Exception as e:
-        logger.error(f"❌ Error running populate script for {data_file}: {e}")
+        logger.error(f"❌ Error updating ticker data: {e}")
         return False
 
-def copy_files_to_repo():
-    """Copy JSON files from main project to repository"""
-    files_to_copy = [
-        "ticker_list.json",
-        "support_resistance_levels.json", 
-        "price_boxes.json"
-    ]
+def cleanup_removed_tickers(removed_tickers):
+    """Remove ticker files for tickers that are no longer in the list"""
+    ticker_data_dir = Path(REPO_DIR) / "ticker_data"
+    removed_files = []
     
-    copied_files = []
+    for ticker in removed_tickers:
+        ticker_file = ticker_data_dir / f"{ticker}.json"
+        if ticker_file.exists():
+            try:
+                ticker_file.unlink()
+                logger.info(f"🗑️ Removed ticker file: {ticker}.json")
+                removed_files.append(f"ticker_data/{ticker}.json")
+            except Exception as e:
+                logger.error(f"❌ Error removing {ticker}.json: {e}")
     
-    for filename in files_to_copy:
-        src_file = f"{MAIN_TRENDSPIDER_DIR}/{filename}"
-        dst_file = f"{REPO_TRENDSPIDER_DIR}/{filename}"
-        
-        try:
-            if os.path.exists(src_file):
-                # Ensure destination directory exists
-                os.makedirs(os.path.dirname(dst_file), exist_ok=True)
-                
-                # Copy file
-                subprocess.run(['cp', src_file, dst_file], check=True)
-                logger.info(f"📁 Copied {filename} to repository")
-                copied_files.append(filename)
-            else:
-                logger.warning(f"⚠️ Source file not found: {src_file}")
-                
-        except Exception as e:
-            logger.error(f"❌ Error copying {filename}: {e}")
-    
-    return copied_files
+    return removed_files
 
-def commit_and_push_changes(copied_files, new_tickers=None, removed_tickers=None, full_refresh=False):
+def commit_and_push_changes(new_tickers=None, removed_tickers=None, full_refresh=False):
     """Commit and push changes to git repository"""
     try:
         # Change to repository directory
         os.chdir(REPO_DIR)
         
-        # Add the copied files
-        for filename in copied_files:
-            subprocess.run(['git', 'add', f'trendspider_data/{filename}'], check=True)
+        # Add all ticker data files
+        subprocess.run(['git', 'add', 'ticker_data/'], check=True)
         
         # Check if there are any changes to commit
         result = subprocess.run(['git', 'diff', '--cached', '--quiet'], capture_output=True)
@@ -186,209 +176,176 @@ def commit_and_push_changes(copied_files, new_tickers=None, removed_tickers=None
         if result.returncode != 0:  # There are changes to commit
             # Create commit message
             timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-            tickers = load_ticker_list()
+            current_tickers = load_base_tickers()
             
             if full_refresh:
-                commit_msg = f"Weekly refresh: TrendSpider data - {len(tickers)} tickers ({timestamp})"
+                commit_msg = f"Weekly refresh: TrendSpider per-ticker data - {len(current_tickers)} tickers ({timestamp})"
             elif new_tickers or removed_tickers:
                 changes = []
                 if new_tickers:
-                    changes.append(f"Added: {', '.join(new_tickers)}")
+                    changes.append(f"Added: {', '.join(new_tickers[:5])}{'...' if len(new_tickers) > 5 else ''}")
                 if removed_tickers:
-                    changes.append(f"Removed: {', '.join(removed_tickers)}")
-                commit_msg = f"Incremental update: {' | '.join(changes)} - {len(tickers)} total tickers ({timestamp})"
+                    changes.append(f"Removed: {', '.join(removed_tickers[:5])}{'...' if len(removed_tickers) > 5 else ''}")
+                commit_msg = f"Incremental update: {' | '.join(changes)} - {len(current_tickers)} total tickers ({timestamp})"
             else:
-                commit_msg = f"Auto-update TrendSpider data - {len(tickers)} tickers ({timestamp})"
+                commit_msg = f"TrendSpider data update - {len(current_tickers)} tickers ({timestamp})"
             
             # Commit changes
             subprocess.run(['git', 'commit', '-m', commit_msg], check=True)
             logger.info(f"📝 Committed changes: {commit_msg}")
             
             # Push to remote
-            subprocess.run(['git', 'push', 'origin', 'main'], check=True)
-            logger.info("🚀 Pushed changes to repository")
+            subprocess.run(['git', 'push'], check=True)
+            logger.info(f"🚀 Pushed changes to remote repository")
             
             return True
         else:
-            logger.info("ℹ️ No changes to commit")
+            logger.info("📋 No changes to commit")
             return False
             
     except subprocess.CalledProcessError as e:
         logger.error(f"❌ Git operation failed: {e}")
         return False
     except Exception as e:
-        logger.error(f"❌ Error during git operations: {e}")
+        logger.error(f"❌ Error committing changes: {e}")
         return False
 
-def repopulate_data_files(new_tickers=None, full_refresh=False):
-    """Repopulate TrendSpider data files (incremental or full)"""
-    if full_refresh:
-        logger.info("🔄 Starting full data repopulation (weekly refresh)...")
-    elif new_tickers:
-        logger.info(f"🔄 Starting incremental data repopulation for new tickers: {', '.join(new_tickers)}")
-    else:
-        logger.info("🔄 Starting data repopulation...")
+def process_ticker_changes(new_tickers=None, removed_tickers=None, full_refresh=False):
+    """Process ticker changes by updating data and committing"""
+    success = True
     
-    success_count = 0
-    total_scripts = len(POPULATE_SCRIPTS)
+    # Remove files for removed tickers first
+    if removed_tickers:
+        cleanup_removed_tickers(removed_tickers)
     
-    for data_file, script_path in POPULATE_SCRIPTS.items():
-        if os.path.exists(script_path):
-            if run_populate_script_for_tickers(script_path, data_file, new_tickers, full_refresh):
-                success_count += 1
-        else:
-            logger.error(f"❌ Populate script not found: {script_path}")
+    # Update ticker data
+    if new_tickers or full_refresh:
+        if not update_ticker_data(new_tickers, full_refresh):
+            success = False
     
-    if success_count == total_scripts:
-        logger.info(f"✅ Successfully repopulated all {total_scripts} data files")
-        return True
-    else:
-        logger.warning(f"⚠️ Only {success_count}/{total_scripts} data files were successfully repopulated")
-        return success_count > 0
+    # Commit and push changes
+    if success:
+        commit_and_push_changes(new_tickers, removed_tickers, full_refresh)
+    
+    return success
 
 def monitor_ticker_changes():
     """Main monitoring loop"""
-    logger.info("🎯 Starting TrendSpider ticker monitoring...")
-    logger.info(f"📂 Monitoring file: {TICKER_LIST_FILE}")
-    logger.info(f"📁 Repository directory: {REPO_DIR}")
-    logger.info("⏰ Check interval: 10 minutes")
+    logger.info("🔍 Starting ticker change monitoring...")
     
     last_hash = None
-    last_tickers = None
     
     while True:
         try:
-            # Check if ticker list file exists
-            if not os.path.exists(TICKER_LIST_FILE):
-                logger.warning(f"⚠️ Ticker list file not found: {TICKER_LIST_FILE}")
-                time.sleep(600)  # Wait 10 minutes
+            # Check if config file has changed
+            current_hash = get_file_hash(CONFIG_FILE)
+            
+            if current_hash is None:
+                logger.error(f"❌ Cannot read config file: {CONFIG_FILE}")
+                time.sleep(60)
                 continue
             
-            # Calculate current hash
-            current_hash = get_file_hash(TICKER_LIST_FILE)
-            current_tickers = load_ticker_list()
+            if last_hash is None:
+                last_hash = current_hash
+                logger.info("📋 Initial config file hash recorded")
+                # Load initial cache
+                current_tickers = load_base_tickers()
+                save_ticker_cache(current_tickers)
+                time.sleep(30)
+                continue
             
-            # Check for changes
-            if current_hash != last_hash and last_hash is not None:
-                logger.info("🔍 Ticker list change detected!")
-                logger.info(f"Previous tickers: {last_tickers}")
-                logger.info(f"Current tickers: {current_tickers}")
+            if current_hash != last_hash:
+                logger.info("📝 Config file changed, processing updates...")
                 
-                # Detect what changed
+                # Load current and cached tickers
+                current_tickers = load_base_tickers()
                 cached_tickers = load_ticker_cache()
+                
+                # Detect changes
                 new_tickers, removed_tickers = detect_ticker_changes(current_tickers, cached_tickers)
                 
-                if new_tickers:
-                    logger.info(f"📈 New tickers detected: {', '.join(new_tickers)}")
-                if removed_tickers:
-                    logger.info(f"📉 Removed tickers: {', '.join(removed_tickers)}")
-                
-                # Repopulate data files (incremental for new tickers only)
-                if repopulate_data_files(new_tickers=new_tickers if new_tickers else None):
-                    # Update ticker cache
-                    save_ticker_cache(current_tickers)
+                if new_tickers or removed_tickers:
+                    logger.info(f"📊 Changes detected - New: {len(new_tickers)}, Removed: {len(removed_tickers)}")
                     
-                    # Copy files to repository
-                    copied_files = copy_files_to_repo()
-                    
-                    if copied_files:
-                        # Commit and push changes
-                        if commit_and_push_changes(copied_files, new_tickers, removed_tickers):
-                            logger.info("🎉 Successfully completed ticker change processing!")
-                        else:
-                            logger.warning("⚠️ Data repopulated and copied, but git operations failed")
+                    # Process changes
+                    if process_ticker_changes(new_tickers, removed_tickers):
+                        # Update cache with new ticker list
+                        save_ticker_cache(current_tickers)
+                        logger.info("✅ Successfully processed ticker changes")
                     else:
-                        logger.warning("⚠️ Data repopulated but file copying failed")
+                        logger.error("❌ Failed to process ticker changes")
                 else:
-                    logger.error("❌ Data repopulation failed, skipping git operations")
+                    logger.info("📋 Config file changed but no ticker changes detected")
+                    save_ticker_cache(current_tickers)
+                
+                last_hash = current_hash
             
-            # Update tracking variables
-            last_hash = current_hash
-            last_tickers = current_tickers
-            
-            # Wait 10 minutes before next check
-            logger.debug("💤 Sleeping for 10 minutes until next check...")
-            time.sleep(600)
+            time.sleep(30)  # Check every 30 seconds
             
         except KeyboardInterrupt:
             logger.info("🛑 Monitoring stopped by user")
             break
         except Exception as e:
-            logger.error(f"❌ Unexpected error in monitoring loop: {e}")
-            time.sleep(600)  # Wait 10 minutes on errors
+            logger.error(f"❌ Error in monitoring loop: {e}")
+            time.sleep(60)  # Wait longer on error
 
 def run_once():
-    """Run a single repopulation cycle (triggered by file change or scheduled)"""
-    # Check if this is likely a scheduled run vs file change trigger
-    # We'll use a more reliable method: check if there are actual ticker changes
-    current_tickers = load_ticker_list()
-    cached_tickers = load_ticker_cache()
-    new_tickers, removed_tickers = detect_ticker_changes(current_tickers, cached_tickers)
+    """Run ticker change detection once and exit"""
+    logger.info("🔄 Running one-time ticker change check...")
     
-    # Determine if this is a scheduled run or file change
-    is_scheduled_run = False
-    
-    # If no ticker changes but the job is running, it's likely a scheduled run
-    if not new_tickers and not removed_tickers and cached_tickers:
-        is_scheduled_run = True
-        logger.info("🗓️ TrendSpider ticker monitor - Weekly scheduled refresh")
-        logger.info("📅 Running weekly data refresh (Sunday 9 PM)")
-    elif new_tickers or removed_tickers:
-        logger.info("🔄 Ticker list change detected - starting incremental update...")
-        if new_tickers:
-            logger.info(f"📈 New tickers detected: {', '.join(new_tickers)}")
-        if removed_tickers:
-            logger.info(f"📉 Removed tickers: {', '.join(removed_tickers)}")
-    else:
-        # First run (no cache) - treat as full refresh
-        logger.info("🔄 First run detected - performing full data population...")
-        is_scheduled_run = True
-    
-    logger.info(f"Current ticker list ({len(current_tickers)} tickers): {', '.join(current_tickers)}")
-    
-    if is_scheduled_run:
-        # Weekly refresh or first run - repopulate everything
-        if repopulate_data_files(full_refresh=True):
-            save_ticker_cache(current_tickers)
-            copied_files = copy_files_to_repo()
-            if copied_files:
-                if commit_and_push_changes(copied_files, full_refresh=True):
-                    logger.info("🎉 Successfully completed weekly refresh!")
-                else:
-                    logger.warning("⚠️ Data repopulated and copied, but git operations failed")
-            else:
-                logger.warning("⚠️ Data repopulated but file copying failed")
-        else:
-            logger.error("❌ Data repopulation failed, skipping git operations")
-    else:
-        # File change trigger - incremental update for new tickers only
-        if new_tickers:
-            if repopulate_data_files(new_tickers=new_tickers):
+    try:
+        # Load current and cached tickers
+        current_tickers = load_base_tickers()
+        cached_tickers = load_ticker_cache()
+        
+        # Detect changes
+        new_tickers, removed_tickers = detect_ticker_changes(current_tickers, cached_tickers)
+        
+        if new_tickers or removed_tickers:
+            logger.info(f"📊 Changes detected - New: {len(new_tickers)}, Removed: {len(removed_tickers)}")
+            
+            # Process changes
+            if process_ticker_changes(new_tickers, removed_tickers):
+                # Update cache with new ticker list
                 save_ticker_cache(current_tickers)
-                copied_files = copy_files_to_repo()
-                if copied_files:
-                    if commit_and_push_changes(copied_files, new_tickers, removed_tickers):
-                        logger.info("🎉 Successfully completed incremental update!")
-                    else:
-                        logger.warning("⚠️ Data repopulated and copied, but git operations failed")
-                else:
-                    logger.warning("⚠️ Data repopulated but file copying failed")
+                logger.info("✅ Successfully processed ticker changes")
+                return True
             else:
-                logger.error("❌ Data repopulation failed, skipping git operations")
+                logger.error("❌ Failed to process ticker changes")
+                return False
         else:
-            # Only removals, just update cache
-            logger.info("ℹ️ Only ticker removals detected, updating cache")
+            logger.info("📋 No ticker changes detected")
+            save_ticker_cache(current_tickers)  # Update cache timestamp
+            return True
+            
+    except Exception as e:
+        logger.error(f"❌ Error in one-time check: {e}")
+        return False
+
+def main():
+    """Main entry point"""
+    import argparse
+    
+    parser = argparse.ArgumentParser(description='Monitor volumeleaders_config.json for ticker changes')
+    parser.add_argument('--once', action='store_true', help='Run once and exit')
+    parser.add_argument('--full-refresh', action='store_true', help='Force full refresh of all tickers')
+    
+    args = parser.parse_args()
+    
+    if args.full_refresh:
+        logger.info("🔄 Running full refresh of all tickers...")
+        current_tickers = load_base_tickers()
+        if process_ticker_changes(full_refresh=True):
             save_ticker_cache(current_tickers)
+            logger.info("✅ Full refresh completed successfully")
+        else:
+            logger.error("❌ Full refresh failed")
+            sys.exit(1)
+    elif args.once:
+        if not run_once():
+            sys.exit(1)
+    else:
+        monitor_ticker_changes()
 
 if __name__ == "__main__":
-    # Create logs directory if it doesn't exist
-    os.makedirs("/Users/stephenbae/Projects/moe-bot/logs", exist_ok=True)
-    
-    # Check command line arguments
-    if len(sys.argv) > 1 and sys.argv[1] == "--once":
-        logger.info("🎯 TrendSpider ticker monitor triggered by file change")
-        run_once()
-    else:
-        logger.info("🎯 Starting TrendSpider ticker monitoring in continuous mode...")
-        logger.info("⚠️ Note: For event-driven execution, use --once flag")
-        monitor_ticker_changes() 
+    main() 

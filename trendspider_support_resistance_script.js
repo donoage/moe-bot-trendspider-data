@@ -121,8 +121,12 @@ try {
                     }
                     
                     if (labelText) {
+                        // Position label further to the right within the visible chart area
+                        const rightOffset = Math.max(20, Math.floor(close.length * 0.05)); // 5% from right edge or minimum 20 bars
+                        const labelBarIndex = close.length - rightOffset + (index * 2); // Stagger to the right
+                        
                         // Use the exact same color as the line
-                        paint_label_at_line(paintedLine, close.length - 1, labelText, {
+                        paint_label_at_line(paintedLine, labelBarIndex, labelText, {
                             color: color,
                             vertical_align: 'top'
                         });
@@ -185,8 +189,9 @@ try {
                             const dateText = box.date_range || '';
                             const labelText = '[BOX ' + box.box_number + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText + (dateText ? ' • ' + dateText : '');
                             
-                            // Place label above the top of the box for better organization
-                            const labelBarIndex = Math.floor((boxStartIndex + boxEndIndex) / 2);
+                            // Position label further to the right within the visible chart area
+                            const rightOffset = Math.max(20, Math.floor(chartLength * 0.05)); // 5% from right edge or minimum 20 bars
+                            const labelBarIndex = chartLength - rightOffset + (index * 3); // Stagger box labels with more spacing
                             
                             paint_label_at_line(topLine, labelBarIndex, labelText, {
                                 color: boxLineColor, // Match the box line color (purple)
@@ -252,9 +257,13 @@ try {
                     }
                     
                     if (labelText) {
-                        paint_label_at_line(paintedLine, close.length - 1, labelText, {
+                        // Position label further to the right within the visible chart area
+                        const rightOffset = Math.max(20, Math.floor(close.length * 0.05)); // 5% from right edge or minimum 20 bars
+                        const labelBarIndex = close.length - rightOffset + (index * 2); // Stagger to the right
+                        
+                        paint_label_at_line(paintedLine, labelBarIndex, labelText, {
                             color: printColor,
-                            vertical_align: 'bottom' // Place print labels at bottom to avoid overlap
+                            vertical_align: 'top' // Place print labels at bottom to avoid overlap
                         });
                     }
                 }
