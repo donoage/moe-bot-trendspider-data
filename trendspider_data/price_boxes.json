@@ -1,11 +1,47 @@
 {
   "metadata": {
     "source": "volumeleaders.com",
-    "generated_at": "2025-06-03T09:35:57.582574Z",
+    "generated_at": "2025-06-03T15:14:47.562472Z",
     "description": "Price boxes (sweep zones) from VolumeLeaders showing support/resistance zones with volume data",
     "date_range": "2025-05-04 to 2025-06-03",
     "criteria": "Sweep boxes from top trades per ticker over 30-day lookback period with per-ticker box numbering",
-    "script": "populate_price_boxes.py"
+    "script": "populate_price_boxes.py",
+    "last_incremental_update": {
+      "tickers": [
+        "LRN",
+        "TSLA",
+        "METU",
+        "SMCI",
+        "AAPL",
+        "GOOGL",
+        "MSFL",
+        "LLY",
+        "QQQ",
+        "LMT",
+        "MSFU",
+        "MSFT",
+        "IWM",
+        "NVDA",
+        "MRK",
+        "NFLX",
+        "SPY",
+        "MDB",
+        "UBER",
+        "KVYO",
+        "LUNR",
+        "LYFT",
+        "MRVL",
+        "LEU",
+        "METD",
+        "LMND",
+        "AMD",
+        "MARA",
+        "META",
+        "LOAR",
+        "AMZN"
+      ],
+      "updated_at": "2025-06-03T15:14:47.562570Z"
+    }
   },
   "price_boxes": [
     {
@@ -29,44 +65,84 @@
       "date_range": "2025-05-12"
     },
     {
-      "symbol": "AMZN",
+      "symbol": "LLY",
       "type": "sweep_box",
       "box_number": 1,
       "top_left": {
         "timestamp": "2025-05-04T09:30:00Z",
-        "price": 206.32
+        "price": 721.0
       },
       "bottom_right": {
         "timestamp": "2025-06-03T16:00:00Z",
-        "price": 203.9
+        "price": 721.0
       },
       "color": "green",
       "opacity": 0.3,
-      "label": "BOX 1: 1.6M shares | $332.6M | 11 trades",
-      "volume": 1626033,
-      "value": 332565633,
-      "trades": 11,
-      "date_range": "2025-05-15 to 2025-06-02"
+      "label": "BOX 1: 45.6K shares | $32.9M | 1 trades",
+      "volume": 45574,
+      "value": 32858854,
+      "trades": 1,
+      "date_range": "2025-05-14"
     },
     {
-      "symbol": "AMZN",
+      "symbol": "QQQ",
+      "type": "sweep_box",
+      "box_number": 1,
+      "top_left": {
+        "timestamp": "2025-05-04T09:30:00Z",
+        "price": 510.73
+      },
+      "bottom_right": {
+        "timestamp": "2025-06-03T16:00:00Z",
+        "price": 489.19
+      },
+      "color": "green",
+      "opacity": 0.3,
+      "label": "BOX 1: 921.7K shares | $464.6M | 5 trades",
+      "volume": 921690,
+      "value": 464648746,
+      "trades": 5,
+      "date_range": "2025-05-08 to 2025-05-23"
+    },
+    {
+      "symbol": "QQQ",
       "type": "sweep_box",
       "box_number": 2,
       "top_left": {
         "timestamp": "2025-05-04T09:30:00Z",
-        "price": 210.0
+        "price": 519.52
       },
       "bottom_right": {
         "timestamp": "2025-06-03T16:00:00Z",
-        "price": 208.85
+        "price": 516.92
       },
       "color": "orange",
       "opacity": 0.3,
-      "label": "BOX 2: 423.8K shares | $88.9M | 3 trades",
-      "volume": 423800,
-      "value": 88880000,
-      "trades": 3,
-      "date_range": "2025-05-14"
+      "label": "BOX 2: 679.1K shares | $351.7M | 5 trades",
+      "volume": 679051,
+      "value": 351718966,
+      "trades": 5,
+      "date_range": "2025-05-14 to 2025-05-30"
+    },
+    {
+      "symbol": "MSFT",
+      "type": "sweep_box",
+      "box_number": 1,
+      "top_left": {
+        "timestamp": "2025-05-04T09:30:00Z",
+        "price": 457.29
+      },
+      "bottom_right": {
+        "timestamp": "2025-06-03T16:00:00Z",
+        "price": 434.1
+      },
+      "color": "green",
+      "opacity": 0.3,
+      "label": "BOX 1: 289.6K shares | $127.9M | 6 trades",
+      "volume": 289583,
+      "value": 127912941,
+      "trades": 6,
+      "date_range": "2025-05-05 to 2025-05-27"
     },
     {
       "symbol": "IWM",
@@ -129,66 +205,6 @@
       "date_range": "2025-05-05 to 2025-05-08"
     },
     {
-      "symbol": "LLY",
-      "type": "sweep_box",
-      "box_number": 1,
-      "top_left": {
-        "timestamp": "2025-05-04T09:30:00Z",
-        "price": 721.0
-      },
-      "bottom_right": {
-        "timestamp": "2025-06-03T16:00:00Z",
-        "price": 721.0
-      },
-      "color": "green",
-      "opacity": 0.3,
-      "label": "BOX 1: 45.6K shares | $32.9M | 1 trades",
-      "volume": 45574,
-      "value": 32858854,
-      "trades": 1,
-      "date_range": "2025-05-14"
-    },
-    {
-      "symbol": "MRVL",
-      "type": "sweep_box",
-      "box_number": 1,
-      "top_left": {
-        "timestamp": "2025-05-04T09:30:00Z",
-        "price": 64.1
-      },
-      "bottom_right": {
-        "timestamp": "2025-06-03T16:00:00Z",
-        "price": 63.75
-      },
-      "color": "green",
-      "opacity": 0.3,
-      "label": "BOX 1: 2.8M shares | $181.5M | 2 trades",
-      "volume": 2844049,
-      "value": 181522861,
-      "trades": 2,
-      "date_range": "2025-05-16"
-    },
-    {
-      "symbol": "MSFT",
-      "type": "sweep_box",
-      "box_number": 1,
-      "top_left": {
-        "timestamp": "2025-05-04T09:30:00Z",
-        "price": 457.29
-      },
-      "bottom_right": {
-        "timestamp": "2025-06-03T16:00:00Z",
-        "price": 434.1
-      },
-      "color": "green",
-      "opacity": 0.3,
-      "label": "BOX 1: 289.6K shares | $127.9M | 6 trades",
-      "volume": 289583,
-      "value": 127912941,
-      "trades": 6,
-      "date_range": "2025-05-05 to 2025-05-27"
-    },
-    {
       "symbol": "NVDA",
       "type": "sweep_box",
       "box_number": 1,
@@ -209,49 +225,29 @@
       "date_range": "2025-05-19"
     },
     {
-      "symbol": "QQQ",
+      "symbol": "SPY",
       "type": "sweep_box",
       "box_number": 1,
       "top_left": {
         "timestamp": "2025-05-04T09:30:00Z",
-        "price": 510.73
+        "price": 593.04
       },
       "bottom_right": {
         "timestamp": "2025-06-03T16:00:00Z",
-        "price": 489.19
+        "price": 578.9
       },
       "color": "green",
       "opacity": 0.3,
-      "label": "BOX 1: 921.7K shares | $464.6M | 5 trades",
-      "volume": 921690,
-      "value": 464648746,
-      "trades": 5,
-      "date_range": "2025-05-08 to 2025-05-23"
-    },
-    {
-      "symbol": "QQQ",
-      "type": "sweep_box",
-      "box_number": 2,
-      "top_left": {
-        "timestamp": "2025-05-04T09:30:00Z",
-        "price": 519.52
-      },
-      "bottom_right": {
-        "timestamp": "2025-06-03T16:00:00Z",
-        "price": 516.92
-      },
-      "color": "orange",
-      "opacity": 0.3,
-      "label": "BOX 2: 679.1K shares | $351.7M | 5 trades",
-      "volume": 679051,
-      "value": 351718966,
-      "trades": 5,
-      "date_range": "2025-05-14 to 2025-05-30"
+      "label": "BOX 1: 937.0K shares | $544.8M | 4 trades",
+      "volume": 936967,
+      "value": 544783054,
+      "trades": 4,
+      "date_range": "2025-05-12 to 2025-06-03"
     },
     {
       "symbol": "SPY",
       "type": "sweep_box",
-      "box_number": 1,
+      "box_number": 2,
       "top_left": {
         "timestamp": "2025-05-04T09:30:00Z",
         "price": 569.17
@@ -260,33 +256,13 @@
         "timestamp": "2025-06-03T16:00:00Z",
         "price": 563.88
       },
-      "color": "green",
-      "opacity": 0.3,
-      "label": "BOX 1: 867.6K shares | $490.5M | 5 trades",
-      "volume": 867649,
-      "value": 490452606,
-      "trades": 5,
-      "date_range": "2025-05-05 to 2025-05-09"
-    },
-    {
-      "symbol": "SPY",
-      "type": "sweep_box",
-      "box_number": 2,
-      "top_left": {
-        "timestamp": "2025-05-04T09:30:00Z",
-        "price": 580.25
-      },
-      "bottom_right": {
-        "timestamp": "2025-06-03T16:00:00Z",
-        "price": 578.9
-      },
       "color": "orange",
       "opacity": 0.3,
-      "label": "BOX 2: 799.9K shares | $463.5M | 3 trades",
-      "volume": 799863,
-      "value": 463474898,
-      "trades": 3,
-      "date_range": "2025-05-12 to 2025-05-23"
+      "label": "BOX 2: 732.6K shares | $414.2M | 4 trades",
+      "volume": 732629,
+      "value": 414209513,
+      "trades": 4,
+      "date_range": "2025-05-05 to 2025-05-09"
     },
     {
       "symbol": "SPY",
@@ -347,6 +323,66 @@
       "value": 90160069,
       "trades": 4,
       "date_range": "2025-05-07 to 2025-05-08"
+    },
+    {
+      "symbol": "MRVL",
+      "type": "sweep_box",
+      "box_number": 1,
+      "top_left": {
+        "timestamp": "2025-05-04T09:30:00Z",
+        "price": 64.1
+      },
+      "bottom_right": {
+        "timestamp": "2025-06-03T16:00:00Z",
+        "price": 63.75
+      },
+      "color": "green",
+      "opacity": 0.3,
+      "label": "BOX 1: 2.8M shares | $181.5M | 2 trades",
+      "volume": 2844049,
+      "value": 181522861,
+      "trades": 2,
+      "date_range": "2025-05-16"
+    },
+    {
+      "symbol": "AMZN",
+      "type": "sweep_box",
+      "box_number": 1,
+      "top_left": {
+        "timestamp": "2025-05-04T09:30:00Z",
+        "price": 206.32
+      },
+      "bottom_right": {
+        "timestamp": "2025-06-03T16:00:00Z",
+        "price": 203.9
+      },
+      "color": "green",
+      "opacity": 0.3,
+      "label": "BOX 1: 1.6M shares | $332.6M | 11 trades",
+      "volume": 1626033,
+      "value": 332565633,
+      "trades": 11,
+      "date_range": "2025-05-15 to 2025-06-02"
+    },
+    {
+      "symbol": "AMZN",
+      "type": "sweep_box",
+      "box_number": 2,
+      "top_left": {
+        "timestamp": "2025-05-04T09:30:00Z",
+        "price": 210.0
+      },
+      "bottom_right": {
+        "timestamp": "2025-06-03T16:00:00Z",
+        "price": 208.85
+      },
+      "color": "orange",
+      "opacity": 0.3,
+      "label": "BOX 2: 423.8K shares | $88.9M | 3 trades",
+      "volume": 423800,
+      "value": 88880000,
+      "trades": 3,
+      "date_range": "2025-05-14"
     }
   ]
 }
