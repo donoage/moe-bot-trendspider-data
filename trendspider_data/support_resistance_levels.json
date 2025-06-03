@@ -1,45 +1,16 @@
 {
   "metadata": {
     "source": "volumeleaders.com",
-    "generated_at": "2025-06-03T00:54:40.981912Z",
+    "generated_at": "2025-06-03T00:57:29.058155Z",
     "description": "Support and resistance levels derived from VolumeLeaders trade data with volume and dollar values",
     "date_range": "2025-03-05 to 2025-06-03",
     "criteria": "Top 5 trade levels per ticker over 90-day lookback period",
     "script": "populate_support_resistance.py",
     "last_incremental_update": {
       "tickers": [
-        "LUNR",
-        "MSFU",
-        "UBER",
-        "MSFT",
-        "TSLA",
-        "SMCI",
-        "LYFT",
-        "MARA",
-        "MDB",
-        "LEU",
-        "METU",
-        "LMT",
-        "MSFL",
-        "AAPL",
-        "LOAR",
-        "IWM",
-        "SPY",
-        "MRK",
-        "AMZN",
-        "LMND",
-        "AMD",
-        "LLY",
-        "META",
-        "MRVL",
-        "QQQ",
-        "KVYO",
-        "NVDA",
-        "METD",
-        "LRN",
-        "GOOGL"
+        "NFLX"
       ],
-      "updated_at": "2025-06-03T00:54:40.981939Z"
+      "updated_at": "2025-06-03T00:57:29.058183Z"
     }
   },
   "levels": [
@@ -1218,6 +1189,46 @@
       "volume": 33490000,
       "dollars": 4730000000,
       "rank": "9"
+    },
+    {
+      "symbol": "NFLX",
+      "price": 1207.2,
+      "timestamp": "2025-06-03T00:57:27.383407Z",
+      "volume": 1430000,
+      "dollars": 1730000000,
+      "rank": "4"
+    },
+    {
+      "symbol": "NFLX",
+      "price": 909.1,
+      "timestamp": "2025-06-03T00:57:27.383407Z",
+      "volume": 1600000,
+      "dollars": 1460000000,
+      "rank": "9"
+    },
+    {
+      "symbol": "NFLX",
+      "price": 865.6,
+      "timestamp": "2025-06-03T00:57:27.383407Z",
+      "volume": 1410000,
+      "dollars": 1220000000,
+      "rank": "14"
+    },
+    {
+      "symbol": "NFLX",
+      "price": 1049.6,
+      "timestamp": "2025-06-03T00:57:27.383407Z",
+      "volume": 1130000,
+      "dollars": 1190000000,
+      "rank": "15"
+    },
+    {
+      "symbol": "NFLX",
+      "price": 980.6,
+      "timestamp": "2025-06-03T00:57:27.383407Z",
+      "volume": 1150000,
+      "dollars": 1130000000,
+      "rank": "18"
     }
   ]
 }
