@@ -19,6 +19,11 @@ const emptyLine = Array.from({length: close.length}, function() { return NaN; })
 
 // Helper function to format numbers
 function formatNumber(num) {
+    // Add safety check for undefined/null values
+    if (num === undefined || num === null || isNaN(num)) {
+        return '0';
+    }
+    
     if (num >= 1000000000) {
         return (num / 1000000000).toFixed(1) + 'B';
     } else if (num >= 1000000) {
@@ -124,8 +129,9 @@ try {
                     // Paint the level with appropriate styling
                     const paintedLine = paint(levelLine, {
                         title: title,
-                        color: color,
-                        linewidth: width
+                        color: 'lightblue',
+                        linewidth: width,
+                        linestyle: 'dashed'
                     });
                     
                     // Add text label with volume and dollar information using paint_label_at_line
@@ -175,32 +181,37 @@ try {
                             const bottomPrice = box.bottom_right.price;
                             
                             // Determine box color
-                            let boxColor = 'blue'; // default blue
-                            if (box.color === 'green') boxColor = 'green';
-                            else if (box.color === 'orange') boxColor = 'orange';
-                            else if (box.color === 'red') boxColor = 'red';
+                            let boxColor = 'lightblue'; // Use light blue for all box lines
                             
                             // Create horizontal lines for top and bottom of the box using horizontal_line()
-                            const topLine = paint(horizontal_line(topPrice, boxStartIndex, boxEndIndex), {
+                            const topLine = paint(horizontal_line(topPrice, boxStartIndex), {
                                 title: 'Box ' + box.box_number + ' Top: $' + topPrice.toFixed(2),
                                 color: boxColor,
-                                linewidth: 1
+                                linewidth: 1,
+                                linestyle: 'dashed'
                             });
                             
-                            const bottomLine = paint(horizontal_line(bottomPrice, boxStartIndex, boxEndIndex), {
+                            const bottomLine = paint(horizontal_line(bottomPrice, boxStartIndex), {
                                 title: 'Box ' + box.box_number + ' Bottom: $' + bottomPrice.toFixed(2),
                                 color: boxColor,
-                                linewidth: 1
+                                linewidth: 1,
+                                linestyle: 'dashed'
                             });
                             
                             // Fill the area between top and bottom lines to create the box
-                            fill(topLine, bottomLine, boxColor, box.opacity || 0.3, 'Box ' + box.box_number);
+                            // Use original box color for the fill but with reduced opacity
+                            let fillColor = 'blue'; // default blue
+                            if (box.color === 'green') fillColor = 'green';
+                            else if (box.color === 'orange') fillColor = 'orange';
+                            else if (box.color === 'red') fillColor = 'red';
+                            
+                            fill(topLine, bottomLine, fillColor, box.opacity || 0.3, 'Box ' + box.box_number);
                             
                             // Add label with box information
                             if (showLabels) {
-                                const volumeText = formatNumber(box.volume) + ' shares';
-                                const valueText = '$' + formatNumber(box.value);
-                                const tradesText = box.trades + ' trades';
+                                const volumeText = formatNumber(box.volume || 0) + ' shares';
+                                const valueText = '$' + formatNumber(box.value || 0);
+                                const tradesText = (box.trades || 0) + ' trades';
                                 const labelText = 'BOX ' + box.box_number + ': ' + volumeText + ' | ' + valueText + ' | ' + tradesText;
                                 
                                 // Place label at the middle of the box
