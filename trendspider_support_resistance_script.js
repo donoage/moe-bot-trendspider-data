@@ -1,4 +1,4 @@
-describe_indicator('Moebot VL Trendspider', 'overlay');
+describe_indicator('Moebot VL Trendspider v3', 'overlay');
 
 // Configuration - these can be modified directly in the code
 const showSupport = true;
@@ -161,47 +161,97 @@ try {
                         // Get box dimensions from high_price and low_price
                         const topPrice = box.high_price;
                         const bottomPrice = box.low_price;
+                        const priceRange = topPrice - bottomPrice;
+                        const midPrice = (topPrice + bottomPrice) / 2;
                         
-                        // Use consistent purple color for all boxes
-                        let boxLineColor = '#9932CC'; // Purple for all box lines
-                        let fillColor = '#9932CC'; // Same purple for all box fills
+                        // Calculate threshold for when to use lines instead of filled box
+                        // Use 5% of the mid-price as threshold, or minimum $0.50
+                        const priceThreshold = Math.max(0.50, midPrice * 0.05);
+                        const useLines = priceRange > priceThreshold;
                         
-                        // Create horizontal lines for top and bottom of the box
-                        const topLine = paint(horizontal_line(topPrice, boxStartIndex), {
-                            title: 'Box ' + box.box_number + ' Top: $' + topPrice.toFixed(2),
-                            color: boxLineColor,
-                            linewidth: 2,
-                            linestyle: 'solid' // Solid lines instead of dashed
-                        });
+                        console.log('Box ' + box.box_number + ' price analysis: range=$' + priceRange.toFixed(2) + 
+                                   ', threshold=$' + priceThreshold.toFixed(2) + ', useLines=' + useLines);
                         
-                        const bottomLine = paint(horizontal_line(bottomPrice, boxStartIndex), {
-                            title: 'Box ' + box.box_number + ' Bottom: $' + bottomPrice.toFixed(2),
-                            color: boxLineColor,
-                            linewidth: 2,
-                            linestyle: 'solid' // Solid lines instead of dashed
-                        });
+                        // Use more subtle styling for less obtrusive boxes
+                        let boxLineColor = '#9966CC'; // Slightly lighter purple
+                        let fillColor = '#9966CC'; // Same subtle purple for fills
                         
-                        // Fill the area between top and bottom lines to create the box
-                        fill(topLine, bottomLine, fillColor, 0.2, 'Box ' + box.box_number);
-                        
-                        // Add label with box information
-                        if (showLabels) {
-                            const volumeText = formatNumber(box.volume || 0) + ' vol';
-                            const valueText = '$' + formatNumber(box.dollars || 0);
-                            const tradesText = (box.trades || 0) + ' trades';
-                            const dateText = box.date_range || '';
-                            const labelText = '[BOX ' + box.box_number + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText + (dateText ? ' • ' + dateText : '');
-                            
-                            // Place label on the right side like level labels
-                            const labelBarIndex = close.length - 1;
-                            
-                            paint_label_at_line(topLine, labelBarIndex, labelText, {
-                                color: boxLineColor, // Match the box line color (purple)
-                                vertical_align: 'top' // Place label above the top line
+                        if (useLines) {
+                            // Create two separate horizontal lines when price range is too large
+                            const topLine = paint(horizontal_line(topPrice, boxStartIndex), {
+                                title: 'Box ' + box.box_number + ' High: $' + topPrice.toFixed(2),
+                                color: boxLineColor,
+                                linewidth: 1, // Thinner lines
+                                linestyle: 'solid'
                             });
+                            
+                            const bottomLine = paint(horizontal_line(bottomPrice, boxStartIndex), {
+                                title: 'Box ' + box.box_number + ' Low: $' + bottomPrice.toFixed(2),
+                                color: boxLineColor,
+                                linewidth: 1, // Thinner lines
+                                linestyle: 'solid'
+                            });
+                            
+                            // Add labels for both lines
+                            if (showLabels) {
+                                const volumeText = formatNumber(box.volume || 0) + ' vol';
+                                const valueText = '$' + formatNumber(box.dollars || 0);
+                                const tradesText = (box.trades || 0) + ' trades';
+                                const dateText = box.date_range || '';
+                                
+                                // Label for high line
+                                const highLabelText = '[BOX ' + box.box_number + ' HIGH] ' + volumeText + ' • ' + valueText + ' • ' + tradesText + (dateText ? ' • ' + dateText : '');
+                                paint_label_at_line(topLine, close.length - 1, highLabelText, {
+                                    color: boxLineColor,
+                                    vertical_align: 'top'
+                                });
+                                
+                                // Label for low line  
+                                const lowLabelText = '[BOX ' + box.box_number + ' LOW] ' + volumeText + ' • ' + valueText + ' • ' + tradesText + (dateText ? ' • ' + dateText : '');
+                                paint_label_at_line(bottomLine, close.length - 1, lowLabelText, {
+                                    color: boxLineColor,
+                                    vertical_align: 'bottom'
+                                });
+                            }
+                            
+                            console.log('Drew separate lines for box ' + box.box_number + ' (range too large): high=$' + topPrice.toFixed(2) + ', low=$' + bottomPrice.toFixed(2));
+                        } else {
+                            // Create filled box when price range is reasonable
+                            const topLine = paint(horizontal_line(topPrice, boxStartIndex), {
+                                title: 'Box ' + box.box_number + ' Top: $' + topPrice.toFixed(2),
+                                color: boxLineColor,
+                                linewidth: 1, // Thinner lines
+                                linestyle: 'solid'
+                            });
+                            
+                            const bottomLine = paint(horizontal_line(bottomPrice, boxStartIndex), {
+                                title: 'Box ' + box.box_number + ' Bottom: $' + bottomPrice.toFixed(2),
+                                color: boxLineColor,
+                                linewidth: 1, // Thinner lines
+                                linestyle: 'solid'
+                            });
+                            
+                            // Fill the area between top and bottom lines with lower opacity
+                            fill(topLine, bottomLine, fillColor, 0.1, 'Box ' + box.box_number); // Reduced from 0.2 to 0.1
+                            
+                            // Add single label for filled box
+                            if (showLabels) {
+                                const volumeText = formatNumber(box.volume || 0) + ' vol';
+                                const valueText = '$' + formatNumber(box.dollars || 0);
+                                const tradesText = (box.trades || 0) + ' trades';
+                                const dateText = box.date_range || '';
+                                const labelText = '[BOX ' + box.box_number + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText + (dateText ? ' • ' + dateText : '');
+                                
+                                paint_label_at_line(topLine, close.length - 1, labelText, {
+                                    color: boxLineColor,
+                                    vertical_align: 'top'
+                                });
+                            }
+                            
+                            console.log('Drew filled box ' + box.box_number + ' (range acceptable): high=$' + topPrice.toFixed(2) + ', low=$' + bottomPrice.toFixed(2));
                         }
                         
-                        paintedCount += 1; // Count the filled box
+                        paintedCount += 1; // Count the painted element
                         console.log('Successfully painted box ' + box.box_number + ' from bar ' + boxStartIndex + ' to ' + boxEndIndex + 
                                    ' with prices: top=' + topPrice + ', bottom=' + bottomPrice);
                     } else {
