@@ -72,8 +72,99 @@ try {
         
         console.log('Loaded data for ' + currentSymbol + ':', tickerData.metadata);
         
-        // Process support/resistance levels
-        const levels = tickerData.levels || [];
+        // Function to consolidate nearby levels
+        function consolidateLevels(levels, consolidationThreshold) {
+            if (!levels || levels.length === 0) return [];
+            
+            // Sort levels by price
+            const sortedLevels = [...levels].sort((a, b) => a.price - b.price);
+            const consolidated = [];
+            
+            let currentGroup = [sortedLevels[0]];
+            
+            for (let i = 1; i < sortedLevels.length; i++) {
+                const level = sortedLevels[i];
+                const groupAvgPrice = currentGroup.reduce((sum, l) => sum + l.price, 0) / currentGroup.length;
+                
+                // Check if this level is close enough to the current group
+                const priceDistance = Math.abs(level.price - groupAvgPrice);
+                const distancePercent = priceDistance / groupAvgPrice * 100;
+                
+                if (distancePercent <= consolidationThreshold) {
+                    // Add to current group
+                    currentGroup.push(level);
+                } else {
+                    // Consolidate current group and start new one
+                    consolidated.push(consolidateGroup(currentGroup));
+                    currentGroup = [level];
+                }
+            }
+            
+            // Don't forget the last group
+            if (currentGroup.length > 0) {
+                consolidated.push(consolidateGroup(currentGroup));
+            }
+            
+            return consolidated;
+        }
+        
+        // Function to consolidate a group of levels into a single level
+        function consolidateGroup(group) {
+            if (group.length === 1) return group[0];
+            
+            // Calculate weighted average price based on volume or use simple average
+            let totalVolume = 0;
+            let weightedPriceSum = 0;
+            let totalDollars = 0;
+            let bestRank = 999999; // Start with high number, find lowest
+            
+            group.forEach(level => {
+                const levelVolume = level.volume || 0;
+                const levelDollars = level.dollars || 0;
+                const levelRank = parseInt(level.rank) || 999999;
+                
+                totalVolume += levelVolume;
+                totalDollars += levelDollars;
+                
+                if (levelVolume > 0) {
+                    weightedPriceSum += level.price * levelVolume;
+                } else {
+                    // If no volume data, treat equally
+                    weightedPriceSum += level.price;
+                }
+                
+                if (levelRank < bestRank) {
+                    bestRank = levelRank;
+                }
+            });
+            
+            // Calculate consolidated price
+            let consolidatedPrice;
+            if (totalVolume > 0) {
+                consolidatedPrice = weightedPriceSum / totalVolume;
+            } else {
+                consolidatedPrice = group.reduce((sum, l) => sum + l.price, 0) / group.length;
+            }
+            
+            return {
+                price: consolidatedPrice,
+                volume: totalVolume,
+                dollars: totalDollars,
+                rank: bestRank === 999999 ? '' : bestRank.toString(),
+                consolidatedCount: group.length,
+                originalPrices: group.map(l => l.price)
+            };
+        }
+        
+        // Process support/resistance levels with consolidation
+        const rawLevels = tickerData.levels || [];
+        
+        // Consolidation threshold as percentage (e.g., 0.1% means levels within 0.1% of each other will be combined)
+        const consolidationThreshold = 0.1; // You can adjust this value
+        
+        const levels = consolidateLevels(rawLevels, consolidationThreshold);
+        
+        console.log('Level consolidation: ' + rawLevels.length + ' original levels -> ' + levels.length + ' consolidated levels');
         if (levels.length > 0) {
             console.log('Found ' + levels.length + ' levels for ' + currentSymbol);
             
@@ -86,7 +177,9 @@ try {
                 
                 // Create title with price and rank information
                 let title = '$' + level.price.toFixed(2);
-                if (level.rank && parseInt(level.rank) > 0) {
+                if (level.consolidatedCount && level.consolidatedCount > 1) {
+                    title += ' (Combined ' + level.consolidatedCount + ' levels)';
+                } else if (level.rank && parseInt(level.rank) > 0) {
                     title += ' (Rank ' + level.rank + ')';
                 }
                 
@@ -103,24 +196,57 @@ try {
                     let labelText = '';
                     
                     if (level.volume && level.dollars) {
-                        // Both volume and dollars available - show price, shares, dollars, and rank
-                        const priceText = '$' + level.price.toFixed(2);
+                        // Both volume and dollars available - show price, shares, dollars, and rank/consolidation info
+                        let priceText = '$' + level.price.toFixed(2);
+                        if (level.consolidatedCount && level.consolidatedCount > 1 && level.originalPrices) {
+                            const originalPricesText = level.originalPrices.map(p => '$' + p.toFixed(2)).join(', ');
+                            priceText = '$' + level.price.toFixed(2) + ' (' + originalPricesText + ')';
+                        }
                         const sharesText = formatNumber(level.volume) + ' shares';
                         const dollarsText = '$' + formatNumber(level.dollars);
-                        const rankText = (level.rank && parseInt(level.rank) > 0) ? 'Rank ' + level.rank : '';
-                        labelText = priceText + ' | ' + sharesText + ' | ' + dollarsText + (rankText ? ' | ' + rankText : '');
+                        
+                        let suffixText = '';
+                        if (level.consolidatedCount && level.consolidatedCount > 1) {
+                            suffixText = 'Combined ' + level.consolidatedCount + ' levels';
+                        } else if (level.rank && parseInt(level.rank) > 0) {
+                            suffixText = 'Rank ' + level.rank;
+                        }
+                        
+                        labelText = priceText + ' | ' + sharesText + ' | ' + dollarsText + (suffixText ? ' | ' + suffixText : '');
                     } else if (level.dollars) {
                         // Only dollars available - show price and dollars
-                        const priceText = '$' + level.price.toFixed(2);
+                        let priceText = '$' + level.price.toFixed(2);
+                        if (level.consolidatedCount && level.consolidatedCount > 1 && level.originalPrices) {
+                            const originalPricesText = level.originalPrices.map(p => '$' + p.toFixed(2)).join(', ');
+                            priceText = '$' + level.price.toFixed(2) + ' (' + originalPricesText + ')';
+                        }
                         const dollarsText = '$' + formatNumber(level.dollars);
-                        const rankText = (level.rank && parseInt(level.rank) > 0) ? 'Rank ' + level.rank : '';
-                        labelText = priceText + ' | ' + dollarsText + (rankText ? ' | ' + rankText : '');
+                        
+                        let suffixText = '';
+                        if (level.consolidatedCount && level.consolidatedCount > 1) {
+                            suffixText = 'Combined ' + level.consolidatedCount + ' levels';
+                        } else if (level.rank && parseInt(level.rank) > 0) {
+                            suffixText = 'Rank ' + level.rank;
+                        }
+                        
+                        labelText = priceText + ' | ' + dollarsText + (suffixText ? ' | ' + suffixText : '');
                     } else if (level.volume) {
                         // Only volume available - show price and volume
-                        const priceText = '$' + level.price.toFixed(2);
+                        let priceText = '$' + level.price.toFixed(2);
+                        if (level.consolidatedCount && level.consolidatedCount > 1 && level.originalPrices) {
+                            const originalPricesText = level.originalPrices.map(p => '$' + p.toFixed(2)).join(', ');
+                            priceText = '$' + level.price.toFixed(2) + ' (' + originalPricesText + ')';
+                        }
                         const sharesText = formatNumber(level.volume) + ' shares';
-                        const rankText = (level.rank && parseInt(level.rank) > 0) ? 'Rank ' + level.rank : '';
-                        labelText = priceText + ' | ' + sharesText + (rankText ? ' | ' + rankText : '');
+                        
+                        let suffixText = '';
+                        if (level.consolidatedCount && level.consolidatedCount > 1) {
+                            suffixText = 'Combined ' + level.consolidatedCount + ' levels';
+                        } else if (level.rank && parseInt(level.rank) > 0) {
+                            suffixText = 'Rank ' + level.rank;
+                        }
+                        
+                        labelText = priceText + ' | ' + sharesText + (suffixText ? ' | ' + suffixText : '');
                     }
                     
                     if (labelText) {
@@ -150,9 +276,9 @@ try {
             
             boxes.forEach(function(box, index) {
                 try {
-                    // Position boxes with simple staggered layout from right edge
-                    const boxEndIndex = chartLength - rightMargin - (index * 3); // 3 bar spacing between boxes
-                    const boxStartIndex = boxEndIndex - boxWidth;
+                    // Position boxes to extend all the way to the right, but stagger the start positions
+                    const boxEndIndex = chartLength - 1; // Always extend to the very right
+                    const boxStartIndex = chartLength - rightMargin - boxWidth - (index * 5); // Increased stagger spacing to 5 bars
                     
                     console.log('Box ' + box.box_number + ' positioning: start=' + boxStartIndex + ', end=' + boxEndIndex);
                     
@@ -165,12 +291,13 @@ try {
                         const midPrice = (topPrice + bottomPrice) / 2;
                         
                         // Calculate threshold for when to use lines instead of filled box
-                        // Use 5% of the mid-price as threshold, or minimum $0.50
-                        const priceThreshold = Math.max(0.50, midPrice * 0.05);
+                        // Use 2% of the mid-price as threshold, or minimum $2.00
+                        const priceThreshold = Math.max(2.00, midPrice * 0.02);
                         const useLines = priceRange > priceThreshold;
                         
                         console.log('Box ' + box.box_number + ' price analysis: range=$' + priceRange.toFixed(2) + 
-                                   ', threshold=$' + priceThreshold.toFixed(2) + ', useLines=' + useLines);
+                                   ', threshold=$' + priceThreshold.toFixed(2) + ', useLines=' + useLines +
+                                   ', topPrice=$' + topPrice + ', bottomPrice=$' + bottomPrice);
                         
                         // Use more subtle styling for less obtrusive boxes
                         let boxLineColor = '#9966CC'; // Slightly lighter purple
@@ -178,14 +305,14 @@ try {
                         
                         if (useLines) {
                             // Create two separate horizontal lines when price range is too large
-                            const topLine = paint(horizontal_line(topPrice, boxStartIndex), {
+                            const topLine = paint(horizontal_line(topPrice, boxStartIndex, boxEndIndex), {
                                 title: 'Box ' + box.box_number + ' High: $' + topPrice.toFixed(2),
                                 color: boxLineColor,
                                 linewidth: 1, // Thinner lines
                                 linestyle: 'solid'
                             });
                             
-                            const bottomLine = paint(horizontal_line(bottomPrice, boxStartIndex), {
+                            const bottomLine = paint(horizontal_line(bottomPrice, boxStartIndex, boxEndIndex), {
                                 title: 'Box ' + box.box_number + ' Low: $' + bottomPrice.toFixed(2),
                                 color: boxLineColor,
                                 linewidth: 1, // Thinner lines
@@ -194,21 +321,23 @@ try {
                             
                             // Add labels for both lines
                             if (showLabels) {
-                                const volumeText = formatNumber(box.volume || 0) + ' vol';
+                                const volumeText = formatNumber(box.volume || 0) + ' shares';
                                 const valueText = '$' + formatNumber(box.dollars || 0);
                                 const tradesText = (box.trades || 0) + ' trades';
-                                const dateText = box.date_range || '';
+                                
+                                // Calculate middle position of box
+                                const boxMiddleIndex = Math.floor((boxStartIndex + boxEndIndex) / 2);
                                 
                                 // Label for high line
-                                const highLabelText = '[BOX ' + box.box_number + ' HIGH] ' + volumeText + ' • ' + valueText + ' • ' + tradesText + (dateText ? ' • ' + dateText : '');
-                                paint_label_at_line(topLine, close.length - 1, highLabelText, {
+                                const highLabelText = '[BOX ' + box.box_number + ' HIGH $' + topPrice.toFixed(2) + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
+                                paint_label_at_line(topLine, boxMiddleIndex, highLabelText, {
                                     color: boxLineColor,
                                     vertical_align: 'top'
                                 });
                                 
                                 // Label for low line  
-                                const lowLabelText = '[BOX ' + box.box_number + ' LOW] ' + volumeText + ' • ' + valueText + ' • ' + tradesText + (dateText ? ' • ' + dateText : '');
-                                paint_label_at_line(bottomLine, close.length - 1, lowLabelText, {
+                                const lowLabelText = '[BOX ' + box.box_number + ' LOW $' + bottomPrice.toFixed(2) + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
+                                paint_label_at_line(bottomLine, boxMiddleIndex, lowLabelText, {
                                     color: boxLineColor,
                                     vertical_align: 'bottom'
                                 });
@@ -217,14 +346,14 @@ try {
                             console.log('Drew separate lines for box ' + box.box_number + ' (range too large): high=$' + topPrice.toFixed(2) + ', low=$' + bottomPrice.toFixed(2));
                         } else {
                             // Create filled box when price range is reasonable
-                            const topLine = paint(horizontal_line(topPrice, boxStartIndex), {
+                            const topLine = paint(horizontal_line(topPrice, boxStartIndex, boxEndIndex), {
                                 title: 'Box ' + box.box_number + ' Top: $' + topPrice.toFixed(2),
                                 color: boxLineColor,
                                 linewidth: 1, // Thinner lines
                                 linestyle: 'solid'
                             });
                             
-                            const bottomLine = paint(horizontal_line(bottomPrice, boxStartIndex), {
+                            const bottomLine = paint(horizontal_line(bottomPrice, boxStartIndex, boxEndIndex), {
                                 title: 'Box ' + box.box_number + ' Bottom: $' + bottomPrice.toFixed(2),
                                 color: boxLineColor,
                                 linewidth: 1, // Thinner lines
@@ -236,13 +365,15 @@ try {
                             
                             // Add single label for filled box
                             if (showLabels) {
-                                const volumeText = formatNumber(box.volume || 0) + ' vol';
+                                const volumeText = formatNumber(box.volume || 0) + ' shares';
                                 const valueText = '$' + formatNumber(box.dollars || 0);
                                 const tradesText = (box.trades || 0) + ' trades';
-                                const dateText = box.date_range || '';
-                                const labelText = '[BOX ' + box.box_number + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText + (dateText ? ' • ' + dateText : '');
+                                const labelText = '[BOX ' + box.box_number + ' $' + bottomPrice.toFixed(2) + '-$' + topPrice.toFixed(2) + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
                                 
-                                paint_label_at_line(topLine, close.length - 1, labelText, {
+                                // Calculate middle position of box
+                                const boxMiddleIndex = Math.floor((boxStartIndex + boxEndIndex) / 2);
+                                
+                                paint_label_at_line(topLine, boxMiddleIndex, labelText, {
                                     color: boxLineColor,
                                     vertical_align: 'top'
                                 });
