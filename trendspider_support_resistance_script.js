@@ -141,16 +141,20 @@ try {
         if (boxes.length > 0 && showPriceBoxes) {
             console.log('Found ' + boxes.length + ' price boxes for ' + currentSymbol);
             
-            // Calculate box positioning further to the right side of the chart
+            // Simplified box positioning to ensure all boxes are visible
             const chartLength = close.length;
-            const boxWidth = Math.max(10, Math.floor(chartLength * 0.1)); // 10% of chart width or minimum 10 bars
-            const startOffset = Math.max(25, Math.floor(chartLength * 0.05)); // Larger offset from the right edge (5% or min 25 bars)
+            const boxWidth = 15; // Fixed width for reliability
+            const rightMargin = 10; // Small margin from right edge
+            
+            console.log('Box positioning: chartLength=' + chartLength + ', boxWidth=' + boxWidth + ', totalBoxes=' + boxes.length);
             
             boxes.forEach(function(box, index) {
                 try {
-                    // Position boxes at the right side of the chart with slight offsets
-                    const boxStartIndex = chartLength - boxWidth - startOffset - (index * 2); // Slight stagger
-                    const boxEndIndex = chartLength - startOffset - (index * 2);
+                    // Position boxes with simple staggered layout from right edge
+                    const boxEndIndex = chartLength - rightMargin - (index * 3); // 3 bar spacing between boxes
+                    const boxStartIndex = boxEndIndex - boxWidth;
+                    
+                    console.log('Box ' + box.box_number + ' positioning: start=' + boxStartIndex + ', end=' + boxEndIndex);
                     
                     // Ensure we have valid indices
                     if (boxStartIndex >= 0 && boxEndIndex >= 0 && boxStartIndex < boxEndIndex) {
@@ -198,10 +202,11 @@ try {
                         }
                         
                         paintedCount += 1; // Count the filled box
-                        console.log('Painted box ' + box.box_number + ' from bar ' + boxStartIndex + ' to ' + boxEndIndex + 
+                        console.log('Successfully painted box ' + box.box_number + ' from bar ' + boxStartIndex + ' to ' + boxEndIndex + 
                                    ' with prices: top=' + topPrice + ', bottom=' + bottomPrice);
                     } else {
-                        console.log('Invalid bar indices for box ' + box.box_number + ': start=' + boxStartIndex + ', end=' + boxEndIndex);
+                        console.log('Skipping box ' + box.box_number + ' - invalid indices: start=' + boxStartIndex + ', end=' + boxEndIndex + 
+                                   ' (chartLength=' + chartLength + ')');
                     }
                 } catch (boxError) {
                     console.error('Error processing box ' + box.box_number + ':', boxError);
