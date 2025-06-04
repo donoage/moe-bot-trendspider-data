@@ -103,21 +103,24 @@ try {
                     let labelText = '';
                     
                     if (level.volume && level.dollars) {
-                        // Both volume and dollars available - show shares, dollars, and rank
+                        // Both volume and dollars available - show price, shares, dollars, and rank
+                        const priceText = '$' + level.price.toFixed(2);
                         const sharesText = formatNumber(level.volume) + ' shares';
                         const dollarsText = '$' + formatNumber(level.dollars);
                         const rankText = (level.rank && parseInt(level.rank) > 0) ? 'Rank ' + level.rank : '';
-                        labelText = sharesText + ' | ' + dollarsText + (rankText ? ' | ' + rankText : '');
+                        labelText = priceText + ' | ' + sharesText + ' | ' + dollarsText + (rankText ? ' | ' + rankText : '');
                     } else if (level.dollars) {
-                        // Only dollars available
+                        // Only dollars available - show price and dollars
+                        const priceText = '$' + level.price.toFixed(2);
                         const dollarsText = '$' + formatNumber(level.dollars);
                         const rankText = (level.rank && parseInt(level.rank) > 0) ? 'Rank ' + level.rank : '';
-                        labelText = dollarsText + (rankText ? ' | ' + rankText : '');
+                        labelText = priceText + ' | ' + dollarsText + (rankText ? ' | ' + rankText : '');
                     } else if (level.volume) {
-                        // Only volume available
+                        // Only volume available - show price and volume
+                        const priceText = '$' + level.price.toFixed(2);
                         const sharesText = formatNumber(level.volume) + ' shares';
                         const rankText = (level.rank && parseInt(level.rank) > 0) ? 'Rank ' + level.rank : '';
-                        labelText = sharesText + (rankText ? ' | ' + rankText : '');
+                        labelText = priceText + ' | ' + sharesText + (rankText ? ' | ' + rankText : '');
                     }
                     
                     if (labelText) {
@@ -237,18 +240,21 @@ try {
                     let labelText = '';
                     
                     if (print.volume && print.dollars) {
+                        const priceText = '$' + print.price.toFixed(2);
                         const sharesText = formatNumber(print.volume) + ' shares';
                         const dollarsText = '$' + formatNumber(print.dollars);
                         const rankText = (print.rank && parseInt(print.rank) > 0) ? 'Rank ' + print.rank : '';
-                        labelText = '[PRINT] ' + sharesText + ' | ' + dollarsText + (rankText ? ' | ' + rankText : '');
+                        labelText = '[PRINT] ' + priceText + ' | ' + sharesText + ' | ' + dollarsText + (rankText ? ' | ' + rankText : '');
                     } else if (print.dollars) {
+                        const priceText = '$' + print.price.toFixed(2);
                         const dollarsText = '$' + formatNumber(print.dollars);
                         const rankText = (print.rank && parseInt(print.rank) > 0) ? 'Rank ' + print.rank : '';
-                        labelText = '[PRINT] ' + dollarsText + (rankText ? ' | ' + rankText : '');
+                        labelText = '[PRINT] ' + priceText + ' | ' + dollarsText + (rankText ? ' | ' + rankText : '');
                     } else if (print.volume) {
+                        const priceText = '$' + print.price.toFixed(2);
                         const sharesText = formatNumber(print.volume) + ' shares';
                         const rankText = (print.rank && parseInt(print.rank) > 0) ? 'Rank ' + print.rank : '';
-                        labelText = '[PRINT] ' + sharesText + (rankText ? ' | ' + rankText : '');
+                        labelText = '[PRINT] ' + priceText + ' | ' + sharesText + (rankText ? ' | ' + rankText : '');
                     }
                     
                     if (labelText) {
