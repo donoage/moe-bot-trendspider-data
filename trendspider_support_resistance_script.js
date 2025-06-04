@@ -291,8 +291,8 @@ try {
                         const midPrice = (topPrice + bottomPrice) / 2;
                         
                         // Calculate threshold for when to use lines instead of filled box
-                        // Use 2% of the mid-price as threshold, or minimum $2.00
-                        const priceThreshold = Math.max(2.00, midPrice * 0.02);
+                        // Use 5% of the mid-price as threshold, or minimum $0.50
+                        const priceThreshold = Math.max(0.50, midPrice * 0.05);
                         const useLines = priceRange > priceThreshold;
                         
                         console.log('Box ' + box.box_number + ' price analysis: range=$' + priceRange.toFixed(2) + 
