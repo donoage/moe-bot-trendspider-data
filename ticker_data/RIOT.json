@@ -1,37 +1,12 @@
 {
   "metadata": {
     "ticker": "RIOT",
-    "generated_at": "2025-06-03T19:48:28.114391+00:00Z",
-    "date_range": "2025-03-05 to 2025-06-03",
+    "generated_at": "2025-06-04T16:26:21.549065Z",
+    "date_range": "2025-05-05 to 2025-06-04",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": "",
-      "price": 7.3,
-      "volume": 6052318,
-      "dollars": 44181921,
-      "rank": 8,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": "",
-      "price": 7.95,
-      "volume": 5262932,
-      "dollars": 41840309,
-      "rank": 11,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 9.1,
@@ -46,34 +21,23 @@
       "rank": "14"
     },
     {
-      "price": 7.2,
-      "volume": 17540000,
-      "dollars": 130000000,
-      "rank": "25"
-    },
-    {
-      "price": 7.3,
-      "volume": 17160000,
-      "dollars": 130000000,
-      "rank": "26"
-    },
-    {
       "price": 9.2,
       "volume": 13280000,
       "dollars": 120000000,
       "rank": "29"
+    },
+    {
+      "price": 8.0,
+      "volume": 13170000,
+      "dollars": 110000000,
+      "rank": "38"
+    },
+    {
+      "price": 9.6,
+      "volume": 10380000,
+      "dollars": 100000000,
+      "rank": "39"
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 7.3,
-      "low_price": 7.3,
-      "volume": 6052318,
-      "dollars": 44181921,
-      "trades": 1,
-      "date_range": "2025-04-29",
-      "color": "blue"
-    }
-  ]
+  "boxes": []
 }

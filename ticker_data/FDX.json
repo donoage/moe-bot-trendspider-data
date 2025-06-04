@@ -1,32 +1,13 @@
 {
   "metadata": {
     "ticker": "FDX",
-    "generated_at": "2025-06-04T19:59:30.928751+00:00Z",
-    "date_range": "2025-03-06 to 2025-06-04",
+    "generated_at": "2025-06-04T16:32:27.028437Z",
+    "date_range": "2025-05-05 to 2025-06-04",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": "",
-      "price": 230.33,
-      "volume": 1238657,
-      "dollars": 285299866,
-      "rank": 9,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
-    {
-      "price": 252.0,
-      "volume": 2990000,
-      "dollars": 750000000,
-      "rank": "5"
-    },
     {
       "price": 229.9,
       "volume": 2850000,
@@ -40,16 +21,22 @@
       "rank": "13"
     },
     {
-      "price": 253.3,
-      "volume": 2220000,
-      "dollars": 560000000,
-      "rank": "15"
+      "price": 218.0,
+      "volume": 2500000,
+      "dollars": 540000000,
+      "rank": "20"
     },
     {
-      "price": 250.3,
-      "volume": 2240000,
-      "dollars": 560000000,
-      "rank": "17"
+      "price": 220.3,
+      "volume": 2400000,
+      "dollars": 530000000,
+      "rank": "21"
+    },
+    {
+      "price": 232.3,
+      "volume": 1490000,
+      "dollars": 350000000,
+      "rank": "57"
     }
   ],
   "boxes": []

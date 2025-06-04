@@ -1,37 +1,18 @@
 {
   "metadata": {
     "ticker": "NEE",
-    "generated_at": "2025-06-03T19:48:27.165709+00:00Z",
-    "date_range": "2025-03-05 to 2025-06-03",
+    "generated_at": "2025-06-04T16:27:16.599734Z",
+    "date_range": "2025-05-05 to 2025-06-04",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": "",
-      "price": 70.88,
-      "volume": 4873104,
-      "dollars": 345405611,
-      "rank": 25,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 70.8,
-      "volume": 42590000,
+      "volume": 42670000,
       "dollars": 3020000000,
       "rank": "1"
-    },
-    {
-      "price": 75.7,
-      "volume": 39040000,
-      "dollars": 2950000000,
-      "rank": "2"
     },
     {
       "price": 74.2,
@@ -40,27 +21,33 @@
       "rank": "4"
     },
     {
-      "price": 75.6,
-      "volume": 30470000,
-      "dollars": 2300000000,
-      "rank": "5"
-    },
-    {
       "price": 73.3,
       "volume": 31160000,
       "dollars": 2280000000,
       "rank": "6"
+    },
+    {
+      "price": 70.9,
+      "volume": 30870000,
+      "dollars": 2190000000,
+      "rank": "7"
+    },
+    {
+      "price": 71.7,
+      "volume": 29530000,
+      "dollars": 2120000000,
+      "rank": "10"
     }
   ],
   "boxes": [
     {
       "box_number": 1,
       "high_price": 74.47,
-      "low_price": 66.68,
-      "volume": 6891009,
-      "dollars": 497292857,
-      "trades": 12,
-      "date_range": "2025-05-02 to 2025-05-15",
+      "low_price": 72.4,
+      "volume": 5468638,
+      "dollars": 397163472,
+      "trades": 9,
+      "date_range": "2025-05-14 to 2025-05-15",
       "color": "blue"
     }
   ]

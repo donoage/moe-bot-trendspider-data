@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "IWM",
-    "generated_at": "2025-06-03T19:53:52.174402+00:00Z",
-    "date_range": "2025-03-05 to 2025-06-03",
+    "generated_at": "2025-06-04T16:28:21.680947Z",
+    "date_range": "2025-05-05 to 2025-06-04",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -21,44 +21,54 @@
       "rank": "0"
     },
     {
-      "price": 171.2,
-      "volume": 30860000,
-      "dollars": 5280000000,
-      "rank": "0"
-    },
-    {
-      "price": 177.5,
-      "volume": 28830000,
-      "dollars": 5120000000,
-      "rank": "0"
-    },
-    {
       "price": 201.3,
       "volume": 24660000,
       "dollars": 4960000000,
+      "rank": "0"
+    },
+    {
+      "price": 207.9,
+      "volume": 22210000,
+      "dollars": 4620000000,
+      "rank": "0"
+    },
+    {
+      "price": 199.5,
+      "volume": 22950000,
+      "dollars": 4580000000,
       "rank": "0"
     }
   ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 190.95,
-      "low_price": 174.03,
-      "volume": 2323780,
-      "dollars": 413286089,
-      "trades": 4,
-      "date_range": "2025-04-03 to 2025-04-14",
+      "high_price": 206.45,
+      "low_price": 200.55,
+      "volume": 756279,
+      "dollars": 154113962,
+      "trades": 6,
+      "date_range": "2025-05-09 to 2025-06-02",
       "color": "blue"
     },
     {
       "box_number": 2,
-      "high_price": 207.66,
-      "low_price": 201.09,
-      "volume": 1773908,
-      "dollars": 364171281,
-      "trades": 6,
-      "date_range": "2025-03-19 to 2025-05-12",
+      "high_price": 207.77,
+      "low_price": 207.66,
+      "volume": 260541,
+      "dollars": 54115686,
+      "trades": 2,
+      "date_range": "2025-05-12 to 2025-05-19",
       "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 199.99,
+      "low_price": 199.61,
+      "volume": 241090,
+      "dollars": 48171963,
+      "trades": 2,
+      "date_range": "2025-05-05 to 2025-05-08",
+      "color": "orange"
     }
   ]
 }
