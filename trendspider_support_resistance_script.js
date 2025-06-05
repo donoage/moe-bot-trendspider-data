@@ -5,7 +5,7 @@ const showSupport = true;
 const showResistance = true;
 const showStrongOnly = false;
 const showPriceBoxes = true; // Show price boxes
-const showPrints = false; // Show individual prints - set to false by default to avoid clutter
+const showPrints = true; // Show individual prints - enabled to display print bubbles
 const supportColor = '#00FF00';
 const resistanceColor = '#FF0000';
 const lineWidth = 2;
@@ -50,8 +50,35 @@ function getColorWithOpacity(colorHex, opacity) {
     return 'rgba(' + r + ',' + g + ',' + b + ',' + opacity + ')';
 }
 
+// Helper function to convert timestamp to readable date string
+function timestampToDateString(timestamp) {
+    // Convert Unix timestamp (seconds) to approximate date
+    // This is a simplified conversion for debugging purposes
+    try {
+        const days = Math.floor(timestamp / 86400);
+        const startDate = 1970; // Unix epoch year
+        const daysPerYear = 365.25;
+        const year = Math.floor(days / daysPerYear) + startDate;
+        
+        const dayOfYear = days % Math.floor(daysPerYear);
+        const month = Math.floor(dayOfYear / 30.44) + 1; // Approximate month
+        const day = Math.floor(dayOfYear % 30.44) + 1; // Approximate day
+        
+        const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+        const monthName = months[Math.min(Math.max(month - 1, 0), 11)];
+        
+        return monthName + ' ' + day + ', ' + year;
+    } catch (e) {
+        return 'Date Error';
+    }
+}
+
 // Initialize empty array for fallback
-const emptyLine = Array.from({length: close.length}, function() { return NaN; });
+    // Create empty line array using traditional loop
+    const emptyLine = [];
+    for (let i = 0; i < close.length; i++) {
+        emptyLine[i] = NaN;
+    }
 
 try {
     // Get current symbol and construct URL for ticker-specific data
@@ -179,7 +206,11 @@ try {
                 let color = '#87CEEB'; // Light blue for all levels
                 
                 // Create horizontal line at the price level - match exact chart length
-                const levelLine = Array.from({length: close.length}, function() { return level.price; });
+                // Create level line array using traditional loop
+                const levelLine = [];
+                for (let i = 0; i < close.length; i++) {
+                    levelLine[i] = level.price;
+                }
                 
                 // Create title with price and rank information
                 let title = '$' + level.price.toFixed(2);
@@ -417,64 +448,88 @@ try {
         
         // Process individual prints as candle labels if enabled
         const prints = tickerData.prints || [];
+        
+        // Note: TrendSpider custom indicators don't have direct access to timeframe information
+        // For now, we'll show prints on all timeframes. Users can manually toggle showPrints = false
+        // if they don't want prints on certain timeframes
+        console.log('Processing prints (timeframe detection not available in TrendSpider custom indicators)');
+        
         if (prints.length > 0 && showPrints) {
             console.log('Found ' + prints.length + ' prints for ' + currentSymbol);
             
             // Create array to hold print labels for each candle
-            const printLabels = Array.from({length: close.length}, function() { return null; });
+            const printLabels = [];
+            for (let i = 0; i < close.length; i++) {
+                printLabels[i] = null;
+            }
             
             prints.forEach(function(print, index) {
-                // Convert timestamp to bar index if timestamp exists
+                // Convert timestamp to bar index using session-based matching
                 let barIndex = -1;
                 if (print.timestamp && print.timestamp > 0) {
-                    // Convert timestamp to bar index
-                    const printTime = print.timestamp * 1000; // Convert to milliseconds
+                    console.log('Processing print with timestamp: ' + print.timestamp);
                     
-                    // Find the closest bar index to the timestamp
+                    // Find the daily candle that contains this timestamp
+                    // We need to find which daily session this timestamp belongs to
                     for (let i = 0; i < time.length; i++) {
-                        if (time[i] * 1000 >= printTime) {
-                            barIndex = Math.max(0, i);
-                            break;
+                        // Check if this print timestamp falls within the trading session of bar i
+                        if (i < time.length - 1) {
+                            // Check if timestamp falls between current bar and next bar
+                            if (print.timestamp >= time[i] && print.timestamp < time[i + 1]) {
+                                barIndex = i;
+                                break;
+                            }
+                        } else {
+                            // For the last bar, check if timestamp is after it
+                            if (print.timestamp >= time[i]) {
+                                barIndex = i;
+                                break;
+                            }
                         }
                     }
                     
-                    // If no match found, try the last bar
+                    // If no exact match found, find closest bar
                     if (barIndex === -1) {
-                        barIndex = time.length - 1;
+                        let closestDistance = Infinity;
+                        for (let i = 0; i < time.length; i++) {
+                            const distance = Math.abs(time[i] - print.timestamp);
+                            if (distance < closestDistance) {
+                                closestDistance = distance;
+                                barIndex = i;
+                            }
+                        }
                     }
+                    
+                    // Convert timestamps to readable dates for verification
+                    const printDate = timestampToDateString(print.timestamp);
+                    const barDate = timestampToDateString(time[barIndex]);
+                    console.log('Matched print timestamp ' + print.timestamp + ' (' + printDate + ') to bar ' + barIndex + ' with time: ' + time[barIndex] + ' (' + barDate + ')');
                 } else {
                     // If no timestamp, place on the most recent candle
                     barIndex = close.length - 1;
+                    console.log('No timestamp, using last bar: ' + barIndex);
                 }
                 
                 if (barIndex >= 0 && barIndex < close.length) {
-                    // Create simple print label
-                    let labelText = '';
-                    if (print.volume && print.dollars) {
-                        const volumeText = formatNumber(print.volume);
-                        const dollarsText = formatNumber(print.dollars);
-                        const rankText = print.rank ? 'R' + print.rank : '';
-                        labelText = '$' + print.price.toFixed(2) + ' ' + volumeText + ' $' + dollarsText + ' ' + rankText;
-                    } else if (print.dollars) {
-                        const dollarsText = formatNumber(print.dollars);
-                        const rankText = print.rank ? 'R' + print.rank : '';
-                        labelText = '$' + print.price.toFixed(2) + ' $' + dollarsText + ' ' + rankText;
-                    } else {
-                        const rankText = print.rank ? 'R' + print.rank : '';
-                        labelText = '$' + print.price.toFixed(2) + ' ' + rankText;
-                    }
+                    // Create enhanced rank label with symbols for maximum visibility
+                    const rankText = print.rank ? print.rank : '?';
+                    const labelText = '★R' + rankText + '★';  // Add star symbols for extra prominence
                     
                     printLabels[barIndex] = labelText;
-                    console.log('Placed print label at bar ' + barIndex + ': ' + labelText);
+                    console.log('Placed print label at bar ' + barIndex + ': ' + labelText + ' (price: $' + print.price.toFixed(2) + ')');
                 }
                 
                 paintedCount++;
             });
             
-            // Paint the print labels on candles
+            // Paint the print labels on candles with maximum prominence styling
             paint(printLabels, { 
                 style: 'labels_above',
-                color: '#FFA500'
+                color: '#FFFFFF',      // White text for maximum contrast
+                background: '#FF0000', // Bright red background
+                textsize: 'large',     // Large font size
+                border: 2,            // Add border for extra prominence
+                transparency: 0       // No transparency for maximum visibility
             });
         }
         
