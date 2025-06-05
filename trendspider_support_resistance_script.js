@@ -415,63 +415,66 @@ try {
             });
         }
         
-        // Process individual prints if enabled (disabled by default to avoid clutter)
+        // Process individual prints as candle labels if enabled
         const prints = tickerData.prints || [];
         if (prints.length > 0 && showPrints) {
             console.log('Found ' + prints.length + ' prints for ' + currentSymbol);
             
+            // Create array to hold print labels for each candle
+            const printLabels = Array.from({length: close.length}, function() { return null; });
+            
             prints.forEach(function(print, index) {
-                // Use a different color for prints (orange)
-                let printColor = '#FFA500'; // Orange for prints
-                
-                // Create horizontal line at the print price - match exact chart length
-                const printLine = Array.from({length: close.length}, function() { return print.price; });
-                
-                // Create title with print information
-                let title = 'Print $' + print.price.toFixed(2);
-                if (print.rank && parseInt(print.rank) > 0) {
-                    title += ' (Rank ' + print.rank + ')';
+                // Convert timestamp to bar index if timestamp exists
+                let barIndex = -1;
+                if (print.timestamp && print.timestamp > 0) {
+                    // Convert timestamp to bar index
+                    const printTime = print.timestamp * 1000; // Convert to milliseconds
+                    
+                    // Find the closest bar index to the timestamp
+                    for (let i = 0; i < time.length; i++) {
+                        if (time[i] * 1000 >= printTime) {
+                            barIndex = Math.max(0, i);
+                            break;
+                        }
+                    }
+                    
+                    // If no match found, try the last bar
+                    if (barIndex === -1) {
+                        barIndex = time.length - 1;
+                    }
+                } else {
+                    // If no timestamp, place on the most recent candle
+                    barIndex = close.length - 1;
                 }
                 
-                // Paint the print with appropriate styling (thinner line, dotted)
-                const paintedLine = paint(printLine, {
-                    title: title,
-                    color: printColor,
-                    linewidth: 1,
-                    linestyle: 'dotted'
-                });
-                
-                // Add text label with print information
-                if (showLabels && (print.volume || print.dollars)) {
+                if (barIndex >= 0 && barIndex < close.length) {
+                    // Create simple print label
                     let labelText = '';
-                    
                     if (print.volume && print.dollars) {
-                        const priceText = '$' + print.price.toFixed(2);
-                        const sharesText = formatNumber(print.volume) + ' shares';
-                        const dollarsText = '$' + formatNumber(print.dollars);
-                        const rankText = (print.rank && parseInt(print.rank) > 0) ? 'Rank ' + print.rank : '';
-                        labelText = '[PRINT] ' + priceText + ' | ' + sharesText + ' | ' + dollarsText + (rankText ? ' | ' + rankText : '');
+                        const volumeText = formatNumber(print.volume);
+                        const dollarsText = formatNumber(print.dollars);
+                        const rankText = print.rank ? 'R' + print.rank : '';
+                        labelText = '$' + print.price.toFixed(2) + ' ' + volumeText + ' $' + dollarsText + ' ' + rankText;
                     } else if (print.dollars) {
-                        const priceText = '$' + print.price.toFixed(2);
-                        const dollarsText = '$' + formatNumber(print.dollars);
-                        const rankText = (print.rank && parseInt(print.rank) > 0) ? 'Rank ' + print.rank : '';
-                        labelText = '[PRINT] ' + priceText + ' | ' + dollarsText + (rankText ? ' | ' + rankText : '');
-                    } else if (print.volume) {
-                        const priceText = '$' + print.price.toFixed(2);
-                        const sharesText = formatNumber(print.volume) + ' shares';
-                        const rankText = (print.rank && parseInt(print.rank) > 0) ? 'Rank ' + print.rank : '';
-                        labelText = '[PRINT] ' + priceText + ' | ' + sharesText + (rankText ? ' | ' + rankText : '');
+                        const dollarsText = formatNumber(print.dollars);
+                        const rankText = print.rank ? 'R' + print.rank : '';
+                        labelText = '$' + print.price.toFixed(2) + ' $' + dollarsText + ' ' + rankText;
+                    } else {
+                        const rankText = print.rank ? 'R' + print.rank : '';
+                        labelText = '$' + print.price.toFixed(2) + ' ' + rankText;
                     }
                     
-                    if (labelText) {
-                        paint_label_at_line(paintedLine, close.length - 1, labelText, {
-                            color: printColor,
-                            vertical_align: 'bottom' // Place print labels at bottom to avoid overlap
-                        });
-                    }
+                    printLabels[barIndex] = labelText;
+                    console.log('Placed print label at bar ' + barIndex + ': ' + labelText);
                 }
                 
                 paintedCount++;
+            });
+            
+            // Paint the print labels on candles
+            paint(printLabels, { 
+                style: 'labels_above',
+                color: '#FFA500'
             });
         }
         
