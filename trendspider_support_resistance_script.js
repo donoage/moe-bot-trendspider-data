@@ -90,7 +90,12 @@ try {
                 const priceDistance = Math.abs(level.price - groupAvgPrice);
                 const distancePercent = priceDistance / groupAvgPrice * 100;
                 
-                if (distancePercent <= consolidationThreshold) {
+                // For higher-priced stocks, also allow consolidation within 21 cents
+                const absoluteThreshold = 0.21; // 21 cents
+                const withinAbsoluteThreshold = priceDistance <= absoluteThreshold;
+                const withinPercentThreshold = distancePercent <= consolidationThreshold;
+                
+                if (withinPercentThreshold || withinAbsoluteThreshold) {
                     // Add to current group
                     currentGroup.push(level);
                 } else {
@@ -152,7 +157,8 @@ try {
                 dollars: totalDollars,
                 rank: bestRank === 999999 ? '' : bestRank.toString(),
                 consolidatedCount: group.length,
-                originalPrices: group.map(l => l.price)
+                originalPrices: group.map(l => l.price),
+                allRanks: group.map(l => l.rank).filter(r => r && parseInt(r) > 0)
             };
         }
         
@@ -188,7 +194,8 @@ try {
                     title: title,
                     color: color,
                     linewidth: lineWidth,
-                    linestyle: 'dashed'
+                    linestyle: 'dashed',
+                    transparency: 0 // Ensure no transparency that might cause auto-fill
                 });
                 
                 // Add text label with volume and dollar information
@@ -208,6 +215,9 @@ try {
                         let suffixText = '';
                         if (level.consolidatedCount && level.consolidatedCount > 1) {
                             suffixText = 'Combined ' + level.consolidatedCount + ' levels';
+                            if (level.allRanks && level.allRanks.length > 0) {
+                                suffixText += ' | Ranks ' + level.allRanks.join(', ');
+                            }
                         } else if (level.rank && parseInt(level.rank) > 0) {
                             suffixText = 'Rank ' + level.rank;
                         }
@@ -225,6 +235,9 @@ try {
                         let suffixText = '';
                         if (level.consolidatedCount && level.consolidatedCount > 1) {
                             suffixText = 'Combined ' + level.consolidatedCount + ' levels';
+                            if (level.allRanks && level.allRanks.length > 0) {
+                                suffixText += ' | Ranks ' + level.allRanks.join(', ');
+                            }
                         } else if (level.rank && parseInt(level.rank) > 0) {
                             suffixText = 'Rank ' + level.rank;
                         }
@@ -242,6 +255,9 @@ try {
                         let suffixText = '';
                         if (level.consolidatedCount && level.consolidatedCount > 1) {
                             suffixText = 'Combined ' + level.consolidatedCount + ' levels';
+                            if (level.allRanks && level.allRanks.length > 0) {
+                                suffixText += ' | Ranks ' + level.allRanks.join(', ');
+                            }
                         } else if (level.rank && parseInt(level.rank) > 0) {
                             suffixText = 'Rank ' + level.rank;
                         }
@@ -299,24 +315,26 @@ try {
                                    ', threshold=$' + priceThreshold.toFixed(2) + ', useLines=' + useLines +
                                    ', topPrice=$' + topPrice + ', bottomPrice=$' + bottomPrice);
                         
-                        // Use more subtle styling for less obtrusive boxes
-                        let boxLineColor = '#9966CC'; // Slightly lighter purple
-                        let fillColor = '#9966CC'; // Same subtle purple for fills
+                        // Use consistent purple styling for all box elements
+                        const boxLineColor = '#9966CC'; // Consistent purple for all box lines
+                        const fillColor = '#9966CC'; // Same purple for fills
                         
                         if (useLines) {
                             // Create two separate horizontal lines when price range is too large
                             const topLine = paint(horizontal_line(topPrice, boxStartIndex, boxEndIndex), {
                                 title: 'Box ' + box.box_number + ' High: $' + topPrice.toFixed(2),
                                 color: boxLineColor,
-                                linewidth: 1, // Thinner lines
-                                linestyle: 'solid'
+                                linewidth: 1,
+                                linestyle: 'solid',
+                                transparency: 0
                             });
                             
                             const bottomLine = paint(horizontal_line(bottomPrice, boxStartIndex, boxEndIndex), {
                                 title: 'Box ' + box.box_number + ' Low: $' + bottomPrice.toFixed(2),
                                 color: boxLineColor,
-                                linewidth: 1, // Thinner lines
-                                linestyle: 'solid'
+                                linewidth: 1,
+                                linestyle: 'solid',
+                                transparency: 0
                             });
                             
                             // Add labels for both lines
@@ -339,7 +357,7 @@ try {
                                 const lowLabelText = '[BOX ' + box.box_number + ' LOW $' + bottomPrice.toFixed(2) + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
                                 paint_label_at_line(bottomLine, boxMiddleIndex, lowLabelText, {
                                     color: boxLineColor,
-                                    vertical_align: 'bottom'
+                                    vertical_align: 'middle'
                                 });
                             }
                             
@@ -349,15 +367,17 @@ try {
                             const topLine = paint(horizontal_line(topPrice, boxStartIndex, boxEndIndex), {
                                 title: 'Box ' + box.box_number + ' Top: $' + topPrice.toFixed(2),
                                 color: boxLineColor,
-                                linewidth: 1, // Thinner lines
-                                linestyle: 'solid'
+                                linewidth: 1,
+                                linestyle: 'solid',
+                                transparency: 0
                             });
                             
                             const bottomLine = paint(horizontal_line(bottomPrice, boxStartIndex, boxEndIndex), {
                                 title: 'Box ' + box.box_number + ' Bottom: $' + bottomPrice.toFixed(2),
                                 color: boxLineColor,
-                                linewidth: 1, // Thinner lines
-                                linestyle: 'solid'
+                                linewidth: 1,
+                                linestyle: 'solid',
+                                transparency: 0
                             });
                             
                             // Fill the area between top and bottom lines with lower opacity
