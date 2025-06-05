@@ -1,14 +1,38 @@
 {
   "metadata": {
     "ticker": "ADBE",
-    "generated_at": "2025-06-04T23:10:51.762103Z",
-    "date_range": "2025-05-05 to 2025-06-04",
+    "generated_at": "2025-06-05T13:06:27.460290+00:00Z",
+    "date_range": "2025-03-07 to 2025-06-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1748563200,
+      "timestamp": "",
+      "price": 387.26,
+      "volume": 2264791,
+      "dollars": 877062962,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": "",
+      "price": 394.47,
+      "volume": 1815819,
+      "dollars": 716286120,
+      "rank": 21,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": "",
       "price": 415.09,
       "volume": 1603476,
       "dollars": 665586852,
@@ -22,6 +46,18 @@
   ],
   "levels": [
     {
+      "price": 438.6,
+      "volume": 4500000,
+      "dollars": 1970000000,
+      "rank": "3"
+    },
+    {
+      "price": 447.2,
+      "volume": 3620000,
+      "dollars": 1620000000,
+      "rank": "5"
+    },
+    {
       "price": 416.5,
       "volume": 3870000,
       "dollars": 1610000000,
@@ -34,23 +70,22 @@
       "rank": "13"
     },
     {
-      "price": 387.3,
-      "volume": 2970000,
-      "dollars": 1150000000,
-      "rank": "20"
-    },
-    {
-      "price": 394.5,
-      "volume": 2530000,
-      "dollars": 1000000000,
-      "rank": "25"
-    },
-    {
-      "price": 415.1,
-      "volume": 2120000,
-      "dollars": 880000000,
-      "rank": "35"
+      "price": 338.5,
+      "volume": 3800000,
+      "dollars": 1290000000,
+      "rank": "14"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 378.75,
+      "low_price": 378.75,
+      "volume": 49372,
+      "dollars": 18699645,
+      "trades": 1,
+      "date_range": "2025-04-01",
+      "color": "blue"
+    }
+  ]
 }

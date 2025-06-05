@@ -1,14 +1,26 @@
 {
   "metadata": {
     "ticker": "SPGI",
-    "generated_at": "2025-06-04T23:13:47.054056Z",
-    "date_range": "2025-05-05 to 2025-06-04",
+    "generated_at": "2025-06-05T13:05:35.861558+00:00Z",
+    "date_range": "2025-03-07 to 2025-06-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1746489600,
+      "timestamp": "",
+      "price": 497.88,
+      "volume": 841679,
+      "dollars": 419055140,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": "",
       "price": 501.81,
       "volume": 800000,
       "dollars": 401448000,
@@ -20,7 +32,7 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1748563200,
+      "timestamp": "",
       "price": 512.86,
       "volume": 597168,
       "dollars": 306263580,
@@ -34,34 +46,34 @@
   ],
   "levels": [
     {
+      "price": 497.9,
+      "volume": 2590000,
+      "dollars": 1290000000,
+      "rank": "4"
+    },
+    {
       "price": 522.9,
       "volume": 2250000,
       "dollars": 1180000000,
       "rank": "5"
     },
     {
+      "price": 428.4,
+      "volume": 2020000,
+      "dollars": 870000000,
+      "rank": "8"
+    },
+    {
+      "price": 491.8,
+      "volume": 1660000,
+      "dollars": 820000000,
+      "rank": "10"
+    },
+    {
       "price": 501.8,
       "volume": 1490000,
       "dollars": 750000000,
       "rank": "15"
-    },
-    {
-      "price": 520.5,
-      "volume": 1360000,
-      "dollars": 710000000,
-      "rank": "19"
-    },
-    {
-      "price": 518.4,
-      "volume": 1220000,
-      "dollars": 630000000,
-      "rank": "23"
-    },
-    {
-      "price": 512.9,
-      "volume": 1050000,
-      "dollars": 540000000,
-      "rank": "35"
     }
   ],
   "boxes": []

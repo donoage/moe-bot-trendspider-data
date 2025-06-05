@@ -1,14 +1,14 @@
 {
   "metadata": {
     "ticker": "NVO",
-    "generated_at": "2025-06-04T23:13:03.931991Z",
-    "date_range": "2025-05-05 to 2025-06-04",
+    "generated_at": "2025-06-05T13:04:35.350820+00:00Z",
+    "date_range": "2025-03-07 to 2025-06-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1748822400,
+      "timestamp": "",
       "price": 71.59,
       "volume": 2338073,
       "dollars": 167384282,
@@ -20,7 +20,7 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1748908800,
+      "timestamp": "",
       "price": 71.22,
       "volume": 1117000,
       "dollars": 79552740,
@@ -34,6 +34,12 @@
   ],
   "levels": [
     {
+      "price": 77.9,
+      "volume": 7540000,
+      "dollars": 590000000,
+      "rank": "3"
+    },
+    {
       "price": 70.5,
       "volume": 4860000,
       "dollars": 340000000,
@@ -46,23 +52,28 @@
       "rank": "33"
     },
     {
+      "price": 82.9,
+      "volume": 3800000,
+      "dollars": 310000000,
+      "rank": "44"
+    },
+    {
       "price": 65.8,
       "volume": 4650000,
       "dollars": 310000000,
       "rank": "49"
-    },
-    {
-      "price": 70.0,
-      "volume": 2370000,
-      "dollars": 170000000,
-      "rank": "0"
-    },
-    {
-      "price": 66.0,
-      "volume": 1950000,
-      "dollars": 130000000,
-      "rank": "0"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 79.76,
+      "low_price": 58.02,
+      "volume": 591000,
+      "dollars": 39661774,
+      "trades": 2,
+      "date_range": "2025-03-17 to 2025-04-17",
+      "color": "blue"
+    }
+  ]
 }

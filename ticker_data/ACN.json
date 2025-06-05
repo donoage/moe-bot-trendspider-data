@@ -1,14 +1,38 @@
 {
   "metadata": {
     "ticker": "ACN",
-    "generated_at": "2025-06-04T23:13:31.091848Z",
-    "date_range": "2025-05-05 to 2025-06-04",
+    "generated_at": "2025-06-05T13:03:42.863136+00:00Z",
+    "date_range": "2025-03-07 to 2025-06-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1748563200,
+      "timestamp": "",
+      "price": 305.32,
+      "volume": 4326350,
+      "dollars": 1320921182,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": "",
+      "price": 305.29,
+      "volume": 1406600,
+      "dollars": 429418100,
+      "rank": 24,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": "",
       "price": 316.82,
       "volume": 1285541,
       "dollars": 407285099,
@@ -56,11 +80,11 @@
     {
       "box_number": 1,
       "high_price": 321.4,
-      "low_price": 305.0,
-      "volume": 194720,
-      "dollars": 61123490,
-      "trades": 2,
-      "date_range": "2025-05-06 to 2025-05-21",
+      "low_price": 299.09,
+      "volume": 489404,
+      "dollars": 149260528,
+      "trades": 3,
+      "date_range": "2025-03-21 to 2025-05-21",
       "color": "blue"
     }
   ]

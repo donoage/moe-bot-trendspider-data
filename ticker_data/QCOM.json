@@ -1,14 +1,26 @@
 {
   "metadata": {
     "ticker": "QCOM",
-    "generated_at": "2025-06-04T23:13:34.815382Z",
-    "date_range": "2025-05-05 to 2025-06-04",
+    "generated_at": "2025-06-05T13:07:07.931098+00:00Z",
+    "date_range": "2025-03-07 to 2025-06-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1748563200,
+      "timestamp": "",
+      "price": 143.59,
+      "volume": 5792824,
+      "dollars": 831791598,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": "",
       "price": 145.2,
       "volume": 4184034,
       "dollars": 607521736,
@@ -18,9 +30,27 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": "",
+      "price": 156.82,
+      "volume": 3798613,
+      "dollars": 595698490,
+      "rank": 30,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
+    {
+      "price": 124.7,
+      "volume": 18530000,
+      "dollars": 2310000000,
+      "rank": "6"
+    },
     {
       "price": 143.1,
       "volume": 15890000,
@@ -34,23 +64,28 @@
       "rank": "13"
     },
     {
-      "price": 147.4,
-      "volume": 12930000,
-      "dollars": 1910000000,
-      "rank": "32"
+      "price": 158.5,
+      "volume": 13240000,
+      "dollars": 2100000000,
+      "rank": "17"
     },
     {
-      "price": 152.0,
-      "volume": 11110000,
-      "dollars": 1690000000,
-      "rank": "59"
-    },
-    {
-      "price": 153.1,
-      "volume": 10780000,
-      "dollars": 1650000000,
-      "rank": "63"
+      "price": 133.0,
+      "volume": 15040000,
+      "dollars": 2000000000,
+      "rank": "25"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 139.02,
+      "low_price": 139.02,
+      "volume": 212326,
+      "dollars": 29516498,
+      "trades": 1,
+      "date_range": "2025-04-03",
+      "color": "blue"
+    }
+  ]
 }

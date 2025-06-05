@@ -1,14 +1,26 @@
 {
   "metadata": {
     "ticker": "LMT",
-    "generated_at": "2025-06-04T23:12:42.406606Z",
-    "date_range": "2025-05-05 to 2025-06-04",
+    "generated_at": "2025-06-05T13:05:47.331744+00:00Z",
+    "date_range": "2025-03-07 to 2025-06-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1748563200,
+      "timestamp": "",
+      "price": 439.7,
+      "volume": 1178168,
+      "dollars": 518040469,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": "",
       "price": 482.38,
       "volume": 829605,
       "dollars": 400184859,
@@ -28,6 +40,12 @@
       "rank": "1"
     },
     {
+      "price": 435.8,
+      "volume": 4019999,
+      "dollars": 1750000000,
+      "rank": "2"
+    },
+    {
       "price": 467.1,
       "volume": 3350000,
       "dollars": 1560000000,
@@ -40,16 +58,10 @@
       "rank": "4"
     },
     {
-      "price": 481.8,
-      "volume": 1800000,
-      "dollars": 870000000,
-      "rank": "16"
-    },
-    {
-      "price": 468.9,
-      "volume": 1370000,
-      "dollars": 640000000,
-      "rank": "23"
+      "price": 489.0,
+      "volume": 2630000,
+      "dollars": 1290000000,
+      "rank": "6"
     }
   ],
   "boxes": []

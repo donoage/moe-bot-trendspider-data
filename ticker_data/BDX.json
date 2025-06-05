@@ -1,14 +1,26 @@
 {
   "metadata": {
     "ticker": "BDX",
-    "generated_at": "2025-06-04T23:14:06.922936Z",
-    "date_range": "2025-05-05 to 2025-06-04",
+    "generated_at": "2025-06-05T13:03:53.662839+00:00Z",
+    "date_range": "2025-03-07 to 2025-06-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1748563200,
+      "timestamp": "",
+      "price": 230.23,
+      "volume": 1658400,
+      "dollars": 381813432,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": "",
       "price": 172.59,
       "volume": 1064281,
       "dollars": 183684257,
@@ -22,35 +34,46 @@
   ],
   "levels": [
     {
-      "price": 172.6,
-      "volume": 1720000,
-      "dollars": 300000000,
-      "rank": "0"
+      "price": 233.7,
+      "volume": 3890000,
+      "dollars": 910000000,
+      "rank": "4"
     },
     {
-      "price": 172.3,
-      "volume": 1390000,
-      "dollars": 240000000,
-      "rank": "0"
+      "price": 231.9,
+      "volume": 3550000,
+      "dollars": 820000000,
+      "rank": "7"
     },
     {
-      "price": 171.0,
-      "volume": 1230000,
-      "dollars": 210000000,
-      "rank": "0"
+      "price": 184.9,
+      "volume": 4120000,
+      "dollars": 760000000,
+      "rank": "12"
     },
     {
-      "price": 168.0,
-      "volume": 960000,
-      "dollars": 160000000,
-      "rank": "0"
+      "price": 232.0,
+      "volume": 3270000,
+      "dollars": 760000000,
+      "rank": "13"
     },
     {
-      "price": 165.2,
-      "volume": 930000,
-      "dollars": 150000000,
-      "rank": "0"
+      "price": 234.7,
+      "volume": 3000000,
+      "dollars": 700000000,
+      "rank": "16"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 168.0,
+      "low_price": 168.0,
+      "volume": 148783,
+      "dollars": 24995544,
+      "trades": 1,
+      "date_range": "2025-05-02",
+      "color": "blue"
+    }
+  ]
 }

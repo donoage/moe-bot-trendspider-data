@@ -1,14 +1,14 @@
 {
   "metadata": {
     "ticker": "FI",
-    "generated_at": "2025-06-04T23:14:29.547179Z",
-    "date_range": "2025-05-05 to 2025-06-04",
+    "generated_at": "2025-06-05T13:06:14.181214+00:00Z",
+    "date_range": "2025-03-07 to 2025-06-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1748563200,
+      "timestamp": "",
       "price": 162.79,
       "volume": 4157696,
       "dollars": 676831331,
@@ -20,7 +20,7 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1747353600,
+      "timestamp": "",
       "price": 166.66,
       "volume": 1532749,
       "dollars": 255447948,
@@ -32,7 +32,19 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1747267200,
+      "timestamp": "",
+      "price": 218.09,
+      "volume": 925278,
+      "dollars": 201793879,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": "",
       "price": 159.13,
       "volume": 1234125,
       "dollars": 196386311,
@@ -44,7 +56,7 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1748822400,
+      "timestamp": "",
       "price": 161.46,
       "volume": 1100000,
       "dollars": 177606000,
@@ -56,7 +68,19 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1746662400,
+      "timestamp": "",
+      "price": 220.83,
+      "volume": 788018,
+      "dollars": 174018014,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": "",
       "price": 181.39,
       "volume": 952723,
       "dollars": 172814424,
@@ -68,7 +92,7 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1748908800,
+      "timestamp": "",
       "price": 162.11,
       "volume": 1048413,
       "dollars": 169958231,
@@ -88,28 +112,28 @@
       "rank": "2"
     },
     {
+      "price": 206.1,
+      "volume": 4290000,
+      "dollars": 880000000,
+      "rank": "3"
+    },
+    {
+      "price": 221.8,
+      "volume": 3030000,
+      "dollars": 670000000,
+      "rank": "4"
+    },
+    {
       "price": 177.6,
       "volume": 3700000,
       "dollars": 660000000,
       "rank": "5"
     },
     {
-      "price": 159.3,
-      "volume": 1970000,
-      "dollars": 310000000,
-      "rank": "17"
-    },
-    {
-      "price": 166.7,
-      "volume": 1770000,
-      "dollars": 300000000,
-      "rank": "20"
-    },
-    {
-      "price": 178.4,
-      "volume": 1600000,
-      "dollars": 290000000,
-      "rank": "21"
+      "price": 215.9,
+      "volume": 2120000,
+      "dollars": 460000000,
+      "rank": "8"
     }
   ],
   "boxes": [
@@ -122,6 +146,16 @@
       "trades": 4,
       "date_range": "2025-05-15 to 2025-06-03",
       "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 222.69,
+      "low_price": 220.5,
+      "volume": 619536,
+      "dollars": 137244238,
+      "trades": 3,
+      "date_range": "2025-04-01 to 2025-04-02",
+      "color": "green"
     }
   ]
 }

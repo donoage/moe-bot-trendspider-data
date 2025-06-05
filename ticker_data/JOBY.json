@@ -1,14 +1,26 @@
 {
   "metadata": {
     "ticker": "JOBY",
-    "generated_at": "2025-06-04T23:11:04.428612Z",
-    "date_range": "2025-05-05 to 2025-06-04",
+    "generated_at": "2025-06-05T13:06:58.269555+00:00Z",
+    "date_range": "2025-03-07 to 2025-06-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1748390400,
+      "timestamp": "",
+      "price": 6.64,
+      "volume": 2461560,
+      "dollars": 16344758,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": "",
       "price": 8.86,
       "volume": 1141582,
       "dollars": 10114416,
@@ -22,6 +34,18 @@
   ],
   "levels": [
     {
+      "price": 5.1,
+      "volume": 62430000,
+      "dollars": 320000000,
+      "rank": "1"
+    },
+    {
+      "price": 5.2,
+      "volume": 57480000,
+      "dollars": 300000000,
+      "rank": "2"
+    },
+    {
       "price": 6.3,
       "volume": 21220000,
       "dollars": 130000000,
@@ -34,22 +58,10 @@
       "rank": "5"
     },
     {
-      "price": 6.2,
-      "volume": 16320000,
-      "dollars": 100000000,
-      "rank": "8"
-    },
-    {
-      "price": 7.0,
-      "volume": 13090000,
-      "dollars": 90000000,
-      "rank": "10"
-    },
-    {
-      "price": 6.8,
-      "volume": 12970000,
-      "dollars": 90000000,
-      "rank": "11"
+      "price": 6.0,
+      "volume": 18530000,
+      "dollars": 110000000,
+      "rank": "6"
     }
   ],
   "boxes": []

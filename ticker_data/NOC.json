@@ -1,14 +1,26 @@
 {
   "metadata": {
     "ticker": "NOC",
-    "generated_at": "2025-06-04T23:13:16.538069Z",
-    "date_range": "2025-05-05 to 2025-06-04",
+    "generated_at": "2025-06-05T13:07:24.903115+00:00Z",
+    "date_range": "2025-03-07 to 2025-06-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1748563200,
+      "timestamp": "",
+      "price": 490.72,
+      "volume": 759036,
+      "dollars": 372474145,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": "",
       "price": 484.77,
       "volume": 508037,
       "dollars": 246281096,
@@ -21,6 +33,12 @@
     }
   ],
   "levels": [
+    {
+      "price": 450.8,
+      "volume": 2630000,
+      "dollars": 1190000000,
+      "rank": "1"
+    },
     {
       "price": 461.1,
       "volume": 1210000,
@@ -44,12 +62,6 @@
       "volume": 990000,
       "dollars": 470000000,
       "rank": "14"
-    },
-    {
-      "price": 457.1,
-      "volume": 1020000,
-      "dollars": 470000000,
-      "rank": "15"
     }
   ],
   "boxes": []

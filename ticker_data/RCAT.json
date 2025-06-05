@@ -1,31 +1,24 @@
 {
   "metadata": {
     "ticker": "RCAT",
-    "generated_at": "2025-06-04T23:10:48.822508Z",
-    "date_range": "2025-05-05 to 2025-06-04",
+    "generated_at": "2025-06-05T13:02:17.908713+00:00Z",
+    "date_range": "2025-03-07 to 2025-06-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1748390400,
-      "price": 6.13,
-      "volume": 440919,
-      "dollars": 2702833,
-      "rank": 30,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 5.2,
       "volume": 2810000,
       "dollars": 10000000,
       "rank": "6"
+    },
+    {
+      "price": 5.0,
+      "volume": 2490000,
+      "dollars": 10000000,
+      "rank": "9"
     },
     {
       "price": 5.4,
@@ -44,12 +37,6 @@
       "volume": 1060000,
       "dollars": 10000000,
       "rank": "19"
-    },
-    {
-      "price": 6.9,
-      "volume": 1000000,
-      "dollars": 10000000,
-      "rank": "21"
     }
   ],
   "boxes": []

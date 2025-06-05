@@ -1,14 +1,26 @@
 {
   "metadata": {
     "ticker": "CAT",
-    "generated_at": "2025-06-04T23:12:42.568717Z",
-    "date_range": "2025-05-05 to 2025-06-04",
+    "generated_at": "2025-06-05T13:04:22.449966+00:00Z",
+    "date_range": "2025-03-07 to 2025-06-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1748563200,
+      "timestamp": "",
+      "price": 335.78,
+      "volume": 2440814,
+      "dollars": 819576524,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": "",
       "price": 348.03,
       "volume": 1690016,
       "dollars": 588176268,
@@ -46,11 +58,22 @@
       "rank": "7"
     },
     {
-      "price": 348.0,
-      "volume": 2490000,
-      "dollars": 870000000,
-      "rank": "16"
+      "price": 285.7,
+      "volume": 3300000,
+      "dollars": 940000000,
+      "rank": "10"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 307.0,
+      "low_price": 293.97,
+      "volume": 473024,
+      "dollars": 141421113,
+      "trades": 2,
+      "date_range": "2025-04-17 to 2025-04-30",
+      "color": "blue"
+    }
+  ]
 }

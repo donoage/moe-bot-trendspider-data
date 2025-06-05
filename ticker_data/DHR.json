@@ -1,43 +1,54 @@
 {
   "metadata": {
     "ticker": "DHR",
-    "generated_at": "2025-06-04T23:13:38.484845Z",
-    "date_range": "2025-05-05 to 2025-06-04",
+    "generated_at": "2025-06-05T13:04:54.978347+00:00Z",
+    "date_range": "2025-03-07 to 2025-06-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
   "levels": [
     {
+      "price": 203.6,
+      "volume": 10110000,
+      "dollars": 2060000000,
+      "rank": "11"
+    },
+    {
+      "price": 214.4,
+      "volume": 5290000,
+      "dollars": 1130000000,
+      "rank": "28"
+    },
+    {
+      "price": 212.8,
+      "volume": 4640000,
+      "dollars": 990000000,
+      "rank": "39"
+    },
+    {
+      "price": 211.5,
+      "volume": 4430000,
+      "dollars": 940000000,
+      "rank": "42"
+    },
+    {
       "price": 189.9,
       "volume": 4230000,
       "dollars": 800000000,
       "rank": "54"
-    },
-    {
-      "price": 200.5,
-      "volume": 3950000,
-      "dollars": 790000000,
-      "rank": "58"
-    },
-    {
-      "price": 197.9,
-      "volume": 3910000,
-      "dollars": 770000000,
-      "rank": "61"
-    },
-    {
-      "price": 200.8,
-      "volume": 3650000,
-      "dollars": 730000000,
-      "rank": "66"
-    },
-    {
-      "price": 199.5,
-      "volume": 3220000,
-      "dollars": 640000000,
-      "rank": "85"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 197.0,
+      "low_price": 185.55,
+      "volume": 274500,
+      "dollars": 52192975,
+      "trades": 2,
+      "date_range": "2025-04-04 to 2025-04-30",
+      "color": "blue"
+    }
+  ]
 }

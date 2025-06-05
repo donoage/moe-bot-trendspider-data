@@ -1,14 +1,38 @@
 {
   "metadata": {
     "ticker": "LRCX",
-    "generated_at": "2025-06-04T23:13:06.791789Z",
-    "date_range": "2025-05-05 to 2025-06-04",
+    "generated_at": "2025-06-05T13:03:05.629213+00:00Z",
+    "date_range": "2025-03-07 to 2025-06-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1748563200,
+      "timestamp": "",
+      "price": 75.84,
+      "volume": 9410463,
+      "dollars": 713689513,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": "",
+      "price": 71.11,
+      "volume": 7212156,
+      "dollars": 512856413,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": "",
       "price": 80.79,
       "volume": 4469337,
       "dollars": 361077736,
@@ -22,34 +46,34 @@
   ],
   "levels": [
     {
+      "price": 62.4,
+      "volume": 24090000,
+      "dollars": 1500000000,
+      "rank": "5"
+    },
+    {
+      "price": 71.8,
+      "volume": 19570000,
+      "dollars": 1400000000,
+      "rank": "8"
+    },
+    {
       "price": 76.7,
       "volume": 18270000,
       "dollars": 1400000000,
       "rank": "9"
     },
     {
+      "price": 61.3,
+      "volume": 22760000,
+      "dollars": 1390000000,
+      "rank": "10"
+    },
+    {
       "price": 76.6,
       "volume": 17260000,
       "dollars": 1320000000,
       "rank": "12"
-    },
-    {
-      "price": 77.3,
-      "volume": 16559999,
-      "dollars": 1280000000,
-      "rank": "14"
-    },
-    {
-      "price": 73.1,
-      "volume": 17260000,
-      "dollars": 1260000000,
-      "rank": "15"
-    },
-    {
-      "price": 83.3,
-      "volume": 14770000,
-      "dollars": 1230000000,
-      "rank": "18"
     }
   ],
   "boxes": []

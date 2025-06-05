@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "USB",
-    "generated_at": "2025-06-04T23:14:18.335066Z",
-    "date_range": "2025-05-05 to 2025-06-04",
+    "generated_at": "2025-06-05T13:03:39.542194+00:00Z",
+    "date_range": "2025-03-07 to 2025-06-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": "",
+      "price": 42.84,
+      "volume": 50300957,
+      "dollars": 2154892997,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 42.8,
@@ -21,6 +34,12 @@
       "rank": "2"
     },
     {
+      "price": 35.6,
+      "volume": 52830000,
+      "dollars": 1880000000,
+      "rank": "5"
+    },
+    {
       "price": 43.8,
       "volume": 42610000,
       "dollars": 1870000000,
@@ -31,12 +50,6 @@
       "volume": 42450000,
       "dollars": 1780000000,
       "rank": "8"
-    },
-    {
-      "price": 42.2,
-      "volume": 38100000,
-      "dollars": 1610000000,
-      "rank": "12"
     }
   ],
   "boxes": [
