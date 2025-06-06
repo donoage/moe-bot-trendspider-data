@@ -64,6 +64,38 @@ def get_cookies():
         print("Please make sure cookies.json exists and is properly formatted")
         sys.exit(1)
 
+def convert_dotnet_timestamp(timestamp_str):
+    """Convert /Date(1748563200000)/ format to Unix timestamp"""
+    if not timestamp_str or not timestamp_str.startswith('/Date('):
+        return None
+    
+    # Extract the timestamp from /Date(...)/ format
+    match = re.search(r'/Date\((\d+)\)/', timestamp_str)
+    if match:
+        # The timestamp is already in milliseconds, convert to seconds for Unix timestamp
+        return int(match.group(1)) // 1000
+    return None
+
+def format_timestamp(trade):
+    """Extract and convert timestamp from trade data to Unix timestamp"""
+    # First try to get the timestamp from the Date field (which contains /Date(...) format)
+    date_field = trade.get('Date', '')
+    if date_field:
+        unix_timestamp = convert_dotnet_timestamp(date_field)
+        if unix_timestamp:
+            return unix_timestamp
+    
+    # Fallback to DateTime field if Date field is not available
+    datetime_field = trade.get('DateTime', '')
+    if datetime_field:
+        unix_timestamp = convert_dotnet_timestamp(datetime_field)
+        if unix_timestamp:
+            return unix_timestamp
+    
+    # If neither field has the /Date(...) format, return None
+    # This ensures we either get a proper Unix timestamp or nothing
+    return None
+
 def fetch_big_prints_for_ticker(ticker, start_date, end_date):
     """Fetch big prints (rank 30 or better) for a single ticker"""
     
