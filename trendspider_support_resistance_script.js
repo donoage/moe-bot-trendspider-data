@@ -1,4 +1,4 @@
-describe_indicator('Moebot VL Trendspider v3', 'overlay');
+describe_indicator('Moebot VL Trendspider v4 new', 'overlay');
 
 // Configuration - these can be modified directly in the code
 const showSupport = true;
@@ -353,7 +353,7 @@ try {
                         if (useLines) {
                             // Create two separate horizontal lines when price range is too large
                             const topLine = paint(horizontal_line(topPrice, boxStartIndex, boxEndIndex), {
-                                title: 'Box ' + box.box_number + ' High: $' + topPrice.toFixed(2),
+                                title: 'Line ' + box.box_number + ' High: $' + topPrice.toFixed(2),
                                 color: boxLineColor,
                                 linewidth: 1,
                                 linestyle: 'solid',
@@ -361,7 +361,7 @@ try {
                             });
                             
                             const bottomLine = paint(horizontal_line(bottomPrice, boxStartIndex, boxEndIndex), {
-                                title: 'Box ' + box.box_number + ' Low: $' + bottomPrice.toFixed(2),
+                                title: 'Line ' + box.box_number + ' Low: $' + bottomPrice.toFixed(2),
                                 color: boxLineColor,
                                 linewidth: 1,
                                 linestyle: 'solid',
@@ -378,14 +378,14 @@ try {
                                 const boxMiddleIndex = Math.floor((boxStartIndex + boxEndIndex) / 2);
                                 
                                 // Label for high line
-                                const highLabelText = '[BOX ' + box.box_number + ' HIGH $' + topPrice.toFixed(2) + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
+                                const highLabelText = '[LINE ' + box.box_number + ' HIGH $' + topPrice.toFixed(2) + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
                                 paint_label_at_line(topLine, boxMiddleIndex, highLabelText, {
                                     color: boxLineColor,
                                     vertical_align: 'top'
                                 });
                                 
                                 // Label for low line  
-                                const lowLabelText = '[BOX ' + box.box_number + ' LOW $' + bottomPrice.toFixed(2) + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
+                                const lowLabelText = '[LINE ' + box.box_number + ' LOW $' + bottomPrice.toFixed(2) + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
                                 paint_label_at_line(bottomLine, boxMiddleIndex, lowLabelText, {
                                     color: boxLineColor,
                                     vertical_align: 'middle'
@@ -498,6 +498,13 @@ try {
                         }
                         barIndex = closestBar;
                         console.log('No exact match, using closest bar ' + barIndex + ' (distance: ' + closestDistance + ' seconds)');
+                    }
+                    
+                    // Special handling for very recent timestamps - force to most recent bar if within last 24 hours
+                    if (print.timestamp > time[time.length - 1] - 86400) { // Within last 24 hours
+                        const originalBarIndex = barIndex;
+                        barIndex = time.length - 1; // Force to most recent bar
+                        console.log('Recent timestamp detected, moved from bar ' + originalBarIndex + ' to most recent bar ' + barIndex);
                     }
                 } else {
                     // If no timestamp, place on the most recent candle
