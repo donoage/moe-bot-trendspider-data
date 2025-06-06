@@ -179,7 +179,7 @@ def commit_and_push_changes(new_tickers=None, removed_tickers=None, full_refresh
             current_tickers = load_base_tickers()
             
             if full_refresh:
-                commit_msg = f"Weekly refresh: TrendSpider per-ticker data - {len(current_tickers)} tickers ({timestamp})"
+                commit_msg = f"Daily refresh: TrendSpider per-ticker data - {len(current_tickers)} tickers ({timestamp})"
             elif new_tickers or removed_tickers:
                 changes = []
                 if new_tickers:
