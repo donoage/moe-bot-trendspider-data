@@ -8,6 +8,7 @@ import json
 import requests
 import sys
 import os
+import re
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -25,6 +26,18 @@ def get_date_range(days_back=90):
     start_date = end_date - timedelta(days=days_back)
     
     return start_date.strftime('%Y-%m-%d'), end_date.strftime('%Y-%m-%d')
+
+def convert_dotnet_timestamp(timestamp_str):
+    """Convert /Date(1748563200000)/ format to Unix timestamp"""
+    if not timestamp_str or not timestamp_str.startswith('/Date('):
+        return None
+    
+    # Extract the timestamp from /Date(...)/ format
+    match = re.search(r'/Date\((\d+)\)/', timestamp_str)
+    if match:
+        # The timestamp is already in milliseconds, convert to seconds for Unix timestamp
+        return int(match.group(1)) // 1000
+    return None
 
 def load_ticker_list():
     """Load tickers from the ticker_list.json file"""
@@ -178,42 +191,24 @@ def fetch_big_prints_for_ticker(ticker, start_date, end_date):
         return []
 
 def format_timestamp(trade):
-    """Extract and format timestamp from trade data"""
-    # Try to get date and time information
-    date_str = trade.get('Date', '') or trade.get('DateKey', '')
+    """Extract and convert timestamp from trade data to Unix timestamp"""
+    # First try to get the timestamp from the Date field (which contains /Date(...) format)
+    date_field = trade.get('Date', '')
+    if date_field:
+        unix_timestamp = convert_dotnet_timestamp(date_field)
+        if unix_timestamp:
+            return unix_timestamp
     
-    # Try different time fields in order of preference
-    time_str = ''
-    if 'FullTimeString24' in trade and trade['FullTimeString24']:
-        time_str = trade['FullTimeString24']
-    elif 'TimeString24' in trade and trade['TimeString24']:
-        time_str = trade['TimeString24']
-    elif 'Time' in trade and trade['Time']:
-        time_str = trade['Time']
-    elif 'DateTime' in trade and trade['DateTime']:
-        # DateTime might contain the full timestamp
-        return trade['DateTime']
+    # Fallback to DateTime field if Date field is not available
+    datetime_field = trade.get('DateTime', '')
+    if datetime_field:
+        unix_timestamp = convert_dotnet_timestamp(datetime_field)
+        if unix_timestamp:
+            return unix_timestamp
     
-    # Combine date and time if both are available
-    if date_str and time_str:
-        try:
-            # If date is in YYYY-MM-DD format and time is in HH:MM:SS format
-            if len(date_str) == 10 and '-' in date_str:  # YYYY-MM-DD
-                return f"{date_str} {time_str}"
-            elif len(date_str) == 8:  # YYYYMMDD format
-                # Convert YYYYMMDD to YYYY-MM-DD
-                formatted_date = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
-                return f"{formatted_date} {time_str}"
-        except Exception as e:
-            print(f"Error formatting timestamp: {e}")
-    
-    # Return whatever we have
-    if date_str:
-        return date_str
-    elif time_str:
-        return time_str
-    else:
-        return ""
+    # If neither field has the /Date(...) format, return None
+    # This ensures we either get a proper Unix timestamp or nothing
+    return None
 
 def convert_to_big_prints_format(ticker, prints_data, start_date, end_date):
     """Convert the VolumeLeaders trade data to big_prints.json format"""

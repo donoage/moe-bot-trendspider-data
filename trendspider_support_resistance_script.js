@@ -446,33 +446,22 @@ try {
             });
         }
         
-        // Process individual prints as candle labels if enabled
+        // Process individual prints as text labels on candles if enabled
         const prints = tickerData.prints || [];
         
-        // Note: TrendSpider custom indicators don't have direct access to timeframe information
-        // For now, we'll show prints on all timeframes. Users can manually toggle showPrints = false
-        // if they don't want prints on certain timeframes
-        console.log('Processing prints (timeframe detection not available in TrendSpider custom indicators)');
+        console.log('Processing prints for display as candle labels');
         
         if (prints.length > 0 && showPrints) {
             console.log('Found ' + prints.length + ' prints for ' + currentSymbol);
             
-            // Create array to hold print labels for each candle
-            const printLabels = [];
-            for (let i = 0; i < close.length; i++) {
-                printLabels[i] = null;
-            }
-            
             prints.forEach(function(print, index) {
+                console.log('Processing print #' + index + ': Rank ' + (print.rank || '?') + ' at $' + print.price.toFixed(2));
+                
                 // Convert timestamp to bar index using session-based matching
                 let barIndex = -1;
                 if (print.timestamp && print.timestamp > 0) {
-                    console.log('Processing print with timestamp: ' + print.timestamp);
-                    
                     // Find the daily candle that contains this timestamp
-                    // We need to find which daily session this timestamp belongs to
                     for (let i = 0; i < time.length; i++) {
-                        // Check if this print timestamp falls within the trading session of bar i
                         if (i < time.length - 1) {
                             // Check if timestamp falls between current bar and next bar
                             if (print.timestamp >= time[i] && print.timestamp < time[i + 1]) {
@@ -499,37 +488,57 @@ try {
                             }
                         }
                     }
-                    
-                    // Convert timestamps to readable dates for verification
-                    const printDate = timestampToDateString(print.timestamp);
-                    const barDate = timestampToDateString(time[barIndex]);
-                    console.log('Matched print timestamp ' + print.timestamp + ' (' + printDate + ') to bar ' + barIndex + ' with time: ' + time[barIndex] + ' (' + barDate + ')');
                 } else {
                     // If no timestamp, place on the most recent candle
                     barIndex = close.length - 1;
-                    console.log('No timestamp, using last bar: ' + barIndex);
                 }
                 
                 if (barIndex >= 0 && barIndex < close.length) {
-                    // Create enhanced rank label with symbols for maximum visibility
-                    const rankText = print.rank ? print.rank : '?';
-                    const labelText = '★R' + rankText + '★';  // Add star symbols for extra prominence
+                    // Create a horizontal line at the print price for this specific bar
+                    const printLine = [];
+                    for (let i = 0; i < close.length; i++) {
+                        if (i === barIndex) {
+                            printLine[i] = print.price;
+                        } else {
+                            printLine[i] = NaN;
+                        }
+                    }
                     
-                    printLabels[barIndex] = labelText;
-                    console.log('Placed print label at bar ' + barIndex + ': ' + labelText + ' (price: $' + print.price.toFixed(2) + ')');
+                    // Paint the print line
+                    const printPaintedLine = paint(printLine, {
+                        title: 'Print R' + (print.rank || '?') + ' - $' + print.price.toFixed(2),
+                        color: '#FF0000',
+                        linewidth: 2,
+                        linestyle: 'solid',
+                        transparency: 0
+                    });
+                    
+                    // Create comprehensive print label
+                    const rankText = print.rank ? print.rank : '?';
+                    const volumeText = print.volume ? formatNumber(print.volume) + ' shares' : '';
+                    const dollarsText = print.dollars ? '$' + formatNumber(print.dollars) : '';
+                    const dateText = print.timestamp ? timestampToDateString(print.timestamp) : '';
+                    
+                    let labelText = 'R' + rankText + ' - $' + print.price.toFixed(2);
+                    if (volumeText && dollarsText) {
+                        labelText += ' | ' + volumeText + ' | ' + dollarsText;
+                    }
+                    if (dateText) {
+                        labelText += ' | ' + dateText;
+                    }
+                    
+                    // Add label above the print line
+                    paint_label_at_line(printPaintedLine, barIndex, labelText, {
+                        color: '#FF0000',
+                        vertical_align: 'top'
+                    });
+                    
+                    console.log('✅ Placed print R' + rankText + ' at bar ' + barIndex + ': $' + print.price.toFixed(2));
+                } else {
+                    console.log('❌ Invalid barIndex for print: ' + barIndex);
                 }
                 
                 paintedCount++;
-            });
-            
-            // Paint the print labels on candles with maximum prominence styling
-            paint(printLabels, { 
-                style: 'labels_above',
-                color: '#FFFFFF',      // White text for maximum contrast
-                background: '#FF0000', // Bright red background
-                textsize: 'large',     // Large font size
-                border: 2,            // Add border for extra prominence
-                transparency: 0       // No transparency for maximum visibility
             });
         }
         

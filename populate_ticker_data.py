@@ -11,6 +11,7 @@ import subprocess
 import sys
 import os
 import argparse
+import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -34,7 +35,7 @@ def get_date_range(days_back=90):
 
 def load_ticker_list():
     """Load base_tickers from the volumeleaders_config.json file"""
-    config_file = Path(__file__).parent.parent / 'volumeleaders_config.json'
+    config_file = Path(__file__).parent.parent / 'moe-bot' / 'volumeleaders_config.json'
     
     try:
         with open(config_file, 'r') as f:
@@ -163,7 +164,7 @@ def fetch_big_prints_for_ticker(ticker, start_date, end_date):
                                 rank_int = int(rank)
                                 if rank_int <= 30:  # Rank 30 or better
                                     big_prints.append({
-                                        "timestamp": trade.get('DateTime', ''),
+                                        "timestamp": format_timestamp(trade),
                                         "price": float(trade.get('Price', 0)),
                                         "volume": int(trade.get('Volume', 0)),
                                         "dollars": int(trade.get('Dollars', 0)),
