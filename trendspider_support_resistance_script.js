@@ -11,6 +11,11 @@ const resistanceColor = '#FF0000';
 const lineWidth = 2;
 const showLabels = true; // Show text labels with volume and dollar info
 
+// Opacity/Transparency settings (0.0 = fully transparent, 1.0 = fully opaque)
+const levelsOpacity = 0.7; // Opacity for support/resistance levels
+const boxesOpacity = 0.3; // Opacity for price boxes
+const boxLinesOpacity = 0.8; // Opacity for box border lines
+
 // Helper function to format numbers
 function formatNumber(num) {
     // Add safety check for undefined/null values
@@ -226,7 +231,7 @@ try {
                     color: color,
                     linewidth: lineWidth,
                     linestyle: 'dashed',
-                    transparency: 0 // Ensure no transparency that might cause auto-fill
+                    transparency: 1.0 - levelsOpacity // Convert opacity to transparency (1.0 - opacity)
                 });
                 
                 // Add text label with volume and dollar information
@@ -351,21 +356,35 @@ try {
                         const fillColor = '#9966CC'; // Same purple for fills
                         
                         if (useLines) {
-                            // Create two separate horizontal lines when price range is too large
-                            const topLine = paint(horizontal_line(topPrice, boxStartIndex, boxEndIndex), {
+                            // Create two separate box-like lines when price range is too large
+                            // Create arrays for top and bottom lines that span only the box duration
+                            const topLineArray = [];
+                            const bottomLineArray = [];
+                            
+                            for (let i = 0; i < close.length; i++) {
+                                if (i >= boxStartIndex && i <= boxEndIndex) {
+                                    topLineArray[i] = topPrice;
+                                    bottomLineArray[i] = bottomPrice;
+                                } else {
+                                    topLineArray[i] = NaN;
+                                    bottomLineArray[i] = NaN;
+                                }
+                            }
+                            
+                            const topLine = paint(topLineArray, {
                                 title: 'Line ' + box.box_number + ' High: $' + topPrice.toFixed(2),
                                 color: boxLineColor,
                                 linewidth: 1,
                                 linestyle: 'solid',
-                                transparency: 0
+                                transparency: 1.0 - boxLinesOpacity
                             });
                             
-                            const bottomLine = paint(horizontal_line(bottomPrice, boxStartIndex, boxEndIndex), {
+                            const bottomLine = paint(bottomLineArray, {
                                 title: 'Line ' + box.box_number + ' Low: $' + bottomPrice.toFixed(2),
                                 color: boxLineColor,
                                 linewidth: 1,
                                 linestyle: 'solid',
-                                transparency: 0
+                                transparency: 1.0 - boxLinesOpacity
                             });
                             
                             // Add labels for both lines
@@ -395,24 +414,38 @@ try {
                             console.log('Drew separate lines for box ' + box.box_number + ' (range too large): high=$' + topPrice.toFixed(2) + ', low=$' + bottomPrice.toFixed(2));
                         } else {
                             // Create filled box when price range is reasonable
-                            const topLine = paint(horizontal_line(topPrice, boxStartIndex, boxEndIndex), {
+                            // Create arrays for top and bottom lines that span only the box duration
+                            const topLineArray = [];
+                            const bottomLineArray = [];
+                            
+                            for (let i = 0; i < close.length; i++) {
+                                if (i >= boxStartIndex && i <= boxEndIndex) {
+                                    topLineArray[i] = topPrice;
+                                    bottomLineArray[i] = bottomPrice;
+                                } else {
+                                    topLineArray[i] = NaN;
+                                    bottomLineArray[i] = NaN;
+                                }
+                            }
+                            
+                            const topLine = paint(topLineArray, {
                                 title: 'Box ' + box.box_number + ' Top: $' + topPrice.toFixed(2),
                                 color: boxLineColor,
                                 linewidth: 1,
                                 linestyle: 'solid',
-                                transparency: 0
+                                transparency: 1.0 - boxLinesOpacity
                             });
                             
-                            const bottomLine = paint(horizontal_line(bottomPrice, boxStartIndex, boxEndIndex), {
+                            const bottomLine = paint(bottomLineArray, {
                                 title: 'Box ' + box.box_number + ' Bottom: $' + bottomPrice.toFixed(2),
                                 color: boxLineColor,
                                 linewidth: 1,
                                 linestyle: 'solid',
-                                transparency: 0
+                                transparency: 1.0 - boxLinesOpacity
                             });
                             
-                            // Fill the area between top and bottom lines with lower opacity
-                            fill(topLine, bottomLine, fillColor, 0.1, 'Box ' + box.box_number); // Reduced from 0.2 to 0.1
+                            // Fill the area between top and bottom lines with configurable opacity
+                            fill(topLine, bottomLine, fillColor, boxesOpacity, 'Box ' + box.box_number);
                             
                             // Add single label for filled box
                             if (showLabels) {
