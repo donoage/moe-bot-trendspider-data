@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "ASTS",
-    "generated_at": "2025-06-05T13:06:20.412386+00:00Z",
+    "generated_at": "2025-06-06T01:53:24.129681+00:00Z",
     "date_range": "2025-03-07 to 2025-06-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": "",
+      "timestamp": 1742515200,
       "price": 25.71,
       "volume": 1127805,
       "dollars": 28995866,
       "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1749081600,
+      "price": 30.85,
+      "volume": 797901,
+      "dollars": 24615245,
+      "rank": 21,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
