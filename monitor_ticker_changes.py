@@ -104,35 +104,85 @@ def update_ticker_data(tickers=None, full_refresh=False):
             logger.info(f"Running incremental update for {len(tickers)} tickers: {', '.join(tickers[:10])}{'...' if len(tickers) > 10 else ''}")
             cmd = [PYTHON_PATH, POPULATE_SCRIPT, '--tickers'] + tickers + ['--max-workers', '3']
         
-        # Run the script with proper encoding handling
-        result = subprocess.run(
-            cmd,
-            cwd=REPO_DIR,
-            capture_output=True,
-            text=True,
-            encoding='utf-8',
-            errors='replace',  # Replace invalid UTF-8 characters instead of failing
-            timeout=1800  # 30 minute timeout for large updates
-        )
-        
-        if result.returncode == 0:
-            logger.info(f"✅ Successfully updated ticker data")
-            # Only log first few lines of output to avoid encoding issues in logs
-            if result.stdout:
-                output_lines = result.stdout.split('\n')
-                for line in output_lines[-10:]:  # Show last 10 lines
-                    if line.strip():
-                        logger.debug(f"Script output: {line.strip()}")
-            return True
-        else:
-            logger.error(f"❌ Failed to update ticker data")
-            if result.stderr:
-                # Handle stderr with encoding safety
-                stderr_lines = result.stderr.split('\n')
-                for line in stderr_lines[-5:]:  # Show last 5 error lines
+        # For full refresh, stream output in real-time to show progress
+        if full_refresh:
+            logger.info(f"🚀 Starting full refresh with real-time progress...")
+            sys.stdout.flush()
+            
+            # Run with real-time output streaming
+            process = subprocess.Popen(
+                cmd,
+                cwd=REPO_DIR,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,
+                text=True,
+                encoding='utf-8',
+                errors='replace',
+                bufsize=1,  # Line buffered
+                universal_newlines=True
+            )
+            
+            # Stream output in real-time
+            output_lines = []
+            while True:
+                line = process.stdout.readline()
+                if line:
+                    line = line.rstrip()
+                    output_lines.append(line)
+                    # Print progress lines immediately to console
+                    if any(indicator in line for indicator in ['Processing tickers', '📈 Progress Update:', '✅ Completed:', '🚀 Starting processing']):
+                        print(line)
+                        sys.stdout.flush()
+                    # Also log important lines
+                    if any(indicator in line for indicator in ['📈 Progress Update:', '✅ Completed:', 'Date range:', 'Processing all base_tickers']):
+                        logger.info(line)
+                elif process.poll() is not None:
+                    break
+            
+            # Wait for process to complete and get return code
+            return_code = process.wait()
+            
+            if return_code == 0:
+                logger.info(f"✅ Successfully updated ticker data")
+                return True
+            else:
+                logger.error(f"❌ Failed to update ticker data (exit code: {return_code})")
+                # Log last few lines for debugging
+                for line in output_lines[-5:]:
                     if line.strip():
                         logger.error(f"Error output: {line.strip()}")
-            return False
+                return False
+                
+        else:
+            # For incremental updates, use the existing capture method
+            result = subprocess.run(
+                cmd,
+                cwd=REPO_DIR,
+                capture_output=True,
+                text=True,
+                encoding='utf-8',
+                errors='replace',  # Replace invalid UTF-8 characters instead of failing
+                timeout=1800  # 30 minute timeout for large updates
+            )
+            
+            if result.returncode == 0:
+                logger.info(f"✅ Successfully updated ticker data")
+                # Only log first few lines of output to avoid encoding issues in logs
+                if result.stdout:
+                    output_lines = result.stdout.split('\n')
+                    for line in output_lines[-10:]:  # Show last 10 lines
+                        if line.strip():
+                            logger.debug(f"Script output: {line.strip()}")
+                return True
+            else:
+                logger.error(f"❌ Failed to update ticker data")
+                if result.stderr:
+                    # Handle stderr with encoding safety
+                    stderr_lines = result.stderr.split('\n')
+                    for line in stderr_lines[-5:]:  # Show last 5 error lines
+                        if line.strip():
+                            logger.error(f"Error output: {line.strip()}")
+                return False
             
     except subprocess.TimeoutExpired:
         logger.error(f"❌ Timeout updating ticker data")
