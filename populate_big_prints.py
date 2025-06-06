@@ -28,15 +28,21 @@ def get_date_range(days_back=90):
     return start_date.strftime('%Y-%m-%d'), end_date.strftime('%Y-%m-%d')
 
 def convert_dotnet_timestamp(timestamp_str):
-    """Convert /Date(1748563200000)/ format to Unix timestamp"""
+    """Convert /Date(1748563200000)/ format to Unix timestamp with timezone adjustment"""
     if not timestamp_str or not timestamp_str.startswith('/Date('):
         return None
     
     # Extract the timestamp from /Date(...)/ format
     match = re.search(r'/Date\((\d+)\)/', timestamp_str)
     if match:
-        # The timestamp is already in milliseconds, convert to seconds for Unix timestamp
-        return int(match.group(1)) // 1000
+        # The timestamp is in milliseconds, convert to seconds for Unix timestamp
+        timestamp_seconds = int(match.group(1)) // 1000
+        
+        # Add 4 hours (14400 seconds) to adjust from UTC midnight to Eastern market day
+        # This fixes the timezone issue where UTC midnight becomes previous day in Eastern time
+        timestamp_seconds += 14400  # 4 hours in seconds
+        
+        return timestamp_seconds
     return None
 
 def load_ticker_list():

@@ -454,24 +454,32 @@ try {
         if (prints.length > 0 && showPrints) {
             console.log('Found ' + prints.length + ' prints for ' + currentSymbol);
             
+            // Group prints by bar index (day) to handle stacking
+            const printsByBar = {};
+            
+            // First pass: determine bar index for each print
             prints.forEach(function(print, index) {
-                console.log('Processing print #' + index + ': Rank ' + (print.rank || '?') + ' at $' + print.price.toFixed(2));
+                console.log('Processing print #' + index + ': Rank ' + (print.rank || '?') + ' at $' + print.price.toFixed(2) + ' timestamp: ' + print.timestamp);
                 
                 // Convert timestamp to bar index using session-based matching
                 let barIndex = -1;
                 if (print.timestamp && print.timestamp > 0) {
+                    console.log('Looking for timestamp ' + print.timestamp + ' in chart with ' + time.length + ' bars');
+                    
                     // Find the daily candle that contains this timestamp
                     for (let i = 0; i < time.length; i++) {
                         if (i < time.length - 1) {
                             // Check if timestamp falls between current bar and next bar
                             if (print.timestamp >= time[i] && print.timestamp < time[i + 1]) {
                                 barIndex = i;
+                                console.log('Found exact match at bar ' + i + ' (between ' + time[i] + ' and ' + time[i + 1] + ')');
                                 break;
                             }
                         } else {
                             // For the last bar, check if timestamp is after it
                             if (print.timestamp >= time[i]) {
                                 barIndex = i;
+                                console.log('Found match at last bar ' + i + ' (timestamp >= ' + time[i] + ')');
                                 break;
                             }
                         }
@@ -480,20 +488,49 @@ try {
                     // If no exact match found, find closest bar
                     if (barIndex === -1) {
                         let closestDistance = Infinity;
+                        let closestBar = -1;
                         for (let i = 0; i < time.length; i++) {
                             const distance = Math.abs(time[i] - print.timestamp);
                             if (distance < closestDistance) {
                                 closestDistance = distance;
-                                barIndex = i;
+                                closestBar = i;
                             }
                         }
+                        barIndex = closestBar;
+                        console.log('No exact match, using closest bar ' + barIndex + ' (distance: ' + closestDistance + ' seconds)');
                     }
                 } else {
                     // If no timestamp, place on the most recent candle
                     barIndex = close.length - 1;
+                    console.log('No timestamp, using most recent bar: ' + barIndex);
                 }
                 
                 if (barIndex >= 0 && barIndex < close.length) {
+                    if (!printsByBar[barIndex]) {
+                        printsByBar[barIndex] = [];
+                    }
+                    printsByBar[barIndex].push(print);
+                    console.log('Added print R' + (print.rank || '?') + ' to bar ' + barIndex);
+                } else {
+                    console.log('❌ Invalid barIndex ' + barIndex + ' for print R' + (print.rank || '?'));
+                }
+            });
+            
+            // Second pass: process prints grouped by bar with stacking
+            Object.keys(printsByBar).forEach(function(barIndexStr) {
+                const barIndex = parseInt(barIndexStr);
+                const barPrints = printsByBar[barIndex];
+                
+                // Sort prints by rank (best rank first) for consistent stacking order
+                barPrints.sort(function(a, b) {
+                    const rankA = parseInt(a.rank) || 999;
+                    const rankB = parseInt(b.rank) || 999;
+                    return rankA - rankB;
+                });
+                
+                console.log('Processing ' + barPrints.length + ' prints for bar ' + barIndex);
+                
+                barPrints.forEach(function(print, stackIndex) {
                     // Create a horizontal line at the print price for this specific bar
                     const printLine = [];
                     for (let i = 0; i < close.length; i++) {
@@ -513,32 +550,52 @@ try {
                         transparency: 0
                     });
                     
-                    // Create comprehensive print label
+                    // Create simple rank-only label
                     const rankText = print.rank ? print.rank : '?';
-                    const volumeText = print.volume ? formatNumber(print.volume) + ' shares' : '';
-                    const dollarsText = print.dollars ? '$' + formatNumber(print.dollars) : '';
-                    const dateText = print.timestamp ? timestampToDateString(print.timestamp) : '';
+                    let labelText = 'R' + rankText;
                     
-                    let labelText = 'R' + rankText + ' - $' + print.price.toFixed(2);
-                    if (volumeText && dollarsText) {
-                        labelText += ' | ' + volumeText + ' | ' + dollarsText;
+                    // If multiple prints on same day, combine them into one label
+                    if (barPrints.length > 1) {
+                        if (stackIndex === 0) {
+                            // For the first print, show all ranks combined
+                            const allRanks = barPrints.map(p => 'R' + (p.rank || '?')).join(' ');
+                            labelText = allRanks;
+                        } else {
+                            // Skip individual labels for subsequent prints to avoid overlap
+                            labelText = '';
+                        }
                     }
-                    if (dateText) {
-                        labelText += ' | ' + dateText;
+                    
+                    // Add label directly over the candle (only if labelText is not empty)
+                    if (labelText) {
+                        // Position label at the high of the candle for better visibility
+                        const labelLine = [];
+                        for (let i = 0; i < close.length; i++) {
+                            if (i === barIndex) {
+                                labelLine[i] = high[i]; // Position at candle high
+                            } else {
+                                labelLine[i] = NaN;
+                            }
+                        }
+                        
+                        const labelPaintedLine = paint(labelLine, {
+                            title: 'Label for ' + labelText,
+                            color: 'transparent', // Make the line invisible
+                            linewidth: 0,
+                            transparency: 1
+                        });
+                        
+                        paint_label_at_line(labelPaintedLine, barIndex, labelText, {
+                            color: '#00FF00', // Bright green
+                            vertical_align: 'bottom' // Position above the high
+                        });
                     }
                     
-                    // Add label above the print line
-                    paint_label_at_line(printPaintedLine, barIndex, labelText, {
-                        color: '#FF0000',
-                        vertical_align: 'top'
-                    });
+                    console.log('✅ Placed print R' + (print.rank || '?') + ' at bar ' + barIndex + ': $' + print.price.toFixed(2) + 
+                               (barPrints.length > 1 ? ' (stacked with ' + (barPrints.length - 1) + ' others)' : ''));
                     
-                    console.log('✅ Placed print R' + rankText + ' at bar ' + barIndex + ': $' + print.price.toFixed(2));
-                } else {
-                    console.log('❌ Invalid barIndex for print: ' + barIndex);
-                }
-                
-                paintedCount++;
+                    paintedCount++;
+                });
             });
         }
         
