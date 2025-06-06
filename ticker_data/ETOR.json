@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "ETOR",
-    "generated_at": "2025-06-06T04:13:29.078196+00:00Z",
+    "generated_at": "2025-06-06T20:22:54.478326+00:00Z",
     "date_range": "2025-03-08 to 2025-06-06",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -37,6 +37,18 @@
       "volume": 70000,
       "dollars": 4679500,
       "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1749182400,
+      "price": 68.7,
+      "volume": 58494,
+      "dollars": 4018537,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -104,22 +116,10 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1747713600,
-      "price": 66.14,
-      "volume": 45955,
-      "dollars": 3039463,
-      "rank": 9,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1747800000,
-      "price": 65.56,
-      "volume": 34932,
-      "dollars": 2290141,
+      "timestamp": 1749182400,
+      "price": 63.8,
+      "volume": 50403,
+      "dollars": 3215711,
       "rank": 10,
       "conditions": "",
       "exchange": "",
@@ -154,7 +154,7 @@
       "rank": "4"
     },
     {
-      "price": 64.2,
+      "price": 63.8,
       "volume": 70000,
       "dollars": 0,
       "rank": "5"
