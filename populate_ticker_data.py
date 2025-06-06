@@ -385,10 +385,17 @@ def process_ticker(ticker, start_date, end_date, output_dir):
     # Remove verbose print statement since we have progress bar
     # print(f"Processing {ticker}...")
     
-    # Fetch all data types for this ticker
-    prints = fetch_big_prints_for_ticker(ticker, start_date, end_date)
-    levels = fetch_support_resistance_for_ticker(ticker, start_date, end_date)
-    boxes = fetch_price_boxes_for_ticker(ticker, start_date, end_date)
+    # Fetch all data types for this ticker concurrently
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        # Submit all three fetch operations concurrently
+        prints_future = executor.submit(fetch_big_prints_for_ticker, ticker, start_date, end_date)
+        levels_future = executor.submit(fetch_support_resistance_for_ticker, ticker, start_date, end_date)
+        boxes_future = executor.submit(fetch_price_boxes_for_ticker, ticker, start_date, end_date)
+        
+        # Wait for all operations to complete
+        prints = prints_future.result()
+        levels = levels_future.result()
+        boxes = boxes_future.result()
     
     # Create ticker data structure
     ticker_data = {
