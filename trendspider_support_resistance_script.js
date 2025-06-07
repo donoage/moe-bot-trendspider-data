@@ -1,4 +1,4 @@
-describe_indicator('Moebot VL Trendspider v4.1 (Fixed Recent Prints)', 'overlay');
+describe_indicator('Moebot VL Trendspider v4.2 (Fixed Recent Print Logic)', 'overlay');
 
 // Configuration - these can be modified directly in the code
 const showSupport = true;
@@ -516,11 +516,11 @@ try {
                 if (print.timestamp && print.timestamp > 0) {
                     console.log('Looking for timestamp ' + print.timestamp + ' in chart with ' + time.length + ' bars');
                     
-                    // Check if this is a very recent print (within last 7 days or after last chart bar)
-                    const isVeryRecent = print.timestamp > (currentTimestamp - 7 * 24 * 3600) || print.timestamp > lastChartTime;
+                    // Check if this print is after the chart's end time (truly recent)
+                    const isAfterChartEnd = print.timestamp > lastChartTime;
                     
-                    if (isVeryRecent) {
-                        // For very recent prints, always place on the most recent bar
+                    if (isAfterChartEnd) {
+                        // For prints after chart end, always place on the most recent bar
                         barIndex = time.length - 1;
                         console.log('🔥 RECENT PRINT detected - placing on most recent bar ' + barIndex + ' (timestamp: ' + print.timestamp + ', current: ' + currentTimestamp + ', chart end: ' + lastChartTime + ')');
                     } else {
