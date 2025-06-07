@@ -108,7 +108,7 @@ try {
         
         // Log data freshness information
         if (tickerData.metadata && tickerData.metadata.generated_at) {
-            const dataTimestamp = new Date(tickerData.metadata.generated_at).getTime() / 1000;
+            const dataTimestamp = Date.parse(tickerData.metadata.generated_at) / 1000;
             const currentTime = Math.floor(Date.now() / 1000);
             const dataAge = currentTime - dataTimestamp;
             console.log('Data age: ' + Math.floor(dataAge / 60) + ' minutes (' + dataAge + ' seconds)');
