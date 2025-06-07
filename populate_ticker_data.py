@@ -17,6 +17,46 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import time
 from tqdm import tqdm
+import random
+
+def retry_with_backoff(func, max_retries=3, base_delay=1.0, max_delay=60.0):
+    """
+    Retry a function with exponential backoff
+    
+    Args:
+        func: Function to retry (should be a lambda or callable)
+        max_retries: Maximum number of retry attempts
+        base_delay: Initial delay in seconds
+        max_delay: Maximum delay in seconds
+    
+    Returns:
+        Result of the function call
+    
+    Raises:
+        Last exception if all retries fail
+    """
+    last_exception = None
+    
+    for attempt in range(max_retries + 1):
+        try:
+            return func()
+        except Exception as e:
+            last_exception = e
+            
+            if attempt == max_retries:
+                # Last attempt failed, raise the exception
+                raise last_exception
+            
+            # Calculate delay with exponential backoff and jitter
+            delay = min(base_delay * (2 ** attempt), max_delay)
+            jitter = random.uniform(0.1, 0.3) * delay  # Add 10-30% jitter
+            total_delay = delay + jitter
+            
+            print(f"Attempt {attempt + 1} failed: {e}. Retrying in {total_delay:.1f}s...")
+            time.sleep(total_delay)
+    
+    # This should never be reached, but just in case
+    raise last_exception
 
 def get_date_range(days_back=90):
     """Calculate date range for the past N days (excluding weekends)"""
@@ -186,8 +226,12 @@ def fetch_big_prints_for_ticker(ticker, start_date, end_date):
 
     url = "https://www.volumeleaders.com/Trades/GetTrades"
     
+    def make_request():
+        return requests.post(url, headers=headers, data=payload, timeout=120)  # Increased timeout to 120s
+    
     try:
-        response = requests.post(url, headers=headers, data=payload, timeout=60)
+        # Use retry logic for the request
+        response = retry_with_backoff(make_request, max_retries=3, base_delay=2.0)
         
         if response.status_code == 200:
             try:
@@ -253,13 +297,17 @@ def fetch_support_resistance_for_ticker(ticker, start_date, end_date):
             '--max-date', end_date
         ]
         
-        result = subprocess.run(
-            cmd,
-            cwd="/Users/stephenbae/Projects/moe-bot",
-            capture_output=True,
-            text=True,
-            timeout=60  # 60 second timeout
-        )
+        def run_levels_script():
+            return subprocess.run(
+                cmd,
+                cwd="/Users/stephenbae/Projects/moe-bot",
+                capture_output=True,
+                text=True,
+                timeout=120  # Increased timeout to 120s
+            )
+        
+        # Use retry logic for the subprocess call
+        result = retry_with_backoff(run_levels_script, max_retries=2, base_delay=1.0)
         
         if result.returncode == 0:
             try:
@@ -352,13 +400,17 @@ def fetch_price_boxes_for_ticker(ticker, start_date, end_date):
             '--min-dollars', '18.0'  # 18M minimum
         ]
         
-        result = subprocess.run(
-            cmd,
-            cwd="/Users/stephenbae/Projects/moe-bot",
-            capture_output=True,
-            text=True,
-            timeout=120  # 2 minute timeout for sweep data
-        )
+        def run_boxes_script():
+            return subprocess.run(
+                cmd,
+                cwd="/Users/stephenbae/Projects/moe-bot",
+                capture_output=True,
+                text=True,
+                timeout=180  # Increased timeout to 3 minutes for sweep data
+            )
+        
+        # Use retry logic for the subprocess call
+        result = retry_with_backoff(run_boxes_script, max_retries=2, base_delay=1.5)
         
         if result.returncode == 0:
             try:
@@ -466,7 +518,7 @@ def process_ticker(ticker, start_date, end_date, output_dir):
 def main():
     parser = argparse.ArgumentParser(description='Populate individual ticker data files')
     parser.add_argument('--tickers', nargs='+', help='Specific tickers to process (default: all base_tickers from volumeleaders_config.json)')
-    parser.add_argument('--max-workers', type=int, default=3, help='Maximum concurrent workers (default: 3)')
+    parser.add_argument('--max-workers', type=int, default=2, help='Maximum concurrent workers (default: 2, optimized for reliability)')
     parser.add_argument('--days-back', type=int, default=90, help='Days to look back for data (default: 90)')
     
     args = parser.parse_args()
@@ -526,6 +578,10 @@ def main():
                 
                 completed += 1
                 pbar.update(1)
+                
+                # Add small delay to avoid overwhelming the server
+                if args.max_workers > 1:
+                    time.sleep(0.1)  # 100ms delay between completions
                 
                 # Print periodic progress updates for logs
                 if completed % 10 == 0 or completed == len(tickers):
