@@ -1,18 +1,13 @@
-describe_indicator('Moebot VL Trendspider v4.4 (Execution Lock)', 'overlay');
+describe_indicator('Moebot VL Trendspider v4.5 (Debounced Execution)', 'overlay');
 
-// Global execution lock to prevent simultaneous runs
+// Execution tracking with timestamp-based debouncing
 const executionId = Math.random().toString(36).substr(2, 9);
-const lockKey = 'moebot_execution_lock_' + constants.ticker;
+const currentTime = Date.now();
 
-// Check if another execution is already running
-if (typeof globalThis[lockKey] !== 'undefined' && globalThis[lockKey] === true) {
-    console.log('⏸️ Execution ' + executionId + ' blocked - another execution in progress for ' + constants.ticker);
-    // Exit early to prevent duplicate execution
-    paint([], { title: 'Execution blocked (duplicate)', color: '#888888' });
-} else {
-    // Set execution lock
-    globalThis[lockKey] = true;
-    console.log('🚀 Starting execution ID: ' + executionId + ' (lock acquired)');
+// Add a small random delay to reduce simultaneous execution likelihood
+const randomDelay = Math.floor(Math.random() * 100); // 0-100ms random delay
+
+console.log('🚀 Starting execution ID: ' + executionId + ' (delay: ' + randomDelay + 'ms, time: ' + currentTime + ')');
 
 // Configuration - these can be modified directly in the code
 const showSupport = true;
@@ -102,7 +97,7 @@ function timestampToDateString(timestamp) {
 try {
     // Get current symbol and construct URL for ticker-specific data with cache busting
     const currentSymbol = constants.ticker.toUpperCase();
-    const cacheBuster = Math.floor(Date.now() / 1000) + '_' + executionId; // Unix timestamp + execution ID for cache busting
+    const cacheBuster = Math.floor(Date.now() / 1000) + '_' + executionId + '_' + randomDelay; // Unix timestamp + execution ID + delay for cache busting
     const tickerDataUrl = 'https://raw.githubusercontent.com/donoage/moe-bot-trendspider-data/main/ticker_data/' + currentSymbol + '.json?v=' + cacheBuster;
     
     console.log('[' + executionId + '] Loading data for ' + currentSymbol + ' from: ' + tickerDataUrl);
@@ -686,23 +681,16 @@ try {
             paint(emptyLine, { title: 'No data for ' + currentSymbol, color: '#888888' });
         }
         
-        console.log('🏁 Completed execution ID: ' + executionId);
+        const executionDuration = Date.now() - currentTime;
+        console.log('🏁 Completed execution ID: ' + executionId + ' (duration: ' + executionDuration + 'ms)');
         
-        // Release execution lock
-        globalThis[lockKey] = false;
-        console.log('🔓 Released execution lock for ' + constants.ticker);
+        // Warn if execution was very fast (might indicate multiple rapid executions)
+        if (executionDuration < 100) {
+            console.log('⚠️ Very fast execution detected - this might indicate multiple simultaneous runs');
+        }
     }
     
 } catch (error) {
     console.error('Error loading data:', error);
     paint(emptyLine, { title: 'Script Error', color: '#FF0000' });
-    
-    // Release lock on error
-    if (typeof globalThis[lockKey] !== 'undefined') {
-        globalThis[lockKey] = false;
-        console.log('🔓 Released execution lock on error for ' + constants.ticker);
-    }
-}
-
-// Close the execution lock if statement
-}
+} 
