@@ -1,4 +1,4 @@
-describe_indicator('Moebot VL Trendspider v4 new', 'overlay');
+describe_indicator('Moebot VL Trendspider v4.1 (Fixed Recent Prints)', 'overlay');
 
 // Configuration - these can be modified directly in the code
 const showSupport = true;
@@ -86,11 +86,13 @@ function timestampToDateString(timestamp) {
     }
 
 try {
-    // Get current symbol and construct URL for ticker-specific data
+    // Get current symbol and construct URL for ticker-specific data with cache busting
     const currentSymbol = constants.ticker.toUpperCase();
-    const tickerDataUrl = 'https://raw.githubusercontent.com/donoage/moe-bot-trendspider-data/main/ticker_data/' + currentSymbol + '.json';
+    const cacheBuster = Math.floor(Date.now() / 1000); // Unix timestamp for cache busting
+    const tickerDataUrl = 'https://raw.githubusercontent.com/donoage/moe-bot-trendspider-data/main/ticker_data/' + currentSymbol + '.json?v=' + cacheBuster;
     
     console.log('Loading data for ' + currentSymbol + ' from: ' + tickerDataUrl);
+    console.log('Cache buster timestamp: ' + cacheBuster);
     
     // Load the ticker-specific data
     const tickerResponse = await request.http(tickerDataUrl);
@@ -103,6 +105,15 @@ try {
         let paintedCount = 0;
         
         console.log('Loaded data for ' + currentSymbol + ':', tickerData.metadata);
+        
+        // Log data freshness information
+        if (tickerData.metadata && tickerData.metadata.generated_at) {
+            const dataTimestamp = new Date(tickerData.metadata.generated_at).getTime() / 1000;
+            const currentTime = Math.floor(Date.now() / 1000);
+            const dataAge = currentTime - dataTimestamp;
+            console.log('Data age: ' + Math.floor(dataAge / 60) + ' minutes (' + dataAge + ' seconds)');
+            console.log('Data generated at: ' + tickerData.metadata.generated_at);
+        }
         
         // Function to consolidate nearby levels
         function consolidateLevels(levels, consolidationThreshold) {
@@ -483,6 +494,8 @@ try {
         const prints = tickerData.prints || [];
         
         console.log('Processing prints for display as candle labels');
+        console.log('Current time (for debugging): ' + Math.floor(Date.now() / 1000));
+        console.log('Chart time range: ' + (time.length > 0 ? time[0] + ' to ' + time[time.length - 1] : 'empty'));
         
         if (prints.length > 0 && showPrints) {
             console.log('Found ' + prints.length + ' prints for ' + currentSymbol);
@@ -490,69 +503,81 @@ try {
             // Group prints by bar index (day) to handle stacking
             const printsByBar = {};
             
-            // First pass: determine bar index for each print
+            // Get current time for recent print detection
+            const currentTimestamp = Math.floor(Date.now() / 1000);
+            const lastChartTime = time.length > 0 ? time[time.length - 1] : 0;
+            
+            // First pass: determine bar index for each print with improved logic
             prints.forEach(function(print, index) {
                 console.log('Processing print #' + index + ': Rank ' + (print.rank || '?') + ' at $' + print.price.toFixed(2) + ' timestamp: ' + print.timestamp);
                 
-                // Convert timestamp to bar index using session-based matching
+                // Convert timestamp to bar index using improved matching
                 let barIndex = -1;
                 if (print.timestamp && print.timestamp > 0) {
                     console.log('Looking for timestamp ' + print.timestamp + ' in chart with ' + time.length + ' bars');
                     
-                    // Find the daily candle that contains this timestamp
-                    for (let i = 0; i < time.length; i++) {
-                        if (i < time.length - 1) {
-                            // Check if timestamp falls between current bar and next bar
-                            if (print.timestamp >= time[i] && print.timestamp < time[i + 1]) {
-                                barIndex = i;
-                                console.log('Found exact match at bar ' + i + ' (between ' + time[i] + ' and ' + time[i + 1] + ')');
-                                break;
-                            }
-                        } else {
-                            // For the last bar, check if timestamp is after it
-                            if (print.timestamp >= time[i]) {
-                                barIndex = i;
-                                console.log('Found match at last bar ' + i + ' (timestamp >= ' + time[i] + ')');
-                                break;
-                            }
-                        }
-                    }
+                    // Check if this is a very recent print (within last 7 days or after last chart bar)
+                    const isVeryRecent = print.timestamp > (currentTimestamp - 7 * 24 * 3600) || print.timestamp > lastChartTime;
                     
-                    // If no exact match found, find closest bar
-                    if (barIndex === -1) {
-                        let closestDistance = Infinity;
-                        let closestBar = -1;
+                    if (isVeryRecent) {
+                        // For very recent prints, always place on the most recent bar
+                        barIndex = time.length - 1;
+                        console.log('🔥 RECENT PRINT detected - placing on most recent bar ' + barIndex + ' (timestamp: ' + print.timestamp + ', current: ' + currentTimestamp + ', chart end: ' + lastChartTime + ')');
+                    } else {
+                        // For older prints, try to find the best matching bar
+                        let bestMatch = -1;
+                        let bestDistance = Infinity;
+                        
+                        // Look for the best matching bar within a reasonable tolerance
                         for (let i = 0; i < time.length; i++) {
-                            const distance = Math.abs(time[i] - print.timestamp);
-                            if (distance < closestDistance) {
-                                closestDistance = distance;
-                                closestBar = i;
+                            const barTime = time[i];
+                            const distance = Math.abs(barTime - print.timestamp);
+                            
+                            // Consider it a good match if within 12 hours (43200 seconds)
+                            if (distance <= 43200 && distance < bestDistance) {
+                                bestDistance = distance;
+                                bestMatch = i;
                             }
                         }
-                        barIndex = closestBar;
-                        console.log('No exact match, using closest bar ' + barIndex + ' (distance: ' + closestDistance + ' seconds)');
-                    }
-                    
-                    // Special handling for very recent timestamps - force to most recent bar if within last 24 hours
-                    if (print.timestamp > time[time.length - 1] - 86400) { // Within last 24 hours
-                        const originalBarIndex = barIndex;
-                        barIndex = time.length - 1; // Force to most recent bar
-                        console.log('Recent timestamp detected, moved from bar ' + originalBarIndex + ' to most recent bar ' + barIndex);
+                        
+                        if (bestMatch !== -1) {
+                            barIndex = bestMatch;
+                            console.log('Found good match at bar ' + barIndex + ' (distance: ' + bestDistance + ' seconds)');
+                        } else {
+                            // If no good match found, find the closest bar regardless of distance
+                            for (let i = 0; i < time.length; i++) {
+                                const distance = Math.abs(time[i] - print.timestamp);
+                                if (distance < bestDistance) {
+                                    bestDistance = distance;
+                                    bestMatch = i;
+                                }
+                            }
+                            barIndex = bestMatch;
+                            console.log('No close match, using closest bar ' + barIndex + ' (distance: ' + bestDistance + ' seconds)');
+                        }
                     }
                 } else {
                     // If no timestamp, place on the most recent candle
-                    barIndex = close.length - 1;
+                    barIndex = time.length - 1;
                     console.log('No timestamp, using most recent bar: ' + barIndex);
                 }
                 
-                if (barIndex >= 0 && barIndex < close.length) {
+                // Ensure barIndex is valid
+                if (barIndex >= 0 && barIndex < time.length) {
                     if (!printsByBar[barIndex]) {
                         printsByBar[barIndex] = [];
                     }
                     printsByBar[barIndex].push(print);
-                    console.log('Added print R' + (print.rank || '?') + ' to bar ' + barIndex);
+                    console.log('✅ Added print R' + (print.rank || '?') + ' to bar ' + barIndex + ' (chart bar time: ' + (time[barIndex] || 'unknown') + ')');
                 } else {
-                    console.log('❌ Invalid barIndex ' + barIndex + ' for print R' + (print.rank || '?'));
+                    console.log('❌ Invalid barIndex ' + barIndex + ' for print R' + (print.rank || '?') + ' - forcing to last bar');
+                    // Force to last bar as fallback
+                    barIndex = time.length - 1;
+                    if (!printsByBar[barIndex]) {
+                        printsByBar[barIndex] = [];
+                    }
+                    printsByBar[barIndex].push(print);
+                    console.log('🔧 FALLBACK: Placed print R' + (print.rank || '?') + ' on last bar ' + barIndex);
                 }
             });
             
