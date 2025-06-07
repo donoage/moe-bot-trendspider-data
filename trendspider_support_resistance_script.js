@@ -1,8 +1,18 @@
-describe_indicator('Moebot VL Trendspider v4.3 (Anti-Duplicate Execution)', 'overlay');
+describe_indicator('Moebot VL Trendspider v4.4 (Execution Lock)', 'overlay');
 
-// Execution tracking to prevent duplicate runs
+// Global execution lock to prevent simultaneous runs
 const executionId = Math.random().toString(36).substr(2, 9);
-console.log('🚀 Starting execution ID: ' + executionId);
+const lockKey = 'moebot_execution_lock_' + constants.ticker;
+
+// Check if another execution is already running
+if (typeof globalThis[lockKey] !== 'undefined' && globalThis[lockKey] === true) {
+    console.log('⏸️ Execution ' + executionId + ' blocked - another execution in progress for ' + constants.ticker);
+    // Exit early to prevent duplicate execution
+    paint([], { title: 'Execution blocked (duplicate)', color: '#888888' });
+} else {
+    // Set execution lock
+    globalThis[lockKey] = true;
+    console.log('🚀 Starting execution ID: ' + executionId + ' (lock acquired)');
 
 // Configuration - these can be modified directly in the code
 const showSupport = true;
@@ -677,9 +687,22 @@ try {
         }
         
         console.log('🏁 Completed execution ID: ' + executionId);
+        
+        // Release execution lock
+        globalThis[lockKey] = false;
+        console.log('🔓 Released execution lock for ' + constants.ticker);
     }
     
 } catch (error) {
     console.error('Error loading data:', error);
     paint(emptyLine, { title: 'Script Error', color: '#FF0000' });
-} 
+    
+    // Release lock on error
+    if (typeof globalThis[lockKey] !== 'undefined') {
+        globalThis[lockKey] = false;
+        console.log('🔓 Released execution lock on error for ' + constants.ticker);
+    }
+}
+
+// Close the execution lock if statement
+}
