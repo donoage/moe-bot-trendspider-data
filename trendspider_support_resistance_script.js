@@ -1,4 +1,8 @@
-describe_indicator('Moebot VL Trendspider v4.2 (Fixed Recent Print Logic)', 'overlay');
+describe_indicator('Moebot VL Trendspider v4.3 (Anti-Duplicate Execution)', 'overlay');
+
+// Execution tracking to prevent duplicate runs
+const executionId = Math.random().toString(36).substr(2, 9);
+console.log('🚀 Starting execution ID: ' + executionId);
 
 // Configuration - these can be modified directly in the code
 const showSupport = true;
@@ -88,11 +92,11 @@ function timestampToDateString(timestamp) {
 try {
     // Get current symbol and construct URL for ticker-specific data with cache busting
     const currentSymbol = constants.ticker.toUpperCase();
-    const cacheBuster = Math.floor(Date.now() / 1000); // Unix timestamp for cache busting
+    const cacheBuster = Math.floor(Date.now() / 1000) + '_' + executionId; // Unix timestamp + execution ID for cache busting
     const tickerDataUrl = 'https://raw.githubusercontent.com/donoage/moe-bot-trendspider-data/main/ticker_data/' + currentSymbol + '.json?v=' + cacheBuster;
     
-    console.log('Loading data for ' + currentSymbol + ' from: ' + tickerDataUrl);
-    console.log('Cache buster timestamp: ' + cacheBuster);
+    console.log('[' + executionId + '] Loading data for ' + currentSymbol + ' from: ' + tickerDataUrl);
+    console.log('[' + executionId + '] Cache buster timestamp: ' + cacheBuster);
     
     // Load the ticker-specific data
     const tickerResponse = await request.http(tickerDataUrl);
@@ -104,7 +108,7 @@ try {
         const tickerData = tickerResponse;
         let paintedCount = 0;
         
-        console.log('Loaded data for ' + currentSymbol + ':', tickerData.metadata);
+        console.log('[' + executionId + '] Loaded data for ' + currentSymbol + ':', tickerData.metadata);
         
         // Log data freshness information
         if (tickerData.metadata && tickerData.metadata.generated_at) {
@@ -493,12 +497,12 @@ try {
         // Process individual prints as text labels on candles if enabled
         const prints = tickerData.prints || [];
         
-        console.log('Processing prints for display as candle labels');
-        console.log('Current time (for debugging): ' + Math.floor(Date.now() / 1000));
-        console.log('Chart time range: ' + (time.length > 0 ? time[0] + ' to ' + time[time.length - 1] : 'empty'));
+        console.log('[' + executionId + '] Processing prints for display as candle labels');
+        console.log('[' + executionId + '] Current time (for debugging): ' + Math.floor(Date.now() / 1000));
+        console.log('[' + executionId + '] Chart time range: ' + (time.length > 0 ? time[0] + ' to ' + time[time.length - 1] : 'empty'));
         
         if (prints.length > 0 && showPrints) {
-            console.log('Found ' + prints.length + ' prints for ' + currentSymbol);
+            console.log('[' + executionId + '] Found ' + prints.length + ' prints for ' + currentSymbol);
             
             // Group prints by bar index (day) to handle stacking
             const printsByBar = {};
@@ -666,11 +670,13 @@ try {
         
         // Display summary information
         if (paintedCount > 0) {
-            console.log('Total painted elements: ' + paintedCount);
+            console.log('[' + executionId + '] Total painted elements: ' + paintedCount);
         } else {
-            console.log('No data found for ' + currentSymbol);
+            console.log('[' + executionId + '] No data found for ' + currentSymbol);
             paint(emptyLine, { title: 'No data for ' + currentSymbol, color: '#888888' });
         }
+        
+        console.log('🏁 Completed execution ID: ' + executionId);
     }
     
 } catch (error) {
