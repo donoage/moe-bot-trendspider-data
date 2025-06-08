@@ -1,4 +1,4 @@
-describe_indicator('Moebot VL Trendspider v4.5 (Debounced Execution)', 'overlay');
+describe_indicator('Moebot VL Trendspider v4.6 (No Red Lines)', 'overlay');
 
 // Execution tracking with timestamp-based debouncing
 const executionId = Math.random().toString(36).substr(2, 9);
@@ -14,7 +14,7 @@ const showSupport = true;
 const showResistance = true;
 const showStrongOnly = false;
 const showPriceBoxes = true; // Show price boxes
-const showPrints = true; // Show individual prints - enabled to display print bubbles
+const showPrints = true; // Show individual prints - labels only, no red lines
 const supportColor = '#00FF00';
 const resistanceColor = '#FF0000';
 const lineWidth = 2;
@@ -370,10 +370,13 @@ try {
                         console.log('Box ' + box.box_number + ' price analysis: range=$' + priceRange.toFixed(2) + 
                                    ', threshold=$' + priceThreshold.toFixed(2) + ', useLines=' + useLines +
                                    ', topPrice=$' + topPrice + ', bottomPrice=$' + bottomPrice);
+                        console.log('📦 Box ' + box.box_number + ' will be rendered as: ' + (useLines ? 'SEPARATE LINES' : 'FILLED BOX'));
                         
                         // Use consistent purple styling for all box elements
                         const boxLineColor = '#9966CC'; // Consistent purple for all box lines
                         const fillColor = '#9966CC'; // Same purple for fills
+                        
+                        console.log('Box ' + box.box_number + ' using colors: line=' + boxLineColor + ', fill=' + fillColor);
                         
                         if (useLines) {
                             // Create two separate box-like lines when price range is too large
@@ -605,24 +608,7 @@ try {
                 console.log('Processing ' + barPrints.length + ' prints for bar ' + barIndex);
                 
                 barPrints.forEach(function(print, stackIndex) {
-                    // Create a horizontal line at the print price for this specific bar
-                    const printLine = [];
-                    for (let i = 0; i < close.length; i++) {
-                        if (i === barIndex) {
-                            printLine[i] = print.price;
-                        } else {
-                            printLine[i] = NaN;
-                        }
-                    }
-                    
-                    // Paint the print line
-                    const printPaintedLine = paint(printLine, {
-                        title: 'Print R' + (print.rank || '?') + ' - $' + print.price.toFixed(2),
-                        color: '#FF0000',
-                        linewidth: 2,
-                        linestyle: 'solid',
-                        transparency: 0
-                    });
+                    // No red lines - only labels
                     
                     // Create simple rank-only label
                     const rankText = print.rank ? print.rank : '?';
