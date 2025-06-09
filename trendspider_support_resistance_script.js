@@ -1,13 +1,18 @@
-describe_indicator('Moebot VL Trendspider v4.6 (No Red Lines)', 'overlay');
+describe_indicator('Moebot VL Trendspider v4.8 (Auto Refresh)', 'overlay');
 
 // Execution tracking with timestamp-based debouncing
 const executionId = Math.random().toString(36).substr(2, 9);
 const currentTime = Date.now();
 
 // Add a small random delay to reduce simultaneous execution likelihood
-const randomDelay = Math.floor(Math.random() * 100); // 0-100ms random delay
+const randomDelay = Math.floor(Math.random() * 300) + 100; // 100-400ms random delay
 
-console.log('🚀 Starting execution ID: ' + executionId + ' (delay: ' + randomDelay + 'ms, time: ' + currentTime + ')');
+// Force refresh mechanism - include symbol in execution tracking
+const symbolHash = (typeof constants !== 'undefined' && constants.ticker) ? 
+    constants.ticker.toUpperCase().split('').reduce((a, b) => { a = ((a << 5) - a) + b.charCodeAt(0); return a & a; }, 0) : 0;
+
+console.log('🚀 Starting execution ID: ' + executionId + ' (delay: ' + randomDelay + 'ms, time: ' + currentTime + ', symbolHash: ' + symbolHash + ')');
+console.log('📊 Chart symbol detected: ' + (typeof constants !== 'undefined' && constants.ticker ? constants.ticker.toUpperCase() : 'UNKNOWN'));
 
 // Configuration - these can be modified directly in the code
 const showSupport = true;
@@ -95,9 +100,10 @@ function timestampToDateString(timestamp) {
     }
 
 try {
+    // Note: Random delay is built into the cache buster and execution ID for collision avoidance
     // Get current symbol and construct URL for ticker-specific data with cache busting
     const currentSymbol = constants.ticker.toUpperCase();
-    const cacheBuster = Math.floor(Date.now() / 1000) + '_' + executionId + '_' + randomDelay; // Unix timestamp + execution ID + delay for cache busting
+    const cacheBuster = Math.floor(Date.now() / 1000) + '_' + executionId + '_' + randomDelay + '_' + currentSymbol; // Unix timestamp + execution ID + delay + symbol for cache busting
     const tickerDataUrl = 'https://raw.githubusercontent.com/donoage/moe-bot-trendspider-data/main/ticker_data/' + currentSymbol + '.json?v=' + cacheBuster;
     
     console.log('[' + executionId + '] Loading data for ' + currentSymbol + ' from: ' + tickerDataUrl);
@@ -117,11 +123,19 @@ try {
         
         // Log data freshness information
         if (tickerData.metadata && tickerData.metadata.generated_at) {
-            const dataTimestamp = Date.parse(tickerData.metadata.generated_at) / 1000;
-            const currentTime = Math.floor(Date.now() / 1000);
-            const dataAge = currentTime - dataTimestamp;
-            console.log('Data age: ' + Math.floor(dataAge / 60) + ' minutes (' + dataAge + ' seconds)');
-            console.log('Data generated at: ' + tickerData.metadata.generated_at);
+            try {
+                // Handle the Z suffix properly for UTC timezone
+                const generatedAtStr = tickerData.metadata.generated_at.replace('Z', '');
+                const dataTimestamp = Math.floor(Date.parse(generatedAtStr) / 1000);
+                const currentTime = Math.floor(Date.now() / 1000);
+                const dataAge = currentTime - dataTimestamp;
+                console.log('Data age: ' + Math.floor(dataAge / 60) + ' minutes (' + dataAge + ' seconds)');
+                console.log('Data generated at: ' + tickerData.metadata.generated_at);
+                console.log('Parsed timestamp: ' + dataTimestamp + ', Current: ' + currentTime);
+            } catch (e) {
+                console.log('Error parsing data timestamp: ' + e);
+                console.log('Data generated at: ' + tickerData.metadata.generated_at);
+            }
         }
         
         // Function to consolidate nearby levels
@@ -512,6 +526,15 @@ try {
         if (prints.length > 0 && showPrints) {
             console.log('[' + executionId + '] Found ' + prints.length + ' prints for ' + currentSymbol);
             
+            // Log all print ranks for debugging
+            const printRanks = prints.map(p => 'R' + (p.rank || '?')).join(', ');
+            console.log('[' + executionId + '] Print ranks: ' + printRanks);
+            
+            // Log details for all prints to help debug any missing ones
+            prints.forEach(function(print, index) {
+                console.log('[' + executionId + '] 🎯 PRINT ' + index + ': Rank ' + (print.rank || '?') + ' at $' + print.price.toFixed(2) + ' (timestamp: ' + print.timestamp + ')');
+            });
+            
             // Group prints by bar index (day) to handle stacking
             const printsByBar = {};
             
@@ -521,51 +544,50 @@ try {
             
             // First pass: determine bar index for each print with improved logic
             prints.forEach(function(print, index) {
-                console.log('Processing print #' + index + ': Rank ' + (print.rank || '?') + ' at $' + print.price.toFixed(2) + ' timestamp: ' + print.timestamp);
+                try {
+                    console.log('Processing print #' + index + ': Rank ' + (print.rank || '?') + ' at $' + print.price.toFixed(2) + ' timestamp: ' + print.timestamp);
                 
                 // Convert timestamp to bar index using improved matching
                 let barIndex = -1;
                 if (print.timestamp && print.timestamp > 0) {
                     console.log('Looking for timestamp ' + print.timestamp + ' in chart with ' + time.length + ' bars');
+                    console.log('Chart time range: ' + time[0] + ' to ' + time[time.length - 1]);
                     
                     // Check if this print is after the chart's end time (truly recent)
                     const isAfterChartEnd = print.timestamp > lastChartTime;
                     
+                    // Only use recent print logic for prints that are actually after chart end
+                    // Remove the "very recent" logic that was incorrectly grouping prints
                     if (isAfterChartEnd) {
-                        // For prints after chart end, always place on the most recent bar
+                        // For prints after chart end, place on the most recent bar
                         barIndex = time.length - 1;
-                        console.log('🔥 RECENT PRINT detected - placing on most recent bar ' + barIndex + ' (timestamp: ' + print.timestamp + ', current: ' + currentTimestamp + ', chart end: ' + lastChartTime + ')');
+                        console.log('🔥 RECENT PRINT detected - placing on most recent bar ' + barIndex + ' (timestamp: ' + print.timestamp + ', current: ' + currentTimestamp + ', chart end: ' + lastChartTime + ', isAfterChartEnd: ' + isAfterChartEnd + ')');
                     } else {
-                        // For older prints, try to find the best matching bar
+                        // For prints within chart timeframe, find the best matching bar
                         let bestMatch = -1;
                         let bestDistance = Infinity;
                         
-                        // Look for the best matching bar within a reasonable tolerance
+                        // First pass: Look for exact or very close matches (within 1 hour)
                         for (let i = 0; i < time.length; i++) {
                             const barTime = time[i];
                             const distance = Math.abs(barTime - print.timestamp);
                             
-                            // Consider it a good match if within 12 hours (43200 seconds)
-                            if (distance <= 43200 && distance < bestDistance) {
+                            if (distance < bestDistance) {
                                 bestDistance = distance;
                                 bestMatch = i;
                             }
                         }
                         
-                        if (bestMatch !== -1) {
-                            barIndex = bestMatch;
-                            console.log('Found good match at bar ' + barIndex + ' (distance: ' + bestDistance + ' seconds)');
+                        barIndex = bestMatch;
+                        const distanceHours = Math.floor(bestDistance / 3600);
+                        const distanceDays = Math.floor(bestDistance / 86400);
+                        
+                        if (bestDistance <= 3600) {
+                            console.log('Found excellent match at bar ' + barIndex + ' (distance: ' + bestDistance + ' seconds, ' + distanceHours + ' hours)');
+                        } else if (bestDistance <= 86400) {
+                            console.log('Found good match at bar ' + barIndex + ' (distance: ' + bestDistance + ' seconds, ' + distanceHours + ' hours)');
                         } else {
-                            // If no good match found, find the closest bar regardless of distance
-                            for (let i = 0; i < time.length; i++) {
-                                const distance = Math.abs(time[i] - print.timestamp);
-                                if (distance < bestDistance) {
-                                    bestDistance = distance;
-                                    bestMatch = i;
-                                }
-                            }
-                            barIndex = bestMatch;
-                            console.log('No close match, using closest bar ' + barIndex + ' (distance: ' + bestDistance + ' seconds)');
+                            console.log('Found closest available bar ' + barIndex + ' (distance: ' + bestDistance + ' seconds, ' + distanceDays + ' days)');
                         }
                     }
                 } else {
@@ -582,21 +604,48 @@ try {
                     printsByBar[barIndex].push(print);
                     console.log('✅ Added print R' + (print.rank || '?') + ' to bar ' + barIndex + ' (chart bar time: ' + (time[barIndex] || 'unknown') + ')');
                 } else {
-                    console.log('❌ Invalid barIndex ' + barIndex + ' for print R' + (print.rank || '?') + ' - forcing to last bar');
-                    // Force to last bar as fallback
-                    barIndex = time.length - 1;
-                    if (!printsByBar[barIndex]) {
-                        printsByBar[barIndex] = [];
+                    console.log('❌ Invalid barIndex ' + barIndex + ' for print R' + (print.rank || '?') + ' - applying fallback strategy');
+                    
+                    // Multiple fallback strategies to ensure the print is placed somewhere
+                    let fallbackBarIndex = -1;
+                    
+                    // Strategy 1: Try last 10 bars
+                    if (time.length >= 10) {
+                        fallbackBarIndex = time.length - Math.floor(Math.random() * 10) - 1;
+                        console.log('🔧 FALLBACK 1: Using recent bar ' + fallbackBarIndex);
+                    } else if (time.length > 0) {
+                        // Strategy 2: Use last available bar
+                        fallbackBarIndex = time.length - 1;
+                        console.log('🔧 FALLBACK 2: Using last bar ' + fallbackBarIndex);
+                    } else {
+                        // Strategy 3: Use bar 0 if chart is empty (shouldn't happen)
+                        fallbackBarIndex = 0;
+                        console.log('🔧 FALLBACK 3: Using bar 0 (emergency fallback)');
                     }
-                    printsByBar[barIndex].push(print);
-                    console.log('🔧 FALLBACK: Placed print R' + (print.rank || '?') + ' on last bar ' + barIndex);
+                    
+                    if (!printsByBar[fallbackBarIndex]) {
+                        printsByBar[fallbackBarIndex] = [];
+                    }
+                                         printsByBar[fallbackBarIndex].push(print);
+                     console.log('🔧 FALLBACK SUCCESS: Placed print R' + (print.rank || '?') + ' on bar ' + fallbackBarIndex);
+                 }
+                } catch (printError) {
+                    console.error('❌ Error processing print #' + index + ' (Rank ' + (print.rank || '?') + '):', printError);
+                    // Still try to place it somewhere as a last resort
+                    const emergencyBarIndex = time.length > 0 ? time.length - 1 : 0;
+                    if (!printsByBar[emergencyBarIndex]) {
+                        printsByBar[emergencyBarIndex] = [];
+                    }
+                    printsByBar[emergencyBarIndex].push(print);
+                    console.log('🚨 EMERGENCY: Placed print R' + (print.rank || '?') + ' on bar ' + emergencyBarIndex + ' due to error');
                 }
-            });
+             });
             
             // Second pass: process prints grouped by bar with stacking
             Object.keys(printsByBar).forEach(function(barIndexStr) {
-                const barIndex = parseInt(barIndexStr);
-                const barPrints = printsByBar[barIndex];
+                try {
+                    const barIndex = parseInt(barIndexStr);
+                    const barPrints = printsByBar[barIndex];
                 
                 // Sort prints by rank (best rank first) for consistent stacking order
                 barPrints.sort(function(a, b) {
@@ -617,8 +666,8 @@ try {
                     // If multiple prints on same day, combine them into one label
                     if (barPrints.length > 1) {
                         if (stackIndex === 0) {
-                            // For the first print, show all ranks combined
-                            const allRanks = barPrints.map(p => 'R' + (p.rank || '?')).join(' ');
+                            // For the first print, show all ranks combined with | separator
+                            const allRanks = barPrints.map(p => 'R' + (p.rank || '?')).join(' | ');
                             labelText = allRanks;
                         } else {
                             // Skip individual labels for subsequent prints to avoid overlap
@@ -628,27 +677,48 @@ try {
                     
                     // Add label directly over the candle (only if labelText is not empty)
                     if (labelText) {
-                        // Position label at the high of the candle for better visibility
-                        const labelLine = [];
-                        for (let i = 0; i < close.length; i++) {
-                            if (i === barIndex) {
-                                labelLine[i] = high[i]; // Position at candle high
+                        try {
+                            console.log('🏷️ Creating label "' + labelText + '" at bar ' + barIndex + ' (high: ' + (high[barIndex] || 'undefined') + ')');
+                            
+                            // Ensure we have valid data for the bar
+                            if (barIndex >= 0 && barIndex < high.length && high[barIndex] !== undefined && !isNaN(high[barIndex])) {
+                                try {
+                                    // Create a simple visible line at the candle high for the label to attach to
+                                    const labelLine = [];
+                                    for (let i = 0; i < close.length; i++) {
+                                        if (i === barIndex) {
+                                            labelLine[i] = high[i] * 1.015; // Position moderately above candle high for better visibility
+                                        } else {
+                                            labelLine[i] = NaN;
+                                        }
+                                    }
+                                    
+                                    // Use a very thin, nearly transparent line that's barely visible
+                                    const labelPaintedLine = paint(labelLine, {
+                                        title: 'Print_' + executionId + '_' + labelText + '_Bar' + barIndex,
+                                        color: '#FFFF00', // Yellow color
+                                        linewidth: 1,
+                                        linestyle: 'solid',
+                                        transparency: 0.1 // Very faint line, almost invisible
+                                    });
+                                    
+                                    // Add the label to this line
+                                    paint_label_at_line(labelPaintedLine, barIndex, labelText, {
+                                        color: '#FFFF00', // Bright yellow for better visibility
+                                        vertical_align: 'bottom' // Position above the line
+                                    });
+                                    
+                                    console.log('✅ Label "' + labelText + '" successfully placed at bar ' + barIndex + ' with visible anchor line');
+                                } catch (paintError) {
+                                    console.error('❌ Paint error for label "' + labelText + '" at bar ' + barIndex + ':', paintError);
+                                    // Continue execution even if one label fails
+                                }
                             } else {
-                                labelLine[i] = NaN;
+                                console.log('❌ Invalid bar data for label "' + labelText + '" at bar ' + barIndex + ' - skipping label');
                             }
+                        } catch (labelError) {
+                            console.error('❌ Error creating label "' + labelText + '" at bar ' + barIndex + ':', labelError);
                         }
-                        
-                        const labelPaintedLine = paint(labelLine, {
-                            title: 'Label for ' + labelText,
-                            color: 'transparent', // Make the line invisible
-                            linewidth: 0,
-                            transparency: 1
-                        });
-                        
-                        paint_label_at_line(labelPaintedLine, barIndex, labelText, {
-                            color: '#00FF00', // Bright green
-                            vertical_align: 'bottom' // Position above the high
-                        });
                     }
                     
                     console.log('✅ Placed print R' + (print.rank || '?') + ' at bar ' + barIndex + ': $' + print.price.toFixed(2) + 
@@ -656,7 +726,18 @@ try {
                     
                     paintedCount++;
                 });
+                } catch (barError) {
+                    console.error('❌ Error processing prints for bar ' + barIndexStr + ':', barError);
+                }
             });
+            
+            // Summary of print processing
+            const totalPrintsProcessed = Object.keys(printsByBar).reduce((sum, barIndex) => sum + printsByBar[barIndex].length, 0);
+            console.log('[' + executionId + '] 📊 PRINT PROCESSING SUMMARY:');
+            console.log('[' + executionId + '] - Total prints in data: ' + prints.length);
+            console.log('[' + executionId + '] - Total prints processed: ' + totalPrintsProcessed);
+            console.log('[' + executionId + '] - Bars with prints: ' + Object.keys(printsByBar).length);
+            console.log('[' + executionId + '] - Print distribution: ' + Object.keys(printsByBar).map(barIndex => 'Bar ' + barIndex + ': ' + printsByBar[barIndex].length + ' prints').join(', '));
         }
         
         // Display summary information
@@ -674,6 +755,9 @@ try {
         if (executionDuration < 100) {
             console.log('⚠️ Very fast execution detected - this might indicate multiple simultaneous runs');
         }
+        
+        // Log completion with unique identifier for tracking
+        console.log('📋 Execution ' + executionId + ' completed successfully with ' + paintedCount + ' elements painted');
     }
     
 } catch (error) {
