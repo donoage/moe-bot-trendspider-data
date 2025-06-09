@@ -685,7 +685,7 @@ try {
                                 try {
                                     // Create a completely invisible anchor point using the existing candle high
                                     // We'll use the high price array directly as our anchor
-                                    const labelPrice = high[barIndex] * 1.015; // Position above candle high
+                                    const labelPrice = high[barIndex] * 1.01; // Position above candle high
                                     
                                     // Create an invisible single-point marker
                                     const invisibleMarker = [];
