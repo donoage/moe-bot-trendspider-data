@@ -1,4 +1,4 @@
-describe_indicator('Moebot VL Trendspider v4.8 (Auto Refresh)', 'overlay');
+describe_indicator('Moebot VL Trendspider v4.9 (Auto Refresh)', 'overlay');
 
 // Execution tracking with timestamp-based debouncing
 const executionId = Math.random().toString(36).substr(2, 9);
@@ -683,35 +683,67 @@ try {
                             // Ensure we have valid data for the bar
                             if (barIndex >= 0 && barIndex < high.length && high[barIndex] !== undefined && !isNaN(high[barIndex])) {
                                 try {
-                                    // Create a simple visible line at the candle high for the label to attach to
-                                    const labelLine = [];
+                                    // Create a completely invisible anchor point using the existing candle high
+                                    // We'll use the high price array directly as our anchor
+                                    const labelPrice = high[barIndex] * 1.015; // Position above candle high
+                                    
+                                    // Create an invisible single-point marker
+                                    const invisibleMarker = [];
                                     for (let i = 0; i < close.length; i++) {
                                         if (i === barIndex) {
-                                            labelLine[i] = high[i] * 1.015; // Position moderately above candle high for better visibility
+                                            invisibleMarker[i] = labelPrice;
                                         } else {
-                                            labelLine[i] = NaN;
+                                            invisibleMarker[i] = NaN;
                                         }
                                     }
                                     
-                                    // Use a very thin, nearly transparent line that's barely visible
-                                    const labelPaintedLine = paint(labelLine, {
-                                        title: 'Print_' + executionId + '_' + labelText + '_Bar' + barIndex,
-                                        color: '#FFFF00', // Yellow color
+                                    // Paint with full transparency (completely invisible)
+                                    const invisibleLine = paint(invisibleMarker, {
+                                        title: 'Invisible_' + executionId + '_' + labelText.replace(/[^a-zA-Z0-9]/g, '') + '_Bar' + barIndex,
+                                        color: '#FFFFFF', // White color (will be invisible anyway)
                                         linewidth: 1,
                                         linestyle: 'solid',
-                                        transparency: 0.1 // Very faint line, almost invisible
+                                        transparency: 1.0 // Completely transparent/invisible
                                     });
                                     
-                                    // Add the label to this line
-                                    paint_label_at_line(labelPaintedLine, barIndex, labelText, {
-                                        color: '#FFFF00', // Bright yellow for better visibility
-                                        vertical_align: 'bottom' // Position above the line
-                                    });
-                                    
-                                    console.log('✅ Label "' + labelText + '" successfully placed at bar ' + barIndex + ' with visible anchor line');
+                                    // Add the label to this invisible anchor
+                                    if (invisibleLine) {
+                                        paint_label_at_line(invisibleLine, barIndex, labelText, {
+                                            color: '#FFFF00', // Bright yellow for visibility
+                                            vertical_align: 'bottom' // Position above the invisible anchor
+                                        });
+                                        
+                                        console.log('✅ Label "' + labelText + '" placed at bar ' + barIndex + ' with invisible anchor');
+                                    } else {
+                                        console.log('❌ Failed to create invisible anchor for label "' + labelText + '" at bar ' + barIndex);
+                                    }
                                 } catch (paintError) {
                                     console.error('❌ Paint error for label "' + labelText + '" at bar ' + barIndex + ':', paintError);
-                                    // Continue execution even if one label fails
+                                    console.error('❌ Paint error details: barIndex=' + barIndex + ', high[barIndex]=' + (high[barIndex] || 'undefined') + ', close.length=' + close.length);
+                                    // Try a simpler fallback approach
+                                    try {
+                                        console.log('🔧 Attempting fallback invisible label placement for "' + labelText + '"');
+                                        // Create a completely invisible fallback anchor
+                                        const fallbackLine = [];
+                                        for (let i = 0; i < close.length; i++) {
+                                            fallbackLine[i] = (i === barIndex) ? high[barIndex] * 1.01 : NaN;
+                                        }
+                                        const fallbackPaintedLine = paint(fallbackLine, {
+                                            title: 'FallbackInvisible_' + executionId + '_R' + (print.rank || '?'),
+                                            color: '#FFFFFF', // White (invisible)
+                                            linewidth: 1,
+                                            transparency: 1.0 // Completely invisible
+                                        });
+                                        if (fallbackPaintedLine) {
+                                            paint_label_at_line(fallbackPaintedLine, barIndex, labelText, {
+                                                color: '#FFFF00',
+                                                vertical_align: 'bottom'
+                                            });
+                                            console.log('🔧 Fallback invisible label placement successful for "' + labelText + '"');
+                                        }
+                                    } catch (fallbackError) {
+                                        console.error('❌ Fallback invisible label placement also failed for "' + labelText + '":', fallbackError);
+                                    }
                                 }
                             } else {
                                 console.log('❌ Invalid bar data for label "' + labelText + '" at bar ' + barIndex + ' - skipping label');
