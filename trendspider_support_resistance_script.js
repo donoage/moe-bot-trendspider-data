@@ -1,4 +1,4 @@
-describe_indicator('Moebot VL Trendspider v4.9 (Auto Refresh)', 'overlay');
+describe_indicator('Moebot VL Trendspider v5.0 (Auto Refresh)', 'overlay');
 
 // Execution tracking with timestamp-based debouncing
 const executionId = Math.random().toString(36).substr(2, 9);
@@ -683,66 +683,87 @@ try {
                             // Ensure we have valid data for the bar
                             if (barIndex >= 0 && barIndex < high.length && high[barIndex] !== undefined && !isNaN(high[barIndex])) {
                                 try {
-                                    // Create a completely invisible anchor point using the existing candle high
-                                    // We'll use the high price array directly as our anchor
-                                    const labelPrice = high[barIndex] * 1.01; // Position above candle high
+                                    // NEW APPROACH: Use a visible but very thin line as anchor for better reliability
+                                    const labelPrice = high[barIndex] * 1.005; // Position just slightly above candle high
                                     
-                                    // Create an invisible single-point marker
-                                    const invisibleMarker = [];
+                                    // Create a very thin, barely visible anchor line that spans just the target bar
+                                    const anchorLine = [];
                                     for (let i = 0; i < close.length; i++) {
                                         if (i === barIndex) {
-                                            invisibleMarker[i] = labelPrice;
+                                            anchorLine[i] = labelPrice;
                                         } else {
-                                            invisibleMarker[i] = NaN;
+                                            anchorLine[i] = NaN;
                                         }
                                     }
                                     
-                                    // Paint with full transparency (completely invisible)
-                                    const invisibleLine = paint(invisibleMarker, {
-                                        title: 'Invisible_' + executionId + '_' + labelText.replace(/[^a-zA-Z0-9]/g, '') + '_Bar' + barIndex,
-                                        color: '#FFFFFF', // White color (will be invisible anyway)
+                                    // Paint with very low opacity but still visible to TrendSpider
+                                    const visibleAnchor = paint(anchorLine, {
+                                        title: 'PrintAnchor_' + executionId + '_' + labelText.replace(/[^a-zA-Z0-9|]/g, '').substring(0, 20) + '_B' + barIndex,
+                                        color: '#808080', // Gray color
                                         linewidth: 1,
-                                        linestyle: 'solid',
-                                        transparency: 1.0 // Completely transparent/invisible
+                                        linestyle: 'dotted', // Dotted style to make it less intrusive
+                                        transparency: 0.95 // Very transparent but not completely invisible
                                     });
                                     
-                                    // Add the label to this invisible anchor
-                                    if (invisibleLine) {
-                                        paint_label_at_line(invisibleLine, barIndex, labelText, {
-                                            color: '#FFFF00', // Bright yellow for visibility
-                                            vertical_align: 'bottom' // Position above the invisible anchor
+                                    // Add the label to this anchor with enhanced visibility
+                                    if (visibleAnchor) {
+                                        paint_label_at_line(visibleAnchor, barIndex, labelText, {
+                                            color: '#FFFF00', // Bright yellow for maximum visibility
+                                            vertical_align: 'bottom' // Position above the anchor
                                         });
                                         
-                                        console.log('✅ Label "' + labelText + '" placed at bar ' + barIndex + ' with invisible anchor');
+                                        console.log('✅ Label "' + labelText + '" placed at bar ' + barIndex + ' with visible anchor (transparency: 0.95)');
                                     } else {
-                                        console.log('❌ Failed to create invisible anchor for label "' + labelText + '" at bar ' + barIndex);
+                                        console.log('❌ Failed to create visible anchor for label "' + labelText + '" at bar ' + barIndex);
+                                        
+                                        // Fallback to completely invisible approach if visible anchor fails
+                                        const invisibleMarker = [];
+                                        for (let i = 0; i < close.length; i++) {
+                                            invisibleMarker[i] = (i === barIndex) ? labelPrice : NaN;
+                                        }
+                                        
+                                        const invisibleLine = paint(invisibleMarker, {
+                                            title: 'InvisibleFallback_' + executionId + '_' + barIndex,
+                                            color: '#FFFFFF',
+                                            linewidth: 1,
+                                            transparency: 1.0
+                                        });
+                                        
+                                        if (invisibleLine) {
+                                            paint_label_at_line(invisibleLine, barIndex, labelText, {
+                                                color: '#FFFF00',
+                                                vertical_align: 'bottom'
+                                            });
+                                            console.log('🔧 Fallback invisible anchor used for "' + labelText + '"');
+                                        }
                                     }
                                 } catch (paintError) {
                                     console.error('❌ Paint error for label "' + labelText + '" at bar ' + barIndex + ':', paintError);
                                     console.error('❌ Paint error details: barIndex=' + barIndex + ', high[barIndex]=' + (high[barIndex] || 'undefined') + ', close.length=' + close.length);
-                                    // Try a simpler fallback approach
+                                    
+                                    // Emergency fallback - try to place label using existing chart data
                                     try {
-                                        console.log('🔧 Attempting fallback invisible label placement for "' + labelText + '"');
-                                        // Create a completely invisible fallback anchor
-                                        const fallbackLine = [];
-                                        for (let i = 0; i < close.length; i++) {
-                                            fallbackLine[i] = (i === barIndex) ? high[barIndex] * 1.01 : NaN;
-                                        }
-                                        const fallbackPaintedLine = paint(fallbackLine, {
-                                            title: 'FallbackInvisible_' + executionId + '_R' + (print.rank || '?'),
-                                            color: '#FFFFFF', // White (invisible)
+                                        console.log('🚨 Emergency fallback for label "' + labelText + '"');
+                                        
+                                        // Use the high price array directly as anchor
+                                        const emergencyAnchor = [...high]; // Copy the high array
+                                        
+                                        const emergencyLine = paint(emergencyAnchor, {
+                                            title: 'Emergency_' + executionId + '_' + barIndex,
+                                            color: '#808080',
                                             linewidth: 1,
-                                            transparency: 1.0 // Completely invisible
+                                            transparency: 0.99 // Almost invisible
                                         });
-                                        if (fallbackPaintedLine) {
-                                            paint_label_at_line(fallbackPaintedLine, barIndex, labelText, {
-                                                color: '#FFFF00',
-                                                vertical_align: 'bottom'
+                                        
+                                        if (emergencyLine) {
+                                            paint_label_at_line(emergencyLine, barIndex, labelText, {
+                                                color: '#FF0000', // Red for emergency labels
+                                                vertical_align: 'top'
                                             });
-                                            console.log('🔧 Fallback invisible label placement successful for "' + labelText + '"');
+                                            console.log('🚨 Emergency label placement successful for "' + labelText + '"');
                                         }
-                                    } catch (fallbackError) {
-                                        console.error('❌ Fallback invisible label placement also failed for "' + labelText + '":', fallbackError);
+                                    } catch (emergencyError) {
+                                        console.error('🚨 Emergency fallback also failed for "' + labelText + '":', emergencyError);
                                     }
                                 }
                             } else {
@@ -763,13 +784,27 @@ try {
                 }
             });
             
-            // Summary of print processing
+            // Summary of print processing with enhanced visibility tracking
             const totalPrintsProcessed = Object.keys(printsByBar).reduce((sum, barIndex) => sum + printsByBar[barIndex].length, 0);
+            const labelCreationTimestamp = Math.floor(Date.now() / 1000);
+            
             console.log('[' + executionId + '] 📊 PRINT PROCESSING SUMMARY:');
             console.log('[' + executionId + '] - Total prints in data: ' + prints.length);
             console.log('[' + executionId + '] - Total prints processed: ' + totalPrintsProcessed);
             console.log('[' + executionId + '] - Bars with prints: ' + Object.keys(printsByBar).length);
             console.log('[' + executionId + '] - Print distribution: ' + Object.keys(printsByBar).map(barIndex => 'Bar ' + barIndex + ': ' + printsByBar[barIndex].length + ' prints').join(', '));
+            console.log('[' + executionId + '] - Label creation timestamp: ' + labelCreationTimestamp);
+            console.log('[' + executionId + '] - Labels should be visible immediately after this log');
+            
+            // Log specific details about the most recent prints (R1 and R9 mentioned in the issue)
+            Object.keys(printsByBar).forEach(function(barIndexStr) {
+                const barPrints = printsByBar[barIndexStr];
+                const hasR1orR9 = barPrints.some(p => p.rank === '1' || p.rank === '9');
+                if (hasR1orR9) {
+                    const ranks = barPrints.map(p => 'R' + p.rank).join(' | ');
+                    console.log('[' + executionId + '] 🎯 CRITICAL PRINTS on bar ' + barIndexStr + ': ' + ranks + ' - SHOULD BE VISIBLE NOW');
+                }
+            });
         }
         
         // Display summary information
