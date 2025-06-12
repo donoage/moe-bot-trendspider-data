@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "MSFT",
-    "generated_at": "2025-06-12T01:01:03.352814+00:00Z",
-    "date_range": "2025-03-13 to 2025-06-11",
+    "generated_at": "2025-06-12T17:37:50.190319+00:00Z",
+    "date_range": "2025-03-14 to 2025-06-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -104,10 +104,10 @@
     {
       "box_number": 1,
       "high_price": 443.14,
-      "low_price": 434.1,
-      "volume": 238944,
-      "dollars": 104756233,
-      "trades": 5,
+      "low_price": 437.21,
+      "volume": 197144,
+      "dollars": 86610853,
+      "trades": 4,
       "date_range": "2025-05-05 to 2025-05-12",
       "color": "blue"
     },
@@ -143,13 +143,23 @@
     },
     {
       "box_number": 5,
+      "high_price": 475.0,
+      "low_price": 475.0,
+      "volume": 46900,
+      "dollars": 22277500,
+      "trades": 1,
+      "date_range": "2025-06-12",
+      "color": "purple"
+    },
+    {
+      "box_number": 6,
       "high_price": 360.16,
       "low_price": 360.16,
       "volume": 52557,
       "dollars": 18928929,
       "trades": 1,
       "date_range": "2025-04-21",
-      "color": "purple"
+      "color": "yellow"
     }
   ]
 }
