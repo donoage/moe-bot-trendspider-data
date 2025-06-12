@@ -1,4 +1,4 @@
-describe_indicator('Moebot VL Trendspider v5.1 (Compact)', 'overlay');
+describe_indicator('Moebot VL Trendspider v5.2 (Compact)', 'overlay');
 
 // Execution tracking
 const executionId = Math.random().toString(36).substr(2, 9);
@@ -173,7 +173,7 @@ try {
                     title: title,
                     color: color,
                     linewidth: lineWidth,
-                    linestyle: 'dashed',
+                    linestyle: 'dotted',
                     transparency: 1.0 - levelsOpacity
                 });
                 
@@ -269,58 +269,98 @@ try {
                         const bottomPrice = box.low_price;
                         const priceRange = topPrice - bottomPrice;
                         const midPrice = (topPrice + bottomPrice) / 2;
+                        
+                        // Determine if this should be a line or a box
+                        const isSinglePricePoint = (priceRange === 0); // Same high and low price
                         const priceThreshold = Math.max(0.50, midPrice * 0.05);
-                        const useLines = priceRange > priceThreshold;
+                        const hasLargePriceRange = priceRange > priceThreshold;
+                        
+                        // Use lines when: 1) Same price point, OR 2) Very large price range
+                        const useLines = isSinglePricePoint || hasLargePriceRange;
                         const boxLineColor = '#9966CC';
                         const fillColor = '#9966CC';
                         
                         if (useLines) {
-                            const topLineArray = [];
-                            const bottomLineArray = [];
-                            
-                            for (let i = 0; i < close.length; i++) {
-                                if (i >= boxStartIndex && i <= boxEndIndex) {
-                                    topLineArray[i] = topPrice;
-                                    bottomLineArray[i] = bottomPrice;
-                                } else {
-                                    topLineArray[i] = NaN;
-                                    bottomLineArray[i] = NaN;
+                            // For single price points, only draw one line
+                            if (isSinglePricePoint) {
+                                // Single line at the price level
+                                const lineArray = [];
+                                
+                                for (let i = 0; i < close.length; i++) {
+                                    if (i >= boxStartIndex && i <= boxEndIndex) {
+                                        lineArray[i] = topPrice; // Use topPrice (same as bottomPrice)
+                                    } else {
+                                        lineArray[i] = NaN;
+                                    }
                                 }
-                            }
-                            
-                            const topLine = paint(topLineArray, {
-                                title: 'Line ' + box.box_number + ' High: $' + topPrice.toFixed(2),
-                                color: boxLineColor,
-                                linewidth: 1,
-                                linestyle: 'solid',
-                                transparency: 1.0 - boxLinesOpacity
-                            });
-                            
-                            const bottomLine = paint(bottomLineArray, {
-                                title: 'Line ' + box.box_number + ' Low: $' + bottomPrice.toFixed(2),
-                                color: boxLineColor,
-                                linewidth: 1,
-                                linestyle: 'solid',
-                                transparency: 1.0 - boxLinesOpacity
-                            });
-                            
-                            if (showLabels) {
-                                const volumeText = formatNumber(box.volume || 0) + ' shares';
-                                const valueText = '$' + formatNumber(box.dollars || 0);
-                                const tradesText = (box.trades || 0) + ' trades';
-                                const boxMiddleIndex = Math.floor((boxStartIndex + boxEndIndex) / 2);
                                 
-                                const highLabelText = '[LINE ' + box.box_number + ' HIGH $' + topPrice.toFixed(2) + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
-                                paint_label_at_line(topLine, boxMiddleIndex, highLabelText, {
+                                const singleLine = paint(lineArray, {
+                                    title: 'Line ' + box.box_number + ': $' + topPrice.toFixed(2),
                                     color: boxLineColor,
-                                    vertical_align: 'top'
+                                    linewidth: 2, // Slightly thicker for single lines
+                                    linestyle: 'solid',
+                                    transparency: 1.0 - boxLinesOpacity
                                 });
                                 
-                                const lowLabelText = '[LINE ' + box.box_number + ' LOW $' + bottomPrice.toFixed(2) + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
-                                paint_label_at_line(bottomLine, boxMiddleIndex, lowLabelText, {
+                                if (showLabels) {
+                                    const volumeText = formatNumber(box.volume || 0) + ' shares';
+                                    const valueText = '$' + formatNumber(box.dollars || 0);
+                                    const tradesText = (box.trades || 0) + ' trades';
+                                    
+                                    const labelText = '[LINE ' + box.box_number + ' $' + topPrice.toFixed(2) + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
+                                    paint_label_at_line(singleLine, boxEndIndex, labelText, {
+                                        color: boxLineColor,
+                                        vertical_align: 'top'
+                                    });
+                                }
+                            } else {
+                                // Two separate lines for large price ranges
+                                const topLineArray = [];
+                                const bottomLineArray = [];
+                                
+                                for (let i = 0; i < close.length; i++) {
+                                    if (i >= boxStartIndex && i <= boxEndIndex) {
+                                        topLineArray[i] = topPrice;
+                                        bottomLineArray[i] = bottomPrice;
+                                    } else {
+                                        topLineArray[i] = NaN;
+                                        bottomLineArray[i] = NaN;
+                                    }
+                                }
+                                
+                                const topLine = paint(topLineArray, {
+                                    title: 'Line ' + box.box_number + ' High: $' + topPrice.toFixed(2),
                                     color: boxLineColor,
-                                    vertical_align: 'middle'
+                                    linewidth: 1,
+                                    linestyle: 'solid',
+                                    transparency: 1.0 - boxLinesOpacity
                                 });
+                                
+                                const bottomLine = paint(bottomLineArray, {
+                                    title: 'Line ' + box.box_number + ' Low: $' + bottomPrice.toFixed(2),
+                                    color: boxLineColor,
+                                    linewidth: 1,
+                                    linestyle: 'solid',
+                                    transparency: 1.0 - boxLinesOpacity
+                                });
+                                
+                                if (showLabels) {
+                                    const volumeText = formatNumber(box.volume || 0) + ' shares';
+                                    const valueText = '$' + formatNumber(box.dollars || 0);
+                                    const tradesText = (box.trades || 0) + ' trades';
+                                    
+                                    const highLabelText = '[LINE ' + box.box_number + ' HIGH $' + topPrice.toFixed(2) + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
+                                    paint_label_at_line(topLine, boxEndIndex, highLabelText, {
+                                        color: boxLineColor,
+                                        vertical_align: 'top'
+                                    });
+                                    
+                                    const lowLabelText = '[LINE ' + box.box_number + ' LOW $' + bottomPrice.toFixed(2) + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
+                                    paint_label_at_line(bottomLine, boxEndIndex, lowLabelText, {
+                                        color: boxLineColor,
+                                        vertical_align: 'middle'
+                                    });
+                                }
                             }
                         } else {
                             const topLineArray = [];
@@ -359,9 +399,8 @@ try {
                                 const valueText = '$' + formatNumber(box.dollars || 0);
                                 const tradesText = (box.trades || 0) + ' trades';
                                 const labelText = '[BOX ' + box.box_number + ' $' + bottomPrice.toFixed(2) + '-$' + topPrice.toFixed(2) + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
-                                const boxMiddleIndex = Math.floor((boxStartIndex + boxEndIndex) / 2);
                                 
-                                paint_label_at_line(topLine, boxMiddleIndex, labelText, {
+                                paint_label_at_line(topLine, boxEndIndex, labelText, {
                                     color: boxLineColor,
                                     vertical_align: 'top'
                                 });
@@ -462,7 +501,8 @@ try {
                             try {
                                 if (barIndex >= 0 && barIndex < high.length && high[barIndex] !== undefined && !isNaN(high[barIndex])) {
                                     try {
-                                        const labelPrice = high[barIndex] * 1.005;
+                                        // Position labels directly over the candle using the high price
+                                        const labelPrice = high[barIndex];
                                         
                                         const anchorLine = [];
                                         for (let i = 0; i < close.length; i++) {
@@ -478,13 +518,13 @@ try {
                                             color: '#808080',
                                             linewidth: 1,
                                             linestyle: 'dotted',
-                                            transparency: 0.95
+                                            transparency: 0.99
                                         });
                                         
                                         if (visibleAnchor) {
                                             paint_label_at_line(visibleAnchor, barIndex, labelText, {
                                                 color: '#FFFF00',
-                                                vertical_align: 'bottom'
+                                                vertical_align: 'top'
                                             });
                                         } else {
                                             const invisibleMarker = [];
@@ -502,7 +542,7 @@ try {
                                             if (invisibleLine) {
                                                 paint_label_at_line(invisibleLine, barIndex, labelText, {
                                                     color: '#FFFF00',
-                                                    vertical_align: 'bottom'
+                                                    vertical_align: 'top'
                                                 });
                                             }
                                         }
