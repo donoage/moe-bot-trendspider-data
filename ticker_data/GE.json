@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "GE",
-    "generated_at": "2025-06-12T00:45:43.423203+00:00Z",
+    "generated_at": "2025-06-12T01:14:36.179037+00:00Z",
     "date_range": "2025-03-13 to 2025-06-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -79,13 +79,53 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 240.0,
-      "low_price": 163.25,
-      "volume": 2699626,
-      "dollars": 482254345,
-      "trades": 9,
-      "date_range": "2025-04-03 to 2025-06-10",
+      "high_price": 176.25,
+      "low_price": 172.0,
+      "volume": 1136045,
+      "dollars": 198281907,
+      "trades": 3,
+      "date_range": "2025-04-04 to 2025-04-08",
       "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 168.25,
+      "low_price": 163.25,
+      "volume": 697912,
+      "dollars": 116113720,
+      "trades": 3,
+      "date_range": "2025-04-04 to 2025-04-07",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 184.19,
+      "low_price": 184.19,
+      "volume": 481399,
+      "dollars": 88668881,
+      "trades": 1,
+      "date_range": "2025-04-17",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
+      "high_price": 187.75,
+      "low_price": 187.75,
+      "volume": 249473,
+      "dollars": 46838555,
+      "trades": 1,
+      "date_range": "2025-04-03",
+      "color": "red"
+    },
+    {
+      "box_number": 5,
+      "high_price": 240.0,
+      "low_price": 240.0,
+      "volume": 134797,
+      "dollars": 32351280,
+      "trades": 1,
+      "date_range": "2025-06-10",
+      "color": "purple"
     }
   ]
 }

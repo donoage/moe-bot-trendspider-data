@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "AMAT",
-    "generated_at": "2025-06-12T00:42:48.834022+00:00Z",
+    "generated_at": "2025-06-12T01:12:44.182667+00:00Z",
     "date_range": "2025-03-13 to 2025-06-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -79,13 +79,33 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 174.8,
-      "low_price": 162.55,
-      "volume": 677887,
-      "dollars": 113443778,
-      "trades": 3,
-      "date_range": "2025-05-12 to 2025-05-28",
+      "high_price": 166.44,
+      "low_price": 166.44,
+      "volume": 385400,
+      "dollars": 64145976,
+      "trades": 1,
+      "date_range": "2025-05-12",
       "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 174.8,
+      "low_price": 174.8,
+      "volume": 143187,
+      "dollars": 25029087,
+      "trades": 1,
+      "date_range": "2025-05-14",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 162.55,
+      "low_price": 162.55,
+      "volume": 149300,
+      "dollars": 24268715,
+      "trades": 1,
+      "date_range": "2025-05-28",
+      "color": "orange"
     }
   ]
 }

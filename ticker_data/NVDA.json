@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "NVDA",
-    "generated_at": "2025-06-12T00:31:25.787903+00:00Z",
+    "generated_at": "2025-06-12T01:00:53.314115+00:00Z",
     "date_range": "2025-03-13 to 2025-06-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -79,13 +79,23 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 144.38,
+      "high_price": 135.03,
       "low_price": 135.03,
-      "volume": 292373,
-      "dollars": 40724228,
-      "trades": 2,
-      "date_range": "2025-05-19 to 2025-06-09",
+      "volume": 159207,
+      "dollars": 21497721,
+      "trades": 1,
+      "date_range": "2025-05-19",
       "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 144.38,
+      "low_price": 144.38,
+      "volume": 133166,
+      "dollars": 19226507,
+      "trades": 1,
+      "date_range": "2025-06-09",
+      "color": "green"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "CSX",
-    "generated_at": "2025-06-12T00:51:59.313157+00:00Z",
+    "generated_at": "2025-06-12T01:17:27.265596+00:00Z",
     "date_range": "2025-03-13 to 2025-06-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -42,23 +42,43 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 32.4,
+      "high_price": 31.6,
       "low_price": 30.92,
-      "volume": 4328768,
-      "dollars": 135680718,
-      "trades": 5,
-      "date_range": "2025-05-29 to 2025-06-11",
+      "volume": 3688588,
+      "dollars": 114938886,
+      "trades": 4,
+      "date_range": "2025-05-29 to 2025-06-02",
       "color": "blue"
     },
     {
       "box_number": 2,
-      "high_price": 30.19,
-      "low_price": 29.47,
-      "volume": 1290445,
-      "dollars": 38458869,
-      "trades": 2,
-      "date_range": "2025-03-26 to 2025-05-12",
+      "high_price": 32.4,
+      "low_price": 32.4,
+      "volume": 640180,
+      "dollars": 20741832,
+      "trades": 1,
+      "date_range": "2025-06-11",
       "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 29.47,
+      "low_price": 29.47,
+      "volume": 693979,
+      "dollars": 20451561,
+      "trades": 1,
+      "date_range": "2025-03-26",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
+      "high_price": 30.19,
+      "low_price": 30.19,
+      "volume": 596466,
+      "dollars": 18007308,
+      "trades": 1,
+      "date_range": "2025-05-12",
+      "color": "red"
     }
   ]
 }

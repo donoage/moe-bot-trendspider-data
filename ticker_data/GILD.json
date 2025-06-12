@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "GILD",
-    "generated_at": "2025-06-12T00:42:30.445365+00:00Z",
+    "generated_at": "2025-06-12T01:12:41.061407+00:00Z",
     "date_range": "2025-03-13 to 2025-06-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -79,23 +79,43 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 111.25,
+      "high_price": 111.0,
       "low_price": 108.3,
-      "volume": 4266609,
-      "dollars": 469906911,
-      "trades": 10,
-      "date_range": "2025-04-02 to 2025-06-05",
+      "volume": 1793517,
+      "dollars": 196531584,
+      "trades": 4,
+      "date_range": "2025-06-02 to 2025-06-05",
       "color": "blue"
     },
     {
       "box_number": 2,
-      "high_price": 100.5,
+      "high_price": 97.88,
       "low_price": 96.55,
-      "volume": 2891282,
-      "dollars": 283238732,
-      "trades": 5,
-      "date_range": "2025-05-08 to 2025-05-14",
+      "volume": 1512470,
+      "dollars": 146693978,
+      "trades": 3,
+      "date_range": "2025-05-08 to 2025-05-09",
       "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 100.5,
+      "low_price": 100.5,
+      "volume": 865938,
+      "dollars": 87026769,
+      "trades": 1,
+      "date_range": "2025-05-14",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
+      "high_price": 111.25,
+      "low_price": 111.25,
+      "volume": 651160,
+      "dollars": 72441550,
+      "trades": 2,
+      "date_range": "2025-04-02",
+      "color": "red"
     }
   ]
 }

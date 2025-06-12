@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "MA",
-    "generated_at": "2025-06-12T00:43:37.669643+00:00Z",
+    "generated_at": "2025-06-12T01:13:31.737599+00:00Z",
     "date_range": "2025-03-13 to 2025-06-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -92,12 +92,22 @@
     {
       "box_number": 1,
       "high_price": 580.19,
-      "low_price": 515.0,
-      "volume": 200898,
-      "dollars": 111792110,
-      "trades": 3,
-      "date_range": "2025-04-14 to 2025-06-03",
+      "low_price": 577.33,
+      "volume": 129704,
+      "dollars": 75127200,
+      "trades": 2,
+      "date_range": "2025-06-02 to 2025-06-03",
       "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 515.0,
+      "low_price": 515.0,
+      "volume": 71194,
+      "dollars": 36664910,
+      "trades": 1,
+      "date_range": "2025-04-14",
+      "color": "green"
     }
   ]
 }

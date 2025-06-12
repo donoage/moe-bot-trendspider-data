@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "MO",
-    "generated_at": "2025-06-12T00:47:20.116912+00:00Z",
+    "generated_at": "2025-06-12T01:15:08.504072+00:00Z",
     "date_range": "2025-03-13 to 2025-06-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -55,13 +55,43 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 59.02,
-      "low_price": 56.2,
-      "volume": 2379690,
-      "dollars": 137744066,
-      "trades": 5,
-      "date_range": "2025-03-28 to 2025-04-30",
+      "high_price": 58.05,
+      "low_price": 57.99,
+      "volume": 998192,
+      "dollars": 57915057,
+      "trades": 2,
+      "date_range": "2025-03-28",
       "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 56.2,
+      "low_price": 56.2,
+      "volume": 500000,
+      "dollars": 28100000,
+      "trades": 1,
+      "date_range": "2025-04-10",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 59.02,
+      "low_price": 59.02,
+      "volume": 457208,
+      "dollars": 26984416,
+      "trades": 1,
+      "date_range": "2025-04-30",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
+      "high_price": 58.32,
+      "low_price": 58.32,
+      "volume": 424290,
+      "dollars": 24744592,
+      "trades": 1,
+      "date_range": "2025-04-17",
+      "color": "red"
     }
   ]
 }

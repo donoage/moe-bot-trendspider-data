@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "AMZN",
-    "generated_at": "2025-06-12T00:31:33.730049+00:00Z",
+    "generated_at": "2025-06-12T01:01:12.661172+00:00Z",
     "date_range": "2025-03-13 to 2025-06-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -79,33 +79,43 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 206.32,
+      "high_price": 210.0,
       "low_price": 203.9,
-      "volume": 1146033,
-      "dollars": 234568633,
-      "trades": 7,
-      "date_range": "2025-05-15 to 2025-06-02",
+      "volume": 831390,
+      "dollars": 171176873,
+      "trades": 5,
+      "date_range": "2025-05-14 to 2025-05-15",
       "color": "blue"
     },
     {
       "box_number": 2,
       "high_price": 210.7,
-      "low_price": 210.0,
-      "volume": 873284,
-      "dollars": 183484035,
-      "trades": 5,
-      "date_range": "2025-05-14 to 2025-06-05",
+      "low_price": 206.32,
+      "volume": 528710,
+      "dollars": 110209224,
+      "trades": 3,
+      "date_range": "2025-06-02 to 2025-06-05",
       "color": "green"
     },
     {
       "box_number": 3,
-      "high_price": 192.43,
+      "high_price": 192.0,
       "low_price": 192.0,
-      "volume": 648089,
-      "dollars": 124487823,
-      "trades": 2,
-      "date_range": "2025-03-13 to 2025-03-28",
+      "volume": 519300,
+      "dollars": 99705600,
+      "trades": 1,
+      "date_range": "2025-03-28",
       "color": "orange"
+    },
+    {
+      "box_number": 4,
+      "high_price": 192.43,
+      "low_price": 192.43,
+      "volume": 128789,
+      "dollars": 24782223,
+      "trades": 1,
+      "date_range": "2025-03-13",
+      "color": "red"
     }
   ]
 }

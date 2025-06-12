@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "IAU",
-    "generated_at": "2025-06-12T00:52:55.300499+00:00Z",
+    "generated_at": "2025-06-12T01:18:03.170139+00:00Z",
     "date_range": "2025-03-13 to 2025-06-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -79,33 +79,63 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 62.25,
-      "low_price": 60.44,
-      "volume": 7687097,
-      "dollars": 474768153,
-      "trades": 4,
-      "date_range": "2025-04-14 to 2025-05-28",
+      "high_price": 60.44,
+      "low_price": 56.2,
+      "volume": 6482238,
+      "dollars": 374382618,
+      "trades": 3,
+      "date_range": "2025-04-08 to 2025-04-14",
       "color": "blue"
     },
     {
       "box_number": 2,
-      "high_price": 59.13,
-      "low_price": 56.2,
-      "volume": 6448047,
-      "dollars": 371209335,
-      "trades": 3,
-      "date_range": "2025-04-01 to 2025-04-09",
+      "high_price": 62.25,
+      "low_price": 62.25,
+      "volume": 5130227,
+      "dollars": 319356630,
+      "trades": 1,
+      "date_range": "2025-05-28",
       "color": "green"
     },
     {
       "box_number": 3,
       "high_price": 64.72,
       "low_price": 64.64,
-      "volume": 3939776,
-      "dollars": 254731120,
-      "trades": 5,
+      "volume": 2369888,
+      "dollars": 153253560,
+      "trades": 3,
       "date_range": "2025-04-22",
       "color": "orange"
+    },
+    {
+      "box_number": 4,
+      "high_price": 61.28,
+      "low_price": 61.28,
+      "volume": 867113,
+      "dollars": 53136684,
+      "trades": 1,
+      "date_range": "2025-05-13",
+      "color": "red"
+    },
+    {
+      "box_number": 5,
+      "high_price": 59.13,
+      "low_price": 59.13,
+      "volume": 844869,
+      "dollars": 49957103,
+      "trades": 1,
+      "date_range": "2025-04-01",
+      "color": "purple"
+    },
+    {
+      "box_number": 6,
+      "high_price": 60.62,
+      "low_price": 60.62,
+      "volume": 810697,
+      "dollars": 49144452,
+      "trades": 1,
+      "date_range": "2025-05-01",
+      "color": "yellow"
     }
   ]
 }

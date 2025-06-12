@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "CSCO",
-    "generated_at": "2025-06-12T00:49:02.164899+00:00Z",
+    "generated_at": "2025-06-12T01:16:16.900888+00:00Z",
     "date_range": "2025-03-13 to 2025-06-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -55,13 +55,23 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 64.86,
+      "high_price": 56.47,
       "low_price": 56.47,
-      "volume": 856239,
-      "dollars": 51118838,
-      "trades": 2,
-      "date_range": "2025-04-28 to 2025-06-10",
+      "volume": 526439,
+      "dollars": 29728010,
+      "trades": 1,
+      "date_range": "2025-04-28",
       "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 64.86,
+      "low_price": 64.86,
+      "volume": 329800,
+      "dollars": 21390828,
+      "trades": 1,
+      "date_range": "2025-06-10",
+      "color": "green"
     }
   ]
 }

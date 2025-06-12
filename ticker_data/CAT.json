@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "CAT",
-    "generated_at": "2025-06-12T00:41:28.666478+00:00Z",
+    "generated_at": "2025-06-12T01:11:59.821726+00:00Z",
     "date_range": "2025-03-13 to 2025-06-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -67,13 +67,23 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 307.0,
+      "high_price": 293.97,
       "low_price": 293.97,
-      "volume": 473024,
-      "dollars": 141421113,
-      "trades": 2,
-      "date_range": "2025-04-17 to 2025-04-30",
+      "volume": 291424,
+      "dollars": 85669913,
+      "trades": 1,
+      "date_range": "2025-04-17",
       "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 307.0,
+      "low_price": 307.0,
+      "volume": 181600,
+      "dollars": 55751200,
+      "trades": 1,
+      "date_range": "2025-04-30",
+      "color": "green"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "JPM",
-    "generated_at": "2025-06-12T00:42:14.591832+00:00Z",
+    "generated_at": "2025-06-12T01:12:33.745018+00:00Z",
     "date_range": "2025-03-13 to 2025-06-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -67,23 +67,63 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 261.1,
-      "low_price": 250.0,
-      "volume": 931652,
-      "dollars": 237823558,
-      "trades": 7,
-      "date_range": "2025-03-27 to 2025-05-23",
+      "high_price": 239.12,
+      "low_price": 239.12,
+      "volume": 700928,
+      "dollars": 167605903,
+      "trades": 1,
+      "date_range": "2025-03-21",
       "color": "blue"
     },
     {
       "box_number": 2,
-      "high_price": 239.12,
-      "low_price": 224.42,
-      "volume": 914697,
-      "dollars": 216001086,
-      "trades": 3,
-      "date_range": "2025-03-13 to 2025-04-03",
+      "high_price": 258.9,
+      "low_price": 258.9,
+      "volume": 360841,
+      "dollars": 93421734,
+      "trades": 1,
+      "date_range": "2025-05-23",
       "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 261.1,
+      "low_price": 251.5,
+      "volume": 298140,
+      "dollars": 75935874,
+      "trades": 3,
+      "date_range": "2025-05-07 to 2025-05-13",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
+      "high_price": 224.42,
+      "low_price": 224.42,
+      "volume": 127469,
+      "dollars": 28606592,
+      "trades": 1,
+      "date_range": "2025-03-13",
+      "color": "red"
+    },
+    {
+      "box_number": 5,
+      "high_price": 229.3,
+      "low_price": 229.3,
+      "volume": 86300,
+      "dollars": 19788590,
+      "trades": 1,
+      "date_range": "2025-04-03",
+      "color": "purple"
+    },
+    {
+      "box_number": 6,
+      "high_price": 250.0,
+      "low_price": 250.0,
+      "volume": 73871,
+      "dollars": 18467750,
+      "trades": 1,
+      "date_range": "2025-03-27",
+      "color": "yellow"
     }
   ]
 }

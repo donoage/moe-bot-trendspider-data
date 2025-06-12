@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "T",
-    "generated_at": "2025-06-12T00:46:48.817681+00:00Z",
+    "generated_at": "2025-06-12T01:15:04.313776+00:00Z",
     "date_range": "2025-03-13 to 2025-06-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -55,13 +55,43 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 28.4,
-      "low_price": 26.65,
-      "volume": 9245860,
-      "dollars": 253827595,
-      "trades": 9,
-      "date_range": "2025-03-19 to 2025-05-28",
+      "high_price": 27.68,
+      "low_price": 27.1,
+      "volume": 4332056,
+      "dollars": 118731571,
+      "trades": 4,
+      "date_range": "2025-04-16 to 2025-04-25",
       "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 27.52,
+      "low_price": 27.52,
+      "volume": 1015096,
+      "dollars": 27935441,
+      "trades": 1,
+      "date_range": "2025-05-28",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 26.65,
+      "low_price": 26.65,
+      "volume": 990600,
+      "dollars": 26399490,
+      "trades": 1,
+      "date_range": "2025-03-19",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
+      "high_price": 28.4,
+      "low_price": 28.4,
+      "volume": 829500,
+      "dollars": 23557800,
+      "trades": 1,
+      "date_range": "2025-04-01",
+      "color": "red"
     }
   ]
 }
