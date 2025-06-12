@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "NVDL",
-    "generated_at": "2025-06-12T17:38:20.602929+00:00Z",
+    "generated_at": "2025-06-12T23:29:29.388277+00:00Z",
     "date_range": "2025-03-14 to 2025-06-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1749700800,
+      "price": 59.97,
+      "volume": 850000,
+      "dollars": 50974500,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1748923200,
       "price": 57.31,
       "volume": 300000,
       "dollars": 17191710,
-      "rank": 17,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 23.54,
       "volume": 645816,
       "dollars": 15202508,
-      "rank": 22,
+      "rank": 23,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,34 +46,34 @@
   ],
   "levels": [
     {
+      "price": 60.0,
+      "volume": 1480000,
+      "dollars": 90000000,
+      "rank": "1"
+    },
+    {
       "price": 55.0,
       "volume": 1390000,
       "dollars": 80000000,
-      "rank": "6"
+      "rank": "7"
     },
     {
       "price": 57.0,
       "volume": 1140000,
       "dollars": 70000000,
-      "rank": "10"
+      "rank": "11"
     },
     {
       "price": 58.0,
       "volume": 1110000,
       "dollars": 60000000,
-      "rank": "12"
+      "rank": "13"
     },
     {
       "price": 52.0,
       "volume": 1200000,
       "dollars": 60000000,
-      "rank": "13"
-    },
-    {
-      "price": 51.2,
-      "volume": 1190000,
-      "dollars": 60000000,
-      "rank": "15"
+      "rank": "14"
     }
   ],
   "boxes": []
