@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "CVX",
-    "generated_at": "2025-06-11T00:45:48.059215+00:00Z",
-    "date_range": "2025-03-12 to 2025-06-10",
+    "generated_at": "2025-06-12T00:43:44.365102+00:00Z",
+    "date_range": "2025-03-13 to 2025-06-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -56,22 +56,32 @@
     {
       "box_number": 1,
       "high_price": 153.44,
-      "low_price": 138.35,
-      "volume": 724200,
-      "dollars": 108769554,
-      "trades": 4,
-      "date_range": "2025-03-12 to 2025-06-03",
+      "low_price": 153.3,
+      "volume": 449200,
+      "dollars": 68883304,
+      "trades": 2,
+      "date_range": "2025-03-13",
       "color": "blue"
     },
     {
       "box_number": 2,
+      "high_price": 143.0,
+      "low_price": 138.35,
+      "volume": 422030,
+      "dollars": 59652790,
+      "trades": 2,
+      "date_range": "2025-06-03 to 2025-06-11",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 168.0,
       "low_price": 164.08,
       "volume": 330563,
       "dollars": 54750584,
       "trades": 2,
       "date_range": "2025-03-19 to 2025-03-31",
-      "color": "green"
+      "color": "orange"
     }
   ]
 }

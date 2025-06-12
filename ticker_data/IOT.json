@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "IOT",
-    "generated_at": "2025-06-11T01:00:09.084320+00:00Z",
-    "date_range": "2025-03-12 to 2025-06-10",
+    "generated_at": "2025-06-12T00:58:15.061866+00:00Z",
+    "date_range": "2025-03-13 to 2025-06-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -103,13 +103,23 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 45.85,
+      "high_price": 41.02,
       "low_price": 41.02,
-      "volume": 1166457,
-      "dollars": 49960708,
-      "trades": 2,
-      "date_range": "2025-05-29 to 2025-06-10",
+      "volume": 729057,
+      "dollars": 29905918,
+      "trades": 1,
+      "date_range": "2025-06-10",
       "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 45.85,
+      "low_price": 45.85,
+      "volume": 437400,
+      "dollars": 20054790,
+      "trades": 1,
+      "date_range": "2025-05-29",
+      "color": "green"
     }
   ]
 }

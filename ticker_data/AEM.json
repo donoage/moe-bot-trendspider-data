@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "AEM",
-    "generated_at": "2025-06-11T00:59:38.525439+00:00Z",
-    "date_range": "2025-03-12 to 2025-06-10",
+    "generated_at": "2025-06-12T00:57:27.271980+00:00Z",
+    "date_range": "2025-03-13 to 2025-06-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1749614400,
+      "price": 117.49,
+      "volume": 1750707,
+      "dollars": 205681811,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1748491200,
       "price": 117.32,
       "volume": 635000,
       "dollars": 74498327,
-      "rank": 17,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 107.53,
       "volume": 623688,
       "dollars": 67065170,
-      "rank": 22,
+      "rank": 23,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,33 +46,33 @@
   ],
   "levels": [
     {
+      "price": 117.5,
+      "volume": 1840000,
+      "dollars": 220000000,
+      "rank": "7"
+    },
+    {
       "price": 117.3,
       "volume": 1030000,
       "dollars": 120000000,
-      "rank": "42"
+      "rank": "43"
     },
     {
       "price": 106.5,
       "volume": 900000,
       "dollars": 100000000,
-      "rank": "96"
+      "rank": "97"
     },
     {
       "price": 96.3,
       "volume": 990000,
       "dollars": 100000000,
-      "rank": "97"
+      "rank": "98"
     },
     {
       "price": 107.5,
       "volume": 800000,
       "dollars": 90000000,
-      "rank": "0"
-    },
-    {
-      "price": 99.6,
-      "volume": 770000,
-      "dollars": 80000000,
       "rank": "0"
     }
   ],
