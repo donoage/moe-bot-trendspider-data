@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "IVES",
-    "generated_at": "2025-06-13T00:53:39.861118+00:00Z",
-    "date_range": "2025-03-14 to 2025-06-12",
+    "generated_at": "2025-06-14T01:05:15.917505+00:00Z",
+    "date_range": "2025-03-15 to 2025-06-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -68,11 +68,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1749787200,
+      "price": 25.93,
+      "volume": 27424,
+      "dollars": 711022,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1749182400,
       "price": 25.58,
       "volume": 25000,
       "dollars": 639500,
-      "rank": 6,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -84,7 +96,7 @@
       "price": 25.52,
       "volume": 24350,
       "dollars": 621412,
-      "rank": 7,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,7 +108,7 @@
       "price": 25.66,
       "volume": 23999,
       "dollars": 615814,
-      "rank": 8,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 26.12,
       "volume": 20000,
       "dollars": 522402,
-      "rank": 9,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1749182400,
-      "price": 25.54,
-      "volume": 20000,
-      "dollars": 510798,
       "rank": 10,
       "conditions": "",
       "exchange": "",
@@ -130,14 +130,14 @@
   ],
   "levels": [
     {
-      "price": 25.7,
-      "volume": 90000,
+      "price": 25.9,
+      "volume": 110000,
       "dollars": 0,
       "rank": "1"
     },
     {
-      "price": 25.9,
-      "volume": 70000,
+      "price": 25.7,
+      "volume": 90000,
       "dollars": 0,
       "rank": "2"
     },
