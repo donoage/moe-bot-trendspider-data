@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "TGT",
-    "generated_at": "2025-06-14T01:08:27.882135+00:00Z",
-    "date_range": "2025-03-15 to 2025-06-13",
+    "generated_at": "2025-06-17T01:00:42.716153+00:00Z",
+    "date_range": "2025-03-18 to 2025-06-16",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -29,7 +29,7 @@
     },
     {
       "price": 96.7,
-      "volume": 5370000,
+      "volume": 5380000,
       "dollars": 520000000,
       "rank": "0"
     },
@@ -40,17 +40,28 @@
       "rank": "0"
     },
     {
+      "price": 97.4,
+      "volume": 5040000,
+      "dollars": 490000000,
+      "rank": "0"
+    },
+    {
       "price": 107.0,
       "volume": 4430000,
       "dollars": 470000000,
       "rank": "0"
-    },
-    {
-      "price": 86.6,
-      "volume": 4980000,
-      "dollars": 430000000,
-      "rank": "0"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 95.93,
+      "low_price": 95.93,
+      "volume": 1411761,
+      "dollars": 135423173,
+      "trades": 1,
+      "date_range": "2025-06-16",
+      "color": "blue"
+    }
+  ]
 }

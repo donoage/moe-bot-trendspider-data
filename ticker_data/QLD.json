@@ -1,24 +1,12 @@
 {
   "metadata": {
     "ticker": "QLD",
-    "generated_at": "2025-06-14T00:42:20.161025+00:00Z",
-    "date_range": "2025-03-15 to 2025-06-13",
+    "generated_at": "2025-06-17T00:37:57.112819+00:00Z",
+    "date_range": "2025-03-18 to 2025-06-16",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1742184000,
-      "price": 95.35,
-      "volume": 5500000,
-      "dollars": 524433800,
-      "rank": 4,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1743393600,
       "price": 85.15,
@@ -145,32 +133,32 @@
     },
     {
       "box_number": 4,
-      "high_price": 94.83,
-      "low_price": 94.83,
-      "volume": 498100,
-      "dollars": 47234823,
-      "trades": 1,
-      "date_range": "2025-03-17",
-      "color": "red"
-    },
-    {
-      "box_number": 5,
       "high_price": 76.28,
       "low_price": 66.44,
       "volume": 665875,
       "dollars": 47125783,
       "trades": 2,
       "date_range": "2025-04-07 to 2025-04-08",
-      "color": "purple"
+      "color": "red"
     },
     {
-      "box_number": 6,
+      "box_number": 5,
       "high_price": 104.31,
       "low_price": 104.31,
       "volume": 225595,
       "dollars": 23531814,
       "trades": 1,
       "date_range": "2025-05-13",
+      "color": "purple"
+    },
+    {
+      "box_number": 6,
+      "high_price": 82.79,
+      "low_price": 82.79,
+      "volume": 264667,
+      "dollars": 21911780,
+      "trades": 1,
+      "date_range": "2025-04-14",
       "color": "yellow"
     }
   ]
