@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "ANET",
-    "generated_at": "2025-06-17T01:01:38.411096+00:00Z",
-    "date_range": "2025-03-18 to 2025-06-16",
+    "generated_at": "2025-06-18T01:04:42.370662+00:00Z",
+    "date_range": "2025-03-19 to 2025-06-17",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -97,23 +97,33 @@
     },
     {
       "box_number": 4,
+      "high_price": 92.0,
+      "low_price": 92.0,
+      "volume": 338476,
+      "dollars": 31139792,
+      "trades": 1,
+      "date_range": "2025-06-17",
+      "color": "red"
+    },
+    {
+      "box_number": 5,
       "high_price": 77.86,
       "low_price": 77.86,
       "volume": 249700,
       "dollars": 19441642,
       "trades": 1,
       "date_range": "2025-04-25",
-      "color": "red"
+      "color": "purple"
     },
     {
-      "box_number": 5,
+      "box_number": 6,
       "high_price": 91.18,
       "low_price": 91.18,
       "volume": 200902,
       "dollars": 18317320,
       "trades": 1,
       "date_range": "2025-05-23",
-      "color": "purple"
+      "color": "yellow"
     }
   ]
 }

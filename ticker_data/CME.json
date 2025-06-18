@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "CME",
-    "generated_at": "2025-06-17T01:01:08.415537+00:00Z",
-    "date_range": "2025-03-18 to 2025-06-16",
+    "generated_at": "2025-06-18T01:04:06.556664+00:00Z",
+    "date_range": "2025-03-19 to 2025-06-17",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -47,9 +47,9 @@
     },
     {
       "price": 267.5,
-      "volume": 1260000,
+      "volume": 1280000,
       "dollars": 340000000,
-      "rank": "0"
+      "rank": "99"
     },
     {
       "price": 277.1,
@@ -64,16 +64,5 @@
       "rank": "0"
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 265.31,
-      "low_price": 265.31,
-      "volume": 176607,
-      "dollars": 46855603,
-      "trades": 1,
-      "date_range": "2025-03-18",
-      "color": "blue"
-    }
-  ]
+  "boxes": []
 }

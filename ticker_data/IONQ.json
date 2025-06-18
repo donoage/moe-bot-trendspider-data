@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "IONQ",
-    "generated_at": "2025-06-17T01:01:58.226926+00:00Z",
-    "date_range": "2025-03-18 to 2025-06-16",
+    "generated_at": "2025-06-18T01:05:21.270787+00:00Z",
+    "date_range": "2025-03-19 to 2025-06-17",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -78,36 +78,48 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1750132800,
+      "price": 38.04,
+      "volume": 832742,
+      "dollars": 31677505,
+      "rank": 30,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
     {
+      "price": 38.0,
+      "volume": 4090000,
+      "dollars": 160000000,
+      "rank": "1"
+    },
+    {
       "price": 41.8,
       "volume": 3410000,
       "dollars": 140000000,
-      "rank": "1"
+      "rank": "2"
     },
     {
       "price": 44.4,
       "volume": 2980000,
       "dollars": 130000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 39.7,
       "volume": 3200000,
       "dollars": 130000000,
-      "rank": "3"
-    },
-    {
-      "price": 38.0,
-      "volume": 3150000,
-      "dollars": 120000000,
       "rank": "4"
     },
     {
       "price": 37.5,
-      "volume": 2670000,
+      "volume": 2690000,
       "dollars": 100000000,
       "rank": "8"
     }
