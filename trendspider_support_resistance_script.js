@@ -155,7 +155,8 @@ try {
         
         if (levels.length > 0) {
             levels.forEach(function(level, index) {
-                let color = '#87CEEB';
+                // Dynamic color assignment for support/resistance levels
+                let color = '#87CEEB';    // Light blue for support/resistance levels
                 
                 const levelLine = [];
                 for (let i = 0; i < close.length; i++) {
@@ -277,8 +278,10 @@ try {
                         
                         // Use lines when: 1) Same price point, OR 2) Very large price range
                         const useLines = isSinglePricePoint || hasLargePriceRange;
-                        const boxLineColor = '#9966CC';
-                        const fillColor = '#9966CC';
+                        
+                        // Dynamic color assignment for price boxes
+                        const boxLineColor = '#9966CC';     // Purple for price boxes
+                        const fillColor = boxLineColor;
                         
                         if (useLines) {
                             // For single price points, only draw one line
@@ -505,7 +508,7 @@ try {
                                 
                                 const printLine = paint(printLineArray, {
                                     title: 'Print R' + rankText + ': $' + print.price.toFixed(2),
-                                    color: '#FFFF00', // Yellow color for print lines
+                                    color: '#FFFF00', // Dynamic color assignment for prints - Yellow
                                     linewidth: 2, // Thicker line to stand out
                                     linestyle: 'solid', // Solid line instead of dashed
                                     transparency: 0.1 // More opaque (90% opacity)
@@ -515,7 +518,7 @@ try {
                                 if (showLabels && printLine) {
                                     const printLabelText = 'Print R' + rankText + ' | $' + print.price.toFixed(2);
                                     paint_label_at_line(printLine, close.length - 1, printLabelText, {
-                                        color: '#FFFF00',
+                                        color: '#FFFF00', // Dynamic color assignment for print labels - Yellow
                                         vertical_align: 'middle'
                                     });
                                 }
@@ -551,7 +554,7 @@ try {
                                         
                                         const visibleAnchor = paint(anchorLine, {
                                             title: 'PrintAnchor_' + executionId + '_' + labelText.replace(/[^a-zA-Z0-9|]/g, '').substring(0, 20) + '_B' + barIndex,
-                                            color: '#808080',
+                                            color: '#FFFF00', // Dynamic color assignment for print anchors - Yellow
                                             linewidth: 1,
                                             linestyle: 'dotted',
                                             transparency: 0.99
@@ -559,7 +562,7 @@ try {
                                         
                                         if (visibleAnchor) {
                                             paint_label_at_line(visibleAnchor, barIndex, labelText, {
-                                                color: '#FFFF00',
+                                                color: '#FFFF00', // Dynamic color assignment for print anchor labels - Yellow
                                                 vertical_align: 'top'
                                             });
                                         } else {
@@ -590,7 +593,7 @@ try {
                                             
                                             const emergencyLine = paint(emergencyAnchor, {
                                                 title: 'Emergency_' + executionId + '_' + barIndex,
-                                                color: '#808080',
+                                                color: '#FFFF00', // Dynamic color assignment for emergency print anchors - Yellow
                                                 linewidth: 1,
                                                 transparency: 0.99
                                             });
