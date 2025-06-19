@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "FYBR",
-    "generated_at": "2025-06-19T00:54:02.313416+00:00Z",
-    "date_range": "2025-03-20 to 2025-06-18",
+    "generated_at": "2025-06-19T04:33:55.295200+00:00Z",
+    "date_range": "2025-03-21 to 2025-06-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -66,18 +66,6 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
-    },
-    {
-      "timestamp": 1742443200,
-      "price": 35.88,
-      "volume": 880344,
-      "dollars": 31586742,
-      "rank": 29,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
     }
   ],
   "levels": [
@@ -115,22 +103,22 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 35.9,
-      "low_price": 35.8,
-      "volume": 2787641,
-      "dollars": 100006393,
-      "trades": 3,
-      "date_range": "2025-03-20 to 2025-03-27",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
       "high_price": 36.6,
       "low_price": 36.6,
       "volume": 2399847,
       "dollars": 87834400,
       "trades": 3,
       "date_range": "2025-05-27",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 35.9,
+      "low_price": 35.9,
+      "volume": 2088453,
+      "dollars": 74975462,
+      "trades": 2,
+      "date_range": "2025-03-27",
       "color": "green"
     }
   ]
