@@ -473,6 +473,9 @@ try {
                 }
             });
             
+            // Track painted print lines to avoid duplicates
+            const paintedPrintPrices = {};
+            
             Object.keys(printsByBar).forEach(function(barIndexStr) {
                 try {
                     const barIndex = parseInt(barIndexStr);
@@ -486,7 +489,40 @@ try {
                     
                     barPrints.forEach(function(print, stackIndex) {
                         const rankText = print.rank ? print.rank : '?';
+                        const rankNumber = parseInt(print.rank) || 999;
                         let labelText = 'R' + rankText;
+                        
+                        // Draw horizontal line for prints ranked 5 or better (only once per price level)
+                        if (rankNumber <= 5 && print.price) {
+                            const priceKey = print.price.toFixed(2);
+                            if (!paintedPrintPrices[priceKey]) {
+                                paintedPrintPrices[priceKey] = true;
+                                
+                                const printLineArray = [];
+                                for (let i = 0; i < close.length; i++) {
+                                    printLineArray[i] = print.price;
+                                }
+                                
+                                const printLine = paint(printLineArray, {
+                                    title: 'Print R' + rankText + ': $' + print.price.toFixed(2),
+                                    color: '#FFFF00', // Yellow color for print lines
+                                    linewidth: 2, // Thicker line to stand out
+                                    linestyle: 'solid', // Solid line instead of dashed
+                                    transparency: 0.1 // More opaque (90% opacity)
+                                });
+                                
+                                // Add label to the print line
+                                if (showLabels && printLine) {
+                                    const printLabelText = 'Print R' + rankText + ' | $' + print.price.toFixed(2);
+                                    paint_label_at_line(printLine, close.length - 1, printLabelText, {
+                                        color: '#FFFF00',
+                                        vertical_align: 'middle'
+                                    });
+                                }
+                                
+                                paintedCount++;
+                            }
+                        }
                         
                         if (barPrints.length > 1) {
                             if (stackIndex === 0) {
