@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "ADP",
-    "generated_at": "2025-06-20T00:31:01.370196+00:00Z",
+    "generated_at": "2025-06-20T01:02:54.723063+00:00Z",
     "date_range": "2025-03-21 to 2025-06-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1742529600,
+      "price": 295.32,
+      "volume": 2012905,
+      "dollars": 594451104,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1748577600,
+      "price": 325.53,
+      "volume": 1360622,
+      "dollars": 442923279,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 296.8,
+      "volume": 2770000,
+      "dollars": 820000000,
+      "rank": "15"
+    },
+    {
+      "price": 304.7,
+      "volume": 2620000,
+      "dollars": 800000000,
+      "rank": "17"
+    },
+    {
+      "price": 294.0,
+      "volume": 2350000,
+      "dollars": 690000000,
+      "rank": "29"
+    },
+    {
+      "price": 295.3,
+      "volume": 2210000,
+      "dollars": 650000000,
+      "rank": "33"
+    },
+    {
+      "price": 303.0,
+      "volume": 2130000,
+      "dollars": 640000000,
+      "rank": "34"
+    }
+  ],
   "boxes": []
 }

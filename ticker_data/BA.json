@@ -1,12 +1,64 @@
 {
   "metadata": {
     "ticker": "BA",
-    "generated_at": "2025-06-20T00:30:10.044887+00:00Z",
+    "generated_at": "2025-06-20T00:52:10.225119+00:00Z",
     "date_range": "2025-03-21 to 2025-06-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
-  "boxes": []
+  "levels": [
+    {
+      "price": 154.3,
+      "volume": 24450000,
+      "dollars": 3770000000,
+      "rank": "1"
+    },
+    {
+      "price": 170.0,
+      "volume": 12410000,
+      "dollars": 2109999999,
+      "rank": "2"
+    },
+    {
+      "price": 177.4,
+      "volume": 11480000,
+      "dollars": 2040000000,
+      "rank": "3"
+    },
+    {
+      "price": 149.3,
+      "volume": 11900000,
+      "dollars": 1780000000,
+      "rank": "4"
+    },
+    {
+      "price": 178.3,
+      "volume": 7080000,
+      "dollars": 1260000000,
+      "rank": "5"
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 215.92,
+      "low_price": 215.92,
+      "volume": 145797,
+      "dollars": 31480488,
+      "trades": 1,
+      "date_range": "2025-06-10",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 207.65,
+      "low_price": 207.65,
+      "volume": 148700,
+      "dollars": 30877555,
+      "trades": 1,
+      "date_range": "2025-05-29",
+      "color": "green"
+    }
+  ]
 }

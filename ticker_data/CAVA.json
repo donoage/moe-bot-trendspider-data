@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "CAVA",
-    "generated_at": "2025-06-20T00:30:45.525731+00:00Z",
+    "generated_at": "2025-06-20T00:59:34.204630+00:00Z",
     "date_range": "2025-03-21 to 2025-06-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1743134400,
+      "price": 85.85,
+      "volume": 6530073,
+      "dollars": 560606767,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1742529600,
+      "price": 83.85,
+      "volume": 774150,
+      "dollars": 64912477,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1743134400,
+      "price": 85.85,
+      "volume": 649547,
+      "dollars": 55761661,
+      "rank": 21,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1742788800,
+      "price": 90.33,
+      "volume": 591503,
+      "dollars": 53430465,
+      "rank": 22,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 85.9,
+      "volume": 9760000,
+      "dollars": 840000000,
+      "rank": "1"
+    },
+    {
+      "price": 92.8,
+      "volume": 2810000,
+      "dollars": 260000000,
+      "rank": "3"
+    },
+    {
+      "price": 90.3,
+      "volume": 1170000,
+      "dollars": 110000000,
+      "rank": "9"
+    },
+    {
+      "price": 95.8,
+      "volume": 1080000,
+      "dollars": 100000000,
+      "rank": "10"
+    },
+    {
+      "price": 86.3,
+      "volume": 1160000,
+      "dollars": 100000000,
+      "rank": "12"
+    }
+  ],
   "boxes": []
 }

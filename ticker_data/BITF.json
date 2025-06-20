@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "BITF",
-    "generated_at": "2025-06-20T00:30:21.187829+00:00Z",
+    "generated_at": "2025-06-20T00:54:31.168488+00:00Z",
     "date_range": "2025-03-21 to 2025-06-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1745985600,
+      "price": 1.0,
+      "volume": 4087678,
+      "dollars": 4083181,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1742529600,
+      "price": 1.01,
+      "volume": 3531341,
+      "dollars": 3566654,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 1.0,
+      "volume": 12650000,
+      "dollars": 10000000,
+      "rank": "15"
+    },
+    {
+      "price": 1.2,
+      "volume": 9800000,
+      "dollars": 10000000,
+      "rank": "16"
+    },
+    {
+      "price": 0.9,
+      "volume": 5330000,
+      "dollars": 0,
+      "rank": "31"
+    },
+    {
+      "price": 1.1,
+      "volume": 4330000,
+      "dollars": 0,
+      "rank": "33"
+    },
+    {
+      "price": 0.8,
+      "volume": 1530000,
+      "dollars": 0,
+      "rank": "62"
+    }
+  ],
   "boxes": []
 }

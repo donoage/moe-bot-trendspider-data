@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "AMZZ",
-    "generated_at": "2025-06-20T00:30:28.481545+00:00Z",
+    "generated_at": "2025-06-20T00:55:51.438562+00:00Z",
     "date_range": "2025-03-21 to 2025-06-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1747022400,
+      "price": 28.84,
+      "volume": 61225,
+      "dollars": 1765729,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1747022400,
+      "price": 27.98,
+      "volume": 20943,
+      "dollars": 586029,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1747108800,
+      "price": 29.95,
+      "volume": 17166,
+      "dollars": 514121,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 28.8,
+      "volume": 100000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
+      "price": 28.1,
+      "volume": 40000,
+      "dollars": 0,
+      "rank": "2"
+    },
+    {
+      "price": 28.0,
+      "volume": 20000,
+      "dollars": 0,
+      "rank": "5"
+    },
+    {
+      "price": 27.7,
+      "volume": 20000,
+      "dollars": 0,
+      "rank": "7"
+    },
+    {
+      "price": 27.3,
+      "volume": 20000,
+      "dollars": 0,
+      "rank": "8"
+    }
+  ],
   "boxes": []
 }

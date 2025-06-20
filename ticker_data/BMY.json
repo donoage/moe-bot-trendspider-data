@@ -1,12 +1,97 @@
 {
   "metadata": {
     "ticker": "BMY",
-    "generated_at": "2025-06-20T00:30:56.152125+00:00Z",
+    "generated_at": "2025-06-20T01:01:55.463355+00:00Z",
     "date_range": "2025-03-21 to 2025-06-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1742529600,
+      "price": 61.07,
+      "volume": 14311396,
+      "dollars": 873996953,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 56.4,
+      "volume": 194980000,
+      "dollars": 11000000000,
+      "rank": "1"
+    },
+    {
+      "price": 52.3,
+      "volume": 150350000,
+      "dollars": 7870000000,
+      "rank": "2"
+    },
+    {
+      "price": 50.0,
+      "volume": 79940000,
+      "dollars": 4000000000,
+      "rank": "3"
+    },
+    {
+      "price": 50.9,
+      "volume": 72800000,
+      "dollars": 3710000000,
+      "rank": "4"
+    },
+    {
+      "price": 61.1,
+      "volume": 56300000,
+      "dollars": 3440000000,
+      "rank": "5"
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 58.68,
+      "low_price": 58.68,
+      "volume": 395103,
+      "dollars": 23184644,
+      "trades": 1,
+      "date_range": "2025-03-26",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 51.2,
+      "low_price": 51.2,
+      "volume": 448855,
+      "dollars": 22981376,
+      "trades": 1,
+      "date_range": "2025-04-14",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 47.4,
+      "low_price": 47.4,
+      "volume": 430795,
+      "dollars": 20419683,
+      "trades": 1,
+      "date_range": "2025-05-12",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
+      "high_price": 60.3,
+      "low_price": 60.3,
+      "volume": 323136,
+      "dollars": 19485100,
+      "trades": 1,
+      "date_range": "2025-04-01",
+      "color": "red"
+    }
+  ]
 }

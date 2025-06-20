@@ -1,12 +1,99 @@
 {
   "metadata": {
     "ticker": "CRM",
-    "generated_at": "2025-06-20T00:30:18.730636+00:00Z",
+    "generated_at": "2025-06-20T00:54:05.737619+00:00Z",
     "date_range": "2025-03-21 to 2025-06-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1742529600,
+      "price": 280.62,
+      "volume": 4321758,
+      "dollars": 1212771729,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1748577600,
+      "price": 265.37,
+      "volume": 2086705,
+      "dollars": 553748905,
+      "rank": 25,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 241.9,
+      "volume": 13180000,
+      "dollars": 3190000000,
+      "rank": "1"
+    },
+    {
+      "price": 252.9,
+      "volume": 10600000,
+      "dollars": 2680000000,
+      "rank": "2"
+    },
+    {
+      "price": 271.1,
+      "volume": 8400000,
+      "dollars": 2280000000,
+      "rank": "4"
+    },
+    {
+      "price": 261.6,
+      "volume": 8090000,
+      "dollars": 2120000000,
+      "rank": "6"
+    },
+    {
+      "price": 242.1,
+      "volume": 8330000,
+      "dollars": 2020000000,
+      "rank": "8"
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 268.15,
+      "low_price": 266.33,
+      "volume": 266541,
+      "dollars": 71165132,
+      "trades": 2,
+      "date_range": "2025-06-17",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 253.0,
+      "low_price": 250.0,
+      "volume": 198196,
+      "dollars": 49846588,
+      "trades": 2,
+      "date_range": "2025-04-16",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 266.54,
+      "low_price": 266.54,
+      "volume": 99782,
+      "dollars": 26595894,
+      "trades": 1,
+      "date_range": "2025-05-29",
+      "color": "orange"
+    }
+  ]
 }

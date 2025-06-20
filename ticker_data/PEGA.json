@@ -1,12 +1,104 @@
 {
   "metadata": {
     "ticker": "PEGA",
-    "generated_at": "2025-06-20T00:31:15.333000+00:00Z",
+    "generated_at": "2025-06-20T01:05:03.652469+00:00Z",
     "date_range": "2025-03-21 to 2025-06-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1747800000,
+      "price": 99.57,
+      "volume": 3154637,
+      "dollars": 314107206,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1747022400,
+      "price": 96.28,
+      "volume": 458520,
+      "dollars": 44146305,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1747800000,
+      "price": 99.57,
+      "volume": 347474,
+      "dollars": 34597291,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1747800000,
+      "price": 99.57,
+      "volume": 300000,
+      "dollars": 29871000,
+      "rank": 26,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1748577600,
+      "price": 98.15,
+      "volume": 258500,
+      "dollars": 25371775,
+      "rank": 29,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 99.6,
+      "volume": 5290000,
+      "dollars": 530000000,
+      "rank": "1"
+    },
+    {
+      "price": 68.2,
+      "volume": 1530000,
+      "dollars": 100000000,
+      "rank": "4"
+    },
+    {
+      "price": 96.3,
+      "volume": 790000,
+      "dollars": 80000000,
+      "rank": "7"
+    },
+    {
+      "price": 98.2,
+      "volume": 640000,
+      "dollars": 60000000,
+      "rank": "9"
+    },
+    {
+      "price": 83.6,
+      "volume": 670000,
+      "dollars": 60000000,
+      "rank": "12"
+    }
+  ],
   "boxes": []
 }

@@ -1,12 +1,77 @@
 {
   "metadata": {
     "ticker": "CSCO",
-    "generated_at": "2025-06-20T00:31:03.569215+00:00Z",
+    "generated_at": "2025-06-20T01:03:16.066909+00:00Z",
     "date_range": "2025-03-21 to 2025-06-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1742529600,
+      "price": 60.3,
+      "volume": 24789510,
+      "dollars": 1494807453,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 56.0,
+      "volume": 105670000,
+      "dollars": 5920000000,
+      "rank": "7"
+    },
+    {
+      "price": 54.7,
+      "volume": 101000000,
+      "dollars": 5530000000,
+      "rank": "9"
+    },
+    {
+      "price": 52.9,
+      "volume": 98710000,
+      "dollars": 5220000000,
+      "rank": "13"
+    },
+    {
+      "price": 53.2,
+      "volume": 90400000,
+      "dollars": 4810000000,
+      "rank": "16"
+    },
+    {
+      "price": 56.2,
+      "volume": 74010000,
+      "dollars": 4160000000,
+      "rank": "40"
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 56.47,
+      "low_price": 56.47,
+      "volume": 526439,
+      "dollars": 29728010,
+      "trades": 1,
+      "date_range": "2025-04-28",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 64.86,
+      "low_price": 64.86,
+      "volume": 329800,
+      "dollars": 21390828,
+      "trades": 1,
+      "date_range": "2025-06-10",
+      "color": "green"
+    }
+  ]
 }

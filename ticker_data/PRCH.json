@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "PRCH",
-    "generated_at": "2025-06-20T00:30:13.980591+00:00Z",
+    "generated_at": "2025-06-20T00:53:27.038563+00:00Z",
     "date_range": "2025-03-21 to 2025-06-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1748577600,
+      "price": 9.12,
+      "volume": 2037351,
+      "dollars": 18580641,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1743393600,
+      "price": 7.29,
+      "volume": 1593912,
+      "dollars": 11619618,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1742529600,
+      "price": 6.8,
+      "volume": 1145276,
+      "dollars": 7787876,
+      "rank": 24,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 9.1,
+      "volume": 2120000,
+      "dollars": 20000000,
+      "rank": "23"
+    },
+    {
+      "price": 8.1,
+      "volume": 2310000,
+      "dollars": 20000000,
+      "rank": "26"
+    },
+    {
+      "price": 7.3,
+      "volume": 2049999,
+      "dollars": 10000000,
+      "rank": "32"
+    },
+    {
+      "price": 10.6,
+      "volume": 1370000,
+      "dollars": 10000000,
+      "rank": "35"
+    },
+    {
+      "price": 5.1,
+      "volume": 2680000,
+      "dollars": 10000000,
+      "rank": "37"
+    }
+  ],
   "boxes": []
 }

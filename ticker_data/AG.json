@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "AG",
-    "generated_at": "2025-06-20T00:31:27.477224+00:00Z",
+    "generated_at": "2025-06-20T01:07:02.569822+00:00Z",
     "date_range": "2025-03-21 to 2025-06-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1742529600,
+      "price": 6.92,
+      "volume": 8931854,
+      "dollars": 61808429,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 5.6,
+      "volume": 32240000,
+      "dollars": 180000000,
+      "rank": "3"
+    },
+    {
+      "price": 6.7,
+      "volume": 24100000,
+      "dollars": 160000000,
+      "rank": "4"
+    },
+    {
+      "price": 6.3,
+      "volume": 24040000,
+      "dollars": 150000000,
+      "rank": "6"
+    },
+    {
+      "price": 6.9,
+      "volume": 21040000,
+      "dollars": 150000000,
+      "rank": "7"
+    },
+    {
+      "price": 7.7,
+      "volume": 17610000,
+      "dollars": 140000000,
+      "rank": "8"
+    }
+  ],
   "boxes": []
 }

@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "CMG",
-    "generated_at": "2025-06-20T00:31:21.608573+00:00Z",
+    "generated_at": "2025-06-20T01:06:17.064343+00:00Z",
     "date_range": "2025-03-21 to 2025-06-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1742529600,
+      "price": 48.53,
+      "volume": 4610868,
+      "dollars": 223765424,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1748577600,
+      "price": 50.08,
+      "volume": 3967110,
+      "dollars": 198672868,
+      "rank": 26,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 50.1,
+      "volume": 16780000,
+      "dollars": 840000000,
+      "rank": "9"
+    },
+    {
+      "price": 51.8,
+      "volume": 14020000,
+      "dollars": 730000000,
+      "rank": "14"
+    },
+    {
+      "price": 52.6,
+      "volume": 12980000,
+      "dollars": 680000000,
+      "rank": "20"
+    },
+    {
+      "price": 50.9,
+      "volume": 11990000,
+      "dollars": 610000000,
+      "rank": "35"
+    },
+    {
+      "price": 49.8,
+      "volume": 12190000,
+      "dollars": 610000000,
+      "rank": "37"
+    }
+  ],
   "boxes": []
 }

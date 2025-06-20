@@ -1,12 +1,67 @@
 {
   "metadata": {
     "ticker": "SNOW",
-    "generated_at": "2025-06-20T00:30:43.216984+00:00Z",
+    "generated_at": "2025-06-20T00:59:08.903066+00:00Z",
     "date_range": "2025-03-21 to 2025-06-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1748577600,
+      "price": 205.67,
+      "volume": 1553078,
+      "dollars": 319421552,
+      "rank": 26,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 184.7,
+      "volume": 8170000,
+      "dollars": 1510000000,
+      "rank": "3"
+    },
+    {
+      "price": 159.4,
+      "volume": 6100000,
+      "dollars": 970000000,
+      "rank": "7"
+    },
+    {
+      "price": 127.8,
+      "volume": 6630000,
+      "dollars": 850000000,
+      "rank": "9"
+    },
+    {
+      "price": 199.0,
+      "volume": 4240000,
+      "dollars": 840000000,
+      "rank": "10"
+    },
+    {
+      "price": 162.4,
+      "volume": 4690000,
+      "dollars": 760000000,
+      "rank": "11"
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 210.25,
+      "low_price": 210.25,
+      "volume": 353540,
+      "dollars": 74331785,
+      "trades": 1,
+      "date_range": "2025-06-12",
+      "color": "blue"
+    }
+  ]
 }

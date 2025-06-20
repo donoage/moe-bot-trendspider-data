@@ -1,12 +1,101 @@
 {
   "metadata": {
     "ticker": "HON",
-    "generated_at": "2025-06-20T00:30:57.263289+00:00Z",
+    "generated_at": "2025-06-20T01:02:07.130058+00:00Z",
     "date_range": "2025-03-21 to 2025-06-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1742529600,
+      "price": 210.12,
+      "volume": 2050513,
+      "dollars": 430853791,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1744171200,
+      "price": 199.1,
+      "volume": 1993668,
+      "dollars": 396939298,
+      "rank": 21,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1748577600,
+      "price": 226.67,
+      "volume": 1744339,
+      "dollars": 395389321,
+      "rank": 22,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 229.7,
+      "volume": 22830000,
+      "dollars": 5240000000,
+      "rank": "1"
+    },
+    {
+      "price": 208.6,
+      "volume": 10810000,
+      "dollars": 2260000000,
+      "rank": "2"
+    },
+    {
+      "price": 212.9,
+      "volume": 9390000,
+      "dollars": 2000000000,
+      "rank": "3"
+    },
+    {
+      "price": 203.4,
+      "volume": 8710000,
+      "dollars": 1770000000,
+      "rank": "4"
+    },
+    {
+      "price": 226.7,
+      "volume": 7250000,
+      "dollars": 1640000000,
+      "rank": "5"
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 221.97,
+      "low_price": 221.97,
+      "volume": 224513,
+      "dollars": 49835150,
+      "trades": 1,
+      "date_range": "2025-06-17",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 208.07,
+      "low_price": 208.07,
+      "volume": 156500,
+      "dollars": 32562955,
+      "trades": 1,
+      "date_range": "2025-04-03",
+      "color": "green"
+    }
+  ]
 }

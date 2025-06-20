@@ -1,12 +1,44 @@
 {
   "metadata": {
     "ticker": "METD",
-    "generated_at": "2025-06-20T00:30:29.372604+00:00Z",
+    "generated_at": "2025-06-20T00:55:59.449001+00:00Z",
     "date_range": "2025-03-21 to 2025-06-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1745467200,
+      "price": 20.62,
+      "volume": 24500,
+      "dollars": 505192,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 22.0,
+      "volume": 40000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
+      "price": 16.1,
+      "volume": 40000,
+      "dollars": 0,
+      "rank": "2"
+    },
+    {
+      "price": 20.6,
+      "volume": 20000,
+      "dollars": 0,
+      "rank": "4"
+    }
+  ],
   "boxes": []
 }

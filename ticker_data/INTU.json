@@ -1,12 +1,91 @@
 {
   "metadata": {
     "ticker": "INTU",
-    "generated_at": "2025-06-20T00:30:58.396747+00:00Z",
+    "generated_at": "2025-06-20T01:02:19.538054+00:00Z",
     "date_range": "2025-03-21 to 2025-06-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1748577600,
+      "price": 753.47,
+      "volume": 980390,
+      "dollars": 738694453,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1742529600,
+      "price": 604.04,
+      "volume": 693415,
+      "dollars": 418850396,
+      "rank": 22,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1744171200,
+      "price": 596.48,
+      "volume": 613901,
+      "dollars": 366179668,
+      "rank": 26,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 620.3,
+      "volume": 1940000,
+      "dollars": 1200000000,
+      "rank": "3"
+    },
+    {
+      "price": 632.2,
+      "volume": 1810000,
+      "dollars": 1140000000,
+      "rank": "4"
+    },
+    {
+      "price": 634.6,
+      "volume": 1780000,
+      "dollars": 1130000000,
+      "rank": "5"
+    },
+    {
+      "price": 663.9,
+      "volume": 1640000,
+      "dollars": 1090000000,
+      "rank": "6"
+    },
+    {
+      "price": 608.5,
+      "volume": 1720000,
+      "dollars": 1050000000,
+      "rank": "7"
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 755.75,
+      "low_price": 755.75,
+      "volume": 28786,
+      "dollars": 21755019,
+      "trades": 1,
+      "date_range": "2025-06-18",
+      "color": "blue"
+    }
+  ]
 }

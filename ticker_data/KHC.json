@@ -1,12 +1,67 @@
 {
   "metadata": {
     "ticker": "KHC",
-    "generated_at": "2025-06-20T00:31:23.002673+00:00Z",
+    "generated_at": "2025-06-20T01:06:31.869424+00:00Z",
     "date_range": "2025-03-21 to 2025-06-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1742529600,
+      "price": 29.52,
+      "volume": 11369679,
+      "dollars": 335632924,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 30.5,
+      "volume": 28780000,
+      "dollars": 880000000,
+      "rank": "33"
+    },
+    {
+      "price": 31.1,
+      "volume": 25590000,
+      "dollars": 800000000,
+      "rank": "44"
+    },
+    {
+      "price": 29.1,
+      "volume": 27320000,
+      "dollars": 790000000,
+      "rank": "45"
+    },
+    {
+      "price": 30.3,
+      "volume": 25720000,
+      "dollars": 780000000,
+      "rank": "48"
+    },
+    {
+      "price": 31.0,
+      "volume": 24980000,
+      "dollars": 770000000,
+      "rank": "50"
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 27.9,
+      "low_price": 27.9,
+      "volume": 3243739,
+      "dollars": 90500318,
+      "trades": 1,
+      "date_range": "2025-05-12",
+      "color": "blue"
+    }
+  ]
 }

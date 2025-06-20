@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "RIVN",
-    "generated_at": "2025-06-20T00:30:25.710163+00:00Z",
+    "generated_at": "2025-06-20T00:55:20.214098+00:00Z",
     "date_range": "2025-03-21 to 2025-06-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1748577600,
+      "price": 14.53,
+      "volume": 7534590,
+      "dollars": 109477592,
+      "rank": 29,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 14.9,
+      "volume": 61380000,
+      "dollars": 910000000,
+      "rank": "6"
+    },
+    {
+      "price": 14.7,
+      "volume": 53610000,
+      "dollars": 790000000,
+      "rank": "8"
+    },
+    {
+      "price": 13.8,
+      "volume": 47810000,
+      "dollars": 660000000,
+      "rank": "9"
+    },
+    {
+      "price": 13.0,
+      "volume": 48530000,
+      "dollars": 630000000,
+      "rank": "10"
+    },
+    {
+      "price": 16.0,
+      "volume": 36830000,
+      "dollars": 590000000,
+      "rank": "11"
+    }
+  ],
   "boxes": []
 }

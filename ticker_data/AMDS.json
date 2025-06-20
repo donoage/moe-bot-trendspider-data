@@ -1,12 +1,32 @@
 {
   "metadata": {
     "ticker": "AMDS",
-    "generated_at": "2025-06-20T00:30:28.205415+00:00Z",
+    "generated_at": "2025-06-20T00:55:41.082282+00:00Z",
     "date_range": "2025-03-21 to 2025-06-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1744689600,
+      "price": 17.7,
+      "volume": 41645,
+      "dollars": 737116,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 17.7,
+      "volume": 40000,
+      "dollars": 0,
+      "rank": "1"
+    }
+  ],
   "boxes": []
 }
