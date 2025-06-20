@@ -1,89 +1,12 @@
 {
   "metadata": {
     "ticker": "ORCL",
-    "generated_at": "2025-06-19T04:30:43.248707+00:00Z",
+    "generated_at": "2025-06-20T00:30:47.736721+00:00Z",
     "date_range": "2025-03-21 to 2025-06-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1748577600,
-      "price": 165.53,
-      "volume": 7361115,
-      "dollars": 1218485365,
-      "rank": 6,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1742529600,
-      "price": 152.23,
-      "volume": 7211158,
-      "dollars": 1097754582,
-      "rank": 7,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
-  "levels": [
-    {
-      "price": 141.2,
-      "volume": 18900000,
-      "dollars": 2670000000,
-      "rank": "8"
-    },
-    {
-      "price": 125.5,
-      "volume": 16820000,
-      "dollars": 2109999999,
-      "rank": "22"
-    },
-    {
-      "price": 188.0,
-      "volume": 8810000,
-      "dollars": 1660000000,
-      "rank": "45"
-    },
-    {
-      "price": 165.5,
-      "volume": 9830000,
-      "dollars": 1630000000,
-      "rank": "47"
-    },
-    {
-      "price": 152.2,
-      "volume": 10220000,
-      "dollars": 1560000000,
-      "rank": "57"
-    }
-  ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 151.14,
-      "low_price": 151.14,
-      "volume": 703065,
-      "dollars": 106261244,
-      "trades": 1,
-      "date_range": "2025-03-21",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 152.75,
-      "low_price": 152.75,
-      "volume": 329477,
-      "dollars": 50327611,
-      "trades": 1,
-      "date_range": "2025-05-02",
-      "color": "green"
-    }
-  ]
+  "prints": [],
+  "levels": [],
+  "boxes": []
 }
