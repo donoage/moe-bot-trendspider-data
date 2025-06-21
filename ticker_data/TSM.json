@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "TSM",
-    "generated_at": "2025-06-20T01:03:36.712452+00:00Z",
-    "date_range": "2025-03-21 to 2025-06-19",
+    "generated_at": "2025-06-21T00:57:48.701413+00:00Z",
+    "date_range": "2025-03-22 to 2025-06-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1750392000,
+      "price": 209.51,
+      "volume": 2523096,
+      "dollars": 528613842,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1743998400,
       "price": 146.8,
       "volume": 3000000,
       "dollars": 440400000,
-      "rank": 10,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 193.61,
       "volume": 2200000,
       "dollars": 425942000,
-      "rank": 12,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -48,7 +60,7 @@
       "price": 146.17,
       "volume": 2537666,
       "dollars": 370930639,
-      "rank": 20,
+      "rank": 21,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -60,7 +72,7 @@
       "price": 158.75,
       "volume": 2245842,
       "dollars": 356527417,
-      "rank": 21,
+      "rank": 22,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -103,13 +115,23 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 213.5,
+      "low_price": 213.5,
+      "volume": 247484,
+      "dollars": 52837834,
+      "trades": 1,
+      "date_range": "2025-06-20",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 197.0,
       "low_price": 197.0,
       "volume": 100000,
       "dollars": 19700000,
       "trades": 1,
       "date_range": "2025-06-03",
-      "color": "blue"
+      "color": "green"
     }
   ]
 }

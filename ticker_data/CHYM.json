@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "CHYM",
-    "generated_at": "2025-06-20T15:52:27.345788+00:00Z",
+    "generated_at": "2025-06-21T01:11:49.848633+00:00Z",
     "date_range": "2025-03-22 to 2025-06-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -80,11 +80,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1750392000,
+      "price": 29.53,
+      "volume": 88214,
+      "dollars": 2604959,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1749787200,
       "price": 34.64,
       "volume": 64764,
       "dollars": 2243424,
-      "rank": 7,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,7 +108,7 @@
       "price": 36.81,
       "volume": 56126,
       "dollars": 2065998,
-      "rank": 8,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 34.45,
       "volume": 59840,
       "dollars": 2061488,
-      "rank": 9,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1749787200,
-      "price": 34.79,
-      "volume": 50432,
-      "dollars": 1754529,
       "rank": 10,
       "conditions": "",
       "exchange": "",
@@ -154,8 +154,8 @@
       "rank": "4"
     },
     {
-      "price": 34.6,
-      "volume": 130000,
+      "price": 29.5,
+      "volume": 160000,
       "dollars": 0,
       "rank": "5"
     }

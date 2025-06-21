@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "KULR",
-    "generated_at": "2025-06-20T00:54:39.066357+00:00Z",
-    "date_range": "2025-03-21 to 2025-06-19",
+    "generated_at": "2025-06-21T00:39:15.367008+00:00Z",
+    "date_range": "2025-03-22 to 2025-06-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1750392000,
+      "price": 0.87,
+      "volume": 4191986,
+      "dollars": 3627325,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1750046400,
       "price": 0.87,
       "volume": 1206792,
       "dollars": 1045564,
-      "rank": 24,
+      "rank": 25,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,16 +34,16 @@
   ],
   "levels": [
     {
+      "price": 0.9,
+      "volume": 7830000,
+      "dollars": 10000000,
+      "rank": "4"
+    },
+    {
       "price": 1.6,
       "volume": 2940000,
       "dollars": 0,
-      "rank": "7"
-    },
-    {
-      "price": 0.9,
-      "volume": 2880000,
-      "dollars": 0,
-      "rank": "14"
+      "rank": "8"
     },
     {
       "price": 1.5,

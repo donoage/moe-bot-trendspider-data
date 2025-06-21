@@ -1,18 +1,18 @@
 {
   "metadata": {
     "ticker": "AAPL",
-    "generated_at": "2025-06-20T00:51:24.165332+00:00Z",
-    "date_range": "2025-03-21 to 2025-06-19",
+    "generated_at": "2025-06-21T00:31:26.039922+00:00Z",
+    "date_range": "2025-03-22 to 2025-06-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1742529600,
-      "price": 218.27,
-      "volume": 24502675,
-      "dollars": 5348198872,
-      "rank": 14,
+      "timestamp": 1750392000,
+      "price": 201.0,
+      "volume": 21338052,
+      "dollars": 4288948452,
+      "rank": 21,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +24,7 @@
       "price": 198.85,
       "volume": 18769628,
       "dollars": 3732340527,
-      "rank": 27,
+      "rank": 28,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -59,7 +59,7 @@
     },
     {
       "price": 197.6,
-      "volume": 66519999,
+      "volume": 66530000,
       "dollars": 13140000000,
       "rank": "8"
     }
@@ -67,32 +67,32 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 199.15,
+      "low_price": 196.5,
+      "volume": 2189157,
+      "dollars": 434555779,
+      "trades": 5,
+      "date_range": "2025-06-18 to 2025-06-20",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 222.8,
       "low_price": 219.77,
       "volume": 247900,
       "dollars": 54844280,
       "trades": 2,
       "date_range": "2025-03-24 to 2025-03-25",
-      "color": "blue"
+      "color": "green"
     },
     {
-      "box_number": 2,
+      "box_number": 3,
       "high_price": 206.21,
       "low_price": 203.1,
       "volume": 198400,
       "dollars": 40602930,
       "trades": 2,
       "date_range": "2025-04-03",
-      "color": "green"
-    },
-    {
-      "box_number": 3,
-      "high_price": 196.5,
-      "low_price": 196.5,
-      "volume": 199296,
-      "dollars": 39161664,
-      "trades": 1,
-      "date_range": "2025-06-18",
       "color": "orange"
     },
     {
@@ -104,26 +104,6 @@
       "trades": 1,
       "date_range": "2025-04-10",
       "color": "red"
-    },
-    {
-      "box_number": 5,
-      "high_price": 201.47,
-      "low_price": 201.47,
-      "volume": 98286,
-      "dollars": 19801906,
-      "trades": 1,
-      "date_range": "2025-06-10",
-      "color": "purple"
-    },
-    {
-      "box_number": 6,
-      "high_price": 208.52,
-      "low_price": 208.52,
-      "volume": 94676,
-      "dollars": 19741839,
-      "trades": 1,
-      "date_range": "2025-05-12",
-      "color": "yellow"
     }
   ]
 }

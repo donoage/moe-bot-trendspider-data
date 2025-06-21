@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "MRVL",
-    "generated_at": "2025-06-20T00:57:45.040960+00:00Z",
-    "date_range": "2025-03-21 to 2025-06-19",
+    "generated_at": "2025-06-21T00:44:27.121572+00:00Z",
+    "date_range": "2025-03-22 to 2025-06-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1750392000,
+      "price": 73.51,
+      "volume": 12710130,
+      "dollars": 934321656,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1748577600,
       "price": 60.19,
       "volume": 5848192,
       "dollars": 352002676,
-      "rank": 17,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 60.96,
       "volume": 5342495,
       "dollars": 325678495,
-      "rank": 20,
+      "rank": 21,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -40,27 +52,27 @@
       "rank": "1"
     },
     {
+      "price": 73.5,
+      "volume": 21790000,
+      "dollars": 1600000000,
+      "rank": "2"
+    },
+    {
       "price": 68.8,
       "volume": 21800000,
       "dollars": 1500000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 63.4,
       "volume": 20080000,
       "dollars": 1270000000,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 47.5,
       "volume": 25000000,
       "dollars": 1190000000,
-      "rank": "5"
-    },
-    {
-      "price": 65.5,
-      "volume": 17030000,
-      "dollars": 1120000000,
       "rank": "6"
     }
   ],

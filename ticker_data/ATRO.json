@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "ATRO",
-    "generated_at": "2025-06-20T00:58:42.298859+00:00Z",
-    "date_range": "2025-03-21 to 2025-06-19",
+    "generated_at": "2025-06-21T00:46:00.580216+00:00Z",
+    "date_range": "2025-03-22 to 2025-06-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1750392000,
+      "price": 33.07,
+      "volume": 792467,
+      "dollars": 26206883,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 31.2,
@@ -27,16 +40,16 @@
       "rank": "3"
     },
     {
-      "price": 28.5,
-      "volume": 980000,
+      "price": 33.1,
+      "volume": 850000,
       "dollars": 30000000,
       "rank": "4"
     },
     {
-      "price": 25.1,
-      "volume": 800000,
-      "dollars": 20000000,
-      "rank": "9"
+      "price": 28.5,
+      "volume": 980000,
+      "dollars": 30000000,
+      "rank": "5"
     }
   ],
   "boxes": []

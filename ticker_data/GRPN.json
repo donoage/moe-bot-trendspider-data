@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "GRPN",
-    "generated_at": "2025-06-20T00:58:01.969548+00:00Z",
-    "date_range": "2025-03-21 to 2025-06-19",
+    "generated_at": "2025-06-21T00:45:17.982271+00:00Z",
+    "date_range": "2025-03-22 to 2025-06-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1750392000,
+      "price": 36.44,
+      "volume": 984856,
+      "dollars": 35888152,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 26.1,
@@ -21,22 +34,22 @@
       "rank": "16"
     },
     {
+      "price": 36.4,
+      "volume": 1500000,
+      "dollars": 50000000,
+      "rank": "21"
+    },
+    {
       "price": 21.6,
       "volume": 2440000,
       "dollars": 50000000,
-      "rank": "22"
+      "rank": "23"
     },
     {
       "price": 24.6,
       "volume": 1470000,
       "dollars": 40000000,
-      "rank": "50"
-    },
-    {
-      "price": 24.8,
-      "volume": 1440000,
-      "dollars": 40000000,
-      "rank": "52"
+      "rank": "51"
     }
   ],
   "boxes": []

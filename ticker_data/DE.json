@@ -1,25 +1,12 @@
 {
   "metadata": {
     "ticker": "DE",
-    "generated_at": "2025-06-20T01:02:22.063017+00:00Z",
-    "date_range": "2025-03-21 to 2025-06-19",
+    "generated_at": "2025-06-21T00:53:07.415869+00:00Z",
+    "date_range": "2025-03-22 to 2025-06-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1742529600,
-      "price": 472.43,
-      "volume": 535170,
-      "dollars": 252830363,
-      "rank": 27,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 431.1,
@@ -52,5 +39,16 @@
       "rank": "26"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 524.97,
+      "low_price": 524.97,
+      "volume": 86528,
+      "dollars": 45424604,
+      "trades": 1,
+      "date_range": "2025-06-20",
+      "color": "blue"
+    }
+  ]
 }
