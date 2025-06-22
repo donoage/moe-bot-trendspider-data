@@ -20,7 +20,7 @@ const resistanceColor = '#FF0000';
 const lineWidth = 2;
 const showLabels = true;
 const levelsOpacity = 0.7;
-const boxesOpacity = 0.3;
+const boxesOpacity = 0.1;
 const boxLinesOpacity = 0.8;
 
 // Projection configuration - number of bars to project into the future
@@ -159,7 +159,7 @@ try {
         if (levels.length > 0) {
             levels.forEach(function(level, index) {
                 // Dynamic color assignment for support/resistance levels
-                let color = '#87CEEB';    // Light blue for support/resistance levels
+                let color = '#C0C0C0';    // Light grey for support/resistance levels
                 
                 const levelLine = [];
                 for (let i = 0; i < close.length; i++) {
@@ -298,7 +298,7 @@ try {
                         const useLines = isSinglePricePoint || hasLargePriceRange;
                         
                         // Dynamic color assignment for price boxes
-                        const boxLineColor = '#9966CC';     // Purple for price boxes
+                        const boxLineColor = '#00BFFF';     // Deep Sky Blue for price boxes
                         const fillColor = boxLineColor;
                         
                         if (useLines) {
@@ -575,8 +575,8 @@ try {
                         const rankNumber = parseInt(print.rank) || 999;
                         let labelText = 'R' + rankText;
                         
-                        // Draw horizontal line for prints ranked 5 or better (only once per price level)
-                        if (rankNumber <= 5 && print.price) {
+                        // Draw horizontal line for prints ranked 10 or better (only once per price level)
+                        if (rankNumber <= 10 && print.price) {
                             const priceKey = print.price.toFixed(2);
                             if (!paintedPrintPrices[priceKey]) {
                                 paintedPrintPrices[priceKey] = true;
@@ -610,10 +610,11 @@ try {
                                 
                                 // Add label to the print line
                                 if (showLabels && printProjectedLine) {
-                                    const printLabelText = 'Print R' + rankText + ' | $' + print.price.toFixed(2);
+                                    const dollarAmount = print.dollars ? ' ($' + formatNumber(print.dollars) + ')' : '';
+                                    const printLabelText = 'Print R' + rankText + ' | $' + print.price.toFixed(2) + dollarAmount;
                                     paint_label_at_line(printProjectedLine, projectionLength - 1, printLabelText, {
                                         color: '#FFFF00', // Dynamic color assignment for print labels - Yellow
-                                        vertical_align: 'middle'
+                                        vertical_align: 'bottom'
                                     });
                                 }
                                 
