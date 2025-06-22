@@ -1,4 +1,4 @@
-describe_indicator('Moebot VL Trendspider v5.2 (Compact)', 'overlay');
+describe_indicator('Moebot VL Trendspider v5.3 (Compact)', 'overlay');
 
 // Execution tracking
 const executionId = Math.random().toString(36).substr(2, 9);
@@ -22,6 +22,9 @@ const showLabels = true;
 const levelsOpacity = 0.7;
 const boxesOpacity = 0.3;
 const boxLinesOpacity = 0.8;
+
+// Projection configuration - number of bars to project into the future
+const projectionLength = 15; // Project lines 15 bars into the future
 
 // Helper functions
 function formatNumber(num) {
@@ -178,6 +181,21 @@ try {
                     transparency: 1.0 - levelsOpacity
                 });
                 
+                // Create projection array for future bars
+                const projectionArray = [];
+                for (let i = 0; i < projectionLength; i++) {
+                    projectionArray[i] = level.price;
+                }
+                
+                // Paint projection into the future
+                const projectedLine = paint_projection(projectionArray, {
+                    title: title + ' (Projection)',
+                    color: color,
+                    linewidth: lineWidth,
+                    linestyle: 'dotted',
+                    transparency: 1.0 - levelsOpacity
+                });
+                
                 if (showLabels && (level.volume || level.dollars)) {
                     let labelText = '';
                     
@@ -242,7 +260,7 @@ try {
                     }
                     
                     if (labelText) {
-                        paint_label_at_line(paintedLine, close.length - 1, labelText, {
+                        paint_label_at_line(projectedLine, projectionLength - 1, labelText, {
                             color: color,
                             vertical_align: 'top'
                         });
@@ -305,13 +323,27 @@ try {
                                     transparency: 1.0 - boxLinesOpacity
                                 });
                                 
+                                // Create projection for single line
+                                const singleProjectionArray = [];
+                                for (let i = 0; i < projectionLength; i++) {
+                                    singleProjectionArray[i] = topPrice;
+                                }
+                                
+                                const singleProjectedLine = paint_projection(singleProjectionArray, {
+                                    title: 'Line ' + box.box_number + ': $' + topPrice.toFixed(2) + ' (Projection)',
+                                    color: boxLineColor,
+                                    linewidth: 2,
+                                    linestyle: 'solid',
+                                    transparency: 1.0 - boxLinesOpacity
+                                });
+                                
                                 if (showLabels) {
                                     const volumeText = formatNumber(box.volume || 0) + ' shares';
                                     const valueText = '$' + formatNumber(box.dollars || 0);
                                     const tradesText = (box.trades || 0) + ' trades';
                                     
                                     const labelText = '[LINE ' + box.box_number + ' $' + topPrice.toFixed(2) + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
-                                    paint_label_at_line(singleLine, boxEndIndex, labelText, {
+                                    paint_label_at_line(singleProjectedLine, projectionLength - 1, labelText, {
                                         color: boxLineColor,
                                         vertical_align: 'top'
                                     });
@@ -347,19 +379,43 @@ try {
                                     transparency: 1.0 - boxLinesOpacity
                                 });
                                 
+                                // Create projections for top and bottom lines
+                                const topProjectionArray = [];
+                                const bottomProjectionArray = [];
+                                for (let i = 0; i < projectionLength; i++) {
+                                    topProjectionArray[i] = topPrice;
+                                    bottomProjectionArray[i] = bottomPrice;
+                                }
+                                
+                                const topProjectedLine = paint_projection(topProjectionArray, {
+                                    title: 'Line ' + box.box_number + ' High: $' + topPrice.toFixed(2) + ' (Projection)',
+                                    color: boxLineColor,
+                                    linewidth: 1,
+                                    linestyle: 'solid',
+                                    transparency: 1.0 - boxLinesOpacity
+                                });
+                                
+                                const bottomProjectedLine = paint_projection(bottomProjectionArray, {
+                                    title: 'Line ' + box.box_number + ' Low: $' + bottomPrice.toFixed(2) + ' (Projection)',
+                                    color: boxLineColor,
+                                    linewidth: 1,
+                                    linestyle: 'solid',
+                                    transparency: 1.0 - boxLinesOpacity
+                                });
+                                
                                 if (showLabels) {
                                     const volumeText = formatNumber(box.volume || 0) + ' shares';
                                     const valueText = '$' + formatNumber(box.dollars || 0);
                                     const tradesText = (box.trades || 0) + ' trades';
                                     
                                     const highLabelText = '[LINE ' + box.box_number + ' HIGH $' + topPrice.toFixed(2) + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
-                                    paint_label_at_line(topLine, boxEndIndex, highLabelText, {
+                                    paint_label_at_line(topProjectedLine, projectionLength - 1, highLabelText, {
                                         color: boxLineColor,
                                         vertical_align: 'top'
                                     });
                                     
                                     const lowLabelText = '[LINE ' + box.box_number + ' LOW $' + bottomPrice.toFixed(2) + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
-                                    paint_label_at_line(bottomLine, boxEndIndex, lowLabelText, {
+                                    paint_label_at_line(bottomProjectedLine, projectionLength - 1, lowLabelText, {
                                         color: boxLineColor,
                                         vertical_align: 'middle'
                                     });
@@ -395,6 +451,30 @@ try {
                                 transparency: 1.0 - boxLinesOpacity
                             });
                             
+                            // Create projections for box top and bottom lines
+                            const boxTopProjectionArray = [];
+                            const boxBottomProjectionArray = [];
+                            for (let i = 0; i < projectionLength; i++) {
+                                boxTopProjectionArray[i] = topPrice;
+                                boxBottomProjectionArray[i] = bottomPrice;
+                            }
+                            
+                            const boxTopProjectedLine = paint_projection(boxTopProjectionArray, {
+                                title: 'Box ' + box.box_number + ' Top: $' + topPrice.toFixed(2) + ' (Projection)',
+                                color: boxLineColor,
+                                linewidth: 1,
+                                linestyle: 'solid',
+                                transparency: 1.0 - boxLinesOpacity
+                            });
+                            
+                            const boxBottomProjectedLine = paint_projection(boxBottomProjectionArray, {
+                                title: 'Box ' + box.box_number + ' Bottom: $' + bottomPrice.toFixed(2) + ' (Projection)',
+                                color: boxLineColor,
+                                linewidth: 1,
+                                linestyle: 'solid',
+                                transparency: 1.0 - boxLinesOpacity
+                            });
+                            
                             fill(topLine, bottomLine, fillColor, boxesOpacity, 'Box ' + box.box_number);
                             
                             if (showLabels) {
@@ -403,7 +483,7 @@ try {
                                 const tradesText = (box.trades || 0) + ' trades';
                                 const labelText = '[BOX ' + box.box_number + ' $' + bottomPrice.toFixed(2) + '-$' + topPrice.toFixed(2) + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
                                 
-                                paint_label_at_line(topLine, boxEndIndex, labelText, {
+                                paint_label_at_line(boxTopProjectedLine, projectionLength - 1, labelText, {
                                     color: boxLineColor,
                                     vertical_align: 'top'
                                 });
@@ -514,10 +594,24 @@ try {
                                     transparency: 0.1 // More opaque (90% opacity)
                                 });
                                 
+                                // Create projection for print line
+                                const printProjectionArray = [];
+                                for (let i = 0; i < projectionLength; i++) {
+                                    printProjectionArray[i] = print.price;
+                                }
+                                
+                                const printProjectedLine = paint_projection(printProjectionArray, {
+                                    title: 'Print R' + rankText + ': $' + print.price.toFixed(2) + ' (Projection)',
+                                    color: '#FFFF00',
+                                    linewidth: 2,
+                                    linestyle: 'solid',
+                                    transparency: 0.1
+                                });
+                                
                                 // Add label to the print line
-                                if (showLabels && printLine) {
+                                if (showLabels && printProjectedLine) {
                                     const printLabelText = 'Print R' + rankText + ' | $' + print.price.toFixed(2);
-                                    paint_label_at_line(printLine, close.length - 1, printLabelText, {
+                                    paint_label_at_line(printProjectedLine, projectionLength - 1, printLabelText, {
                                         color: '#FFFF00', // Dynamic color assignment for print labels - Yellow
                                         vertical_align: 'middle'
                                     });
