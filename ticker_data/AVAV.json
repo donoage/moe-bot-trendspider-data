@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "AVAV",
-    "generated_at": "2025-06-21T20:29:56.694814+00:00Z",
+    "generated_at": "2025-06-23T00:59:26.243566+00:00Z",
     "date_range": "2025-03-22 to 2025-06-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1750392000,
+      "price": 189.65,
+      "volume": 480817,
+      "dollars": 91186944,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1748577600,
+      "price": 178.03,
+      "volume": 247230,
+      "dollars": 44014356,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 164.0,
