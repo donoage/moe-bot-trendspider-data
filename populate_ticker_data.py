@@ -143,7 +143,7 @@ def format_timestamp(trade):
     return None
 
 def fetch_big_prints_for_ticker(ticker, start_date, end_date):
-    """Fetch big prints (rank 30 or better) for a single ticker"""
+    """Fetch big prints (rank 20 or better) for a single ticker"""
     
     # Get cookies
     cookie_header = get_cookies()
@@ -203,7 +203,7 @@ def fetch_big_prints_for_ticker(ticker, start_date, end_date):
         "LatePrints": "-1",
         "SignaturePrints": "-1",
         "EvenShared": "-1",
-        "TradeRank": "30",  # Only rank 30 or better
+        "TradeRank": "20",  # Only rank 20 or better
         "IncludePremarket": "1",
         "IncludeRTH": "1",
         "IncludeAH": "1",
@@ -244,7 +244,7 @@ def fetch_big_prints_for_ticker(ticker, start_date, end_date):
                         if rank != '' and rank is not None:
                             try:
                                 rank_int = int(rank)
-                                if rank_int <= 30:  # Rank 30 or better
+                                if rank_int <= 20:  # Rank 20 or better
                                     big_prints.append({
                                         "timestamp": format_timestamp(trade),
                                         "price": float(trade.get('Price', 0)),

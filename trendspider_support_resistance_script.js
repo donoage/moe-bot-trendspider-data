@@ -1,13 +1,19 @@
-describe_indicator('Moebot VL Trendspider v5.3 (Compact)', 'overlay');
+describe_indicator('Moebot VL Trendspider v5.5.4 (Fresh Load)', 'overlay');
 
-// Execution tracking
+// Execution tracking and fresh load mechanisms
 const executionId = Math.random().toString(36).substr(2, 9);
 const currentTime = Date.now();
 const randomDelay = Math.floor(Math.random() * 300) + 100;
 const symbolHash = (typeof constants !== 'undefined' && constants.ticker) ? 
     constants.ticker.toUpperCase().split('').reduce((a, b) => { a = ((a << 5) - a) + b.charCodeAt(0); return a & a; }, 0) : 0;
 
+// Force fresh load tracking
+const tickerChangeDetector = constants.ticker + '_' + Math.floor(Date.now() / 60000); // Changes every minute
+const scriptInstanceId = executionId + '_' + symbolHash + '_' + currentTime;
+
 console.log('🚀 Starting execution ID: ' + executionId + ' for ' + (typeof constants !== 'undefined' && constants.ticker ? constants.ticker.toUpperCase() : 'UNKNOWN'));
+console.log('📊 Ticker change detector: ' + tickerChangeDetector);
+console.log('🔄 Script instance ID: ' + scriptInstanceId);
 
 // Configuration
 const showSupport = true;
@@ -50,29 +56,54 @@ function getColorWithOpacity(colorHex, opacity) {
     return 'rgba(' + r + ',' + g + ',' + b + ',' + opacity + ')';
 }
 
-// Initialize empty array for fallback
+// Initialize empty array for fallback and clear any previous state
 const emptyLine = [];
 for (let i = 0; i < close.length; i++) {
     emptyLine[i] = NaN;
 }
 
+// Force fresh execution state - no global state persistence
+// Each script execution is completely independent
+console.log('[' + executionId + '] 🔄 Fresh execution state - no cached data from previous runs');
+
 try {
     const currentSymbol = constants.ticker.toUpperCase();
-    const cacheBuster = Math.floor(Date.now() / 1000) + '_' + executionId + '_' + randomDelay + '_' + currentSymbol;
-    const tickerDataUrl = 'https://raw.githubusercontent.com/donoage/moe-bot-trendspider-data/main/ticker_data/' + currentSymbol + '.json?v=' + cacheBuster;
+    
+    // Enhanced cache busting for fresh loads on ticker change
+    const timestampSeconds = Math.floor(Date.now() / 1000);
+    const timestampMinutes = Math.floor(Date.now() / 60000); // Changes every minute
+    const browserCacheBuster = Math.random().toString(36).substr(2, 12);
+    
+    // Multi-layer cache busting approach
+    const cacheBuster = [
+        timestampSeconds,
+        executionId,
+        randomDelay,
+        currentSymbol,
+        symbolHash,
+        timestampMinutes,
+        browserCacheBuster,
+        scriptInstanceId.substr(-8) // Last 8 chars of instance ID
+    ].join('_');
+    
+    const tickerDataUrl = 'https://raw.githubusercontent.com/donoage/moe-bot-trendspider-data/main/ticker_data/' + currentSymbol + '.json?v=' + cacheBuster + '&t=' + timestampSeconds + '&r=' + browserCacheBuster;
     
     console.log('[' + executionId + '] Loading data for ' + currentSymbol);
+    console.log('[' + executionId + '] Cache buster: ' + cacheBuster.substr(0, 50) + '...');
     
+    // Use simple HTTP request - cache busting handled via URL parameters
     const tickerResponse = await request.http(tickerDataUrl);
     
     if (tickerResponse.error) {
         console.error('HTTP Error loading ticker data:', tickerResponse.error);
+        console.error('URL attempted:', tickerDataUrl.substr(0, 100) + '...');
         paint(emptyLine, { title: 'No data for ' + currentSymbol, color: '#888888' });
     } else {
         const tickerData = tickerResponse;
         let paintedCount = 0;
         
-        console.log('[' + executionId + '] Loaded data for ' + currentSymbol);
+        console.log('[' + executionId + '] ✅ Successfully loaded fresh data for ' + currentSymbol);
+        console.log('[' + executionId + '] Data timestamp check:', tickerData.last_updated || 'No timestamp available');
         
         // Consolidation functions
         function consolidateLevels(levels, consolidationThreshold) {
@@ -576,7 +607,7 @@ try {
                         let labelText = 'R' + rankText;
                         
                         // Draw horizontal line for prints ranked 10 or better (only once per price level)
-                        if (rankNumber <= 10 && print.price) {
+                        if (rankNumber <= 5 && print.price) {
                             const priceKey = print.price.toFixed(2);
                             if (!paintedPrintPrices[priceKey]) {
                                 paintedPrintPrices[priceKey] = true;
@@ -608,14 +639,24 @@ try {
                                     transparency: 0.1
                                 });
                                 
-                                // Add label to the print line
-                                if (showLabels && printProjectedLine) {
-                                    const dollarAmount = print.dollars ? ' ($' + formatNumber(print.dollars) + ')' : '';
-                                    const printLabelText = 'Print R' + rankText + ' | $' + print.price.toFixed(2) + dollarAmount;
-                                    paint_label_at_line(printProjectedLine, projectionLength - 1, printLabelText, {
-                                        color: '#FFFF00', // Dynamic color assignment for print labels - Yellow
-                                        vertical_align: 'bottom'
-                                    });
+                                if (!printProjectedLine) {
+                                    console.warn('Failed to create projected line for print R' + rankText + ' at $' + print.price.toFixed(2));
+                                }
+                                
+                                // Add label to the print line with error handling
+                                if (showLabels && printProjectedLine && projectionLength > 0) {
+                                    try {
+                                        const dollarAmount = print.dollars ? ' ($' + formatNumber(print.dollars) + ')' : '';
+                                        const printLabelText = 'Print R' + rankText + ' | $' + print.price.toFixed(2) + dollarAmount;
+                                        // Use projectionLength - 1 but ensure it's valid (minimum 0)
+                                        const labelIndex = Math.max(0, projectionLength - 1);
+                                        paint_label_at_line(printProjectedLine, labelIndex, printLabelText, {
+                                            color: '#FFFF00', // Dynamic color assignment for print labels - Yellow
+                                            vertical_align: 'bottom'
+                                        });
+                                    } catch (projectionLabelError) {
+                                        console.error('Error creating projection label for print R' + rankText + ':', projectionLabelError);
+                                    }
                                 }
                                 
                                 paintedCount++;
@@ -724,7 +765,8 @@ try {
             paint(emptyLine, { title: 'No data for ' + currentSymbol, color: '#888888' });
         }
         
-        console.log('🏁 Completed execution ID: ' + executionId);
+        console.log('🏁 Completed execution ID: ' + executionId + ' with fresh data load');
+        console.log('📈 Final ticker: ' + currentSymbol + ' | Instance: ' + scriptInstanceId.substr(-8));
     }
     
 } catch (error) {
