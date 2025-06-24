@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "TSLY",
-    "generated_at": "2025-06-23T12:53:47.655769+00:00Z",
+    "generated_at": "2025-06-24T00:41:59.754273+00:00Z",
     "date_range": "2025-03-25 to 2025-06-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1750651200,
+      "price": 8.78,
+      "volume": 439037,
+      "dollars": 3854744,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1745208000,
       "price": 6.95,
       "volume": 515138,
       "dollars": 3580209,
-      "rank": 12,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 9.09,
       "volume": 364544,
       "dollars": 3313704,
-      "rank": 13,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -48,19 +60,7 @@
       "price": 8.35,
       "volume": 352160,
       "dollars": 2940536,
-      "rank": 15,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1747627200,
-      "price": 9.09,
-      "volume": 297066,
-      "dollars": 2700329,
-      "rank": 20,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -71,7 +71,7 @@
   "levels": [
     {
       "price": 8.7,
-      "volume": 1340000,
+      "volume": 1410000,
       "dollars": 10000000,
       "rank": "5"
     },
@@ -88,16 +88,16 @@
       "rank": "7"
     },
     {
+      "price": 8.8,
+      "volume": 1160000,
+      "dollars": 10000000,
+      "rank": "8"
+    },
+    {
       "price": 8.2,
       "volume": 660000,
       "dollars": 10000000,
-      "rank": "16"
-    },
-    {
-      "price": 9.2,
-      "volume": 530000,
-      "dollars": 0,
-      "rank": "18"
+      "rank": "17"
     }
   ],
   "boxes": []

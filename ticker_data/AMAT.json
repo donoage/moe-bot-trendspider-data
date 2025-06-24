@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "AMAT",
-    "generated_at": "2025-06-23T12:55:47.783767+00:00Z",
+    "generated_at": "2025-06-24T00:48:40.047651+00:00Z",
     "date_range": "2025-03-25 to 2025-06-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -52,26 +52,26 @@
       "rank": "12"
     },
     {
-      "price": 152.1,
-      "volume": 10870000,
-      "dollars": 1650000000,
-      "rank": "15"
+      "price": 172.0,
+      "volume": 9730000,
+      "dollars": 1670000000,
+      "rank": "13"
     },
     {
       "price": 169.5,
-      "volume": 9310000,
-      "dollars": 1580000000,
-      "rank": "16"
+      "volume": 9810000,
+      "dollars": 1660000000,
+      "rank": "15"
+    },
+    {
+      "price": 152.1,
+      "volume": 10870000,
+      "dollars": 1650000000,
+      "rank": "17"
     },
     {
       "price": 135.1,
       "volume": 11270000,
-      "dollars": 1520000000,
-      "rank": "18"
-    },
-    {
-      "price": 136.4,
-      "volume": 11160000,
       "dollars": 1520000000,
       "rank": "19"
     }
@@ -99,23 +99,33 @@
     },
     {
       "box_number": 3,
+      "high_price": 170.0,
+      "low_price": 170.0,
+      "volume": 149499,
+      "dollars": 25414830,
+      "trades": 1,
+      "date_range": "2025-06-23",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
       "high_price": 174.8,
       "low_price": 174.8,
       "volume": 143187,
       "dollars": 25029087,
       "trades": 1,
       "date_range": "2025-05-14",
-      "color": "orange"
+      "color": "red"
     },
     {
-      "box_number": 4,
+      "box_number": 5,
       "high_price": 162.55,
       "low_price": 162.55,
       "volume": 149300,
       "dollars": 24268715,
       "trades": 1,
       "date_range": "2025-05-28",
-      "color": "red"
+      "color": "purple"
     }
   ]
 }

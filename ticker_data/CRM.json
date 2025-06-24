@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "CRM",
-    "generated_at": "2025-06-23T12:51:03.149225+00:00Z",
+    "generated_at": "2025-06-24T00:36:32.146864+00:00Z",
     "date_range": "2025-03-25 to 2025-06-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -75,13 +75,23 @@
     },
     {
       "box_number": 3,
+      "high_price": 262.22,
+      "low_price": 262.22,
+      "volume": 177694,
+      "dollars": 46594920,
+      "trades": 1,
+      "date_range": "2025-06-23",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
       "high_price": 266.54,
       "low_price": 266.54,
       "volume": 99782,
       "dollars": 26595894,
       "trades": 1,
       "date_range": "2025-05-29",
-      "color": "orange"
+      "color": "red"
     }
   ]
 }
