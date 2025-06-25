@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SPLG",
-    "generated_at": "2025-06-24T01:06:32.550210+00:00Z",
-    "date_range": "2025-03-25 to 2025-06-23",
+    "generated_at": "2025-06-25T00:35:49.238778+00:00Z",
+    "date_range": "2025-03-26 to 2025-06-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -80,11 +80,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1750737600,
+      "price": 71.59,
+      "volume": 6183903,
+      "dollars": 442732824,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1744171200,
       "price": 63.94,
       "volume": 6825500,
       "dollars": 436447041,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,7 +108,7 @@
       "price": 59.0,
       "volume": 7332567,
       "dollars": 432645650,
-      "rank": 17,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 70.22,
       "volume": 6059214,
       "dollars": 425476795,
-      "rank": 18,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1748923200,
-      "price": 70.1,
-      "volume": 5836120,
-      "dollars": 409112012,
       "rank": 19,
       "conditions": "",
       "exchange": "",
@@ -183,22 +183,22 @@
     },
     {
       "box_number": 3,
-      "high_price": 67.85,
-      "low_price": 67.85,
-      "volume": 2885266,
-      "dollars": 195765298,
-      "trades": 1,
-      "date_range": "2025-03-25",
+      "high_price": 60.63,
+      "low_price": 59.56,
+      "volume": 1932485,
+      "dollars": 116291727,
+      "trades": 2,
+      "date_range": "2025-04-07 to 2025-04-08",
       "color": "orange"
     },
     {
       "box_number": 4,
       "high_price": 62.0,
-      "low_price": 60.63,
-      "volume": 1948339,
-      "dollars": 119269633,
-      "trades": 2,
-      "date_range": "2025-04-08 to 2025-04-10",
+      "low_price": 62.0,
+      "volume": 833460,
+      "dollars": 51674520,
+      "trades": 1,
+      "date_range": "2025-04-10",
       "color": "red"
     },
     {

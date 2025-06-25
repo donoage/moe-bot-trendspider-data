@@ -1,18 +1,42 @@
 {
   "metadata": {
     "ticker": "AAPU",
-    "generated_at": "2025-06-24T00:40:10.442508+00:00Z",
-    "date_range": "2025-03-25 to 2025-06-23",
+    "generated_at": "2025-06-25T00:32:19.262930+00:00Z",
+    "date_range": "2025-03-26 to 2025-06-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1750737600,
+      "price": 21.87,
+      "volume": 203900,
+      "dollars": 4459293,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1750737600,
+      "price": 21.83,
+      "volume": 174200,
+      "dollars": 3802786,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1744603200,
       "price": 24.23,
       "volume": 112730,
       "dollars": 2731447,
-      "rank": 2,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +48,7 @@
       "price": 21.27,
       "volume": 79476,
       "dollars": 1690462,
-      "rank": 12,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +60,7 @@
       "price": 23.5,
       "volume": 64341,
       "dollars": 1512013,
-      "rank": 14,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -48,7 +72,7 @@
       "price": 22.0,
       "volume": 61215,
       "dollars": 1346730,
-      "rank": 17,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -58,34 +82,34 @@
   ],
   "levels": [
     {
+      "price": 21.9,
+      "volume": 290000,
+      "dollars": 10000000,
+      "rank": "1"
+    },
+    {
+      "price": 21.8,
+      "volume": 270000,
+      "dollars": 10000000,
+      "rank": "2"
+    },
+    {
       "price": 21.5,
       "volume": 220000,
       "dollars": 0,
-      "rank": "1"
+      "rank": "3"
+    },
+    {
+      "price": 21.2,
+      "volume": 190000,
+      "dollars": 0,
+      "rank": "6"
     },
     {
       "price": 21.3,
       "volume": 150000,
       "dollars": 0,
-      "rank": "6"
-    },
-    {
-      "price": 21.0,
-      "volume": 130000,
-      "dollars": 0,
-      "rank": "8"
-    },
-    {
-      "price": 24.2,
-      "volume": 110000,
-      "dollars": 0,
       "rank": "9"
-    },
-    {
-      "price": 21.7,
-      "volume": 120000,
-      "dollars": 0,
-      "rank": "11"
     }
   ],
   "boxes": []

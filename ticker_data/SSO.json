@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SSO",
-    "generated_at": "2025-06-24T00:41:42.535871+00:00Z",
-    "date_range": "2025-03-25 to 2025-06-23",
+    "generated_at": "2025-06-25T00:32:32.129805+00:00Z",
+    "date_range": "2025-03-26 to 2025-06-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -97,23 +97,33 @@
     },
     {
       "box_number": 4,
+      "high_price": 94.7,
+      "low_price": 94.7,
+      "volume": 207334,
+      "dollars": 19634529,
+      "trades": 1,
+      "date_range": "2025-06-24",
+      "color": "red"
+    },
+    {
+      "box_number": 5,
       "high_price": 88.74,
       "low_price": 88.74,
       "volume": 219292,
       "dollars": 19459972,
       "trades": 1,
       "date_range": "2025-05-13",
-      "color": "red"
+      "color": "purple"
     },
     {
-      "box_number": 5,
+      "box_number": 6,
       "high_price": 78.55,
       "low_price": 78.55,
       "volume": 240630,
       "dollars": 18901486,
       "trades": 1,
       "date_range": "2025-04-28",
-      "color": "purple"
+      "color": "yellow"
     }
   ]
 }
