@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SRAD",
-    "generated_at": "2025-06-25T00:32:08.224014+00:00Z",
-    "date_range": "2025-03-26 to 2025-06-24",
+    "generated_at": "2025-06-26T00:37:24.370296+00:00Z",
+    "date_range": "2025-03-27 to 2025-06-25",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -104,10 +104,10 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1747022400,
-      "price": 23.07,
-      "volume": 284053,
-      "dollars": 6553102,
+      "timestamp": 1750824000,
+      "price": 26.85,
+      "volume": 255939,
+      "dollars": 6871962,
       "rank": 18,
       "conditions": "",
       "exchange": "",
@@ -116,11 +116,11 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1745467200,
-      "price": 22.5,
-      "volume": 283473,
-      "dollars": 6378142,
-      "rank": 20,
+      "timestamp": 1747022400,
+      "price": 23.07,
+      "volume": 284053,
+      "dollars": 6553102,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -129,6 +129,12 @@
     }
   ],
   "levels": [
+    {
+      "price": 27.0,
+      "volume": 2370000,
+      "dollars": 60000000,
+      "rank": "1"
+    },
     {
       "price": 23.1,
       "volume": 1800000,
@@ -152,12 +158,6 @@
       "volume": 1220000,
       "dollars": 30000000,
       "rank": "5"
-    },
-    {
-      "price": 24.0,
-      "volume": 1050000,
-      "dollars": 30000000,
-      "rank": "6"
     }
   ],
   "boxes": [
