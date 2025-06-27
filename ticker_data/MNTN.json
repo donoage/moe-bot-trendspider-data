@@ -1,12 +1,43 @@
 {
   "metadata": {
     "ticker": "MNTN",
-    "generated_at": "2025-06-26T22:27:38.383769+00:00Z",
+    "generated_at": "2025-06-27T00:40:36.619520+00:00Z",
     "date_range": "2025-03-28 to 2025-06-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
+  "levels": [
+    {
+      "price": 21.0,
+      "volume": 1200000,
+      "dollars": 30000000,
+      "rank": "1"
+    },
+    {
+      "price": 26.4,
+      "volume": 280000,
+      "dollars": 10000000,
+      "rank": "2"
+    },
+    {
+      "price": 21.4,
+      "volume": 250000,
+      "dollars": 10000000,
+      "rank": "3"
+    },
+    {
+      "price": 20.1,
+      "volume": 250000,
+      "dollars": 10000000,
+      "rank": "4"
+    },
+    {
+      "price": 22.3,
+      "volume": 130000,
+      "dollars": 0,
+      "rank": "5"
+    }
+  ],
   "boxes": []
 }

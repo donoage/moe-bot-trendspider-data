@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "NVDU",
-    "generated_at": "2025-06-26T00:38:12.768692+00:00Z",
-    "date_range": "2025-03-27 to 2025-06-25",
+    "generated_at": "2025-06-27T00:33:23.585505+00:00Z",
+    "date_range": "2025-03-28 to 2025-06-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -21,6 +21,12 @@
     }
   ],
   "levels": [
+    {
+      "price": 97.0,
+      "volume": 110000,
+      "dollars": 10000000,
+      "rank": "1"
+    },
     {
       "price": 88.9,
       "volume": 80000,
@@ -44,12 +50,6 @@
       "volume": 70000,
       "dollars": 10000000,
       "rank": "7"
-    },
-    {
-      "price": 86.9,
-      "volume": 60000,
-      "dollars": 10000000,
-      "rank": "8"
     }
   ],
   "boxes": []

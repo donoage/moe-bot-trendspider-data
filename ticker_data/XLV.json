@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "XLV",
-    "generated_at": "2025-06-26T00:39:22.682635+00:00Z",
-    "date_range": "2025-03-27 to 2025-06-25",
+    "generated_at": "2025-06-27T00:38:23.946419+00:00Z",
+    "date_range": "2025-03-28 to 2025-06-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -42,22 +42,22 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 139.8,
-      "low_price": 138.25,
-      "volume": 1464705,
-      "dollars": 203408108,
-      "trades": 5,
-      "date_range": "2025-04-29 to 2025-05-02",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
       "high_price": 138.32,
       "low_price": 137.36,
       "volume": 1268745,
       "dollars": 174859535,
       "trades": 3,
       "date_range": "2025-04-09 to 2025-04-14",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 139.8,
+      "low_price": 138.25,
+      "volume": 1223050,
+      "dollars": 169745567,
+      "trades": 4,
+      "date_range": "2025-04-29 to 2025-05-02",
       "color": "green"
     },
     {
@@ -79,6 +79,16 @@
       "trades": 1,
       "date_range": "2025-05-12",
       "color": "red"
+    },
+    {
+      "box_number": 5,
+      "high_price": 134.8,
+      "low_price": 134.8,
+      "volume": 492369,
+      "dollars": 66371341,
+      "trades": 1,
+      "date_range": "2025-06-26",
+      "color": "purple"
     }
   ]
 }

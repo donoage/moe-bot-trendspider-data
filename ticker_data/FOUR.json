@@ -1,13 +1,19 @@
 {
   "metadata": {
     "ticker": "FOUR",
-    "generated_at": "2025-06-26T00:38:25.906131+00:00Z",
-    "date_range": "2025-03-27 to 2025-06-25",
+    "generated_at": "2025-06-27T00:34:10.571499+00:00Z",
+    "date_range": "2025-03-28 to 2025-06-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
   "levels": [
+    {
+      "price": 98.5,
+      "volume": 3230000,
+      "dollars": 320000000,
+      "rank": "2"
+    },
     {
       "price": 81.8,
       "volume": 2770000,
@@ -31,12 +37,6 @@
       "volume": 1420000,
       "dollars": 120000000,
       "rank": "9"
-    },
-    {
-      "price": 81.7,
-      "volume": 1400000,
-      "dollars": 110000000,
-      "rank": "10"
     }
   ],
   "boxes": []
