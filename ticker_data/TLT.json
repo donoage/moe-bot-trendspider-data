@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "TLT",
-    "generated_at": "2025-06-27T00:34:33.928825+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T01:07:31.496694+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1750996800,
+      "price": 88.23,
+      "volume": 18050000,
+      "dollars": 1592551500,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 93.8,
@@ -22,7 +35,7 @@
     },
     {
       "price": 87.8,
-      "volume": 91120000,
+      "volume": 91160000,
       "dollars": 8000000000,
       "rank": "3"
     },

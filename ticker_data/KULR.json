@@ -1,18 +1,54 @@
 {
   "metadata": {
     "ticker": "KULR",
-    "generated_at": "2025-06-27T00:32:18.124670+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T00:50:00.441404+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1750996800,
+      "price": 6.25,
+      "volume": 3097883,
+      "dollars": 19361768,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1750392000,
       "price": 6.92,
       "volume": 523998,
       "dollars": 3627325,
-      "rank": 5,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1750996800,
+      "price": 6.25,
+      "volume": 378054,
+      "dollars": 2362724,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1750996800,
+      "price": 6.25,
+      "volume": 229373,
+      "dollars": 1433581,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,34 +58,34 @@
   ],
   "levels": [
     {
+      "price": 6.3,
+      "volume": 3990000,
+      "dollars": 20000000,
+      "rank": "1"
+    },
+    {
       "price": 6.9,
       "volume": 980000,
       "dollars": 10000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 13.0,
       "volume": 270000,
       "dollars": 0,
-      "rank": "8"
+      "rank": "9"
     },
     {
       "price": 12.2,
       "volume": 130000,
       "dollars": 0,
-      "rank": "15"
+      "rank": "16"
     },
     {
       "price": 12.8,
       "volume": 100000,
       "dollars": 0,
-      "rank": "22"
-    },
-    {
-      "price": 5.3,
-      "volume": 210000,
-      "dollars": 0,
-      "rank": "31"
+      "rank": "23"
     }
   ],
   "boxes": []

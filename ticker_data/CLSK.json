@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "CLSK",
-    "generated_at": "2025-06-27T00:31:30.141659+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T00:42:17.407884+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1750996800,
+      "price": 10.67,
+      "volume": 2923309,
+      "dollars": 31191707,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1750996800,
+      "price": 10.67,
+      "volume": 2704484,
+      "dollars": 28856844,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 7.4,
@@ -15,26 +40,26 @@
       "rank": "1"
     },
     {
-      "price": 10.6,
-      "volume": 18790000,
+      "price": 10.7,
+      "volume": 19110000,
       "dollars": 200000000,
       "rank": "5"
+    },
+    {
+      "price": 10.6,
+      "volume": 18840000,
+      "dollars": 200000000,
+      "rank": "6"
     },
     {
       "price": 10.1,
       "volume": 14140000,
       "dollars": 140000000,
-      "rank": "11"
+      "rank": "12"
     },
     {
       "price": 11.0,
       "volume": 11880000,
-      "dollars": 130000000,
-      "rank": "13"
-    },
-    {
-      "price": 10.3,
-      "volume": 12650000,
       "dollars": 130000000,
       "rank": "14"
     }

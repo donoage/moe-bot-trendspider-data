@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "MDB",
-    "generated_at": "2025-06-27T00:34:40.458536+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T01:07:39.736561+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -42,6 +42,18 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1750996800,
+      "price": 209.92,
+      "volume": 655294,
+      "dollars": 137559316,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
@@ -52,28 +64,28 @@
       "rank": "2"
     },
     {
+      "price": 209.9,
+      "volume": 1610000,
+      "dollars": 340000000,
+      "rank": "6"
+    },
+    {
       "price": 201.5,
       "volume": 1210000,
       "dollars": 240000000,
-      "rank": "11"
+      "rank": "12"
     },
     {
       "price": 152.1,
       "volume": 1560000,
       "dollars": 240000000,
-      "rank": "12"
+      "rank": "13"
     },
     {
       "price": 227.6,
       "volume": 1010000,
       "dollars": 230000000,
-      "rank": "15"
-    },
-    {
-      "price": 214.4,
-      "volume": 1040000,
-      "dollars": 220000000,
-      "rank": "17"
+      "rank": "16"
     }
   ],
   "boxes": []

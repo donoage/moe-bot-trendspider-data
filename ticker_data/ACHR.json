@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "ACHR",
-    "generated_at": "2025-06-27T00:31:32.513696+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T00:43:02.251645+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1750996800,
+      "price": 10.47,
+      "volume": 20461608,
+      "dollars": 214233035,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1750392000,
       "price": 10.04,
@@ -70,32 +82,32 @@
   ],
   "levels": [
     {
+      "price": 10.5,
+      "volume": 39510000,
+      "dollars": 410000000,
+      "rank": "1"
+    },
+    {
       "price": 10.0,
       "volume": 29820000,
       "dollars": 300000000,
-      "rank": "1"
+      "rank": "2"
     },
     {
       "price": 8.7,
       "volume": 29840000,
       "dollars": 260000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 9.5,
       "volume": 17530000,
       "dollars": 170000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 10.2,
       "volume": 11900000,
-      "dollars": 120000000,
-      "rank": "4"
-    },
-    {
-      "price": 10.1,
-      "volume": 11910000,
       "dollars": 120000000,
       "rank": "5"
     }

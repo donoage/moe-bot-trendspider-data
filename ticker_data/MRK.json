@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "MRK",
-    "generated_at": "2025-06-27T00:35:33.989961+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T01:18:13.975503+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1750996800,
+      "price": 79.1,
+      "volume": 17324373,
+      "dollars": 1370357904,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1750392000,
       "price": 79.06,
       "volume": 16199309,
       "dollars": 1280717369,
-      "rank": 9,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,26 +34,26 @@
   ],
   "levels": [
     {
+      "price": 79.1,
+      "volume": 93770000,
+      "dollars": 7420000000,
+      "rank": "1"
+    },
+    {
       "price": 77.2,
       "volume": 62090000,
       "dollars": 4790000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 77.5,
       "volume": 55590000,
       "dollars": 4310000000,
-      "rank": "4"
-    },
-    {
-      "price": 79.1,
-      "volume": 47510000,
-      "dollars": 3760000000,
-      "rank": "6"
+      "rank": "5"
     },
     {
       "price": 79.3,
-      "volume": 45260000,
+      "volume": 45300000,
       "dollars": 3590000000,
       "rank": "7"
     },

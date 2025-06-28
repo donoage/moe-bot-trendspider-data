@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "CVNA",
-    "generated_at": "2025-06-27T00:30:48.432216+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T00:34:45.482615+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1750996800,
+      "price": 319.26,
+      "volume": 2419756,
+      "dollars": 772531300,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1746763200,
       "price": 270.7,
       "volume": 1320000,
       "dollars": 357324000,
-      "rank": 4,
+      "rank": 5,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 319.89,
       "volume": 962332,
       "dollars": 307840383,
-      "rank": 5,
+      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 327.16,
       "volume": 909929,
       "dollars": 297692371,
-      "rank": 7,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -52,27 +64,27 @@
       "rank": "2"
     },
     {
+      "price": 319.3,
+      "volume": 4130000,
+      "dollars": 1320000000,
+      "rank": "3"
+    },
+    {
       "price": 250.2,
       "volume": 2120000,
       "dollars": 530000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 224.5,
       "volume": 2000000,
       "dollars": 450000000,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 305.8,
       "volume": 1460000,
       "dollars": 450000000,
-      "rank": "5"
-    },
-    {
-      "price": 307.5,
-      "volume": 1340000,
-      "dollars": 410000000,
       "rank": "6"
     }
   ],

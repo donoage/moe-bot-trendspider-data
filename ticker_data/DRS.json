@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "DRS",
-    "generated_at": "2025-06-27T00:34:28.549870+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T01:06:05.892074+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1750996800,
+      "price": 45.04,
+      "volume": 4445986,
+      "dollars": 200247209,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1750392000,
       "price": 44.0,
@@ -18,38 +30,62 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1750996800,
+      "price": 45.04,
+      "volume": 1257133,
+      "dollars": 56621270,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1750996800,
+      "price": 45.04,
+      "volume": 862806,
+      "dollars": 38861041,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
     {
+      "price": 45.0,
+      "volume": 9960000,
+      "dollars": 450000000,
+      "rank": "1"
+    },
+    {
       "price": 44.0,
       "volume": 1700000,
       "dollars": 70000000,
-      "rank": "10"
+      "rank": "11"
     },
     {
       "price": 33.0,
       "volume": 2040000,
       "dollars": 70000000,
-      "rank": "14"
+      "rank": "15"
     },
     {
       "price": 37.0,
       "volume": 1330000,
       "dollars": 50000000,
-      "rank": "28"
+      "rank": "29"
     },
     {
       "price": 28.2,
       "volume": 1480000,
       "dollars": 40000000,
-      "rank": "31"
-    },
-    {
-      "price": 43.4,
-      "volume": 900000,
-      "dollars": 40000000,
-      "rank": "34"
+      "rank": "32"
     }
   ],
   "boxes": []

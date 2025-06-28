@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "CRM",
-    "generated_at": "2025-06-27T00:31:52.845783+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T00:44:31.748778+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1750996800,
+      "price": 273.42,
+      "volume": 5649602,
+      "dollars": 1544714178,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1750392000,
       "price": 260.63,
       "volume": 3968740,
       "dollars": 1034372706,
-      "rank": 8,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,34 +34,34 @@
   ],
   "levels": [
     {
+      "price": 273.4,
+      "volume": 15120000,
+      "dollars": 4139999999,
+      "rank": "1"
+    },
+    {
       "price": 241.9,
       "volume": 13180000,
       "dollars": 3190000000,
-      "rank": "1"
+      "rank": "2"
     },
     {
       "price": 252.9,
       "volume": 10600000,
       "dollars": 2680000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 271.1,
       "volume": 8400000,
       "dollars": 2280000000,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 261.6,
       "volume": 8090000,
       "dollars": 2120000000,
-      "rank": "6"
-    },
-    {
-      "price": 242.1,
-      "volume": 8330000,
-      "dollars": 2020000000,
-      "rank": "8"
+      "rank": "7"
     }
   ],
   "boxes": [

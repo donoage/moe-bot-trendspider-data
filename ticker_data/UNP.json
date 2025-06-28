@@ -1,41 +1,54 @@
 {
   "metadata": {
     "ticker": "UNP",
-    "generated_at": "2025-06-27T00:36:06.199058+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T01:22:38.866075+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1750996800,
+      "price": 231.41,
+      "volume": 2556945,
+      "dollars": 591702642,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 231.4,
+      "volume": 6130000,
+      "dollars": 1420000000,
+      "rank": "3"
+    },
     {
       "price": 223.9,
       "volume": 5390000,
       "dollars": 1210000000,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 226.3,
       "volume": 5080000,
       "dollars": 1150000000,
-      "rank": "6"
+      "rank": "7"
     },
     {
       "price": 203.6,
       "volume": 5600000,
       "dollars": 1140000000,
-      "rank": "8"
+      "rank": "9"
     },
     {
       "price": 212.0,
       "volume": 5290000,
       "dollars": 1120000000,
-      "rank": "9"
-    },
-    {
-      "price": 216.8,
-      "volume": 5130000,
-      "dollars": 1110000000,
       "rank": "10"
     }
   ],

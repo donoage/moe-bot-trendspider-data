@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "HOOD",
-    "generated_at": "2025-06-27T00:30:42.616802+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T00:35:08.640343+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -13,6 +13,18 @@
       "volume": 7890382,
       "dollars": 521948769,
       "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1750996800,
+      "price": 83.03,
+      "volume": 3044090,
+      "dollars": 252750792,
+      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -42,6 +54,18 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1750996800,
+      "price": 83.03,
+      "volume": 1704752,
+      "dollars": 141545558,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
@@ -52,28 +76,28 @@
       "rank": "1"
     },
     {
+      "price": 83.0,
+      "volume": 8130000,
+      "dollars": 670000000,
+      "rank": "2"
+    },
+    {
       "price": 44.4,
       "volume": 13040000,
       "dollars": 580000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 38.0,
       "volume": 15000000,
       "dollars": 570000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 48.2,
       "volume": 10890000,
       "dollars": 520000000,
-      "rank": "4"
-    },
-    {
-      "price": 38.3,
-      "volume": 12990000,
-      "dollars": 500000000,
-      "rank": "6"
+      "rank": "5"
     }
   ],
   "boxes": []

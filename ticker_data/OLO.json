@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "OLO",
-    "generated_at": "2025-06-27T00:32:01.963961+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T00:45:28.272546+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1750996800,
+      "price": 8.62,
+      "volume": 1295394,
+      "dollars": 11166296,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 6.9,
@@ -33,8 +46,8 @@
       "rank": "9"
     },
     {
-      "price": 7.8,
-      "volume": 4050000,
+      "price": 8.6,
+      "volume": 3940000,
       "dollars": 30000000,
       "rank": "10"
     }

@@ -1,42 +1,55 @@
 {
   "metadata": {
     "ticker": "AFRM",
-    "generated_at": "2025-06-27T00:32:32.770521+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T00:52:03.916304+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1750996800,
+      "price": 68.06,
+      "volume": 2751268,
+      "dollars": 187251300,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 68.1,
+      "volume": 5270000,
+      "dollars": 360000000,
+      "rank": "5"
+    },
     {
       "price": 44.0,
       "volume": 6080000,
       "dollars": 270000000,
-      "rank": "7"
+      "rank": "8"
     },
     {
       "price": 37.7,
       "volume": 6630000,
       "dollars": 250000000,
-      "rank": "9"
+      "rank": "10"
     },
     {
       "price": 65.6,
       "volume": 3760000,
       "dollars": 250000000,
-      "rank": "11"
+      "rank": "12"
     },
     {
       "price": 41.8,
       "volume": 5800000,
       "dollars": 240000000,
-      "rank": "12"
-    },
-    {
-      "price": 40.7,
-      "volume": 5720000,
-      "dollars": 230000000,
-      "rank": "14"
+      "rank": "13"
     }
   ],
   "boxes": []

@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "RGTI",
-    "generated_at": "2025-06-27T00:32:14.638826+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T00:47:03.730756+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1750996800,
+      "price": 11.07,
+      "volume": 10893968,
+      "dollars": 120596225,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1748577600,
       "price": 12.11,
@@ -80,6 +92,18 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1750996800,
+      "price": 11.07,
+      "volume": 2490985,
+      "dollars": 27575203,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1748923200,
       "price": 12.04,
       "volume": 1685697,
@@ -107,8 +131,8 @@
   "levels": [
     {
       "price": 11.1,
-      "volume": 19500000,
-      "dollars": 220000000,
+      "volume": 41150000,
+      "dollars": 460000000,
       "rank": "1"
     },
     {
@@ -131,7 +155,7 @@
     },
     {
       "price": 11.0,
-      "volume": 9440000,
+      "volume": 9500000,
       "dollars": 100000000,
       "rank": "5"
     }
