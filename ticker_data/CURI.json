@@ -1,30 +1,61 @@
 {
   "metadata": {
     "ticker": "CURI",
-    "generated_at": "2025-06-27T00:40:32.967022+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T01:54:48.669064+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1750996800,
+      "price": 5.3,
+      "volume": 2882581,
+      "dollars": 15277679,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1750996800,
+      "price": 5.3,
+      "volume": 378214,
+      "dollars": 2004420,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 5.3,
+      "volume": 3800000,
+      "dollars": 20000000,
+      "rank": "2"
+    },
     {
       "price": 5.9,
       "volume": 230000,
       "dollars": 0,
-      "rank": "19"
+      "rank": "20"
     },
     {
       "price": 6.5,
       "volume": 120000,
       "dollars": 0,
-      "rank": "28"
+      "rank": "29"
     },
     {
       "price": 4.9,
       "volume": 150000,
       "dollars": 0,
-      "rank": "30"
+      "rank": "31"
     }
   ],
   "boxes": []

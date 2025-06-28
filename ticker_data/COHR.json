@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "COHR",
-    "generated_at": "2025-06-27T00:40:35.681237+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T01:55:25.211318+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1750996800,
+      "price": 87.23,
+      "volume": 1416528,
+      "dollars": 123563737,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1744689600,
       "price": 56.54,
       "volume": 1399214,
       "dollars": 79111559,
-      "rank": 10,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 79.55,
       "volume": 942265,
       "dollars": 74957180,
-      "rank": 12,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -52,15 +64,15 @@
       "rank": "4"
     },
     {
-      "price": 75.8,
-      "volume": 2550000,
-      "dollars": 190000000,
+      "price": 87.2,
+      "volume": 2610000,
+      "dollars": 230000000,
       "rank": "6"
     },
     {
-      "price": 71.0,
-      "volume": 2440000,
-      "dollars": 170000000,
+      "price": 75.8,
+      "volume": 2550000,
+      "dollars": 190000000,
       "rank": "7"
     }
   ],

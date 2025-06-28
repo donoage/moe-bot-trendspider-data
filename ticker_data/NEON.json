@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "NEON",
-    "generated_at": "2025-06-27T00:40:17.362801+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T01:53:10.829232+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1750046400,
-      "price": 20.0,
-      "volume": 61982,
-      "dollars": 1239640,
-      "rank": 20,
+      "timestamp": 1750996800,
+      "price": 22.83,
+      "volume": 965488,
+      "dollars": 22042091,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1750996800,
+      "price": 22.83,
+      "volume": 129067,
+      "dollars": 2946599,
+      "rank": 5,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,34 +34,34 @@
   ],
   "levels": [
     {
+      "price": 22.8,
+      "volume": 1090000,
+      "dollars": 20000000,
+      "rank": "1"
+    },
+    {
       "price": 20.5,
       "volume": 110000,
       "dollars": 0,
-      "rank": "6"
+      "rank": "7"
     },
     {
       "price": 20.0,
       "volume": 60000,
       "dollars": 0,
-      "rank": "17"
+      "rank": "18"
     },
     {
       "price": 12.3,
       "volume": 50000,
       "dollars": 0,
-      "rank": "39"
+      "rank": "40"
     },
     {
       "price": 20.9,
       "volume": 30000,
       "dollars": 0,
-      "rank": "43"
-    },
-    {
-      "price": 13.0,
-      "volume": 40000,
-      "dollars": 0,
-      "rank": "47"
+      "rank": "44"
     }
   ],
   "boxes": []

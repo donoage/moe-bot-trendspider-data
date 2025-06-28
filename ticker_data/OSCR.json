@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "OSCR",
-    "generated_at": "2025-06-27T00:40:23.065849+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T01:53:58.790085+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1750996800,
+      "price": 20.41,
+      "volume": 2391142,
+      "dollars": 48803208,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1750392000,
       "price": 21.22,
@@ -64,26 +76,26 @@
       "rank": "1"
     },
     {
+      "price": 20.4,
+      "volume": 5490000,
+      "dollars": 110000000,
+      "rank": "2"
+    },
+    {
       "price": 16.8,
       "volume": 6480000,
       "dollars": 110000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 16.0,
       "volume": 6430000,
       "dollars": 100000000,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 17.0,
       "volume": 6000000,
-      "dollars": 100000000,
-      "rank": "5"
-    },
-    {
-      "price": 16.3,
-      "volume": 5910000,
       "dollars": 100000000,
       "rank": "6"
     }

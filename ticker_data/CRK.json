@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "CRK",
-    "generated_at": "2025-06-27T00:40:21.208120+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T01:53:47.012671+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1750996800,
+      "price": 28.76,
+      "volume": 2192105,
+      "dollars": 63044939,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1750392000,
       "price": 30.5,
       "volume": 847803,
       "dollars": 25857991,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,34 +34,34 @@
   ],
   "levels": [
     {
+      "price": 28.8,
+      "volume": 3780000,
+      "dollars": 110000000,
+      "rank": "7"
+    },
+    {
       "price": 18.4,
       "volume": 4720000,
       "dollars": 90000000,
-      "rank": "12"
+      "rank": "13"
     },
     {
       "price": 19.9,
       "volume": 3410000,
       "dollars": 70000000,
-      "rank": "23"
+      "rank": "24"
     },
     {
       "price": 18.6,
       "volume": 3450000,
       "dollars": 60000000,
-      "rank": "24"
+      "rank": "25"
     },
     {
       "price": 18.1,
       "volume": 3470000,
       "dollars": 60000000,
-      "rank": "25"
-    },
-    {
-      "price": 19.0,
-      "volume": 3020000,
-      "dollars": 60000000,
-      "rank": "31"
+      "rank": "26"
     }
   ],
   "boxes": []

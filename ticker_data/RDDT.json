@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "RDDT",
-    "generated_at": "2025-06-27T00:39:58.917352+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T01:50:45.622021+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1750996800,
+      "price": 143.01,
+      "volume": 6845657,
+      "dollars": 978997407,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1745812800,
       "price": 121.0,
@@ -42,38 +54,50 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1750996800,
+      "price": 143.01,
+      "volume": 852680,
+      "dollars": 121941766,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
     {
+      "price": 143.0,
+      "volume": 10570000,
+      "dollars": 1510000000,
+      "rank": "1"
+    },
+    {
       "price": 146.0,
       "volume": 4840000,
       "dollars": 710000000,
-      "rank": "1"
+      "rank": "2"
     },
     {
       "price": 127.8,
       "volume": 1900000,
       "dollars": 240000000,
-      "rank": "7"
+      "rank": "8"
     },
     {
       "price": 117.5,
       "volume": 1930000,
       "dollars": 230000000,
-      "rank": "8"
+      "rank": "9"
     },
     {
       "price": 112.4,
       "volume": 1850000,
       "dollars": 210000000,
-      "rank": "12"
-    },
-    {
-      "price": 121.0,
-      "volume": 1610000,
-      "dollars": 200000000,
-      "rank": "14"
+      "rank": "13"
     }
   ],
   "boxes": []

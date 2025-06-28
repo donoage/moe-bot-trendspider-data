@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "VRT",
-    "generated_at": "2025-06-27T00:40:06.288490+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T01:50:56.843269+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1750996800,
+      "price": 127.16,
+      "volume": 2230110,
+      "dollars": 283580787,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1748577600,
       "price": 107.93,
       "volume": 1760670,
       "dollars": 190029113,
-      "rank": 11,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -26,6 +38,12 @@
       "volume": 13580000,
       "dollars": 1180000000,
       "rank": "1"
+    },
+    {
+      "price": 125.8,
+      "volume": 4810000,
+      "dollars": 610000000,
+      "rank": "3"
     },
     {
       "price": 93.5,
@@ -44,12 +62,6 @@
       "volume": 6560000,
       "dollars": 510000000,
       "rank": "6"
-    },
-    {
-      "price": 125.0,
-      "volume": 3340000,
-      "dollars": 420000000,
-      "rank": "7"
     }
   ],
   "boxes": [
