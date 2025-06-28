@@ -1,18 +1,42 @@
 {
   "metadata": {
     "ticker": "GTX",
-    "generated_at": "2025-06-27T00:37:39.875761+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T01:34:53.890057+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1750996800,
+      "price": 10.5,
+      "volume": 13268397,
+      "dollars": 139318168,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1748491200,
       "price": 10.25,
       "volume": 3000000,
       "dollars": 30750000,
-      "rank": 5,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1750996800,
+      "price": 10.5,
+      "volume": 1425285,
+      "dollars": 14965064,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,32 +46,32 @@
   ],
   "levels": [
     {
+      "price": 10.5,
+      "volume": 22680000,
+      "dollars": 240000000,
+      "rank": "2"
+    },
+    {
       "price": 7.9,
       "volume": 12630000,
       "dollars": 100000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 7.3,
       "volume": 7660000,
       "dollars": 60000000,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 7.5,
       "volume": 7090000,
       "dollars": 50000000,
-      "rank": "5"
+      "rank": "6"
     },
     {
       "price": 10.3,
       "volume": 5130000,
-      "dollars": 50000000,
-      "rank": "6"
-    },
-    {
-      "price": 9.0,
-      "volume": 5800000,
       "dollars": 50000000,
       "rank": "7"
     }

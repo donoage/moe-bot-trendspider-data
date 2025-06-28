@@ -1,42 +1,55 @@
 {
   "metadata": {
     "ticker": "LULU",
-    "generated_at": "2025-06-27T00:36:59.684379+00:00Z",
-    "date_range": "2025-03-28 to 2025-06-26",
+    "generated_at": "2025-06-28T01:28:37.642520+00:00Z",
+    "date_range": "2025-03-29 to 2025-06-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1750996800,
+      "price": 235.02,
+      "volume": 1256607,
+      "dollars": 295327777,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 235.0,
+      "volume": 2680000,
+      "dollars": 630000000,
+      "rank": "5"
+    },
     {
       "price": 312.0,
       "volume": 1600000,
       "dollars": 500000000,
-      "rank": "6"
+      "rank": "7"
     },
     {
       "price": 311.8,
       "volume": 1490000,
       "dollars": 460000000,
-      "rank": "7"
+      "rank": "8"
     },
     {
       "price": 321.2,
       "volume": 1310000,
       "dollars": 420000000,
-      "rank": "9"
+      "rank": "10"
     },
     {
       "price": 316.7,
       "volume": 1260000,
       "dollars": 400000000,
-      "rank": "11"
-    },
-    {
-      "price": 300.1,
-      "volume": 1210000,
-      "dollars": 360000000,
-      "rank": "13"
+      "rank": "12"
     }
   ],
   "boxes": []
