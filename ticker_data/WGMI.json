@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "WGMI",
-    "generated_at": "2025-06-28T01:08:01.236034+00:00Z",
-    "date_range": "2025-03-29 to 2025-06-27",
+    "generated_at": "2025-07-01T00:47:29.868162+00:00Z",
+    "date_range": "2025-04-01 to 2025-06-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -34,6 +34,18 @@
   ],
   "levels": [
     {
+      "price": 22.5,
+      "volume": 250000,
+      "dollars": 10000000,
+      "rank": "1"
+    },
+    {
+      "price": 22.3,
+      "volume": 240000,
+      "dollars": 10000000,
+      "rank": "2"
+    },
+    {
       "price": 21.9,
       "volume": 170000,
       "dollars": 0,
@@ -50,18 +62,6 @@
       "volume": 140000,
       "dollars": 0,
       "rank": "5"
-    },
-    {
-      "price": 19.6,
-      "volume": 140000,
-      "dollars": 0,
-      "rank": "6"
-    },
-    {
-      "price": 21.8,
-      "volume": 120000,
-      "dollars": 0,
-      "rank": "7"
     }
   ],
   "boxes": []

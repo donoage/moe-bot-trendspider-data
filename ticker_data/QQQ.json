@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "QQQ",
-    "generated_at": "2025-06-28T00:35:57.553032+00:00Z",
-    "date_range": "2025-03-29 to 2025-06-27",
+    "generated_at": "2025-07-01T00:32:51.271304+00:00Z",
+    "date_range": "2025-04-01 to 2025-06-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -103,42 +103,42 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 552.02,
+      "low_price": 537.01,
+      "volume": 788220,
+      "dollars": 428524327,
+      "trades": 3,
+      "date_range": "2025-06-24 to 2025-06-30",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 516.92,
       "low_price": 507.5,
       "volume": 821389,
       "dollars": 420108950,
       "trades": 3,
       "date_range": "2025-05-19 to 2025-05-23",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 540.23,
-      "low_price": 537.01,
-      "volume": 507327,
-      "dollars": 273465773,
-      "trades": 2,
-      "date_range": "2025-06-24",
       "color": "green"
     },
     {
       "box_number": 3,
-      "high_price": 469.08,
-      "low_price": 432.21,
-      "volume": 515073,
-      "dollars": 231779979,
-      "trades": 2,
-      "date_range": "2025-03-31 to 2025-04-04",
-      "color": "orange"
-    },
-    {
-      "box_number": 4,
       "high_price": 529.31,
       "low_price": 529.31,
       "volume": 364135,
       "dollars": 192740296,
       "trades": 1,
       "date_range": "2025-06-04",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
+      "high_price": 432.21,
+      "low_price": 432.21,
+      "volume": 266625,
+      "dollars": 115237991,
+      "trades": 1,
+      "date_range": "2025-04-04",
       "color": "red"
     },
     {

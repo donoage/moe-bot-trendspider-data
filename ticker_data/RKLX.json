@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "RKLX",
-    "generated_at": "2025-06-30T20:37:40.077077+00:00Z",
+    "generated_at": "2025-07-01T01:19:10.195283+00:00Z",
     "date_range": "2025-04-01 to 2025-06-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -24,7 +24,7 @@
       "price": 31.94,
       "volume": 31379,
       "dollars": 1002245,
-      "rank": 1,
+      "rank": 2,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +36,7 @@
       "price": 59.04,
       "volume": 13600,
       "dollars": 802944,
-      "rank": 2,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -44,6 +44,25 @@
       "vcd": 0.0
     }
   ],
-  "levels": [],
+  "levels": [
+    {
+      "price": 59.3,
+      "volume": 20000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
+      "price": 31.9,
+      "volume": 30000,
+      "dollars": 0,
+      "rank": "2"
+    },
+    {
+      "price": 59.0,
+      "volume": 10000,
+      "dollars": 0,
+      "rank": "3"
+    }
+  ],
   "boxes": []
 }
