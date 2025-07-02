@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "EL",
-    "generated_at": "2025-07-01T00:56:18.666366+00:00Z",
-    "date_range": "2025-04-01 to 2025-06-30",
+    "generated_at": "2025-07-02T00:54:25.989625+00:00Z",
+    "date_range": "2025-04-02 to 2025-07-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -34,6 +34,12 @@
   ],
   "levels": [
     {
+      "price": 85.0,
+      "volume": 8160000,
+      "dollars": 690000000,
+      "rank": "3"
+    },
+    {
       "price": 80.1,
       "volume": 6190000,
       "dollars": 500000000,
@@ -56,12 +62,6 @@
       "volume": 4840000,
       "dollars": 360000000,
       "rank": "20"
-    },
-    {
-      "price": 66.9,
-      "volume": 5160000,
-      "dollars": 350000000,
-      "rank": "24"
     }
   ],
   "boxes": []

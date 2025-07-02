@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "GLD",
-    "generated_at": "2025-07-01T01:04:35.720181+00:00Z",
-    "date_range": "2025-04-01 to 2025-06-30",
+    "generated_at": "2025-07-02T01:01:31.759676+00:00Z",
+    "date_range": "2025-04-02 to 2025-07-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -89,33 +89,23 @@
     },
     {
       "box_number": 2,
+      "high_price": 291.4,
+      "low_price": 283.47,
+      "volume": 668355,
+      "dollars": 191428160,
+      "trades": 3,
+      "date_range": "2025-04-09 to 2025-04-10",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 305.55,
       "low_price": 304.95,
       "volume": 472155,
       "dollars": 144079667,
       "trades": 2,
       "date_range": "2025-04-17",
-      "color": "green"
-    },
-    {
-      "box_number": 3,
-      "high_price": 288.85,
-      "low_price": 288.8,
-      "volume": 394908,
-      "dollars": 114059378,
-      "trades": 2,
-      "date_range": "2025-04-01",
       "color": "orange"
-    },
-    {
-      "box_number": 4,
-      "high_price": 283.47,
-      "low_price": 283.47,
-      "volume": 353660,
-      "dollars": 100252000,
-      "trades": 1,
-      "date_range": "2025-04-09",
-      "color": "red"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "CI",
-    "generated_at": "2025-07-01T00:55:03.303137+00:00Z",
-    "date_range": "2025-04-01 to 2025-06-30",
+    "generated_at": "2025-07-02T00:53:17.144556+00:00Z",
+    "date_range": "2025-04-02 to 2025-07-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -76,5 +76,16 @@
       "rank": "9"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 335.15,
+      "low_price": 335.15,
+      "volume": 270383,
+      "dollars": 90618862,
+      "trades": 1,
+      "date_range": "2025-07-01",
+      "color": "blue"
+    }
+  ]
 }

@@ -1,13 +1,19 @@
 {
   "metadata": {
     "ticker": "TQQQ",
-    "generated_at": "2025-07-01T00:33:02.682708+00:00Z",
-    "date_range": "2025-04-01 to 2025-06-30",
+    "generated_at": "2025-07-02T00:34:23.901842+00:00Z",
+    "date_range": "2025-04-02 to 2025-07-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
   "levels": [
+    {
+      "price": 83.2,
+      "volume": 15160000,
+      "dollars": 1260000000,
+      "rank": "1"
+    },
     {
       "price": 59.1,
       "volume": 15500000,
@@ -31,12 +37,6 @@
       "volume": 20820000,
       "dollars": 810000000,
       "rank": "15"
-    },
-    {
-      "price": 44.3,
-      "volume": 17920000,
-      "dollars": 790000000,
-      "rank": "19"
     }
   ],
   "boxes": [
