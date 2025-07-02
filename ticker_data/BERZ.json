@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "ticker": "BERZ",
+    "generated_at": "2025-07-02T19:55:57.985552+00:00Z",
+    "date_range": "2025-04-03 to 2025-07-02",
+    "source": "volumeleaders.com",
+    "script": "populate_ticker_data.py"
+  },
+  "prints": [
+    {
+      "timestamp": 1743998400,
+      "price": 25.39,
+      "volume": 25421,
+      "dollars": 645439,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1744084800,
+      "price": 18.81,
+      "volume": 28886,
+      "dollars": 543345,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 25.4,
+      "volume": 30000,
+      "dollars": 0,
+      "rank": "2"
+    },
+    {
+      "price": 18.8,
+      "volume": 30000,
+      "dollars": 0,
+      "rank": "10"
+    }
+  ],
+  "boxes": []
+}

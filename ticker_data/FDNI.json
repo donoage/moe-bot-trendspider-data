@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "ticker": "FDNI",
+    "generated_at": "2025-07-02T19:55:29.324206+00:00Z",
+    "date_range": "2025-04-03 to 2025-07-02",
+    "source": "volumeleaders.com",
+    "script": "populate_ticker_data.py"
+  },
+  "prints": [
+    {
+      "timestamp": 1746417600,
+      "price": 31.34,
+      "volume": 2598170,
+      "dollars": 81426647,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1743998400,
+      "price": 27.28,
+      "volume": 2699976,
+      "dollars": 73663985,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 31.3,
+      "volume": 2820000,
+      "dollars": 90000000,
+      "rank": "1"
+    },
+    {
+      "price": 27.3,
+      "volume": 2700000,
+      "dollars": 70000000,
+      "rank": "2"
+    },
+    {
+      "price": 25.7,
+      "volume": 240000,
+      "dollars": 10000000,
+      "rank": "6"
+    },
+    {
+      "price": 23.8,
+      "volume": 250000,
+      "dollars": 10000000,
+      "rank": "7"
+    },
+    {
+      "price": 31.4,
+      "volume": 140000,
+      "dollars": 0,
+      "rank": "10"
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 31.34,
+      "low_price": 31.34,
+      "volume": 2598170,
+      "dollars": 81426647,
+      "trades": 1,
+      "date_range": "2025-05-05",
+      "color": "blue"
+    }
+  ]
+}
