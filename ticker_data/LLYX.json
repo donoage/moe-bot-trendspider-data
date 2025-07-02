@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "ticker": "LLYX",
+    "generated_at": "2025-07-02T19:20:32.182555+00:00Z",
+    "date_range": "2025-04-03 to 2025-07-02",
+    "source": "volumeleaders.com",
+    "script": "populate_ticker_data.py"
+  },
+  "prints": [
+    {
+      "timestamp": 1750132800,
+      "price": 16.67,
+      "volume": 39000,
+      "dollars": 650130,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1748836800,
+      "price": 14.7,
+      "volume": 39873,
+      "dollars": 586081,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 16.7,
+      "volume": 40000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
+      "price": 14.7,
+      "volume": 40000,
+      "dollars": 0,
+      "rank": "2"
+    }
+  ],
+  "boxes": []
+}

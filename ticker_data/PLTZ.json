@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "ticker": "PLTZ",
+    "generated_at": "2025-07-02T19:19:58.469975+00:00Z",
+    "date_range": "2025-04-03 to 2025-07-02",
+    "source": "volumeleaders.com",
+    "script": "populate_ticker_data.py"
+  },
+  "prints": [
+    {
+      "timestamp": 1751256000,
+      "price": 14.32,
+      "volume": 57000,
+      "dollars": 816012,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1750824000,
+      "price": 13.33,
+      "volume": 60000,
+      "dollars": 799824,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 14.3,
+      "volume": 60000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
+      "price": 13.3,
+      "volume": 60000,
+      "dollars": 0,
+      "rank": "2"
+    }
+  ],
+  "boxes": []
+}
