@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "ticker": "ARKK",
+    "generated_at": "2025-07-02T19:18:22.283179+00:00Z",
+    "date_range": "2025-04-03 to 2025-07-02",
+    "source": "volumeleaders.com",
+    "script": "populate_ticker_data.py"
+  },
+  "prints": [
+    {
+      "timestamp": 1750392000,
+      "price": 67.73,
+      "volume": 3148658,
+      "dollars": 213258606,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1744862400,
+      "price": 45.18,
+      "volume": 2500000,
+      "dollars": 112937500,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1750737600,
+      "price": 70.3,
+      "volume": 1506047,
+      "dollars": 105875104,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 43.6,
+      "volume": 12950000,
+      "dollars": 560000000,
+      "rank": "2"
+    },
+    {
+      "price": 45.6,
+      "volume": 12030000,
+      "dollars": 550000000,
+      "rank": "3"
+    },
+    {
+      "price": 39.2,
+      "volume": 13010000,
+      "dollars": 510000000,
+      "rank": "4"
+    },
+    {
+      "price": 43.2,
+      "volume": 11760000,
+      "dollars": 510000000,
+      "rank": "5"
+    },
+    {
+      "price": 44.0,
+      "volume": 11400000,
+      "dollars": 500000000,
+      "rank": "6"
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 70.82,
+      "low_price": 70.52,
+      "volume": 529952,
+      "dollars": 37451100,
+      "trades": 2,
+      "date_range": "2025-06-27 to 2025-06-30",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 50.9,
+      "low_price": 50.9,
+      "volume": 498100,
+      "dollars": 25353290,
+      "trades": 1,
+      "date_range": "2025-05-05",
+      "color": "green"
+    }
+  ]
+}
