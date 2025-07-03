@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "IVW",
-    "generated_at": "2025-07-02T00:59:13.653468+00:00Z",
-    "date_range": "2025-04-02 to 2025-07-01",
+    "generated_at": "2025-07-03T01:07:17.686651+00:00Z",
+    "date_range": "2025-04-03 to 2025-07-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -75,43 +75,33 @@
     },
     {
       "box_number": 3,
+      "high_price": 110.05,
+      "low_price": 109.91,
+      "volume": 1843224,
+      "dollars": 202790122,
+      "trades": 2,
+      "date_range": "2025-06-30",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
       "high_price": 89.78,
       "low_price": 89.64,
       "volume": 2129964,
       "dollars": 191001840,
       "trades": 2,
       "date_range": "2025-04-03",
-      "color": "orange"
-    },
-    {
-      "box_number": 4,
-      "high_price": 93.2,
-      "low_price": 93.2,
-      "volume": 2037346,
-      "dollars": 189880647,
-      "trades": 1,
-      "date_range": "2025-04-02",
       "color": "red"
     },
     {
       "box_number": 5,
-      "high_price": 110.05,
-      "low_price": 110.05,
-      "volume": 1438379,
-      "dollars": 158293608,
-      "trades": 1,
-      "date_range": "2025-06-30",
-      "color": "purple"
-    },
-    {
-      "box_number": 6,
       "high_price": 103.64,
       "low_price": 103.64,
       "volume": 517279,
       "dollars": 53610795,
       "trades": 1,
       "date_range": "2025-05-27",
-      "color": "yellow"
+      "color": "purple"
     }
   ]
 }
