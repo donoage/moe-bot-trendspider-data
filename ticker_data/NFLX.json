@@ -1,12 +1,85 @@
 {
   "metadata": {
     "ticker": "NFLX",
-    "generated_at": "2025-07-03T00:43:29.906035+00:00Z",
-    "date_range": "2025-04-03 to 2025-07-02",
+    "generated_at": "2025-07-04T00:32:42.987883+00:00Z",
+    "date_range": "2025-04-04 to 2025-07-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1750392000,
+      "price": 1231.41,
+      "volume": 1377673,
+      "dollars": 1696480308,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1748577600,
+      "price": 1207.23,
+      "volume": 1192894,
+      "dollars": 1440097423,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1744171200,
+      "price": 945.47,
+      "volume": 1051970,
+      "dollars": 994606075,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1746590400,
+      "price": 1155.41,
+      "volume": 702604,
+      "dollars": 811795687,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1745380800,
+      "price": 1049.59,
+      "volume": 740012,
+      "dollars": 776709195,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1751256000,
+      "price": 1339.13,
+      "volume": 577961,
+      "dollars": 773964913,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 1231.4,

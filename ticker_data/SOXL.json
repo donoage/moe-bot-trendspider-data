@@ -1,12 +1,61 @@
 {
   "metadata": {
     "ticker": "SOXL",
-    "generated_at": "2025-07-03T00:40:08.894335+00:00Z",
-    "date_range": "2025-04-03 to 2025-07-02",
+    "generated_at": "2025-07-04T00:31:48.619342+00:00Z",
+    "date_range": "2025-04-04 to 2025-07-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1751428800,
+      "price": 26.05,
+      "volume": 3926034,
+      "dollars": 102273185,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1750737600,
+      "price": 23.95,
+      "volume": 3775333,
+      "dollars": 90419225,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1746158400,
+      "price": 13.29,
+      "volume": 5581770,
+      "dollars": 74181723,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1748923200,
+      "price": 18.3,
+      "volume": 3821905,
+      "dollars": 69940861,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 24.0,
@@ -33,8 +82,8 @@
       "rank": "13"
     },
     {
-      "price": 16.9,
-      "volume": 18180000,
+      "price": 26.3,
+      "volume": 11720000,
       "dollars": 310000000,
       "rank": "16"
     }

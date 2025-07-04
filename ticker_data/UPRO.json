@@ -1,12 +1,85 @@
 {
   "metadata": {
     "ticker": "UPRO",
-    "generated_at": "2025-07-03T00:41:48.740733+00:00Z",
-    "date_range": "2025-04-03 to 2025-07-02",
+    "generated_at": "2025-07-04T00:32:01.490189+00:00Z",
+    "date_range": "2025-04-04 to 2025-07-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1743739200,
+      "price": 53.62,
+      "volume": 7500000,
+      "dollars": 402150000,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1744689600,
+      "price": 62.29,
+      "volume": 4500000,
+      "dollars": 280305000,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1750824000,
+      "price": 86.95,
+      "volume": 3026730,
+      "dollars": 263174173,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1751515200,
+      "price": 94.61,
+      "volume": 2465000,
+      "dollars": 233213650,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1744689600,
+      "price": 62.29,
+      "volume": 3548070,
+      "dollars": 221009280,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1750824000,
+      "price": 86.95,
+      "volume": 1085393,
+      "dollars": 94374921,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 62.3,
@@ -33,9 +106,9 @@
       "rank": "5"
     },
     {
-      "price": 66.9,
-      "volume": 4600000,
-      "dollars": 310000000,
+      "price": 94.6,
+      "volume": 3560000,
+      "dollars": 340000000,
       "rank": "6"
     }
   ],

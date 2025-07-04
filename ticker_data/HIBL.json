@@ -1,40 +1,53 @@
 {
   "metadata": {
     "ticker": "HIBL",
-    "generated_at": "2025-07-03T01:26:13.998395+00:00Z",
-    "date_range": "2025-04-03 to 2025-07-02",
+    "generated_at": "2025-07-04T01:05:26.768496+00:00Z",
+    "date_range": "2025-04-04 to 2025-07-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1751515200,
+      "price": 46.22,
+      "volume": 91170,
+      "dollars": 4213877,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 46.2,
+      "volume": 90000,
+      "dollars": 0,
+      "rank": "2"
+    },
     {
       "price": 32.2,
       "volume": 100000,
       "dollars": 0,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 37.3,
       "volume": 60000,
       "dollars": 0,
-      "rank": "6"
+      "rank": "7"
     },
     {
       "price": 37.6,
       "volume": 50000,
       "dollars": 0,
-      "rank": "7"
+      "rank": "8"
     },
     {
       "price": 14.2,
       "volume": 140000,
-      "dollars": 0,
-      "rank": "8"
-    },
-    {
-      "price": 32.6,
-      "volume": 60000,
       "dollars": 0,
       "rank": "9"
     }
