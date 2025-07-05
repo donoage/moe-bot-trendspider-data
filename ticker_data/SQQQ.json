@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SQQQ",
-    "generated_at": "2025-07-04T00:39:00.640687+00:00Z",
-    "date_range": "2025-04-04 to 2025-07-03",
+    "generated_at": "2025-07-05T00:31:22.757092+00:00Z",
+    "date_range": "2025-04-05 to 2025-07-04",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -42,30 +42,30 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 50.03,
-      "low_price": 48.49,
-      "volume": 952206,
-      "dollars": 46900303,
-      "trades": 2,
-      "date_range": "2025-04-04 to 2025-04-07",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
       "high_price": 22.57,
       "low_price": 22.57,
       "volume": 1253026,
       "dollars": 28280796,
       "trades": 1,
       "date_range": "2025-06-13",
-      "color": "green"
+      "color": "blue"
     },
     {
-      "box_number": 3,
+      "box_number": 2,
       "high_price": 53.32,
       "low_price": 53.32,
       "volume": 491236,
       "dollars": 26192703,
+      "trades": 1,
+      "date_range": "2025-04-07",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 50.03,
+      "low_price": 50.03,
+      "volume": 472620,
+      "dollars": 23645178,
       "trades": 1,
       "date_range": "2025-04-07",
       "color": "orange"
