@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "UPST",
-    "generated_at": "2025-07-07T00:53:31.626640+00:00Z",
-    "date_range": "2025-04-05 to 2025-07-04",
+    "generated_at": "2025-07-08T00:43:05.389622+00:00Z",
+    "date_range": "2025-04-08 to 2025-07-07",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1751860800,
+      "price": 76.35,
+      "volume": 1499425,
+      "dollars": 114481098,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1750996800,
       "price": 63.43,
       "volume": 819435,
       "dollars": 51976762,
-      "rank": 19,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,

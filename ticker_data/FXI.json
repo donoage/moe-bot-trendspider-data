@@ -1,24 +1,12 @@
 {
   "metadata": {
     "ticker": "FXI",
-    "generated_at": "2025-07-07T00:53:42.979497+00:00Z",
-    "date_range": "2025-04-05 to 2025-07-04",
+    "generated_at": "2025-07-08T00:44:18.662325+00:00Z",
+    "date_range": "2025-04-08 to 2025-07-07",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1743998400,
-      "price": 30.0,
-      "volume": 22028258,
-      "dollars": 660847740,
-      "rank": 11,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1744171200,
       "price": 31.68,
@@ -77,22 +65,22 @@
     },
     {
       "box_number": 2,
-      "high_price": 30.07,
-      "low_price": 29.52,
-      "volume": 3267839,
-      "dollars": 97166171,
-      "trades": 3,
-      "date_range": "2025-04-07 to 2025-04-08",
-      "color": "green"
-    },
-    {
-      "box_number": 3,
       "high_price": 35.6,
       "low_price": 35.6,
       "volume": 1335871,
       "dollars": 47557007,
       "trades": 1,
       "date_range": "2025-05-27",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 29.52,
+      "low_price": 29.52,
+      "volume": 1490325,
+      "dollars": 43994394,
+      "trades": 1,
+      "date_range": "2025-04-08",
       "color": "orange"
     },
     {

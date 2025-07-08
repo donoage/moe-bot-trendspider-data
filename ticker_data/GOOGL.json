@@ -1,12 +1,49 @@
 {
   "metadata": {
     "ticker": "GOOGL",
-    "generated_at": "2025-07-07T00:52:09.870529+00:00Z",
-    "date_range": "2025-04-05 to 2025-07-04",
+    "generated_at": "2025-07-08T00:30:10.555105+00:00Z",
+    "date_range": "2025-04-08 to 2025-07-07",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1750996800,
+      "price": 178.53,
+      "volume": 24349954,
+      "dollars": 4347197287,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1750392000,
+      "price": 166.64,
+      "volume": 12533984,
+      "dollars": 2088663093,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1744171200,
+      "price": 158.71,
+      "volume": 8785914,
+      "dollars": 1394412410,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 178.5,
@@ -39,5 +76,36 @@
       "rank": "8"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 166.1,
+      "low_price": 166.1,
+      "volume": 249145,
+      "dollars": 41382984,
+      "trades": 1,
+      "date_range": "2025-06-23",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 177.95,
+      "low_price": 177.95,
+      "volume": 230581,
+      "dollars": 41031888,
+      "trades": 1,
+      "date_range": "2025-07-07",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 175.75,
+      "low_price": 175.75,
+      "volume": 135380,
+      "dollars": 23793035,
+      "trades": 1,
+      "date_range": "2025-06-17",
+      "color": "orange"
+    }
+  ]
 }

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "KO",
-    "generated_at": "2025-07-07T00:52:36.636050+00:00Z",
-    "date_range": "2025-04-05 to 2025-07-04",
+    "generated_at": "2025-07-08T00:35:28.259145+00:00Z",
+    "date_range": "2025-04-08 to 2025-07-07",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -87,23 +87,33 @@
     },
     {
       "box_number": 3,
+      "high_price": 71.05,
+      "low_price": 71.05,
+      "volume": 582948,
+      "dollars": 41418455,
+      "trades": 1,
+      "date_range": "2025-07-07",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
       "high_price": 67.74,
       "low_price": 67.74,
       "volume": 499210,
       "dollars": 33816485,
       "trades": 1,
       "date_range": "2025-04-09",
-      "color": "orange"
+      "color": "red"
     },
     {
-      "box_number": 4,
+      "box_number": 5,
       "high_price": 71.0,
       "low_price": 71.0,
       "volume": 397781,
       "dollars": 28242451,
       "trades": 1,
       "date_range": "2025-05-15",
-      "color": "red"
+      "color": "purple"
     }
   ]
 }
