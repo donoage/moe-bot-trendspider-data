@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "VOO",
-    "generated_at": "2025-07-08T00:39:05.218208+00:00Z",
-    "date_range": "2025-04-08 to 2025-07-07",
+    "generated_at": "2025-07-09T00:55:20.290844+00:00Z",
+    "date_range": "2025-04-09 to 2025-07-08",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -91,63 +91,43 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 573.0,
+      "low_price": 567.85,
+      "volume": 2243521,
+      "dollars": 1278969849,
+      "trades": 5,
+      "date_range": "2025-07-01 to 2025-07-08",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 552.27,
       "low_price": 547.23,
       "volume": 1464838,
       "dollars": 805982968,
       "trades": 3,
       "date_range": "2025-06-18 to 2025-06-23",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 568.87,
-      "low_price": 567.85,
-      "volume": 941878,
-      "dollars": 535422699,
-      "trades": 2,
-      "date_range": "2025-07-01 to 2025-07-02",
       "color": "green"
     },
     {
       "box_number": 3,
-      "high_price": 501.56,
+      "high_price": 501.17,
       "low_price": 501.17,
-      "volume": 1008958,
-      "dollars": 505803659,
-      "trades": 2,
-      "date_range": "2025-04-24 to 2025-04-30",
+      "volume": 639270,
+      "dollars": 320382945,
+      "trades": 1,
+      "date_range": "2025-04-24",
       "color": "orange"
     },
     {
       "box_number": 4,
-      "high_price": 573.0,
-      "low_price": 573.0,
-      "volume": 406500,
-      "dollars": 232924500,
-      "trades": 1,
-      "date_range": "2025-07-07",
-      "color": "red"
-    },
-    {
-      "box_number": 5,
       "high_price": 540.19,
       "low_price": 540.19,
       "volume": 381795,
       "dollars": 206241841,
       "trades": 1,
       "date_range": "2025-05-30",
-      "color": "purple"
-    },
-    {
-      "box_number": 6,
-      "high_price": 530.6,
-      "low_price": 530.6,
-      "volume": 322267,
-      "dollars": 170994870,
-      "trades": 1,
-      "date_range": "2025-05-23",
-      "color": "yellow"
+      "color": "red"
     }
   ]
 }

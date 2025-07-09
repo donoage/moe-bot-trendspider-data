@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "JEPQ",
-    "generated_at": "2025-07-08T00:34:44.348800+00:00Z",
-    "date_range": "2025-04-08 to 2025-07-07",
+    "generated_at": "2025-07-09T00:44:12.525959+00:00Z",
+    "date_range": "2025-04-09 to 2025-07-08",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -114,18 +114,6 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
-    },
-    {
-      "timestamp": 1744084800,
-      "price": 46.98,
-      "volume": 1320267,
-      "dollars": 62026143,
-      "rank": 18,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
     }
   ],
   "levels": [
@@ -163,32 +151,32 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 52.32,
+      "low_price": 51.16,
+      "volume": 3041359,
+      "dollars": 158031428,
+      "trades": 3,
+      "date_range": "2025-04-29 to 2025-05-13",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 52.57,
       "low_price": 52.57,
       "volume": 2769822,
       "dollars": 145609542,
       "trades": 1,
       "date_range": "2025-06-05",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 48.24,
-      "low_price": 46.98,
-      "volume": 2950288,
-      "dollars": 140658356,
-      "trades": 2,
-      "date_range": "2025-04-08 to 2025-04-10",
       "color": "green"
     },
     {
       "box_number": 3,
-      "high_price": 52.32,
-      "low_price": 52.32,
-      "volume": 1622623,
-      "dollars": 84895635,
+      "high_price": 48.24,
+      "low_price": 48.24,
+      "volume": 1630021,
+      "dollars": 78632213,
       "trades": 1,
-      "date_range": "2025-05-13",
+      "date_range": "2025-04-10",
       "color": "orange"
     },
     {
@@ -200,26 +188,6 @@
       "trades": 1,
       "date_range": "2025-04-23",
       "color": "red"
-    },
-    {
-      "box_number": 5,
-      "high_price": 51.69,
-      "low_price": 51.69,
-      "volume": 1043886,
-      "dollars": 53958467,
-      "trades": 1,
-      "date_range": "2025-05-08",
-      "color": "purple"
-    },
-    {
-      "box_number": 6,
-      "high_price": 51.16,
-      "low_price": 51.16,
-      "volume": 374850,
-      "dollars": 19177326,
-      "trades": 1,
-      "date_range": "2025-04-29",
-      "color": "yellow"
     }
   ]
 }

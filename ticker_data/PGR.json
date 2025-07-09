@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "PGR",
-    "generated_at": "2025-07-08T00:36:33.582833+00:00Z",
-    "date_range": "2025-04-08 to 2025-07-07",
+    "generated_at": "2025-07-09T00:50:13.303129+00:00Z",
+    "date_range": "2025-04-09 to 2025-07-08",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -113,13 +113,23 @@
     },
     {
       "box_number": 2,
+      "high_price": 250.0,
+      "low_price": 250.0,
+      "volume": 258189,
+      "dollars": 64547250,
+      "trades": 1,
+      "date_range": "2025-07-08",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 262.45,
       "low_price": 262.45,
       "volume": 99200,
       "dollars": 26035040,
       "trades": 1,
       "date_range": "2025-06-25",
-      "color": "green"
+      "color": "orange"
     }
   ]
 }

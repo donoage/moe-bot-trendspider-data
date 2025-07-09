@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "XOM",
-    "generated_at": "2025-07-08T00:35:15.698065+00:00Z",
-    "date_range": "2025-04-08 to 2025-07-07",
+    "generated_at": "2025-07-09T00:46:16.333123+00:00Z",
+    "date_range": "2025-04-09 to 2025-07-08",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -23,13 +23,13 @@
   "levels": [
     {
       "price": 110.8,
-      "volume": 56950000,
+      "volume": 56990000,
       "dollars": 6310000000,
       "rank": "3"
     },
     {
       "price": 111.3,
-      "volume": 53690000,
+      "volume": 53720000,
       "dollars": 5980000000,
       "rank": "5"
     },
@@ -92,6 +92,16 @@
       "trades": 1,
       "date_range": "2025-05-12",
       "color": "red"
+    },
+    {
+      "box_number": 5,
+      "high_price": 113.3,
+      "low_price": 113.3,
+      "volume": 183742,
+      "dollars": 20817968,
+      "trades": 1,
+      "date_range": "2025-07-08",
+      "color": "purple"
     }
   ]
 }
