@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "YINN",
-    "generated_at": "2025-07-09T01:08:03.255455+00:00Z",
-    "date_range": "2025-04-09 to 2025-07-08",
+    "generated_at": "2025-07-10T01:15:33.464942+00:00Z",
+    "date_range": "2025-04-10 to 2025-07-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1752033600,
+      "price": 38.89,
+      "volume": 920000,
+      "dollars": 35782480,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1744603200,
       "price": 31.12,
       "volume": 482956,
       "dollars": 15029590,
-      "rank": 11,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -28,26 +40,26 @@
       "rank": "2"
     },
     {
+      "price": 38.9,
+      "volume": 1140000,
+      "dollars": 40000000,
+      "rank": "3"
+    },
+    {
       "price": 40.8,
       "volume": 940000,
       "dollars": 40000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 37.6,
       "volume": 1000000,
       "dollars": 40000000,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 40.5,
       "volume": 850000,
-      "dollars": 30000000,
-      "rank": "5"
-    },
-    {
-      "price": 35.0,
-      "volume": 910000,
       "dollars": 30000000,
       "rank": "6"
     }
