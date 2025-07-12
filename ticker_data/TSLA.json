@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "TSLA",
-    "generated_at": "2025-07-11T00:31:45.759912+00:00Z",
-    "date_range": "2025-04-11 to 2025-07-10",
+    "generated_at": "2025-07-12T01:35:46.798730+00:00Z",
+    "date_range": "2025-04-12 to 2025-07-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1748577600,
+      "price": 346.46,
+      "volume": 9771740,
+      "dollars": 3385517040,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1749096000,
+      "price": 284.7,
+      "volume": 11592287,
+      "dollars": 3300324108,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 231.7,

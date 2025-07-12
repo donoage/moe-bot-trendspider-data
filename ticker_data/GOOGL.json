@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "GOOGL",
-    "generated_at": "2025-07-11T00:31:45.815659+00:00Z",
-    "date_range": "2025-04-11 to 2025-07-10",
+    "generated_at": "2025-07-12T01:35:46.722004+00:00Z",
+    "date_range": "2025-04-12 to 2025-07-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1750996800,
+      "price": 178.53,
+      "volume": 24349954,
+      "dollars": 4347197287,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1750392000,
+      "price": 166.64,
+      "volume": 12533984,
+      "dollars": 2088663093,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 178.5,
