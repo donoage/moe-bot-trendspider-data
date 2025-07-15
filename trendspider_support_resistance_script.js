@@ -1,4 +1,4 @@
-describe_indicator('Moebot VL Trendspider v5.9.0 (Fixed Paint Parameters)', 'overlay');
+describe_indicator('Moebot VL Trendspider v5.9.1 (Fixed Line Style Error)', 'overlay');
 
 // Execution tracking and fresh load mechanisms
 const executionId = Math.random().toString(36).substr(2, 9);
@@ -372,19 +372,22 @@ try {
                 
                 // Use land_points_onto_series to efficiently match timestamps to candles
                 if (printTimestamps.length > 0) {
-                    const landedIndices = land_points_onto_series(printTimestamps, time);
+                    const landedIndices = land_points_onto_series(printTimestamps, time, close);
                     
                     console.log('[' + executionId + '] ✅ Successfully landed ' + landedIndices.length + ' print timestamps onto candles');
                     
                     // Group prints by their landed bar indices
                     landedIndices.forEach(function(barIndex, printIndex) {
-                        if (barIndex >= 0 && barIndex < time.length && printIndex < printData.length) {
+                        // Validate barIndex more strictly
+                        if (barIndex >= 0 && barIndex < time.length && printIndex < printData.length && 
+                            !isNaN(barIndex) && Number.isInteger(barIndex)) {
                             if (!printsByBar[barIndex]) {
                                 printsByBar[barIndex] = [];
                             }
                             printsByBar[barIndex].push(printData[printIndex]);
                         } else {
                             // Fallback for invalid indices
+                            console.warn('[' + executionId + '] ⚠️ Invalid barIndex from land_points_onto_series: ' + barIndex + ' for print ' + printIndex);
                             const fallbackBarIndex = time.length - 1;
                             if (!printsByBar[fallbackBarIndex]) {
                                 printsByBar[fallbackBarIndex] = [];
@@ -463,7 +466,19 @@ try {
                 
                 try {
                     const barIndex = parseInt(barIndexStr);
+                    
+                    // Skip invalid bar indices
+                    if (isNaN(barIndex) || barIndex < 0 || barIndex >= time.length) {
+                        console.warn('[' + executionId + '] ⚠️ Skipping invalid bar index: ' + barIndexStr + ' (parsed: ' + barIndex + ')');
+                        return;
+                    }
+                    
                     const barPrints = printsByBar[barIndex];
+                    
+                    if (!barPrints || !Array.isArray(barPrints)) {
+                        console.warn('[' + executionId + '] ⚠️ No prints found for bar index ' + barIndex);
+                        return;
+                    }
                     
                     barPrints.sort(function(a, b) {
                         const rankA = parseInt(a.rank) || 999;
@@ -480,6 +495,8 @@ try {
                         const rankNumber = parseInt(print.rank) || 999;
                         let labelText = 'R' + rankText;
                         
+                        console.log('[' + executionId + '] Processing print at bar ' + barIndex + ' with rank ' + rankText + ', labelText: ' + labelText);
+                        
                         // Draw horizontal line for prints ranked 10 or better (only once per price level)
                         if (rankNumber <= 5 && print.price) {
                             const priceKey = print.price.toFixed(2);
@@ -494,8 +511,8 @@ try {
                                 const printLine = paint(printLineArray, {
                                     name: 'Print_R' + rankText + '_' + print.price.toFixed(2).replace('.', '_'),
                                     color: '#FFFF00', // Dynamic color assignment for prints - Yellow
-                                    thickness: 2, // Thicker line to stand out
-                                    style: 'solid', // Solid line instead of dashed
+                                    thickness: 1,
+                                    style: 'dotted',
                                     transparency: 0.1 // More opaque (90% opacity)
                                 });
                                 
@@ -510,8 +527,8 @@ try {
                                 const printProjectedLine = paint_projection(printProjectionArray, {
                                     name: 'Print_R' + rankText + '_' + print.price.toFixed(2).replace('.', '_') + '_Projection',
                                     color: '#FFFF00',
-                                    thickness: 2,
-                                    style: 'solid',
+                                    thickness: 1,
+                                    style: 'dotted',
                                     transparency: 0.1
                                 });
                                 
@@ -547,8 +564,12 @@ try {
                                 labelText = '';
                             }
                         }
+                        // If there's only one print per bar, labelText is already set to 'R' + rankText above
+                        
+                        console.log('[' + executionId + '] Final labelText for bar ' + barIndex + ': "' + labelText + '"');
                         
                         if (labelText) {
+                            console.log('[' + executionId + '] Attempting to paint label "' + labelText + '" at bar ' + barIndex);
                             try {
                                 if (barIndex >= 0 && barIndex < high.length && high[barIndex] !== undefined && !isNaN(high[barIndex])) {
                                     try {
@@ -564,17 +585,17 @@ try {
                                             }
                                         }
                                         
-                                        const visibleAnchor = paint(anchorLine, {
-                                            name: 'PrintAnchor_' + barIndex,
-                                            color: '#FFFF00', // Dynamic color assignment for print anchors - Yellow
-                                            thickness: 1,
-                                            style: 'dotted',
-                                            transparency: 0.99
-                                        });
+                                                                const visibleAnchor = paint(anchorLine, {
+                            name: 'PrintAnchor_' + barIndex,
+                            color: '#FFFF00', // Dynamic color assignment for print anchors - Yellow
+                            thickness: 1,
+                            transparency: 0.99
+                        });
                                         
                                         incrementPaintedLines();
                                         
                                         if (visibleAnchor) {
+                                            console.log('[' + executionId + '] Painting label "' + labelText + '" at bar ' + barIndex + ' with visible anchor');
                                             paint_label_at_line(visibleAnchor, barIndex, labelText, {
                                                 color: '#FFFF00', // Dynamic color assignment for print anchor labels - Yellow
                                                 vertical_align: 'top'

@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "ticker": "AMAT",
+    "generated_at": "2025-07-14T21:36:38.378830Z",
+    "date_range": "2025-06-14 to 2025-07-14",
+    "source": "volumeleaders.com",
+    "script": "populate_ticker_data.py"
+  },
+  "prints": [
+    {
+      "timestamp": 1750982400,
+      "price": 183.21,
+      "volume": 4738751,
+      "dollars": 868186570,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1750377600,
+      "price": 169.46,
+      "volume": 4984152,
+      "dollars": 844614397,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1750377600,
+      "price": 169.46,
+      "volume": 2618475,
+      "dollars": 443726773,
+      "rank": 26,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 183.2,
+      "volume": 18220000,
+      "dollars": 3340000000,
+      "rank": "2"
+    },
+    {
+      "price": 172.0,
+      "volume": 9730000,
+      "dollars": 1670000000,
+      "rank": "14"
+    },
+    {
+      "price": 192.2,
+      "volume": 8670000,
+      "dollars": 1670000000,
+      "rank": "15"
+    },
+    {
+      "price": 169.5,
+      "volume": 9810000,
+      "dollars": 1660000000,
+      "rank": "16"
+    },
+    {
+      "price": 174.8,
+      "volume": 7140000,
+      "dollars": 1250000000,
+      "rank": "43"
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 177.0,
+      "low_price": 177.0,
+      "volume": 149713,
+      "dollars": 26499201,
+      "trades": 1,
+      "date_range": "2025-06-17",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 170.0,
+      "low_price": 170.0,
+      "volume": 149499,
+      "dollars": 25414830,
+      "trades": 1,
+      "date_range": "2025-06-23",
+      "color": "green"
+    }
+  ]
+}

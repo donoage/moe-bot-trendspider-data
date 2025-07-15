@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "ticker": "JPM",
+    "generated_at": "2025-07-14T21:36:16.894376Z",
+    "date_range": "2025-06-14 to 2025-07-14",
+    "source": "volumeleaders.com",
+    "script": "populate_ticker_data.py"
+  },
+  "prints": [
+    {
+      "timestamp": 1750982400,
+      "price": 287.11,
+      "volume": 4149669,
+      "dollars": 1191411466,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1750377600,
+      "price": 275.0,
+      "volume": 4256670,
+      "dollars": 1170584250,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 268.2,
+      "volume": 7610000,
+      "dollars": 2040000000,
+      "rank": "0"
+    },
+    {
+      "price": 287.1,
+      "volume": 6840000,
+      "dollars": 1960000000,
+      "rank": "0"
+    },
+    {
+      "price": 275.0,
+      "volume": 6970000,
+      "dollars": 1920000000,
+      "rank": "0"
+    },
+    {
+      "price": 282.8,
+      "volume": 4670000,
+      "dollars": 1320000000,
+      "rank": "0"
+    },
+    {
+      "price": 270.4,
+      "volume": 4820000,
+      "dollars": 1300000000,
+      "rank": "0"
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 275.92,
+      "low_price": 275.92,
+      "volume": 353264,
+      "dollars": 97472602,
+      "trades": 1,
+      "date_range": "2025-06-23",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 283.45,
+      "low_price": 283.45,
+      "volume": 174961,
+      "dollars": 49592695,
+      "trades": 1,
+      "date_range": "2025-07-09",
+      "color": "green"
+    }
+  ]
+}

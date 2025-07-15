@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "ticker": "BAC",
+    "generated_at": "2025-07-14T21:37:43.081032Z",
+    "date_range": "2025-06-14 to 2025-07-14",
+    "source": "volumeleaders.com",
+    "script": "populate_ticker_data.py"
+  },
+  "prints": [
+    {
+      "timestamp": 1750377600,
+      "price": 45.5,
+      "volume": 19058780,
+      "dollars": 867174490,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 44.2,
+      "volume": 179020000,
+      "dollars": 7910000000,
+      "rank": "13"
+    },
+    {
+      "price": 45.9,
+      "volume": 136000000,
+      "dollars": 6240000000,
+      "rank": "45"
+    },
+    {
+      "price": 46.1,
+      "volume": 131050000,
+      "dollars": 6040000000,
+      "rank": "51"
+    },
+    {
+      "price": 47.1,
+      "volume": 120710000,
+      "dollars": 5680000000,
+      "rank": "60"
+    },
+    {
+      "price": 46.7,
+      "volume": 120710000,
+      "dollars": 5640000000,
+      "rank": "63"
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 47.54,
+      "low_price": 47.37,
+      "volume": 2959648,
+      "dollars": 140617054,
+      "trades": 2,
+      "date_range": "2025-06-26 to 2025-06-27",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 48.59,
+      "low_price": 48.59,
+      "volume": 822723,
+      "dollars": 39976110,
+      "trades": 1,
+      "date_range": "2025-07-02",
+      "color": "green"
+    }
+  ]
+}
