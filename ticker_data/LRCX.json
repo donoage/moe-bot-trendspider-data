@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "LRCX",
-    "generated_at": "2025-07-12T01:37:13.562136+00:00Z",
-    "date_range": "2025-04-12 to 2025-07-11",
+    "generated_at": "2025-07-15T01:12:59.512588+00:00Z",
+    "date_range": "2025-04-15 to 2025-07-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -52,5 +52,16 @@
       "rank": "11"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 99.7,
+      "low_price": 99.7,
+      "volume": 250000,
+      "dollars": 24925000,
+      "trades": 1,
+      "date_range": "2025-07-14",
+      "color": "blue"
+    }
+  ]
 }

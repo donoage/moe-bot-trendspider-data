@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "NEGG",
-    "generated_at": "2025-07-12T01:39:04.691062+00:00Z",
-    "date_range": "2025-04-12 to 2025-07-11",
+    "generated_at": "2025-07-15T00:38:08.444317+00:00Z",
+    "date_range": "2025-04-15 to 2025-07-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1752465600,
+      "price": 32.32,
+      "volume": 50100,
+      "dollars": 1619232,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1750132800,
       "price": 11.11,
       "volume": 109100,
       "dollars": 1212101,
-      "rank": 18,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,22 +46,22 @@
       "rank": "16"
     },
     {
+      "price": 32.3,
+      "volume": 50000,
+      "dollars": 0,
+      "rank": "17"
+    },
+    {
       "price": 11.8,
       "volume": 120000,
       "dollars": 0,
-      "rank": "19"
+      "rank": "20"
     },
     {
       "price": 10.4,
       "volume": 130000,
       "dollars": 0,
-      "rank": "20"
-    },
-    {
-      "price": 12.8,
-      "volume": 60000,
-      "dollars": 0,
-      "rank": "29"
+      "rank": "21"
     }
   ],
   "boxes": []

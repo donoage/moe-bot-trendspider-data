@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "BPMC",
-    "generated_at": "2025-07-12T01:38:18.635290+00:00Z",
-    "date_range": "2025-04-12 to 2025-07-11",
+    "generated_at": "2025-07-15T00:56:31.642661+00:00Z",
+    "date_range": "2025-04-15 to 2025-07-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -70,32 +70,32 @@
   ],
   "levels": [
     {
+      "price": 129.3,
+      "volume": 4490000,
+      "dollars": 580000000,
+      "rank": "1"
+    },
+    {
       "price": 128.2,
       "volume": 4220000,
       "dollars": 540000000,
-      "rank": "1"
+      "rank": "2"
     },
     {
       "price": 128.1,
       "volume": 3020000,
       "dollars": 390000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 127.8,
       "volume": 2850000,
       "dollars": 360000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 127.7,
       "volume": 2570000,
-      "dollars": 330000000,
-      "rank": "4"
-    },
-    {
-      "price": 128.0,
-      "volume": 2560000,
       "dollars": 330000000,
       "rank": "5"
     }
@@ -103,22 +103,22 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 129.35,
+      "low_price": 129.0,
+      "volume": 449247,
+      "dollars": 58025329,
+      "trades": 2,
+      "date_range": "2025-07-11 to 2025-07-14",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 127.96,
       "low_price": 127.65,
       "volume": 306986,
       "dollars": 39233204,
       "trades": 2,
       "date_range": "2025-06-02",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 129.0,
-      "low_price": 129.0,
-      "volume": 242201,
-      "dollars": 31243929,
-      "trades": 1,
-      "date_range": "2025-07-11",
       "color": "green"
     }
   ]

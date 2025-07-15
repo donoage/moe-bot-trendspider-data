@@ -1,4 +1,4 @@
-describe_indicator('Moebot VL Trendspider v5.5.4 (Fresh Load)', 'overlay');
+describe_indicator('Moebot VL Trendspider v5.9.0 (Fixed Paint Parameters)', 'overlay');
 
 // Execution tracking and fresh load mechanisms
 const executionId = Math.random().toString(36).substr(2, 9);
@@ -19,18 +19,25 @@ console.log('🔄 Script instance ID: ' + scriptInstanceId);
 const showSupport = true;
 const showResistance = true;
 const showStrongOnly = false;
-const showPriceBoxes = true;
+const showPriceBoxes = false;
 const showPrints = true;
 const supportColor = '#00FF00';
 const resistanceColor = '#FF0000';
-const lineWidth = 2;
+const lineWidth = 1;
 const showLabels = true;
 const levelsOpacity = 0.7;
-const boxesOpacity = 0.1;
-const boxLinesOpacity = 0.8;
+
+// Performance optimization: Predefined limits based on data analysis
+const MAX_LEVELS = 10;           // Typically 5 levels per ticker, allow some buffer
+const MAX_PRINTS = 15;           // Typically 0-10 prints per ticker, allow buffer
+const MAX_TOTAL_PAINTED_LINES = 40; // Total limit to prevent performance issues (reduced since boxes removed)
 
 // Projection configuration - number of bars to project into the future
 const projectionLength = 15; // Project lines 15 bars into the future
+
+// Performance tracking
+let totalPaintedLines = 0;
+let performanceStartTime = Date.now();
 
 // Helper functions
 function formatNumber(num) {
@@ -41,19 +48,24 @@ function formatNumber(num) {
     return num.toString();
 }
 
-function timestampToBarIndex(timestamp) {
-    const targetTime = Date.parse(timestamp);
-    for (let i = 0; i < time.length; i++) {
-        if (time[i] * 1000 >= targetTime) return Math.max(0, i);
-    }
-    return time.length - 1;
-}
+// timestampToBarIndex function removed - now using TrendSpider's optimized land_points_onto_series
 
 function getColorWithOpacity(colorHex, opacity) {
     const r = parseInt(colorHex.slice(1, 3), 16);
     const g = parseInt(colorHex.slice(3, 5), 16);
     const b = parseInt(colorHex.slice(5, 7), 16);
     return 'rgba(' + r + ',' + g + ',' + b + ',' + opacity + ')';
+}
+
+// Performance check function
+function canPaintMore() {
+    return totalPaintedLines < MAX_TOTAL_PAINTED_LINES;
+}
+
+// Increment painted lines counter
+function incrementPaintedLines() {
+    totalPaintedLines++;
+    return totalPaintedLines;
 }
 
 // Initialize empty array for fallback and clear any previous state
@@ -65,6 +77,7 @@ for (let i = 0; i < close.length; i++) {
 // Force fresh execution state - no global state persistence
 // Each script execution is completely independent
 console.log('[' + executionId + '] 🔄 Fresh execution state - no cached data from previous runs');
+console.log('[' + executionId + '] 🎯 Performance limits: Levels=' + MAX_LEVELS + ', Prints=' + MAX_PRINTS + ', Total=' + MAX_TOTAL_PAINTED_LINES + ' (Boxes disabled)');
 
 try {
     const currentSymbol = constants.ticker.toUpperCase();
@@ -97,10 +110,10 @@ try {
     if (tickerResponse.error) {
         console.error('HTTP Error loading ticker data:', tickerResponse.error);
         console.error('URL attempted:', tickerDataUrl.substr(0, 100) + '...');
-        paint(emptyLine, { title: 'No data for ' + currentSymbol, color: '#888888' });
+        paint(emptyLine, { name: 'NoData', color: '#888888' });
+        incrementPaintedLines();
     } else {
         const tickerData = tickerResponse;
-        let paintedCount = 0;
         
         console.log('[' + executionId + '] ✅ Successfully loaded fresh data for ' + currentSymbol);
         console.log('[' + executionId + '] Data timestamp check:', tickerData.last_updated || 'No timestamp available');
@@ -182,15 +195,26 @@ try {
             };
         }
         
-        // Process support/resistance levels
+        // Process support/resistance levels with limits
         const rawLevels = tickerData.levels || [];
         const consolidationThreshold = 0.1;
-        const levels = consolidateLevels(rawLevels, consolidationThreshold);
+        let levels = consolidateLevels(rawLevels, consolidationThreshold);
         
-        if (levels.length > 0) {
+        // Apply performance limit for levels
+        if (levels.length > MAX_LEVELS) {
+            console.log('[' + executionId + '] ⚠️ Limiting levels from ' + levels.length + ' to ' + MAX_LEVELS + ' for performance');
+            levels = levels.slice(0, MAX_LEVELS);
+        }
+        
+        if (levels.length > 0 && canPaintMore()) {
             levels.forEach(function(level, index) {
+                if (!canPaintMore()) {
+                    console.log('[' + executionId + '] ⚠️ Stopping level painting - reached limit');
+                    return;
+                }
+                
                 // Dynamic color assignment for support/resistance levels
-                let color = '#C0C0C0';    // Light grey for support/resistance levels
+                let color = '#87CEEB';    // Light blue for support/resistance levels
                 
                 const levelLine = [];
                 for (let i = 0; i < close.length; i++) {
@@ -205,12 +229,14 @@ try {
                 }
                 
                 const paintedLine = paint(levelLine, {
-                    title: title,
+                    name: 'Level_' + (index + 1),
                     color: color,
-                    linewidth: lineWidth,
-                    linestyle: 'dotted',
+                    thickness: lineWidth,
+                    style: 'dotted',
                     transparency: 1.0 - levelsOpacity
                 });
+                
+                incrementPaintedLines();
                 
                 // Create projection array for future bars
                 const projectionArray = [];
@@ -220,12 +246,14 @@ try {
                 
                 // Paint projection into the future
                 const projectedLine = paint_projection(projectionArray, {
-                    title: title + ' (Projection)',
+                    name: 'Level_' + (index + 1) + '_Projection',
                     color: color,
-                    linewidth: lineWidth,
-                    linestyle: 'dotted',
+                    thickness: lineWidth,
+                    style: 'dotted',
                     transparency: 1.0 - levelsOpacity
                 });
+                
+                incrementPaintedLines();
                 
                 if (showLabels && (level.volume || level.dollars)) {
                     let labelText = '';
@@ -297,300 +325,142 @@ try {
                         });
                     }
                 }
-                
-                paintedCount++;
             });
         }
         
-        // Process price boxes
-        const boxes = tickerData.boxes || [];
-        if (boxes.length > 0 && showPriceBoxes) {
-            const chartLength = close.length;
-            const boxWidth = 15;
-            const rightMargin = 10;
-            
-            boxes.forEach(function(box, index) {
-                try {
-                    const boxEndIndex = chartLength - 1;
-                    const boxStartIndex = chartLength - rightMargin - boxWidth - (index * 5);
-                    
-                    if (boxStartIndex >= 0 && boxEndIndex >= 0 && boxStartIndex < boxEndIndex) {
-                        const topPrice = box.high_price;
-                        const bottomPrice = box.low_price;
-                        const priceRange = topPrice - bottomPrice;
-                        const midPrice = (topPrice + bottomPrice) / 2;
-                        
-                        // Determine if this should be a line or a box
-                        const isSinglePricePoint = (priceRange === 0); // Same high and low price
-                        const priceThreshold = Math.max(0.50, midPrice * 0.05);
-                        const hasLargePriceRange = priceRange > priceThreshold;
-                        
-                        // Use lines when: 1) Same price point, OR 2) Very large price range
-                        const useLines = isSinglePricePoint || hasLargePriceRange;
-                        
-                        // Dynamic color assignment for price boxes
-                        const boxLineColor = '#00BFFF';     // Deep Sky Blue for price boxes
-                        const fillColor = boxLineColor;
-                        
-                        if (useLines) {
-                            // For single price points, only draw one line
-                            if (isSinglePricePoint) {
-                                // Single line at the price level
-                                const lineArray = [];
-                                
-                                for (let i = 0; i < close.length; i++) {
-                                    if (i >= boxStartIndex && i <= boxEndIndex) {
-                                        lineArray[i] = topPrice; // Use topPrice (same as bottomPrice)
-                                    } else {
-                                        lineArray[i] = NaN;
-                                    }
-                                }
-                                
-                                const singleLine = paint(lineArray, {
-                                    title: 'Line ' + box.box_number + ': $' + topPrice.toFixed(2),
-                                    color: boxLineColor,
-                                    linewidth: 2, // Slightly thicker for single lines
-                                    linestyle: 'solid',
-                                    transparency: 1.0 - boxLinesOpacity
-                                });
-                                
-                                // Create projection for single line
-                                const singleProjectionArray = [];
-                                for (let i = 0; i < projectionLength; i++) {
-                                    singleProjectionArray[i] = topPrice;
-                                }
-                                
-                                const singleProjectedLine = paint_projection(singleProjectionArray, {
-                                    title: 'Line ' + box.box_number + ': $' + topPrice.toFixed(2) + ' (Projection)',
-                                    color: boxLineColor,
-                                    linewidth: 2,
-                                    linestyle: 'solid',
-                                    transparency: 1.0 - boxLinesOpacity
-                                });
-                                
-                                if (showLabels) {
-                                    const volumeText = formatNumber(box.volume || 0) + ' shares';
-                                    const valueText = '$' + formatNumber(box.dollars || 0);
-                                    const tradesText = (box.trades || 0) + ' trades';
-                                    
-                                    const labelText = '[LINE ' + box.box_number + ' $' + topPrice.toFixed(2) + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
-                                    paint_label_at_line(singleProjectedLine, projectionLength - 1, labelText, {
-                                        color: boxLineColor,
-                                        vertical_align: 'top'
-                                    });
-                                }
-                            } else {
-                                // Two separate lines for large price ranges
-                                const topLineArray = [];
-                                const bottomLineArray = [];
-                                
-                                for (let i = 0; i < close.length; i++) {
-                                    if (i >= boxStartIndex && i <= boxEndIndex) {
-                                        topLineArray[i] = topPrice;
-                                        bottomLineArray[i] = bottomPrice;
-                                    } else {
-                                        topLineArray[i] = NaN;
-                                        bottomLineArray[i] = NaN;
-                                    }
-                                }
-                                
-                                const topLine = paint(topLineArray, {
-                                    title: 'Line ' + box.box_number + ' High: $' + topPrice.toFixed(2),
-                                    color: boxLineColor,
-                                    linewidth: 1,
-                                    linestyle: 'solid',
-                                    transparency: 1.0 - boxLinesOpacity
-                                });
-                                
-                                const bottomLine = paint(bottomLineArray, {
-                                    title: 'Line ' + box.box_number + ' Low: $' + bottomPrice.toFixed(2),
-                                    color: boxLineColor,
-                                    linewidth: 1,
-                                    linestyle: 'solid',
-                                    transparency: 1.0 - boxLinesOpacity
-                                });
-                                
-                                // Create projections for top and bottom lines
-                                const topProjectionArray = [];
-                                const bottomProjectionArray = [];
-                                for (let i = 0; i < projectionLength; i++) {
-                                    topProjectionArray[i] = topPrice;
-                                    bottomProjectionArray[i] = bottomPrice;
-                                }
-                                
-                                const topProjectedLine = paint_projection(topProjectionArray, {
-                                    title: 'Line ' + box.box_number + ' High: $' + topPrice.toFixed(2) + ' (Projection)',
-                                    color: boxLineColor,
-                                    linewidth: 1,
-                                    linestyle: 'solid',
-                                    transparency: 1.0 - boxLinesOpacity
-                                });
-                                
-                                const bottomProjectedLine = paint_projection(bottomProjectionArray, {
-                                    title: 'Line ' + box.box_number + ' Low: $' + bottomPrice.toFixed(2) + ' (Projection)',
-                                    color: boxLineColor,
-                                    linewidth: 1,
-                                    linestyle: 'solid',
-                                    transparency: 1.0 - boxLinesOpacity
-                                });
-                                
-                                if (showLabels) {
-                                    const volumeText = formatNumber(box.volume || 0) + ' shares';
-                                    const valueText = '$' + formatNumber(box.dollars || 0);
-                                    const tradesText = (box.trades || 0) + ' trades';
-                                    
-                                    const highLabelText = '[LINE ' + box.box_number + ' HIGH $' + topPrice.toFixed(2) + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
-                                    paint_label_at_line(topProjectedLine, projectionLength - 1, highLabelText, {
-                                        color: boxLineColor,
-                                        vertical_align: 'top'
-                                    });
-                                    
-                                    const lowLabelText = '[LINE ' + box.box_number + ' LOW $' + bottomPrice.toFixed(2) + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
-                                    paint_label_at_line(bottomProjectedLine, projectionLength - 1, lowLabelText, {
-                                        color: boxLineColor,
-                                        vertical_align: 'middle'
-                                    });
-                                }
-                            }
-                        } else {
-                            const topLineArray = [];
-                            const bottomLineArray = [];
-                            
-                            for (let i = 0; i < close.length; i++) {
-                                if (i >= boxStartIndex && i <= boxEndIndex) {
-                                    topLineArray[i] = topPrice;
-                                    bottomLineArray[i] = bottomPrice;
-                                } else {
-                                    topLineArray[i] = NaN;
-                                    bottomLineArray[i] = NaN;
-                                }
-                            }
-                            
-                            const topLine = paint(topLineArray, {
-                                title: 'Box ' + box.box_number + ' Top: $' + topPrice.toFixed(2),
-                                color: boxLineColor,
-                                linewidth: 1,
-                                linestyle: 'solid',
-                                transparency: 1.0 - boxLinesOpacity
-                            });
-                            
-                            const bottomLine = paint(bottomLineArray, {
-                                title: 'Box ' + box.box_number + ' Bottom: $' + bottomPrice.toFixed(2),
-                                color: boxLineColor,
-                                linewidth: 1,
-                                linestyle: 'solid',
-                                transparency: 1.0 - boxLinesOpacity
-                            });
-                            
-                            // Create projections for box top and bottom lines
-                            const boxTopProjectionArray = [];
-                            const boxBottomProjectionArray = [];
-                            for (let i = 0; i < projectionLength; i++) {
-                                boxTopProjectionArray[i] = topPrice;
-                                boxBottomProjectionArray[i] = bottomPrice;
-                            }
-                            
-                            const boxTopProjectedLine = paint_projection(boxTopProjectionArray, {
-                                title: 'Box ' + box.box_number + ' Top: $' + topPrice.toFixed(2) + ' (Projection)',
-                                color: boxLineColor,
-                                linewidth: 1,
-                                linestyle: 'solid',
-                                transparency: 1.0 - boxLinesOpacity
-                            });
-                            
-                            const boxBottomProjectedLine = paint_projection(boxBottomProjectionArray, {
-                                title: 'Box ' + box.box_number + ' Bottom: $' + bottomPrice.toFixed(2) + ' (Projection)',
-                                color: boxLineColor,
-                                linewidth: 1,
-                                linestyle: 'solid',
-                                transparency: 1.0 - boxLinesOpacity
-                            });
-                            
-                            fill(topLine, bottomLine, fillColor, boxesOpacity, 'Box ' + box.box_number);
-                            
-                            if (showLabels) {
-                                const volumeText = formatNumber(box.volume || 0) + ' shares';
-                                const valueText = '$' + formatNumber(box.dollars || 0);
-                                const tradesText = (box.trades || 0) + ' trades';
-                                const labelText = '[BOX ' + box.box_number + ' $' + bottomPrice.toFixed(2) + '-$' + topPrice.toFixed(2) + '] ' + volumeText + ' • ' + valueText + ' • ' + tradesText;
-                                
-                                paint_label_at_line(boxTopProjectedLine, projectionLength - 1, labelText, {
-                                    color: boxLineColor,
-                                    vertical_align: 'top'
-                                });
-                            }
-                        }
-                        
-                        paintedCount += 1;
-                    }
-                } catch (boxError) {
-                    console.error('Error processing box ' + box.box_number + ':', boxError);
-                }
+        // Price boxes functionality removed for simplified performance
+        
+        // Process prints with limits
+        let prints = tickerData.prints || [];
+        
+        // Apply performance limit for prints
+        if (prints.length > MAX_PRINTS) {
+            console.log('[' + executionId + '] ⚠️ Limiting prints from ' + prints.length + ' to ' + MAX_PRINTS + ' for performance');
+            // Sort by rank (lower is better) and take the best ones
+            prints.sort(function(a, b) {
+                const rankA = parseInt(a.rank) || 999;
+                const rankB = parseInt(b.rank) || 999;
+                return rankA - rankB;
             });
+            prints = prints.slice(0, MAX_PRINTS);
         }
         
-        // Process prints
-        const prints = tickerData.prints || [];
-        
-        if (prints.length > 0 && showPrints) {
+        if (prints.length > 0 && showPrints && canPaintMore()) {
             const printsByBar = {};
-            const currentTimestamp = Math.floor(Date.now() / 1000);
-            const lastChartTime = time.length > 0 ? time[time.length - 1] : 0;
             
-            prints.forEach(function(print, index) {
-                try {
-                    let barIndex = -1;
+            // Use TrendSpider's optimized land_points_onto_series function for timestamp matching
+            console.log('[' + executionId + '] 🚀 Using land_points_onto_series for optimized timestamp matching');
+            
+            try {
+                // Prepare timestamp arrays for land_points_onto_series
+                const printTimestamps = [];
+                const printData = [];
+                
+                prints.forEach(function(print, index) {
                     if (print.timestamp && print.timestamp > 0) {
-                        const isAfterChartEnd = print.timestamp > lastChartTime;
-                        
-                        if (isAfterChartEnd) {
-                            barIndex = time.length - 1;
-                        } else {
-                            let bestMatch = -1;
-                            let bestDistance = Infinity;
-                            
-                            for (let i = 0; i < time.length; i++) {
-                                const barTime = time[i];
-                                const distance = Math.abs(barTime - print.timestamp);
-                                
-                                if (distance < bestDistance) {
-                                    bestDistance = distance;
-                                    bestMatch = i;
-                                }
-                            }
-                            
-                            barIndex = bestMatch;
-                        }
+                        printTimestamps.push(print.timestamp);
+                        printData.push(print);
                     } else {
-                        barIndex = time.length - 1;
-                    }
-                    
-                    if (barIndex >= 0 && barIndex < time.length) {
-                        if (!printsByBar[barIndex]) {
-                            printsByBar[barIndex] = [];
-                        }
-                        printsByBar[barIndex].push(print);
-                    } else {
-                        let fallbackBarIndex = time.length >= 10 ? time.length - Math.floor(Math.random() * 10) - 1 : time.length - 1;
+                        // For prints without timestamps, assign to the last bar
+                        const fallbackBarIndex = time.length - 1;
                         if (!printsByBar[fallbackBarIndex]) {
                             printsByBar[fallbackBarIndex] = [];
                         }
                         printsByBar[fallbackBarIndex].push(print);
                     }
-                } catch (printError) {
-                    console.error('Error processing print:', printError);
-                    const emergencyBarIndex = time.length > 0 ? time.length - 1 : 0;
-                    if (!printsByBar[emergencyBarIndex]) {
-                        printsByBar[emergencyBarIndex] = [];
-                    }
-                    printsByBar[emergencyBarIndex].push(print);
+                });
+                
+                // Use land_points_onto_series to efficiently match timestamps to candles
+                if (printTimestamps.length > 0) {
+                    const landedIndices = land_points_onto_series(printTimestamps, time);
+                    
+                    console.log('[' + executionId + '] ✅ Successfully landed ' + landedIndices.length + ' print timestamps onto candles');
+                    
+                    // Group prints by their landed bar indices
+                    landedIndices.forEach(function(barIndex, printIndex) {
+                        if (barIndex >= 0 && barIndex < time.length && printIndex < printData.length) {
+                            if (!printsByBar[barIndex]) {
+                                printsByBar[barIndex] = [];
+                            }
+                            printsByBar[barIndex].push(printData[printIndex]);
+                        } else {
+                            // Fallback for invalid indices
+                            const fallbackBarIndex = time.length - 1;
+                            if (!printsByBar[fallbackBarIndex]) {
+                                printsByBar[fallbackBarIndex] = [];
+                            }
+                            if (printIndex < printData.length) {
+                                printsByBar[fallbackBarIndex].push(printData[printIndex]);
+                            }
+                        }
+                    });
                 }
-            });
+                
+            } catch (landError) {
+                console.error('[' + executionId + '] ⚠️ Error using land_points_onto_series, falling back to manual matching:', landError);
+                
+                // Fallback to manual timestamp matching if land_points_onto_series fails
+                prints.forEach(function(print, index) {
+                    try {
+                        let barIndex = -1;
+                        if (print.timestamp && print.timestamp > 0) {
+                            const lastChartTime = time.length > 0 ? time[time.length - 1] : 0;
+                            const isAfterChartEnd = print.timestamp > lastChartTime;
+                            
+                            if (isAfterChartEnd) {
+                                barIndex = time.length - 1;
+                            } else {
+                                let bestMatch = -1;
+                                let bestDistance = Infinity;
+                                
+                                for (let i = 0; i < time.length; i++) {
+                                    const barTime = time[i];
+                                    const distance = Math.abs(barTime - print.timestamp);
+                                    
+                                    if (distance < bestDistance) {
+                                        bestDistance = distance;
+                                        bestMatch = i;
+                                    }
+                                }
+                                
+                                barIndex = bestMatch;
+                            }
+                        } else {
+                            barIndex = time.length - 1;
+                        }
+                        
+                        if (barIndex >= 0 && barIndex < time.length) {
+                            if (!printsByBar[barIndex]) {
+                                printsByBar[barIndex] = [];
+                            }
+                            printsByBar[barIndex].push(print);
+                        } else {
+                            let fallbackBarIndex = time.length >= 10 ? time.length - Math.floor(Math.random() * 10) - 1 : time.length - 1;
+                            if (!printsByBar[fallbackBarIndex]) {
+                                printsByBar[fallbackBarIndex] = [];
+                            }
+                            printsByBar[fallbackBarIndex].push(print);
+                        }
+                    } catch (printError) {
+                        console.error('Error processing print in fallback:', printError);
+                        const emergencyBarIndex = time.length > 0 ? time.length - 1 : 0;
+                        if (!printsByBar[emergencyBarIndex]) {
+                            printsByBar[emergencyBarIndex] = [];
+                        }
+                        printsByBar[emergencyBarIndex].push(print);
+                    }
+                });
+            }
             
             // Track painted print lines to avoid duplicates
             const paintedPrintPrices = {};
             
             Object.keys(printsByBar).forEach(function(barIndexStr) {
+                if (!canPaintMore()) {
+                    console.log('[' + executionId + '] ⚠️ Stopping print painting - reached limit');
+                    return;
+                }
+                
                 try {
                     const barIndex = parseInt(barIndexStr);
                     const barPrints = printsByBar[barIndex];
@@ -602,6 +472,10 @@ try {
                     });
                     
                     barPrints.forEach(function(print, stackIndex) {
+                        if (!canPaintMore()) {
+                            return;
+                        }
+                        
                         const rankText = print.rank ? print.rank : '?';
                         const rankNumber = parseInt(print.rank) || 999;
                         let labelText = 'R' + rankText;
@@ -618,12 +492,14 @@ try {
                                 }
                                 
                                 const printLine = paint(printLineArray, {
-                                    title: 'Print R' + rankText + ': $' + print.price.toFixed(2),
+                                    name: 'Print_R' + rankText + '_' + print.price.toFixed(2).replace('.', '_'),
                                     color: '#FFFF00', // Dynamic color assignment for prints - Yellow
-                                    linewidth: 2, // Thicker line to stand out
-                                    linestyle: 'solid', // Solid line instead of dashed
+                                    thickness: 2, // Thicker line to stand out
+                                    style: 'solid', // Solid line instead of dashed
                                     transparency: 0.1 // More opaque (90% opacity)
                                 });
+                                
+                                incrementPaintedLines();
                                 
                                 // Create projection for print line
                                 const printProjectionArray = [];
@@ -632,12 +508,14 @@ try {
                                 }
                                 
                                 const printProjectedLine = paint_projection(printProjectionArray, {
-                                    title: 'Print R' + rankText + ': $' + print.price.toFixed(2) + ' (Projection)',
+                                    name: 'Print_R' + rankText + '_' + print.price.toFixed(2).replace('.', '_') + '_Projection',
                                     color: '#FFFF00',
-                                    linewidth: 2,
-                                    linestyle: 'solid',
+                                    thickness: 2,
+                                    style: 'solid',
                                     transparency: 0.1
                                 });
+                                
+                                incrementPaintedLines();
                                 
                                 if (!printProjectedLine) {
                                     console.warn('Failed to create projected line for print R' + rankText + ' at $' + print.price.toFixed(2));
@@ -658,8 +536,6 @@ try {
                                         console.error('Error creating projection label for print R' + rankText + ':', projectionLabelError);
                                     }
                                 }
-                                
-                                paintedCount++;
                             }
                         }
                         
@@ -689,12 +565,14 @@ try {
                                         }
                                         
                                         const visibleAnchor = paint(anchorLine, {
-                                            title: 'PrintAnchor_' + executionId + '_' + labelText.replace(/[^a-zA-Z0-9|]/g, '').substring(0, 20) + '_B' + barIndex,
+                                            name: 'PrintAnchor_' + barIndex,
                                             color: '#FFFF00', // Dynamic color assignment for print anchors - Yellow
-                                            linewidth: 1,
-                                            linestyle: 'dotted',
+                                            thickness: 1,
+                                            style: 'dotted',
                                             transparency: 0.99
                                         });
+                                        
+                                        incrementPaintedLines();
                                         
                                         if (visibleAnchor) {
                                             paint_label_at_line(visibleAnchor, barIndex, labelText, {
@@ -708,11 +586,13 @@ try {
                                             }
                                             
                                             const invisibleLine = paint(invisibleMarker, {
-                                                title: 'InvisibleFallback_' + executionId + '_' + barIndex,
+                                                name: 'InvisibleFallback_' + barIndex,
                                                 color: '#FFFFFF',
-                                                linewidth: 1,
+                                                thickness: 1,
                                                 transparency: 1.0
                                             });
+                                            
+                                            incrementPaintedLines();
                                             
                                             if (invisibleLine) {
                                                 paint_label_at_line(invisibleLine, barIndex, labelText, {
@@ -728,11 +608,13 @@ try {
                                             const emergencyAnchor = [...high];
                                             
                                             const emergencyLine = paint(emergencyAnchor, {
-                                                title: 'Emergency_' + executionId + '_' + barIndex,
+                                                name: 'Emergency_' + barIndex,
                                                 color: '#FFFF00', // Dynamic color assignment for emergency print anchors - Yellow
-                                                linewidth: 1,
+                                                thickness: 1,
                                                 transparency: 0.99
                                             });
+                                            
+                                            incrementPaintedLines();
                                             
                                             if (emergencyLine) {
                                                 paint_label_at_line(emergencyLine, barIndex, labelText, {
@@ -749,8 +631,6 @@ try {
                                 console.error('Error creating label:', labelError);
                             }
                         }
-                        
-                        paintedCount++;
                     });
                 } catch (barError) {
                     console.error('Error processing prints for bar:', barError);
@@ -758,18 +638,27 @@ try {
             });
         }
         
-        if (paintedCount > 0) {
-            console.log('[' + executionId + '] Total painted elements: ' + paintedCount);
+        // Performance summary
+        const performanceEndTime = Date.now();
+        const executionTime = performanceEndTime - performanceStartTime;
+        
+        if (totalPaintedLines > 0) {
+            console.log('[' + executionId + '] ✅ Performance Summary:');
+            console.log('[' + executionId + '] Total painted lines: ' + totalPaintedLines + '/' + MAX_TOTAL_PAINTED_LINES);
+            console.log('[' + executionId + '] Execution time: ' + executionTime + 'ms');
+            console.log('[' + executionId + '] Data processed: ' + (levels.length || 0) + ' levels, ' + (prints.length || 0) + ' prints (boxes disabled)');
         } else {
             console.log('[' + executionId + '] No data found for ' + currentSymbol);
-            paint(emptyLine, { title: 'No data for ' + currentSymbol, color: '#888888' });
+            paint(emptyLine, { name: 'NoData', color: '#888888' });
+            incrementPaintedLines();
         }
         
-        console.log('🏁 Completed execution ID: ' + executionId + ' with fresh data load');
+        console.log('🏁 Completed execution ID: ' + executionId + ' with optimized performance');
         console.log('📈 Final ticker: ' + currentSymbol + ' | Instance: ' + scriptInstanceId.substr(-8));
     }
     
 } catch (error) {
     console.error('Error loading data:', error);
-    paint(emptyLine, { title: 'Script Error', color: '#FF0000' });
+    paint(emptyLine, { name: 'ScriptError', color: '#FF0000' });
+    incrementPaintedLines();
 } 
