@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SFM",
-    "generated_at": "2025-07-15T02:26:15.935136+00:00Z",
-    "date_range": "2025-04-15 to 2025-07-14",
+    "generated_at": "2025-07-16T03:53:24.909069+00:00Z",
+    "date_range": "2025-04-16 to 2025-07-15",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -114,6 +114,18 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1752552000,
+      "price": 164.65,
+      "volume": 530053,
+      "dollars": 87273226,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
@@ -136,16 +148,16 @@
       "rank": "5"
     },
     {
+      "price": 164.7,
+      "volume": 1210000,
+      "dollars": 200000000,
+      "rank": "10"
+    },
+    {
       "price": 172.9,
       "volume": 980000,
       "dollars": 170000000,
-      "rank": "19"
-    },
-    {
-      "price": 158.5,
-      "volume": 970000,
-      "dollars": 150000000,
-      "rank": "26"
+      "rank": "20"
     }
   ],
   "boxes": []
