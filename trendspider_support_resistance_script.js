@@ -4,16 +4,14 @@ describe_indicator('Moebot VL Trendspider v5.9.1 (Fixed Line Style Error)', 'ove
 const executionId = Math.random().toString(36).substr(2, 9);
 const currentTime = Date.now();
 const randomDelay = Math.floor(Math.random() * 300) + 100;
-const symbolHash = (typeof constants !== 'undefined' && constants.ticker) ? 
+const symbolHash = (typeof constants !== 'undefined' && constants.ticker) ?
     constants.ticker.toUpperCase().split('').reduce((a, b) => { a = ((a << 5) - a) + b.charCodeAt(0); return a & a; }, 0) : 0;
 
 // Force fresh load tracking
 const tickerChangeDetector = constants.ticker + '_' + Math.floor(Date.now() / 60000); // Changes every minute
 const scriptInstanceId = executionId + '_' + symbolHash + '_' + currentTime;
 
-console.log('🚀 Starting execution ID: ' + executionId + ' for ' + (typeof constants !== 'undefined' && constants.ticker ? constants.ticker.toUpperCase() : 'UNKNOWN'));
-console.log('📊 Ticker change detector: ' + tickerChangeDetector);
-console.log('🔄 Script instance ID: ' + scriptInstanceId);
+
 
 // Configuration
 const showSupport = true;
@@ -76,17 +74,16 @@ for (let i = 0; i < close.length; i++) {
 
 // Force fresh execution state - no global state persistence
 // Each script execution is completely independent
-console.log('[' + executionId + '] 🔄 Fresh execution state - no cached data from previous runs');
-console.log('[' + executionId + '] 🎯 Performance limits: Levels=' + MAX_LEVELS + ', Prints=' + MAX_PRINTS + ', Total=' + MAX_TOTAL_PAINTED_LINES + ' (Boxes disabled)');
+
 
 try {
     const currentSymbol = constants.ticker.toUpperCase();
-    
+
     // Enhanced cache busting for fresh loads on ticker change
     const timestampSeconds = Math.floor(Date.now() / 1000);
     const timestampMinutes = Math.floor(Date.now() / 60000); // Changes every minute
     const browserCacheBuster = Math.random().toString(36).substr(2, 12);
-    
+
     // Multi-layer cache busting approach
     const cacheBuster = [
         timestampSeconds,
@@ -98,15 +95,14 @@ try {
         browserCacheBuster,
         scriptInstanceId.substr(-8) // Last 8 chars of instance ID
     ].join('_');
-    
+
     const tickerDataUrl = 'https://raw.githubusercontent.com/donoage/moe-bot-trendspider-data/main/ticker_data/' + currentSymbol + '.json?v=' + cacheBuster + '&t=' + timestampSeconds + '&r=' + browserCacheBuster;
-    
-    console.log('[' + executionId + '] Loading data for ' + currentSymbol);
-    console.log('[' + executionId + '] Cache buster: ' + cacheBuster.substr(0, 50) + '...');
-    
+
+
+
     // Use simple HTTP request - cache busting handled via URL parameters
     const tickerResponse = await request.http(tickerDataUrl);
-    
+
     if (tickerResponse.error) {
         console.error('HTTP Error loading ticker data:', tickerResponse.error);
         console.error('URL attempted:', tickerDataUrl.substr(0, 100) + '...');
@@ -114,18 +110,17 @@ try {
         incrementPaintedLines();
     } else {
         const tickerData = tickerResponse;
-        
-        console.log('[' + executionId + '] ✅ Successfully loaded fresh data for ' + currentSymbol);
-        console.log('[' + executionId + '] Data timestamp check:', tickerData.last_updated || 'No timestamp available');
-        
+
+
+
         // Consolidation functions
         function consolidateLevels(levels, consolidationThreshold) {
             if (!levels || levels.length === 0) return [];
-            
+
             const sortedLevels = [...levels].sort((a, b) => a.price - b.price);
             const consolidated = [];
             let currentGroup = [sortedLevels[0]];
-            
+
             for (let i = 1; i < sortedLevels.length; i++) {
                 const level = sortedLevels[i];
                 const groupAvgPrice = currentGroup.reduce((sum, l) => sum + l.price, 0) / currentGroup.length;
@@ -134,7 +129,7 @@ try {
                 const absoluteThreshold = 0.21;
                 const withinAbsoluteThreshold = priceDistance <= absoluteThreshold;
                 const withinPercentThreshold = distancePercent <= consolidationThreshold;
-                
+
                 if (withinPercentThreshold || withinAbsoluteThreshold) {
                     currentGroup.push(level);
                 } else {
@@ -142,48 +137,48 @@ try {
                     currentGroup = [level];
                 }
             }
-            
+
             if (currentGroup.length > 0) {
                 consolidated.push(consolidateGroup(currentGroup));
             }
-            
+
             return consolidated;
         }
-        
+
         function consolidateGroup(group) {
             if (group.length === 1) return group[0];
-            
+
             let totalVolume = 0;
             let weightedPriceSum = 0;
             let totalDollars = 0;
             let bestRank = 999999;
-            
+
             group.forEach(level => {
                 const levelVolume = level.volume || 0;
                 const levelDollars = level.dollars || 0;
                 const levelRank = parseInt(level.rank) || 999999;
-                
+
                 totalVolume += levelVolume;
                 totalDollars += levelDollars;
-                
+
                 if (levelVolume > 0) {
                     weightedPriceSum += level.price * levelVolume;
                 } else {
                     weightedPriceSum += level.price;
                 }
-                
+
                 if (levelRank < bestRank) {
                     bestRank = levelRank;
                 }
             });
-            
+
             let consolidatedPrice;
             if (totalVolume > 0) {
                 consolidatedPrice = weightedPriceSum / totalVolume;
             } else {
                 consolidatedPrice = group.reduce((sum, l) => sum + l.price, 0) / group.length;
             }
-            
+
             return {
                 price: consolidatedPrice,
                 volume: totalVolume,
@@ -194,40 +189,40 @@ try {
                 allRanks: group.map(l => l.rank).filter(r => r && parseInt(r) > 0)
             };
         }
-        
+
         // Process support/resistance levels with limits
         const rawLevels = tickerData.levels || [];
         const consolidationThreshold = 0.1;
         let levels = consolidateLevels(rawLevels, consolidationThreshold);
-        
+
         // Apply performance limit for levels
         if (levels.length > MAX_LEVELS) {
-            console.log('[' + executionId + '] ⚠️ Limiting levels from ' + levels.length + ' to ' + MAX_LEVELS + ' for performance');
+
             levels = levels.slice(0, MAX_LEVELS);
         }
-        
+
         if (levels.length > 0 && canPaintMore()) {
-            levels.forEach(function(level, index) {
+            levels.forEach(function (level, index) {
                 if (!canPaintMore()) {
-                    console.log('[' + executionId + '] ⚠️ Stopping level painting - reached limit');
+
                     return;
                 }
-                
+
                 // Dynamic color assignment for support/resistance levels
                 let color = '#87CEEB';    // Light blue for support/resistance levels
-                
+
                 const levelLine = [];
                 for (let i = 0; i < close.length; i++) {
                     levelLine[i] = level.price;
                 }
-                
+
                 let title = '$' + level.price.toFixed(2);
                 if (level.consolidatedCount && level.consolidatedCount > 1) {
                     title += ' (Combined ' + level.consolidatedCount + ' levels)';
                 } else if (level.rank && parseInt(level.rank) > 0) {
                     title += ' (Rank ' + level.rank + ')';
                 }
-                
+
                 const paintedLine = paint(levelLine, {
                     name: 'Level_' + (index + 1),
                     color: color,
@@ -235,15 +230,15 @@ try {
                     style: 'dotted',
                     transparency: 1.0 - levelsOpacity
                 });
-                
+
                 incrementPaintedLines();
-                
+
                 // Create projection array for future bars
                 const projectionArray = [];
                 for (let i = 0; i < projectionLength; i++) {
                     projectionArray[i] = level.price;
                 }
-                
+
                 // Paint projection into the future
                 const projectedLine = paint_projection(projectionArray, {
                     name: 'Level_' + (index + 1) + '_Projection',
@@ -252,12 +247,12 @@ try {
                     style: 'dotted',
                     transparency: 1.0 - levelsOpacity
                 });
-                
+
                 incrementPaintedLines();
-                
+
                 if (showLabels && (level.volume || level.dollars)) {
                     let labelText = '';
-                    
+
                     if (level.volume && level.dollars) {
                         let priceText = '$' + level.price.toFixed(2);
                         if (level.consolidatedCount && level.consolidatedCount > 1 && level.originalPrices) {
@@ -266,7 +261,7 @@ try {
                         }
                         const sharesText = formatNumber(level.volume) + ' shares';
                         const dollarsText = '$' + formatNumber(level.dollars);
-                        
+
                         let suffixText = '';
                         if (level.consolidatedCount && level.consolidatedCount > 1) {
                             suffixText = 'Combined ' + level.consolidatedCount + ' levels';
@@ -276,7 +271,7 @@ try {
                         } else if (level.rank && parseInt(level.rank) > 0) {
                             suffixText = 'Rank ' + level.rank;
                         }
-                        
+
                         labelText = priceText + ' | ' + sharesText + ' | ' + dollarsText + (suffixText ? ' | ' + suffixText : '');
                     } else if (level.dollars) {
                         let priceText = '$' + level.price.toFixed(2);
@@ -285,7 +280,7 @@ try {
                             priceText = '$' + level.price.toFixed(2) + ' (' + originalPricesText + ')';
                         }
                         const dollarsText = '$' + formatNumber(level.dollars);
-                        
+
                         let suffixText = '';
                         if (level.consolidatedCount && level.consolidatedCount > 1) {
                             suffixText = 'Combined ' + level.consolidatedCount + ' levels';
@@ -295,7 +290,7 @@ try {
                         } else if (level.rank && parseInt(level.rank) > 0) {
                             suffixText = 'Rank ' + level.rank;
                         }
-                        
+
                         labelText = priceText + ' | ' + dollarsText + (suffixText ? ' | ' + suffixText : '');
                     } else if (level.volume) {
                         let priceText = '$' + level.price.toFixed(2);
@@ -304,7 +299,7 @@ try {
                             priceText = '$' + level.price.toFixed(2) + ' (' + originalPricesText + ')';
                         }
                         const sharesText = formatNumber(level.volume) + ' shares';
-                        
+
                         let suffixText = '';
                         if (level.consolidatedCount && level.consolidatedCount > 1) {
                             suffixText = 'Combined ' + level.consolidatedCount + ' levels';
@@ -314,10 +309,10 @@ try {
                         } else if (level.rank && parseInt(level.rank) > 0) {
                             suffixText = 'Rank ' + level.rank;
                         }
-                        
+
                         labelText = priceText + ' | ' + sharesText + (suffixText ? ' | ' + suffixText : '');
                     }
-                    
+
                     if (labelText) {
                         paint_label_at_line(projectedLine, projectionLength - 1, labelText, {
                             color: color,
@@ -327,37 +322,40 @@ try {
                 }
             });
         }
-        
+
         // Price boxes functionality removed for simplified performance
-        
+
         // Process prints with limits
         let prints = tickerData.prints || [];
-        
+
         // Apply performance limit for prints
         if (prints.length > MAX_PRINTS) {
-            console.log('[' + executionId + '] ⚠️ Limiting prints from ' + prints.length + ' to ' + MAX_PRINTS + ' for performance');
+
             // Sort by rank (lower is better) and take the best ones
-            prints.sort(function(a, b) {
+            prints.sort(function (a, b) {
                 const rankA = parseInt(a.rank) || 999;
                 const rankB = parseInt(b.rank) || 999;
                 return rankA - rankB;
             });
             prints = prints.slice(0, MAX_PRINTS);
         }
-        
+
         if (prints.length > 0 && showPrints && canPaintMore()) {
             const printsByBar = {};
-            
+
             // Use TrendSpider's optimized land_points_onto_series function for timestamp matching
-            console.log('[' + executionId + '] 🚀 Using land_points_onto_series for optimized timestamp matching');
-            
+
+
+
+
             try {
                 // Prepare timestamp arrays for land_points_onto_series
                 const printTimestamps = [];
                 const printData = [];
-                
-                prints.forEach(function(print, index) {
+
+                prints.forEach(function (print, index) {
                     if (print.timestamp && print.timestamp > 0) {
+                        // Use Unix timestamp in seconds (TrendSpider's time array format)
                         printTimestamps.push(print.timestamp);
                         printData.push(print);
                     } else {
@@ -369,69 +367,74 @@ try {
                         printsByBar[fallbackBarIndex].push(print);
                     }
                 });
-                
+
                 // Use land_points_onto_series to efficiently match timestamps to candles
                 if (printTimestamps.length > 0) {
-                    const landedIndices = land_points_onto_series(printTimestamps, time, close);
-                    
-                    console.log('[' + executionId + '] ✅ Successfully landed ' + landedIndices.length + ' print timestamps onto candles');
-                    
-                    // Group prints by their landed bar indices
-                    landedIndices.forEach(function(barIndex, printIndex) {
-                        // Validate barIndex more strictly
-                        if (barIndex >= 0 && barIndex < time.length && printIndex < printData.length && 
-                            !isNaN(barIndex) && Number.isInteger(barIndex)) {
-                            if (!printsByBar[barIndex]) {
-                                printsByBar[barIndex] = [];
-                            }
-                            printsByBar[barIndex].push(printData[printIndex]);
-                        } else {
-                            // Fallback for invalid indices
-                            console.warn('[' + executionId + '] ⚠️ Invalid barIndex from land_points_onto_series: ' + barIndex + ' for print ' + printIndex);
-                            const fallbackBarIndex = time.length - 1;
-                            if (!printsByBar[fallbackBarIndex]) {
-                                printsByBar[fallbackBarIndex] = [];
-                            }
-                            if (printIndex < printData.length) {
-                                printsByBar[fallbackBarIndex].push(printData[printIndex]);
-                            }
-                        }
+                    // Prepare sourceValues array (print prices)
+                    const printPrices = [];
+                    printData.forEach(function (print) {
+                        printPrices.push(print.price || 0);
                     });
+
+                    // Use TrendSpider's land_points_onto_series function
+                    const landedSeries = land_points_onto_series(printTimestamps, printPrices, time, 'ge', null);
+
+                    // Process the landed series - it's a sparse array where indices represent bar positions
+                    if (landedSeries && landedSeries.length > 0) {
+                        landedSeries.forEach(function (landedValue, barIndex) {
+                            // landedValue contains the print price that was landed at this bar
+                            // Find the corresponding print data by matching the price
+                            if (landedValue !== null && landedValue !== undefined && barIndex < time.length) {
+                                const matchingPrint = printData.find(function (print) {
+                                    return Math.abs(print.price - landedValue) < 0.01; // Small tolerance for floating point comparison
+                                });
+
+                                if (matchingPrint) {
+                                    if (!printsByBar[barIndex]) {
+                                        printsByBar[barIndex] = [];
+                                    }
+                                    printsByBar[barIndex].push(matchingPrint);
+                                }
+                            }
+                        });
+                    }
                 }
-                
+
             } catch (landError) {
                 console.error('[' + executionId + '] ⚠️ Error using land_points_onto_series, falling back to manual matching:', landError);
-                
+
                 // Fallback to manual timestamp matching if land_points_onto_series fails
-                prints.forEach(function(print, index) {
+                prints.forEach(function (print, index) {
                     try {
                         let barIndex = -1;
                         if (print.timestamp && print.timestamp > 0) {
+                            // Use Unix timestamp in seconds (TrendSpider's time array format)
+                            const timestamp = print.timestamp;
                             const lastChartTime = time.length > 0 ? time[time.length - 1] : 0;
-                            const isAfterChartEnd = print.timestamp > lastChartTime;
-                            
+                            const isAfterChartEnd = timestamp > lastChartTime;
+
                             if (isAfterChartEnd) {
                                 barIndex = time.length - 1;
                             } else {
                                 let bestMatch = -1;
                                 let bestDistance = Infinity;
-                                
+
                                 for (let i = 0; i < time.length; i++) {
                                     const barTime = time[i];
-                                    const distance = Math.abs(barTime - print.timestamp);
-                                    
+                                    const distance = Math.abs(barTime - timestamp);
+
                                     if (distance < bestDistance) {
                                         bestDistance = distance;
                                         bestMatch = i;
                                     }
                                 }
-                                
+
                                 barIndex = bestMatch;
                             }
                         } else {
                             barIndex = time.length - 1;
                         }
-                        
+
                         if (barIndex >= 0 && barIndex < time.length) {
                             if (!printsByBar[barIndex]) {
                                 printsByBar[barIndex] = [];
@@ -454,60 +457,60 @@ try {
                     }
                 });
             }
-            
+
             // Track painted print lines to avoid duplicates
             const paintedPrintPrices = {};
-            
-            Object.keys(printsByBar).forEach(function(barIndexStr) {
+
+            Object.keys(printsByBar).forEach(function (barIndexStr) {
                 if (!canPaintMore()) {
-                    console.log('[' + executionId + '] ⚠️ Stopping print painting - reached limit');
+
                     return;
                 }
-                
+
                 try {
                     const barIndex = parseInt(barIndexStr);
-                    
+
                     // Skip invalid bar indices
                     if (isNaN(barIndex) || barIndex < 0 || barIndex >= time.length) {
                         console.warn('[' + executionId + '] ⚠️ Skipping invalid bar index: ' + barIndexStr + ' (parsed: ' + barIndex + ')');
                         return;
                     }
-                    
+
                     const barPrints = printsByBar[barIndex];
-                    
+
                     if (!barPrints || !Array.isArray(barPrints)) {
                         console.warn('[' + executionId + '] ⚠️ No prints found for bar index ' + barIndex);
                         return;
                     }
-                    
-                    barPrints.sort(function(a, b) {
+
+                    barPrints.sort(function (a, b) {
                         const rankA = parseInt(a.rank) || 999;
                         const rankB = parseInt(b.rank) || 999;
                         return rankA - rankB;
                     });
-                    
-                    barPrints.forEach(function(print, stackIndex) {
+
+                    barPrints.forEach(function (print, stackIndex) {
                         if (!canPaintMore()) {
                             return;
                         }
-                        
+
                         const rankText = print.rank ? print.rank : '?';
                         const rankNumber = parseInt(print.rank) || 999;
                         let labelText = 'R' + rankText;
-                        
-                        console.log('[' + executionId + '] Processing print at bar ' + barIndex + ' with rank ' + rankText + ', labelText: ' + labelText);
-                        
+
+
+
                         // Draw horizontal line for prints ranked 10 or better (only once per price level)
                         if (rankNumber <= 5 && print.price) {
                             const priceKey = print.price.toFixed(2);
                             if (!paintedPrintPrices[priceKey]) {
                                 paintedPrintPrices[priceKey] = true;
-                                
+
                                 const printLineArray = [];
                                 for (let i = 0; i < close.length; i++) {
                                     printLineArray[i] = print.price;
                                 }
-                                
+
                                 const printLine = paint(printLineArray, {
                                     name: 'Print_R' + rankText + '_' + print.price.toFixed(2).replace('.', '_'),
                                     color: '#FFFF00', // Dynamic color assignment for prints - Yellow
@@ -515,15 +518,15 @@ try {
                                     style: 'dotted',
                                     transparency: 0.1 // More opaque (90% opacity)
                                 });
-                                
+
                                 incrementPaintedLines();
-                                
+
                                 // Create projection for print line
                                 const printProjectionArray = [];
                                 for (let i = 0; i < projectionLength; i++) {
                                     printProjectionArray[i] = print.price;
                                 }
-                                
+
                                 const printProjectedLine = paint_projection(printProjectionArray, {
                                     name: 'Print_R' + rankText + '_' + print.price.toFixed(2).replace('.', '_') + '_Projection',
                                     color: '#FFFF00',
@@ -531,13 +534,13 @@ try {
                                     style: 'dotted',
                                     transparency: 0.1
                                 });
-                                
+
                                 incrementPaintedLines();
-                                
+
                                 if (!printProjectedLine) {
                                     console.warn('Failed to create projected line for print R' + rankText + ' at $' + print.price.toFixed(2));
                                 }
-                                
+
                                 // Add label to the print line with error handling
                                 if (showLabels && printProjectedLine && projectionLength > 0) {
                                     try {
@@ -555,7 +558,7 @@ try {
                                 }
                             }
                         }
-                        
+
                         if (barPrints.length > 1) {
                             if (stackIndex === 0) {
                                 const allRanks = barPrints.map(p => 'R' + (p.rank || '?')).join(' | ');
@@ -565,17 +568,14 @@ try {
                             }
                         }
                         // If there's only one print per bar, labelText is already set to 'R' + rankText above
-                        
-                        console.log('[' + executionId + '] Final labelText for bar ' + barIndex + ': "' + labelText + '"');
-                        
+
                         if (labelText) {
-                            console.log('[' + executionId + '] Attempting to paint label "' + labelText + '" at bar ' + barIndex);
                             try {
                                 if (barIndex >= 0 && barIndex < high.length && high[barIndex] !== undefined && !isNaN(high[barIndex])) {
                                     try {
                                         // Position labels directly over the candle using the high price
                                         const labelPrice = high[barIndex];
-                                        
+
                                         const anchorLine = [];
                                         for (let i = 0; i < close.length; i++) {
                                             if (i === barIndex) {
@@ -584,18 +584,18 @@ try {
                                                 anchorLine[i] = NaN;
                                             }
                                         }
-                                        
-                                                                const visibleAnchor = paint(anchorLine, {
-                            name: 'PrintAnchor_' + barIndex,
-                            color: '#FFFF00', // Dynamic color assignment for print anchors - Yellow
-                            thickness: 1,
-                            transparency: 0.99
-                        });
-                                        
+
+                                        const visibleAnchor = paint(anchorLine, {
+                                            name: 'PrintAnchor_' + barIndex,
+                                            color: '#FFFF00', // Dynamic color assignment for print anchors - Yellow
+                                            thickness: 1,
+                                            transparency: 0.99
+                                        });
+
                                         incrementPaintedLines();
-                                        
+
                                         if (visibleAnchor) {
-                                            console.log('[' + executionId + '] Painting label "' + labelText + '" at bar ' + barIndex + ' with visible anchor');
+
                                             paint_label_at_line(visibleAnchor, barIndex, labelText, {
                                                 color: '#FFFF00', // Dynamic color assignment for print anchor labels - Yellow
                                                 vertical_align: 'top'
@@ -605,16 +605,16 @@ try {
                                             for (let i = 0; i < close.length; i++) {
                                                 invisibleMarker[i] = (i === barIndex) ? labelPrice : NaN;
                                             }
-                                            
+
                                             const invisibleLine = paint(invisibleMarker, {
                                                 name: 'InvisibleFallback_' + barIndex,
                                                 color: '#FFFFFF',
                                                 thickness: 1,
                                                 transparency: 1.0
                                             });
-                                            
+
                                             incrementPaintedLines();
-                                            
+
                                             if (invisibleLine) {
                                                 paint_label_at_line(invisibleLine, barIndex, labelText, {
                                                     color: '#FFFF00',
@@ -624,19 +624,19 @@ try {
                                         }
                                     } catch (paintError) {
                                         console.error('Paint error for label:', paintError);
-                                        
+
                                         try {
                                             const emergencyAnchor = [...high];
-                                            
+
                                             const emergencyLine = paint(emergencyAnchor, {
                                                 name: 'Emergency_' + barIndex,
                                                 color: '#FFFF00', // Dynamic color assignment for emergency print anchors - Yellow
                                                 thickness: 1,
                                                 transparency: 0.99
                                             });
-                                            
+
                                             incrementPaintedLines();
-                                            
+
                                             if (emergencyLine) {
                                                 paint_label_at_line(emergencyLine, barIndex, labelText, {
                                                     color: '#FF0000',
@@ -658,26 +658,22 @@ try {
                 }
             });
         }
-        
+
         // Performance summary
         const performanceEndTime = Date.now();
         const executionTime = performanceEndTime - performanceStartTime;
-        
+
         if (totalPaintedLines > 0) {
-            console.log('[' + executionId + '] ✅ Performance Summary:');
-            console.log('[' + executionId + '] Total painted lines: ' + totalPaintedLines + '/' + MAX_TOTAL_PAINTED_LINES);
-            console.log('[' + executionId + '] Execution time: ' + executionTime + 'ms');
-            console.log('[' + executionId + '] Data processed: ' + (levels.length || 0) + ' levels, ' + (prints.length || 0) + ' prints (boxes disabled)');
+
         } else {
             console.log('[' + executionId + '] No data found for ' + currentSymbol);
             paint(emptyLine, { name: 'NoData', color: '#888888' });
             incrementPaintedLines();
         }
-        
-        console.log('🏁 Completed execution ID: ' + executionId + ' with optimized performance');
-        console.log('📈 Final ticker: ' + currentSymbol + ' | Instance: ' + scriptInstanceId.substr(-8));
+
+
     }
-    
+
 } catch (error) {
     console.error('Error loading data:', error);
     paint(emptyLine, { name: 'ScriptError', color: '#FF0000' });
