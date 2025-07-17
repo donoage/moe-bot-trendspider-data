@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "MMC",
-    "generated_at": "2025-07-16T03:51:39.918030+00:00Z",
-    "date_range": "2025-04-16 to 2025-07-15",
+    "generated_at": "2025-07-17T03:10:53.996169+00:00Z",
+    "date_range": "2025-04-17 to 2025-07-16",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -77,33 +77,43 @@
     },
     {
       "box_number": 2,
+      "high_price": 210.52,
+      "low_price": 210.52,
+      "volume": 286486,
+      "dollars": 60311032,
+      "trades": 2,
+      "date_range": "2025-07-16",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 224.87,
       "low_price": 224.87,
       "volume": 250949,
       "dollars": 56430901,
       "trades": 1,
       "date_range": "2025-05-15",
-      "color": "green"
+      "color": "orange"
     },
     {
-      "box_number": 3,
+      "box_number": 4,
       "high_price": 220.5,
       "low_price": 220.5,
       "volume": 99639,
       "dollars": 21970399,
       "trades": 1,
       "date_range": "2025-04-30",
-      "color": "orange"
+      "color": "red"
     },
     {
-      "box_number": 4,
+      "box_number": 5,
       "high_price": 216.7,
       "low_price": 216.7,
       "volume": 100000,
       "dollars": 21670000,
       "trades": 1,
       "date_range": "2025-04-25",
-      "color": "red"
+      "color": "purple"
     }
   ]
 }
