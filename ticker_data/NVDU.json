@@ -1,18 +1,42 @@
 {
   "metadata": {
     "ticker": "NVDU",
-    "generated_at": "2025-07-17T03:09:46.414085+00:00Z",
-    "date_range": "2025-04-17 to 2025-07-16",
+    "generated_at": "2025-07-18T02:18:48.038969+00:00Z",
+    "date_range": "2025-04-18 to 2025-07-17",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1752724800,
+      "price": 119.0,
+      "volume": 114276,
+      "dollars": 13598844,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1752724800,
+      "price": 119.01,
+      "volume": 32900,
+      "dollars": 3915429,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1748577600,
       "price": 73.66,
       "volume": 48905,
       "dollars": 3602342,
-      "rank": 10,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,32 +46,32 @@
   ],
   "levels": [
     {
+      "price": 119.0,
+      "volume": 200000,
+      "dollars": 20000000,
+      "rank": "1"
+    },
+    {
       "price": 97.0,
       "volume": 110000,
       "dollars": 10000000,
-      "rank": "1"
+      "rank": "2"
     },
     {
       "price": 88.9,
       "volume": 80000,
       "dollars": 10000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 88.6,
       "volume": 80000,
       "dollars": 10000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 77.7,
       "volume": 70000,
-      "dollars": 10000000,
-      "rank": "5"
-    },
-    {
-      "price": 116.2,
-      "volume": 50000,
       "dollars": 10000000,
       "rank": "6"
     }

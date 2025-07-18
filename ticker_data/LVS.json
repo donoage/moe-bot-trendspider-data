@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "LVS",
-    "generated_at": "2025-07-17T03:12:15.540954+00:00Z",
-    "date_range": "2025-04-17 to 2025-07-16",
+    "generated_at": "2025-07-18T02:21:08.098298+00:00Z",
+    "date_range": "2025-04-18 to 2025-07-17",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -55,22 +55,22 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 49.7,
+      "low_price": 49.0,
+      "volume": 1795948,
+      "dollars": 88365902,
+      "trades": 2,
+      "date_range": "2025-07-16 to 2025-07-17",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 40.8,
       "low_price": 40.8,
       "volume": 1801480,
       "dollars": 73500384,
       "trades": 1,
       "date_range": "2025-05-29",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 49.7,
-      "low_price": 49.7,
-      "volume": 520643,
-      "dollars": 25875957,
-      "trades": 1,
-      "date_range": "2025-07-16",
       "color": "green"
     }
   ]

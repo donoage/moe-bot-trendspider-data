@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "MRX",
-    "generated_at": "2025-07-17T03:11:48.278678+00:00Z",
-    "date_range": "2025-04-17 to 2025-07-16",
+    "generated_at": "2025-07-18T02:20:42.160535+00:00Z",
+    "date_range": "2025-04-18 to 2025-07-17",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -80,11 +80,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1752724800,
+      "price": 38.83,
+      "volume": 373638,
+      "dollars": 14508363,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1747886400,
       "price": 43.77,
       "volume": 329100,
       "dollars": 14404707,
-      "rank": 8,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,7 +108,7 @@
       "price": 39.17,
       "volume": 302344,
       "dollars": 11842814,
-      "rank": 9,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 39.47,
       "volume": 293711,
       "dollars": 11592773,
-      "rank": 10,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1749700800,
-      "price": 40.08,
-      "volume": 253332,
-      "dollars": 10153546,
       "rank": 11,
       "conditions": "",
       "exchange": "",
@@ -142,20 +142,20 @@
       "rank": "2"
     },
     {
-      "price": 38.3,
-      "volume": 760000,
+      "price": 38.8,
+      "volume": 780000,
       "dollars": 30000000,
       "rank": "3"
     },
     {
-      "price": 43.2,
-      "volume": 670000,
+      "price": 38.3,
+      "volume": 760000,
       "dollars": 30000000,
       "rank": "4"
     },
     {
-      "price": 39.5,
-      "volume": 710000,
+      "price": 43.2,
+      "volume": 670000,
       "dollars": 30000000,
       "rank": "5"
     }
