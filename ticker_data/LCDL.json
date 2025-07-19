@@ -1,12 +1,32 @@
 {
   "metadata": {
     "ticker": "LCDL",
-    "generated_at": "2025-07-18T02:23:36.728945+00:00Z",
-    "date_range": "2025-04-18 to 2025-07-17",
+    "generated_at": "2025-07-19T02:22:30.769128+00:00Z",
+    "date_range": "2025-04-19 to 2025-07-18",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1752811200,
+      "price": 31.58,
+      "volume": 17884,
+      "dollars": 564776,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 31.6,
+      "volume": 20000,
+      "dollars": 0,
+      "rank": "1"
+    }
+  ],
   "boxes": []
 }

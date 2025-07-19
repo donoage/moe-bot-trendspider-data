@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "JEPI",
-    "generated_at": "2025-07-18T02:19:29.992847+00:00Z",
-    "date_range": "2025-04-18 to 2025-07-17",
+    "generated_at": "2025-07-19T02:18:14.394231+00:00Z",
+    "date_range": "2025-04-19 to 2025-07-18",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1752811200,
+      "price": 56.89,
+      "volume": 4667842,
+      "dollars": 265553531,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1745899200,
       "price": 55.2,
       "volume": 2451363,
       "dollars": 135315237,
-      "rank": 3,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 55.74,
       "volume": 2101266,
       "dollars": 117124566,
-      "rank": 6,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 55.62,
       "volume": 1989045,
       "dollars": 110630682,
-      "rank": 7,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -79,33 +91,43 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 56.89,
+      "low_price": 56.89,
+      "volume": 4667842,
+      "dollars": 265553531,
+      "trades": 1,
+      "date_range": "2025-07-18",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 55.89,
       "low_price": 55.54,
       "volume": 1312797,
       "dollars": 73198615,
       "trades": 2,
       "date_range": "2025-05-29 to 2025-06-02",
-      "color": "blue"
+      "color": "green"
     },
     {
-      "box_number": 2,
+      "box_number": 3,
       "high_price": 54.23,
       "low_price": 54.23,
       "volume": 1039111,
       "dollars": 56350989,
       "trades": 1,
       "date_range": "2025-04-23",
-      "color": "green"
+      "color": "orange"
     },
     {
-      "box_number": 3,
+      "box_number": 4,
       "high_price": 52.3,
       "low_price": 52.3,
       "volume": 809412,
       "dollars": 42332247,
       "trades": 1,
       "date_range": "2025-04-21",
-      "color": "orange"
+      "color": "red"
     }
   ]
 }

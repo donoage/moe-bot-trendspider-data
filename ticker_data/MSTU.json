@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "MSTU",
-    "generated_at": "2025-07-18T02:17:52.800964+00:00Z",
-    "date_range": "2025-04-18 to 2025-07-17",
+    "generated_at": "2025-07-19T02:16:35.632245+00:00Z",
+    "date_range": "2025-04-19 to 2025-07-18",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1752811200,
+      "price": 9.15,
+      "volume": 4880000,
+      "dollars": 44664200,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1746417600,
       "price": 8.56,
       "volume": 574995,
       "dollars": 4921957,
-      "rank": 18,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 9.05,
       "volume": 538420,
       "dollars": 4872701,
-      "rank": 19,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,32 +46,32 @@
   ],
   "levels": [
     {
+      "price": 9.2,
+      "volume": 7850000,
+      "dollars": 70000000,
+      "rank": "1"
+    },
+    {
       "price": 8.0,
       "volume": 6410000,
       "dollars": 50000000,
-      "rank": "1"
+      "rank": "2"
     },
     {
       "price": 7.6,
       "volume": 6530000,
       "dollars": 50000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 8.2,
       "volume": 5470000,
       "dollars": 40000000,
-      "rank": "3"
-    },
-    {
-      "price": 9.4,
-      "volume": 4490000,
-      "dollars": 40000000,
       "rank": "4"
     },
     {
-      "price": 7.8,
-      "volume": 5180000,
+      "price": 9.4,
+      "volume": 4650000,
       "dollars": 40000000,
       "rank": "5"
     }
