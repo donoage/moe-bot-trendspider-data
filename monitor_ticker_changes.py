@@ -99,7 +99,7 @@ def update_ticker_data(tickers=None, full_refresh=False):
     try:
         if full_refresh or not tickers:
             logger.info(f"Running full ticker data update...")
-            cmd = [PYTHON_PATH, POPULATE_SCRIPT, '--max-workers' , '1']
+            cmd = [PYTHON_PATH, POPULATE_SCRIPT, '--max-workers', '2', '--timeout', '7200']
         else:
             logger.info(f"Running incremental update for {len(tickers)} tickers: {', '.join(tickers[:10])}{'...' if len(tickers) > 10 else ''}")
             cmd = [PYTHON_PATH, POPULATE_SCRIPT, '--tickers'] + tickers + ['--max-workers', '3']
@@ -109,7 +109,7 @@ def update_ticker_data(tickers=None, full_refresh=False):
             logger.info(f"🚀 Starting full refresh with real-time progress...")
             sys.stdout.flush()
             
-            # Run with real-time output streaming
+            # Run with real-time output streaming and timeout
             process = subprocess.Popen(
                 cmd,
                 cwd=REPO_DIR,
@@ -139,8 +139,19 @@ def update_ticker_data(tickers=None, full_refresh=False):
                 elif process.poll() is not None:
                     break
             
-            # Wait for process to complete and get return code
-            return_code = process.wait()
+            # Wait for process to complete with timeout (2 hours)
+            try:
+                return_code = process.wait(timeout=7200)
+            except subprocess.TimeoutExpired:
+                logger.error("❌ Process timed out after 2 hours, terminating...")
+                process.terminate()
+                try:
+                    process.wait(timeout=30)
+                except subprocess.TimeoutExpired:
+                    logger.error("❌ Process didn't terminate gracefully, killing...")
+                    process.kill()
+                    process.wait()
+                return_code = -1
             
             if return_code == 0:
                 logger.info(f"✅ Successfully updated ticker data")

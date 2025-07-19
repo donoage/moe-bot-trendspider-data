@@ -12,6 +12,8 @@ import sys
 import os
 import argparse
 import re
+import signal
+import gc
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -475,17 +477,14 @@ def process_ticker(ticker, start_date, end_date, output_dir):
     # Remove verbose print statement since we have progress bar
     # print(f"Processing {ticker}...")
     
-    # Fetch all data types for this ticker concurrently
-    with ThreadPoolExecutor(max_workers=3) as executor:
-        # Submit all three fetch operations concurrently
-        prints_future = executor.submit(fetch_big_prints_for_ticker, ticker, start_date, end_date)
-        levels_future = executor.submit(fetch_support_resistance_for_ticker, ticker, start_date, end_date)
-        boxes_future = executor.submit(fetch_price_boxes_for_ticker, ticker, start_date, end_date)
-        
-        # Wait for all operations to complete
-        prints = prints_future.result()
-        levels = levels_future.result()
-        boxes = boxes_future.result()
+    # Process sequentially to avoid nested thread pool issues and resource leaks
+    try:
+        prints = fetch_big_prints_for_ticker(ticker, start_date, end_date)
+        levels = fetch_support_resistance_for_ticker(ticker, start_date, end_date)
+        boxes = fetch_price_boxes_for_ticker(ticker, start_date, end_date)
+    except Exception as e:
+        print(f"\n✗ Error fetching data for {ticker}: {e}")
+        return False
     
     # Create ticker data structure
     ticker_data = {
@@ -520,6 +519,7 @@ def main():
     parser.add_argument('--tickers', nargs='+', help='Specific tickers to process (default: all base_tickers from volumeleaders_config.json)')
     parser.add_argument('--max-workers', type=int, default=2, help='Maximum concurrent workers (default: 2, optimized for reliability)')
     parser.add_argument('--days-back', type=int, default=90, help='Days to look back for data (default: 90)')
+    parser.add_argument('--timeout', type=int, default=3600, help='Maximum timeout in seconds for the entire process')
     
     args = parser.parse_args()
     
@@ -579,9 +579,12 @@ def main():
                 completed += 1
                 pbar.update(1)
                 
-                # Add small delay to avoid overwhelming the server
-                if args.max_workers > 1:
-                    time.sleep(0.1)  # 100ms delay between completions
+                # Add small delay to avoid overwhelming the server and reduce resource pressure
+                time.sleep(0.2)  # 200ms delay between completions to prevent resource exhaustion
+                
+                # Periodic garbage collection to prevent memory leaks
+                if completed % 50 == 0:
+                    gc.collect()
                 
                 # Print periodic progress updates for logs
                 if completed % 10 == 0 or completed == len(tickers):

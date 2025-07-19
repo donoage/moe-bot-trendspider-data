@@ -13,7 +13,7 @@ import argparse
 from datetime import datetime, timedelta
 from pathlib import Path
 
-def get_date_range(days_back=90):
+def get_date_range(days_back=30):
     """Calculate date range for the past N days (excluding weekends)"""
     end_date = datetime.now()
     
@@ -193,7 +193,7 @@ def save_support_resistance_data(all_levels, min_date, max_date, incremental_tic
             "generated_at": datetime.now().isoformat() + "Z",
             "description": "Support and resistance levels derived from VolumeLeaders trade data with volume and dollar values",
             "date_range": f"{min_date} to {max_date}",
-            "criteria": "Top 5 trade levels per ticker over 90-day lookback period",
+            "criteria": "Top 5 trade levels per ticker over 30-day lookback period",
             "script": "populate_support_resistance.py"
         },
         "levels": all_levels
