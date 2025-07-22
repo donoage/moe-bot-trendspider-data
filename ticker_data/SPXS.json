@@ -1,25 +1,12 @@
 {
   "metadata": {
     "ticker": "SPXS",
-    "generated_at": "2025-07-19T06:02:57.414598+00:00Z",
-    "date_range": "2025-04-19 to 2025-07-18",
+    "generated_at": "2025-07-22T03:20:59.781071+00:00Z",
+    "date_range": "2025-04-22 to 2025-07-21",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1745208000,
-      "price": 8.3,
-      "volume": 15100000,
-      "dollars": 125290740,
-      "rank": 1,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 7.7,
@@ -34,12 +21,6 @@
       "rank": "38"
     },
     {
-      "price": 8.3,
-      "volume": 17900000,
-      "dollars": 150000000,
-      "rank": "40"
-    },
-    {
       "price": 7.2,
       "volume": 20200000,
       "dollars": 150000000,
@@ -50,6 +31,12 @@
       "volume": 18220000,
       "dollars": 110000000,
       "rank": "69"
+    },
+    {
+      "price": 7.3,
+      "volume": 14650000,
+      "dollars": 110000000,
+      "rank": "70"
     }
   ],
   "boxes": []

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "GLD",
-    "generated_at": "2025-07-19T06:05:40.979260+00:00Z",
-    "date_range": "2025-04-19 to 2025-07-18",
+    "generated_at": "2025-07-22T03:23:32.216925+00:00Z",
+    "date_range": "2025-04-22 to 2025-07-21",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -67,42 +67,42 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 316.41,
-      "low_price": 314.49,
-      "volume": 1054252,
-      "dollars": 332734336,
-      "trades": 6,
-      "date_range": "2025-04-21 to 2025-04-22",
+      "high_price": 315.74,
+      "low_price": 296.37,
+      "volume": 667174,
+      "dollars": 206964537,
+      "trades": 5,
+      "date_range": "2025-04-22 to 2025-05-02",
       "color": "blue"
     },
     {
       "box_number": 2,
+      "high_price": 312.88,
+      "low_price": 312.88,
+      "volume": 175549,
+      "dollars": 54925771,
+      "trades": 1,
+      "date_range": "2025-07-21",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 311.88,
       "low_price": 311.88,
       "volume": 120604,
       "dollars": 37613830,
       "trades": 1,
       "date_range": "2025-06-17",
-      "color": "green"
+      "color": "orange"
     },
     {
-      "box_number": 3,
+      "box_number": 4,
       "high_price": 297.69,
       "low_price": 297.69,
       "volume": 92979,
       "dollars": 27678918,
       "trades": 1,
       "date_range": "2025-05-15",
-      "color": "orange"
-    },
-    {
-      "box_number": 4,
-      "high_price": 296.37,
-      "low_price": 296.37,
-      "volume": 86811,
-      "dollars": 25728176,
-      "trades": 1,
-      "date_range": "2025-05-01",
       "color": "red"
     },
     {
@@ -114,6 +114,16 @@
       "trades": 1,
       "date_range": "2025-07-10",
       "color": "purple"
+    },
+    {
+      "box_number": 6,
+      "high_price": 310.7,
+      "low_price": 310.7,
+      "volume": 75233,
+      "dollars": 23374893,
+      "trades": 1,
+      "date_range": "2025-06-02",
+      "color": "yellow"
     }
   ]
 }

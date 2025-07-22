@@ -1,18 +1,37 @@
 {
   "metadata": {
     "ticker": "SOFX",
-    "generated_at": "2025-07-19T06:08:39.847215+00:00Z",
-    "date_range": "2025-04-19 to 2025-07-18",
+    "generated_at": "2025-07-22T03:25:58.385667+00:00Z",
+    "date_range": "2025-04-22 to 2025-07-21",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1753070400,
+      "price": 26.82,
+      "volume": 27247,
+      "dollars": 730764,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 26.8,
+      "volume": 30000,
+      "dollars": 0,
+      "rank": "1"
+    },
     {
       "price": 13.3,
       "volume": 40000,
       "dollars": 0,
-      "rank": "1"
+      "rank": "2"
     }
   ],
   "boxes": []

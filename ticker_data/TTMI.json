@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "TTMI",
-    "generated_at": "2025-07-19T06:07:14.357441+00:00Z",
-    "date_range": "2025-04-19 to 2025-07-18",
+    "generated_at": "2025-07-22T03:24:58.291759+00:00Z",
+    "date_range": "2025-04-22 to 2025-07-21",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1753070400,
+      "price": 47.47,
+      "volume": 404107,
+      "dollars": 19182959,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1751256000,
       "price": 40.82,
       "volume": 441683,
       "dollars": 18029500,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 40.25,
       "volume": 409058,
       "dollars": 16464584,
-      "rank": 19,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -58,12 +70,6 @@
       "rank": "47"
     },
     {
-      "price": 18.2,
-      "volume": 3810000,
-      "dollars": 70000000,
-      "rank": "49"
-    },
-    {
       "price": 19.3,
       "volume": 3070000,
       "dollars": 60000000,
@@ -74,6 +80,12 @@
       "volume": 2340000,
       "dollars": 60000000,
       "rank": "63"
+    },
+    {
+      "price": 18.5,
+      "volume": 2330000,
+      "dollars": 40000000,
+      "rank": "79"
     }
   ],
   "boxes": []
