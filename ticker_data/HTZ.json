@@ -1,25 +1,12 @@
 {
   "metadata": {
     "ticker": "HTZ",
-    "generated_at": "2025-07-22T03:25:10.177123+00:00Z",
-    "date_range": "2025-04-22 to 2025-07-21",
+    "generated_at": "2025-07-23T05:16:37.325445+00:00Z",
+    "date_range": "2025-04-24 to 2025-07-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1745294400,
-      "price": 8.52,
-      "volume": 3601597,
-      "dollars": 30685606,
-      "rank": 20,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 8.5,
@@ -40,16 +27,16 @@
       "rank": "35"
     },
     {
+      "price": 7.6,
+      "volume": 8580000,
+      "dollars": 70000000,
+      "rank": "44"
+    },
+    {
       "price": 7.1,
       "volume": 9180000,
       "dollars": 60000000,
-      "rank": "45"
-    },
-    {
-      "price": 8.6,
-      "volume": 6420000,
-      "dollars": 60000000,
-      "rank": "52"
+      "rank": "46"
     }
   ],
   "boxes": []
