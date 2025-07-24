@@ -1,12 +1,32 @@
 {
   "metadata": {
     "ticker": "IONL",
-    "generated_at": "2025-07-22T03:25:53.359540+00:00Z",
-    "date_range": "2025-04-22 to 2025-07-21",
+    "generated_at": "2025-07-24T02:30:23.486305+00:00Z",
+    "date_range": "2025-04-24 to 2025-07-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1753243200,
+      "price": 46.59,
+      "volume": 10792,
+      "dollars": 502813,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 46.6,
+      "volume": 10000,
+      "dollars": 0,
+      "rank": "1"
+    }
+  ],
   "boxes": []
 }

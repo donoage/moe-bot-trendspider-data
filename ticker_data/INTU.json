@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "INTU",
-    "generated_at": "2025-07-23T07:32:59.227544+00:00Z",
+    "generated_at": "2025-07-24T02:27:44.924669+00:00Z",
     "date_range": "2025-04-24 to 2025-07-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -67,23 +67,33 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 775.75,
+      "low_price": 772.0,
+      "volume": 121015,
+      "dollars": 93516580,
+      "trades": 3,
+      "date_range": "2025-07-23",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 755.75,
       "low_price": 755.75,
       "volume": 28786,
       "dollars": 21755019,
       "trades": 1,
       "date_range": "2025-06-18",
-      "color": "blue"
+      "color": "green"
     },
     {
-      "box_number": 2,
+      "box_number": 3,
       "high_price": 764.35,
       "low_price": 764.35,
       "volume": 25000,
       "dollars": 19108750,
       "trades": 1,
       "date_range": "2025-06-24",
-      "color": "green"
+      "color": "orange"
     }
   ]
 }

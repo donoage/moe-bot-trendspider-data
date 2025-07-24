@@ -1,18 +1,54 @@
 {
   "metadata": {
     "ticker": "SBET",
-    "generated_at": "2025-07-23T05:15:24.729485+00:00Z",
+    "generated_at": "2025-07-24T02:29:32.905331+00:00Z",
     "date_range": "2025-04-24 to 2025-07-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1753243200,
+      "price": 25.81,
+      "volume": 1110974,
+      "dollars": 28674238,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1753243200,
+      "price": 25.81,
+      "volume": 1090131,
+      "dollars": 28136281,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1753243200,
+      "price": 25.81,
+      "volume": 654916,
+      "dollars": 16903381,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1753070400,
       "price": 32.0,
       "volume": 513350,
       "dollars": 16427200,
-      "rank": 1,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +60,7 @@
       "price": 39.0,
       "volume": 322477,
       "dollars": 12576603,
-      "rank": 2,
+      "rank": 5,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +72,7 @@
       "price": 24.9,
       "volume": 503075,
       "dollars": 12526567,
-      "rank": 3,
+      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -48,7 +84,7 @@
       "price": 33.8,
       "volume": 365465,
       "dollars": 12352717,
-      "rank": 4,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -60,7 +96,7 @@
       "price": 37.38,
       "volume": 329356,
       "dollars": 12311327,
-      "rank": 5,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -72,7 +108,7 @@
       "price": 27.95,
       "volume": 400000,
       "dollars": 11180000,
-      "rank": 6,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -84,42 +120,6 @@
       "price": 28.1,
       "volume": 330000,
       "dollars": 9273000,
-      "rank": 7,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1752638400,
-      "price": 37.38,
-      "volume": 238728,
-      "dollars": 8923652,
-      "rank": 8,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1752811200,
-      "price": 36.95,
-      "volume": 212085,
-      "dollars": 7836540,
-      "rank": 9,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1749787200,
-      "price": 10.7,
-      "volume": 732194,
-      "dollars": 7832059,
       "rank": 10,
       "conditions": "",
       "exchange": "",
@@ -130,32 +130,32 @@
   ],
   "levels": [
     {
+      "price": 25.8,
+      "volume": 3470000,
+      "dollars": 90000000,
+      "rank": "1"
+    },
+    {
       "price": 37.4,
       "volume": 970000,
       "dollars": 40000000,
-      "rank": "1"
+      "rank": "2"
     },
     {
       "price": 10.3,
       "volume": 2140000,
       "dollars": 20000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 32.0,
       "volume": 660000,
       "dollars": 20000000,
-      "rank": "3"
-    },
-    {
-      "price": 24.9,
-      "volume": 750000,
-      "dollars": 20000000,
       "rank": "4"
     },
     {
-      "price": 28.1,
-      "volume": 650000,
+      "price": 25.3,
+      "volume": 770000,
       "dollars": 20000000,
       "rank": "5"
     }
