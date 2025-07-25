@@ -1,12 +1,32 @@
 {
   "metadata": {
     "ticker": "OKLL",
-    "generated_at": "2025-07-24T02:30:25.727876+00:00Z",
-    "date_range": "2025-04-24 to 2025-07-23",
+    "generated_at": "2025-07-25T01:18:45.457058+00:00Z",
+    "date_range": "2025-04-25 to 2025-07-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1753329600,
+      "price": 33.01,
+      "volume": 18411,
+      "dollars": 607747,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 33.0,
+      "volume": 20000,
+      "dollars": 0,
+      "rank": "1"
+    }
+  ],
   "boxes": []
 }

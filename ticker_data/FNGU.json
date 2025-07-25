@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "FNGU",
-    "generated_at": "2025-07-24T02:30:31.071674+00:00Z",
-    "date_range": "2025-04-24 to 2025-07-23",
+    "generated_at": "2025-07-25T01:18:51.872801+00:00Z",
+    "date_range": "2025-04-25 to 2025-07-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -44,11 +44,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1753329600,
+      "price": 25.29,
+      "volume": 200000,
+      "dollars": 5058000,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1753070400,
       "price": 25.04,
       "volume": 200000,
       "dollars": 5008000,
-      "rank": 4,
+      "rank": 5,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -60,7 +72,7 @@
       "price": 24.54,
       "volume": 200000,
       "dollars": 4908000,
-      "rank": 5,
+      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -72,7 +84,7 @@
       "price": 24.85,
       "volume": 196882,
       "dollars": 4892517,
-      "rank": 6,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -84,7 +96,7 @@
       "price": 23.75,
       "volume": 200000,
       "dollars": 4749860,
-      "rank": 7,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,7 +108,7 @@
       "price": 24.25,
       "volume": 193269,
       "dollars": 4686773,
-      "rank": 8,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 25.0,
       "volume": 166862,
       "dollars": 4171550,
-      "rank": 9,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1753243200,
-      "price": 23.8,
-      "volume": 166573,
-      "dollars": 3964437,
       "rank": 10,
       "conditions": "",
       "exchange": "",
@@ -148,14 +148,14 @@
       "rank": "3"
     },
     {
-      "price": 24.2,
-      "volume": 1090000,
+      "price": 25.1,
+      "volume": 1080000,
       "dollars": 30000000,
       "rank": "4"
     },
     {
-      "price": 25.1,
-      "volume": 1020000,
+      "price": 24.2,
+      "volume": 1090000,
       "dollars": 30000000,
       "rank": "5"
     }

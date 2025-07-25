@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "QFIN",
-    "generated_at": "2025-07-24T02:28:38.070822+00:00Z",
-    "date_range": "2025-04-24 to 2025-07-23",
+    "generated_at": "2025-07-25T01:16:48.557579+00:00Z",
+    "date_range": "2025-04-25 to 2025-07-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1753329600,
+      "price": 36.11,
+      "volume": 1784000,
+      "dollars": 64420240,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1748577600,
       "price": 41.1,
       "volume": 985871,
       "dollars": 40519298,
-      "rank": 6,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 41.69,
       "volume": 755094,
       "dollars": 31479868,
-      "rank": 10,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -58,22 +70,22 @@
       "rank": "3"
     },
     {
+      "price": 36.1,
+      "volume": 2740000,
+      "dollars": 100000000,
+      "rank": "4"
+    },
+    {
       "price": 40.5,
       "volume": 2350000,
       "dollars": 100000000,
-      "rank": "5"
+      "rank": "6"
     },
     {
       "price": 47.1,
       "volume": 1840000,
       "dollars": 90000000,
-      "rank": "6"
-    },
-    {
-      "price": 43.2,
-      "volume": 1850000,
-      "dollars": 80000000,
-      "rank": "9"
+      "rank": "7"
     }
   ],
   "boxes": []
