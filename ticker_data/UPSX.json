@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "UPSX",
-    "generated_at": "2025-07-25T16:16:58.606759+00:00Z",
+    "generated_at": "2025-07-26T01:44:43.289012+00:00Z",
     "date_range": "2025-04-26 to 2025-07-25",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1753416000,
+      "price": 48.0,
+      "volume": 11573,
+      "dollars": 555504,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 48.0,

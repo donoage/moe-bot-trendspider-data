@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "EFA",
-    "generated_at": "2025-07-25T01:16:36.138122+00:00Z",
-    "date_range": "2025-04-25 to 2025-07-24",
+    "generated_at": "2025-07-26T01:41:28.016159+00:00Z",
+    "date_range": "2025-04-26 to 2025-07-25",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -12,12 +12,6 @@
       "price": 89.3,
       "volume": 11790000,
       "dollars": 1050000000,
-      "rank": "0"
-    },
-    {
-      "price": 83.6,
-      "volume": 11840000,
-      "dollars": 990000000,
       "rank": "0"
     },
     {
@@ -36,6 +30,12 @@
       "price": 89.5,
       "volume": 7860000,
       "dollars": 700000000,
+      "rank": "0"
+    },
+    {
+      "price": 89.4,
+      "volume": 7320000,
+      "dollars": 650000000,
       "rank": "0"
     }
   ],
@@ -62,23 +62,33 @@
     },
     {
       "box_number": 3,
+      "high_price": 90.39,
+      "low_price": 90.39,
+      "volume": 460312,
+      "dollars": 41607601,
+      "trades": 1,
+      "date_range": "2025-07-25",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
       "high_price": 86.66,
       "low_price": 86.66,
       "volume": 328332,
       "dollars": 28453251,
       "trades": 1,
       "date_range": "2025-06-20",
-      "color": "orange"
+      "color": "red"
     },
     {
-      "box_number": 4,
+      "box_number": 5,
       "high_price": 84.23,
       "low_price": 84.23,
       "volume": 216275,
       "dollars": 18216843,
       "trades": 1,
       "date_range": "2025-04-28",
-      "color": "red"
+      "color": "purple"
     }
   ]
 }
