@@ -1,41 +1,54 @@
 {
   "metadata": {
     "ticker": "GOGO",
-    "generated_at": "2025-07-26T01:37:00.129216+00:00Z",
-    "date_range": "2025-04-26 to 2025-07-25",
+    "generated_at": "2025-07-29T01:22:46.315625+00:00Z",
+    "date_range": "2025-04-29 to 2025-07-28",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1750996800,
+      "price": 14.79,
+      "volume": 1021441,
+      "dollars": 15107112,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
-      "price": 12.2,
-      "volume": 6740000,
+      "price": 10.5,
+      "volume": 7530000,
       "dollars": 80000000,
       "rank": "3"
     },
     {
-      "price": 10.5,
-      "volume": 7480000,
+      "price": 15.8,
+      "volume": 4830000,
       "dollars": 80000000,
       "rank": "4"
-    },
-    {
-      "price": 15.8,
-      "volume": 4780000,
-      "dollars": 80000000,
-      "rank": "5"
     },
     {
       "price": 16.4,
       "volume": 4380000,
       "dollars": 70000000,
-      "rank": "6"
+      "rank": "5"
     },
     {
       "price": 16.6,
       "volume": 4139999,
       "dollars": 70000000,
+      "rank": "6"
+    },
+    {
+      "price": 10.0,
+      "volume": 6430000,
+      "dollars": 60000000,
       "rank": "7"
     }
   ],
