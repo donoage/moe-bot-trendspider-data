@@ -1,24 +1,12 @@
 {
   "metadata": {
     "ticker": "RIOT",
-    "generated_at": "2025-07-29T01:22:45.238913+00:00Z",
-    "date_range": "2025-04-29 to 2025-07-28",
+    "generated_at": "2025-07-30T01:18:20.304424+00:00Z",
+    "date_range": "2025-04-30 to 2025-07-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1745899200,
-      "price": 7.3,
-      "volume": 6052318,
-      "dollars": 44181921,
-      "rank": 8,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1750996800,
       "price": 10.55,
@@ -64,16 +52,5 @@
       "rank": "6"
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 7.3,
-      "low_price": 7.3,
-      "volume": 6052318,
-      "dollars": 44181921,
-      "trades": 1,
-      "date_range": "2025-04-29",
-      "color": "blue"
-    }
-  ]
+  "boxes": []
 }

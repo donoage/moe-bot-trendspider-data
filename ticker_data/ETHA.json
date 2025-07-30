@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "ETHA",
-    "generated_at": "2025-07-29T01:27:38.903653+00:00Z",
-    "date_range": "2025-04-29 to 2025-07-28",
+    "generated_at": "2025-07-30T01:23:20.450341+00:00Z",
+    "date_range": "2025-04-30 to 2025-07-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -44,11 +44,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1753761600,
+      "price": 28.49,
+      "volume": 2381063,
+      "dollars": 67836484,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1753156800,
       "price": 28.32,
       "volume": 1950000,
       "dollars": 55224000,
-      "rank": 4,
+      "rank": 5,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -60,7 +72,7 @@
       "price": 28.12,
       "volume": 1600000,
       "dollars": 44984000,
-      "rank": 5,
+      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -72,7 +84,7 @@
       "price": 27.71,
       "volume": 1500000,
       "dollars": 41557500,
-      "rank": 7,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -84,18 +96,6 @@
       "price": 20.18,
       "volume": 2000000,
       "dollars": 40360000,
-      "rank": 8,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1752811200,
-      "price": 27.07,
-      "volume": 1000000,
-      "dollars": 27065000,
       "rank": 9,
       "conditions": "",
       "exchange": "",
@@ -108,7 +108,7 @@
       "price": 27.07,
       "volume": 1000000,
       "dollars": 27065000,
-      "rank": 9,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -116,11 +116,11 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1752638400,
-      "price": 25.34,
+      "timestamp": 1752811200,
+      "price": 27.07,
       "volume": 1000000,
-      "dollars": 25338500,
-      "rank": 11,
+      "dollars": 27065000,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -131,32 +131,32 @@
   "levels": [
     {
       "price": 28.3,
-      "volume": 6740000,
+      "volume": 6870000,
       "dollars": 190000000,
       "rank": "1"
     },
     {
       "price": 28.8,
-      "volume": 5060000,
+      "volume": 5130000,
       "dollars": 150000000,
       "rank": "2"
     },
     {
-      "price": 27.1,
+      "price": 28.4,
       "volume": 4019999,
       "dollars": 110000000,
       "rank": "3"
     },
     {
-      "price": 28.4,
-      "volume": 3590000,
-      "dollars": 100000000,
+      "price": 27.1,
+      "volume": 4019999,
+      "dollars": 110000000,
       "rank": "4"
     },
     {
-      "price": 28.9,
-      "volume": 2970000,
-      "dollars": 90000000,
+      "price": 28.5,
+      "volume": 3750000,
+      "dollars": 110000000,
       "rank": "5"
     }
   ],

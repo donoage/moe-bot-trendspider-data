@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "UVIX",
-    "generated_at": "2025-07-29T01:23:46.421157+00:00Z",
-    "date_range": "2025-04-29 to 2025-07-28",
+    "generated_at": "2025-07-30T01:19:21.951734+00:00Z",
+    "date_range": "2025-04-30 to 2025-07-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -44,11 +44,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1753761600,
+      "price": 17.21,
+      "volume": 256100,
+      "dollars": 4407455,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1752638400,
       "price": 21.75,
       "volume": 197166,
       "dollars": 4288360,
-      "rank": 7,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -60,7 +72,7 @@
       "price": 30.87,
       "volume": 118043,
       "dollars": 3643987,
-      "rank": 13,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -72,7 +84,7 @@
       "price": 25.37,
       "volume": 124452,
       "dollars": 3157347,
-      "rank": 19,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -88,26 +100,26 @@
       "rank": "1"
     },
     {
+      "price": 17.2,
+      "volume": 1490000,
+      "dollars": 30000000,
+      "rank": "2"
+    },
+    {
       "price": 27.6,
       "volume": 920000,
       "dollars": 30000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 28.4,
       "volume": 570000,
       "dollars": 20000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 28.0,
       "volume": 530000,
-      "dollars": 10000000,
-      "rank": "4"
-    },
-    {
-      "price": 28.5,
-      "volume": 440000,
       "dollars": 10000000,
       "rank": "5"
     }
