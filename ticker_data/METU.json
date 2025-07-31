@@ -1,24 +1,12 @@
 {
   "metadata": {
     "ticker": "METU",
-    "generated_at": "2025-07-30T01:18:58.643528+00:00Z",
-    "date_range": "2025-04-30 to 2025-07-29",
+    "generated_at": "2025-07-31T01:34:44.617737+00:00Z",
+    "date_range": "2025-05-01 to 2025-07-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1745985600,
-      "price": 25.55,
-      "volume": 63655,
-      "dollars": 1626385,
-      "rank": 6,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1746072000,
       "price": 30.16,
@@ -54,6 +42,18 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1753848000,
+      "price": 40.66,
+      "volume": 22830,
+      "dollars": 928292,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
@@ -70,12 +70,6 @@
       "rank": "2"
     },
     {
-      "price": 25.6,
-      "volume": 80000,
-      "dollars": 0,
-      "rank": "3"
-    },
-    {
       "price": 41.7,
       "volume": 50000,
       "dollars": 0,
@@ -86,6 +80,12 @@
       "volume": 40000,
       "dollars": 0,
       "rank": "5"
+    },
+    {
+      "price": 33.8,
+      "volume": 50000,
+      "dollars": 0,
+      "rank": "6"
     }
   ],
   "boxes": []

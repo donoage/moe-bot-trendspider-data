@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "ATI",
-    "generated_at": "2025-07-30T01:21:08.519214+00:00Z",
-    "date_range": "2025-04-30 to 2025-07-29",
+    "generated_at": "2025-07-31T01:39:27.619965+00:00Z",
+    "date_range": "2025-05-01 to 2025-07-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -30,21 +30,21 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1753848000,
+      "price": 94.24,
+      "volume": 724574,
+      "dollars": 68283853,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
-    {
-      "price": 52.0,
-      "volume": 25020000,
-      "dollars": 1300000000,
-      "rank": "1"
-    },
-    {
-      "price": 55.5,
-      "volume": 15000000,
-      "dollars": 830000000,
-      "rank": "2"
-    },
     {
       "price": 82.5,
       "volume": 4350000,
@@ -52,16 +52,28 @@
       "rank": "4"
     },
     {
-      "price": 54.5,
-      "volume": 5770000,
-      "dollars": 310000000,
-      "rank": "5"
-    },
-    {
       "price": 59.4,
       "volume": 4990000,
       "dollars": 300000000,
       "rank": "6"
+    },
+    {
+      "price": 59.9,
+      "volume": 2870000,
+      "dollars": 170000000,
+      "rank": "13"
+    },
+    {
+      "price": 61.0,
+      "volume": 2470000,
+      "dollars": 150000000,
+      "rank": "18"
+    },
+    {
+      "price": 62.8,
+      "volume": 2310000,
+      "dollars": 140000000,
+      "rank": "23"
     }
   ],
   "boxes": []

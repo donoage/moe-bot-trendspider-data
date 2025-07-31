@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "AJG",
-    "generated_at": "2025-07-30T01:21:39.808162+00:00Z",
-    "date_range": "2025-04-30 to 2025-07-29",
+    "generated_at": "2025-07-31T01:40:10.561729+00:00Z",
+    "date_range": "2025-05-01 to 2025-07-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -54,21 +54,15 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
-    },
-    {
-      "timestamp": 1745985600,
-      "price": 320.69,
-      "volume": 675339,
-      "dollars": 216574463,
-      "rank": 15,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
     }
   ],
   "levels": [
+    {
+      "price": 286.5,
+      "volume": 5840000,
+      "dollars": 1670000000,
+      "rank": "1"
+    },
     {
       "price": 317.7,
       "volume": 3910000,
@@ -82,22 +76,16 @@
       "rank": "5"
     },
     {
+      "price": 286.0,
+      "volume": 1680000,
+      "dollars": 480000000,
+      "rank": "7"
+    },
+    {
       "price": 347.4,
       "volume": 1380000,
       "dollars": 480000000,
       "rank": "8"
-    },
-    {
-      "price": 320.2,
-      "volume": 1320000,
-      "dollars": 420000000,
-      "rank": "10"
-    },
-    {
-      "price": 306.4,
-      "volume": 1330000,
-      "dollars": 410000000,
-      "rank": "12"
     }
   ],
   "boxes": [

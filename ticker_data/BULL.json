@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "BULL",
-    "generated_at": "2025-07-30T01:20:42.071330+00:00Z",
-    "date_range": "2025-04-30 to 2025-07-29",
+    "generated_at": "2025-07-31T01:38:46.373290+00:00Z",
+    "date_range": "2025-05-01 to 2025-07-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -92,11 +92,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1753848000,
+      "price": 14.04,
+      "volume": 216100,
+      "dollars": 3034044,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1753675200,
       "price": 15.72,
       "volume": 192453,
       "dollars": 3025361,
-      "rank": 8,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 14.62,
       "volume": 202522,
       "dollars": 2960871,
-      "rank": 9,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1753070400,
-      "price": 15.45,
-      "volume": 176100,
-      "dollars": 2720745,
       "rank": 10,
       "conditions": "",
       "exchange": "",
@@ -148,14 +148,14 @@
       "rank": "3"
     },
     {
-      "price": 12.8,
+      "price": 14.0,
       "volume": 800000,
       "dollars": 10000000,
       "rank": "4"
     },
     {
-      "price": 14.6,
-      "volume": 620000,
+      "price": 12.8,
+      "volume": 800000,
       "dollars": 10000000,
       "rank": "5"
     }

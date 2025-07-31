@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "HIMS",
-    "generated_at": "2025-07-30T01:18:19.499733+00:00Z",
-    "date_range": "2025-04-30 to 2025-07-29",
+    "generated_at": "2025-07-31T01:33:58.562743+00:00Z",
+    "date_range": "2025-05-01 to 2025-07-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -92,11 +92,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1753848000,
+      "price": 65.53,
+      "volume": 1475222,
+      "dollars": 96671297,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1747195200,
       "price": 61.12,
       "volume": 1307334,
       "dollars": 79904254,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 52.03,
       "volume": 1528450,
       "dollars": 79525253,
-      "rank": 17,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1749009600,
-      "price": 53.61,
-      "volume": 1482515,
-      "dollars": 79477629,
       "rank": 18,
       "conditions": "",
       "exchange": "",
@@ -155,9 +155,9 @@
     },
     {
       "price": 64.2,
-      "volume": 4019999,
+      "volume": 4040000,
       "dollars": 260000000,
-      "rank": "7"
+      "rank": "6"
     }
   ],
   "boxes": []

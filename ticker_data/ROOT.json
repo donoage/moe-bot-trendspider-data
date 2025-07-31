@@ -1,24 +1,12 @@
 {
   "metadata": {
     "ticker": "ROOT",
-    "generated_at": "2025-07-30T01:18:24.734372+00:00Z",
-    "date_range": "2025-04-30 to 2025-07-29",
+    "generated_at": "2025-07-31T01:34:04.600621+00:00Z",
+    "date_range": "2025-05-01 to 2025-07-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1745985600,
-      "price": 135.8,
-      "volume": 223778,
-      "dollars": 30389052,
-      "rank": 6,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1750996800,
       "price": 128.25,
@@ -100,16 +88,5 @@
       "rank": "11"
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 135.8,
-      "low_price": 135.8,
-      "volume": 223778,
-      "dollars": 30389052,
-      "trades": 1,
-      "date_range": "2025-04-30",
-      "color": "blue"
-    }
-  ]
+  "boxes": []
 }

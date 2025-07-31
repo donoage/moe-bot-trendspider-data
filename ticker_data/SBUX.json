@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SBUX",
-    "generated_at": "2025-07-30T01:18:44.160473+00:00Z",
-    "date_range": "2025-04-30 to 2025-07-29",
+    "generated_at": "2025-07-31T01:34:26.604360+00:00Z",
+    "date_range": "2025-05-01 to 2025-07-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -28,6 +28,12 @@
       "rank": "1"
     },
     {
+      "price": 98.3,
+      "volume": 26060000,
+      "dollars": 2560000000,
+      "rank": "2"
+    },
+    {
       "price": 93.1,
       "volume": 24030000,
       "dollars": 2240000000,
@@ -35,7 +41,7 @@
     },
     {
       "price": 92.1,
-      "volume": 22050000,
+      "volume": 22060000,
       "dollars": 2029999999,
       "rank": "6"
     },
@@ -44,12 +50,6 @@
       "volume": 20090000,
       "dollars": 1910000000,
       "rank": "7"
-    },
-    {
-      "price": 94.9,
-      "volume": 19600000,
-      "dollars": 1860000000,
-      "rank": "8"
     }
   ],
   "boxes": [
@@ -82,16 +82,6 @@
       "trades": 1,
       "date_range": "2025-07-24",
       "color": "orange"
-    },
-    {
-      "box_number": 4,
-      "high_price": 79.38,
-      "low_price": 79.38,
-      "volume": 249200,
-      "dollars": 19781496,
-      "trades": 1,
-      "date_range": "2025-04-30",
-      "color": "red"
     }
   ]
 }
