@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "OKLO",
-    "generated_at": "2025-07-31T01:34:17.153442+00:00Z",
-    "date_range": "2025-05-01 to 2025-07-30",
+    "generated_at": "2025-07-31T21:34:27.281759+00:00Z",
+    "date_range": "2025-05-02 to 2025-07-31",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -20,11 +20,35 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1753934400,
+      "price": 76.59,
+      "volume": 2459208,
+      "dollars": 188350740,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1749787200,
       "price": 63.66,
       "volume": 2112158,
       "dollars": 134459978,
       "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1753934400,
+      "price": 76.59,
+      "volume": 2373068,
+      "dollars": 181753278,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -102,30 +126,6 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
-    },
-    {
-      "timestamp": 1750996800,
-      "price": 55.26,
-      "volume": 664022,
-      "dollars": 36693855,
-      "rank": 10,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1749614400,
-      "price": 68.03,
-      "volume": 472389,
-      "dollars": 32136623,
-      "rank": 11,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
     }
   ],
   "levels": [
@@ -136,26 +136,26 @@
       "rank": "1"
     },
     {
+      "price": 76.6,
+      "volume": 5010000,
+      "dollars": 380000000,
+      "rank": "2"
+    },
+    {
       "price": 58.0,
       "volume": 2570000,
       "dollars": 150000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 63.7,
       "volume": 2200000,
       "dollars": 140000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 52.7,
       "volume": 1480000,
-      "dollars": 80000000,
-      "rank": "4"
-    },
-    {
-      "price": 56.0,
-      "volume": 1350000,
       "dollars": 80000000,
       "rank": "5"
     }

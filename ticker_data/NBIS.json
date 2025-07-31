@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "NBIS",
-    "generated_at": "2025-07-31T01:34:13.523405+00:00Z",
-    "date_range": "2025-05-01 to 2025-07-30",
+    "generated_at": "2025-07-31T21:34:21.592375+00:00Z",
+    "date_range": "2025-05-02 to 2025-07-31",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -13,6 +13,18 @@
       "volume": 1315667,
       "dollars": 37193906,
       "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1753934400,
+      "price": 54.43,
+      "volume": 565069,
+      "dollars": 30756705,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -114,18 +126,6 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
-    },
-    {
-      "timestamp": 1748577600,
-      "price": 36.75,
-      "volume": 432048,
-      "dollars": 15877764,
-      "rank": 20,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
     }
   ],
   "levels": [
@@ -142,20 +142,20 @@
       "rank": "2"
     },
     {
-      "price": 48.8,
-      "volume": 1420000,
+      "price": 53.3,
+      "volume": 1330000,
       "dollars": 70000000,
       "rank": "3"
     },
     {
-      "price": 48.3,
-      "volume": 1400000,
+      "price": 48.8,
+      "volume": 1420000,
       "dollars": 70000000,
       "rank": "4"
     },
     {
-      "price": 46.4,
-      "volume": 1440000,
+      "price": 48.3,
+      "volume": 1400000,
       "dollars": 70000000,
       "rank": "5"
     }

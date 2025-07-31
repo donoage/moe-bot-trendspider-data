@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "MSFD",
-    "generated_at": "2025-07-31T01:41:16.741602+00:00Z",
-    "date_range": "2025-05-01 to 2025-07-30",
+    "generated_at": "2025-07-31T21:41:48.287915+00:00Z",
+    "date_range": "2025-05-02 to 2025-07-31",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1753934400,
+      "price": 10.09,
+      "volume": 72823,
+      "dollars": 734784,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1749009600,
       "price": 12.11,
       "volume": 41320,
       "dollars": 500381,
-      "rank": 12,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,10 +34,16 @@
   ],
   "levels": [
     {
+      "price": 10.1,
+      "volume": 70000,
+      "dollars": 0,
+      "rank": "7"
+    },
+    {
       "price": 12.1,
       "volume": 40000,
       "dollars": 0,
-      "rank": "10"
+      "rank": "11"
     }
   ],
   "boxes": []

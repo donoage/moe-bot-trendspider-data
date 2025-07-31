@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "WDAY",
-    "generated_at": "2025-07-31T01:39:17.033658+00:00Z",
-    "date_range": "2025-05-01 to 2025-07-30",
+    "generated_at": "2025-07-31T21:39:44.384331+00:00Z",
+    "date_range": "2025-05-02 to 2025-07-31",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -55,13 +55,23 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 233.45,
+      "low_price": 233.45,
+      "volume": 382743,
+      "dollars": 89351353,
+      "trades": 1,
+      "date_range": "2025-07-31",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 241.9,
       "low_price": 241.9,
       "volume": 287374,
       "dollars": 69516776,
       "trades": 1,
       "date_range": "2025-05-23",
-      "color": "blue"
+      "color": "green"
     }
   ]
 }

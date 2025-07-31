@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "SPYG",
-    "generated_at": "2025-07-31T17:12:55.244733+00:00Z",
+    "generated_at": "2025-07-31T21:42:31.577109+00:00Z",
     "date_range": "2025-05-02 to 2025-07-31",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1753934400,
+      "price": 99.67,
+      "volume": 3030719,
+      "dollars": 302071762,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1749441600,
+      "price": 91.62,
+      "volume": 2801547,
+      "dollars": 256674654,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 91.6,

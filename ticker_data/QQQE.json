@@ -1,32 +1,13 @@
 {
   "metadata": {
     "ticker": "QQQE",
-    "generated_at": "2025-07-31T01:42:08.780156+00:00Z",
-    "date_range": "2025-05-01 to 2025-07-30",
+    "generated_at": "2025-07-31T21:42:19.532833+00:00Z",
+    "date_range": "2025-05-02 to 2025-07-31",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1746072000,
-      "price": 88.41,
-      "volume": 587881,
-      "dollars": 51974559,
-      "rank": 10,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
-    {
-      "price": 87.9,
-      "volume": 850000,
-      "dollars": 70000000,
-      "rank": "6"
-    },
     {
       "price": 90.2,
       "volume": 660000,
@@ -50,6 +31,12 @@
       "volume": 580000,
       "dollars": 50000000,
       "rank": "17"
+    },
+    {
+      "price": 91.5,
+      "volume": 550000,
+      "dollars": 50000000,
+      "rank": "18"
     }
   ],
   "boxes": []

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "ONC",
-    "generated_at": "2025-07-31T01:38:17.465018+00:00Z",
-    "date_range": "2025-05-01 to 2025-07-30",
+    "generated_at": "2025-07-31T21:38:48.980198+00:00Z",
+    "date_range": "2025-05-02 to 2025-07-31",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -37,6 +37,18 @@
       "volume": 94200,
       "dollars": 22772850,
       "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1753934400,
+      "price": 301.05,
+      "volume": 69367,
+      "dollars": 20882914,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -118,20 +130,20 @@
       "rank": "2"
     },
     {
-      "price": 233.4,
-      "volume": 190000,
-      "dollars": 40000000,
-      "rank": "4"
+      "price": 301.1,
+      "volume": 160000,
+      "dollars": 50000000,
+      "rank": "3"
     },
     {
-      "price": 231.0,
-      "volume": 170000,
+      "price": 233.4,
+      "volume": 190000,
       "dollars": 40000000,
       "rank": "5"
     },
     {
-      "price": 222.2,
-      "volume": 160000,
+      "price": 231.0,
+      "volume": 170000,
       "dollars": 40000000,
       "rank": "6"
     }
