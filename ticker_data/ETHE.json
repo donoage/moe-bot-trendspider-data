@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "ETHE",
-    "generated_at": "2025-08-01T02:38:04.306354+00:00Z",
-    "date_range": "2025-05-02 to 2025-07-31",
+    "generated_at": "2025-08-02T02:07:58.240816+00:00Z",
+    "date_range": "2025-05-03 to 2025-08-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1754020800,
+      "price": 29.13,
+      "volume": 1020000,
+      "dollars": 29712600,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1753070400,
       "price": 31.04,
       "volume": 840000,
       "dollars": 26073600,
-      "rank": 19,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,

@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "HIBS",
-    "generated_at": "2025-08-01T02:44:06.883597+00:00Z",
-    "date_range": "2025-05-02 to 2025-07-31",
+    "generated_at": "2025-08-02T02:12:07.074022+00:00Z",
+    "date_range": "2025-05-03 to 2025-08-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1754020800,
+      "price": 8.67,
+      "volume": 304813,
+      "dollars": 2642728,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 17.3,
@@ -21,22 +34,22 @@
       "rank": "7"
     },
     {
-      "price": 17.8,
-      "volume": 70000,
+      "price": 8.7,
+      "volume": 300000,
       "dollars": 0,
-      "rank": "66"
+      "rank": "17"
     },
     {
       "price": 12.6,
       "volume": 90000,
       "dollars": 0,
-      "rank": "79"
+      "rank": "80"
     },
     {
       "price": 15.6,
       "volume": 60000,
       "dollars": 0,
-      "rank": "95"
+      "rank": "96"
     }
   ],
   "boxes": []

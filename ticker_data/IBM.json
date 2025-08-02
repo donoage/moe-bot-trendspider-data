@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "IBM",
-    "generated_at": "2025-08-01T02:40:53.575509+00:00Z",
-    "date_range": "2025-05-02 to 2025-07-31",
+    "generated_at": "2025-08-02T02:09:07.000684+00:00Z",
+    "date_range": "2025-05-03 to 2025-08-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -67,23 +67,33 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 248.6,
+      "low_price": 246.0,
+      "volume": 248357,
+      "dollars": 61483201,
+      "trades": 2,
+      "date_range": "2025-08-01",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 293.9,
       "low_price": 293.9,
       "volume": 69600,
       "dollars": 20455440,
       "trades": 1,
       "date_range": "2025-07-07",
-      "color": "blue"
+      "color": "green"
     },
     {
-      "box_number": 2,
+      "box_number": 3,
       "high_price": 282.26,
       "low_price": 282.26,
       "volume": 68129,
       "dollars": 19230091,
       "trades": 1,
       "date_range": "2025-07-22",
-      "color": "green"
+      "color": "orange"
     }
   ]
 }

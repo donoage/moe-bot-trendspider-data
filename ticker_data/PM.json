@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "PM",
-    "generated_at": "2025-08-01T02:40:51.873870+00:00Z",
-    "date_range": "2025-05-02 to 2025-07-31",
+    "generated_at": "2025-08-02T02:09:05.596180+00:00Z",
+    "date_range": "2025-05-03 to 2025-08-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -79,22 +79,22 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 167.05,
+      "low_price": 164.75,
+      "volume": 568845,
+      "dollars": 94383345,
+      "trades": 3,
+      "date_range": "2025-07-31 to 2025-08-01",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 179.8,
       "low_price": 176.8,
       "volume": 383400,
       "dollars": 68533692,
       "trades": 2,
       "date_range": "2025-05-27 to 2025-05-29",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 164.75,
-      "low_price": 164.75,
-      "volume": 249800,
-      "dollars": 41154550,
-      "trades": 1,
-      "date_range": "2025-07-31",
       "color": "green"
     },
     {
