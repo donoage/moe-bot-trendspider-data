@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SMR",
-    "generated_at": "2025-08-02T17:22:54.903255+00:00Z",
-    "date_range": "2025-05-03 to 2025-08-01",
+    "generated_at": "2025-08-05T01:31:36.537917+00:00Z",
+    "date_range": "2025-05-06 to 2025-08-04",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -80,11 +80,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1754280000,
+      "price": 43.38,
+      "volume": 834418,
+      "dollars": 36197052,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1753934400,
       "price": 50.21,
       "volume": 624970,
       "dollars": 31379743,
-      "rank": 11,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,7 +108,7 @@
       "price": 51.67,
       "volume": 605156,
       "dollars": 31268410,
-      "rank": 12,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,19 +120,7 @@
       "price": 44.43,
       "volume": 701502,
       "dollars": 31167733,
-      "rank": 13,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1752724800,
-      "price": 46.83,
-      "volume": 642324,
-      "dollars": 30080032,
-      "rank": 18,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -136,27 +136,27 @@
       "rank": "1"
     },
     {
-      "price": 44.4,
-      "volume": 4040000,
-      "dollars": 180000000,
-      "rank": "2"
-    },
-    {
       "price": 50.2,
       "volume": 2250000,
       "dollars": 110000000,
-      "rank": "3"
+      "rank": "2"
     },
     {
       "price": 37.2,
       "volume": 2650000,
       "dollars": 100000000,
-      "rank": "4"
+      "rank": "3"
     },
     {
       "price": 42.1,
       "volume": 2049999,
       "dollars": 90000000,
+      "rank": "4"
+    },
+    {
+      "price": 51.0,
+      "volume": 1490000,
+      "dollars": 80000000,
       "rank": "5"
     }
   ],

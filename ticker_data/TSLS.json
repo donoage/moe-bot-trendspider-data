@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "TSLS",
-    "generated_at": "2025-08-02T17:23:25.001835+00:00Z",
-    "date_range": "2025-05-03 to 2025-08-01",
+    "generated_at": "2025-08-05T01:33:56.102889+00:00Z",
+    "date_range": "2025-05-06 to 2025-08-04",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -25,6 +25,18 @@
       "volume": 459337,
       "dollars": 3693069,
       "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1754280000,
+      "price": 7.88,
+      "volume": 300000,
+      "dollars": 2363910,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -58,10 +70,10 @@
       "rank": "17"
     },
     {
-      "price": 7.5,
+      "price": 7.9,
       "volume": 620000,
       "dollars": 0,
-      "rank": "21"
+      "rank": "20"
     }
   ],
   "boxes": []

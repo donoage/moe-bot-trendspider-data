@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "QLD",
-    "generated_at": "2025-08-02T17:23:20.700039+00:00Z",
-    "date_range": "2025-05-03 to 2025-08-01",
+    "generated_at": "2025-08-05T01:33:00.611338+00:00Z",
+    "date_range": "2025-05-06 to 2025-08-04",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -55,22 +55,22 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 121.4,
+      "low_price": 118.42,
+      "volume": 566365,
+      "dollars": 67718318,
+      "trades": 2,
+      "date_range": "2025-08-01 to 2025-08-04",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 117.9,
       "low_price": 117.09,
       "volume": 522023,
       "dollars": 61311749,
       "trades": 3,
       "date_range": "2025-06-30 to 2025-07-07",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 118.42,
-      "low_price": 118.42,
-      "volume": 348454,
-      "dollars": 41263922,
-      "trades": 1,
-      "date_range": "2025-08-01",
       "color": "green"
     },
     {

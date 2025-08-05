@@ -1,25 +1,12 @@
 {
   "metadata": {
     "ticker": "FDNI",
-    "generated_at": "2025-08-02T17:27:10.889532+00:00Z",
-    "date_range": "2025-05-03 to 2025-08-01",
+    "generated_at": "2025-08-05T01:39:20.604604+00:00Z",
+    "date_range": "2025-05-06 to 2025-08-04",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1746417600,
-      "price": 31.34,
-      "volume": 2598170,
-      "dollars": 81426647,
-      "rank": 1,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 31.3,
@@ -52,16 +39,5 @@
       "rank": "10"
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 31.34,
-      "low_price": 31.34,
-      "volume": 2598170,
-      "dollars": 81426647,
-      "trades": 1,
-      "date_range": "2025-05-05",
-      "color": "blue"
-    }
-  ]
+  "boxes": []
 }

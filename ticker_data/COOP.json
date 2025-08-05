@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "COOP",
-    "generated_at": "2025-08-02T17:25:53.222957+00:00Z",
-    "date_range": "2025-05-03 to 2025-08-01",
+    "generated_at": "2025-08-05T01:37:44.327789+00:00Z",
+    "date_range": "2025-05-06 to 2025-08-04",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -54,6 +54,18 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1754280000,
+      "price": 179.14,
+      "volume": 265835,
+      "dollars": 47621681,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
@@ -70,22 +82,22 @@
       "rank": "4"
     },
     {
+      "price": 179.1,
+      "volume": 480000,
+      "dollars": 90000000,
+      "rank": "12"
+    },
+    {
       "price": 119.6,
       "volume": 700000,
       "dollars": 80000000,
-      "rank": "12"
+      "rank": "13"
     },
     {
       "price": 146.5,
       "volume": 500000,
       "dollars": 70000000,
-      "rank": "20"
-    },
-    {
-      "price": 133.1,
-      "volume": 460000,
-      "dollars": 60000000,
-      "rank": "27"
+      "rank": "21"
     }
   ],
   "boxes": []

@@ -1,18 +1,54 @@
 {
   "metadata": {
     "ticker": "INTW",
-    "generated_at": "2025-08-02T17:26:40.629596+00:00Z",
-    "date_range": "2025-05-03 to 2025-08-01",
+    "generated_at": "2025-08-05T01:38:40.794060+00:00Z",
+    "date_range": "2025-05-06 to 2025-08-04",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1754280000,
+      "price": 14.55,
+      "volume": 82199,
+      "dollars": 1195995,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1754280000,
+      "price": 14.52,
+      "volume": 78199,
+      "dollars": 1135449,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1754280000,
+      "price": 14.51,
+      "volume": 60600,
+      "dollars": 879306,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1747281600,
       "price": 18.6,
       "volume": 31754,
       "dollars": 590624,
-      "rank": 5,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,16 +58,28 @@
   ],
   "levels": [
     {
+      "price": 14.5,
+      "volume": 140000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
+      "price": 14.6,
+      "volume": 80000,
+      "dollars": 0,
+      "rank": "3"
+    },
+    {
       "price": 17.1,
       "volume": 40000,
       "dollars": 0,
-      "rank": "3"
+      "rank": "5"
     },
     {
       "price": 18.6,
       "volume": 30000,
       "dollars": 0,
-      "rank": "5"
+      "rank": "7"
     }
   ],
   "boxes": []
