@@ -1,17 +1,41 @@
 {
   "metadata": {
     "ticker": "NVD",
-    "generated_at": "2025-08-05T01:32:57.159289+00:00Z",
-    "date_range": "2025-05-06 to 2025-08-04",
+    "generated_at": "2025-08-06T01:21:04.156956+00:00Z",
+    "date_range": "2025-05-07 to 2025-08-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1748404800,
-      "price": 17.55,
-      "volume": 154847,
-      "dollars": 2717564,
+      "timestamp": 1754366400,
+      "price": 9.82,
+      "volume": 380000,
+      "dollars": 3729700,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1754366400,
+      "price": 9.79,
+      "volume": 380000,
+      "dollars": 3718300,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1754366400,
+      "price": 9.86,
+      "volume": 340000,
+      "dollars": 3352468,
       "rank": 8,
       "conditions": "",
       "exchange": "",
@@ -20,10 +44,22 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1747972800,
-      "price": 18.69,
-      "volume": 135700,
-      "dollars": 2535554,
+      "timestamp": 1754366400,
+      "price": 9.82,
+      "volume": 335287,
+      "dollars": 3292551,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1754366400,
+      "price": 9.91,
+      "volume": 330000,
+      "dollars": 3268650,
       "rank": 10,
       "conditions": "",
       "exchange": "",
@@ -32,11 +68,59 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1752552000,
-      "price": 10.75,
-      "volume": 214085,
-      "dollars": 2301413,
-      "rank": 11,
+      "timestamp": 1754366400,
+      "price": 9.77,
+      "volume": 308880,
+      "dollars": 3017695,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1754366400,
+      "price": 9.9,
+      "volume": 300000,
+      "dollars": 2968500,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1754366400,
+      "price": 9.85,
+      "volume": 300000,
+      "dollars": 2954910,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1754366400,
+      "price": 9.77,
+      "volume": 300000,
+      "dollars": 2931090,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1748404800,
+      "price": 17.55,
+      "volume": 154847,
+      "dollars": 2717564,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,34 +130,34 @@
   ],
   "levels": [
     {
-      "price": 9.9,
-      "volume": 1280000,
-      "dollars": 10000000,
+      "price": 9.8,
+      "volume": 3880000,
+      "dollars": 40000000,
       "rank": "1"
+    },
+    {
+      "price": 9.9,
+      "volume": 3460000,
+      "dollars": 30000000,
+      "rank": "2"
     },
     {
       "price": 10.4,
       "volume": 1040000,
       "dollars": 10000000,
-      "rank": "3"
+      "rank": "4"
+    },
+    {
+      "price": 9.7,
+      "volume": 1050000,
+      "dollars": 10000000,
+      "rank": "6"
     },
     {
       "price": 18.7,
       "volume": 530000,
       "dollars": 10000000,
-      "rank": "6"
-    },
-    {
-      "price": 10.6,
-      "volume": 880000,
-      "dollars": 10000000,
-      "rank": "7"
-    },
-    {
-      "price": 25.8,
-      "volume": 340000,
-      "dollars": 10000000,
-      "rank": "9"
+      "rank": "8"
     }
   ],
   "boxes": []

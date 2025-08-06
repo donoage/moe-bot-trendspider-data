@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "IYW",
-    "generated_at": "2025-08-05T01:39:11.056537+00:00Z",
-    "date_range": "2025-05-06 to 2025-08-04",
+    "generated_at": "2025-08-06T01:26:43.129087+00:00Z",
+    "date_range": "2025-05-07 to 2025-08-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -67,22 +67,22 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 180.98,
+      "low_price": 179.97,
+      "volume": 328223,
+      "dollars": 59255736,
+      "trades": 2,
+      "date_range": "2025-08-04 to 2025-08-05",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 173.43,
       "low_price": 173.43,
       "volume": 331732,
       "dollars": 57532280,
       "trades": 1,
       "date_range": "2025-06-30",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 180.98,
-      "low_price": 180.98,
-      "volume": 183607,
-      "dollars": 33229194,
-      "trades": 1,
-      "date_range": "2025-08-04",
       "color": "green"
     }
   ]

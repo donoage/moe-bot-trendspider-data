@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "ARKW",
-    "generated_at": "2025-08-05T01:38:27.731594+00:00Z",
-    "date_range": "2025-05-06 to 2025-08-04",
+    "generated_at": "2025-08-06T01:25:59.818585+00:00Z",
+    "date_range": "2025-05-07 to 2025-08-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1754366400,
+      "price": 153.15,
+      "volume": 194957,
+      "dollars": 29857664,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1754366400,
+      "price": 153.07,
+      "volume": 194957,
+      "dollars": 29842906,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 120.5,
@@ -27,16 +52,16 @@
       "rank": "6"
     },
     {
-      "price": 150.6,
-      "volume": 270000,
+      "price": 153.2,
+      "volume": 260000,
       "dollars": 40000000,
       "rank": "7"
     },
     {
-      "price": 151.0,
-      "volume": 240000,
+      "price": 150.6,
+      "volume": 270000,
       "dollars": 40000000,
-      "rank": "11"
+      "rank": "8"
     }
   ],
   "boxes": []
