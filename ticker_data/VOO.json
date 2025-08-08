@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "VOO",
-    "generated_at": "2025-08-07T01:10:59.468624+00:00Z",
-    "date_range": "2025-05-08 to 2025-08-06",
+    "generated_at": "2025-08-08T04:30:54.950863+00:00Z",
+    "date_range": "2025-05-10 to 2025-08-08",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -118,18 +118,6 @@
   ],
   "levels": [
     {
-      "price": 525.5,
-      "volume": 30790000,
-      "dollars": 16180000000,
-      "rank": "1"
-    },
-    {
-      "price": 525.2,
-      "volume": 26270000,
-      "dollars": 13790000000,
-      "rank": "2"
-    },
-    {
       "price": 557.8,
       "volume": 16680000,
       "dollars": 9300000000,
@@ -146,6 +134,18 @@
       "volume": 15850000,
       "dollars": 8550000000,
       "rank": "6"
+    },
+    {
+      "price": 529.8,
+      "volume": 15950000,
+      "dollars": 8449999999,
+      "rank": "7"
+    },
+    {
+      "price": 559.5,
+      "volume": 12400000,
+      "dollars": 6940000000,
+      "rank": "9"
     }
   ],
   "boxes": [
@@ -161,23 +161,33 @@
     },
     {
       "box_number": 2,
-      "high_price": 552.27,
-      "low_price": 547.23,
-      "volume": 1464838,
-      "dollars": 805982968,
-      "trades": 3,
-      "date_range": "2025-06-18 to 2025-06-23",
-      "color": "green"
-    },
-    {
-      "box_number": 3,
       "high_price": 583.85,
       "low_price": 581.89,
       "volume": 1097465,
       "dollars": 639545424,
       "trades": 2,
       "date_range": "2025-07-29 to 2025-07-31",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 551.3,
+      "low_price": 547.23,
+      "volume": 985938,
+      "dollars": 541500865,
+      "trades": 2,
+      "date_range": "2025-06-18 to 2025-06-20",
       "color": "orange"
+    },
+    {
+      "box_number": 4,
+      "high_price": 578.96,
+      "low_price": 578.96,
+      "volume": 608718,
+      "dollars": 352423373,
+      "trades": 1,
+      "date_range": "2025-08-07",
+      "color": "red"
     }
   ]
 }
