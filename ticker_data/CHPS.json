@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "CHPS",
-    "generated_at": "2025-08-08T16:26:38.781007+00:00Z",
+    "generated_at": "2025-08-09T02:29:42.116349+00:00Z",
     "date_range": "2025-05-10 to 2025-08-08",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1754625600,
+      "price": 34.51,
+      "volume": 14794,
+      "dollars": 510540,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 34.5,
