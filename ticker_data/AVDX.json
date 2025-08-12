@@ -1,24 +1,12 @@
 {
   "metadata": {
     "ticker": "AVDX",
-    "generated_at": "2025-08-09T02:26:19.583426+00:00Z",
-    "date_range": "2025-05-10 to 2025-08-08",
+    "generated_at": "2025-08-12T15:04:36.850077+00:00Z",
+    "date_range": "2025-05-14 to 2025-08-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1747022400,
-      "price": 9.73,
-      "volume": 4875336,
-      "dollars": 47437019,
-      "rank": 3,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1749009600,
       "price": 9.76,
@@ -78,6 +66,30 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1754884800,
+      "price": 9.87,
+      "volume": 1653852,
+      "dollars": 16315249,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1754884800,
+      "price": 9.86,
+      "volume": 1653852,
+      "dollars": 16306980,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
@@ -95,9 +107,9 @@
     },
     {
       "price": 9.9,
-      "volume": 11590000,
-      "dollars": 110000000,
-      "rank": "4"
+      "volume": 15640000,
+      "dollars": 150000000,
+      "rank": "3"
     },
     {
       "price": 10.6,
@@ -122,16 +134,6 @@
       "trades": 3,
       "date_range": "2025-06-04 to 2025-06-13",
       "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 9.73,
-      "low_price": 9.73,
-      "volume": 4875336,
-      "dollars": 47437019,
-      "trades": 1,
-      "date_range": "2025-05-12",
-      "color": "green"
     }
   ]
 }

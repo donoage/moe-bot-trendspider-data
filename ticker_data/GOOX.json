@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "GOOX",
-    "generated_at": "2025-08-11T17:31:18.456578+00:00Z",
-    "date_range": "2025-05-13 to 2025-08-11",
+    "generated_at": "2025-08-12T15:09:20.578668+00:00Z",
+    "date_range": "2025-05-14 to 2025-08-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1754884800,
+      "price": 30.8,
+      "volume": 20572,
+      "dollars": 633617,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 30.8,

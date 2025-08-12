@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "UPRO",
-    "generated_at": "2025-08-09T02:23:37.329698+00:00Z",
-    "date_range": "2025-05-10 to 2025-08-08",
+    "generated_at": "2025-08-12T15:00:15.599564+00:00Z",
+    "date_range": "2025-05-14 to 2025-08-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1754884800,
+      "price": 98.07,
+      "volume": 3100000,
+      "dollars": 304017000,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1750824000,
       "price": 86.95,
       "volume": 3026730,
       "dollars": 263174173,
-      "rank": 5,
+      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 94.61,
       "volume": 2465000,
       "dollars": 233213650,
-      "rank": 6,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,19 +48,7 @@
       "price": 92.48,
       "volume": 2160000,
       "dollars": 199756800,
-      "rank": 8,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1751860800,
-      "price": 92.48,
-      "volume": 1263799,
-      "dollars": 116876131,
-      "rank": 20,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -70,21 +70,21 @@
       "rank": "3"
     },
     {
+      "price": 98.1,
+      "volume": 4300000,
+      "dollars": 420000000,
+      "rank": "5"
+    },
+    {
       "price": 87.0,
       "volume": 4700000,
       "dollars": 410000000,
-      "rank": "5"
+      "rank": "6"
     },
     {
       "price": 94.6,
       "volume": 3660000,
       "dollars": 350000000,
-      "rank": "6"
-    },
-    {
-      "price": 92.5,
-      "volume": 3630000,
-      "dollars": 340000000,
       "rank": "7"
     }
   ],

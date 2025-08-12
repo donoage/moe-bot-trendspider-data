@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "IONZ",
-    "generated_at": "2025-08-09T02:28:48.639186+00:00Z",
-    "date_range": "2025-05-10 to 2025-08-08",
+    "generated_at": "2025-08-12T15:08:12.334387+00:00Z",
+    "date_range": "2025-05-14 to 2025-08-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1754884800,
+      "price": 14.43,
+      "volume": 51046,
+      "dollars": 736593,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1754366400,
       "price": 16.01,
       "volume": 32961,
       "dollars": 527705,
-      "rank": 1,
+      "rank": 2,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,10 +34,16 @@
   ],
   "levels": [
     {
+      "price": 14.4,
+      "volume": 50000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
       "price": 16.0,
       "volume": 30000,
       "dollars": 0,
-      "rank": "1"
+      "rank": "2"
     }
   ],
   "boxes": []

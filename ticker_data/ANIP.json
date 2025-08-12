@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "ANIP",
-    "generated_at": "2025-08-10T17:06:50.904988+00:00Z",
-    "date_range": "2025-05-10 to 2025-08-08",
+    "generated_at": "2025-08-12T15:09:12.093605+00:00Z",
+    "date_range": "2025-05-14 to 2025-08-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1754884800,
+      "price": 84.88,
+      "volume": 160121,
+      "dollars": 13591070,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 59.7,
+      "volume": 1510000,
+      "dollars": 90000000,
+      "rank": "1"
+    },
+    {
+      "price": 58.5,
+      "volume": 1240000,
+      "dollars": 70000000,
+      "rank": "2"
+    },
+    {
+      "price": 63.0,
+      "volume": 1050000,
+      "dollars": 70000000,
+      "rank": "4"
+    },
+    {
+      "price": 66.0,
+      "volume": 790000,
+      "dollars": 50000000,
+      "rank": "6"
+    },
+    {
+      "price": 57.3,
+      "volume": 820000,
+      "dollars": 50000000,
+      "rank": "7"
+    }
+  ],
   "boxes": []
 }
