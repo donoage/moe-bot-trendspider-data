@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "TLT",
-    "generated_at": "2025-08-12T15:02:30.527721+00:00Z",
+    "generated_at": "2025-08-13T01:45:42.648659+00:00Z",
     "date_range": "2025-05-14 to 2025-08-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -46,10 +46,10 @@
       "rank": "22"
     },
     {
-      "price": 88.4,
-      "volume": 55580000,
-      "dollars": 4910000000,
-      "rank": "25"
+      "price": 86.9,
+      "volume": 57950000,
+      "dollars": 5040000000,
+      "rank": "23"
     }
   ],
   "boxes": [
@@ -65,42 +65,42 @@
     },
     {
       "box_number": 2,
+      "high_price": 86.86,
+      "low_price": 86.86,
+      "volume": 995837,
+      "dollars": 86498401,
+      "trades": 1,
+      "date_range": "2025-08-12",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 87.15,
       "low_price": 86.89,
       "volume": 738839,
       "dollars": 64300749,
       "trades": 2,
       "date_range": "2025-06-18 to 2025-06-24",
-      "color": "green"
+      "color": "orange"
     },
     {
-      "box_number": 3,
+      "box_number": 4,
       "high_price": 86.86,
       "low_price": 86.86,
       "volume": 270000,
       "dollars": 23452200,
       "trades": 1,
       "date_range": "2025-07-30",
-      "color": "orange"
+      "color": "red"
     },
     {
-      "box_number": 4,
+      "box_number": 5,
       "high_price": 85.34,
       "low_price": 85.34,
       "volume": 270000,
       "dollars": 23041800,
       "trades": 1,
       "date_range": "2025-07-18",
-      "color": "red"
-    },
-    {
-      "box_number": 5,
-      "high_price": 86.77,
-      "low_price": 86.77,
-      "volume": 225709,
-      "dollars": 19584769,
-      "trades": 1,
-      "date_range": "2025-05-16",
       "color": "purple"
     }
   ]

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "AVGO",
-    "generated_at": "2025-08-12T15:01:13.471807+00:00Z",
+    "generated_at": "2025-08-13T01:44:55.389018+00:00Z",
     "date_range": "2025-05-14 to 2025-08-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -65,23 +65,33 @@
     },
     {
       "box_number": 2,
+      "high_price": 308.46,
+      "low_price": 308.46,
+      "volume": 94900,
+      "dollars": 29272854,
+      "trades": 1,
+      "date_range": "2025-08-12",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 232.55,
       "low_price": 232.55,
       "volume": 100976,
       "dollars": 23481968,
       "trades": 1,
       "date_range": "2025-05-15",
-      "color": "green"
+      "color": "orange"
     },
     {
-      "box_number": 3,
+      "box_number": 4,
       "high_price": 259.75,
       "low_price": 259.75,
       "volume": 84227,
       "dollars": 21877963,
       "trades": 1,
       "date_range": "2025-06-04",
-      "color": "orange"
+      "color": "red"
     }
   ]
 }

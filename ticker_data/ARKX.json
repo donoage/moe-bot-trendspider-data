@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "ARKX",
-    "generated_at": "2025-08-12T15:07:53.497058+00:00Z",
+    "generated_at": "2025-08-13T01:49:59.729173+00:00Z",
     "date_range": "2025-05-14 to 2025-08-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1754971200,
+      "price": 26.92,
+      "volume": 400000,
+      "dollars": 10768000,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 21.0,
@@ -33,8 +46,8 @@
       "rank": "4"
     },
     {
-      "price": 20.8,
-      "volume": 410000,
+      "price": 26.9,
+      "volume": 400000,
       "dollars": 10000000,
       "rank": "5"
     }
