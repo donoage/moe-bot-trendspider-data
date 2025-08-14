@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "ITW",
-    "generated_at": "2025-08-13T03:09:37.265434+00:00Z",
-    "date_range": "2025-05-14 to 2025-08-12",
+    "generated_at": "2025-08-14T05:28:17.911186+00:00Z",
+    "date_range": "2025-05-16 to 2025-08-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -21,6 +21,12 @@
     }
   ],
   "levels": [
+    {
+      "price": 266.9,
+      "volume": 9020000,
+      "dollars": 2410000000,
+      "rank": "1"
+    },
     {
       "price": 255.6,
       "volume": 2670000,
@@ -44,12 +50,6 @@
       "volume": 1720000,
       "dollars": 430000000,
       "rank": "20"
-    },
-    {
-      "price": 242.6,
-      "volume": 1670000,
-      "dollars": 410000000,
-      "rank": "25"
     }
   ],
   "boxes": []

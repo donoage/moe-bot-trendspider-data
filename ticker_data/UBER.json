@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "UBER",
-    "generated_at": "2025-08-13T03:06:27.766155+00:00Z",
-    "date_range": "2025-05-14 to 2025-08-12",
+    "generated_at": "2025-08-14T05:24:09.893463+00:00Z",
+    "date_range": "2025-05-16 to 2025-08-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -59,7 +59,7 @@
     },
     {
       "price": 90.6,
-      "volume": 7810000,
+      "volume": 7840000,
       "dollars": 710000000,
       "rank": "0"
     }
@@ -77,23 +77,33 @@
     },
     {
       "box_number": 2,
-      "high_price": 90.69,
-      "low_price": 90.58,
-      "volume": 1498080,
-      "dollars": 135750943,
-      "trades": 2,
-      "date_range": "2025-05-14",
-      "color": "green"
-    },
-    {
-      "box_number": 3,
       "high_price": 96.44,
       "low_price": 96.44,
       "volume": 421921,
       "dollars": 40689934,
       "trades": 1,
       "date_range": "2025-07-11",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 88.25,
+      "low_price": 88.25,
+      "volume": 247500,
+      "dollars": 21841875,
+      "trades": 1,
+      "date_range": "2025-05-22",
       "color": "orange"
+    },
+    {
+      "box_number": 4,
+      "high_price": 92.15,
+      "low_price": 92.15,
+      "volume": 198706,
+      "dollars": 18310757,
+      "trades": 1,
+      "date_range": "2025-05-19",
+      "color": "red"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "NKE",
-    "generated_at": "2025-08-13T03:09:07.069654+00:00Z",
-    "date_range": "2025-05-14 to 2025-08-12",
+    "generated_at": "2025-08-14T05:27:54.712965+00:00Z",
+    "date_range": "2025-05-16 to 2025-08-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -35,7 +35,7 @@
   "levels": [
     {
       "price": 76.9,
-      "volume": 29480000,
+      "volume": 29510000,
       "dollars": 2270000000,
       "rank": "1"
     },
@@ -67,33 +67,43 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 77.08,
+      "low_price": 77.08,
+      "volume": 433315,
+      "dollars": 33399920,
+      "trades": 1,
+      "date_range": "2025-08-13",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 75.6,
       "low_price": 75.6,
       "volume": 392207,
       "dollars": 29650849,
       "trades": 1,
       "date_range": "2025-08-06",
-      "color": "blue"
+      "color": "green"
     },
     {
-      "box_number": 2,
+      "box_number": 3,
       "high_price": 71.25,
       "low_price": 71.25,
       "volume": 300000,
       "dollars": 21375000,
       "trades": 1,
       "date_range": "2025-06-30",
-      "color": "green"
+      "color": "orange"
     },
     {
-      "box_number": 3,
+      "box_number": 4,
       "high_price": 79.35,
       "low_price": 79.35,
       "volume": 264275,
       "dollars": 20970221,
       "trades": 1,
       "date_range": "2025-07-28",
-      "color": "orange"
+      "color": "red"
     }
   ]
 }

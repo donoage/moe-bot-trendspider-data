@@ -1,12 +1,32 @@
 {
   "metadata": {
     "ticker": "MVLL",
-    "generated_at": "2025-08-13T03:12:48.732907+00:00Z",
-    "date_range": "2025-05-14 to 2025-08-12",
+    "generated_at": "2025-08-14T05:31:21.124148+00:00Z",
+    "date_range": "2025-05-16 to 2025-08-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1755057600,
+      "price": 23.25,
+      "volume": 28100,
+      "dollars": 653325,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 23.3,
+      "volume": 30000,
+      "dollars": 0,
+      "rank": "1"
+    }
+  ],
   "boxes": []
 }

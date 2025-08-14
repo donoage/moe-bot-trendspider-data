@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "FI",
-    "generated_at": "2025-08-13T03:09:44.918955+00:00Z",
-    "date_range": "2025-05-14 to 2025-08-12",
+    "generated_at": "2025-08-14T05:28:23.825547+00:00Z",
+    "date_range": "2025-05-16 to 2025-08-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -37,18 +37,6 @@
       "volume": 1532749,
       "dollars": 255447948,
       "rank": 10,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1747281600,
-      "price": 159.13,
-      "volume": 1234125,
-      "dollars": 196386311,
-      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -115,32 +103,32 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 161.5,
-      "low_price": 160.0,
-      "volume": 994224,
-      "dollars": 159805643,
-      "trades": 3,
-      "date_range": "2025-05-30 to 2025-06-03",
+      "high_price": 160.72,
+      "low_price": 160.72,
+      "volume": 498863,
+      "dollars": 80178259,
+      "trades": 1,
+      "date_range": "2025-05-30",
       "color": "blue"
     },
     {
       "box_number": 2,
+      "high_price": 161.5,
+      "low_price": 160.0,
+      "volume": 495361,
+      "dollars": 79627384,
+      "trades": 2,
+      "date_range": "2025-06-03",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 132.4,
       "low_price": 132.4,
       "volume": 231839,
       "dollars": 30695483,
       "trades": 1,
       "date_range": "2025-08-07",
-      "color": "green"
-    },
-    {
-      "box_number": 3,
-      "high_price": 160.25,
-      "low_price": 160.25,
-      "volume": 149500,
-      "dollars": 23957375,
-      "trades": 1,
-      "date_range": "2025-05-15",
       "color": "orange"
     },
     {

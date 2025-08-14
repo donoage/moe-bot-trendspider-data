@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "EW",
-    "generated_at": "2025-08-13T03:09:39.952965+00:00Z",
-    "date_range": "2025-05-14 to 2025-08-12",
+    "generated_at": "2025-08-14T05:28:20.242666+00:00Z",
+    "date_range": "2025-05-16 to 2025-08-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -55,32 +55,32 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 77.45,
-      "low_price": 76.25,
-      "volume": 1179168,
-      "dollars": 90473424,
-      "trades": 3,
-      "date_range": "2025-05-14 to 2025-05-16",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
       "high_price": 78.35,
       "low_price": 78.35,
       "volume": 808200,
       "dollars": 63322470,
       "trades": 2,
       "date_range": "2025-07-14",
-      "color": "green"
+      "color": "blue"
     },
     {
-      "box_number": 3,
+      "box_number": 2,
       "high_price": 78.15,
       "low_price": 78.15,
       "volume": 690844,
       "dollars": 53989458,
       "trades": 1,
       "date_range": "2025-05-30",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 77.45,
+      "low_price": 77.45,
+      "volume": 275000,
+      "dollars": 21298750,
+      "trades": 1,
+      "date_range": "2025-05-16",
       "color": "orange"
     }
   ]

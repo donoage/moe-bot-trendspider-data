@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "ETHA",
-    "generated_at": "2025-08-13T03:13:35.894331+00:00Z",
-    "date_range": "2025-05-14 to 2025-08-12",
+    "generated_at": "2025-08-14T05:32:33.837574+00:00Z",
+    "date_range": "2025-05-16 to 2025-08-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -44,11 +44,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1755057600,
+      "price": 35.69,
+      "volume": 2500000,
+      "dollars": 89218750,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1753675200,
       "price": 28.79,
       "volume": 2967690,
       "dollars": 85439795,
-      "rank": 4,
+      "rank": 5,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -60,7 +72,7 @@
       "price": 28.34,
       "volume": 3000000,
       "dollars": 85027500,
-      "rank": 5,
+      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -72,7 +84,7 @@
       "price": 28.38,
       "volume": 2704462,
       "dollars": 76752631,
-      "rank": 6,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -84,7 +96,7 @@
       "price": 28.49,
       "volume": 2381063,
       "dollars": 67836484,
-      "rank": 7,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,7 +108,7 @@
       "price": 33.97,
       "volume": 1700000,
       "dollars": 57740500,
-      "rank": 8,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 28.32,
       "volume": 1950000,
       "dollars": 55224000,
-      "rank": 9,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1754625600,
-      "price": 30.26,
-      "volume": 1500000,
-      "dollars": 45382500,
       "rank": 10,
       "conditions": "",
       "exchange": "",
@@ -142,21 +142,21 @@
       "rank": "2"
     },
     {
+      "price": 35.7,
+      "volume": 5420000,
+      "dollars": 190000000,
+      "rank": "3"
+    },
+    {
       "price": 27.8,
       "volume": 5420000,
       "dollars": 150000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 28.8,
       "volume": 5170000,
       "dollars": 150000000,
-      "rank": "4"
-    },
-    {
-      "price": 26.5,
-      "volume": 4890000,
-      "dollars": 130000000,
       "rank": "5"
     }
   ],
