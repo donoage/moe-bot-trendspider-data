@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "VOO",
-    "generated_at": "2025-08-14T05:29:01.988779+00:00Z",
+    "generated_at": "2025-08-15T01:33:27.489062+00:00Z",
     "date_range": "2025-05-16 to 2025-08-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -161,22 +161,22 @@
     },
     {
       "box_number": 2,
+      "high_price": 592.7,
+      "low_price": 585.07,
+      "volume": 1265525,
+      "dollars": 745362281,
+      "trades": 2,
+      "date_range": "2025-08-11 to 2025-08-14",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 583.85,
       "low_price": 581.89,
       "volume": 1097465,
       "dollars": 639545424,
       "trades": 2,
       "date_range": "2025-07-29 to 2025-07-31",
-      "color": "green"
-    },
-    {
-      "box_number": 3,
-      "high_price": 585.07,
-      "low_price": 585.07,
-      "volume": 617875,
-      "dollars": 361500126,
-      "trades": 1,
-      "date_range": "2025-08-11",
       "color": "orange"
     },
     {
@@ -188,16 +188,6 @@
       "trades": 1,
       "date_range": "2025-08-07",
       "color": "red"
-    },
-    {
-      "box_number": 5,
-      "high_price": 547.23,
-      "low_price": 547.23,
-      "volume": 502888,
-      "dollars": 275195400,
-      "trades": 1,
-      "date_range": "2025-06-20",
-      "color": "purple"
     }
   ]
 }
