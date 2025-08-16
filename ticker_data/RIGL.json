@@ -1,13 +1,19 @@
 {
   "metadata": {
     "ticker": "RIGL",
-    "generated_at": "2025-08-15T01:36:25.741766+00:00Z",
-    "date_range": "2025-05-16 to 2025-08-14",
+    "generated_at": "2025-08-16T01:42:47.775526+00:00Z",
+    "date_range": "2025-05-17 to 2025-08-15",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
   "levels": [
+    {
+      "price": 39.9,
+      "volume": 600000,
+      "dollars": 20000000,
+      "rank": "2"
+    },
     {
       "price": 24.4,
       "volume": 950000,
@@ -31,12 +37,6 @@
       "volume": 500000,
       "dollars": 20000000,
       "rank": "9"
-    },
-    {
-      "price": 25.4,
-      "volume": 660000,
-      "dollars": 20000000,
-      "rank": "11"
     }
   ],
   "boxes": []

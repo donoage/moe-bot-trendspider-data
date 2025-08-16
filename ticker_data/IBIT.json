@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "IBIT",
-    "generated_at": "2025-08-15T01:32:08.912119+00:00Z",
-    "date_range": "2025-05-16 to 2025-08-14",
+    "generated_at": "2025-08-16T01:39:00.015494+00:00Z",
+    "date_range": "2025-05-17 to 2025-08-15",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -149,8 +149,8 @@
     },
     {
       "price": 67.0,
-      "volume": 11420000,
-      "dollars": 760000000,
+      "volume": 11460000,
+      "dollars": 770000000,
       "rank": "4"
     },
     {
@@ -163,43 +163,53 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 66.63,
+      "low_price": 66.63,
+      "volume": 745520,
+      "dollars": 49673997,
+      "trades": 1,
+      "date_range": "2025-08-15",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 63.15,
       "low_price": 63.15,
       "volume": 473111,
       "dollars": 29876959,
       "trades": 1,
       "date_range": "2025-05-22",
-      "color": "blue"
+      "color": "green"
     },
     {
-      "box_number": 2,
+      "box_number": 3,
       "high_price": 62.94,
       "low_price": 62.94,
       "volume": 333138,
       "dollars": 20967705,
       "trades": 1,
       "date_range": "2025-07-10",
-      "color": "green"
+      "color": "orange"
     },
     {
-      "box_number": 3,
+      "box_number": 4,
       "high_price": 59.91,
       "low_price": 59.91,
       "volume": 327330,
       "dollars": 19610340,
       "trades": 1,
       "date_range": "2025-06-24",
-      "color": "orange"
+      "color": "red"
     },
     {
-      "box_number": 4,
+      "box_number": 5,
       "high_price": 66.81,
       "low_price": 66.81,
       "volume": 289335,
       "dollars": 19330471,
       "trades": 1,
       "date_range": "2025-07-31",
-      "color": "red"
+      "color": "purple"
     }
   ]
 }

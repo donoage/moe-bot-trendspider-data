@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "ETHA",
-    "generated_at": "2025-08-15T01:36:12.364069+00:00Z",
-    "date_range": "2025-05-16 to 2025-08-14",
+    "generated_at": "2025-08-16T01:42:37.994443+00:00Z",
+    "date_range": "2025-05-17 to 2025-08-15",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1755230400,
+      "price": 33.28,
+      "volume": 4320000,
+      "dollars": 143754048,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1754020800,
       "price": 26.51,
@@ -114,18 +126,6 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
-    },
-    {
-      "timestamp": 1753156800,
-      "price": 28.32,
-      "volume": 1950000,
-      "dollars": 55224000,
-      "rank": 10,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
     }
   ],
   "levels": [
@@ -148,14 +148,14 @@
       "rank": "3"
     },
     {
-      "price": 27.8,
-      "volume": 5420000,
-      "dollars": 150000000,
+      "price": 33.3,
+      "volume": 5240000,
+      "dollars": 170000000,
       "rank": "4"
     },
     {
-      "price": 28.8,
-      "volume": 5170000,
+      "price": 27.8,
+      "volume": 5420000,
       "dollars": 150000000,
       "rank": "5"
     }
