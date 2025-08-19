@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "ROAD",
-    "generated_at": "2025-08-16T01:38:34.926572+00:00Z",
-    "date_range": "2025-05-17 to 2025-08-15",
+    "generated_at": "2025-08-19T01:51:13.756137+00:00Z",
+    "date_range": "2025-05-20 to 2025-08-18",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -80,11 +80,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1755489600,
+      "price": 108.53,
+      "volume": 215009,
+      "dollars": 23334926,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1754625600,
       "price": 112.22,
       "volume": 191599,
       "dollars": 21501239,
-      "rank": 17,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,7 +108,7 @@
       "price": 106.28,
       "volume": 194785,
       "dollars": 20701749,
-      "rank": 18,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 104.22,
       "volume": 186893,
       "dollars": 19477988,
-      "rank": 19,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1754884800,
-      "price": 113.56,
-      "volume": 162285,
-      "dollars": 18429084,
       "rank": 20,
       "conditions": "",
       "exchange": "",
@@ -148,16 +148,16 @@
       "rank": "6"
     },
     {
-      "price": 103.6,
-      "volume": 320000,
-      "dollars": 30000000,
+      "price": 108.5,
+      "volume": 330000,
+      "dollars": 40000000,
       "rank": "10"
     },
     {
-      "price": 104.7,
-      "volume": 290000,
+      "price": 103.6,
+      "volume": 320000,
       "dollars": 30000000,
-      "rank": "14"
+      "rank": "11"
     }
   ],
   "boxes": []

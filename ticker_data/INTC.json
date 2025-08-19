@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "INTC",
-    "generated_at": "2025-08-16T01:39:09.072780+00:00Z",
-    "date_range": "2025-05-17 to 2025-08-15",
+    "generated_at": "2025-08-19T01:51:43.441812+00:00Z",
+    "date_range": "2025-05-20 to 2025-08-18",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -42,23 +42,33 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 24.34,
+      "low_price": 24.34,
+      "volume": 5100000,
+      "dollars": 124108500,
+      "trades": 1,
+      "date_range": "2025-08-18",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 23.35,
       "low_price": 23.0,
       "volume": 4459147,
       "dollars": 103785381,
       "trades": 2,
       "date_range": "2025-07-23 to 2025-07-24",
-      "color": "blue"
+      "color": "green"
     },
     {
-      "box_number": 2,
+      "box_number": 3,
       "high_price": 21.94,
       "low_price": 21.94,
       "volume": 2804306,
       "dollars": 61526473,
       "trades": 1,
       "date_range": "2025-07-07",
-      "color": "green"
+      "color": "orange"
     }
   ]
 }

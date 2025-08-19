@@ -1,42 +1,55 @@
 {
   "metadata": {
     "ticker": "TWLO",
-    "generated_at": "2025-08-16T01:38:08.510068+00:00Z",
-    "date_range": "2025-05-17 to 2025-08-15",
+    "generated_at": "2025-08-19T01:50:48.987051+00:00Z",
+    "date_range": "2025-05-20 to 2025-08-18",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1755489600,
+      "price": 105.05,
+      "volume": 10477788,
+      "dollars": 1100691629,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 105.1,
+      "volume": 18180000,
+      "dollars": 1910000000,
+      "rank": "1"
+    },
     {
       "price": 107.9,
       "volume": 6530000,
       "dollars": 710000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 133.0,
       "volume": 3740000,
       "dollars": 500000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 99.1,
       "volume": 3230000,
       "dollars": 320000000,
-      "rank": "9"
+      "rank": "10"
     },
     {
       "price": 114.2,
       "volume": 2180000,
       "dollars": 250000000,
-      "rank": "17"
-    },
-    {
-      "price": 105.4,
-      "volume": 2210000,
-      "dollars": 230000000,
-      "rank": "22"
+      "rank": "18"
     }
   ],
   "boxes": []
