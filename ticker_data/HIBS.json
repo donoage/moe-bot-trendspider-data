@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "HIBS",
-    "generated_at": "2025-08-21T03:34:36.288642+00:00Z",
-    "date_range": "2025-05-22 to 2025-08-20",
+    "generated_at": "2025-08-23T01:47:09.556552+00:00Z",
+    "date_range": "2025-05-24 to 2025-08-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1755835200,
+      "price": 7.5,
+      "volume": 396134,
+      "dollars": 2971005,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1754020800,
       "price": 8.67,
       "volume": 304813,
       "dollars": 2642728,
-      "rank": 14,
+      "rank": 15,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 8.5,
       "volume": 303233,
       "dollars": 2577480,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,34 +58,34 @@
   ],
   "levels": [
     {
+      "price": 8.4,
+      "volume": 550000,
+      "dollars": 0,
+      "rank": "8"
+    },
+    {
       "price": 8.5,
       "volume": 460000,
       "dollars": 0,
-      "rank": "11"
+      "rank": "12"
     },
     {
-      "price": 8.4,
+      "price": 7.5,
       "volume": 400000,
       "dollars": 0,
-      "rank": "14"
+      "rank": "16"
     },
     {
       "price": 8.7,
       "volume": 300000,
       "dollars": 0,
-      "rank": "19"
+      "rank": "20"
     },
     {
       "price": 12.6,
       "volume": 90000,
       "dollars": 0,
-      "rank": "82"
-    },
-    {
-      "price": 7.9,
-      "volume": 90000,
-      "dollars": 0,
-      "rank": "0"
+      "rank": "83"
     }
   ],
   "boxes": []

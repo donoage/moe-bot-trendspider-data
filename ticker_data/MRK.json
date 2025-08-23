@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "MRK",
-    "generated_at": "2025-08-21T03:30:58.267013+00:00Z",
-    "date_range": "2025-05-22 to 2025-08-20",
+    "generated_at": "2025-08-23T01:43:29.187465+00:00Z",
+    "date_range": "2025-05-24 to 2025-08-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -77,13 +77,23 @@
     },
     {
       "box_number": 2,
+      "high_price": 86.82,
+      "low_price": 86.82,
+      "volume": 462478,
+      "dollars": 40152339,
+      "trades": 1,
+      "date_range": "2025-08-21",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 78.63,
       "low_price": 78.63,
       "volume": 399500,
       "dollars": 31412685,
       "trades": 1,
       "date_range": "2025-07-29",
-      "color": "green"
+      "color": "orange"
     }
   ]
 }

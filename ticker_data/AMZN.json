@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "AMZN",
-    "generated_at": "2025-08-21T03:27:22.576589+00:00Z",
-    "date_range": "2025-05-22 to 2025-08-20",
+    "generated_at": "2025-08-23T01:41:35.966568+00:00Z",
+    "date_range": "2025-05-24 to 2025-08-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -35,14 +35,14 @@
   "levels": [
     {
       "price": 223.3,
-      "volume": 75580000,
+      "volume": 75600000,
       "dollars": 16879999999,
       "rank": "1"
     },
     {
       "price": 224.9,
-      "volume": 51030000,
-      "dollars": 11480000000,
+      "volume": 51110000,
+      "dollars": 11490000000,
       "rank": "4"
     },
     {
@@ -58,42 +58,52 @@
       "rank": "34"
     },
     {
-      "price": 196.2,
-      "volume": 27040000,
-      "dollars": 5310000000,
-      "rank": "43"
+      "price": 209.7,
+      "volume": 24690000,
+      "dollars": 5180000000,
+      "rank": "47"
     }
   ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 216.72,
-      "low_price": 212.52,
-      "volume": 612216,
-      "dollars": 130880321,
-      "trades": 4,
-      "date_range": "2025-06-12 to 2025-06-20",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
       "high_price": 210.7,
       "low_price": 206.32,
       "volume": 626849,
       "dollars": 130769345,
       "trades": 4,
       "date_range": "2025-06-02 to 2025-06-05",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 213.06,
+      "low_price": 212.52,
+      "volume": 433290,
+      "dollars": 92217466,
+      "trades": 2,
+      "date_range": "2025-06-12 to 2025-06-20",
       "color": "green"
     },
     {
       "box_number": 3,
+      "high_price": 221.7,
+      "low_price": 220.6,
+      "volume": 322206,
+      "dollars": 71266743,
+      "trades": 3,
+      "date_range": "2025-08-21",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
       "high_price": 227.39,
       "low_price": 227.39,
       "volume": 199700,
       "dollars": 45409783,
       "trades": 1,
       "date_range": "2025-07-21",
-      "color": "orange"
+      "color": "red"
     }
   ]
 }
