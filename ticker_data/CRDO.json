@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "CRDO",
-    "generated_at": "2025-08-23T01:41:57.142466+00:00Z",
-    "date_range": "2025-05-24 to 2025-08-22",
+    "generated_at": "2025-08-26T20:35:10.525405+00:00Z",
+    "date_range": "2025-05-28 to 2025-08-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1756180800,
+      "price": 120.1,
+      "volume": 1367192,
+      "dollars": 164199759,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1749441600,
       "price": 71.09,
@@ -114,51 +126,8 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
-    },
-    {
-      "timestamp": 1751947200,
-      "price": 93.36,
-      "volume": 603156,
-      "dollars": 56310644,
-      "rank": 13,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
     }
   ],
-  "levels": [
-    {
-      "price": 68.5,
-      "volume": 3880000,
-      "dollars": 270000000,
-      "rank": "1"
-    },
-    {
-      "price": 93.4,
-      "volume": 2750000,
-      "dollars": 260000000,
-      "rank": "2"
-    },
-    {
-      "price": 93.5,
-      "volume": 2710000,
-      "dollars": 250000000,
-      "rank": "3"
-    },
-    {
-      "price": 70.7,
-      "volume": 1880000,
-      "dollars": 130000000,
-      "rank": "5"
-    },
-    {
-      "price": 69.0,
-      "volume": 1710000,
-      "dollars": 120000000,
-      "rank": "6"
-    }
-  ],
+  "levels": [],
   "boxes": []
 }

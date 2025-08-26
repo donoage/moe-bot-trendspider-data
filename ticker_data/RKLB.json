@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "RKLB",
-    "generated_at": "2025-08-23T01:41:59.224297+00:00Z",
-    "date_range": "2025-05-24 to 2025-08-22",
+    "generated_at": "2025-08-26T20:35:15.036518+00:00Z",
+    "date_range": "2025-05-28 to 2025-08-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1756180800,
+      "price": 48.13,
+      "volume": 15820155,
+      "dollars": 761424060,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1750996800,
       "price": 35.38,
@@ -114,18 +126,6 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
-    },
-    {
-      "timestamp": 1751256000,
-      "price": 35.77,
-      "volume": 1963899,
-      "dollars": 70248667,
-      "rank": 16,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
     }
   ],
   "levels": [
@@ -154,10 +154,10 @@
       "rank": "8"
     },
     {
-      "price": 41.5,
-      "volume": 3850000,
-      "dollars": 160000000,
-      "rank": "9"
+      "price": 28.9,
+      "volume": 5180000,
+      "dollars": 150000000,
+      "rank": "10"
     }
   ],
   "boxes": []

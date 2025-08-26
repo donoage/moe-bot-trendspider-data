@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "IDCC",
-    "generated_at": "2025-08-23T01:45:02.131541+00:00Z",
-    "date_range": "2025-05-24 to 2025-08-22",
+    "generated_at": "2025-08-26T20:29:18.250648+00:00Z",
+    "date_range": "2025-05-28 to 2025-08-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1756094400,
+      "price": 266.0,
+      "volume": 161800,
+      "dollars": 43038800,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 217.4,
@@ -21,22 +34,22 @@
       "rank": "50"
     },
     {
+      "price": 266.0,
+      "volume": 190000,
+      "dollars": 50000000,
+      "rank": "54"
+    },
+    {
       "price": 223.5,
       "volume": 210000,
       "dollars": 50000000,
-      "rank": "60"
+      "rank": "61"
     },
     {
       "price": 227.4,
       "volume": 190000,
       "dollars": 40000000,
-      "rank": "72"
-    },
-    {
-      "price": 213.6,
-      "volume": 170000,
-      "dollars": 40000000,
-      "rank": "0"
+      "rank": "73"
     }
   ],
   "boxes": []
