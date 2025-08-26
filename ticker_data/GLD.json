@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "GLD",
-    "generated_at": "2025-08-26T20:29:12.786232+00:00Z",
+    "generated_at": "2025-08-26T21:16:32.379738+00:00Z",
     "date_range": "2025-05-28 to 2025-08-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1756180800,
+      "price": 312.08,
+      "volume": 3200000,
+      "dollars": 998656000,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1750046400,
       "price": 313.3,
@@ -21,6 +33,12 @@
     }
   ],
   "levels": [
+    {
+      "price": 312.1,
+      "volume": 3830000,
+      "dollars": 1200000000,
+      "rank": "0"
+    },
     {
       "price": 304.7,
       "volume": 2880000,
@@ -43,12 +61,6 @@
       "price": 309.1,
       "volume": 2230000,
       "dollars": 690000000,
-      "rank": "0"
-    },
-    {
-      "price": 306.9,
-      "volume": 2180000,
-      "dollars": 670000000,
       "rank": "0"
     }
   ],

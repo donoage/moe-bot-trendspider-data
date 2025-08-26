@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "TTMI",
-    "generated_at": "2025-08-26T04:04:59.459110+00:00Z",
-    "date_range": "2025-05-27 to 2025-08-25",
+    "generated_at": "2025-08-26T21:18:05.791151+00:00Z",
+    "date_range": "2025-05-28 to 2025-08-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -25,6 +25,18 @@
       "volume": 777141,
       "dollars": 28513303,
       "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1756180800,
+      "price": 44.87,
+      "volume": 507199,
+      "dollars": 22758019,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -100,16 +112,16 @@
       "rank": "87"
     },
     {
+      "price": 44.9,
+      "volume": 890000,
+      "dollars": 40000000,
+      "rank": "88"
+    },
+    {
       "price": 47.3,
       "volume": 800000,
       "dollars": 40000000,
-      "rank": "89"
-    },
-    {
-      "price": 43.9,
-      "volume": 800000,
-      "dollars": 40000000,
-      "rank": "95"
+      "rank": "90"
     }
   ],
   "boxes": []

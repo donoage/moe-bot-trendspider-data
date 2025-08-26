@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "EXTR",
-    "generated_at": "2025-08-23T01:47:48.564190+00:00Z",
-    "date_range": "2025-05-24 to 2025-08-22",
+    "generated_at": "2025-08-26T21:20:01.722429+00:00Z",
+    "date_range": "2025-05-28 to 2025-08-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1756180800,
+      "price": 21.17,
+      "volume": 1228909,
+      "dollars": 26016003,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 18.0,
