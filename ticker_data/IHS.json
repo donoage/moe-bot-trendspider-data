@@ -1,24 +1,12 @@
 {
   "metadata": {
     "ticker": "IHS",
-    "generated_at": "2025-08-27T00:49:51.496048+00:00Z",
-    "date_range": "2025-05-28 to 2025-08-26",
+    "generated_at": "2025-08-28T00:31:06.738834+00:00Z",
+    "date_range": "2025-05-29 to 2025-08-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1748404800,
-      "price": 5.22,
-      "volume": 577900,
-      "dollars": 3016638,
-      "rank": 14,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1752811200,
       "price": 5.89,
@@ -33,12 +21,6 @@
     }
   ],
   "levels": [
-    {
-      "price": 5.1,
-      "volume": 1990000,
-      "dollars": 10000000,
-      "rank": "6"
-    },
     {
       "price": 5.3,
       "volume": 1670000,
@@ -62,6 +44,12 @@
       "volume": 770000,
       "dollars": 0,
       "rank": "13"
+    },
+    {
+      "price": 5.9,
+      "volume": 750000,
+      "dollars": 0,
+      "rank": "14"
     }
   ],
   "boxes": []

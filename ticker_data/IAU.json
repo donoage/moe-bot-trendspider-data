@@ -1,24 +1,12 @@
 {
   "metadata": {
     "ticker": "IAU",
-    "generated_at": "2025-08-27T00:47:36.181482+00:00Z",
-    "date_range": "2025-05-28 to 2025-08-26",
+    "generated_at": "2025-08-28T00:28:59.815745+00:00Z",
+    "date_range": "2025-05-29 to 2025-08-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1748404800,
-      "price": 62.25,
-      "volume": 5130227,
-      "dollars": 319356630,
-      "rank": 6,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1755835200,
       "price": 63.55,
@@ -59,8 +47,8 @@
     },
     {
       "price": 63.9,
-      "volume": 8000000,
-      "dollars": 510000000,
+      "volume": 8070000,
+      "dollars": 520000000,
       "rank": "0"
     },
     {
@@ -79,32 +67,32 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 63.51,
-      "low_price": 62.25,
-      "volume": 7366730,
-      "dollars": 460940860,
-      "trades": 4,
-      "date_range": "2025-05-28 to 2025-06-05",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
       "high_price": 63.58,
       "low_price": 63.55,
       "volume": 4732091,
       "dollars": 300744457,
       "trades": 2,
       "date_range": "2025-08-22",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 63.94,
+      "low_price": 62.79,
+      "volume": 2633593,
+      "dollars": 167099873,
+      "trades": 4,
+      "date_range": "2025-07-14 to 2025-07-23",
       "color": "green"
     },
     {
       "box_number": 3,
-      "high_price": 63.94,
-      "low_price": 62.79,
-      "volume": 2038958,
-      "dollars": 129108524,
+      "high_price": 63.51,
+      "low_price": 63.2,
+      "volume": 2236503,
+      "dollars": 141584229,
       "trades": 3,
-      "date_range": "2025-07-14 to 2025-07-23",
+      "date_range": "2025-06-03 to 2025-06-05",
       "color": "orange"
     },
     {

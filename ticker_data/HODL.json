@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "HODL",
-    "generated_at": "2025-08-27T00:52:15.384042+00:00Z",
-    "date_range": "2025-05-28 to 2025-08-26",
+    "generated_at": "2025-08-28T00:33:41.378452+00:00Z",
+    "date_range": "2025-05-29 to 2025-08-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1756267200,
+      "price": 31.67,
+      "volume": 451576,
+      "dollars": 14301411,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1755662400,
       "price": 32.35,
       "volume": 380000,
       "dollars": 12293000,
-      "rank": 1,
+      "rank": 2,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 30.96,
       "volume": 218800,
       "dollars": 6774048,
-      "rank": 12,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,20 +58,20 @@
       "rank": "7"
     },
     {
-      "price": 29.9,
-      "volume": 550000,
+      "price": 31.7,
+      "volume": 570000,
       "dollars": 20000000,
       "rank": "8"
     },
     {
-      "price": 33.1,
-      "volume": 450000,
-      "dollars": 10000000,
+      "price": 29.9,
+      "volume": 550000,
+      "dollars": 20000000,
       "rank": "9"
     },
     {
-      "price": 28.8,
-      "volume": 520000,
+      "price": 33.1,
+      "volume": 450000,
       "dollars": 10000000,
       "rank": "10"
     }
