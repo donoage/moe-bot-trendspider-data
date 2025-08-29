@@ -1,18 +1,18 @@
 {
   "metadata": {
     "ticker": "MIRM",
-    "generated_at": "2025-08-28T00:33:04.367600+00:00Z",
-    "date_range": "2025-05-29 to 2025-08-27",
+    "generated_at": "2025-08-29T01:29:56.782927+00:00Z",
+    "date_range": "2025-05-30 to 2025-08-28",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1750996800,
-      "price": 51.09,
-      "volume": 345336,
-      "dollars": 17643216,
-      "rank": 14,
+      "timestamp": 1756353600,
+      "price": 74.8,
+      "volume": 377827,
+      "dollars": 28261459,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1756267200,
-      "price": 74.65,
-      "volume": 188290,
-      "dollars": 14055848,
-      "rank": 20,
+      "timestamp": 1750996800,
+      "price": 51.09,
+      "volume": 345336,
+      "dollars": 17643216,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1756353600,
+      "price": 74.8,
+      "volume": 234400,
+      "dollars": 17533120,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,32 +46,32 @@
   ],
   "levels": [
     {
+      "price": 74.8,
+      "volume": 930000,
+      "dollars": 70000000,
+      "rank": "3"
+    },
+    {
       "price": 48.5,
       "volume": 1130000,
       "dollars": 60000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 51.1,
       "volume": 900000,
       "dollars": 50000000,
-      "rank": "6"
+      "rank": "7"
     },
     {
       "price": 47.0,
       "volume": 720000,
       "dollars": 30000000,
-      "rank": "15"
+      "rank": "16"
     },
     {
       "price": 50.3,
       "volume": 590000,
-      "dollars": 30000000,
-      "rank": "20"
-    },
-    {
-      "price": 44.1,
-      "volume": 660000,
       "dollars": 30000000,
       "rank": "21"
     }
