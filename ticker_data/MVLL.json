@@ -1,18 +1,42 @@
 {
   "metadata": {
     "ticker": "MVLL",
-    "generated_at": "2025-08-29T01:28:55.714459+00:00Z",
-    "date_range": "2025-05-30 to 2025-08-28",
+    "generated_at": "2025-08-30T01:08:01.330316+00:00Z",
+    "date_range": "2025-05-31 to 2025-08-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1756440000,
+      "price": 14.54,
+      "volume": 70655,
+      "dollars": 1027323,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1755057600,
       "price": 23.25,
       "volume": 28100,
       "dollars": 653325,
-      "rank": 1,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1756440000,
+      "price": 14.9,
+      "volume": 35555,
+      "dollars": 529822,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,10 +46,22 @@
   ],
   "levels": [
     {
+      "price": 14.5,
+      "volume": 70000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
       "price": 23.3,
       "volume": 30000,
       "dollars": 0,
-      "rank": "1"
+      "rank": "2"
+    },
+    {
+      "price": 14.9,
+      "volume": 40000,
+      "dollars": 0,
+      "rank": "3"
     }
   ],
   "boxes": []
