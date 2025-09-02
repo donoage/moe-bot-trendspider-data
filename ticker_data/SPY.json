@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SPY",
-    "generated_at": "2025-08-30T01:01:08.157194+00:00Z",
-    "date_range": "2025-05-31 to 2025-08-29",
+    "generated_at": "2025-09-02T00:41:16.966797+00:00Z",
+    "date_range": "2025-06-03 to 2025-09-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -27,47 +27,47 @@
       "rank": "0"
     },
     {
-      "price": 586.6,
-      "volume": 24880000,
-      "dollars": 14590000000,
-      "rank": "0"
-    },
-    {
       "price": 606.8,
       "volume": 23250000,
       "dollars": 14110000000,
+      "rank": "0"
+    },
+    {
+      "price": 597.5,
+      "volume": 21480000,
+      "dollars": 12830000000,
       "rank": "0"
     }
   ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 597.08,
-      "low_price": 588.87,
-      "volume": 559711,
-      "dollars": 332786662,
+      "high_price": 621.29,
+      "low_price": 616.61,
+      "volume": 463804,
+      "dollars": 287004543,
       "trades": 3,
-      "date_range": "2025-06-02 to 2025-06-04",
+      "date_range": "2025-06-30 to 2025-07-08",
       "color": "blue"
     },
     {
       "box_number": 2,
+      "high_price": 597.08,
+      "low_price": 593.04,
+      "volume": 455974,
+      "dollars": 271699055,
+      "trades": 2,
+      "date_range": "2025-06-03 to 2025-06-04",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 632.59,
       "low_price": 632.59,
       "volume": 393400,
       "dollars": 248860906,
       "trades": 1,
       "date_range": "2025-08-07",
-      "color": "green"
-    },
-    {
-      "box_number": 3,
-      "high_price": 618.55,
-      "low_price": 616.61,
-      "volume": 349724,
-      "dollars": 216127780,
-      "trades": 2,
-      "date_range": "2025-06-30 to 2025-07-02",
       "color": "orange"
     },
     {
@@ -92,12 +92,12 @@
     },
     {
       "box_number": 6,
-      "high_price": 621.29,
-      "low_price": 621.29,
-      "volume": 114080,
-      "dollars": 70876763,
+      "high_price": 631.09,
+      "low_price": 631.09,
+      "volume": 96750,
+      "dollars": 61057957,
       "trades": 1,
-      "date_range": "2025-07-08",
+      "date_range": "2025-07-21",
       "color": "yellow"
     }
   ]
