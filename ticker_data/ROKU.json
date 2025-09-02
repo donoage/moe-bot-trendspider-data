@@ -1,19 +1,13 @@
 {
   "metadata": {
     "ticker": "ROKU",
-    "generated_at": "2025-09-02T00:45:50.870344+00:00Z",
-    "date_range": "2025-06-03 to 2025-09-01",
+    "generated_at": "2025-09-02T16:45:10.295823+00:00Z",
+    "date_range": "2025-06-04 to 2025-09-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
   "levels": [
-    {
-      "price": 72.5,
-      "volume": 8400000,
-      "dollars": 610000000,
-      "rank": "1"
-    },
     {
       "price": 90.6,
       "volume": 5640000,
@@ -37,18 +31,13 @@
       "volume": 2310000,
       "dollars": 200000000,
       "rank": "20"
+    },
+    {
+      "price": 73.0,
+      "volume": 2500000,
+      "dollars": 180000000,
+      "rank": "29"
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 73.6,
-      "low_price": 73.6,
-      "volume": 350000,
-      "dollars": 25760000,
-      "trades": 1,
-      "date_range": "2025-06-03",
-      "color": "blue"
-    }
-  ]
+  "boxes": []
 }

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "TSLL",
-    "generated_at": "2025-09-02T00:41:21.333421+00:00Z",
-    "date_range": "2025-06-03 to 2025-09-01",
+    "generated_at": "2025-09-02T16:42:04.873957+00:00Z",
+    "date_range": "2025-06-04 to 2025-09-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -80,11 +80,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1756785600,
+      "price": 12.29,
+      "volume": 3000000,
+      "dollars": 36870000,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1751342400,
       "price": 10.56,
       "volume": 2500000,
       "dollars": 26400000,
-      "rank": 8,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,7 +108,7 @@
       "price": 12.13,
       "volume": 2000000,
       "dollars": 24260000,
-      "rank": 9,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,19 +120,7 @@
       "price": 10.36,
       "volume": 2040832,
       "dollars": 21143019,
-      "rank": 11,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1753329600,
-      "price": 10.54,
-      "volume": 2000000,
-      "dollars": 21080000,
-      "rank": 13,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -142,21 +142,21 @@
       "rank": "2"
     },
     {
+      "price": 12.3,
+      "volume": 26990000,
+      "dollars": 330000000,
+      "rank": "3"
+    },
+    {
       "price": 10.3,
       "volume": 31800000,
       "dollars": 330000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 10.6,
       "volume": 29840000,
       "dollars": 320000000,
-      "rank": "4"
-    },
-    {
-      "price": 11.4,
-      "volume": 27430000,
-      "dollars": 310000000,
       "rank": "5"
     }
   ],

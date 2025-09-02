@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "QQQJ",
-    "generated_at": "2025-09-02T00:49:13.350277+00:00Z",
-    "date_range": "2025-06-03 to 2025-09-01",
+    "generated_at": "2025-09-02T16:47:20.380967+00:00Z",
+    "date_range": "2025-06-04 to 2025-09-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1756785600,
+      "price": 34.51,
+      "volume": 209341,
+      "dollars": 7224357,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 33.0,
@@ -21,22 +34,22 @@
       "rank": "12"
     },
     {
-      "price": 31.4,
-      "volume": 380000,
+      "price": 34.5,
+      "volume": 430000,
+      "dollars": 10000000,
+      "rank": "15"
+    },
+    {
+      "price": 34.4,
+      "volume": 360000,
       "dollars": 10000000,
       "rank": "19"
     },
     {
-      "price": 33.6,
-      "volume": 340000,
+      "price": 31.4,
+      "volume": 380000,
       "dollars": 10000000,
       "rank": "21"
-    },
-    {
-      "price": 32.8,
-      "volume": 340000,
-      "dollars": 10000000,
-      "rank": "22"
     }
   ],
   "boxes": []

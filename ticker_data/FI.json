@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "FI",
-    "generated_at": "2025-09-02T00:44:40.144504+00:00Z",
-    "date_range": "2025-06-03 to 2025-09-01",
+    "generated_at": "2025-09-02T16:44:32.409496+00:00Z",
+    "date_range": "2025-06-04 to 2025-09-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -67,33 +67,23 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 161.5,
-      "low_price": 160.0,
-      "volume": 495361,
-      "dollars": 79627384,
-      "trades": 2,
-      "date_range": "2025-06-03",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
       "high_price": 132.4,
       "low_price": 132.4,
       "volume": 231839,
       "dollars": 30695483,
       "trades": 1,
       "date_range": "2025-08-07",
-      "color": "green"
+      "color": "blue"
     },
     {
-      "box_number": 3,
+      "box_number": 2,
       "high_price": 168.19,
       "low_price": 168.19,
       "volume": 116613,
       "dollars": 19613140,
       "trades": 1,
       "date_range": "2025-06-10",
-      "color": "orange"
+      "color": "green"
     }
   ]
 }
