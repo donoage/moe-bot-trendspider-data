@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "ABNB",
-    "generated_at": "2025-09-04T01:26:45.475530+00:00Z",
-    "date_range": "2025-06-05 to 2025-09-03",
+    "generated_at": "2025-09-04T21:20:30.460002+00:00Z",
+    "date_range": "2025-06-06 to 2025-09-04",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -52,13 +52,23 @@
     },
     {
       "box_number": 2,
+      "high_price": 123.65,
+      "low_price": 123.65,
+      "volume": 199600,
+      "dollars": 24680540,
+      "trades": 1,
+      "date_range": "2025-09-04",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 131.72,
       "low_price": 131.72,
       "volume": 140445,
       "dollars": 18499415,
       "trades": 1,
       "date_range": "2025-06-24",
-      "color": "green"
+      "color": "orange"
     }
   ]
 }

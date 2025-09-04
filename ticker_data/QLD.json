@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "QLD",
-    "generated_at": "2025-09-04T01:23:34.318200+00:00Z",
-    "date_range": "2025-06-05 to 2025-09-03",
+    "generated_at": "2025-09-04T21:17:48.263198+00:00Z",
+    "date_range": "2025-06-06 to 2025-09-04",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -13,12 +13,6 @@
       "volume": 6560000,
       "dollars": 760000000,
       "rank": "7"
-    },
-    {
-      "price": 106.3,
-      "volume": 1000000,
-      "dollars": 110000000,
-      "rank": "66"
     },
     {
       "price": 118.4,
@@ -37,6 +31,12 @@
       "volume": 610000,
       "dollars": 80000000,
       "rank": "90"
+    },
+    {
+      "price": 117.7,
+      "volume": 610000,
+      "dollars": 70000000,
+      "rank": "98"
     }
   ],
   "boxes": [
@@ -62,33 +62,23 @@
     },
     {
       "box_number": 3,
-      "high_price": 107.99,
-      "low_price": 107.99,
-      "volume": 351500,
-      "dollars": 37958485,
-      "trades": 1,
-      "date_range": "2025-06-05",
-      "color": "orange"
-    },
-    {
-      "box_number": 4,
       "high_price": 109.66,
       "low_price": 109.66,
       "volume": 204588,
       "dollars": 22435120,
       "trades": 1,
       "date_range": "2025-06-11",
-      "color": "red"
+      "color": "orange"
     },
     {
-      "box_number": 5,
+      "box_number": 4,
       "high_price": 127.35,
       "low_price": 127.35,
       "volume": 154329,
       "dollars": 19653798,
       "trades": 1,
       "date_range": "2025-08-18",
-      "color": "purple"
+      "color": "red"
     }
   ]
 }
