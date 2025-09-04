@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "LASR",
-    "generated_at": "2025-09-03T00:39:12.578851+00:00Z",
-    "date_range": "2025-06-04 to 2025-09-02",
+    "generated_at": "2025-09-04T01:27:36.195653+00:00Z",
+    "date_range": "2025-06-05 to 2025-09-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1756872000,
+      "price": 28.7,
+      "volume": 694760,
+      "dollars": 19939612,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1756180800,
       "price": 29.1,
       "volume": 665624,
       "dollars": 19369658,
-      "rank": 3,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 19.63,
       "volume": 412391,
       "dollars": 8095235,
-      "rank": 17,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -40,14 +52,14 @@
       "rank": "2"
     },
     {
-      "price": 29.1,
-      "volume": 910000,
+      "price": 28.7,
+      "volume": 930000,
       "dollars": 30000000,
       "rank": "3"
     },
     {
-      "price": 16.7,
-      "volume": 1520000,
+      "price": 29.1,
+      "volume": 910000,
       "dollars": 30000000,
       "rank": "4"
     },
@@ -55,13 +67,13 @@
       "price": 19.2,
       "volume": 1240000,
       "dollars": 20000000,
-      "rank": "5"
+      "rank": "6"
     },
     {
       "price": 24.0,
       "volume": 880000,
       "dollars": 20000000,
-      "rank": "7"
+      "rank": "8"
     }
   ],
   "boxes": []

@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "PHAT",
-    "generated_at": "2025-09-03T00:39:01.281978+00:00Z",
-    "date_range": "2025-06-04 to 2025-09-02",
+    "generated_at": "2025-09-04T01:27:22.726085+00:00Z",
+    "date_range": "2025-06-05 to 2025-09-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1756872000,
+      "price": 11.88,
+      "volume": 826141,
+      "dollars": 9814555,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1750824000,
       "price": 9.58,
@@ -82,20 +94,20 @@
       "rank": "5"
     },
     {
-      "price": 8.9,
-      "volume": 1690000,
+      "price": 11.9,
+      "volume": 1360000,
       "dollars": 20000000,
       "rank": "9"
     },
     {
-      "price": 9.0,
-      "volume": 1660000,
-      "dollars": 10000000,
+      "price": 8.9,
+      "volume": 1690000,
+      "dollars": 20000000,
       "rank": "10"
     },
     {
-      "price": 10.9,
-      "volume": 1340000,
+      "price": 9.0,
+      "volume": 1660000,
       "dollars": 10000000,
       "rank": "11"
     }

@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "LYFT",
-    "generated_at": "2025-09-03T00:34:16.016562+00:00Z",
-    "date_range": "2025-06-04 to 2025-09-02",
+    "generated_at": "2025-09-04T01:22:05.445972+00:00Z",
+    "date_range": "2025-06-05 to 2025-09-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1756872000,
+      "price": 16.8,
+      "volume": 5699193,
+      "dollars": 95746442,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 15.9,
@@ -22,20 +35,20 @@
     },
     {
       "price": 17.2,
-      "volume": 28090000,
-      "dollars": 480000000,
+      "volume": 28340000,
+      "dollars": 490000000,
       "rank": "7"
+    },
+    {
+      "price": 16.8,
+      "volume": 28490000,
+      "dollars": 480000000,
+      "rank": "8"
     },
     {
       "price": 13.5,
       "volume": 34670000,
       "dollars": 470000000,
-      "rank": "8"
-    },
-    {
-      "price": 13.6,
-      "volume": 33810000,
-      "dollars": 460000000,
       "rank": "9"
     }
   ],
