@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "ITB",
-    "generated_at": "2025-09-05T00:54:53.613886+00:00Z",
-    "date_range": "2025-06-06 to 2025-09-04",
+    "generated_at": "2025-09-06T01:30:44.839428+00:00Z",
+    "date_range": "2025-06-07 to 2025-09-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -21,6 +21,12 @@
     }
   ],
   "levels": [
+    {
+      "price": 117.9,
+      "volume": 1980000,
+      "dollars": 230000000,
+      "rank": "8"
+    },
     {
       "price": 102.0,
       "volume": 2100000,
@@ -44,12 +50,6 @@
       "volume": 1230000,
       "dollars": 130000000,
       "rank": "43"
-    },
-    {
-      "price": 104.9,
-      "volume": 1260000,
-      "dollars": 130000000,
-      "rank": "46"
     }
   ],
   "boxes": [
@@ -92,6 +92,16 @@
       "trades": 1,
       "date_range": "2025-07-21",
       "color": "red"
+    },
+    {
+      "box_number": 5,
+      "high_price": 116.91,
+      "low_price": 116.91,
+      "volume": 236654,
+      "dollars": 27667219,
+      "trades": 1,
+      "date_range": "2025-09-05",
+      "color": "purple"
     }
   ]
 }

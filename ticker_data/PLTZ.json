@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "PLTZ",
-    "generated_at": "2025-09-05T00:54:26.216710+00:00Z",
-    "date_range": "2025-06-06 to 2025-09-04",
+    "generated_at": "2025-09-06T01:30:27.252803+00:00Z",
+    "date_range": "2025-06-07 to 2025-09-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -56,11 +56,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1757044800,
+      "price": 9.99,
+      "volume": 125533,
+      "dollars": 1254062,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1756267200,
       "price": 9.94,
       "volume": 116700,
       "dollars": 1159998,
-      "rank": 5,
+      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -72,7 +84,7 @@
       "price": 10.12,
       "volume": 109361,
       "dollars": 1106733,
-      "rank": 6,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -84,7 +96,7 @@
       "price": 10.16,
       "volume": 106986,
       "dollars": 1086977,
-      "rank": 7,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,7 +108,7 @@
       "price": 11.06,
       "volume": 97800,
       "dollars": 1081668,
-      "rank": 8,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 7.65,
       "volume": 139183,
       "dollars": 1064749,
-      "rank": 9,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1756267200,
-      "price": 9.88,
-      "volume": 100000,
-      "dollars": 988030,
       "rank": 10,
       "conditions": "",
       "exchange": "",
@@ -154,9 +154,9 @@
       "rank": "4"
     },
     {
-      "price": 9.6,
-      "volume": 430000,
-      "dollars": 0,
+      "price": 10.0,
+      "volume": 520000,
+      "dollars": 10000000,
       "rank": "5"
     }
   ],
