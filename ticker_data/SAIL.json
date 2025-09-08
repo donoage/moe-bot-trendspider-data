@@ -1,12 +1,116 @@
 {
   "metadata": {
     "ticker": "SAIL",
-    "generated_at": "2025-09-06T01:31:23.007105+00:00Z",
+    "generated_at": "2025-09-08T00:24:07.887584+00:00Z",
     "date_range": "2025-06-07 to 2025-09-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1750996800,
+      "price": 22.77,
+      "volume": 2620630,
+      "dollars": 59671745,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1750392000,
+      "price": 22.6,
+      "volume": 1319445,
+      "dollars": 29819457,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1751256000,
+      "price": 22.86,
+      "volume": 638904,
+      "dollars": 14605345,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1751428800,
+      "price": 21.73,
+      "volume": 440787,
+      "dollars": 9578301,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1755230400,
+      "price": 20.47,
+      "volume": 433106,
+      "dollars": 8865679,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1750910400,
+      "price": 23.61,
+      "volume": 352716,
+      "dollars": 8327624,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 23.0,
+      "volume": 11320000,
+      "dollars": 260000000,
+      "rank": "1"
+    },
+    {
+      "price": 24.5,
+      "volume": 4070000,
+      "dollars": 100000000,
+      "rank": "2"
+    },
+    {
+      "price": 20.3,
+      "volume": 4590000,
+      "dollars": 90000000,
+      "rank": "3"
+    },
+    {
+      "price": 22.8,
+      "volume": 3850000,
+      "dollars": 90000000,
+      "rank": "4"
+    },
+    {
+      "price": 18.6,
+      "volume": 3200000,
+      "dollars": 60000000,
+      "rank": "5"
+    }
+  ],
   "boxes": []
 }
