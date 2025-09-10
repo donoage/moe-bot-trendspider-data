@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "UNH",
-    "generated_at": "2025-09-09T02:07:06.915110+00:00Z",
-    "date_range": "2025-06-10 to 2025-09-08",
+    "generated_at": "2025-09-10T03:45:48.708099+00:00Z",
+    "date_range": "2025-06-11 to 2025-09-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -40,16 +40,16 @@
       "rank": "17"
     },
     {
+      "price": 338.4,
+      "volume": 5080000,
+      "dollars": 1720000000,
+      "rank": "19"
+    },
+    {
       "price": 309.1,
       "volume": 5510000,
       "dollars": 1700000000,
       "rank": "20"
-    },
-    {
-      "price": 308.9,
-      "volume": 5230000,
-      "dollars": 1620000000,
-      "rank": "23"
     }
   ],
   "boxes": [
@@ -62,6 +62,16 @@
       "trades": 5,
       "date_range": "2025-07-22 to 2025-07-23",
       "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 341.25,
+      "low_price": 341.25,
+      "volume": 150301,
+      "dollars": 51290216,
+      "trades": 1,
+      "date_range": "2025-09-09",
+      "color": "green"
     }
   ]
 }
