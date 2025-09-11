@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "WFC",
-    "generated_at": "2025-09-10T03:42:45.333882+00:00Z",
-    "date_range": "2025-06-11 to 2025-09-09",
+    "generated_at": "2025-09-11T01:58:47.179918+00:00Z",
+    "date_range": "2025-06-12 to 2025-09-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -42,23 +42,33 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 80.35,
+      "low_price": 80.34,
+      "volume": 1113101,
+      "dollars": 89432730,
+      "trades": 2,
+      "date_range": "2025-09-10",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 81.81,
       "low_price": 81.55,
       "volume": 496095,
       "dollars": 40521104,
       "trades": 2,
       "date_range": "2025-07-09",
-      "color": "blue"
+      "color": "green"
     },
     {
-      "box_number": 2,
+      "box_number": 3,
       "high_price": 73.57,
       "low_price": 73.57,
       "volume": 250000,
       "dollars": 18392500,
       "trades": 1,
       "date_range": "2025-06-13",
-      "color": "green"
+      "color": "orange"
     }
   ]
 }

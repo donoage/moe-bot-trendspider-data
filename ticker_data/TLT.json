@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "TLT",
-    "generated_at": "2025-09-10T03:45:53.658978+00:00Z",
-    "date_range": "2025-06-11 to 2025-09-09",
+    "generated_at": "2025-09-11T02:00:09.158170+00:00Z",
+    "date_range": "2025-06-12 to 2025-09-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -28,6 +28,12 @@
       "rank": "2"
     },
     {
+      "price": 89.8,
+      "volume": 85940000,
+      "dollars": 7720000000,
+      "rank": "4"
+    },
+    {
       "price": 88.2,
       "volume": 74830000,
       "dollars": 6600000000,
@@ -44,54 +50,58 @@
       "volume": 60280000,
       "dollars": 5240000000,
       "rank": "22"
-    },
-    {
-      "price": 87.2,
-      "volume": 59650000,
-      "dollars": 5200000000,
-      "rank": "23"
     }
   ],
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 89.74,
+      "low_price": 89.74,
+      "volume": 2680437,
+      "dollars": 240542416,
+      "trades": 1,
+      "date_range": "2025-09-10",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 87.08,
       "low_price": 86.86,
       "volume": 1319437,
       "dollars": 114677489,
       "trades": 2,
       "date_range": "2025-08-12 to 2025-08-22",
-      "color": "blue"
+      "color": "green"
     },
     {
-      "box_number": 2,
+      "box_number": 3,
       "high_price": 87.15,
       "low_price": 86.89,
       "volume": 738839,
       "dollars": 64300749,
       "trades": 2,
       "date_range": "2025-06-18 to 2025-06-24",
-      "color": "green"
+      "color": "orange"
     },
     {
-      "box_number": 3,
+      "box_number": 4,
       "high_price": 85.34,
       "low_price": 85.33,
       "volume": 720129,
       "dollars": 61451307,
       "trades": 3,
       "date_range": "2025-07-18",
-      "color": "orange"
+      "color": "red"
     },
     {
-      "box_number": 4,
+      "box_number": 5,
       "high_price": 86.86,
       "low_price": 86.86,
       "volume": 270000,
       "dollars": 23452200,
       "trades": 1,
       "date_range": "2025-07-30",
-      "color": "red"
+      "color": "purple"
     }
   ]
 }
