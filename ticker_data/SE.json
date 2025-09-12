@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SE",
-    "generated_at": "2025-09-11T01:59:26.680140+00:00Z",
-    "date_range": "2025-06-12 to 2025-09-10",
+    "generated_at": "2025-09-12T01:26:22.232188+00:00Z",
+    "date_range": "2025-06-13 to 2025-09-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -46,6 +46,12 @@
       "rank": "7"
     },
     {
+      "price": 198.8,
+      "volume": 2300000,
+      "dollars": 460000000,
+      "rank": "8"
+    },
+    {
       "price": 160.4,
       "volume": 2630000,
       "dollars": 420000000,
@@ -56,12 +62,6 @@
       "volume": 2460000,
       "dollars": 380000000,
       "rank": "17"
-    },
-    {
-      "price": 192.8,
-      "volume": 1810000,
-      "dollars": 350000000,
-      "rank": "23"
     }
   ],
   "boxes": [
@@ -74,6 +74,16 @@
       "trades": 2,
       "date_range": "2025-06-13 to 2025-06-16",
       "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 198.1,
+      "low_price": 198.1,
+      "volume": 320752,
+      "dollars": 63540971,
+      "trades": 1,
+      "date_range": "2025-09-11",
+      "color": "green"
     }
   ]
 }

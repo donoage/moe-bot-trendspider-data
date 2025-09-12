@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "ORLY",
-    "generated_at": "2025-09-11T02:05:23.967659+00:00Z",
-    "date_range": "2025-06-12 to 2025-09-10",
+    "generated_at": "2025-09-12T01:31:46.472006+00:00Z",
+    "date_range": "2025-06-13 to 2025-09-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -52,13 +52,23 @@
     },
     {
       "box_number": 2,
+      "high_price": 107.27,
+      "low_price": 107.27,
+      "volume": 335898,
+      "dollars": 36031778,
+      "trades": 1,
+      "date_range": "2025-09-11",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 104.0,
       "low_price": 104.0,
       "volume": 255829,
       "dollars": 26606216,
       "trades": 1,
       "date_range": "2025-08-06",
-      "color": "green"
+      "color": "orange"
     }
   ]
 }
