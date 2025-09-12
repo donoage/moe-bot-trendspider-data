@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "IONL",
-    "generated_at": "2025-09-12T07:59:08.051091+00:00Z",
+    "generated_at": "2025-09-12T19:53:05.922477+00:00Z",
     "date_range": "2025-06-14 to 2025-09-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1757649600,
+      "price": 68.75,
+      "volume": 10518,
+      "dollars": 723112,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1754971200,
       "price": 47.07,
       "volume": 13349,
       "dollars": 628337,
-      "rank": 1,
+      "rank": 2,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 46.03,
       "volume": 10925,
       "dollars": 502877,
-      "rank": 2,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 46.59,
       "volume": 10792,
       "dollars": 502813,
-      "rank": 3,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,22 +58,28 @@
   ],
   "levels": [
     {
-      "price": 47.1,
+      "price": 68.8,
       "volume": 10000,
       "dollars": 0,
       "rank": "1"
     },
     {
-      "price": 46.0,
+      "price": 47.1,
       "volume": 10000,
       "dollars": 0,
       "rank": "2"
     },
     {
-      "price": 46.6,
+      "price": 46.0,
       "volume": 10000,
       "dollars": 0,
       "rank": "3"
+    },
+    {
+      "price": 46.6,
+      "volume": 10000,
+      "dollars": 0,
+      "rank": "4"
     }
   ],
   "boxes": []

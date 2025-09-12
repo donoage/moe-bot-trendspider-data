@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "UPRO",
-    "generated_at": "2025-09-12T12:34:46.631246+00:00Z",
+    "generated_at": "2025-09-12T19:46:11.871407+00:00Z",
     "date_range": "2025-06-14 to 2025-09-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -137,13 +137,23 @@
     },
     {
       "box_number": 2,
+      "high_price": 107.27,
+      "low_price": 107.27,
+      "volume": 197275,
+      "dollars": 21161689,
+      "trades": 1,
+      "date_range": "2025-09-12",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 95.6,
       "low_price": 95.6,
       "volume": 212072,
       "dollars": 20274083,
       "trades": 1,
       "date_range": "2025-08-07",
-      "color": "green"
+      "color": "orange"
     }
   ]
 }
