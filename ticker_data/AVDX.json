@@ -1,24 +1,12 @@
 {
   "metadata": {
     "ticker": "AVDX",
-    "generated_at": "2025-09-12T01:28:03.934390+00:00Z",
-    "date_range": "2025-06-13 to 2025-09-11",
+    "generated_at": "2025-09-12T12:32:17.952628+00:00Z",
+    "date_range": "2025-06-14 to 2025-09-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1749787200,
-      "price": 9.75,
-      "volume": 2592378,
-      "dollars": 25262723,
-      "rank": 9,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1755662400,
       "price": 9.9,
@@ -91,23 +79,13 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 9.75,
-      "low_price": 9.75,
-      "volume": 2592378,
-      "dollars": 25262723,
-      "trades": 1,
-      "date_range": "2025-06-13",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
       "high_price": 9.9,
       "low_price": 9.9,
       "volume": 2107682,
       "dollars": 20866051,
       "trades": 1,
       "date_range": "2025-08-20",
-      "color": "green"
+      "color": "blue"
     }
   ]
 }
