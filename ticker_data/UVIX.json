@@ -1,24 +1,12 @@
 {
   "metadata": {
     "ticker": "UVIX",
-    "generated_at": "2025-09-16T02:52:09.328192+00:00Z",
-    "date_range": "2025-06-17 to 2025-09-15",
+    "generated_at": "2025-09-16T20:42:15.269318+00:00Z",
+    "date_range": "2025-06-18 to 2025-09-16",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1750132800,
-      "price": 29.06,
-      "volume": 860348,
-      "dollars": 24999992,
-      "rank": 1,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1750219200,
       "price": 27.63,
@@ -80,18 +68,6 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1750132800,
-      "price": 28.96,
-      "volume": 156586,
-      "dollars": 4534730,
-      "rank": 10,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
       "timestamp": 1753761600,
       "price": 17.21,
       "volume": 256100,
@@ -121,6 +97,30 @@
       "volume": 250000,
       "dollars": 4227500,
       "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1754539200,
+      "price": 16.9,
+      "volume": 250000,
+      "dollars": 4225000,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1754539200,
+      "price": 16.9,
+      "volume": 250000,
+      "dollars": 4225000,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -160,16 +160,5 @@
       "rank": "5"
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 29.06,
-      "low_price": 29.06,
-      "volume": 860348,
-      "dollars": 24999992,
-      "trades": 1,
-      "date_range": "2025-06-17",
-      "color": "blue"
-    }
-  ]
+  "boxes": []
 }
