@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "HNGE",
-    "generated_at": "2025-09-17T03:03:59.382707+00:00Z",
-    "date_range": "2025-06-18 to 2025-09-16",
+    "generated_at": "2025-09-18T03:00:32.070926+00:00Z",
+    "date_range": "2025-06-19 to 2025-09-17",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -37,6 +37,18 @@
       "volume": 223022,
       "dollars": 12297433,
       "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758081600,
+      "price": 56.74,
+      "volume": 200000,
+      "dollars": 11348000,
+      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -114,33 +126,9 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
-    },
-    {
-      "timestamp": 1755230400,
-      "price": 59.07,
-      "volume": 103472,
-      "dollars": 6112091,
-      "rank": 12,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
     }
   ],
   "levels": [
-    {
-      "price": 39.3,
-      "volume": 1840000,
-      "dollars": 70000000,
-      "rank": "1"
-    },
-    {
-      "price": 39.2,
-      "volume": 1000000,
-      "dollars": 40000000,
-      "rank": "2"
-    },
     {
       "price": 51.8,
       "volume": 480000,
@@ -158,6 +146,18 @@
       "volume": 390000,
       "dollars": 20000000,
       "rank": "5"
+    },
+    {
+      "price": 44.6,
+      "volume": 450000,
+      "dollars": 20000000,
+      "rank": "6"
+    },
+    {
+      "price": 56.7,
+      "volume": 310000,
+      "dollars": 20000000,
+      "rank": "7"
     }
   ],
   "boxes": []

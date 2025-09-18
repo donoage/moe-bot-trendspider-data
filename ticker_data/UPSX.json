@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "UPSX",
-    "generated_at": "2025-09-17T03:06:28.506510+00:00Z",
-    "date_range": "2025-06-18 to 2025-09-16",
+    "generated_at": "2025-09-18T03:02:32.168243+00:00Z",
+    "date_range": "2025-06-19 to 2025-09-17",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1758081600,
+      "price": 28.75,
+      "volume": 20247,
+      "dollars": 582101,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1757476800,
       "price": 28.14,
       "volume": 20523,
       "dollars": 577517,
-      "rank": 1,
+      "rank": 2,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 48.0,
       "volume": 11573,
       "dollars": 555504,
-      "rank": 2,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,16 +46,22 @@
   ],
   "levels": [
     {
-      "price": 28.1,
+      "price": 28.8,
       "volume": 20000,
       "dollars": 0,
       "rank": "1"
     },
     {
+      "price": 28.1,
+      "volume": 20000,
+      "dollars": 0,
+      "rank": "2"
+    },
+    {
       "price": 48.0,
       "volume": 10000,
       "dollars": 0,
-      "rank": "2"
+      "rank": "3"
     }
   ],
   "boxes": []

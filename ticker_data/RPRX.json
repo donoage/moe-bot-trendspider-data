@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "RPRX",
-    "generated_at": "2025-09-17T03:02:58.288168+00:00Z",
-    "date_range": "2025-06-18 to 2025-09-16",
+    "generated_at": "2025-09-18T02:59:31.003736+00:00Z",
+    "date_range": "2025-06-19 to 2025-09-17",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1758081600,
+      "price": 35.64,
+      "volume": 5085602,
+      "dollars": 181250855,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 36.1,
@@ -15,28 +28,28 @@
       "rank": "7"
     },
     {
+      "price": 35.6,
+      "volume": 10510000,
+      "dollars": 370000000,
+      "rank": "16"
+    },
+    {
       "price": 35.9,
       "volume": 7570000,
       "dollars": 270000000,
-      "rank": "27"
+      "rank": "28"
     },
     {
       "price": 36.0,
       "volume": 7160000,
       "dollars": 260000000,
-      "rank": "29"
+      "rank": "30"
     },
     {
       "price": 34.6,
       "volume": 6950000,
       "dollars": 240000000,
-      "rank": "35"
-    },
-    {
-      "price": 34.9,
-      "volume": 6290000,
-      "dollars": 220000000,
-      "rank": "49"
+      "rank": "36"
     }
   ],
   "boxes": [
