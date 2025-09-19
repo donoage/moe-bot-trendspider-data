@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "FNGS",
-    "generated_at": "2025-09-18T03:03:14.280070+00:00Z",
-    "date_range": "2025-06-19 to 2025-09-17",
+    "generated_at": "2025-09-19T14:49:34.895297+00:00Z",
+    "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -18,6 +18,18 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1758168000,
+      "price": 70.83,
+      "volume": 402211,
+      "dollars": 28488605,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
@@ -28,28 +40,28 @@
       "rank": "2"
     },
     {
+      "price": 70.8,
+      "volume": 400000,
+      "dollars": 30000000,
+      "rank": "8"
+    },
+    {
       "price": 60.9,
       "volume": 70000,
       "dollars": 0,
-      "rank": "23"
+      "rank": "24"
     },
     {
       "price": 64.9,
       "volume": 40000,
       "dollars": 0,
-      "rank": "46"
+      "rank": "47"
     },
     {
       "price": 64.8,
       "volume": 30000,
       "dollars": 0,
-      "rank": "67"
-    },
-    {
-      "price": 65.6,
-      "volume": 20000,
-      "dollars": 0,
-      "rank": "82"
+      "rank": "68"
     }
   ],
   "boxes": []

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SMCZ",
-    "generated_at": "2025-09-18T03:01:55.679859+00:00Z",
-    "date_range": "2025-06-19 to 2025-09-17",
+    "generated_at": "2025-09-19T14:47:47.806937+00:00Z",
+    "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -80,11 +80,35 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1758168000,
+      "price": 4.37,
+      "volume": 228920,
+      "dollars": 1000426,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758168000,
+      "price": 4.37,
+      "volume": 228320,
+      "dollars": 997758,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1750651200,
       "price": 6.87,
       "volume": 123285,
       "dollars": 846967,
-      "rank": 7,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,30 +120,6 @@
       "price": 4.74,
       "volume": 144462,
       "dollars": 684749,
-      "rank": 8,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1752552000,
-      "price": 4.11,
-      "volume": 143891,
-      "dollars": 591377,
-      "rank": 9,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1757476800,
-      "price": 4.84,
-      "volume": 120141,
-      "dollars": 581518,
       "rank": 10,
       "conditions": "",
       "exchange": "",
@@ -130,32 +130,32 @@
   ],
   "levels": [
     {
+      "price": 4.4,
+      "volume": 570000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
       "price": 4.9,
       "volume": 440000,
       "dollars": 0,
-      "rank": "1"
+      "rank": "2"
     },
     {
       "price": 5.9,
       "volume": 340000,
       "dollars": 0,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 4.7,
       "volume": 370000,
       "dollars": 0,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 5.8,
       "volume": 190000,
-      "dollars": 0,
-      "rank": "4"
-    },
-    {
-      "price": 6.9,
-      "volume": 120000,
       "dollars": 0,
       "rank": "5"
     }

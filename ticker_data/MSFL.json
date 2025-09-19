@@ -1,18 +1,54 @@
 {
   "metadata": {
     "ticker": "MSFL",
-    "generated_at": "2025-09-18T02:57:27.198659+00:00Z",
-    "date_range": "2025-06-19 to 2025-09-17",
+    "generated_at": "2025-09-19T14:41:48.211023+00:00Z",
+    "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1758168000,
+      "price": 31.22,
+      "volume": 102885,
+      "dollars": 3212069,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758168000,
+      "price": 30.94,
+      "volume": 29736,
+      "dollars": 919883,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1750651200,
       "price": 28.79,
       "volume": 20800,
       "dollars": 598832,
-      "rank": 7,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758168000,
+      "price": 31.12,
+      "volume": 16500,
+      "dollars": 513480,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,10 +58,28 @@
   ],
   "levels": [
     {
+      "price": 31.2,
+      "volume": 100000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
+      "price": 30.9,
+      "volume": 30000,
+      "dollars": 0,
+      "rank": "4"
+    },
+    {
       "price": 28.8,
       "volume": 20000,
       "dollars": 0,
-      "rank": "6"
+      "rank": "8"
+    },
+    {
+      "price": 31.1,
+      "volume": 20000,
+      "dollars": 0,
+      "rank": "10"
     }
   ],
   "boxes": []
