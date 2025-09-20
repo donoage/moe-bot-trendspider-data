@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "MSTR",
-    "generated_at": "2025-09-19T14:40:29.078416+00:00Z",
+    "generated_at": "2025-09-20T04:05:16.256604+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 344.75,
+      "volume": 2930469,
+      "dollars": 1010279187,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1750996800,
       "price": 383.88,
@@ -40,15 +52,15 @@
       "rank": "5"
     },
     {
-      "price": 383.9,
-      "volume": 4000000,
-      "dollars": 1540000000,
+      "price": 344.8,
+      "volume": 4860000,
+      "dollars": 1680000000,
       "rank": "6"
     },
     {
-      "price": 369.7,
-      "volume": 4030000,
-      "dollars": 1490000000,
+      "price": 383.9,
+      "volume": 4000000,
+      "dollars": 1540000000,
       "rank": "7"
     }
   ],

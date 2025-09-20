@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "COIN",
-    "generated_at": "2025-09-19T14:40:27.621926+00:00Z",
+    "generated_at": "2025-09-20T04:05:15.198573+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -13,6 +13,18 @@
       "volume": 3093760,
       "dollars": 1093427596,
       "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 342.46,
+      "volume": 2793991,
+      "dollars": 956830157,
+      "rank": 5,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -76,16 +88,16 @@
       "rank": "4"
     },
     {
+      "price": 342.5,
+      "volume": 3840000,
+      "dollars": 1320000000,
+      "rank": "5"
+    },
+    {
       "price": 305.9,
       "volume": 3000000,
       "dollars": 920000000,
-      "rank": "7"
-    },
-    {
-      "price": 324.2,
-      "volume": 2770000,
-      "dollars": 900000000,
-      "rank": "9"
+      "rank": "8"
     }
   ],
   "boxes": []

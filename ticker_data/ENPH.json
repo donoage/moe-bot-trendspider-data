@@ -1,42 +1,55 @@
 {
   "metadata": {
     "ticker": "ENPH",
-    "generated_at": "2025-09-19T14:44:59.848428+00:00Z",
+    "generated_at": "2025-09-20T04:08:52.281706+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 38.42,
+      "volume": 20586784,
+      "dollars": 790944241,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 38.4,
+      "volume": 36280000,
+      "dollars": 1390000000,
+      "rank": "3"
+    },
     {
       "price": 45.3,
       "volume": 11140000,
       "dollars": 500000000,
-      "rank": "8"
+      "rank": "9"
     },
     {
       "price": 30.8,
       "volume": 8760000,
       "dollars": 270000000,
-      "rank": "22"
+      "rank": "23"
     },
     {
       "price": 35.9,
       "volume": 5710000,
       "dollars": 200000000,
-      "rank": "36"
+      "rank": "37"
     },
     {
       "price": 40.9,
       "volume": 4470000,
       "dollars": 180000000,
-      "rank": "47"
-    },
-    {
-      "price": 39.0,
-      "volume": 3800000,
-      "dollars": 150000000,
-      "rank": "65"
+      "rank": "48"
     }
   ],
   "boxes": []

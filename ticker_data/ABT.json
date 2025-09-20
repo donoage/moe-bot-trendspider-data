@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "ABT",
-    "generated_at": "2025-09-19T14:43:15.144580+00:00Z",
+    "generated_at": "2025-09-20T04:07:32.359658+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 136.04,
+      "volume": 3292712,
+      "dollars": 447940540,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 133.6,
@@ -27,16 +40,16 @@
       "rank": "34"
     },
     {
+      "price": 136.0,
+      "volume": 10110000,
+      "dollars": 1380000000,
+      "rank": "39"
+    },
+    {
       "price": 133.0,
       "volume": 8830000,
       "dollars": 1170000000,
-      "rank": "73"
-    },
-    {
-      "price": 132.7,
-      "volume": 8600000,
-      "dollars": 1140000000,
-      "rank": "81"
+      "rank": "74"
     }
   ],
   "boxes": [

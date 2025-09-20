@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "SEZL",
-    "generated_at": "2025-09-19T14:41:35.363265+00:00Z",
+    "generated_at": "2025-09-20T04:06:17.774313+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 91.6,
+      "volume": 341768,
+      "dollars": 31305948,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1751947200,
       "price": 164.13,
@@ -118,33 +130,33 @@
   ],
   "levels": [
     {
+      "price": 91.6,
+      "volume": 380000,
+      "dollars": 30000000,
+      "rank": "1"
+    },
+    {
       "price": 145.0,
       "volume": 210000,
       "dollars": 30000000,
-      "rank": "1"
+      "rank": "2"
     },
     {
       "price": 165.4,
       "volume": 180000,
       "dollars": 30000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 164.1,
       "volume": 170000,
       "dollars": 30000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 179.3,
       "volume": 140000,
       "dollars": 30000000,
-      "rank": "5"
-    },
-    {
-      "price": 106.7,
-      "volume": 210000,
-      "dollars": 20000000,
       "rank": "6"
     }
   ],

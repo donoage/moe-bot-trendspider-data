@@ -1,13 +1,32 @@
 {
   "metadata": {
     "ticker": "CSCO",
-    "generated_at": "2025-09-19T14:43:52.726679+00:00Z",
+    "generated_at": "2025-09-20T04:07:58.291030+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 68.21,
+      "volume": 16883700,
+      "dollars": 1151637177,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 68.2,
+      "volume": 35170000,
+      "dollars": 2400000000,
+      "rank": "0"
+    },
     {
       "price": 68.7,
       "volume": 27180000,
@@ -30,12 +49,6 @@
       "price": 68.4,
       "volume": 22390000,
       "dollars": 1530000000,
-      "rank": "0"
-    },
-    {
-      "price": 68.3,
-      "volume": 20750000,
-      "dollars": 1420000000,
       "rank": "0"
     }
   ],

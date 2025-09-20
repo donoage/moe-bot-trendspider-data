@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "LMND",
-    "generated_at": "2025-09-19T14:42:11.344332+00:00Z",
+    "generated_at": "2025-09-20T04:06:49.627632+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 60.96,
+      "volume": 655177,
+      "dollars": 39939589,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1750996800,
       "price": 42.06,
@@ -46,10 +58,10 @@
       "rank": "12"
     },
     {
-      "price": 41.5,
-      "volume": 1090000,
+      "price": 61.0,
+      "volume": 810000,
       "dollars": 50000000,
-      "rank": "17"
+      "rank": "15"
     }
   ],
   "boxes": []

@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "SMR",
-    "generated_at": "2025-09-19T14:41:12.457488+00:00Z",
+    "generated_at": "2025-09-20T04:05:55.824226+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 46.77,
+      "volume": 3538235,
+      "dollars": 165483250,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1750996800,
       "price": 38.2,
@@ -114,18 +126,6 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
-    },
-    {
-      "timestamp": 1757908800,
-      "price": 39.09,
-      "volume": 984597,
-      "dollars": 38487896,
-      "rank": 15,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
     }
   ],
   "levels": [
@@ -136,27 +136,27 @@
       "rank": "1"
     },
     {
+      "price": 46.8,
+      "volume": 5500000,
+      "dollars": 260000000,
+      "rank": "2"
+    },
+    {
       "price": 35.2,
       "volume": 4150000,
       "dollars": 150000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 37.2,
       "volume": 3640000,
       "dollars": 140000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 50.2,
       "volume": 2250000,
       "dollars": 110000000,
-      "rank": "4"
-    },
-    {
-      "price": 36.0,
-      "volume": 2690000,
-      "dollars": 100000000,
       "rank": "5"
     }
   ],

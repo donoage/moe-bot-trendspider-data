@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "DFDV",
-    "generated_at": "2025-09-19T14:49:50.324484+00:00Z",
+    "generated_at": "2025-09-20T04:11:56.197215+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 16.93,
+      "volume": 434283,
+      "dollars": 7352411,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1750737600,
       "price": 19.63,
@@ -114,18 +126,6 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
-    },
-    {
-      "timestamp": 1755057600,
-      "price": 20.27,
-      "volume": 107062,
-      "dollars": 2170146,
-      "rank": 13,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
     }
   ],
   "levels": [
@@ -142,20 +142,20 @@
       "rank": "2"
     },
     {
-      "price": 19.6,
-      "volume": 410000,
+      "price": 16.9,
+      "volume": 550000,
       "dollars": 10000000,
       "rank": "3"
     },
     {
-      "price": 17.6,
-      "volume": 430000,
+      "price": 19.6,
+      "volume": 410000,
       "dollars": 10000000,
       "rank": "4"
     },
     {
-      "price": 13.9,
-      "volume": 540000,
+      "price": 17.6,
+      "volume": 430000,
       "dollars": 10000000,
       "rank": "5"
     }

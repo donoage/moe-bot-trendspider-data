@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "KVYO",
-    "generated_at": "2025-09-19T14:41:07.141603+00:00Z",
+    "generated_at": "2025-09-20T04:05:49.500875+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 35.23,
+      "volume": 1348507,
+      "dollars": 47507901,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 34.0,
@@ -21,20 +34,20 @@
       "rank": "2"
     },
     {
+      "price": 35.2,
+      "volume": 3400000,
+      "dollars": 120000000,
+      "rank": "3"
+    },
+    {
       "price": 31.6,
       "volume": 3100000,
       "dollars": 100000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 32.0,
       "volume": 2780000,
-      "dollars": 90000000,
-      "rank": "4"
-    },
-    {
-      "price": 34.1,
-      "volume": 2550000,
       "dollars": 90000000,
       "rank": "5"
     }

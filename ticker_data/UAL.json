@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "UAL",
-    "generated_at": "2025-09-19T14:45:09.793538+00:00Z",
+    "generated_at": "2025-09-20T04:08:59.469958+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 106.31,
+      "volume": 4263918,
+      "dollars": 453297122,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 97.4,
@@ -21,22 +34,22 @@
       "rank": "5"
     },
     {
+      "price": 106.3,
+      "volume": 7020000,
+      "dollars": 750000000,
+      "rank": "6"
+    },
+    {
       "price": 93.8,
       "volume": 6910000,
       "dollars": 650000000,
-      "rank": "9"
+      "rank": "10"
     },
     {
       "price": 88.5,
       "volume": 7000000,
       "dollars": 620000000,
-      "rank": "15"
-    },
-    {
-      "price": 89.5,
-      "volume": 6780000,
-      "dollars": 610000000,
-      "rank": "19"
+      "rank": "16"
     }
   ],
   "boxes": []

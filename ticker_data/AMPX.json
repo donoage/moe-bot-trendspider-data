@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "AMPX",
-    "generated_at": "2025-09-19T14:46:44.708688+00:00Z",
+    "generated_at": "2025-09-20T04:09:58.738733+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 11.77,
+      "volume": 4587560,
+      "dollars": 53995581,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1750996800,
       "price": 4.07,
@@ -114,49 +126,37 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
-    },
-    {
-      "timestamp": 1756958400,
-      "price": 6.93,
-      "volume": 764673,
-      "dollars": 5299183,
-      "rank": 11,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
     }
   ],
   "levels": [
     {
+      "price": 11.8,
+      "volume": 6180000,
+      "dollars": 70000000,
+      "rank": "1"
+    },
+    {
       "price": 4.1,
       "volume": 9940000,
       "dollars": 40000000,
-      "rank": "1"
+      "rank": "2"
     },
     {
       "price": 7.8,
       "volume": 3750000,
       "dollars": 30000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 8.1,
       "volume": 3400000,
       "dollars": 30000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 7.7,
       "volume": 2180000,
       "dollars": 20000000,
-      "rank": "4"
-    },
-    {
-      "price": 8.4,
-      "volume": 1630000,
-      "dollars": 10000000,
       "rank": "5"
     }
   ],

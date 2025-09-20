@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "HCI",
-    "generated_at": "2025-09-19T14:44:24.286445+00:00Z",
+    "generated_at": "2025-09-20T04:08:22.898053+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1758254400,
+      "price": 181.27,
+      "volume": 471143,
+      "dollars": 85404091,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1750996800,
       "price": 151.09,
       "volume": 83527,
       "dollars": 12620094,
-      "rank": 19,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -28,28 +40,28 @@
       "rank": "1"
     },
     {
+      "price": 181.3,
+      "volume": 510000,
+      "dollars": 90000000,
+      "rank": "2"
+    },
+    {
       "price": 149.2,
       "volume": 220000,
       "dollars": 30000000,
-      "rank": "6"
+      "rank": "7"
     },
     {
       "price": 147.8,
       "volume": 190000,
       "dollars": 30000000,
-      "rank": "9"
+      "rank": "10"
     },
     {
       "price": 147.0,
       "volume": 180000,
       "dollars": 30000000,
-      "rank": "10"
-    },
-    {
-      "price": 138.3,
-      "volume": 190000,
-      "dollars": 30000000,
-      "rank": "13"
+      "rank": "11"
     }
   ],
   "boxes": []

@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "EAT",
-    "generated_at": "2025-09-19T14:41:03.440308+00:00Z",
+    "generated_at": "2025-09-20T04:05:45.656905+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1758254400,
+      "price": 136.35,
+      "volume": 564386,
+      "dollars": 76954031,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1750996800,
       "price": 180.05,
       "volume": 349394,
       "dollars": 62908389,
-      "rank": 6,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -21,6 +33,12 @@
     }
   ],
   "levels": [
+    {
+      "price": 134.3,
+      "volume": 1450000,
+      "dollars": 190000000,
+      "rank": "5"
+    },
     {
       "price": 173.4,
       "volume": 780000,
@@ -44,12 +62,6 @@
       "volume": 540000,
       "dollars": 100000000,
       "rank": "55"
-    },
-    {
-      "price": 149.1,
-      "volume": 650000,
-      "dollars": 100000000,
-      "rank": "56"
     }
   ],
   "boxes": []

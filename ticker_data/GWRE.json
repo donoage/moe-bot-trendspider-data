@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "GWRE",
-    "generated_at": "2025-09-19T14:49:57.190024+00:00Z",
+    "generated_at": "2025-09-20T04:12:04.424538+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -13,6 +13,18 @@
       "volume": 1067255,
       "dollars": 251231827,
       "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 244.77,
+      "volume": 446651,
+      "dollars": 109326765,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,22 +46,22 @@
       "rank": "3"
     },
     {
+      "price": 244.8,
+      "volume": 750000,
+      "dollars": 180000000,
+      "rank": "10"
+    },
+    {
       "price": 215.2,
       "volume": 490000,
       "dollars": 110000000,
-      "rank": "26"
+      "rank": "27"
     },
     {
       "price": 257.4,
       "volume": 400000,
       "dollars": 100000000,
-      "rank": "28"
-    },
-    {
-      "price": 237.8,
-      "volume": 410000,
-      "dollars": 100000000,
-      "rank": "30"
+      "rank": "29"
     }
   ],
   "boxes": []

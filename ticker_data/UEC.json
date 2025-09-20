@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "UEC",
-    "generated_at": "2025-09-19T14:42:35.179043+00:00Z",
+    "generated_at": "2025-09-20T04:07:07.414572+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 12.35,
+      "volume": 12778919,
+      "dollars": 157819649,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1756094400,
       "price": 10.4,
@@ -70,32 +82,32 @@
   ],
   "levels": [
     {
+      "price": 12.4,
+      "volume": 14470000,
+      "dollars": 180000000,
+      "rank": "1"
+    },
+    {
       "price": 7.1,
       "volume": 19800000,
       "dollars": 140000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 6.0,
       "volume": 21830000,
       "dollars": 130000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 6.7,
       "volume": 17580000,
       "dollars": 120000000,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 6.3,
       "volume": 17360000,
-      "dollars": 110000000,
-      "rank": "5"
-    },
-    {
-      "price": 6.9,
-      "volume": 15650000,
       "dollars": 110000000,
       "rank": "6"
     }

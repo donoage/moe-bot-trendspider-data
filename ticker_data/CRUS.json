@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "CRUS",
-    "generated_at": "2025-09-19T14:49:58.317475+00:00Z",
+    "generated_at": "2025-09-20T04:12:04.262140+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1758254400,
+      "price": 120.12,
+      "volume": 746316,
+      "dollars": 89647477,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1756180800,
       "price": 116.73,
       "volume": 418362,
       "dollars": 48835396,
-      "rank": 11,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -40,16 +52,16 @@
       "rank": "5"
     },
     {
+      "price": 120.1,
+      "volume": 1040000,
+      "dollars": 120000000,
+      "rank": "7"
+    },
+    {
       "price": 104.3,
       "volume": 900000,
       "dollars": 90000000,
-      "rank": "13"
-    },
-    {
-      "price": 116.7,
-      "volume": 650000,
-      "dollars": 80000000,
-      "rank": "23"
+      "rank": "14"
     }
   ],
   "boxes": []

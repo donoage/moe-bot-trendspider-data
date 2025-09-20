@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "UMAC",
-    "generated_at": "2025-09-19T14:45:32.339429+00:00Z",
+    "generated_at": "2025-09-20T04:09:15.244739+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 13.1,
+      "volume": 253223,
+      "dollars": 3317221,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1752465600,
       "price": 9.8,
@@ -76,26 +88,26 @@
       "rank": "1"
     },
     {
+      "price": 13.1,
+      "volume": 470000,
+      "dollars": 10000000,
+      "rank": "2"
+    },
+    {
       "price": 12.6,
       "volume": 370000,
       "dollars": 0,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 11.0,
       "volume": 300000,
       "dollars": 0,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 9.0,
       "volume": 320000,
-      "dollars": 0,
-      "rank": "6"
-    },
-    {
-      "price": 12.1,
-      "volume": 220000,
       "dollars": 0,
       "rank": "7"
     }

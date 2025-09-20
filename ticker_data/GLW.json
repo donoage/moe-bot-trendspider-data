@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "GLW",
-    "generated_at": "2025-09-19T14:48:43.870834+00:00Z",
+    "generated_at": "2025-09-20T04:11:09.927033+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 79.56,
+      "volume": 3318904,
+      "dollars": 264052002,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1757304000,
       "price": 72.15,
@@ -34,6 +46,12 @@
   ],
   "levels": [
     {
+      "price": 79.6,
+      "volume": 6330000,
+      "dollars": 500000000,
+      "rank": "0"
+    },
+    {
       "price": 72.2,
       "volume": 6640000,
       "dollars": 480000000,
@@ -55,12 +73,6 @@
       "price": 78.7,
       "volume": 3170000,
       "dollars": 250000000,
-      "rank": "0"
-    },
-    {
-      "price": 54.0,
-      "volume": 4080000,
-      "dollars": 220000000,
       "rank": "0"
     }
   ],

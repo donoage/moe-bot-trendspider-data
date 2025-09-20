@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "HIMS",
-    "generated_at": "2025-09-19T14:40:44.692047+00:00Z",
+    "generated_at": "2025-09-20T04:05:29.848926+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 57.82,
+      "volume": 5485286,
+      "dollars": 317159236,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1757995200,
       "price": 50.89,
@@ -112,27 +124,27 @@
       "rank": "3"
     },
     {
+      "price": 57.8,
+      "volume": 6840000,
+      "dollars": 400000000,
+      "rank": "4"
+    },
+    {
       "price": 50.9,
       "volume": 7240000,
       "dollars": 370000000,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 56.9,
       "volume": 6460000,
       "dollars": 370000000,
-      "rank": "5"
+      "rank": "6"
     },
     {
       "price": 48.1,
       "volume": 7050000,
       "dollars": 340000000,
-      "rank": "6"
-    },
-    {
-      "price": 50.0,
-      "volume": 6140000,
-      "dollars": 310000000,
       "rank": "7"
     }
   ],

@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "TSM",
-    "generated_at": "2025-09-19T14:44:00.273876+00:00Z",
+    "generated_at": "2025-09-20T04:08:02.756907+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 264.87,
+      "volume": 4746451,
+      "dollars": 1257192476,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1756267200,
       "price": 238.05,
@@ -82,34 +94,34 @@
   ],
   "levels": [
     {
+      "price": 264.9,
+      "volume": 4980000,
+      "dollars": 1320000000,
+      "rank": "3"
+    },
+    {
       "price": 207.4,
       "volume": 3310000,
       "dollars": 690000000,
-      "rank": "65"
+      "rank": "66"
     },
     {
       "price": 247.2,
       "volume": 2620000,
       "dollars": 650000000,
-      "rank": "79"
+      "rank": "80"
     },
     {
       "price": 209.5,
       "volume": 3050000,
       "dollars": 640000000,
-      "rank": "82"
+      "rank": "83"
     },
     {
       "price": 220.0,
       "volume": 2880000,
       "dollars": 630000000,
-      "rank": "86"
-    },
-    {
-      "price": 237.9,
-      "volume": 2610000,
-      "dollars": 620000000,
-      "rank": "95"
+      "rank": "87"
     }
   ],
   "boxes": [

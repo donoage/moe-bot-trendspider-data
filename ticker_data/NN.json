@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "NN",
-    "generated_at": "2025-09-19T14:46:36.947464+00:00Z",
+    "generated_at": "2025-09-20T04:09:53.587550+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 17.07,
+      "volume": 1319599,
+      "dollars": 22525554,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1751256000,
       "price": 15.2,
@@ -46,32 +58,32 @@
   ],
   "levels": [
     {
+      "price": 17.1,
+      "volume": 2180000,
+      "dollars": 40000000,
+      "rank": "3"
+    },
+    {
       "price": 15.6,
       "volume": 2210000,
       "dollars": 30000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 15.1,
       "volume": 1500000,
       "dollars": 20000000,
-      "rank": "5"
+      "rank": "6"
     },
     {
       "price": 15.2,
       "volume": 1480000,
       "dollars": 20000000,
-      "rank": "6"
+      "rank": "7"
     },
     {
       "price": 14.9,
       "volume": 1230000,
-      "dollars": 20000000,
-      "rank": "8"
-    },
-    {
-      "price": 16.3,
-      "volume": 1110000,
       "dollars": 20000000,
       "rank": "9"
     }

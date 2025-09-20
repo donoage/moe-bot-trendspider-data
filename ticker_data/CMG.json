@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "CMG",
-    "generated_at": "2025-09-19T14:44:55.110301+00:00Z",
+    "generated_at": "2025-09-20T04:08:48.242518+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 39.32,
+      "volume": 7949951,
+      "dollars": 312592073,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 40.9,
@@ -82,22 +95,22 @@
     },
     {
       "box_number": 5,
+      "high_price": 39.13,
+      "low_price": 39.13,
+      "volume": 1850268,
+      "dollars": 72400986,
+      "trades": 1,
+      "date_range": "2025-09-19",
+      "color": "purple"
+    },
+    {
+      "box_number": 6,
       "high_price": 38.8,
       "low_price": 38.8,
       "volume": 1220414,
       "dollars": 47352063,
       "trades": 1,
       "date_range": "2025-09-12",
-      "color": "purple"
-    },
-    {
-      "box_number": 6,
-      "high_price": 55.95,
-      "low_price": 55.95,
-      "volume": 431958,
-      "dollars": 24168050,
-      "trades": 1,
-      "date_range": "2025-07-07",
       "color": "yellow"
     }
   ]

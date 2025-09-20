@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "UPS",
-    "generated_at": "2025-09-19T14:43:59.024716+00:00Z",
+    "generated_at": "2025-09-20T04:08:01.861723+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 84.06,
+      "volume": 5432031,
+      "dollars": 456616525,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 99.3,
@@ -27,16 +40,16 @@
       "rank": "39"
     },
     {
+      "price": 84.1,
+      "volume": 9980000,
+      "dollars": 840000000,
+      "rank": "41"
+    },
+    {
       "price": 97.5,
       "volume": 8430000,
       "dollars": 820000000,
-      "rank": "44"
-    },
-    {
-      "price": 102.2,
-      "volume": 7760000,
-      "dollars": 790000000,
-      "rank": "48"
+      "rank": "45"
     }
   ],
   "boxes": []

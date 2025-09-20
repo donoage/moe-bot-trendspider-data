@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "TOL",
-    "generated_at": "2025-09-19T14:49:25.656528+00:00Z",
+    "generated_at": "2025-09-20T04:11:39.900846+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 139.69,
+      "volume": 1262986,
+      "dollars": 176426514,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1752033600,
       "price": 119.25,
@@ -46,10 +58,10 @@
       "rank": "61"
     },
     {
-      "price": 125.5,
-      "volume": 1480000,
+      "price": 139.7,
+      "volume": 1340000,
       "dollars": 190000000,
-      "rank": "65"
+      "rank": "63"
     }
   ],
   "boxes": []

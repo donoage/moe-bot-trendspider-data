@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "CTLP",
-    "generated_at": "2025-09-19T14:49:01.737627+00:00Z",
+    "generated_at": "2025-09-20T04:11:21.568567+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -13,6 +13,18 @@
       "volume": 940041,
       "dollars": 10190044,
       "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 10.63,
+      "volume": 875251,
+      "dollars": 9303918,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -114,18 +126,6 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
-    },
-    {
-      "timestamp": 1752724800,
-      "price": 11.13,
-      "volume": 500000,
-      "dollars": 5562500,
-      "rank": 20,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
     }
   ],
   "levels": [
@@ -154,10 +154,10 @@
       "rank": "5"
     },
     {
-      "price": 10.7,
-      "volume": 810000,
-      "dollars": 10000000,
-      "rank": "13"
+      "price": 10.6,
+      "volume": 1890000,
+      "dollars": 20000000,
+      "rank": "6"
     }
   ],
   "boxes": []

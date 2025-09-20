@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "SITM",
-    "generated_at": "2025-09-19T14:42:13.934339+00:00Z",
+    "generated_at": "2025-09-20T04:06:52.437410+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 312.85,
+      "volume": 272600,
+      "dollars": 85282910,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1750996800,
       "price": 212.93,
@@ -76,15 +88,15 @@
       "rank": "4"
     },
     {
-      "price": 261.4,
-      "volume": 330000,
-      "dollars": 90000000,
+      "price": 312.9,
+      "volume": 300000,
+      "dollars": 100000000,
       "rank": "5"
     },
     {
-      "price": 213.1,
+      "price": 261.4,
       "volume": 330000,
-      "dollars": 70000000,
+      "dollars": 90000000,
       "rank": "6"
     }
   ],

@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "CAVA",
-    "generated_at": "2025-09-19T14:42:37.394842+00:00Z",
+    "generated_at": "2025-09-20T04:07:09.369379+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 63.53,
+      "volume": 2437212,
+      "dollars": 154836078,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1750996800,
       "price": 77.89,
@@ -58,21 +70,21 @@
       "rank": "3"
     },
     {
+      "price": 63.5,
+      "volume": 3490000,
+      "dollars": 220000000,
+      "rank": "4"
+    },
+    {
       "price": 64.2,
       "volume": 3050000,
       "dollars": 200000000,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 86.8,
       "volume": 2140000,
       "dollars": 190000000,
-      "rank": "5"
-    },
-    {
-      "price": 88.2,
-      "volume": 2069999,
-      "dollars": 180000000,
       "rank": "6"
     }
   ],

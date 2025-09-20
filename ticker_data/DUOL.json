@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "DUOL",
-    "generated_at": "2025-09-19T14:41:30.701678+00:00Z",
+    "generated_at": "2025-09-20T04:06:14.656750+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 290.9,
+      "volume": 467289,
+      "dollars": 135934370,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1750996800,
       "price": 411.26,
@@ -76,16 +88,16 @@
       "rank": "6"
     },
     {
+      "price": 290.9,
+      "volume": 580000,
+      "dollars": 170000000,
+      "rank": "7"
+    },
+    {
       "price": 411.3,
       "volume": 280000,
       "dollars": 110000000,
-      "rank": "8"
-    },
-    {
-      "price": 369.2,
-      "volume": 260000,
-      "dollars": 100000000,
-      "rank": "12"
+      "rank": "9"
     }
   ],
   "boxes": []

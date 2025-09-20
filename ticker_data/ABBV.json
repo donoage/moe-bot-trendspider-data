@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "ABBV",
-    "generated_at": "2025-09-19T14:43:09.227760+00:00Z",
+    "generated_at": "2025-09-20T04:07:29.852580+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -30,6 +30,18 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 222.47,
+      "volume": 4368657,
+      "dollars": 971895122,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
@@ -52,14 +64,14 @@
       "rank": "10"
     },
     {
-      "price": 186.1,
-      "volume": 8770000,
-      "dollars": 1630000000,
-      "rank": "17"
+      "price": 222.5,
+      "volume": 9320000,
+      "dollars": 2069999999,
+      "rank": "11"
     },
     {
-      "price": 185.3,
-      "volume": 8800000,
+      "price": 186.1,
+      "volume": 8770000,
       "dollars": 1630000000,
       "rank": "18"
     }

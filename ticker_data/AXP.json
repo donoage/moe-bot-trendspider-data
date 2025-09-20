@@ -1,41 +1,54 @@
 {
   "metadata": {
     "ticker": "AXP",
-    "generated_at": "2025-09-19T14:42:51.378891+00:00Z",
+    "generated_at": "2025-09-20T04:07:18.943613+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 341.12,
+      "volume": 3203261,
+      "dollars": 1092696392,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 341.1,
+      "volume": 5000000,
+      "dollars": 1710000000,
+      "rank": "2"
+    },
     {
       "price": 298.7,
       "volume": 3260000,
       "dollars": 970000000,
-      "rank": "39"
+      "rank": "40"
     },
     {
       "price": 294.1,
       "volume": 2860000,
       "dollars": 840000000,
-      "rank": "52"
+      "rank": "53"
     },
     {
       "price": 298.6,
       "volume": 2680000,
       "dollars": 800000000,
-      "rank": "63"
+      "rank": "64"
     },
     {
       "price": 302.3,
       "volume": 1850000,
       "dollars": 560000000,
-      "rank": "0"
-    },
-    {
-      "price": 301.3,
-      "volume": 1810000,
-      "dollars": 540000000,
       "rank": "0"
     }
   ],

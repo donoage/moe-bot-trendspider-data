@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "SBET",
-    "generated_at": "2025-09-19T14:46:06.635537+00:00Z",
+    "generated_at": "2025-09-20T04:09:34.202933+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 17.33,
+      "volume": 8471661,
+      "dollars": 146813885,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1753243200,
       "price": 25.81,
@@ -114,49 +126,37 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
-    },
-    {
-      "timestamp": 1755662400,
-      "price": 18.4,
-      "volume": 1000000,
-      "dollars": 18400000,
-      "rank": 10,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
     }
   ],
   "levels": [
     {
+      "price": 17.3,
+      "volume": 11760000,
+      "dollars": 200000000,
+      "rank": "1"
+    },
+    {
       "price": 25.8,
       "volume": 3660000,
       "dollars": 90000000,
-      "rank": "1"
+      "rank": "2"
     },
     {
       "price": 22.5,
       "volume": 3680000,
       "dollars": 80000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 23.5,
       "volume": 2790000,
       "dollars": 70000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 19.6,
       "volume": 3290000,
       "dollars": 60000000,
-      "rank": "4"
-    },
-    {
-      "price": 18.8,
-      "volume": 2760000,
-      "dollars": 50000000,
       "rank": "5"
     }
   ],

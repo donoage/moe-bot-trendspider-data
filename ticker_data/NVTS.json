@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "NVTS",
-    "generated_at": "2025-09-19T14:44:43.647967+00:00Z",
+    "generated_at": "2025-09-20T04:08:40.078807+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 7.01,
+      "volume": 6685360,
+      "dollars": 46864373,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1751256000,
       "price": 6.55,
@@ -65,8 +77,8 @@
     },
     {
       "price": 7.0,
-      "volume": 11810000,
-      "dollars": 80000000,
+      "volume": 20210000,
+      "dollars": 140000000,
       "rank": "2"
     },
     {

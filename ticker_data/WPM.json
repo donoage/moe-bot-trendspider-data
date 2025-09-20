@@ -1,42 +1,55 @@
 {
   "metadata": {
     "ticker": "WPM",
-    "generated_at": "2025-09-19T14:45:30.465798+00:00Z",
+    "generated_at": "2025-09-20T04:09:13.123270+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 107.65,
+      "volume": 4450949,
+      "dollars": 479144659,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 107.7,
+      "volume": 6110000,
+      "dollars": 660000000,
+      "rank": "1"
+    },
     {
       "price": 88.1,
       "volume": 1250000,
       "dollars": 110000000,
-      "rank": "25"
+      "rank": "26"
     },
     {
       "price": 94.3,
       "volume": 1110000,
       "dollars": 110000000,
-      "rank": "28"
+      "rank": "29"
     },
     {
       "price": 89.2,
       "volume": 1000000,
       "dollars": 90000000,
-      "rank": "40"
+      "rank": "41"
     },
     {
       "price": 85.8,
       "volume": 740000,
       "dollars": 60000000,
-      "rank": "87"
-    },
-    {
-      "price": 90.3,
-      "volume": 590000,
-      "dollars": 50000000,
-      "rank": "0"
+      "rank": "88"
     }
   ],
   "boxes": []

@@ -1,36 +1,55 @@
 {
   "metadata": {
     "ticker": "GROY",
-    "generated_at": "2025-09-19T14:46:57.820171+00:00Z",
+    "generated_at": "2025-09-20T04:10:07.129763+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 3.67,
+      "volume": 809035,
+      "dollars": 2969158,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 3.7,
+      "volume": 810000,
+      "dollars": 0,
+      "rank": "4"
+    },
     {
       "price": 4.0,
       "volume": 640000,
       "dollars": 0,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 2.4,
       "volume": 450000,
       "dollars": 0,
-      "rank": "11"
+      "rank": "12"
     },
     {
       "price": 3.6,
       "volume": 200000,
       "dollars": 0,
-      "rank": "15"
+      "rank": "16"
     },
     {
       "price": 2.7,
       "volume": 240000,
       "dollars": 0,
-      "rank": "17"
+      "rank": "18"
     }
   ],
   "boxes": []

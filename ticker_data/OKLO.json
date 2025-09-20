@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "OKLO",
-    "generated_at": "2025-09-19T14:41:10.693055+00:00Z",
+    "generated_at": "2025-09-20T04:05:53.396384+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 135.23,
+      "volume": 4344349,
+      "dollars": 587486315,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1750996800,
       "price": 55.26,
@@ -114,18 +126,6 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
-    },
-    {
-      "timestamp": 1758081600,
-      "price": 95.29,
-      "volume": 726903,
-      "dollars": 69266586,
-      "rank": 12,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
     }
   ],
   "levels": [
@@ -136,27 +136,27 @@
       "rank": "1"
     },
     {
+      "price": 135.2,
+      "volume": 5350000,
+      "dollars": 720000000,
+      "rank": "2"
+    },
+    {
       "price": 76.6,
       "volume": 5030000,
       "dollars": 390000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 95.8,
       "volume": 3450000,
       "dollars": 330000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 58.0,
       "volume": 2570000,
       "dollars": 150000000,
-      "rank": "4"
-    },
-    {
-      "price": 74.3,
-      "volume": 1950000,
-      "dollars": 140000000,
       "rank": "5"
     }
   ],

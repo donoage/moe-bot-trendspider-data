@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "ACN",
-    "generated_at": "2025-09-19T14:43:13.246304+00:00Z",
+    "generated_at": "2025-09-20T04:07:31.581769+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 239.7,
+      "volume": 4258186,
+      "dollars": 1020687184,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 303.4,
@@ -21,22 +34,22 @@
       "rank": "3"
     },
     {
+      "price": 239.7,
+      "volume": 5980000,
+      "dollars": 1430000000,
+      "rank": "6"
+    },
+    {
       "price": 280.1,
       "volume": 4380000,
       "dollars": 1230000000,
-      "rank": "10"
+      "rank": "11"
     },
     {
       "price": 300.9,
       "volume": 3830000,
       "dollars": 1150000000,
-      "rank": "12"
-    },
-    {
-      "price": 266.3,
-      "volume": 4040000,
-      "dollars": 1080000000,
-      "rank": "15"
+      "rank": "13"
     }
   ],
   "boxes": [

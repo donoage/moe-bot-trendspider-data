@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "BKSY",
-    "generated_at": "2025-09-19T14:45:52.892687+00:00Z",
+    "generated_at": "2025-09-20T04:09:25.996377+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 20.99,
+      "volume": 704490,
+      "dollars": 14787245,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1750996800,
       "price": 19.49,
@@ -118,20 +130,20 @@
       "rank": "3"
     },
     {
+      "price": 21.0,
+      "volume": 820000,
+      "dollars": 20000000,
+      "rank": "4"
+    },
+    {
       "price": 18.2,
       "volume": 810000,
       "dollars": 10000000,
-      "rank": "5"
+      "rank": "6"
     },
     {
       "price": 20.6,
       "volume": 510000,
-      "dollars": 10000000,
-      "rank": "7"
-    },
-    {
-      "price": 18.9,
-      "volume": 540000,
       "dollars": 10000000,
       "rank": "8"
     }

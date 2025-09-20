@@ -1,41 +1,54 @@
 {
   "metadata": {
     "ticker": "KLAC",
-    "generated_at": "2025-09-19T14:42:52.952711+00:00Z",
+    "generated_at": "2025-09-20T04:07:19.929144+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 1044.81,
+      "volume": 561114,
+      "dollars": 586257518,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 1044.8,
+      "volume": 720000,
+      "dollars": 760000000,
+      "rank": "10"
+    },
     {
       "price": 850.0,
       "volume": 790000,
       "dollars": 670000000,
-      "rank": "14"
+      "rank": "15"
     },
     {
       "price": 923.2,
       "volume": 630000,
       "dollars": 580000000,
-      "rank": "22"
+      "rank": "23"
     },
     {
       "price": 883.4,
       "volume": 600000,
       "dollars": 530000000,
-      "rank": "27"
+      "rank": "28"
     },
     {
       "price": 892.4,
       "volume": 520000,
       "dollars": 470000000,
-      "rank": "40"
-    },
-    {
-      "price": 836.2,
-      "volume": 550000,
-      "dollars": 460000000,
       "rank": "41"
     }
   ],

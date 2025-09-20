@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "TTMI",
-    "generated_at": "2025-09-19T14:46:20.212423+00:00Z",
+    "generated_at": "2025-09-20T04:09:42.532789+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 52.12,
+      "volume": 1061214,
+      "dollars": 55310473,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1754020800,
       "price": 43.34,
@@ -88,28 +100,28 @@
       "rank": "26"
     },
     {
+      "price": 52.1,
+      "volume": 1470000,
+      "dollars": 80000000,
+      "rank": "42"
+    },
+    {
       "price": 43.3,
       "volume": 1530000,
       "dollars": 70000000,
-      "rank": "52"
+      "rank": "53"
     },
     {
       "price": 47.5,
       "volume": 890000,
       "dollars": 40000000,
-      "rank": "82"
+      "rank": "83"
     },
     {
       "price": 44.9,
       "volume": 890000,
       "dollars": 40000000,
-      "rank": "88"
-    },
-    {
-      "price": 47.3,
-      "volume": 800000,
-      "dollars": 40000000,
-      "rank": "90"
+      "rank": "89"
     }
   ],
   "boxes": []

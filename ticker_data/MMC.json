@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "MMC",
-    "generated_at": "2025-09-19T14:43:36.009995+00:00Z",
+    "generated_at": "2025-09-20T04:07:46.313818+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 196.78,
+      "volume": 1254418,
+      "dollars": 246844374,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 210.7,
@@ -27,16 +40,16 @@
       "rank": "9"
     },
     {
+      "price": 196.8,
+      "volume": 3310000,
+      "dollars": 650000000,
+      "rank": "14"
+    },
+    {
       "price": 217.4,
       "volume": 2550000,
       "dollars": 560000000,
-      "rank": "19"
-    },
-    {
-      "price": 206.3,
-      "volume": 2570000,
-      "dollars": 530000000,
-      "rank": "23"
+      "rank": "20"
     }
   ],
   "boxes": [

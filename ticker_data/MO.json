@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "MO",
-    "generated_at": "2025-09-19T14:43:35.944360+00:00Z",
+    "generated_at": "2025-09-20T04:07:46.475185+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 64.89,
+      "volume": 9448300,
+      "dollars": 613100187,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 57.6,
@@ -15,28 +28,28 @@
       "rank": "8"
     },
     {
+      "price": 64.9,
+      "volume": 33479999,
+      "dollars": 2170000000,
+      "rank": "25"
+    },
+    {
       "price": 65.4,
       "volume": 25850000,
       "dollars": 1690000000,
-      "rank": "74"
+      "rank": "75"
     },
     {
       "price": 65.8,
       "volume": 25630000,
       "dollars": 1690000000,
-      "rank": "75"
+      "rank": "76"
     },
     {
       "price": 66.4,
       "volume": 24390000,
       "dollars": 1620000000,
-      "rank": "85"
-    },
-    {
-      "price": 66.0,
-      "volume": 24410000,
-      "dollars": 1610000000,
-      "rank": "87"
+      "rank": "86"
     }
   ],
   "boxes": []

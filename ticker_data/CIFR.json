@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "CIFR",
-    "generated_at": "2025-09-19T14:42:31.242107+00:00Z",
+    "generated_at": "2025-09-20T04:07:04.255605+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 12.28,
+      "volume": 6705705,
+      "dollars": 82346057,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1750996800,
       "price": 4.26,
@@ -82,33 +94,33 @@
   ],
   "levels": [
     {
+      "price": 12.3,
+      "volume": 10590000,
+      "dollars": 130000000,
+      "rank": "1"
+    },
+    {
       "price": 4.2,
       "volume": 26370000,
       "dollars": 110000000,
-      "rank": "1"
+      "rank": "2"
     },
     {
       "price": 3.5,
       "volume": 24320000,
       "dollars": 90000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 4.3,
       "volume": 18760000,
       "dollars": 80000000,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 3.7,
       "volume": 19010000,
       "dollars": 70000000,
-      "rank": "5"
-    },
-    {
-      "price": 5.7,
-      "volume": 11000000,
-      "dollars": 60000000,
       "rank": "6"
     }
   ],

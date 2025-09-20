@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "BAC",
-    "generated_at": "2025-09-19T14:43:13.593178+00:00Z",
+    "generated_at": "2025-09-20T04:07:31.584983+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 52.25,
+      "volume": 40745404,
+      "dollars": 2128947359,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 45.9,
@@ -79,6 +92,16 @@
       "trades": 2,
       "date_range": "2025-07-15",
       "color": "red"
+    },
+    {
+      "box_number": 5,
+      "high_price": 52.32,
+      "low_price": 52.32,
+      "volume": 558002,
+      "dollars": 29194664,
+      "trades": 1,
+      "date_range": "2025-09-19",
+      "color": "purple"
     }
   ]
 }

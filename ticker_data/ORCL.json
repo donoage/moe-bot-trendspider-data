@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "ORCL",
-    "generated_at": "2025-09-19T14:42:47.579025+00:00Z",
+    "generated_at": "2025-09-20T04:07:16.995957+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 308.66,
+      "volume": 8687863,
+      "dollars": 2681595793,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1756180800,
       "price": 234.21,
@@ -46,33 +58,33 @@
   ],
   "levels": [
     {
+      "price": 308.7,
+      "volume": 12740000,
+      "dollars": 3930000000,
+      "rank": "2"
+    },
+    {
       "price": 234.2,
       "volume": 6860000,
       "dollars": 1610000000,
-      "rank": "59"
+      "rank": "60"
     },
     {
       "price": 301.4,
       "volume": 5020000,
       "dollars": 1510000000,
-      "rank": "78"
+      "rank": "79"
     },
     {
       "price": 218.6,
       "volume": 6690000,
       "dollars": 1460000000,
-      "rank": "84"
+      "rank": "85"
     },
     {
       "price": 205.2,
       "volume": 6520000,
       "dollars": 1340000000,
-      "rank": "0"
-    },
-    {
-      "price": 328.3,
-      "volume": 3600000,
-      "dollars": 1180000000,
       "rank": "0"
     }
   ],

@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "CRDO",
-    "generated_at": "2025-09-19T14:40:53.607413+00:00Z",
+    "generated_at": "2025-09-20T04:05:37.214177+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 169.56,
+      "volume": 7651664,
+      "dollars": 1297416147,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1756180800,
       "price": 120.1,
@@ -104,23 +116,11 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1756353600,
-      "price": 131.82,
-      "volume": 509767,
-      "dollars": 67197485,
+      "timestamp": 1758254400,
+      "price": 169.56,
+      "volume": 422399,
+      "dollars": 71621974,
       "rank": 12,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1756872000,
-      "price": 124.77,
-      "volume": 494498,
-      "dollars": 61698515,
-      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -130,32 +130,32 @@
   ],
   "levels": [
     {
+      "price": 169.6,
+      "volume": 8580000,
+      "dollars": 1450000000,
+      "rank": "1"
+    },
+    {
       "price": 93.4,
       "volume": 2750000,
       "dollars": 260000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 93.5,
       "volume": 2710000,
       "dollars": 250000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 164.0,
       "volume": 1430000,
       "dollars": 230000000,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 120.1,
       "volume": 1420000,
-      "dollars": 170000000,
-      "rank": "5"
-    },
-    {
-      "price": 164.4,
-      "volume": 1030000,
       "dollars": 170000000,
       "rank": "6"
     }

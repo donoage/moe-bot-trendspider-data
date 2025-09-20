@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "SPRY",
-    "generated_at": "2025-09-19T14:46:55.675701+00:00Z",
+    "generated_at": "2025-09-20T04:10:04.864821+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 9.79,
+      "volume": 2161020,
+      "dollars": 21156385,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1750996800,
       "price": 18.2,
@@ -52,14 +64,14 @@
       "rank": "4"
     },
     {
-      "price": 18.2,
-      "volume": 1290000,
-      "dollars": 20000000,
+      "price": 9.8,
+      "volume": 2830000,
+      "dollars": 30000000,
       "rank": "5"
     },
     {
-      "price": 14.9,
-      "volume": 1530000,
+      "price": 18.2,
+      "volume": 1290000,
       "dollars": 20000000,
       "rank": "6"
     }

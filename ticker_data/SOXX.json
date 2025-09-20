@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "SOXX",
-    "generated_at": "2025-09-19T14:40:39.133731+00:00Z",
+    "generated_at": "2025-09-20T04:05:24.620072+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 265.88,
+      "volume": 830702,
+      "dollars": 220862894,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 227.4,
@@ -27,15 +40,15 @@
       "rank": "14"
     },
     {
+      "price": 265.9,
+      "volume": 950000,
+      "dollars": 250000000,
+      "rank": "16"
+    },
+    {
       "price": 246.6,
       "volume": 990000,
       "dollars": 250000000,
-      "rank": "18"
-    },
-    {
-      "price": 242.7,
-      "volume": 1010000,
-      "dollars": 240000000,
       "rank": "19"
     }
   ],

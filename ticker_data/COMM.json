@@ -1,40 +1,53 @@
 {
   "metadata": {
     "ticker": "COMM",
-    "generated_at": "2025-09-19T14:49:39.277547+00:00Z",
+    "generated_at": "2025-09-20T04:11:49.336029+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 16.45,
+      "volume": 3479472,
+      "dollars": 57237314,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 16.5,
+      "volume": 12710000,
+      "dollars": 210000000,
+      "rank": "4"
+    },
     {
       "price": 15.9,
       "volume": 12590000,
       "dollars": 200000000,
-      "rank": "5"
+      "rank": "6"
     },
     {
       "price": 10.8,
       "volume": 17210000,
       "dollars": 190000000,
-      "rank": "7"
+      "rank": "8"
     },
     {
       "price": 9.7,
       "volume": 18690000,
       "dollars": 180000000,
-      "rank": "10"
+      "rank": "11"
     },
     {
       "price": 12.0,
       "volume": 13680000,
-      "dollars": 160000000,
-      "rank": "13"
-    },
-    {
-      "price": 15.0,
-      "volume": 10910000,
       "dollars": 160000000,
       "rank": "14"
     }

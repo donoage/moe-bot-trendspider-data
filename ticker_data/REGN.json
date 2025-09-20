@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "REGN",
-    "generated_at": "2025-09-19T14:43:39.168828+00:00Z",
+    "generated_at": "2025-09-20T04:07:48.339333+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 591.99,
+      "volume": 909781,
+      "dollars": 538581254,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1756180800,
       "price": 587.65,
@@ -28,28 +40,28 @@
       "rank": "3"
     },
     {
+      "price": 592.0,
+      "volume": 1250000,
+      "dollars": 740000000,
+      "rank": "6"
+    },
+    {
       "price": 550.6,
       "volume": 1230000,
       "dollars": 680000000,
-      "rank": "9"
+      "rank": "10"
     },
     {
       "price": 555.2,
       "volume": 990000,
       "dollars": 550000000,
-      "rank": "14"
+      "rank": "15"
     },
     {
       "price": 587.7,
       "volume": 900000,
       "dollars": 530000000,
-      "rank": "16"
-    },
-    {
-      "price": 581.0,
-      "volume": 900000,
-      "dollars": 520000000,
-      "rank": "18"
+      "rank": "17"
     }
   ],
   "boxes": []

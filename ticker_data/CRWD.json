@@ -1,42 +1,55 @@
 {
   "metadata": {
     "ticker": "CRWD",
-    "generated_at": "2025-09-19T14:40:29.145231+00:00Z",
+    "generated_at": "2025-09-20T04:05:16.944029+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 502.55,
+      "volume": 1791615,
+      "dollars": 900376118,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 502.6,
+      "volume": 3270000,
+      "dollars": 1640000000,
+      "rank": "5"
+    },
     {
       "price": 476.3,
       "volume": 2250000,
       "dollars": 1070000000,
-      "rank": "6"
+      "rank": "7"
     },
     {
       "price": 471.4,
       "volume": 1510000,
       "dollars": 710000000,
-      "rank": "11"
+      "rank": "12"
     },
     {
       "price": 389.7,
       "volume": 1470000,
       "dollars": 570000000,
-      "rank": "17"
+      "rank": "18"
     },
     {
       "price": 408.7,
       "volume": 1360000,
       "dollars": 550000000,
-      "rank": "18"
-    },
-    {
-      "price": 428.9,
-      "volume": 1090000,
-      "dollars": 470000000,
-      "rank": "23"
+      "rank": "19"
     }
   ],
   "boxes": []

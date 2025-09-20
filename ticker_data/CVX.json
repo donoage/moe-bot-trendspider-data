@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "CVX",
-    "generated_at": "2025-09-19T14:43:07.877493+00:00Z",
+    "generated_at": "2025-09-20T04:07:28.925307+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -30,13 +30,25 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 156.21,
+      "volume": 5775149,
+      "dollars": 902136025,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
     {
       "price": 156.5,
-      "volume": 39890000,
-      "dollars": 6240000000,
+      "volume": 40560000,
+      "dollars": 6350000000,
       "rank": "1"
     },
     {
@@ -46,22 +58,22 @@
       "rank": "2"
     },
     {
+      "price": 156.2,
+      "volume": 25310000,
+      "dollars": 3950000000,
+      "rank": "3"
+    },
+    {
       "price": 152.3,
       "volume": 24900000,
       "dollars": 3790000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 150.0,
       "volume": 24610000,
       "dollars": 3690000000,
-      "rank": "4"
-    },
-    {
-      "price": 142.9,
-      "volume": 23560000,
-      "dollars": 3370000000,
-      "rank": "6"
+      "rank": "5"
     }
   ],
   "boxes": [

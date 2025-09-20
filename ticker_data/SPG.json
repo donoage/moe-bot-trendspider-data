@@ -1,41 +1,54 @@
 {
   "metadata": {
     "ticker": "SPG",
-    "generated_at": "2025-09-19T14:45:06.693887+00:00Z",
+    "generated_at": "2025-09-20T04:08:57.210575+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 180.72,
+      "volume": 3535597,
+      "dollars": 638953089,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 180.7,
+      "volume": 7040000,
+      "dollars": 1270000000,
+      "rank": "1"
+    },
     {
       "price": 166.6,
       "volume": 6370000,
       "dollars": 1060000000,
-      "rank": "1"
+      "rank": "2"
     },
     {
       "price": 180.1,
       "volume": 5220000,
       "dollars": 940000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 164.5,
       "volume": 5520000,
       "dollars": 910000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 168.1,
       "volume": 4570000,
       "dollars": 770000000,
-      "rank": "4"
-    },
-    {
-      "price": 160.3,
-      "volume": 4240000,
-      "dollars": 680000000,
       "rank": "5"
     }
   ],

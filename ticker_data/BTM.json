@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "BTM",
-    "generated_at": "2025-09-19T14:42:44.017068+00:00Z",
+    "generated_at": "2025-09-20T04:07:14.633209+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 3.66,
+      "volume": 372613,
+      "dollars": 1363763,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1751515200,
       "price": 5.59,
@@ -40,16 +52,22 @@
       "rank": "1"
     },
     {
+      "price": 3.7,
+      "volume": 370000,
+      "dollars": 0,
+      "rank": "2"
+    },
+    {
       "price": 6.2,
       "volume": 140000,
       "dollars": 0,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 5.6,
       "volume": 110000,
       "dollars": 0,
-      "rank": "3"
+      "rank": "4"
     }
   ],
   "boxes": []

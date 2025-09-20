@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "UBER",
-    "generated_at": "2025-09-19T14:40:31.928519+00:00Z",
+    "generated_at": "2025-09-20T04:05:19.310439+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 98.51,
+      "volume": 9704924,
+      "dollars": 956032063,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1756180800,
       "price": 96.53,
@@ -22,32 +34,32 @@
   ],
   "levels": [
     {
+      "price": 98.5,
+      "volume": 12520000,
+      "dollars": 1230000000,
+      "rank": "14"
+    },
+    {
       "price": 83.8,
       "volume": 12660000,
       "dollars": 1060000000,
-      "rank": "22"
+      "rank": "23"
     },
     {
       "price": 91.7,
       "volume": 10820000,
       "dollars": 990000000,
-      "rank": "39"
+      "rank": "40"
     },
     {
       "price": 85.6,
       "volume": 10500000,
       "dollars": 900000000,
-      "rank": "52"
+      "rank": "53"
     },
     {
       "price": 96.5,
       "volume": 8610000,
-      "dollars": 830000000,
-      "rank": "64"
-    },
-    {
-      "price": 84.2,
-      "volume": 9870000,
       "dollars": 830000000,
       "rank": "65"
     }

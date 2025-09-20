@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "CME",
-    "generated_at": "2025-09-19T14:45:13.786410+00:00Z",
+    "generated_at": "2025-09-20T04:09:02.516713+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 261.53,
+      "volume": 1117924,
+      "dollars": 292370663,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 274.0,
@@ -27,16 +40,16 @@
       "rank": "10"
     },
     {
+      "price": 261.5,
+      "volume": 2870000,
+      "dollars": 750000000,
+      "rank": "14"
+    },
+    {
       "price": 277.1,
       "volume": 1710000,
       "dollars": 470000000,
-      "rank": "45"
-    },
-    {
-      "price": 266.5,
-      "volume": 1660000,
-      "dollars": 440000000,
-      "rank": "53"
+      "rank": "46"
     }
   ],
   "boxes": [

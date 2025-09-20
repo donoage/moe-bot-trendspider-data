@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "QXO",
-    "generated_at": "2025-09-19T14:44:34.385260+00:00Z",
+    "generated_at": "2025-09-20T04:08:31.500280+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -13,6 +13,18 @@
       "volume": 25917297,
       "dollars": 537265566,
       "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 20.62,
+      "volume": 5562232,
+      "dollars": 114693223,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -107,7 +119,7 @@
   "levels": [
     {
       "price": 20.7,
-      "volume": 42700000,
+      "volume": 43110000,
       "dollars": 890000000,
       "rank": "1"
     },
@@ -124,16 +136,16 @@
       "rank": "4"
     },
     {
+      "price": 20.6,
+      "volume": 8690000,
+      "dollars": 180000000,
+      "rank": "5"
+    },
+    {
       "price": 21.1,
       "volume": 7370000,
       "dollars": 160000000,
-      "rank": "6"
-    },
-    {
-      "price": 21.2,
-      "volume": 6520000,
-      "dollars": 140000000,
-      "rank": "8"
+      "rank": "7"
     }
   ],
   "boxes": []

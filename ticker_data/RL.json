@@ -1,24 +1,43 @@
 {
   "metadata": {
     "ticker": "RL",
-    "generated_at": "2025-09-19T14:44:05.838225+00:00Z",
+    "generated_at": "2025-09-20T04:08:06.352941+00:00Z",
     "date_range": "2025-06-21 to 2025-09-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 312.45,
+      "volume": 665589,
+      "dollars": 207963283,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 312.5,
+      "volume": 750000,
+      "dollars": 230000000,
+      "rank": "6"
+    },
     {
       "price": 264.2,
       "volume": 550000,
       "dollars": 140000000,
-      "rank": "23"
+      "rank": "24"
     },
     {
       "price": 277.7,
       "volume": 450000,
       "dollars": 130000000,
-      "rank": "45"
+      "rank": "46"
     },
     {
       "price": 270.3,
@@ -29,12 +48,6 @@
     {
       "price": 265.4,
       "volume": 250000,
-      "dollars": 70000000,
-      "rank": "0"
-    },
-    {
-      "price": 286.2,
-      "volume": 230000,
       "dollars": 70000000,
       "rank": "0"
     }
