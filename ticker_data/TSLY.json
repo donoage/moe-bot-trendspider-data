@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "TSLY",
-    "generated_at": "2025-09-21T02:24:32.308318+00:00Z",
-    "date_range": "2025-06-21 to 2025-09-19",
+    "generated_at": "2025-09-23T02:30:44.413208+00:00Z",
+    "date_range": "2025-06-24 to 2025-09-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -20,11 +20,35 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1750651200,
-      "price": 8.78,
-      "volume": 439037,
-      "dollars": 3854744,
-      "rank": 13,
+      "timestamp": 1758513600,
+      "price": 9.18,
+      "volume": 702880,
+      "dollars": 6452438,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758513600,
+      "price": 9.18,
+      "volume": 701376,
+      "dollars": 6438631,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758513600,
+      "price": 9.18,
+      "volume": 366491,
+      "dollars": 3364387,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +60,7 @@
       "price": 7.74,
       "volume": 388822,
       "dollars": 3009482,
-      "rank": 17,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -58,20 +82,20 @@
       "rank": "2"
     },
     {
-      "price": 8.7,
-      "volume": 1690000,
-      "dollars": 10000000,
-      "rank": "5"
+      "price": 9.2,
+      "volume": 2300000,
+      "dollars": 20000000,
+      "rank": "3"
     },
     {
-      "price": 8.0,
-      "volume": 1790000,
+      "price": 8.7,
+      "volume": 1690000,
       "dollars": 10000000,
       "rank": "6"
     },
     {
-      "price": 7.9,
-      "volume": 1760000,
+      "price": 8.0,
+      "volume": 1790000,
       "dollars": 10000000,
       "rank": "7"
     }

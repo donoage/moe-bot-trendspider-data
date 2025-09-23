@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "QQQ",
-    "generated_at": "2025-09-21T02:23:27.540373+00:00Z",
-    "date_range": "2025-06-21 to 2025-09-19",
+    "generated_at": "2025-09-23T02:28:23.095777+00:00Z",
+    "date_range": "2025-06-24 to 2025-09-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1758513600,
+      "price": 599.55,
+      "volume": 2700000,
+      "dollars": 1618785000,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1755230400,
       "price": 577.3,
       "volume": 2750000,
       "dollars": 1587575000,
-      "rank": 2,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 586.99,
       "volume": 2520000,
       "dollars": 1479211776,
-      "rank": 5,
+      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 545.0,
       "volume": 2100000,
       "dollars": 1144500000,
-      "rank": 11,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -45,12 +57,6 @@
     }
   ],
   "levels": [
-    {
-      "price": 524.1,
-      "volume": 7420000,
-      "dollars": 3890000000,
-      "rank": "0"
-    },
     {
       "price": 565.0,
       "volume": 6690000,
@@ -64,15 +70,21 @@
       "rank": "0"
     },
     {
-      "price": 526.8,
-      "volume": 6760000,
-      "dollars": 3560000000,
-      "rank": "0"
-    },
-    {
       "price": 561.6,
       "volume": 6190000,
       "dollars": 3480000000,
+      "rank": "0"
+    },
+    {
+      "price": 561.3,
+      "volume": 6170000,
+      "dollars": 3460000000,
+      "rank": "0"
+    },
+    {
+      "price": 536.0,
+      "volume": 5810000,
+      "dollars": 3120000000,
       "rank": "0"
     }
   ],

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "DIS",
-    "generated_at": "2025-09-21T02:25:19.931544+00:00Z",
-    "date_range": "2025-06-21 to 2025-09-19",
+    "generated_at": "2025-09-23T02:31:31.311528+00:00Z",
+    "date_range": "2025-06-24 to 2025-09-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -23,8 +23,8 @@
   "levels": [
     {
       "price": 112.0,
-      "volume": 41110000,
-      "dollars": 4600000000,
+      "volume": 41700000,
+      "dollars": 4670000000,
       "rank": "1"
     },
     {
@@ -35,53 +35,63 @@
     },
     {
       "price": 112.1,
-      "volume": 24100000,
-      "dollars": 2700000000,
+      "volume": 24460000,
+      "dollars": 2740000000,
       "rank": "10"
+    },
+    {
+      "price": 112.6,
+      "volume": 23030000,
+      "dollars": 2590000000,
+      "rank": "11"
     },
     {
       "price": 113.8,
       "volume": 22570000,
       "dollars": 2570000000,
-      "rank": "11"
-    },
-    {
-      "price": 112.4,
-      "volume": 20910000,
-      "dollars": 2350000000,
       "rank": "12"
     }
   ],
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 112.0,
+      "low_price": 112.0,
+      "volume": 556858,
+      "dollars": 62368096,
+      "trades": 1,
+      "date_range": "2025-09-22",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 122.6,
       "low_price": 122.6,
       "volume": 279700,
       "dollars": 34291220,
       "trades": 1,
       "date_range": "2025-07-24",
-      "color": "blue"
+      "color": "green"
     },
     {
-      "box_number": 2,
+      "box_number": 3,
       "high_price": 118.15,
       "low_price": 118.15,
       "volume": 224576,
       "dollars": 26533654,
       "trades": 1,
       "date_range": "2025-08-05",
-      "color": "green"
+      "color": "orange"
     },
     {
-      "box_number": 3,
+      "box_number": 4,
       "high_price": 115.0,
       "low_price": 115.0,
       "volume": 199400,
       "dollars": 22931000,
       "trades": 1,
       "date_range": "2025-09-11",
-      "color": "orange"
+      "color": "red"
     }
   ]
 }
