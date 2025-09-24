@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "QBTS",
-    "generated_at": "2025-09-23T02:28:48.985831+00:00Z",
-    "date_range": "2025-06-24 to 2025-09-22",
+    "generated_at": "2025-09-24T01:15:30.233328+00:00Z",
+    "date_range": "2025-06-25 to 2025-09-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -56,11 +56,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1758600000,
+      "price": 27.52,
+      "volume": 3149474,
+      "dollars": 86673524,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1758513600,
       "price": 25.67,
       "volume": 2772875,
       "dollars": 71179701,
-      "rank": 9,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -72,7 +84,7 @@
       "price": 26.88,
       "volume": 2054037,
       "dollars": 55212514,
-      "rank": 11,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -84,7 +96,7 @@
       "price": 19.24,
       "volume": 2132772,
       "dollars": 41034533,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,7 +108,7 @@
       "price": 14.1,
       "volume": 2594332,
       "dollars": 36580081,
-      "rank": 18,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 17.17,
       "volume": 2041393,
       "dollars": 35050717,
-      "rank": 19,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1751256000,
-      "price": 14.64,
-      "volume": 2364851,
-      "dollars": 34621418,
       "rank": 20,
       "conditions": "",
       "exchange": "",
@@ -131,7 +131,7 @@
   "levels": [
     {
       "price": 26.9,
-      "volume": 13590000,
+      "volume": 13790000,
       "dollars": 370000000,
       "rank": "1"
     },

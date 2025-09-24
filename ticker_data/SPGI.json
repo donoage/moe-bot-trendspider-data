@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SPGI",
-    "generated_at": "2025-09-23T02:31:48.993169+00:00Z",
-    "date_range": "2025-06-24 to 2025-09-22",
+    "generated_at": "2025-09-24T01:17:05.247847+00:00Z",
+    "date_range": "2025-06-25 to 2025-09-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -21,6 +21,12 @@
     }
   ],
   "levels": [
+    {
+      "price": 497.9,
+      "volume": 2590000,
+      "dollars": 1290000000,
+      "rank": "4"
+    },
     {
       "price": 522.9,
       "volume": 2250000,
@@ -44,12 +50,6 @@
       "volume": 1340000,
       "dollars": 680000000,
       "rank": "20"
-    },
-    {
-      "price": 518.4,
-      "volume": 1220000,
-      "dollars": 630000000,
-      "rank": "24"
     }
   ],
   "boxes": [

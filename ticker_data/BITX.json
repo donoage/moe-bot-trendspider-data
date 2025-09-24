@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "BITX",
-    "generated_at": "2025-09-23T02:28:46.806882+00:00Z",
-    "date_range": "2025-06-24 to 2025-09-22",
+    "generated_at": "2025-09-24T01:15:31.176889+00:00Z",
+    "date_range": "2025-06-25 to 2025-09-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1758600000,
+      "price": 53.68,
+      "volume": 220000,
+      "dollars": 11809600,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1756094400,
       "price": 55.19,
       "volume": 210000,
       "dollars": 11589900,
-      "rank": 11,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 61.19,
       "volume": 170000,
       "dollars": 10402300,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 53.33,
       "volume": 190000,
       "dollars": 10132700,
-      "rank": 18,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -64,14 +76,14 @@
       "rank": "3"
     },
     {
-      "price": 54.5,
-      "volume": 1270000,
+      "price": 53.7,
+      "volume": 1330000,
       "dollars": 70000000,
       "rank": "4"
     },
     {
-      "price": 54.0,
-      "volume": 1270000,
+      "price": 54.5,
+      "volume": 1300000,
       "dollars": 70000000,
       "rank": "5"
     }

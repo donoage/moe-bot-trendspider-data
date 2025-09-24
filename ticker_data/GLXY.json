@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "GLXY",
-    "generated_at": "2025-09-23T02:33:22.586517+00:00Z",
-    "date_range": "2025-06-24 to 2025-09-22",
+    "generated_at": "2025-09-24T01:18:40.696606+00:00Z",
+    "date_range": "2025-06-25 to 2025-09-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -25,18 +25,6 @@
       "volume": 1998460,
       "dollars": 65689380,
       "rank": 3,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1750737600,
-      "price": 19.71,
-      "volume": 2493183,
-      "dollars": 49140636,
-      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -126,15 +114,21 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1751860800,
+      "price": 19.69,
+      "volume": 847444,
+      "dollars": 16686172,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
-    {
-      "price": 18.9,
-      "volume": 15390000,
-      "dollars": 290000000,
-      "rank": "1"
-    },
     {
       "price": 24.7,
       "volume": 3640000,
@@ -158,6 +152,12 @@
       "volume": 2100000,
       "dollars": 60000000,
       "rank": "6"
+    },
+    {
+      "price": 23.9,
+      "volume": 2350000,
+      "dollars": 60000000,
+      "rank": "7"
     }
   ],
   "boxes": []
