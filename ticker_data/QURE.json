@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "QURE",
-    "generated_at": "2025-09-24T01:16:49.991353+00:00Z",
-    "date_range": "2025-06-25 to 2025-09-23",
+    "generated_at": "2025-09-25T01:48:05.043390+00:00Z",
+    "date_range": "2025-06-26 to 2025-09-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1758254400,
-      "price": 13.87,
-      "volume": 752180,
-      "dollars": 10432736,
-      "rank": 20,
+      "timestamp": 1758686400,
+      "price": 47.5,
+      "volume": 296928,
+      "dollars": 14104080,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758686400,
+      "price": 39.2,
+      "volume": 293445,
+      "dollars": 11503044,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,34 +34,34 @@
   ],
   "levels": [
     {
-      "price": 13.7,
+      "price": 36.8,
+      "volume": 6610000,
+      "dollars": 240000000,
+      "rank": "1"
+    },
+    {
+      "price": 46.0,
+      "volume": 1710000,
+      "dollars": 80000000,
+      "rank": "2"
+    },
+    {
+      "price": 41.7,
+      "volume": 1490000,
+      "dollars": 60000000,
+      "rank": "4"
+    },
+    {
+      "price": 19.4,
       "volume": 2750000,
-      "dollars": 40000000,
-      "rank": "10"
+      "dollars": 50000000,
+      "rank": "5"
     },
     {
-      "price": 14.1,
-      "volume": 2240000,
-      "dollars": 30000000,
-      "rank": "13"
-    },
-    {
-      "price": 14.5,
-      "volume": 2069999,
-      "dollars": 30000000,
-      "rank": "15"
-    },
-    {
-      "price": 13.9,
-      "volume": 2049999,
-      "dollars": 30000000,
-      "rank": "16"
-    },
-    {
-      "price": 14.2,
-      "volume": 1970000,
-      "dollars": 30000000,
-      "rank": "17"
+      "price": 21.2,
+      "volume": 2150000,
+      "dollars": 50000000,
+      "rank": "6"
     }
   ],
   "boxes": []

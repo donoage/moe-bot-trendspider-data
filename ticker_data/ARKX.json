@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "ARKX",
-    "generated_at": "2025-09-24T01:19:34.657558+00:00Z",
-    "date_range": "2025-06-25 to 2025-09-23",
+    "generated_at": "2025-09-25T01:51:02.106243+00:00Z",
+    "date_range": "2025-06-26 to 2025-09-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -18,6 +18,30 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1758686400,
+      "price": 28.39,
+      "volume": 100000,
+      "dollars": 2839000,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758686400,
+      "price": 27.98,
+      "volume": 100000,
+      "dollars": 2798200,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
@@ -28,28 +52,28 @@
       "rank": "5"
     },
     {
+      "price": 28.4,
+      "volume": 100000,
+      "dollars": 0,
+      "rank": "11"
+    },
+    {
+      "price": 28.0,
+      "volume": 100000,
+      "dollars": 0,
+      "rank": "12"
+    },
+    {
       "price": 26.3,
       "volume": 70000,
       "dollars": 0,
-      "rank": "15"
+      "rank": "17"
     },
     {
       "price": 25.2,
       "volume": 40000,
       "dollars": 0,
-      "rank": "23"
-    },
-    {
-      "price": 26.5,
-      "volume": 40000,
-      "dollars": 0,
-      "rank": "26"
-    },
-    {
-      "price": 27.5,
-      "volume": 30000,
-      "dollars": 0,
-      "rank": "29"
+      "rank": "25"
     }
   ],
   "boxes": []

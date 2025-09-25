@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "VG",
-    "generated_at": "2025-09-24T01:21:19.225257+00:00Z",
-    "date_range": "2025-06-25 to 2025-09-23",
+    "generated_at": "2025-09-25T01:53:06.144615+00:00Z",
+    "date_range": "2025-06-26 to 2025-09-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -92,11 +92,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1758686400,
+      "price": 14.53,
+      "volume": 2032453,
+      "dollars": 29531542,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1758600000,
       "price": 14.57,
       "volume": 1866620,
       "dollars": 27196653,
-      "rank": 13,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 13.25,
       "volume": 2044784,
       "dollars": 27093388,
-      "rank": 14,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1758254400,
-      "price": 13.25,
-      "volume": 1975354,
-      "dollars": 26173440,
       "rank": 15,
       "conditions": "",
       "exchange": "",
@@ -142,20 +142,20 @@
       "rank": "4"
     },
     {
+      "price": 14.5,
+      "volume": 4530000,
+      "dollars": 70000000,
+      "rank": "5"
+    },
+    {
       "price": 14.3,
       "volume": 4179999,
       "dollars": 60000000,
-      "rank": "6"
+      "rank": "7"
     },
     {
       "price": 13.6,
       "volume": 4230000,
-      "dollars": 60000000,
-      "rank": "8"
-    },
-    {
-      "price": 15.4,
-      "volume": 3620000,
       "dollars": 60000000,
       "rank": "9"
     }
