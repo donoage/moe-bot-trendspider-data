@@ -1,18 +1,54 @@
 {
   "metadata": {
     "ticker": "GROY",
-    "generated_at": "2025-09-25T01:50:51.296157+00:00Z",
-    "date_range": "2025-06-26 to 2025-09-24",
+    "generated_at": "2025-09-26T01:35:56.124009+00:00Z",
+    "date_range": "2025-06-27 to 2025-09-25",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1758772800,
+      "price": 3.72,
+      "volume": 3265193,
+      "dollars": 12146517,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758772800,
+      "price": 3.73,
+      "volume": 900362,
+      "dollars": 3358350,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1758254400,
       "price": 3.67,
       "volume": 809035,
       "dollars": 2969158,
-      "rank": 4,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758772800,
+      "price": 3.48,
+      "volume": 204515,
+      "dollars": 711712,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -23,9 +59,9 @@
   "levels": [
     {
       "price": 3.7,
-      "volume": 950000,
-      "dollars": 0,
-      "rank": "4"
+      "volume": 5120000,
+      "dollars": 20000000,
+      "rank": "1"
     },
     {
       "price": 4.0,
@@ -40,16 +76,16 @@
       "rank": "12"
     },
     {
-      "price": 3.6,
+      "price": 3.5,
       "volume": 200000,
       "dollars": 0,
       "rank": "16"
     },
     {
-      "price": 2.7,
-      "volume": 240000,
+      "price": 3.6,
+      "volume": 200000,
       "dollars": 0,
-      "rank": "18"
+      "rank": "17"
     }
   ],
   "boxes": []

@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "SMCX",
-    "generated_at": "2025-09-25T01:50:57.169795+00:00Z",
-    "date_range": "2025-06-26 to 2025-09-24",
+    "generated_at": "2025-09-26T01:36:02.475391+00:00Z",
+    "date_range": "2025-06-27 to 2025-09-25",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1758772800,
+      "price": 36.39,
+      "volume": 500000,
+      "dollars": 18194950,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1754625600,
       "price": 36.2,
       "volume": 99196,
       "dollars": 3590895,
-      "rank": 8,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 67.68,
       "volume": 50198,
       "dollars": 3397400,
-      "rank": 10,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 41.18,
       "volume": 72876,
       "dollars": 3001033,
-      "rank": 14,
+      "rank": 15,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,32 +58,32 @@
   ],
   "levels": [
     {
+      "price": 36.4,
+      "volume": 520000,
+      "dollars": 20000000,
+      "rank": "1"
+    },
+    {
       "price": 46.0,
       "volume": 230000,
       "dollars": 10000000,
-      "rank": "1"
+      "rank": "2"
     },
     {
       "price": 42.3,
       "volume": 190000,
       "dollars": 10000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 41.5,
       "volume": 160000,
       "dollars": 10000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 45.1,
       "volume": 150000,
-      "dollars": 10000000,
-      "rank": "4"
-    },
-    {
-      "price": 32.7,
-      "volume": 190000,
       "dollars": 10000000,
       "rank": "5"
     }
