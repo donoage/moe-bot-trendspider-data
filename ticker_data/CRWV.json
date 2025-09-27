@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "CRWV",
-    "generated_at": "2025-09-26T01:33:49.264500+00:00Z",
-    "date_range": "2025-06-27 to 2025-09-25",
+    "generated_at": "2025-09-27T01:14:03.718825+00:00Z",
+    "date_range": "2025-06-28 to 2025-09-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -92,11 +92,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1758859200,
+      "price": 120.34,
+      "volume": 982636,
+      "dollars": 118250416,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1758254400,
       "price": 124.86,
       "volume": 944141,
       "dollars": 117885445,
-      "rank": 11,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 87.48,
       "volume": 1343900,
       "dollars": 117564372,
-      "rank": 12,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1758513600,
-      "price": 133.23,
-      "volume": 853808,
-      "dollars": 113752839,
       "rank": 13,
       "conditions": "",
       "exchange": "",
@@ -131,7 +131,7 @@
   "levels": [
     {
       "price": 124.9,
-      "volume": 14750000,
+      "volume": 14760000,
       "dollars": 1840000000,
       "rank": "1"
     },
