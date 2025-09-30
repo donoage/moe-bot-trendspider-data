@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "VGT",
-    "generated_at": "2025-09-27T18:12:12.388572+00:00Z",
-    "date_range": "2025-06-28 to 2025-09-26",
+    "generated_at": "2025-09-30T01:02:10.795161+00:00Z",
+    "date_range": "2025-07-01 to 2025-09-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -62,32 +62,32 @@
     },
     {
       "box_number": 3,
+      "high_price": 744.64,
+      "low_price": 744.11,
+      "volume": 54005,
+      "dollars": 40200758,
+      "trades": 2,
+      "date_range": "2025-09-23 to 2025-09-29",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
       "high_price": 696.16,
       "low_price": 696.16,
       "volume": 42210,
       "dollars": 29384913,
       "trades": 1,
       "date_range": "2025-08-07",
-      "color": "orange"
+      "color": "red"
     },
     {
-      "box_number": 4,
+      "box_number": 5,
       "high_price": 689.11,
       "low_price": 689.11,
       "volume": 32536,
       "dollars": 22420882,
       "trades": 1,
       "date_range": "2025-08-19",
-      "color": "red"
-    },
-    {
-      "box_number": 5,
-      "high_price": 744.64,
-      "low_price": 744.64,
-      "volume": 28486,
-      "dollars": 21211815,
-      "trades": 1,
-      "date_range": "2025-09-23",
       "color": "purple"
     }
   ]

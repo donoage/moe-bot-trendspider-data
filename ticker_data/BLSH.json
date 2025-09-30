@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "BLSH",
-    "generated_at": "2025-09-27T18:13:05.480745+00:00Z",
-    "date_range": "2025-06-28 to 2025-09-26",
+    "generated_at": "2025-09-30T01:03:05.342288+00:00Z",
+    "date_range": "2025-07-01 to 2025-09-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -37,6 +37,18 @@
       "volume": 762163,
       "dollars": 52726436,
       "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1759118400,
+      "price": 62.3,
+      "volume": 747656,
+      "dollars": 46578968,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -114,18 +126,6 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
-    },
-    {
-      "timestamp": 1755057600,
-      "price": 68.0,
-      "volume": 260495,
-      "dollars": 17713660,
-      "rank": 10,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
     }
   ],
   "levels": [
@@ -148,14 +148,14 @@
       "rank": "3"
     },
     {
-      "price": 75.0,
-      "volume": 440000,
-      "dollars": 30000000,
+      "price": 62.3,
+      "volume": 780000,
+      "dollars": 50000000,
       "rank": "4"
     },
     {
-      "price": 96.0,
-      "volume": 330000,
+      "price": 75.0,
+      "volume": 440000,
       "dollars": 30000000,
       "rank": "5"
     }
