@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "PDD",
-    "generated_at": "2025-09-30T00:59:46.171139+00:00Z",
-    "date_range": "2025-07-01 to 2025-09-29",
+    "generated_at": "2025-10-01T01:26:50.675883+00:00Z",
+    "date_range": "2025-07-02 to 2025-09-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1759204800,
+      "price": 131.51,
+      "volume": 3850000,
+      "dollars": 506313500,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 138.8,

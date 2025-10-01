@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "LYV",
-    "generated_at": "2025-09-30T01:00:30.922109+00:00Z",
-    "date_range": "2025-07-01 to 2025-09-29",
+    "generated_at": "2025-10-01T01:27:32.466631+00:00Z",
+    "date_range": "2025-07-02 to 2025-09-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1759204800,
+      "price": 163.4,
+      "volume": 2873904,
+      "dollars": 469595913,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1758254400,
       "price": 163.72,
       "volume": 1035043,
       "dollars": 169457239,
-      "rank": 10,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,34 +34,34 @@
   ],
   "levels": [
     {
+      "price": 163.4,
+      "volume": 3450000,
+      "dollars": 560000000,
+      "rank": "3"
+    },
+    {
       "price": 148.9,
       "volume": 3500000,
       "dollars": 520000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 136.2,
       "volume": 2780000,
       "dollars": 380000000,
-      "rank": "10"
+      "rank": "11"
     },
     {
       "price": 137.8,
       "volume": 2120000,
       "dollars": 290000000,
-      "rank": "22"
+      "rank": "23"
     },
     {
       "price": 150.0,
       "volume": 1750000,
       "dollars": 260000000,
-      "rank": "25"
-    },
-    {
-      "price": 150.7,
-      "volume": 1710000,
-      "dollars": 260000000,
-      "rank": "27"
+      "rank": "26"
     }
   ],
   "boxes": []

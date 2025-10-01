@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "IONS",
-    "generated_at": "2025-09-30T01:04:13.468130+00:00Z",
-    "date_range": "2025-07-01 to 2025-09-29",
+    "generated_at": "2025-10-01T01:33:32.039950+00:00Z",
+    "date_range": "2025-07-02 to 2025-09-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -34,6 +34,12 @@
   ],
   "levels": [
     {
+      "price": 65.0,
+      "volume": 5340000,
+      "dollars": 350000000,
+      "rank": "1"
+    },
+    {
       "price": 41.0,
       "volume": 6040000,
       "dollars": 250000000,
@@ -56,12 +62,6 @@
       "volume": 4099999,
       "dollars": 210000000,
       "rank": "6"
-    },
-    {
-      "price": 43.0,
-      "volume": 4700000,
-      "dollars": 200000000,
-      "rank": "7"
     }
   ],
   "boxes": []

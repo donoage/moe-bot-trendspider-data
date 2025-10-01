@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "JPM",
-    "generated_at": "2025-09-30T00:58:44.884553+00:00Z",
-    "date_range": "2025-07-01 to 2025-09-29",
+    "generated_at": "2025-10-01T01:26:01.502725+00:00Z",
+    "date_range": "2025-07-02 to 2025-09-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -32,11 +32,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1759204800,
+      "price": 315.43,
+      "volume": 4602003,
+      "dollars": 1451609806,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1752811200,
       "price": 291.27,
       "volume": 4379341,
       "dollars": 1275570653,
-      "rank": 11,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -64,15 +76,15 @@
       "rank": "0"
     },
     {
-      "price": 291.3,
-      "volume": 5580000,
-      "dollars": 1630000000,
+      "price": 315.4,
+      "volume": 5280000,
+      "dollars": 1670000000,
       "rank": "0"
     },
     {
-      "price": 289.9,
-      "volume": 5550000,
-      "dollars": 1610000000,
+      "price": 291.3,
+      "volume": 5580000,
+      "dollars": 1630000000,
       "rank": "0"
     }
   ],
@@ -126,6 +138,16 @@
       "trades": 1,
       "date_range": "2025-08-28",
       "color": "purple"
+    },
+    {
+      "box_number": 6,
+      "high_price": 313.0,
+      "low_price": 313.0,
+      "volume": 75000,
+      "dollars": 23475000,
+      "trades": 1,
+      "date_range": "2025-09-30",
+      "color": "yellow"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "AEVA",
-    "generated_at": "2025-09-30T00:58:14.781146+00:00Z",
-    "date_range": "2025-07-01 to 2025-09-29",
+    "generated_at": "2025-10-01T01:25:37.979886+00:00Z",
+    "date_range": "2025-07-02 to 2025-09-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -42,21 +42,21 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1759204800,
+      "price": 14.5,
+      "volume": 651046,
+      "dollars": 9440167,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
-    {
-      "price": 36.4,
-      "volume": 1560000,
-      "dollars": 60000000,
-      "rank": "2"
-    },
-    {
-      "price": 37.8,
-      "volume": 760000,
-      "dollars": 30000000,
-      "rank": "7"
-    },
     {
       "price": 25.1,
       "volume": 690000,
@@ -74,6 +74,18 @@
       "volume": 510000,
       "dollars": 20000000,
       "rank": "12"
+    },
+    {
+      "price": 15.0,
+      "volume": 1020000,
+      "dollars": 20000000,
+      "rank": "14"
+    },
+    {
+      "price": 26.5,
+      "volume": 510000,
+      "dollars": 10000000,
+      "rank": "16"
     }
   ],
   "boxes": []

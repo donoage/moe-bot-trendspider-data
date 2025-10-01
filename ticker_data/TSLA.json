@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "TSLA",
-    "generated_at": "2025-09-30T00:57:01.216860+00:00Z",
-    "date_range": "2025-07-01 to 2025-09-29",
+    "generated_at": "2025-10-01T01:24:18.149962+00:00Z",
+    "date_range": "2025-07-02 to 2025-09-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -65,13 +65,23 @@
     },
     {
       "box_number": 2,
+      "high_price": 440.15,
+      "low_price": 440.15,
+      "volume": 54700,
+      "dollars": 24076205,
+      "trades": 1,
+      "date_range": "2025-09-30",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 385.12,
       "low_price": 385.12,
       "volume": 49600,
       "dollars": 19101952,
       "trades": 1,
       "date_range": "2025-09-12",
-      "color": "green"
+      "color": "orange"
     }
   ]
 }
