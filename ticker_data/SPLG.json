@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SPLG",
-    "generated_at": "2025-10-01T01:37:33.630378+00:00Z",
-    "date_range": "2025-07-02 to 2025-09-30",
+    "generated_at": "2025-10-02T01:15:02.895913+00:00Z",
+    "date_range": "2025-07-03 to 2025-10-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -44,18 +44,6 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1751428800,
-      "price": 72.98,
-      "volume": 9134620,
-      "dollars": 666649134,
-      "rank": 10,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
       "timestamp": 1754452800,
       "price": 74.42,
       "volume": 7636130,
@@ -89,14 +77,14 @@
     },
     {
       "price": 78.0,
-      "volume": 14620000,
-      "dollars": 1140000000,
+      "volume": 14710000,
+      "dollars": 1150000000,
       "rank": "9"
     },
     {
       "price": 78.3,
-      "volume": 14120000,
-      "dollars": 1100000000,
+      "volume": 14350000,
+      "dollars": 1120000000,
       "rank": "10"
     },
     {
@@ -106,10 +94,10 @@
       "rank": "21"
     },
     {
-      "price": 72.6,
-      "volume": 10500000,
-      "dollars": 760000000,
-      "rank": "22"
+      "price": 73.0,
+      "volume": 9770000,
+      "dollars": 710000000,
+      "rank": "31"
     }
   ],
   "boxes": [
@@ -142,6 +130,16 @@
       "trades": 1,
       "date_range": "2025-07-28",
       "color": "orange"
+    },
+    {
+      "box_number": 4,
+      "high_price": 78.14,
+      "low_price": 78.14,
+      "volume": 583470,
+      "dollars": 45592345,
+      "trades": 1,
+      "date_range": "2025-10-01",
+      "color": "red"
     }
   ]
 }

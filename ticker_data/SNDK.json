@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "SNDK",
-    "generated_at": "2025-10-01T01:39:50.286746+00:00Z",
-    "date_range": "2025-07-02 to 2025-09-30",
+    "generated_at": "2025-10-02T01:17:03.373652+00:00Z",
+    "date_range": "2025-07-03 to 2025-10-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1759291200,
+      "price": 121.12,
+      "volume": 2065513,
+      "dollars": 250174934,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1758254400,
       "price": 102.21,
@@ -114,18 +126,6 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
-    },
-    {
-      "timestamp": 1756180800,
-      "price": 47.35,
-      "volume": 1084350,
-      "dollars": 51343972,
-      "rank": 19,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
     }
   ],
   "levels": [
@@ -136,26 +136,26 @@
       "rank": "1"
     },
     {
+      "price": 121.1,
+      "volume": 2650000,
+      "dollars": 320000000,
+      "rank": "2"
+    },
+    {
       "price": 102.2,
       "volume": 2080000,
       "dollars": 210000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 41.8,
       "volume": 4420000,
       "dollars": 180000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 94.0,
       "volume": 1440000,
-      "dollars": 130000000,
-      "rank": "4"
-    },
-    {
-      "price": 54.0,
-      "volume": 2500000,
       "dollars": 130000000,
       "rank": "5"
     }

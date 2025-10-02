@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "LAC",
-    "generated_at": "2025-10-01T01:40:37.607982+00:00Z",
-    "date_range": "2025-07-02 to 2025-09-30",
+    "generated_at": "2025-10-02T01:17:52.286317+00:00Z",
+    "date_range": "2025-07-03 to 2025-10-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1759291200,
+      "price": 7.55,
+      "volume": 1995554,
+      "dollars": 15066432,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1758772800,
       "price": 6.86,
       "volume": 2056841,
       "dollars": 14109929,
-      "rank": 9,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 3.25,
       "volume": 3824943,
       "dollars": 12431064,
-      "rank": 11,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 5.06,
       "volume": 2105283,
       "dollars": 10652731,
-      "rank": 13,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -58,22 +70,22 @@
       "rank": "28"
     },
     {
-      "price": 3.0,
-      "volume": 4920000,
-      "dollars": 10000000,
+      "price": 7.6,
+      "volume": 2000000,
+      "dollars": 20000000,
       "rank": "52"
     },
     {
-      "price": 5.1,
-      "volume": 2210000,
-      "dollars": 10000000,
-      "rank": "80"
+      "price": 7.0,
+      "volume": 2150000,
+      "dollars": 20000000,
+      "rank": "53"
     },
     {
-      "price": 2.8,
-      "volume": 3940000,
+      "price": 3.0,
+      "volume": 4920000,
       "dollars": 10000000,
-      "rank": "82"
+      "rank": "54"
     }
   ],
   "boxes": []

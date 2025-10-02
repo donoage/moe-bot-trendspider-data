@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "BKNG",
-    "generated_at": "2025-10-01T01:36:18.367091+00:00Z",
-    "date_range": "2025-07-02 to 2025-09-30",
+    "generated_at": "2025-10-02T01:13:51.235798+00:00Z",
+    "date_range": "2025-07-03 to 2025-10-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -21,6 +21,12 @@
     }
   ],
   "levels": [
+    {
+      "price": 5304.0,
+      "volume": 160000,
+      "dollars": 840000000,
+      "rank": "12"
+    },
     {
       "price": 5444.4,
       "volume": 150000,
@@ -44,12 +50,6 @@
       "volume": 60000,
       "dollars": 350000000,
       "rank": "55"
-    },
-    {
-      "price": 5462.0,
-      "volume": 60000,
-      "dollars": 350000000,
-      "rank": "57"
     }
   ],
   "boxes": []

@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "NVDD",
-    "generated_at": "2025-10-01T01:35:29.345772+00:00Z",
-    "date_range": "2025-07-02 to 2025-09-30",
+    "generated_at": "2025-10-02T01:13:04.577373+00:00Z",
+    "date_range": "2025-07-03 to 2025-10-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1759291200,
+      "price": 39.48,
+      "volume": 31992,
+      "dollars": 1263044,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 6.6,
