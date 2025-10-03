@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "CRCL",
-    "generated_at": "2025-10-02T01:14:15.991918+00:00Z",
-    "date_range": "2025-07-03 to 2025-10-01",
+    "generated_at": "2025-10-03T01:42:26.894162+00:00Z",
+    "date_range": "2025-07-04 to 2025-10-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -56,11 +56,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1759377600,
+      "price": 149.72,
+      "volume": 555071,
+      "dollars": 83105230,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1757563200,
       "price": 133.7,
       "volume": 499982,
       "dollars": 66847593,
-      "rank": 14,
+      "rank": 15,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -72,7 +84,7 @@
       "price": 129.03,
       "volume": 479251,
       "dollars": 61837756,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -84,7 +96,7 @@
       "price": 131.04,
       "volume": 463255,
       "dollars": 60704935,
-      "rank": 17,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,7 +108,7 @@
       "price": 133.66,
       "volume": 446340,
       "dollars": 59657804,
-      "rank": 18,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,7 +120,7 @@
       "price": 152.93,
       "volume": 387754,
       "dollars": 59299219,
-      "rank": 19,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -148,5 +160,16 @@
       "rank": "6"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 147.24,
+      "low_price": 147.24,
+      "volume": 139963,
+      "dollars": 20608082,
+      "trades": 1,
+      "date_range": "2025-10-02",
+      "color": "blue"
+    }
+  ]
 }
