@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "AMDG",
-    "generated_at": "2025-10-03T01:45:19.071191+00:00Z",
-    "date_range": "2025-07-04 to 2025-10-02",
+    "generated_at": "2025-10-04T02:13:58.937177+00:00Z",
+    "date_range": "2025-07-05 to 2025-10-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1759464000,
+      "price": 20.33,
+      "volume": 54012,
+      "dollars": 1098063,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1755835200,
       "price": 21.5,
       "volume": 28083,
       "dollars": 603784,
-      "rank": 1,
+      "rank": 2,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,10 +34,16 @@
   ],
   "levels": [
     {
+      "price": 20.3,
+      "volume": 50000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
       "price": 21.5,
       "volume": 30000,
       "dollars": 0,
-      "rank": "1"
+      "rank": "2"
     }
   ],
   "boxes": []

@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "TSLT",
-    "generated_at": "2025-10-03T01:41:07.144564+00:00Z",
-    "date_range": "2025-07-04 to 2025-10-02",
+    "generated_at": "2025-10-04T02:09:41.455605+00:00Z",
+    "date_range": "2025-07-05 to 2025-10-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1759464000,
+      "price": 26.68,
+      "volume": 1400000,
+      "dollars": 37349340,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1759377600,
       "price": 27.61,
       "volume": 1000000,
       "dollars": 27614600,
-      "rank": 1,
+      "rank": 2,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 13.72,
       "volume": 136000,
       "dollars": 1865920,
-      "rank": 14,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,32 +46,32 @@
   ],
   "levels": [
     {
+      "price": 26.7,
+      "volume": 1460000,
+      "dollars": 40000000,
+      "rank": "1"
+    },
+    {
       "price": 27.6,
       "volume": 1020000,
       "dollars": 30000000,
-      "rank": "1"
+      "rank": "2"
     },
     {
       "price": 19.9,
       "volume": 1190000,
       "dollars": 20000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 20.4,
       "volume": 1000000,
       "dollars": 20000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 21.9,
       "volume": 500000,
-      "dollars": 10000000,
-      "rank": "4"
-    },
-    {
-      "price": 16.5,
-      "volume": 640000,
       "dollars": 10000000,
       "rank": "5"
     }

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "CVS",
-    "generated_at": "2025-10-03T01:41:59.007284+00:00Z",
-    "date_range": "2025-07-04 to 2025-10-02",
+    "generated_at": "2025-10-04T02:10:28.821145+00:00Z",
+    "date_range": "2025-07-05 to 2025-10-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -21,6 +21,12 @@
       "rank": "2"
     },
     {
+      "price": 78.9,
+      "volume": 28850000,
+      "dollars": 2280000000,
+      "rank": "3"
+    },
+    {
       "price": 73.9,
       "volume": 30250000,
       "dollars": 2240000000,
@@ -31,13 +37,18 @@
       "volume": 30280000,
       "dollars": 1990000000,
       "rank": "6"
-    },
-    {
-      "price": 76.6,
-      "volume": 25430000,
-      "dollars": 1950000000,
-      "rank": "7"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 79.1,
+      "low_price": 79.1,
+      "volume": 325000,
+      "dollars": 25707500,
+      "trades": 1,
+      "date_range": "2025-10-03",
+      "color": "blue"
+    }
+  ]
 }

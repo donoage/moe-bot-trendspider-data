@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "OPEN",
-    "generated_at": "2025-10-03T01:43:08.940658+00:00Z",
-    "date_range": "2025-07-04 to 2025-10-02",
+    "generated_at": "2025-10-04T02:11:28.847150+00:00Z",
+    "date_range": "2025-07-05 to 2025-10-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1759464000,
+      "price": 8.49,
+      "volume": 6275500,
+      "dollars": 53278995,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 2.9,
@@ -34,8 +47,8 @@
     },
     {
       "price": 8.0,
-      "volume": 21520000,
-      "dollars": 170000000,
+      "volume": 22040000,
+      "dollars": 180000000,
       "rank": "8"
     }
   ],

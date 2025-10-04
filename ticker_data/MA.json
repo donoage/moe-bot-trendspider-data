@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "MA",
-    "generated_at": "2025-10-03T01:41:44.185119+00:00Z",
-    "date_range": "2025-07-04 to 2025-10-02",
+    "generated_at": "2025-10-04T02:10:15.902482+00:00Z",
+    "date_range": "2025-07-05 to 2025-10-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -67,22 +67,22 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 582.6,
+      "low_price": 580.65,
+      "volume": 87097,
+      "dollars": 50668618,
+      "trades": 2,
+      "date_range": "2025-09-23 to 2025-10-03",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 556.25,
       "low_price": 554.08,
       "volume": 79132,
       "dollars": 43942130,
       "trades": 2,
       "date_range": "2025-07-17 to 2025-07-21",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 582.6,
-      "low_price": 582.6,
-      "volume": 49100,
-      "dollars": 28605660,
-      "trades": 1,
-      "date_range": "2025-09-23",
       "color": "green"
     }
   ]
