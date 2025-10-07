@@ -1,12 +1,24 @@
 {
   "metadata": {
     "ticker": "AMTM",
-    "generated_at": "2025-10-04T02:10:49.974115+00:00Z",
-    "date_range": "2025-07-05 to 2025-10-03",
+    "generated_at": "2025-10-07T01:44:55.610922+00:00Z",
+    "date_range": "2025-07-08 to 2025-10-06",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
+    {
+      "timestamp": 1759723200,
+      "price": 26.27,
+      "volume": 1755088,
+      "dollars": 46106161,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
     {
       "timestamp": 1758254400,
       "price": 22.35,
@@ -70,8 +82,8 @@
       "rank": "8"
     },
     {
-      "price": 22.3,
-      "volume": 2850000,
+      "price": 26.3,
+      "volume": 2470000,
       "dollars": 60000000,
       "rank": "10"
     }

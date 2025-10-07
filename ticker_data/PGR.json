@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "PGR",
-    "generated_at": "2025-10-04T02:10:35.385020+00:00Z",
-    "date_range": "2025-07-05 to 2025-10-03",
+    "generated_at": "2025-10-07T01:44:30.819898+00:00Z",
+    "date_range": "2025-07-08 to 2025-10-06",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -35,13 +35,13 @@
   "levels": [
     {
       "price": 240.0,
-      "volume": 4380000,
-      "dollars": 1050000000,
-      "rank": "3"
+      "volume": 4480000,
+      "dollars": 1080000000,
+      "rank": "2"
     },
     {
       "price": 241.0,
-      "volume": 3430000,
+      "volume": 3450000,
       "dollars": 830000000,
       "rank": "6"
     },
@@ -77,13 +77,23 @@
     },
     {
       "box_number": 2,
+      "high_price": 243.34,
+      "low_price": 243.34,
+      "volume": 457756,
+      "dollars": 111390345,
+      "trades": 1,
+      "date_range": "2025-10-06",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 250.0,
       "low_price": 250.0,
       "volume": 258189,
       "dollars": 64547250,
       "trades": 1,
       "date_range": "2025-07-08",
-      "color": "green"
+      "color": "orange"
     }
   ]
 }

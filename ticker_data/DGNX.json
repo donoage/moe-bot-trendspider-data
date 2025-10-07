@@ -1,16 +1,16 @@
 {
   "metadata": {
     "ticker": "DGNX",
-    "generated_at": "2025-10-04T02:14:54.436787+00:00Z",
-    "date_range": "2025-07-05 to 2025-10-03",
+    "generated_at": "2025-10-07T01:50:35.029712+00:00Z",
+    "date_range": "2025-07-08 to 2025-10-06",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
       "timestamp": 1752638400,
-      "price": 60.0,
-      "volume": 17600,
+      "price": 7.5,
+      "volume": 140800,
       "dollars": 1056000,
       "rank": 2,
       "conditions": "",
@@ -54,38 +54,50 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1759723200,
+      "price": 18.25,
+      "volume": 27495,
+      "dollars": 501783,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
     {
-      "price": 60.0,
-      "volume": 20000,
-      "dollars": 0,
-      "rank": "2"
-    },
-    {
-      "price": 50.7,
-      "volume": 20000,
+      "price": 7.5,
+      "volume": 140000,
       "dollars": 0,
       "rank": "3"
     },
     {
-      "price": 53.8,
-      "volume": 20000,
-      "dollars": 0,
-      "rank": "5"
-    },
-    {
-      "price": 50.2,
-      "volume": 20000,
+      "price": 17.0,
+      "volume": 40000,
       "dollars": 0,
       "rank": "6"
     },
     {
-      "price": 18.3,
-      "volume": 40000,
+      "price": 13.6,
+      "volume": 50000,
       "dollars": 0,
       "rank": "7"
+    },
+    {
+      "price": 16.0,
+      "volume": 40000,
+      "dollars": 0,
+      "rank": "8"
+    },
+    {
+      "price": 18.3,
+      "volume": 30000,
+      "dollars": 0,
+      "rank": "11"
     }
   ],
   "boxes": []

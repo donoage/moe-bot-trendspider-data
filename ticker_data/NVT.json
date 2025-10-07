@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "NVT",
-    "generated_at": "2025-10-04T02:15:05.015397+00:00Z",
-    "date_range": "2025-07-05 to 2025-10-03",
+    "generated_at": "2025-10-07T01:50:49.394364+00:00Z",
+    "date_range": "2025-07-08 to 2025-10-06",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -53,7 +53,7 @@
     },
     {
       "price": 99.0,
-      "volume": 1790000,
+      "volume": 1800000,
       "dollars": 180000000,
       "rank": "6"
     },
@@ -76,5 +76,16 @@
       "rank": "9"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 98.79,
+      "low_price": 98.79,
+      "volume": 255200,
+      "dollars": 25211208,
+      "trades": 1,
+      "date_range": "2025-10-06",
+      "color": "blue"
+    }
+  ]
 }

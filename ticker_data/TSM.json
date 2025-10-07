@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "TSM",
-    "generated_at": "2025-10-04T02:10:43.175080+00:00Z",
-    "date_range": "2025-07-05 to 2025-10-03",
+    "generated_at": "2025-10-07T01:44:44.413893+00:00Z",
+    "date_range": "2025-07-08 to 2025-10-06",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -135,13 +135,23 @@
     },
     {
       "box_number": 3,
+      "high_price": 302.6,
+      "low_price": 302.6,
+      "volume": 77496,
+      "dollars": 23450289,
+      "trades": 1,
+      "date_range": "2025-10-06",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
       "high_price": 234.25,
       "low_price": 234.25,
       "volume": 99673,
       "dollars": 23348400,
       "trades": 1,
       "date_range": "2025-08-19",
-      "color": "orange"
+      "color": "red"
     }
   ]
 }

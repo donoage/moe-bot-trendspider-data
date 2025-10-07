@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "SOUX",
-    "generated_at": "2025-10-04T02:12:46.800785+00:00Z",
-    "date_range": "2025-07-05 to 2025-10-03",
+    "generated_at": "2025-10-07T01:47:55.440457+00:00Z",
+    "date_range": "2025-07-08 to 2025-10-06",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1759723200,
+      "price": 57.04,
+      "volume": 10554,
+      "dollars": 602000,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1758513600,
       "price": 44.54,
       "volume": 13250,
       "dollars": 590155,
-      "rank": 1,
+      "rank": 2,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,10 +34,16 @@
   ],
   "levels": [
     {
-      "price": 44.5,
+      "price": 57.0,
       "volume": 10000,
       "dollars": 0,
       "rank": "1"
+    },
+    {
+      "price": 44.5,
+      "volume": 10000,
+      "dollars": 0,
+      "rank": "2"
     }
   ],
   "boxes": []
