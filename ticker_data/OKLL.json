@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "OKLL",
-    "generated_at": "2025-10-07T01:47:54.904239+00:00Z",
-    "date_range": "2025-07-08 to 2025-10-06",
+    "generated_at": "2025-10-08T01:24:42.489992+00:00Z",
+    "date_range": "2025-07-09 to 2025-10-07",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -68,11 +68,35 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1759809600,
+      "price": 80.85,
+      "volume": 14094,
+      "dollars": 1139499,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1759809600,
+      "price": 80.01,
+      "volume": 13970,
+      "dollars": 1117783,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1758254400,
       "price": 79.31,
       "volume": 13517,
       "dollars": 1072033,
-      "rank": 6,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -84,7 +108,7 @@
       "price": 89.34,
       "volume": 11810,
       "dollars": 1055105,
-      "rank": 7,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,30 +120,6 @@
       "price": 67.82,
       "volume": 14889,
       "dollars": 1009771,
-      "rank": 8,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1759118400,
-      "price": 70.71,
-      "volume": 13000,
-      "dollars": 919191,
-      "rank": 9,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1759377600,
-      "price": 79.98,
-      "volume": 11386,
-      "dollars": 910652,
       "rank": 10,
       "conditions": "",
       "exchange": "",
@@ -131,30 +131,30 @@
   "levels": [
     {
       "price": 80.9,
-      "volume": 20000,
+      "volume": 30000,
       "dollars": 0,
       "rank": "1"
+    },
+    {
+      "price": 80.0,
+      "volume": 30000,
+      "dollars": 0,
+      "rank": "2"
     },
     {
       "price": 34.8,
       "volume": 40000,
       "dollars": 0,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 102.8,
       "volume": 10000,
       "dollars": 0,
-      "rank": "3"
-    },
-    {
-      "price": 75.6,
-      "volume": 20000,
-      "dollars": 0,
       "rank": "4"
     },
     {
-      "price": 63.8,
+      "price": 75.6,
       "volume": 20000,
       "dollars": 0,
       "rank": "5"
