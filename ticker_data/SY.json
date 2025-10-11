@@ -1,13 +1,19 @@
 {
   "metadata": {
     "ticker": "SY",
-    "generated_at": "2025-10-10T01:55:09.251192+00:00Z",
-    "date_range": "2025-07-11 to 2025-10-09",
+    "generated_at": "2025-10-11T05:02:12.567750+00:00Z",
+    "date_range": "2025-07-12 to 2025-10-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
   "levels": [
+    {
+      "price": 3.3,
+      "volume": 640000,
+      "dollars": 0,
+      "rank": "21"
+    },
     {
       "price": 3.6,
       "volume": 400000,
@@ -31,12 +37,6 @@
       "volume": 220000,
       "dollars": 0,
       "rank": "44"
-    },
-    {
-      "price": 3.8,
-      "volume": 160000,
-      "dollars": 0,
-      "rank": "56"
     }
   ],
   "boxes": []

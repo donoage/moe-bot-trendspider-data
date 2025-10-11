@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SH",
-    "generated_at": "2025-10-10T01:52:05.921026+00:00Z",
-    "date_range": "2025-07-11 to 2025-10-09",
+    "generated_at": "2025-10-11T04:59:28.312183+00:00Z",
+    "date_range": "2025-07-12 to 2025-10-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -34,6 +34,12 @@
       "rank": "0"
     },
     {
+      "price": 37.6,
+      "volume": 3950000,
+      "dollars": 150000000,
+      "rank": "0"
+    },
+    {
       "price": 38.7,
       "volume": 2840000,
       "dollars": 110000000,
@@ -43,12 +49,6 @@
       "price": 39.4,
       "volume": 2740000,
       "dollars": 110000000,
-      "rank": "0"
-    },
-    {
-      "price": 39.3,
-      "volume": 2490000,
-      "dollars": 100000000,
       "rank": "0"
     }
   ],
@@ -65,23 +65,33 @@
     },
     {
       "box_number": 2,
+      "high_price": 37.6,
+      "low_price": 37.58,
+      "volume": 2906451,
+      "dollars": 109254428,
+      "trades": 3,
+      "date_range": "2025-10-10",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 37.83,
       "low_price": 37.83,
       "volume": 1082232,
       "dollars": 40940836,
       "trades": 1,
       "date_range": "2025-09-11",
-      "color": "green"
+      "color": "orange"
     },
     {
-      "box_number": 3,
+      "box_number": 4,
       "high_price": 39.37,
       "low_price": 39.37,
       "volume": 875979,
       "dollars": 34487293,
       "trades": 1,
       "date_range": "2025-07-14",
-      "color": "orange"
+      "color": "red"
     }
   ]
 }
