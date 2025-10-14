@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "AVAV",
-    "generated_at": "2025-10-11T05:01:47.527833+00:00Z",
-    "date_range": "2025-07-12 to 2025-10-10",
+    "generated_at": "2025-10-14T03:32:24.227594+00:00Z",
+    "date_range": "2025-07-15 to 2025-10-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -80,11 +80,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1760328000,
+      "price": 409.83,
+      "volume": 205856,
+      "dollars": 84365964,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1752724800,
       "price": 278.56,
       "volume": 245573,
       "dollars": 68406814,
-      "rank": 14,
+      "rank": 15,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,7 +108,7 @@
       "price": 314.89,
       "volume": 205638,
       "dollars": 64753349,
-      "rank": 17,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 250.49,
       "volume": 234068,
       "dollars": 58631693,
-      "rank": 19,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1759118400,
-      "price": 308.69,
-      "volume": 188182,
-      "dollars": 58089901,
       "rank": 20,
       "conditions": "",
       "exchange": "",
@@ -154,10 +154,10 @@
       "rank": "4"
     },
     {
-      "price": 240.7,
-      "volume": 560000,
+      "price": 409.8,
+      "volume": 340000,
       "dollars": 140000000,
-      "rank": "6"
+      "rank": "5"
     }
   ],
   "boxes": []

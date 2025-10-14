@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "NVDX",
-    "generated_at": "2025-10-11T05:03:56.335759+00:00Z",
-    "date_range": "2025-07-12 to 2025-10-10",
+    "generated_at": "2025-10-14T03:34:32.923911+00:00Z",
+    "date_range": "2025-07-15 to 2025-10-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1760328000,
+      "price": 19.05,
+      "volume": 275100,
+      "dollars": 5240655,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1759118400,
       "price": 18.55,
       "volume": 263000,
       "dollars": 4878650,
-      "rank": 12,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -23,7 +35,7 @@
   "levels": [
     {
       "price": 18.8,
-      "volume": 2190000,
+      "volume": 2230000,
       "dollars": 40000000,
       "rank": "2"
     },

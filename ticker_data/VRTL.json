@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "VRTL",
-    "generated_at": "2025-10-11T05:02:47.429526+00:00Z",
-    "date_range": "2025-07-12 to 2025-10-10",
+    "generated_at": "2025-10-14T03:33:23.733873+00:00Z",
+    "date_range": "2025-07-15 to 2025-10-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -30,6 +30,18 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1760328000,
+      "price": 63.8,
+      "volume": 10227,
+      "dollars": 652482,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
@@ -44,6 +56,12 @@
       "volume": 10000,
       "dollars": 0,
       "rank": "2"
+    },
+    {
+      "price": 63.8,
+      "volume": 10000,
+      "dollars": 0,
+      "rank": "3"
     }
   ],
   "boxes": []
