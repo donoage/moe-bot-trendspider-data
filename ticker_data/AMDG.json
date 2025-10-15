@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "AMDG",
-    "generated_at": "2025-10-14T03:34:29.871119+00:00Z",
-    "date_range": "2025-07-15 to 2025-10-13",
+    "generated_at": "2025-10-15T02:17:10.397050+00:00Z",
+    "date_range": "2025-07-16 to 2025-10-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1760414400,
+      "price": 33.89,
+      "volume": 85905,
+      "dollars": 2911320,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1759464000,
       "price": 20.33,
       "volume": 54012,
       "dollars": 1098063,
-      "rank": 1,
+      "rank": 2,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 33.56,
       "volume": 20000,
       "dollars": 671202,
-      "rank": 2,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 21.5,
       "volume": 28083,
       "dollars": 603784,
-      "rank": 3,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,22 +58,28 @@
   ],
   "levels": [
     {
+      "price": 33.9,
+      "volume": 90000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
       "price": 20.3,
       "volume": 50000,
       "dollars": 0,
-      "rank": "1"
+      "rank": "2"
     },
     {
       "price": 33.6,
       "volume": 20000,
       "dollars": 0,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 21.5,
       "volume": 30000,
       "dollars": 0,
-      "rank": "3"
+      "rank": "4"
     }
   ],
   "boxes": []
