@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "IREN",
-    "generated_at": "2025-10-17T10:08:58.223203+00:00Z",
-    "date_range": "2025-07-19 to 2025-10-17",
+    "generated_at": "2025-10-20T10:06:09.024236+00:00Z",
+    "date_range": "2025-07-22 to 2025-10-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -80,11 +80,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1760673600,
+      "price": 60.43,
+      "volume": 880000,
+      "dollars": 53178400,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1758686400,
       "price": 47.33,
       "volume": 1000000,
       "dollars": 47327500,
-      "rank": 9,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,7 +108,7 @@
       "price": 44.3,
       "volume": 1052000,
       "dollars": 46600654,
-      "rank": 10,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 61.01,
       "volume": 750000,
       "dollars": 45753750,
-      "rank": 11,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1756180800,
-      "price": 22.92,
-      "volume": 1850000,
-      "dollars": 42405145,
       "rank": 12,
       "conditions": "",
       "exchange": "",
@@ -131,7 +131,7 @@
   "levels": [
     {
       "price": 60.1,
-      "volume": 3640000,
+      "volume": 3670000,
       "dollars": 220000000,
       "rank": "1"
     },

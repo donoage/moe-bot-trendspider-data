@@ -1,42 +1,55 @@
 {
   "metadata": {
     "ticker": "SHLS",
-    "generated_at": "2025-10-17T10:09:42.179685+00:00Z",
-    "date_range": "2025-07-19 to 2025-10-17",
+    "generated_at": "2025-10-20T10:07:02.061803+00:00Z",
+    "date_range": "2025-07-22 to 2025-10-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1760673600,
+      "price": 9.95,
+      "volume": 8667425,
+      "dollars": 86240878,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 10.0,
+      "volume": 10910000,
+      "dollars": 110000000,
+      "rank": "12"
+    },
     {
       "price": 5.1,
       "volume": 15160000,
       "dollars": 80000000,
-      "rank": "22"
+      "rank": "23"
     },
     {
       "price": 6.6,
       "volume": 11690000,
       "dollars": 80000000,
-      "rank": "23"
+      "rank": "24"
     },
     {
       "price": 4.7,
       "volume": 16329999,
       "dollars": 80000000,
-      "rank": "24"
+      "rank": "25"
     },
     {
       "price": 6.5,
       "volume": 10080000,
       "dollars": 70000000,
-      "rank": "31"
-    },
-    {
-      "price": 6.8,
-      "volume": 9200000,
-      "dollars": 60000000,
-      "rank": "34"
+      "rank": "32"
     }
   ],
   "boxes": []

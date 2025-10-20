@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "AIT",
-    "generated_at": "2025-10-17T10:13:02.253921+00:00Z",
-    "date_range": "2025-07-19 to 2025-10-17",
+    "generated_at": "2025-10-20T10:10:06.477311+00:00Z",
+    "date_range": "2025-07-22 to 2025-10-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1760673600,
+      "price": 247.92,
+      "volume": 318868,
+      "dollars": 79053754,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1758254400,
       "price": 260.45,
       "volume": 283594,
       "dollars": 73862057,
-      "rank": 7,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,10 +58,10 @@
       "rank": "9"
     },
     {
-      "price": 262.5,
-      "volume": 260000,
-      "dollars": 70000000,
-      "rank": "13"
+      "price": 247.9,
+      "volume": 320000,
+      "dollars": 80000000,
+      "rank": "12"
     }
   ],
   "boxes": []

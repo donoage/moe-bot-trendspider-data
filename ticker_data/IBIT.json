@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "IBIT",
-    "generated_at": "2025-10-17T10:10:28.761402+00:00Z",
-    "date_range": "2025-07-19 to 2025-10-17",
+    "generated_at": "2025-10-20T10:07:41.805298+00:00Z",
+    "date_range": "2025-07-22 to 2025-10-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -25,18 +25,6 @@
       "volume": 4050000,
       "dollars": 266834250,
       "rank": 8,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1753070400,
-      "price": 66.99,
-      "volume": 3500000,
-      "dollars": 234447500,
-      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -71,31 +59,31 @@
   "levels": [
     {
       "price": 60.6,
-      "volume": 18000000,
-      "dollars": 1090000000,
+      "volume": 18510000,
+      "dollars": 1120000000,
       "rank": "1"
     },
     {
       "price": 59.8,
-      "volume": 17920000,
-      "dollars": 1070000000,
+      "volume": 18220000,
+      "dollars": 1090000000,
       "rank": "2"
+    },
+    {
+      "price": 59.9,
+      "volume": 15850000,
+      "dollars": 950000000,
+      "rank": "3"
     },
     {
       "price": 66.4,
       "volume": 14270000,
       "dollars": 950000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 67.0,
       "volume": 11970000,
-      "dollars": 800000000,
-      "rank": "4"
-    },
-    {
-      "price": 59.9,
-      "volume": 13390000,
       "dollars": 800000000,
       "rank": "5"
     }

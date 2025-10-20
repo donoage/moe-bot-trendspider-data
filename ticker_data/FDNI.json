@@ -1,18 +1,42 @@
 {
   "metadata": {
     "ticker": "FDNI",
-    "generated_at": "2025-10-17T10:14:56.607681+00:00Z",
-    "date_range": "2025-07-19 to 2025-10-17",
+    "generated_at": "2025-10-20T10:11:34.100555+00:00Z",
+    "date_range": "2025-07-22 to 2025-10-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1760673600,
+      "price": 37.22,
+      "volume": 968603,
+      "dollars": 36051403,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1760673600,
+      "price": 37.22,
+      "volume": 102463,
+      "dollars": 3813672,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1760414400,
       "price": 37.24,
       "volume": 95416,
       "dollars": 3553291,
-      "rank": 14,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,20 +58,20 @@
       "rank": "2"
     },
     {
-      "price": 36.5,
-      "volume": 180000,
-      "dollars": 10000000,
-      "rank": "5"
+      "price": 37.2,
+      "volume": 1250000,
+      "dollars": 50000000,
+      "rank": "3"
     },
     {
-      "price": 25.7,
-      "volume": 240000,
+      "price": 36.5,
+      "volume": 180000,
       "dollars": 10000000,
       "rank": "6"
     },
     {
-      "price": 23.8,
-      "volume": 250000,
+      "price": 25.7,
+      "volume": 240000,
       "dollars": 10000000,
       "rank": "7"
     }

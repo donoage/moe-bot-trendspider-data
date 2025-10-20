@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "NVDS",
-    "generated_at": "2025-10-17T10:09:28.987421+00:00Z",
-    "date_range": "2025-07-19 to 2025-10-17",
+    "generated_at": "2025-10-20T10:06:39.260682+00:00Z",
+    "date_range": "2025-07-22 to 2025-10-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1760673600,
+      "price": 11.36,
+      "volume": 137743,
+      "dollars": 1564898,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 12.8,

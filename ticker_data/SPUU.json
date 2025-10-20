@@ -1,30 +1,49 @@
 {
   "metadata": {
     "ticker": "SPUU",
-    "generated_at": "2025-10-17T10:09:32.611439+00:00Z",
-    "date_range": "2025-07-19 to 2025-10-17",
+    "generated_at": "2025-10-20T10:06:42.405463+00:00Z",
+    "date_range": "2025-07-22 to 2025-10-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1760673600,
+      "price": 177.9,
+      "volume": 100000,
+      "dollars": 17790000,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 177.9,
+      "volume": 120000,
+      "dollars": 20000000,
+      "rank": "5"
+    },
     {
       "price": 177.6,
       "volume": 30000,
       "dollars": 10000000,
-      "rank": "29"
+      "rank": "30"
     },
     {
       "price": 172.4,
       "volume": 30000,
       "dollars": 10000000,
-      "rank": "31"
+      "rank": "32"
     },
     {
       "price": 158.7,
       "volume": 10000,
       "dollars": 0,
-      "rank": "68"
+      "rank": "69"
     }
   ],
   "boxes": []
