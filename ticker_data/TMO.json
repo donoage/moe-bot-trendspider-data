@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "TMO",
-    "generated_at": "2025-10-21T05:38:09.912686+00:00Z",
+    "generated_at": "2025-10-21T14:31:12.871711+00:00Z",
     "date_range": "2025-07-23 to 2025-10-21",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -21,6 +21,12 @@
     }
   ],
   "levels": [
+    {
+      "price": 553.0,
+      "volume": 4930000,
+      "dollars": 2730000000,
+      "rank": "1"
+    },
     {
       "price": 492.9,
       "volume": 4750000,
@@ -44,12 +50,6 @@
       "volume": 2720000,
       "dollars": 1410000000,
       "rank": "5"
-    },
-    {
-      "price": 547.3,
-      "volume": 2220000,
-      "dollars": 1210000000,
-      "rank": "6"
     }
   ],
   "boxes": [

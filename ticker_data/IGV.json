@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "IGV",
-    "generated_at": "2025-10-21T05:38:00.713107+00:00Z",
+    "generated_at": "2025-10-21T14:30:53.440549+00:00Z",
     "date_range": "2025-07-23 to 2025-10-21",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -65,13 +65,23 @@
     },
     {
       "box_number": 2,
+      "high_price": 113.83,
+      "low_price": 113.83,
+      "volume": 318585,
+      "dollars": 36264530,
+      "trades": 1,
+      "date_range": "2025-10-21",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 117.07,
       "low_price": 117.07,
       "volume": 187105,
       "dollars": 21904382,
       "trades": 1,
       "date_range": "2025-09-23",
-      "color": "green"
+      "color": "orange"
     }
   ]
 }
