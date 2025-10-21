@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "FXI",
-    "generated_at": "2025-10-20T10:11:24.351233+00:00Z",
-    "date_range": "2025-07-22 to 2025-10-20",
+    "generated_at": "2025-10-21T05:41:31.936418+00:00Z",
+    "date_range": "2025-07-23 to 2025-10-21",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -10,8 +10,8 @@
   "levels": [
     {
       "price": 40.5,
-      "volume": 205000000,
-      "dollars": 8300000000,
+      "volume": 216020000,
+      "dollars": 8750000000,
       "rank": "1"
     },
     {
@@ -79,6 +79,16 @@
       "trades": 1,
       "date_range": "2025-10-10",
       "color": "red"
+    },
+    {
+      "box_number": 5,
+      "high_price": 40.1,
+      "low_price": 40.1,
+      "volume": 483900,
+      "dollars": 19404390,
+      "trades": 1,
+      "date_range": "2025-10-20",
+      "color": "purple"
     }
   ]
 }
