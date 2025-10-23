@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "NFLU",
-    "generated_at": "2025-10-21T14:36:43.531821+00:00Z",
-    "date_range": "2025-07-23 to 2025-10-21",
+    "generated_at": "2025-10-23T04:37:06.073624+00:00Z",
+    "date_range": "2025-07-25 to 2025-10-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1761019200,
+      "price": 60.3,
+      "volume": 16650,
+      "dollars": 1003995,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1755230400,
       "price": 62.05,
       "volume": 10443,
       "dollars": 647988,
-      "rank": 1,
+      "rank": 2,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,10 +34,16 @@
   ],
   "levels": [
     {
+      "price": 60.3,
+      "volume": 20000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
       "price": 62.1,
       "volume": 10000,
       "dollars": 0,
-      "rank": "1"
+      "rank": "2"
     }
   ],
   "boxes": []

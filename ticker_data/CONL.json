@@ -1,32 +1,13 @@
 {
   "metadata": {
     "ticker": "CONL",
-    "generated_at": "2025-10-21T14:29:12.419549+00:00Z",
-    "date_range": "2025-07-23 to 2025-10-21",
+    "generated_at": "2025-10-23T04:30:01.838186+00:00Z",
+    "date_range": "2025-07-25 to 2025-10-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1753329600,
-      "price": 57.72,
-      "volume": 874642,
-      "dollars": 50484336,
-      "rank": 4,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
-    {
-      "price": 59.1,
-      "volume": 1540000,
-      "dollars": 90000000,
-      "rank": "1"
-    },
     {
       "price": 54.1,
       "volume": 1540000,
@@ -50,6 +31,12 @@
       "volume": 440000,
       "dollars": 20000000,
       "rank": "9"
+    },
+    {
+      "price": 36.0,
+      "volume": 480000,
+      "dollars": 20000000,
+      "rank": "10"
     }
   ],
   "boxes": []

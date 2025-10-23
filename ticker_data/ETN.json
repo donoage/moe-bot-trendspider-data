@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "ETN",
-    "generated_at": "2025-10-21T14:31:57.435587+00:00Z",
-    "date_range": "2025-07-23 to 2025-10-21",
+    "generated_at": "2025-10-23T04:32:30.016388+00:00Z",
+    "date_range": "2025-07-25 to 2025-10-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -40,29 +40,40 @@
       "rank": "3"
     },
     {
+      "price": 360.6,
+      "volume": 1890000,
+      "dollars": 680000000,
+      "rank": "6"
+    },
+    {
       "price": 360.1,
       "volume": 1780000,
       "dollars": 640000000,
-      "rank": "9"
+      "rank": "10"
     },
     {
       "price": 374.5,
-      "volume": 1630000,
+      "volume": 1640000,
       "dollars": 610000000,
-      "rank": "11"
+      "rank": "12"
     },
     {
       "price": 348.6,
       "volume": 1490000,
       "dollars": 520000000,
-      "rank": "20"
-    },
-    {
-      "price": 342.6,
-      "volume": 1420000,
-      "dollars": 490000000,
-      "rank": "23"
+      "rank": "21"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 373.64,
+      "low_price": 373.64,
+      "volume": 239914,
+      "dollars": 89641466,
+      "trades": 1,
+      "date_range": "2025-10-21",
+      "color": "blue"
+    }
+  ]
 }

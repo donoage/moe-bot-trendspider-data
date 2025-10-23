@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "JEPI",
-    "generated_at": "2025-10-21T14:30:36.427875+00:00Z",
-    "date_range": "2025-07-23 to 2025-10-21",
+    "generated_at": "2025-10-23T04:31:28.332571+00:00Z",
+    "date_range": "2025-07-25 to 2025-10-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1761105600,
+      "price": 57.3,
+      "volume": 1300000,
+      "dollars": 74490000,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 56.9,

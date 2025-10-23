@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "KNSA",
-    "generated_at": "2025-10-21T14:34:15.462337+00:00Z",
-    "date_range": "2025-07-23 to 2025-10-21",
+    "generated_at": "2025-10-23T04:34:49.466825+00:00Z",
+    "date_range": "2025-07-25 to 2025-10-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1761019200,
+      "price": 38.6,
+      "volume": 250000,
+      "dollars": 9650000,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 28.0,

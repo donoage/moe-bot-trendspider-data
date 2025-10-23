@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "STZ",
-    "generated_at": "2025-10-21T14:33:08.812132+00:00Z",
-    "date_range": "2025-07-23 to 2025-10-21",
+    "generated_at": "2025-10-23T04:33:40.747069+00:00Z",
+    "date_range": "2025-07-25 to 2025-10-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -34,12 +34,6 @@
   ],
   "levels": [
     {
-      "price": 177.4,
-      "volume": 4310000,
-      "dollars": 760000000,
-      "rank": "1"
-    },
-    {
       "price": 162.4,
       "volume": 3070000,
       "dollars": 500000000,
@@ -62,7 +56,24 @@
       "volume": 2300000,
       "dollars": 350000000,
       "rank": "34"
+    },
+    {
+      "price": 138.6,
+      "volume": 2370000,
+      "dollars": 330000000,
+      "rank": "44"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 140.3,
+      "low_price": 140.3,
+      "volume": 149200,
+      "dollars": 20932760,
+      "trades": 1,
+      "date_range": "2025-10-22",
+      "color": "blue"
+    }
+  ]
 }

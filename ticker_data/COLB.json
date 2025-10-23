@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "COLB",
-    "generated_at": "2025-10-21T14:37:41.403318+00:00Z",
-    "date_range": "2025-07-23 to 2025-10-21",
+    "generated_at": "2025-10-23T04:38:06.701181+00:00Z",
+    "date_range": "2025-07-25 to 2025-10-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -100,17 +100,28 @@
       "rank": "4"
     },
     {
-      "price": 26.1,
-      "volume": 8210000,
-      "dollars": 210000000,
+      "price": 25.6,
+      "volume": 9000000,
+      "dollars": 230000000,
       "rank": "6"
     },
     {
-      "price": 27.2,
-      "volume": 7630000,
+      "price": 26.1,
+      "volume": 8210000,
       "dollars": 210000000,
       "rank": "7"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 25.63,
+      "low_price": 25.63,
+      "volume": 989078,
+      "dollars": 25350069,
+      "trades": 1,
+      "date_range": "2025-10-21",
+      "color": "blue"
+    }
+  ]
 }
