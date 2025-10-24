@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SHPU",
-    "generated_at": "2025-10-23T14:38:58.514818+00:00Z",
-    "date_range": "2025-07-25 to 2025-10-23",
+    "generated_at": "2025-10-24T14:48:14.443296+00:00Z",
+    "date_range": "2025-07-26 to 2025-10-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -24,7 +24,7 @@
       "price": 37.31,
       "volume": 14000,
       "dollars": 522341,
-      "rank": 1,
+      "rank": 2,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,10 +34,16 @@
   ],
   "levels": [
     {
+      "price": 37.7,
+      "volume": 30000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
       "price": 37.3,
       "volume": 10000,
       "dollars": 0,
-      "rank": "1"
+      "rank": "2"
     }
   ],
   "boxes": []
