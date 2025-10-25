@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "ICE",
-    "generated_at": "2025-10-24T21:25:25.215434+00:00Z",
+    "generated_at": "2025-10-25T03:23:29.249085+00:00Z",
     "date_range": "2025-07-26 to 2025-10-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1755144000,
+      "price": 183.57,
+      "volume": 1646343,
+      "dollars": 302219184,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 169.77,
+      "volume": 1602195,
+      "dollars": 272004645,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 179.8,

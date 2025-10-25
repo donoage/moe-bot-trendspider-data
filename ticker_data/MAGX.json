@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "MAGX",
-    "generated_at": "2025-10-24T14:48:13.341289+00:00Z",
+    "generated_at": "2025-10-25T03:23:27.344922+00:00Z",
     "date_range": "2025-07-26 to 2025-10-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1761278400,
+      "price": 57.62,
+      "volume": 32761,
+      "dollars": 1887688,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1760068800,
       "price": 53.13,
       "volume": 29172,
       "dollars": 1549908,
-      "rank": 4,
+      "rank": 5,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 56.89,
       "volume": 26926,
       "dollars": 1531820,
-      "rank": 5,
+      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 47.68,
       "volume": 30202,
       "dollars": 1440031,
-      "rank": 7,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -48,7 +60,7 @@
       "price": 48.32,
       "volume": 20800,
       "dollars": 1005056,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -60,7 +72,7 @@
       "price": 46.73,
       "volume": 20000,
       "dollars": 934600,
-      "rank": 17,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -70,31 +82,31 @@
   ],
   "levels": [
     {
+      "price": 57.6,
+      "volume": 30000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
       "price": 45.7,
       "volume": 40000,
       "dollars": 0,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 51.0,
       "volume": 30000,
       "dollars": 0,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 53.1,
       "volume": 30000,
       "dollars": 0,
-      "rank": "5"
-    },
-    {
-      "price": 56.9,
-      "volume": 30000,
-      "dollars": 0,
       "rank": "6"
     },
     {
-      "price": 44.0,
+      "price": 56.9,
       "volume": 30000,
       "dollars": 0,
       "rank": "7"

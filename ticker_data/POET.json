@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "POET",
-    "generated_at": "2025-10-24T14:45:52.884761+00:00Z",
+    "generated_at": "2025-10-25T03:20:35.756707+00:00Z",
     "date_range": "2025-07-26 to 2025-10-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -92,11 +92,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1761278400,
+      "price": 8.23,
+      "volume": 196424,
+      "dollars": 1616569,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1760414400,
       "price": 9.05,
       "volume": 174285,
       "dollars": 1577279,
-      "rank": 13,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 7.31,
       "volume": 196898,
       "dollars": 1439324,
-      "rank": 17,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1760328000,
-      "price": 7.91,
-      "volume": 172954,
-      "dollars": 1368066,
       "rank": 18,
       "conditions": "",
       "exchange": "",
@@ -131,7 +131,7 @@
   "levels": [
     {
       "price": 8.3,
-      "volume": 1390000,
+      "volume": 1480000,
       "dollars": 10000000,
       "rank": "1"
     },
