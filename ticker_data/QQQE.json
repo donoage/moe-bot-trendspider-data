@@ -1,54 +1,77 @@
 {
   "metadata": {
     "ticker": "QQQE",
-    "generated_at": "2025-10-25T03:20:28.074904+00:00Z",
-    "date_range": "2025-07-26 to 2025-10-24",
+    "generated_at": "2025-10-28T01:48:55.627316+00:00Z",
+    "date_range": "2025-07-29 to 2025-10-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1761537600,
+      "price": 105.04,
+      "volume": 557797,
+      "dollars": 58590996,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 105.0,
+      "volume": 560000,
+      "dollars": 60000000,
+      "rank": "11"
+    },
     {
       "price": 103.5,
       "volume": 190000,
       "dollars": 20000000,
-      "rank": "51"
+      "rank": "52"
     },
     {
       "price": 98.0,
       "volume": 170000,
       "dollars": 20000000,
-      "rank": "67"
+      "rank": "68"
     },
     {
       "price": 102.4,
       "volume": 130000,
       "dollars": 10000000,
-      "rank": "82"
+      "rank": "83"
     },
     {
       "price": 101.8,
       "volume": 110000,
       "dollars": 10000000,
-      "rank": "93"
-    },
-    {
-      "price": 102.3,
-      "volume": 110000,
-      "dollars": 10000000,
-      "rank": "99"
+      "rank": "94"
     }
   ],
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 105.04,
+      "low_price": 105.04,
+      "volume": 557797,
+      "dollars": 58590996,
+      "trades": 1,
+      "date_range": "2025-10-27",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 103.45,
       "low_price": 103.45,
       "volume": 192119,
       "dollars": 19874710,
       "trades": 1,
       "date_range": "2025-10-06",
-      "color": "blue"
+      "color": "green"
     }
   ]
 }
