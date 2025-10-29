@@ -1,73 +1,12 @@
 {
   "metadata": {
     "ticker": "OLO",
-    "generated_at": "2025-10-29T03:51:33.165866+00:00Z",
-    "date_range": "2025-07-30 to 2025-10-28",
+    "generated_at": "2025-10-29T10:11:03.600133+00:00Z",
+    "date_range": "2025-07-31 to 2025-10-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1754020800,
-      "price": 10.4,
-      "volume": 4807466,
-      "dollars": 49997646,
-      "rank": 3,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1757476800,
-      "price": 10.26,
-      "volume": 4577136,
-      "dollars": 46961415,
-      "rank": 4,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1757563200,
-      "price": 10.26,
-      "volume": 3796436,
-      "dollars": 38951433,
-      "rank": 5,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1755230400,
-      "price": 10.2,
-      "volume": 1555000,
-      "dollars": 15853225,
-      "rank": 13,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1755576000,
-      "price": 10.21,
-      "volume": 1500000,
-      "dollars": 15315000,
-      "rank": 16,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 10.1,
@@ -100,16 +39,5 @@
       "rank": "5"
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 10.4,
-      "low_price": 10.4,
-      "volume": 4807466,
-      "dollars": 49997646,
-      "trades": 1,
-      "date_range": "2025-08-01",
-      "color": "blue"
-    }
-  ]
+  "boxes": []
 }
