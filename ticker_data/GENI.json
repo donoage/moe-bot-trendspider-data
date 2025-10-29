@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "GENI",
-    "generated_at": "2025-10-28T01:46:07.687015+00:00Z",
-    "date_range": "2025-07-29 to 2025-10-27",
+    "generated_at": "2025-10-29T02:08:42.057479+00:00Z",
+    "date_range": "2025-07-30 to 2025-10-28",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -32,11 +32,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1761624000,
+      "price": 12.0,
+      "volume": 1251414,
+      "dollars": 15016968,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1758254400,
       "price": 12.79,
       "volume": 1115530,
       "dollars": 14267628,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -48,19 +60,7 @@
       "price": 12.93,
       "volume": 1101403,
       "dollars": 14241140,
-      "rank": 17,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1754884800,
-      "price": 12.52,
-      "volume": 1101367,
-      "dollars": 13789114,
-      "rank": 20,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -76,28 +76,28 @@
       "rank": "1"
     },
     {
+      "price": 12.0,
+      "volume": 8590000,
+      "dollars": 100000000,
+      "rank": "3"
+    },
+    {
       "price": 12.8,
       "volume": 6330000,
       "dollars": 80000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 12.9,
       "volume": 5190000,
       "dollars": 70000000,
-      "rank": "5"
+      "rank": "6"
     },
     {
       "price": 12.7,
       "volume": 4940000,
       "dollars": 60000000,
-      "rank": "7"
-    },
-    {
-      "price": 10.3,
-      "volume": 5140000,
-      "dollars": 50000000,
-      "rank": "9"
+      "rank": "8"
     }
   ],
   "boxes": []
