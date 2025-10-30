@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "CL",
-    "generated_at": "2025-10-29T10:13:21.553942+00:00Z",
+    "generated_at": "2025-10-30T02:17:00.818447+00:00Z",
     "date_range": "2025-07-31 to 2025-10-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -23,9 +23,15 @@
   "levels": [
     {
       "price": 77.1,
-      "volume": 24980000,
+      "volume": 25250000,
+      "dollars": 1950000000,
+      "rank": "1"
+    },
+    {
+      "price": 75.4,
+      "volume": 25530000,
       "dollars": 1930000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 80.3,
@@ -44,12 +50,6 @@
       "volume": 21390000,
       "dollars": 1680000000,
       "rank": "8"
-    },
-    {
-      "price": 78.0,
-      "volume": 21430000,
-      "dollars": 1670000000,
-      "rank": "9"
     }
   ],
   "boxes": []

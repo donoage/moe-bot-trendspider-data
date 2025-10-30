@@ -1,43 +1,67 @@
 {
   "metadata": {
     "ticker": "JEPQ",
-    "generated_at": "2025-10-29T10:12:25.447764+00:00Z",
+    "generated_at": "2025-10-30T02:16:12.980852+00:00Z",
     "date_range": "2025-07-31 to 2025-10-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1761710400,
+      "price": 59.18,
+      "volume": 5380370,
+      "dollars": 318410296,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 59.2,
+      "volume": 6660000,
+      "dollars": 390000000,
+      "rank": "2"
+    },
     {
       "price": 57.3,
       "volume": 6060000,
       "dollars": 350000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 55.7,
       "volume": 6030000,
       "dollars": 340000000,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 57.4,
       "volume": 5710000,
       "dollars": 330000000,
-      "rank": "6"
+      "rank": "7"
     },
     {
       "price": 53.9,
       "volume": 5650000,
       "dollars": 300000000,
-      "rank": "8"
-    },
-    {
-      "price": 54.3,
-      "volume": 5580000,
-      "dollars": 300000000,
       "rank": "9"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 59.18,
+      "low_price": 59.18,
+      "volume": 5380370,
+      "dollars": 318410296,
+      "trades": 1,
+      "date_range": "2025-10-29",
+      "color": "blue"
+    }
+  ]
 }
