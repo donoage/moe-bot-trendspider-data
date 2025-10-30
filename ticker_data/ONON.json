@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "ONON",
-    "generated_at": "2025-10-30T02:17:11.712976+00:00Z",
-    "date_range": "2025-07-31 to 2025-10-29",
+    "generated_at": "2025-10-30T10:03:30.155225+00:00Z",
+    "date_range": "2025-08-01 to 2025-10-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -54,18 +54,6 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
-    },
-    {
-      "timestamp": 1753934400,
-      "price": 49.0,
-      "volume": 998390,
-      "dollars": 48921110,
-      "rank": 17,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
     }
   ],
   "levels": [
@@ -103,23 +91,13 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 49.0,
-      "low_price": 49.0,
-      "volume": 998390,
-      "dollars": 48921110,
-      "trades": 1,
-      "date_range": "2025-07-31",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
       "high_price": 47.8,
       "low_price": 47.8,
       "volume": 399400,
       "dollars": 19091320,
       "trades": 1,
       "date_range": "2025-08-13",
-      "color": "green"
+      "color": "blue"
     }
   ]
 }
