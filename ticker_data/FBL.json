@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "FBL",
-    "generated_at": "2025-10-30T10:00:49.304521+00:00Z",
+    "generated_at": "2025-10-31T01:44:52.813577+00:00Z",
     "date_range": "2025-08-01 to 2025-10-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -18,9 +18,33 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1761796800,
+      "price": 35.01,
+      "volume": 56150,
+      "dollars": 1965811,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
+    {
+      "price": 34.9,
+      "volume": 190000,
+      "dollars": 10000000,
+      "rank": "4"
+    },
+    {
+      "price": 34.8,
+      "volume": 180000,
+      "dollars": 10000000,
+      "rank": "5"
+    },
     {
       "price": 48.3,
       "volume": 120000,
@@ -28,28 +52,16 @@
       "rank": "6"
     },
     {
-      "price": 48.4,
-      "volume": 100000,
+      "price": 34.0,
+      "volume": 170000,
+      "dollars": 10000000,
+      "rank": "8"
+    },
+    {
+      "price": 35.0,
+      "volume": 140000,
       "dollars": 0,
       "rank": "10"
-    },
-    {
-      "price": 42.0,
-      "volume": 110000,
-      "dollars": 0,
-      "rank": "12"
-    },
-    {
-      "price": 47.5,
-      "volume": 100000,
-      "dollars": 0,
-      "rank": "13"
-    },
-    {
-      "price": 41.0,
-      "volume": 90000,
-      "dollars": 0,
-      "rank": "20"
     }
   ],
   "boxes": []

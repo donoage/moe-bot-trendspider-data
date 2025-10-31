@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "COUR",
-    "generated_at": "2025-10-30T10:07:31.334560+00:00Z",
+    "generated_at": "2025-10-31T01:50:16.635295+00:00Z",
     "date_range": "2025-08-01 to 2025-10-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -9,16 +9,22 @@
   "prints": [],
   "levels": [
     {
+      "price": 8.3,
+      "volume": 7290000,
+      "dollars": 60000000,
+      "rank": "10"
+    },
+    {
       "price": 8.5,
       "volume": 6920000,
       "dollars": 60000000,
-      "rank": "10"
+      "rank": "11"
     },
     {
       "price": 12.7,
       "volume": 4610000,
       "dollars": 60000000,
-      "rank": "12"
+      "rank": "13"
     },
     {
       "price": 11.9,
@@ -31,12 +37,6 @@
       "volume": 5810000,
       "dollars": 50000000,
       "rank": "16"
-    },
-    {
-      "price": 11.6,
-      "volume": 3840000,
-      "dollars": 40000000,
-      "rank": "21"
     }
   ],
   "boxes": []

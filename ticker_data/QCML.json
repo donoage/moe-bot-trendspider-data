@@ -1,18 +1,37 @@
 {
   "metadata": {
     "ticker": "QCML",
-    "generated_at": "2025-10-30T10:06:48.401614+00:00Z",
+    "generated_at": "2025-10-31T01:49:29.824614+00:00Z",
     "date_range": "2025-08-01 to 2025-10-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1761796800,
+      "price": 23.04,
+      "volume": 36960,
+      "dollars": 851558,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 18.1,
       "volume": 70000,
       "dollars": 0,
       "rank": "1"
+    },
+    {
+      "price": 23.0,
+      "volume": 40000,
+      "dollars": 0,
+      "rank": "2"
     }
   ],
   "boxes": []
