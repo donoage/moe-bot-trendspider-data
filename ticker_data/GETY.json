@@ -1,36 +1,55 @@
 {
   "metadata": {
     "ticker": "GETY",
-    "generated_at": "2025-10-31T01:50:42.493756+00:00Z",
-    "date_range": "2025-08-01 to 2025-10-30",
+    "generated_at": "2025-10-31T19:10:08.195346+00:00Z",
+    "date_range": "2025-08-02 to 2025-10-31",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1761883200,
+      "price": 3.12,
+      "volume": 612555,
+      "dollars": 1911171,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 3.3,
+      "volume": 11710000,
+      "dollars": 40000000,
+      "rank": "1"
+    },
+    {
+      "price": 3.2,
+      "volume": 4410000,
+      "dollars": 10000000,
+      "rank": "3"
+    },
+    {
+      "price": 2.6,
+      "volume": 2640000,
+      "dollars": 10000000,
+      "rank": "8"
+    },
+    {
+      "price": 2.9,
+      "volume": 2069999,
+      "dollars": 10000000,
+      "rank": "9"
+    },
     {
       "price": 1.7,
       "volume": 2990000,
       "dollars": 0,
       "rank": "10"
-    },
-    {
-      "price": 2.1,
-      "volume": 820000,
-      "dollars": 0,
-      "rank": "21"
-    },
-    {
-      "price": 2.2,
-      "volume": 460000,
-      "dollars": 0,
-      "rank": "28"
-    },
-    {
-      "price": 2.3,
-      "volume": 250000,
-      "dollars": 0,
-      "rank": "42"
     }
   ],
   "boxes": []

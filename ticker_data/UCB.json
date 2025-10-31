@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "UCB",
-    "generated_at": "2025-10-31T01:52:02.132876+00:00Z",
-    "date_range": "2025-08-01 to 2025-10-30",
+    "generated_at": "2025-10-31T19:11:21.853817+00:00Z",
+    "date_range": "2025-08-02 to 2025-10-31",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -46,6 +46,12 @@
   ],
   "levels": [
     {
+      "price": 28.8,
+      "volume": 2590000,
+      "dollars": 70000000,
+      "rank": "2"
+    },
+    {
       "price": 29.5,
       "volume": 2500000,
       "dollars": 70000000,
@@ -68,12 +74,6 @@
       "volume": 1640000,
       "dollars": 50000000,
       "rank": "7"
-    },
-    {
-      "price": 31.5,
-      "volume": 1350000,
-      "dollars": 40000000,
-      "rank": "9"
     }
   ],
   "boxes": []
