@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "BROS",
-    "generated_at": "2025-11-02T11:42:01.392664+00:00Z",
-    "date_range": "2025-08-02 to 2025-10-31",
+    "generated_at": "2025-11-04T02:36:18.797404+00:00Z",
+    "date_range": "2025-08-05 to 2025-11-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -13,6 +13,18 @@
       "volume": 913244,
       "dollars": 53534363,
       "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1762142400,
+      "price": 56.5,
+      "volume": 700000,
+      "dollars": 39550000,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -52,5 +64,16 @@
       "rank": "10"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 56.5,
+      "low_price": 56.5,
+      "volume": 700000,
+      "dollars": 39550000,
+      "trades": 1,
+      "date_range": "2025-11-03",
+      "color": "blue"
+    }
+  ]
 }

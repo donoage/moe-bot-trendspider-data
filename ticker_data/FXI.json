@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "FXI",
-    "generated_at": "2025-11-02T11:46:08.320120+00:00Z",
-    "date_range": "2025-08-02 to 2025-10-31",
+    "generated_at": "2025-11-04T02:40:46.933314+00:00Z",
+    "date_range": "2025-08-05 to 2025-11-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -52,43 +52,53 @@
     },
     {
       "box_number": 2,
+      "high_price": 39.81,
+      "low_price": 39.81,
+      "volume": 987408,
+      "dollars": 39308712,
+      "trades": 1,
+      "date_range": "2025-11-03",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 41.74,
       "low_price": 41.74,
       "volume": 880936,
       "dollars": 36770268,
       "trades": 1,
       "date_range": "2025-10-02",
-      "color": "green"
+      "color": "orange"
     },
     {
-      "box_number": 3,
+      "box_number": 4,
       "high_price": 38.18,
       "low_price": 38.18,
       "volume": 521474,
       "dollars": 19909877,
       "trades": 1,
       "date_range": "2025-08-27",
-      "color": "orange"
+      "color": "red"
     },
     {
-      "box_number": 4,
+      "box_number": 5,
       "high_price": 39.26,
       "low_price": 39.26,
       "volume": 500000,
       "dollars": 19630000,
       "trades": 1,
       "date_range": "2025-10-10",
-      "color": "red"
+      "color": "purple"
     },
     {
-      "box_number": 5,
+      "box_number": 6,
       "high_price": 40.1,
       "low_price": 40.1,
       "volume": 483900,
       "dollars": 19404390,
       "trades": 1,
       "date_range": "2025-10-20",
-      "color": "purple"
+      "color": "yellow"
     }
   ]
 }

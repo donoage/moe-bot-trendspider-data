@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "HL",
-    "generated_at": "2025-11-02T11:47:41.659963+00:00Z",
-    "date_range": "2025-08-02 to 2025-10-31",
+    "generated_at": "2025-11-04T02:42:34.586213+00:00Z",
+    "date_range": "2025-08-05 to 2025-11-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -68,11 +68,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1762142400,
+      "price": 12.76,
+      "volume": 3853717,
+      "dollars": 49173428,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1758081600,
       "price": 11.03,
       "volume": 3710397,
       "dollars": 40925678,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -86,12 +98,6 @@
       "volume": 126760000,
       "dollars": 1390000000,
       "rank": "1"
-    },
-    {
-      "price": 5.8,
-      "volume": 82750000,
-      "dollars": 480000000,
-      "rank": "5"
     },
     {
       "price": 5.9,
@@ -110,6 +116,12 @@
       "volume": 67460000,
       "dollars": 410000000,
       "rank": "11"
+    },
+    {
+      "price": 6.3,
+      "volume": 48430000,
+      "dollars": 310000000,
+      "rank": "14"
     }
   ],
   "boxes": []
