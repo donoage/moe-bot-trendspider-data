@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "AAPU",
-    "generated_at": "2025-11-04T02:35:41.584954+00:00Z",
-    "date_range": "2025-08-05 to 2025-11-03",
+    "generated_at": "2025-11-05T01:55:52.266569+00:00Z",
+    "date_range": "2025-08-06 to 2025-11-04",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1762228800,
+      "price": 35.47,
+      "volume": 69966,
+      "dollars": 2481694,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1754539200,
       "price": 24.58,
       "volume": 92906,
       "dollars": 2283629,
-      "rank": 11,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 26.78,
       "volume": 79183,
       "dollars": 2120528,
-      "rank": 13,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -48,7 +60,7 @@
       "price": 24.74,
       "volume": 81916,
       "dollars": 2026601,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -60,7 +72,7 @@
       "price": 27.46,
       "volume": 68153,
       "dollars": 1871481,
-      "rank": 17,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -82,12 +94,6 @@
       "rank": "2"
     },
     {
-      "price": 21.3,
-      "volume": 340000,
-      "dollars": 10000000,
-      "rank": "3"
-    },
-    {
       "price": 27.4,
       "volume": 270000,
       "dollars": 10000000,
@@ -98,6 +104,12 @@
       "volume": 310000,
       "dollars": 10000000,
       "rank": "5"
+    },
+    {
+      "price": 22.6,
+      "volume": 310000,
+      "dollars": 10000000,
+      "rank": "6"
     }
   ],
   "boxes": []

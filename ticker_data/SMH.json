@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SMH",
-    "generated_at": "2025-11-04T02:40:40.025297+00:00Z",
-    "date_range": "2025-08-05 to 2025-11-03",
+    "generated_at": "2025-11-05T02:01:26.446061+00:00Z",
+    "date_range": "2025-08-06 to 2025-11-04",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -89,33 +89,43 @@
     },
     {
       "box_number": 2,
+      "high_price": 360.94,
+      "low_price": 360.94,
+      "volume": 113893,
+      "dollars": 41108539,
+      "trades": 1,
+      "date_range": "2025-11-04",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 344.73,
       "low_price": 344.73,
       "volume": 106944,
       "dollars": 36866805,
       "trades": 1,
       "date_range": "2025-10-21",
-      "color": "green"
+      "color": "orange"
     },
     {
-      "box_number": 3,
+      "box_number": 4,
       "high_price": 287.29,
       "low_price": 287.29,
       "volume": 100100,
       "dollars": 28757729,
       "trades": 1,
       "date_range": "2025-08-21",
-      "color": "orange"
+      "color": "red"
     },
     {
-      "box_number": 4,
+      "box_number": 5,
       "high_price": 346.16,
       "low_price": 346.16,
       "volume": 56960,
       "dollars": 19717273,
       "trades": 1,
       "date_range": "2025-10-06",
-      "color": "red"
+      "color": "purple"
     }
   ]
 }
