@@ -1,13 +1,19 @@
 {
   "metadata": {
     "ticker": "DUK",
-    "generated_at": "2025-11-05T13:59:41.552930+00:00Z",
+    "generated_at": "2025-11-06T02:08:39.080276+00:00Z",
     "date_range": "2025-08-07 to 2025-11-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
   "levels": [
+    {
+      "price": 123.8,
+      "volume": 4580000,
+      "dollars": 570000000,
+      "rank": "0"
+    },
     {
       "price": 120.8,
       "volume": 4260000,
@@ -30,12 +36,6 @@
       "price": 120.7,
       "volume": 3950000,
       "dollars": 480000000,
-      "rank": "0"
-    },
-    {
-      "price": 120.2,
-      "volume": 3810000,
-      "dollars": 460000000,
       "rank": "0"
     }
   ],

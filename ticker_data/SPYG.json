@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SPYG",
-    "generated_at": "2025-11-05T02:01:56.412474+00:00Z",
-    "date_range": "2025-08-06 to 2025-11-04",
+    "generated_at": "2025-11-06T02:11:47.088618+00:00Z",
+    "date_range": "2025-08-07 to 2025-11-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -77,13 +77,23 @@
     },
     {
       "box_number": 2,
+      "high_price": 107.05,
+      "low_price": 107.05,
+      "volume": 666508,
+      "dollars": 71349681,
+      "trades": 1,
+      "date_range": "2025-11-05",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 102.89,
       "low_price": 102.78,
       "volume": 451368,
       "dollars": 46420704,
       "trades": 2,
       "date_range": "2025-09-10 to 2025-09-11",
-      "color": "green"
+      "color": "orange"
     }
   ]
 }
