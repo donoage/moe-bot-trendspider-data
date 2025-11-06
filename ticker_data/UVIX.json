@@ -1,48 +1,12 @@
 {
   "metadata": {
     "ticker": "UVIX",
-    "generated_at": "2025-11-06T02:07:34.513833+00:00Z",
-    "date_range": "2025-08-07 to 2025-11-05",
+    "generated_at": "2025-11-06T16:23:26.251559+00:00Z",
+    "date_range": "2025-08-08 to 2025-11-06",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1754539200,
-      "price": 16.91,
-      "volume": 250000,
-      "dollars": 4227500,
-      "rank": 13,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1754539200,
-      "price": 16.9,
-      "volume": 250000,
-      "dollars": 4225000,
-      "rank": 14,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1754539200,
-      "price": 16.9,
-      "volume": 250000,
-      "dollars": 4225000,
-      "rank": 14,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1759982400,
       "price": 10.09,
@@ -58,34 +22,34 @@
   ],
   "levels": [
     {
-      "price": 17.2,
-      "volume": 1730000,
-      "dollars": 30000000,
-      "rank": "2"
-    },
-    {
       "price": 10.1,
-      "volume": 2100000,
+      "volume": 2160000,
       "dollars": 20000000,
       "rank": "5"
     },
     {
       "price": 10.2,
-      "volume": 1910000,
+      "volume": 1960000,
       "dollars": 20000000,
       "rank": "6"
-    },
-    {
-      "price": 16.9,
-      "volume": 1080000,
-      "dollars": 20000000,
-      "rank": "7"
     },
     {
       "price": 12.0,
       "volume": 1320000,
       "dollars": 20000000,
       "rank": "9"
+    },
+    {
+      "price": 10.0,
+      "volume": 1570000,
+      "dollars": 20000000,
+      "rank": "10"
+    },
+    {
+      "price": 10.3,
+      "volume": 1290000,
+      "dollars": 10000000,
+      "rank": "12"
     }
   ],
   "boxes": []
