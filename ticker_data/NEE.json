@@ -1,7 +1,7 @@
 {
   "metadata": {
     "ticker": "NEE",
-    "generated_at": "2025-11-07T11:00:58.083557+00:00Z",
+    "generated_at": "2025-11-08T02:14:18.682896+00:00Z",
     "date_range": "2025-08-09 to 2025-11-07",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
@@ -28,7 +28,7 @@
     },
     {
       "price": 82.8,
-      "volume": 33610000,
+      "volume": 33620000,
       "dollars": 2780000000,
       "rank": "4"
     },
@@ -42,22 +42,22 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 83.05,
+      "low_price": 82.0,
+      "volume": 1651758,
+      "dollars": 136857601,
+      "trades": 2,
+      "date_range": "2025-11-05 to 2025-11-07",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 70.65,
       "low_price": 70.65,
       "volume": 979513,
       "dollars": 69202593,
       "trades": 1,
       "date_range": "2025-09-04",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 82.0,
-      "low_price": 82.0,
-      "volume": 305619,
-      "dollars": 25060758,
-      "trades": 1,
-      "date_range": "2025-11-05",
       "color": "green"
     },
     {
