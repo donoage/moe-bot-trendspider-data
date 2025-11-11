@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "ITB",
-    "generated_at": "2025-11-11T02:42:29.271782+00:00Z",
-    "date_range": "2025-08-12 to 2025-11-10",
+    "generated_at": "2025-11-11T14:08:15.744685+00:00Z",
+    "date_range": "2025-08-13 to 2025-11-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -13,18 +13,6 @@
       "volume": 1325106,
       "dollars": 129886890,
       "rank": 11,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1754971200,
-      "price": 104.88,
-      "volume": 1098188,
-      "dollars": 115177957,
-      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -77,43 +65,33 @@
     },
     {
       "box_number": 2,
-      "high_price": 104.88,
-      "low_price": 104.88,
-      "volume": 1098188,
-      "dollars": 115177957,
-      "trades": 1,
-      "date_range": "2025-08-12",
-      "color": "green"
-    },
-    {
-      "box_number": 3,
       "high_price": 113.06,
       "low_price": 113.06,
       "volume": 719188,
       "dollars": 81311395,
       "trades": 1,
       "date_range": "2025-08-22",
-      "color": "orange"
+      "color": "green"
     },
     {
-      "box_number": 4,
+      "box_number": 3,
       "high_price": 108.94,
       "low_price": 108.94,
       "volume": 296101,
       "dollars": 32257242,
       "trades": 1,
       "date_range": "2025-09-19",
-      "color": "red"
+      "color": "orange"
     },
     {
-      "box_number": 5,
+      "box_number": 4,
       "high_price": 116.91,
       "low_price": 116.91,
       "volume": 236654,
       "dollars": 27667219,
       "trades": 1,
       "date_range": "2025-09-05",
-      "color": "purple"
+      "color": "red"
     }
   ]
 }
