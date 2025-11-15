@@ -1,93 +1,13 @@
 {
   "metadata": {
     "ticker": "FNGS",
-    "generated_at": "2025-11-11T14:09:08.089346+00:00Z",
-    "date_range": "2025-08-13 to 2025-11-11",
+    "generated_at": "2025-11-15T19:13:55.459795+00:00Z",
+    "date_range": "2025-08-16 to 2025-11-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1755748800,
-      "price": 64.61,
-      "volume": 507038,
-      "dollars": 32759725,
-      "rank": 3,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1758168000,
-      "price": 70.83,
-      "volume": 402211,
-      "dollars": 28488605,
-      "rank": 8,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1760587200,
-      "price": 69.02,
-      "volume": 384757,
-      "dollars": 26555928,
-      "rank": 9,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1761796800,
-      "price": 73.24,
-      "volume": 288229,
-      "dollars": 21109891,
-      "rank": 10,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
-  "levels": [
-    {
-      "price": 64.6,
-      "volume": 530000,
-      "dollars": 30000000,
-      "rank": "2"
-    },
-    {
-      "price": 70.8,
-      "volume": 410000,
-      "dollars": 30000000,
-      "rank": "7"
-    },
-    {
-      "price": 69.0,
-      "volume": 380000,
-      "dollars": 30000000,
-      "rank": "9"
-    },
-    {
-      "price": 73.2,
-      "volume": 290000,
-      "dollars": 20000000,
-      "rank": "10"
-    },
-    {
-      "price": 70.9,
-      "volume": 40000,
-      "dollars": 0,
-      "rank": "42"
-    }
-  ],
+  "prints": [],
+  "levels": [],
   "boxes": [
     {
       "box_number": 1,
@@ -96,8 +16,8 @@
       "volume": 288229,
       "dollars": 21109891,
       "trades": 1,
-      "date_range": "2025-10-30",
-      "color": "blue"
+      "date_range": "2025-08-16 to 2025-11-14",
+      "color": "#FF6B6B"
     }
   ]
 }

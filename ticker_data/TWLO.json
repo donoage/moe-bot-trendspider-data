@@ -1,69 +1,13 @@
 {
   "metadata": {
     "ticker": "TWLO",
-    "generated_at": "2025-11-11T14:03:20.618699+00:00Z",
-    "date_range": "2025-08-13 to 2025-11-11",
+    "generated_at": "2025-11-15T19:13:55.396502+00:00Z",
+    "date_range": "2025-08-16 to 2025-11-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1755489600,
-      "price": 105.05,
-      "volume": 10477788,
-      "dollars": 1100691629,
-      "rank": 1,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1758254400,
-      "price": 106.5,
-      "volume": 3057322,
-      "dollars": 325604793,
-      "rank": 5,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
-  "levels": [
-    {
-      "price": 105.1,
-      "volume": 18370000,
-      "dollars": 1930000000,
-      "rank": "1"
-    },
-    {
-      "price": 107.9,
-      "volume": 7040000,
-      "dollars": 760000000,
-      "rank": "3"
-    },
-    {
-      "price": 133.0,
-      "volume": 3740000,
-      "dollars": 500000000,
-      "rank": "4"
-    },
-    {
-      "price": 106.5,
-      "volume": 4440000,
-      "dollars": 470000000,
-      "rank": "5"
-    },
-    {
-      "price": 99.1,
-      "volume": 3230000,
-      "dollars": 320000000,
-      "rank": "11"
-    }
-  ],
+  "prints": [],
+  "levels": [],
   "boxes": [
     {
       "box_number": 1,
@@ -72,8 +16,8 @@
       "volume": 248854,
       "dollars": 25933075,
       "trades": 1,
-      "date_range": "2025-09-11",
-      "color": "blue"
+      "date_range": "2025-08-16 to 2025-11-14",
+      "color": "#FF6B6B"
     }
   ]
 }

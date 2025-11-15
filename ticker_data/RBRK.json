@@ -1,81 +1,13 @@
 {
   "metadata": {
     "ticker": "RBRK",
-    "generated_at": "2025-11-11T14:03:16.295663+00:00Z",
-    "date_range": "2025-08-13 to 2025-11-11",
+    "generated_at": "2025-11-15T19:13:55.395625+00:00Z",
+    "date_range": "2025-08-16 to 2025-11-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1758254400,
-      "price": 80.23,
-      "volume": 2992337,
-      "dollars": 240075197,
-      "rank": 4,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1756180800,
-      "price": 85.17,
-      "volume": 1466833,
-      "dollars": 124930166,
-      "rank": 9,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1758081600,
-      "price": 74.21,
-      "volume": 870645,
-      "dollars": 64610565,
-      "rank": 20,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
-  "levels": [
-    {
-      "price": 87.4,
-      "volume": 8230000,
-      "dollars": 720000000,
-      "rank": "1"
-    },
-    {
-      "price": 85.5,
-      "volume": 7620000,
-      "dollars": 650000000,
-      "rank": "2"
-    },
-    {
-      "price": 90.3,
-      "volume": 3590000,
-      "dollars": 320000000,
-      "rank": "3"
-    },
-    {
-      "price": 80.2,
-      "volume": 4030000,
-      "dollars": 320000000,
-      "rank": "4"
-    },
-    {
-      "price": 95.4,
-      "volume": 2190000,
-      "dollars": 210000000,
-      "rank": "6"
-    }
-  ],
+  "prints": [],
+  "levels": [],
   "boxes": [
     {
       "box_number": 1,
@@ -84,8 +16,8 @@
       "volume": 346436,
       "dollars": 26155918,
       "trades": 1,
-      "date_range": "2025-09-12",
-      "color": "blue"
+      "date_range": "2025-08-16 to 2025-11-14",
+      "color": "#FF6B6B"
     }
   ]
 }

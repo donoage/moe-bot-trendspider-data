@@ -1,77 +1,23 @@
 {
   "metadata": {
     "ticker": "UNP",
-    "generated_at": "2025-11-11T14:04:50.125390+00:00Z",
-    "date_range": "2025-08-13 to 2025-11-11",
+    "generated_at": "2025-11-15T19:13:55.414983+00:00Z",
+    "date_range": "2025-08-16 to 2025-11-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1758254400,
-      "price": 220.61,
-      "volume": 2699754,
-      "dollars": 595592729,
-      "rank": 6,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
-  "levels": [
-    {
-      "price": 231.4,
-      "volume": 6130000,
-      "dollars": 1420000000,
-      "rank": "4"
-    },
-    {
-      "price": 222.0,
-      "volume": 6330000,
-      "dollars": 1400000000,
-      "rank": "5"
-    },
-    {
-      "price": 223.9,
-      "volume": 6140000,
-      "dollars": 1370000000,
-      "rank": "6"
-    },
-    {
-      "price": 221.8,
-      "volume": 5380000,
-      "dollars": 1190000000,
-      "rank": "7"
-    },
-    {
-      "price": 220.6,
-      "volume": 5280000,
-      "dollars": 1160000000,
-      "rank": "8"
-    }
-  ],
+  "prints": [],
+  "levels": [],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 219.73,
-      "low_price": 219.73,
-      "volume": 1099600,
-      "dollars": 241609610,
-      "trades": 1,
-      "date_range": "2025-08-14",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
       "high_price": 214.25,
       "low_price": 214.25,
       "volume": 249200,
       "dollars": 53391100,
       "trades": 1,
-      "date_range": "2025-09-12",
-      "color": "green"
+      "date_range": "2025-08-16 to 2025-11-14",
+      "color": "#FF6B6B"
     }
   ]
 }

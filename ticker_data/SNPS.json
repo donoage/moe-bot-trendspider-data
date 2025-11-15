@@ -1,67 +1,23 @@
 {
   "metadata": {
     "ticker": "SNPS",
-    "generated_at": "2025-11-11T14:08:58.191655+00:00Z",
-    "date_range": "2025-08-13 to 2025-11-11",
+    "generated_at": "2025-11-15T19:13:55.457866+00:00Z",
+    "date_range": "2025-08-16 to 2025-11-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1758254400,
-      "price": 495.5,
-      "volume": 1158115,
-      "dollars": 573845982,
-      "rank": 4,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
-  "levels": [
-    {
-      "price": 571.2,
-      "volume": 2600000,
-      "dollars": 1480000000,
-      "rank": "2"
-    },
-    {
-      "price": 419.6,
-      "volume": 2760000,
-      "dollars": 1160000000,
-      "rank": "3"
-    },
-    {
-      "price": 495.5,
-      "volume": 1490000,
-      "dollars": 740000000,
-      "rank": "4"
-    },
-    {
-      "price": 464.0,
-      "volume": 1590000,
-      "dollars": 740000000,
-      "rank": "5"
-    },
-    {
-      "price": 455.0,
-      "volume": 1610000,
-      "dollars": 730000000,
-      "rank": "6"
-    }
-  ],
+  "prints": [],
+  "levels": [],
   "boxes": [
     {
       "box_number": 1,
       "high_price": 439.2,
       "low_price": 438.85,
       "volume": 123993,
-      "dollars": 54431499,
+      "dollars": 54431498,
       "trades": 2,
-      "date_range": "2025-10-14",
-      "color": "blue"
+      "date_range": "2025-08-16 to 2025-11-14",
+      "color": "#FF6B6B"
     }
   ]
 }

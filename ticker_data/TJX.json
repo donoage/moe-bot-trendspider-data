@@ -1,107 +1,23 @@
 {
   "metadata": {
     "ticker": "TJX",
-    "generated_at": "2025-11-11T14:04:59.602761+00:00Z",
-    "date_range": "2025-08-13 to 2025-11-11",
+    "generated_at": "2025-11-15T19:13:55.416183+00:00Z",
+    "date_range": "2025-08-16 to 2025-11-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1758254400,
-      "price": 139.78,
-      "volume": 3634502,
-      "dollars": 508030689,
-      "rank": 5,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
-  "levels": [
-    {
-      "price": 139.8,
-      "volume": 5060000,
-      "dollars": 710000000,
-      "rank": "68"
-    },
-    {
-      "price": 143.8,
-      "volume": 4570000,
-      "dollars": 660000000,
-      "rank": "85"
-    },
-    {
-      "price": 143.1,
-      "volume": 4170000,
-      "dollars": 600000000,
-      "rank": "0"
-    },
-    {
-      "price": 140.4,
-      "volume": 4000000,
-      "dollars": 560000000,
-      "rank": "0"
-    },
-    {
-      "price": 140.8,
-      "volume": 3340000,
-      "dollars": 470000000,
-      "rank": "0"
-    }
-  ],
+  "prints": [],
+  "levels": [],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 139.5,
-      "low_price": 139.5,
-      "volume": 778163,
-      "dollars": 108553738,
-      "trades": 1,
-      "date_range": "2025-09-12",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 132.91,
-      "low_price": 132.91,
-      "volume": 647255,
-      "dollars": 86026662,
-      "trades": 1,
-      "date_range": "2025-08-15",
-      "color": "green"
-    },
-    {
-      "box_number": 3,
       "high_price": 144.36,
-      "low_price": 144.35,
-      "volume": 299097,
-      "dollars": 43176146,
-      "trades": 2,
-      "date_range": "2025-09-30",
-      "color": "orange"
-    },
-    {
-      "box_number": 4,
-      "high_price": 144.15,
-      "low_price": 144.15,
-      "volume": 249700,
-      "dollars": 35994255,
-      "trades": 1,
-      "date_range": "2025-10-22",
-      "color": "red"
-    },
-    {
-      "box_number": 5,
-      "high_price": 142.7,
-      "low_price": 142.7,
-      "volume": 150000,
-      "dollars": 21405000,
-      "trades": 1,
-      "date_range": "2025-10-07",
-      "color": "purple"
+      "low_price": 139.5,
+      "volume": 1476960,
+      "dollars": 209129139,
+      "trades": 5,
+      "date_range": "2025-08-16 to 2025-11-14",
+      "color": "#FF6B6B"
     }
   ]
 }

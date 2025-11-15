@@ -1,77 +1,23 @@
 {
   "metadata": {
     "ticker": "FTNT",
-    "generated_at": "2025-11-11T14:03:15.026979+00:00Z",
-    "date_range": "2025-08-13 to 2025-11-11",
+    "generated_at": "2025-11-15T19:13:55.395324+00:00Z",
+    "date_range": "2025-08-16 to 2025-11-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1758254400,
-      "price": 84.21,
-      "volume": 7816834,
-      "dollars": 658255591,
-      "rank": 5,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
-  "levels": [
-    {
-      "price": 84.2,
-      "volume": 17340000,
-      "dollars": 1460000000,
-      "rank": "3"
-    },
-    {
-      "price": 76.8,
-      "volume": 9840000,
-      "dollars": 760000000,
-      "rank": "11"
-    },
-    {
-      "price": 78.2,
-      "volume": 9640000,
-      "dollars": 750000000,
-      "rank": "12"
-    },
-    {
-      "price": 77.7,
-      "volume": 5390000,
-      "dollars": 420000000,
-      "rank": "48"
-    },
-    {
-      "price": 80.3,
-      "volume": 4310000,
-      "dollars": 350000000,
-      "rank": "72"
-    }
-  ],
+  "prints": [],
+  "levels": [],
   "boxes": [
     {
       "box_number": 1,
       "high_price": 80.9,
-      "low_price": 79.15,
-      "volume": 2047985,
-      "dollars": 163986513,
-      "trades": 7,
-      "date_range": "2025-08-13 to 2025-08-20",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 79.99,
-      "low_price": 79.99,
-      "volume": 249800,
-      "dollars": 19981502,
-      "trades": 1,
-      "date_range": "2025-09-11",
-      "color": "green"
+      "low_price": 79.9,
+      "volume": 1748381,
+      "dollars": 140479689,
+      "trades": 6,
+      "date_range": "2025-08-16 to 2025-11-14",
+      "color": "#FF6B6B"
     }
   ]
 }

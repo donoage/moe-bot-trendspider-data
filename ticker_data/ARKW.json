@@ -1,117 +1,13 @@
 {
   "metadata": {
     "ticker": "ARKW",
-    "generated_at": "2025-11-11T14:07:42.550919+00:00Z",
-    "date_range": "2025-08-13 to 2025-11-11",
+    "generated_at": "2025-11-15T19:13:55.442126+00:00Z",
+    "date_range": "2025-08-16 to 2025-11-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1760673600,
-      "price": 170.3,
-      "volume": 540000,
-      "dollars": 91963620,
-      "rank": 1,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1761883200,
-      "price": 176.59,
-      "volume": 350000,
-      "dollars": 61807550,
-      "rank": 2,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1757995200,
-      "price": 166.73,
-      "volume": 255734,
-      "dollars": 42638529,
-      "rank": 4,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1760587200,
-      "price": 170.71,
-      "volume": 195200,
-      "dollars": 33322592,
-      "rank": 11,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1755144000,
-      "price": 159.58,
-      "volume": 194000,
-      "dollars": 30957550,
-      "rank": 13,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1755576000,
-      "price": 154.13,
-      "volume": 191706,
-      "dollars": 29547204,
-      "rank": 19,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
-  "levels": [
-    {
-      "price": 170.3,
-      "volume": 540000,
-      "dollars": 90000000,
-      "rank": "1"
-    },
-    {
-      "price": 169.6,
-      "volume": 400000,
-      "dollars": 70000000,
-      "rank": "3"
-    },
-    {
-      "price": 159.6,
-      "volume": 400000,
-      "dollars": 60000000,
-      "rank": "4"
-    },
-    {
-      "price": 176.6,
-      "volume": 350000,
-      "dollars": 60000000,
-      "rank": "5"
-    },
-    {
-      "price": 166.7,
-      "volume": 340000,
-      "dollars": 60000000,
-      "rank": "6"
-    }
-  ],
+  "prints": [],
+  "levels": [],
   "boxes": [
     {
       "box_number": 1,
@@ -120,8 +16,8 @@
       "volume": 195200,
       "dollars": 33322592,
       "trades": 1,
-      "date_range": "2025-10-16",
-      "color": "blue"
+      "date_range": "2025-08-16 to 2025-11-14",
+      "color": "#FF6B6B"
     }
   ]
 }

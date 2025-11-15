@@ -1,56 +1,23 @@
 {
   "metadata": {
     "ticker": "QCOM",
-    "generated_at": "2025-11-11T14:04:41.601977+00:00Z",
-    "date_range": "2025-08-13 to 2025-11-11",
+    "generated_at": "2025-11-15T19:13:55.413649+00:00Z",
+    "date_range": "2025-08-16 to 2025-11-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
+  "prints": [],
+  "levels": [],
+  "boxes": [
     {
-      "timestamp": 1758254400,
-      "price": 166.85,
-      "volume": 8511955,
-      "dollars": 1420219691,
-      "rank": 3,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
+      "box_number": 1,
+      "high_price": 176.47,
+      "low_price": 176.47,
+      "volume": 1021019,
+      "dollars": 180179222,
+      "trades": 1,
+      "date_range": "2025-08-16 to 2025-11-14",
+      "color": "#FF6B6B"
     }
-  ],
-  "levels": [
-    {
-      "price": 158.5,
-      "volume": 29250000,
-      "dollars": 4640000000,
-      "rank": "1"
-    },
-    {
-      "price": 168.9,
-      "volume": 20770000,
-      "dollars": 3510000000,
-      "rank": "2"
-    },
-    {
-      "price": 166.9,
-      "volume": 18580000,
-      "dollars": 3100000000,
-      "rank": "4"
-    },
-    {
-      "price": 158.0,
-      "volume": 15010000,
-      "dollars": 2370000000,
-      "rank": "10"
-    },
-    {
-      "price": 153.6,
-      "volume": 15180000,
-      "dollars": 2330000000,
-      "rank": "11"
-    }
-  ],
-  "boxes": []
+  ]
 }

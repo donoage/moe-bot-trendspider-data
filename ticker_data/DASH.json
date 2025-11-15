@@ -1,68 +1,23 @@
 {
   "metadata": {
     "ticker": "DASH",
-    "generated_at": "2025-11-11T14:03:12.394190+00:00Z",
-    "date_range": "2025-08-13 to 2025-11-11",
+    "generated_at": "2025-11-15T19:13:55.394926+00:00Z",
+    "date_range": "2025-08-16 to 2025-11-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
+  "prints": [],
+  "levels": [],
+  "boxes": [
     {
-      "timestamp": 1758254400,
-      "price": 265.29,
-      "volume": 4939488,
-      "dollars": 1310396771,
-      "rank": 4,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1756180800,
-      "price": 248.79,
-      "volume": 1276387,
-      "dollars": 317552321,
-      "rank": 20,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
+      "box_number": 1,
+      "high_price": 209.0,
+      "low_price": 206.75,
+      "volume": 199014,
+      "dollars": 41370964,
+      "trades": 2,
+      "date_range": "2025-08-16 to 2025-11-14",
+      "color": "#FF6B6B"
     }
-  ],
-  "levels": [
-    {
-      "price": 222.9,
-      "volume": 9750000,
-      "dollars": 2170000000,
-      "rank": "3"
-    },
-    {
-      "price": 265.3,
-      "volume": 7110000,
-      "dollars": 1890000000,
-      "rank": "4"
-    },
-    {
-      "price": 248.8,
-      "volume": 3010000,
-      "dollars": 750000000,
-      "rank": "8"
-    },
-    {
-      "price": 220.5,
-      "volume": 2910000,
-      "dollars": 640000000,
-      "rank": "10"
-    },
-    {
-      "price": 198.4,
-      "volume": 3120000,
-      "dollars": 620000000,
-      "rank": "11"
-    }
-  ],
-  "boxes": []
+  ]
 }

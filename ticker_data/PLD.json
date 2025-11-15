@@ -1,56 +1,23 @@
 {
   "metadata": {
     "ticker": "PLD",
-    "generated_at": "2025-11-11T14:04:55.763325+00:00Z",
-    "date_range": "2025-08-13 to 2025-11-11",
+    "generated_at": "2025-11-15T19:13:55.415847+00:00Z",
+    "date_range": "2025-08-16 to 2025-11-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
+  "prints": [],
+  "levels": [],
+  "boxes": [
     {
-      "timestamp": 1758254400,
-      "price": 113.51,
-      "volume": 3770653,
-      "dollars": 428006822,
-      "rank": 11,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
+      "box_number": 1,
+      "high_price": 123.24,
+      "low_price": 123.24,
+      "volume": 425631,
+      "dollars": 52456041,
+      "trades": 1,
+      "date_range": "2025-08-16 to 2025-11-14",
+      "color": "#FF6B6B"
     }
-  ],
-  "levels": [
-    {
-      "price": 124.6,
-      "volume": 13460000,
-      "dollars": 1680000000,
-      "rank": "2"
-    },
-    {
-      "price": 110.5,
-      "volume": 13230000,
-      "dollars": 1460000000,
-      "rank": "3"
-    },
-    {
-      "price": 122.6,
-      "volume": 11840000,
-      "dollars": 1450000000,
-      "rank": "4"
-    },
-    {
-      "price": 127.5,
-      "volume": 11010000,
-      "dollars": 1400000000,
-      "rank": "5"
-    },
-    {
-      "price": 117.8,
-      "volume": 10690000,
-      "dollars": 1260000000,
-      "rank": "6"
-    }
-  ],
-  "boxes": []
+  ]
 }

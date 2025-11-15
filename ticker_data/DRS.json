@@ -1,81 +1,13 @@
 {
   "metadata": {
     "ticker": "DRS",
-    "generated_at": "2025-11-11T14:03:58.807667+00:00Z",
-    "date_range": "2025-08-13 to 2025-11-11",
+    "generated_at": "2025-11-15T19:13:55.403352+00:00Z",
+    "date_range": "2025-08-16 to 2025-11-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1760673600,
-      "price": 39.34,
-      "volume": 1707069,
-      "dollars": 67156094,
-      "rank": 3,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1762401600,
-      "price": 34.5,
-      "volume": 1218221,
-      "dollars": 42028624,
-      "rank": 13,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1758254400,
-      "price": 41.44,
-      "volume": 961076,
-      "dollars": 39826989,
-      "rank": 14,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
-  "levels": [
-    {
-      "price": 45.0,
-      "volume": 9920000,
-      "dollars": 450000000,
-      "rank": "1"
-    },
-    {
-      "price": 39.3,
-      "volume": 1990000,
-      "dollars": 80000000,
-      "rank": "12"
-    },
-    {
-      "price": 44.0,
-      "volume": 1700000,
-      "dollars": 70000000,
-      "rank": "14"
-    },
-    {
-      "price": 41.4,
-      "volume": 1520000,
-      "dollars": 60000000,
-      "rank": "20"
-    },
-    {
-      "price": 36.6,
-      "volume": 1530000,
-      "dollars": 60000000,
-      "rank": "27"
-    }
-  ],
+  "prints": [],
+  "levels": [],
   "boxes": [
     {
       "box_number": 1,
@@ -84,8 +16,8 @@
       "volume": 1218221,
       "dollars": 42028624,
       "trades": 1,
-      "date_range": "2025-11-06",
-      "color": "blue"
+      "date_range": "2025-08-16 to 2025-11-14",
+      "color": "#FF6B6B"
     }
   ]
 }

@@ -1,97 +1,23 @@
 {
   "metadata": {
     "ticker": "JEPI",
-    "generated_at": "2025-11-11T14:04:16.549884+00:00Z",
-    "date_range": "2025-08-13 to 2025-11-11",
+    "generated_at": "2025-11-15T19:13:55.405976+00:00Z",
+    "date_range": "2025-08-16 to 2025-11-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1761105600,
-      "price": 57.3,
-      "volume": 1300000,
-      "dollars": 74490000,
-      "rank": 20,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
-  "levels": [
-    {
-      "price": 56.9,
-      "volume": 18820000,
-      "dollars": 1070000000,
-      "rank": "1"
-    },
-    {
-      "price": 57.0,
-      "volume": 16290000,
-      "dollars": 930000000,
-      "rank": "7"
-    },
-    {
-      "price": 56.2,
-      "volume": 15690000,
-      "dollars": 880000000,
-      "rank": "8"
-    },
-    {
-      "price": 55.9,
-      "volume": 15010000,
-      "dollars": 840000000,
-      "rank": "12"
-    },
-    {
-      "price": 56.8,
-      "volume": 13410000,
-      "dollars": 760000000,
-      "rank": "13"
-    }
-  ],
+  "prints": [],
+  "levels": [],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 56.96,
-      "low_price": 56.96,
-      "volume": 375697,
-      "dollars": 21399701,
-      "trades": 1,
-      "date_range": "2025-09-18",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 56.53,
-      "low_price": 56.53,
-      "volume": 371451,
-      "dollars": 20998125,
-      "trades": 1,
-      "date_range": "2025-09-02",
-      "color": "green"
-    },
-    {
-      "box_number": 3,
-      "high_price": 56.1,
-      "low_price": 56.1,
-      "volume": 336248,
-      "dollars": 18863512,
-      "trades": 1,
-      "date_range": "2025-11-07",
-      "color": "orange"
-    },
-    {
-      "box_number": 4,
       "high_price": 57.32,
-      "low_price": 57.32,
-      "volume": 323001,
-      "dollars": 18514417,
-      "trades": 1,
-      "date_range": "2025-10-21",
-      "color": "red"
+      "low_price": 56.1,
+      "volume": 1406397,
+      "dollars": 79775755,
+      "trades": 4,
+      "date_range": "2025-08-16 to 2025-11-14",
+      "color": "#FF6B6B"
     }
   ]
 }

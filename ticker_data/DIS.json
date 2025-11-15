@@ -1,87 +1,23 @@
 {
   "metadata": {
     "ticker": "DIS",
-    "generated_at": "2025-11-11T14:04:26.497963+00:00Z",
-    "date_range": "2025-08-13 to 2025-11-11",
+    "generated_at": "2025-11-15T19:13:55.408694+00:00Z",
+    "date_range": "2025-08-16 to 2025-11-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1758254400,
-      "price": 113.76,
-      "volume": 5909540,
-      "dollars": 672269270,
-      "rank": 20,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
-  "levels": [
-    {
-      "price": 112.0,
-      "volume": 44040000,
-      "dollars": 4930000000,
-      "rank": "1"
-    },
-    {
-      "price": 110.0,
-      "volume": 39900000,
-      "dollars": 4390000000,
-      "rank": "2"
-    },
-    {
-      "price": 110.4,
-      "volume": 34260000,
-      "dollars": 3780000000,
-      "rank": "3"
-    },
-    {
-      "price": 113.0,
-      "volume": 31740000,
-      "dollars": 3590000000,
-      "rank": "4"
-    },
-    {
-      "price": 110.5,
-      "volume": 29080000,
-      "dollars": 3210000000,
-      "rank": "6"
-    }
-  ],
+  "prints": [],
+  "levels": [],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 112.0,
-      "low_price": 112.0,
-      "volume": 556858,
-      "dollars": 62368096,
-      "trades": 1,
-      "date_range": "2025-09-22",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
       "high_price": 115.0,
-      "low_price": 115.0,
-      "volume": 199400,
-      "dollars": 22931000,
-      "trades": 1,
-      "date_range": "2025-09-11",
-      "color": "green"
-    },
-    {
-      "box_number": 3,
-      "high_price": 110.9,
       "low_price": 110.9,
-      "volume": 204689,
-      "dollars": 22700010,
-      "trades": 1,
-      "date_range": "2025-11-07",
-      "color": "orange"
+      "volume": 960947,
+      "dollars": 107999106,
+      "trades": 3,
+      "date_range": "2025-08-16 to 2025-11-14",
+      "color": "#FF6B6B"
     }
   ]
 }

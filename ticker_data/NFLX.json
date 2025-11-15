@@ -1,89 +1,23 @@
 {
   "metadata": {
     "ticker": "NFLX",
-    "generated_at": "2025-11-11T14:02:30.382083+00:00Z",
-    "date_range": "2025-08-13 to 2025-11-11",
+    "generated_at": "2025-11-15T19:13:55.387519+00:00Z",
+    "date_range": "2025-08-16 to 2025-11-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1758254400,
-      "price": 1226.97,
-      "volume": 1084248,
-      "dollars": 1330339768,
-      "rank": 3,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1759204800,
-      "price": 1198.92,
-      "volume": 677776,
-      "dollars": 812599201,
-      "rank": 15,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
-  "levels": [
-    {
-      "price": 1231.4,
-      "volume": 1600000,
-      "dollars": 1970000000,
-      "rank": "2"
-    },
-    {
-      "price": 1227.0,
-      "volume": 1500000,
-      "dollars": 1850000000,
-      "rank": "3"
-    },
-    {
-      "price": 1207.2,
-      "volume": 1430000,
-      "dollars": 1730000000,
-      "rank": "6"
-    },
-    {
-      "price": 1211.6,
-      "volume": 1080000,
-      "dollars": 1310000000,
-      "rank": "14"
-    },
-    {
-      "price": 1103.7,
-      "volume": 1080000,
-      "dollars": 1200000000,
-      "rank": "18"
-    }
-  ],
+  "prints": [],
+  "levels": [],
   "boxes": [
     {
       "box_number": 1,
       "high_price": 1198.0,
-      "low_price": 1198.0,
-      "volume": 53689,
-      "dollars": 64319422,
-      "trades": 1,
-      "date_range": "2025-09-16",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 1193.39,
       "low_price": 1193.39,
-      "volume": 23454,
-      "dollars": 27989823,
-      "trades": 1,
-      "date_range": "2025-09-11",
-      "color": "green"
+      "volume": 77143,
+      "dollars": 92309245,
+      "trades": 2,
+      "date_range": "2025-08-16 to 2025-11-14",
+      "color": "#FF6B6B"
     }
   ]
 }

@@ -1,87 +1,23 @@
 {
   "metadata": {
     "ticker": "UNH",
-    "generated_at": "2025-11-11T14:03:56.079417+00:00Z",
-    "date_range": "2025-08-13 to 2025-11-11",
+    "generated_at": "2025-11-15T19:13:55.403032+00:00Z",
+    "date_range": "2025-08-16 to 2025-11-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1758254400,
-      "price": 336.69,
-      "volume": 2749225,
-      "dollars": 925636565,
-      "rank": 14,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
-  "levels": [
-    {
-      "price": 303.2,
-      "volume": 6740000,
-      "dollars": 2040000000,
-      "rank": "14"
-    },
-    {
-      "price": 302.0,
-      "volume": 6300000,
-      "dollars": 1900000000,
-      "rank": "15"
-    },
-    {
-      "price": 292.5,
-      "volume": 6020000,
-      "dollars": 1760000000,
-      "rank": "17"
-    },
-    {
-      "price": 347.9,
-      "volume": 5060000,
-      "dollars": 1760000000,
-      "rank": "18"
-    },
-    {
-      "price": 338.4,
-      "volume": 5080000,
-      "dollars": 1720000000,
-      "rank": "20"
-    }
-  ],
+  "prints": [],
+  "levels": [],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 331.5,
-      "low_price": 331.5,
-      "volume": 262734,
-      "dollars": 87096321,
-      "trades": 1,
-      "date_range": "2025-11-03",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 341.25,
-      "low_price": 341.25,
-      "volume": 150301,
-      "dollars": 51290216,
-      "trades": 1,
-      "date_range": "2025-09-09",
-      "color": "green"
-    },
-    {
-      "box_number": 3,
       "high_price": 360.0,
-      "low_price": 360.0,
-      "volume": 51631,
-      "dollars": 18587160,
-      "trades": 1,
-      "date_range": "2025-10-15",
-      "color": "orange"
+      "low_price": 331.5,
+      "volume": 464666,
+      "dollars": 156973697,
+      "trades": 3,
+      "date_range": "2025-08-16 to 2025-11-14",
+      "color": "#FF6B6B"
     }
   ]
 }

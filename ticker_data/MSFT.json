@@ -1,89 +1,23 @@
 {
   "metadata": {
     "ticker": "MSFT",
-    "generated_at": "2025-11-11T14:00:54.944479+00:00Z",
-    "date_range": "2025-08-13 to 2025-11-11",
+    "generated_at": "2025-11-15T19:13:55.356020+00:00Z",
+    "date_range": "2025-08-16 to 2025-11-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1758254400,
-      "price": 517.93,
-      "volume": 16016523,
-      "dollars": 8295437757,
-      "rank": 4,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1756180800,
-      "price": 502.04,
-      "volume": 9139295,
-      "dollars": 4588291661,
-      "rank": 12,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
-  "levels": [
-    {
-      "price": 517.9,
-      "volume": 22820000,
-      "dollars": 11820000000,
-      "rank": "16"
-    },
-    {
-      "price": 495.9,
-      "volume": 14420000,
-      "dollars": 7150000000,
-      "rank": "65"
-    },
-    {
-      "price": 502.0,
-      "volume": 13950000,
-      "dollars": 7010000000,
-      "rank": "67"
-    },
-    {
-      "price": 506.7,
-      "volume": 13310000,
-      "dollars": 6750000000,
-      "rank": "74"
-    },
-    {
-      "price": 497.4,
-      "volume": 12880000,
-      "dollars": 6410000000,
-      "rank": "82"
-    }
-  ],
+  "prints": [],
+  "levels": [],
   "boxes": [
     {
       "box_number": 1,
       "high_price": 518.7,
-      "low_price": 517.5,
-      "volume": 570587,
-      "dollars": 295756715,
-      "trades": 2,
-      "date_range": "2025-10-02",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 509.96,
       "low_price": 509.96,
-      "volume": 55358,
-      "dollars": 28230293,
-      "trades": 1,
-      "date_range": "2025-09-23",
-      "color": "green"
+      "volume": 897954,
+      "dollars": 462830898,
+      "trades": 8,
+      "date_range": "2025-08-16 to 2025-11-14",
+      "color": "#FF6B6B"
     }
   ]
 }
