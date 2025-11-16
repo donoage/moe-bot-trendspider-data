@@ -14,6 +14,7 @@ import argparse
 import re
 import signal
 import gc
+from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -143,6 +144,389 @@ def format_timestamp(trade):
     # If neither field has the /Date(...) format, return None
     # This ensures we either get a proper Unix timestamp or nothing
     return None
+
+def fetch_big_prints_batch(tickers_batch, start_date, end_date):
+    """Fetch big prints for a batch of tickers (up to 50) in a single API call"""
+    
+    # Get cookies
+    cookie_header = get_cookies()
+    
+    # Join tickers with comma for batch request
+    tickers_str = ",".join(tickers_batch)
+    
+    headers = {
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "Cookie": cookie_header,
+        "Referer": f"https://www.volumeleaders.com/Trades?Tickers={tickers_str}&StartDate={start_date}&EndDate={end_date}",
+        "X-Requested-With": "XMLHttpRequest",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+    }
+
+    # Column definitions for the API
+    columns = [
+        {"data": "DateTime", "name": "Date/Time", "searchable": "true", "orderable": "true"},
+        {"data": "Dollars", "name": "$$", "searchable": "true", "orderable": "true"},
+        {"data": "Price", "name": "Price", "searchable": "true", "orderable": "true"},
+        {"data": "Volume", "name": "Volume", "searchable": "true", "orderable": "true"},
+        {"data": "Conditions", "name": "Conditions", "searchable": "true", "orderable": "false"},
+        {"data": "RelativeSize", "name": "Relative Size", "searchable": "true", "orderable": "true"},
+        {"data": "VolumeConcentrationRatio", "name": "VCD", "searchable": "true", "orderable": "true"},
+        {"data": "Exchange", "name": "Exchange", "searchable": "true", "orderable": "false"},
+        {"data": "SecurityTypeDisplay", "name": "Type", "searchable": "true", "orderable": "false"},
+        {"data": "Symbol", "name": "Symbol", "searchable": "true", "orderable": "false"},
+        {"data": "IsDarkPool", "name": "Dark Pool", "searchable": "true", "orderable": "false"},
+        {"data": "TradeRank", "name": "Rank", "searchable": "true", "orderable": "true"},
+        {"data": "FullTimeString24", "name": "Time", "searchable": "true", "orderable": "true"},
+        {"data": "Date", "name": "Date", "searchable": "true", "orderable": "true"},
+        {"data": "DateKey", "name": "DateKey", "searchable": "true", "orderable": "true"}
+    ]
+
+    # Base payload for the API request
+    payload = {
+        "draw": "1",
+        "start": "0", 
+        "length": "5000",  # Increased to handle multiple tickers
+        "search[value]": "",
+        "search[regex]": "false",
+        "Tickers": tickers_str,  # Comma-separated tickers
+        "SectorIndustry": "",
+        "StartDate": start_date,
+        "EndDate": end_date,
+        "MinVolume": "0",
+        "MaxVolume": "2000000000",
+        "MinPrice": "0",
+        "MaxPrice": "100000",
+        "MinDollars": "500000",  # 500K minimum for big prints
+        "MaxDollars": "300000000000",
+        "Conditions": "0",
+        "VCD": "0",
+        "SecurityTypeKey": "-1",
+        "RelativeSize": "0",
+        "DarkPools": "-1",
+        "Sweeps": "-1",
+        "LatePrints": "-1",
+        "SignaturePrints": "-1",
+        "EvenShared": "-1",
+        "TradeRank": "20",  # Only rank 20 or better
+        "IncludePremarket": "1",
+        "IncludeRTH": "1",
+        "IncludeAH": "1",
+        "IncludeOpening": "1",
+        "IncludeClosing": "1",
+        "IncludePhantom": "1",
+        "IncludeOffsetting": "1",
+        "order[0][column]": "11",  # Sort by TradeRank
+        "order[0][dir]": "ASC"     # Best ranks first
+    }
+
+    # Add column configurations to payload
+    for i, col in enumerate(columns):
+        payload[f"columns[{i}][data]"] = col["data"]
+        payload[f"columns[{i}][name]"] = col["name"]
+        payload[f"columns[{i}][searchable]"] = col["searchable"]
+        payload[f"columns[{i}][orderable]"] = col["orderable"]
+        payload[f"columns[{i}][search][value]"] = ""
+        payload[f"columns[{i}][search][regex]"] = "false"
+
+    url = "https://www.volumeleaders.com/Trades/GetTrades"
+    
+    def make_request():
+        return requests.post(url, headers=headers, data=payload, timeout=180)  # Increased timeout for batch
+    
+    try:
+        # Use retry logic for the request
+        response = retry_with_backoff(make_request, max_retries=3, base_delay=2.0)
+        
+        if response.status_code == 200:
+            try:
+                data = response.json()
+                if 'data' in data and data['data']:
+                    # Group trades by ticker
+                    ticker_prints = {ticker: [] for ticker in tickers_batch}
+                    
+                    for trade in data['data']:
+                        ticker = trade.get('Symbol', '')
+                        if ticker not in ticker_prints:
+                            continue
+                            
+                        rank = trade.get('TradeRank', 999)
+                        if rank != '' and rank is not None:
+                            try:
+                                rank_int = int(rank)
+                                if rank_int <= 20:  # Rank 20 or better
+                                    ticker_prints[ticker].append({
+                                        "timestamp": format_timestamp(trade),
+                                        "price": float(trade.get('Price', 0)),
+                                        "volume": int(trade.get('Volume', 0)),
+                                        "dollars": int(trade.get('Dollars', 0)),
+                                        "rank": rank_int,
+                                        "conditions": trade.get('Conditions', ''),
+                                        "exchange": trade.get('Exchange', ''),
+                                        "is_dark_pool": trade.get('IsDarkPool', False),
+                                        "relative_size": float(trade.get('RelativeSize', 0)),
+                                        "vcd": float(trade.get('VolumeConcentrationRatio', 0))
+                                    })
+                            except (ValueError, TypeError):
+                                continue
+                    
+                    # Sort and limit to top 10 for each ticker
+                    for ticker in ticker_prints:
+                        ticker_prints[ticker].sort(key=lambda x: x['rank'])
+                        ticker_prints[ticker] = ticker_prints[ticker][:10]
+                    
+                    return ticker_prints
+                else:
+                    # Return empty lists for all tickers
+                    return {ticker: [] for ticker in tickers_batch}
+            except json.JSONDecodeError as e:
+                print(f"Error parsing JSON response for batch: {e}")
+                return {ticker: [] for ticker in tickers_batch}
+        else:
+            print(f"Error fetching batch: HTTP {response.status_code}")
+            return {ticker: [] for ticker in tickers_batch}
+            
+    except requests.exceptions.RequestException as e:
+        print(f"Request failed for batch: {e}")
+        return {ticker: [] for ticker in tickers_batch}
+
+def fetch_support_resistance_batch(tickers_batch, start_date, end_date):
+    """Fetch support/resistance levels for a batch of tickers in a single API call"""
+    
+    # Get cookies
+    cookie_header = get_cookies()
+    
+    # Join tickers with comma
+    tickers_str = ",".join(tickers_batch)
+    
+    headers = {
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "Cookie": cookie_header,
+        "Referer": f"https://www.volumeleaders.com/Chart0?StartDate={start_date}&EndDate={end_date}&Ticker={tickers_str}&MinVolume=0&MaxVolume=2000000000&MinDollars=0&MaxDollars=300000000000&MinPrice=0&MaxPrice=100000&DarkPools=-1&Sweeps=-1&LatePrints=-1&SignaturePrints=0&VolumeProfile=0&Levels=10&TradeCount=5&VCD=0&TradeRank=-1&IncludePremarket=1&IncludeRTH=1&IncludeAH=1&IncludeOpening=1&IncludeClosing=1&IncludePhantom=1&IncludeOffsetting=1",
+        "X-Requested-With": "XMLHttpRequest",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+    }
+    
+    data = {
+        "draw": "1",
+        "columns[0][data]": "Price",
+        "columns[0][name]": "Price",
+        "columns[0][searchable]": "true",
+        "columns[0][orderable]": "false",
+        "columns[1][data]": "Dollars",
+        "columns[1][name]": "$$",
+        "columns[1][searchable]": "true",
+        "columns[1][orderable]": "false",
+        "columns[2][data]": "Volume",
+        "columns[2][name]": "Sh",
+        "columns[2][searchable]": "true",
+        "columns[2][orderable]": "false",
+        "columns[3][data]": "Trades",
+        "columns[3][name]": "Trades",
+        "columns[3][searchable]": "true",
+        "columns[3][orderable]": "false",
+        "columns[4][data]": "RelativeSize",
+        "columns[4][name]": "RS",
+        "columns[4][searchable]": "true",
+        "columns[4][orderable]": "false",
+        "columns[5][data]": "CumulativeDistribution",
+        "columns[5][name]": "PCT",
+        "columns[5][searchable]": "true",
+        "columns[5][orderable]": "false",
+        "columns[6][data]": "TradeLevelRank",
+        "columns[6][name]": "Rank",
+        "columns[6][searchable]": "true",
+        "columns[6][orderable]": "false",
+        "columns[7][data]": "Dates",
+        "columns[7][name]": "Dates",
+        "columns[7][searchable]": "true",
+        "columns[7][orderable]": "false",
+        "order[0][column]": "0",
+        "order[0][dir]": "DESC",
+        "start": "0",
+        "length": "50",  # Increased for batch
+        "search[value]": "",
+        "search[regex]": "false",
+        "StartDate": start_date,
+        "EndDate": end_date,
+        "Ticker": tickers_str,
+        "Levels": "10"
+    }
+    
+    url = "https://www.volumeleaders.com/Chart/GetTradeLevels"
+    
+    def make_request():
+        return requests.post(url, headers=headers, data=data, timeout=180)
+    
+    try:
+        response = retry_with_backoff(make_request, max_retries=3, base_delay=2.0)
+        
+        if response.status_code == 200:
+            try:
+                result = response.json()
+                if 'data' in result and result['data']:
+                    # Group levels by ticker
+                    ticker_levels = {ticker: [] for ticker in tickers_batch}
+                    
+                    for level in result['data']:
+                        ticker = level.get('Ticker', '')
+                        if ticker not in ticker_levels:
+                            continue
+                        
+                        try:
+                            ticker_levels[ticker].append({
+                                "price": float(level.get('Price', 0)),
+                                "volume": int(level.get('Volume', 0)),
+                                "dollars": int(level.get('Dollars', 0)),
+                                "rank": level.get('TradeLevelRank', '')
+                            })
+                        except (ValueError, TypeError):
+                            continue
+                    
+                    # Limit to top 5 per ticker
+                    for ticker in ticker_levels:
+                        ticker_levels[ticker] = ticker_levels[ticker][:5]
+                    
+                    return ticker_levels
+                else:
+                    return {ticker: [] for ticker in tickers_batch}
+            except json.JSONDecodeError as e:
+                print(f"Error parsing JSON for levels batch: {e}")
+                return {ticker: [] for ticker in tickers_batch}
+        else:
+            print(f"Error fetching levels batch: HTTP {response.status_code}")
+            return {ticker: [] for ticker in tickers_batch}
+    
+    except requests.exceptions.RequestException as e:
+        print(f"Request failed for levels batch: {e}")
+        return {ticker: [] for ticker in tickers_batch}
+
+def fetch_price_boxes_batch(tickers_batch, start_date, end_date):
+    """Fetch price boxes for a batch of tickers in a single API call"""
+    
+    # Get cookies
+    cookie_header = get_cookies()
+    
+    # Join tickers with comma
+    tickers_str = ",".join(tickers_batch)
+    
+    headers = {
+        "accept": "application/json, text/javascript, */*; q=0.01",
+        "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "cookie": cookie_header,
+        "referer": f"https://www.volumeleaders.com/Trades?Tickers={tickers_str}&StartDate={start_date}&EndDate={end_date}&MinVolume=0&MaxVolume=2000000000&Conditions=0&VCD=0&RelativeSize=0&DarkPools=1&Sweeps=1&LatePrints=-1&SignaturePrints=-1&EvenShared=-1&SecurityTypeKey=-1&MinPrice=0&MaxPrice=100000&MinDollars=18000000&MaxDollars=300000000000&TradeRank=-1&IncludePremarket=1&IncludeRTH=1&IncludeAH=1&IncludeOpening=1&IncludeClosing=1&IncludePhantom=1&IncludeOffsetting=1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+        "x-requested-with": "XMLHttpRequest"
+    }
+    
+    # Column definitions
+    columns = []
+    for i, (data_field, name) in enumerate([
+        ("FullTimeString24", ""), ("FullTimeString24", "FullTimeString24"),
+        ("Ticker", "Ticker"), ("Current", "Current"), ("Trade", "Trade"),
+        ("Sector", "Sector"), ("Industry", "Industry"), ("Volume", "Sh"),
+        ("Dollars", "$$"), ("DollarsMultiplier", "RS"),
+        ("CumulativeDistribution", "PCT"), ("TradeRank", "Rank"),
+        ("LastComparibleTradeDate", "Last Traded"), ("LastComparibleTradeDate", "Charts")
+    ]):
+        columns.append(f"columns%5B{i}%5D%5Bdata%5D={data_field}")
+        columns.append(f"columns%5B{i}%5D%5Bname%5D={name}")
+        columns.append(f"columns%5B{i}%5D%5Bsearchable%5D=true")
+        columns.append(f"columns%5B{i}%5D%5Borderable%5D={'true' if i > 0 else 'false'}")
+        columns.append(f"columns%5B{i}%5D%5Bsearch%5D%5Bvalue%5D=")
+        columns.append(f"columns%5B{i}%5D%5Bsearch%5D%5Bregex%5D=false")
+    
+    payload = (
+        f"draw=1&{'&'.join(columns)}"
+        f"&order%5B0%5D%5Bcolumn%5D=1&order%5B0%5D%5Bdir%5D=DESC&start=0&length=1000"
+        f"&search%5Bvalue%5D=&search%5Bregex%5D=false"
+        f"&Tickers={tickers_str}&StartDate={start_date}&EndDate={end_date}"
+        f"&MinVolume=0&MaxVolume=2000000000&MinPrice=0&MaxPrice=100000"
+        f"&MinDollars=18000000&MaxDollars=300000000000&Conditions=0&VCD=0"
+        f"&SecurityTypeKey=-1&RelativeSize=0&DarkPools=1&Sweeps=1"
+        f"&LatePrints=-1&SignaturePrints=-1&EvenShared=-1&TradeRank=-1"
+        f"&IncludePremarket=1&IncludeRTH=1&IncludeAH=1&IncludeOpening=1"
+        f"&IncludeClosing=1&IncludePhantom=1&IncludeOffsetting=1&SectorIndustry="
+    )
+    
+    url = "https://www.volumeleaders.com/Trades/GetTrades"
+    
+    def make_request():
+        return requests.post(url, headers=headers, data=payload, timeout=180)
+    
+    try:
+        response = retry_with_backoff(make_request, max_retries=3, base_delay=2.0)
+        
+        if response.status_code == 200:
+            try:
+                result = response.json()
+                if 'data' in result and result['data']:
+                    # Group trades by ticker and calculate boxes
+                    ticker_trades = defaultdict(list)
+                    
+                    for trade in result['data']:
+                        ticker = trade.get('Ticker', '')
+                        if ticker not in tickers_batch:
+                            continue
+                        
+                        try:
+                            ticker_trades[ticker].append({
+                                'price': float(trade.get('Current', 0) or trade.get('Price', 0)),
+                                'volume': int(trade.get('Volume', 0)),
+                                'dollars': int(trade.get('Dollars', 0))
+                            })
+                        except (ValueError, TypeError):
+                            continue
+                    
+                    # Calculate boxes for each ticker
+                    ticker_boxes = {}
+                    colors = ["#FF6B6B", "#4ECDC4", "#45B7D1", "#FFA07A", "#98D8C8"]
+                    
+                    for ticker in tickers_batch:
+                        trades = ticker_trades.get(ticker, [])
+                        if not trades:
+                            ticker_boxes[ticker] = []
+                            continue
+                        
+                        # Sort by price and create boxes (simplified logic)
+                        trades.sort(key=lambda x: x['price'])
+                        boxes = []
+                        
+                        if len(trades) > 0:
+                            # Create simple box from trade range
+                            prices = [t['price'] for t in trades]
+                            total_vol = sum(t['volume'] for t in trades)
+                            total_dollars = sum(t['dollars'] for t in trades)
+                            
+                            boxes.append({
+                                "box_number": 1,
+                                "high_price": max(prices),
+                                "low_price": min(prices),
+                                "volume": total_vol,
+                                "dollars": total_dollars,
+                                "trades": len(trades),
+                                "date_range": f"{start_date} to {end_date}",
+                                "color": colors[0]
+                            })
+                        
+                        ticker_boxes[ticker] = boxes[:5]  # Top 5 boxes
+                    
+                    return ticker_boxes
+                else:
+                    return {ticker: [] for ticker in tickers_batch}
+            except json.JSONDecodeError as e:
+                print(f"Error parsing JSON for boxes batch: {e}")
+                return {ticker: [] for ticker in tickers_batch}
+        else:
+            print(f"Error fetching boxes batch: HTTP {response.status_code}")
+            return {ticker: [] for ticker in tickers_batch}
+    
+    except requests.exceptions.RequestException as e:
+        print(f"Request failed for boxes batch: {e}")
+        return {ticker: [] for ticker in tickers_batch}
 
 def fetch_big_prints_for_ticker(ticker, start_date, end_date):
     """Fetch big prints (rank 20 or better) for a single ticker"""
@@ -472,16 +856,28 @@ def fetch_price_boxes_for_ticker(ticker, start_date, end_date):
     finally:
         os.chdir(original_cwd)
 
-def process_ticker(ticker, start_date, end_date, output_dir):
+def process_ticker(ticker, start_date, end_date, output_dir, batch_prints_cache=None, batch_levels_cache=None, batch_boxes_cache=None):
     """Process a single ticker and save its data"""
     # Remove verbose print statement since we have progress bar
     # print(f"Processing {ticker}...")
     
     # Process sequentially to avoid nested thread pool issues and resource leaks
     try:
-        prints = fetch_big_prints_for_ticker(ticker, start_date, end_date)
-        levels = fetch_support_resistance_for_ticker(ticker, start_date, end_date)
-        boxes = fetch_price_boxes_for_ticker(ticker, start_date, end_date)
+        # Use batch caches if available, otherwise fetch individually
+        if batch_prints_cache and ticker in batch_prints_cache and batch_prints_cache[ticker] is not None:
+            prints = batch_prints_cache[ticker]
+        else:
+            prints = fetch_big_prints_for_ticker(ticker, start_date, end_date)
+        
+        if batch_levels_cache and ticker in batch_levels_cache and batch_levels_cache[ticker] is not None:
+            levels = batch_levels_cache[ticker]
+        else:
+            levels = fetch_support_resistance_for_ticker(ticker, start_date, end_date)
+        
+        if batch_boxes_cache and ticker in batch_boxes_cache and batch_boxes_cache[ticker] is not None:
+            boxes = batch_boxes_cache[ticker]
+        else:
+            boxes = fetch_price_boxes_for_ticker(ticker, start_date, end_date)
     except Exception as e:
         print(f"\n✗ Error fetching data for {ticker}: {e}")
         return False
@@ -543,17 +939,91 @@ def main():
         print("No tickers to process")
         sys.exit(1)
     
+    # Pre-fetch big prints in batches for massive API call reduction
+    batch_size = 50  # Process 50 tickers per API call
+    batches = [tickers[i:i + batch_size] for i in range(0, len(tickers), batch_size)]
+    num_batches = len(batches)
+    
+    print(f"\n🎯 BATCH PROCESSING MODE")
+    print(f"   Fetching big prints for {len(tickers)} tickers in {num_batches} batches")
+    print(f"   API calls reduction: {len(tickers)} → {num_batches} calls (-{100 * (1 - num_batches / len(tickers)):.1f}%)")
+    
+    # Fetch all big prints in batches
+    batch_prints_cache = {}
+    for i, batch in enumerate(batches, 1):
+        print(f"   📦 Fetching batch {i}/{num_batches} ({len(batch)} tickers)...", end='', flush=True)
+        try:
+            batch_results = fetch_big_prints_batch(batch, start_date, end_date)
+            batch_prints_cache.update(batch_results)
+            print(f" ✓")
+        except Exception as e:
+            print(f" ✗ Error: {e}")
+            # On batch failure, mark all tickers in batch for individual fetch
+            for ticker in batch:
+                batch_prints_cache[ticker] = None
+        
+        # Small delay between batches to be respectful
+        if i < num_batches:
+            time.sleep(1)
+    
+    print(f"✅ Big prints batch fetch complete! {len(batch_prints_cache)} tickers cached\n")
+    
+    # Fetch all support/resistance levels in batches
+    print(f"\n🎯 FETCHING SUPPORT/RESISTANCE LEVELS")
+    print(f"   Fetching levels for {len(tickers)} tickers in {num_batches} batches")
+    print(f"   API calls reduction: {len(tickers)} → {num_batches} calls (-{100 * (1 - num_batches / len(tickers)):.1f}%)")
+    
+    batch_levels_cache = {}
+    for i, batch in enumerate(batches, 1):
+        print(f"   📊 Fetching levels batch {i}/{num_batches} ({len(batch)} tickers)...", end='', flush=True)
+        try:
+            batch_results = fetch_support_resistance_batch(batch, start_date, end_date)
+            batch_levels_cache.update(batch_results)
+            print(f" ✓")
+        except Exception as e:
+            print(f" ✗ Error: {e}")
+            for ticker in batch:
+                batch_levels_cache[ticker] = None
+        
+        if i < num_batches:
+            time.sleep(1)
+    
+    print(f"✅ Levels batch fetch complete! {len(batch_levels_cache)} tickers cached\n")
+    
+    # Fetch all price boxes in batches
+    print(f"\n🎯 FETCHING PRICE BOXES")
+    print(f"   Fetching boxes for {len(tickers)} tickers in {num_batches} batches")
+    print(f"   API calls reduction: {len(tickers)} → {num_batches} calls (-{100 * (1 - num_batches / len(tickers)):.1f}%)")
+    
+    batch_boxes_cache = {}
+    for i, batch in enumerate(batches, 1):
+        print(f"   📦 Fetching boxes batch {i}/{num_batches} ({len(batch)} tickers)...", end='', flush=True)
+        try:
+            batch_results = fetch_price_boxes_batch(batch, start_date, end_date)
+            batch_boxes_cache.update(batch_results)
+            print(f" ✓")
+        except Exception as e:
+            print(f" ✗ Error: {e}")
+            for ticker in batch:
+                batch_boxes_cache[ticker] = None
+        
+        if i < num_batches:
+            time.sleep(1)
+    
+    print(f"✅ Boxes batch fetch complete! {len(batch_boxes_cache)} tickers cached\n")
+    
     # Process tickers with controlled concurrency and progress bar
     successful = 0
     failed = 0
     
-    print(f"\n🚀 Starting processing of {len(tickers)} tickers with {args.max_workers} workers...")
+    print(f"🚀 Starting processing of {len(tickers)} tickers with {args.max_workers} workers...")
     print(f"📊 Progress updates will be shown every 10 completed tickers...")
     
     with ThreadPoolExecutor(max_workers=args.max_workers) as executor:
-        # Submit all tasks
+        # Submit all tasks with all batch caches
         future_to_ticker = {
-            executor.submit(process_ticker, ticker, start_date, end_date, output_dir): ticker 
+            executor.submit(process_ticker, ticker, start_date, end_date, output_dir, 
+                          batch_prints_cache, batch_levels_cache, batch_boxes_cache): ticker 
             for ticker in tickers
         }
         
