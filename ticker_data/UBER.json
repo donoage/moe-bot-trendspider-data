@@ -1,12 +1,23 @@
 {
   "metadata": {
     "ticker": "UBER",
-    "generated_at": "2025-11-17T11:01:37.571363+00:00Z",
+    "generated_at": "2025-11-17T14:20:14.148321+00:00Z",
     "date_range": "2025-08-19 to 2025-11-17",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
   "levels": [],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 98.0,
+      "low_price": 91.0,
+      "volume": 3170708,
+      "dollars": 293920633,
+      "trades": 5,
+      "date_range": "2025-08-19 to 2025-11-17",
+      "color": "#FF6B6B"
+    }
+  ]
 }
