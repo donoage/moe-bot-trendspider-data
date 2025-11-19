@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "CVLT",
-    "generated_at": "2025-11-19T11:13:23.425737+00:00Z",
+    "generated_at": "2025-11-19T22:51:51.813464+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 194.61,
+      "volume": 1570927,
+      "dollars": 305718103,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 194.61,
+      "volume": 732500,
+      "dollars": 142551825,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1762142400,
+      "price": 140.37,
+      "volume": 332280,
+      "dollars": 46642143,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1756180800,
+      "price": 177.68,
+      "volume": 210011,
+      "dollars": 37314754,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 194.6,
+      "volume": 2440000,
+      "dollars": 470000000,
+      "rank": "1"
+    },
+    {
+      "price": 178.8,
+      "volume": 820000,
+      "dollars": 150000000,
+      "rank": "3"
+    },
+    {
+      "price": 176.0,
+      "volume": 670000,
+      "dollars": 120000000,
+      "rank": "6"
+    },
+    {
+      "price": 158.7,
+      "volume": 700000,
+      "dollars": 110000000,
+      "rank": "8"
+    },
+    {
+      "price": 170.5,
+      "volume": 620000,
+      "dollars": 110000000,
+      "rank": "9"
+    }
+  ],
   "boxes": []
 }

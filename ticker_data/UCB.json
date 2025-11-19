@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "UCB",
-    "generated_at": "2025-11-19T11:13:23.425997+00:00Z",
+    "generated_at": "2025-11-19T22:52:03.238835+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 32.23,
+      "volume": 867015,
+      "dollars": 27943893,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1759464000,
+      "price": 31.51,
+      "volume": 332249,
+      "dollars": 10469165,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 32.5,
+      "volume": 260724,
+      "dollars": 8473530,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 29.5,
+      "volume": 2800000,
+      "dollars": 80000000,
+      "rank": "1"
+    },
+    {
+      "price": 28.8,
+      "volume": 2590000,
+      "dollars": 70000000,
+      "rank": "3"
+    },
+    {
+      "price": 31.6,
+      "volume": 1940000,
+      "dollars": 60000000,
+      "rank": "4"
+    },
+    {
+      "price": 31.4,
+      "volume": 1900000,
+      "dollars": 60000000,
+      "rank": "5"
+    },
+    {
+      "price": 29.9,
+      "volume": 1640000,
+      "dollars": 50000000,
+      "rank": "7"
+    }
+  ],
   "boxes": []
 }

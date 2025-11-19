@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "FRME",
-    "generated_at": "2025-11-19T11:13:23.425219+00:00Z",
+    "generated_at": "2025-11-19T22:50:37.399797+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 40.3,
+      "volume": 881759,
+      "dollars": 35534887,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 40.3,
+      "volume": 342100,
+      "dollars": 13786630,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 40.3,
+      "volume": 2340000,
+      "dollars": 90000000,
+      "rank": "1"
+    },
+    {
+      "price": 40.2,
+      "volume": 2089999,
+      "dollars": 80000000,
+      "rank": "2"
+    },
+    {
+      "price": 39.7,
+      "volume": 1630000,
+      "dollars": 60000000,
+      "rank": "3"
+    },
+    {
+      "price": 38.7,
+      "volume": 1640000,
+      "dollars": 60000000,
+      "rank": "4"
+    },
+    {
+      "price": 36.6,
+      "volume": 1640000,
+      "dollars": 60000000,
+      "rank": "5"
+    }
+  ],
   "boxes": []
 }

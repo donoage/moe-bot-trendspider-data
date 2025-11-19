@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "BVN",
-    "generated_at": "2025-11-19T11:13:23.426617+00:00Z",
+    "generated_at": "2025-11-19T22:53:21.826601+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 20.91,
+      "volume": 3072628,
+      "dollars": 64248651,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 25.1,
+      "volume": 3570000,
+      "dollars": 90000000,
+      "rank": "44"
+    },
+    {
+      "price": 20.9,
+      "volume": 4070000,
+      "dollars": 90000000,
+      "rank": "47"
+    },
+    {
+      "price": 22.7,
+      "volume": 2300000,
+      "dollars": 50000000,
+      "rank": "89"
+    },
+    {
+      "price": 22.8,
+      "volume": 2029999,
+      "dollars": 50000000,
+      "rank": "98"
+    },
+    {
+      "price": 24.3,
+      "volume": 1860000,
+      "dollars": 50000000,
+      "rank": "100"
+    }
+  ],
   "boxes": []
 }

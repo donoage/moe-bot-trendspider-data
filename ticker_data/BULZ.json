@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "BULZ",
-    "generated_at": "2025-11-19T11:13:23.416159+00:00Z",
+    "generated_at": "2025-11-19T22:33:01.419844+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1761537600,
+      "price": 312.0,
+      "volume": 11434,
+      "dollars": 3567408,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1761710400,
+      "price": 332.26,
+      "volume": 10000,
+      "dollars": 3322600,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763092800,
+      "price": 234.0,
+      "volume": 11340,
+      "dollars": 2653560,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 296.8,
+      "volume": 20000,
+      "dollars": 10000000,
+      "rank": "2"
+    },
+    {
+      "price": 312.0,
+      "volume": 20000,
+      "dollars": 10000000,
+      "rank": "3"
+    },
+    {
+      "price": 181.3,
+      "volume": 20000,
+      "dollars": 0,
+      "rank": "6"
+    },
+    {
+      "price": 237.9,
+      "volume": 20000,
+      "dollars": 0,
+      "rank": "7"
+    },
+    {
+      "price": 332.3,
+      "volume": 10000,
+      "dollars": 0,
+      "rank": "8"
+    }
+  ],
   "boxes": []
 }

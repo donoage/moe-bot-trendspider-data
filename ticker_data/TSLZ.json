@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "TSLZ",
-    "generated_at": "2025-11-19T11:13:23.422304+00:00Z",
+    "generated_at": "2025-11-19T22:43:53.904936+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1755835200,
+      "price": 26.8,
+      "volume": 100000,
+      "dollars": 2680000,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 26.8,
+      "volume": 170000,
+      "dollars": 0,
+      "rank": "2"
+    },
+    {
+      "price": 27.4,
+      "volume": 120000,
+      "dollars": 0,
+      "rank": "9"
+    },
+    {
+      "price": 14.3,
+      "volume": 130000,
+      "dollars": 0,
+      "rank": "54"
+    },
+    {
+      "price": 27.8,
+      "volume": 60000,
+      "dollars": 0,
+      "rank": "62"
+    },
+    {
+      "price": 28.6,
+      "volume": 60000,
+      "dollars": 0,
+      "rank": "67"
+    }
+  ],
   "boxes": []
 }

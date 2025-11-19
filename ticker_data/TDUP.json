@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "TDUP",
-    "generated_at": "2025-11-19T11:13:23.413242+00:00Z",
+    "generated_at": "2025-11-19T22:27:37.964947+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 10.53,
+      "volume": 3193676,
+      "dollars": 33629408,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1756180800,
+      "price": 11.62,
+      "volume": 1843462,
+      "dollars": 21421028,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1759118400,
+      "price": 9.55,
+      "volume": 862691,
+      "dollars": 8238699,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 7.5,
+      "volume": 7330000,
+      "dollars": 50000000,
+      "rank": "2"
+    },
+    {
+      "price": 10.5,
+      "volume": 4870000,
+      "dollars": 50000000,
+      "rank": "3"
+    },
+    {
+      "price": 11.6,
+      "volume": 2430000,
+      "dollars": 30000000,
+      "rank": "5"
+    },
+    {
+      "price": 7.3,
+      "volume": 2290000,
+      "dollars": 20000000,
+      "rank": "10"
+    },
+    {
+      "price": 8.0,
+      "volume": 1720000,
+      "dollars": 10000000,
+      "rank": "12"
+    }
+  ],
   "boxes": []
 }

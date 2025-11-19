@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "NHC",
-    "generated_at": "2025-11-19T11:13:23.425518+00:00Z",
+    "generated_at": "2025-11-19T22:51:22.384956+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 117.22,
+      "volume": 254581,
+      "dollars": 29841984,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 117.22,
+      "volume": 125200,
+      "dollars": 14675944,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 126.8,
+      "volume": 500000,
+      "dollars": 60000000,
+      "rank": "2"
+    },
+    {
+      "price": 117.2,
+      "volume": 400000,
+      "dollars": 50000000,
+      "rank": "3"
+    },
+    {
+      "price": 111.9,
+      "volume": 120000,
+      "dollars": 10000000,
+      "rank": "9"
+    },
+    {
+      "price": 122.3,
+      "volume": 40000,
+      "dollars": 10000000,
+      "rank": "41"
+    },
+    {
+      "price": 125.3,
+      "volume": 40000,
+      "dollars": 0,
+      "rank": "50"
+    }
+  ],
   "boxes": []
 }

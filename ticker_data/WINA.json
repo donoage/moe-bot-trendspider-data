@@ -1,12 +1,104 @@
 {
   "metadata": {
     "ticker": "WINA",
-    "generated_at": "2025-11-19T11:13:23.425355+00:00Z",
+    "generated_at": "2025-11-19T22:50:54.861422+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 505.63,
+      "volume": 71486,
+      "dollars": 36145466,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 505.63,
+      "volume": 43215,
+      "dollars": 21850800,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1759118400,
+      "price": 506.32,
+      "volume": 19958,
+      "dollars": 10105134,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1761796800,
+      "price": 392.72,
+      "volume": 18857,
+      "dollars": 7405521,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1759809600,
+      "price": 495.4,
+      "volume": 12782,
+      "dollars": 6332202,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 505.6,
+      "volume": 110000,
+      "dollars": 60000000,
+      "rank": "1"
+    },
+    {
+      "price": 444.3,
+      "volume": 60000,
+      "dollars": 30000000,
+      "rank": "2"
+    },
+    {
+      "price": 422.4,
+      "volume": 40000,
+      "dollars": 20000000,
+      "rank": "3"
+    },
+    {
+      "price": 506.3,
+      "volume": 20000,
+      "dollars": 10000000,
+      "rank": "9"
+    },
+    {
+      "price": 398.7,
+      "volume": 20000,
+      "dollars": 10000000,
+      "rank": "13"
+    }
+  ],
   "boxes": []
 }

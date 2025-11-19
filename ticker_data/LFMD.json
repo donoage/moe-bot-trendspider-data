@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "LFMD",
-    "generated_at": "2025-11-19T11:13:23.422049+00:00Z",
+    "generated_at": "2025-11-19T22:43:43.498210+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1759204800,
+      "price": 6.79,
+      "volume": 521090,
+      "dollars": 3538201,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 6.9,
+      "volume": 5190000,
+      "dollars": 40000000,
+      "rank": "1"
+    },
+    {
+      "price": 6.8,
+      "volume": 1150000,
+      "dollars": 10000000,
+      "rank": "9"
+    },
+    {
+      "price": 6.2,
+      "volume": 1070000,
+      "dollars": 10000000,
+      "rank": "14"
+    },
+    {
+      "price": 7.0,
+      "volume": 860000,
+      "dollars": 10000000,
+      "rank": "16"
+    },
+    {
+      "price": 6.7,
+      "volume": 890000,
+      "dollars": 10000000,
+      "rank": "17"
+    }
+  ],
   "boxes": []
 }

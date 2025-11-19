@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "XMTR",
-    "generated_at": "2025-11-19T11:13:23.429886+00:00Z",
+    "generated_at": "2025-11-19T23:01:32.652017+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 53.81,
+      "volume": 365827,
+      "dollars": 19685150,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1762401600,
+      "price": 62.0,
+      "volume": 223100,
+      "dollars": 13832200,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1762833600,
+      "price": 65.59,
+      "volume": 206994,
+      "dollars": 13576736,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1762228800,
+      "price": 62.62,
+      "volume": 186006,
+      "dollars": 11647695,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 62.5,
+      "volume": 1180000,
+      "dollars": 70000000,
+      "rank": "2"
+    },
+    {
+      "price": 56.7,
+      "volume": 1200000,
+      "dollars": 70000000,
+      "rank": "3"
+    },
+    {
+      "price": 68.0,
+      "volume": 790000,
+      "dollars": 50000000,
+      "rank": "5"
+    },
+    {
+      "price": 48.9,
+      "volume": 630000,
+      "dollars": 30000000,
+      "rank": "10"
+    },
+    {
+      "price": 50.3,
+      "volume": 600000,
+      "dollars": 30000000,
+      "rank": "11"
+    }
+  ],
   "boxes": []
 }

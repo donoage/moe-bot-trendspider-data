@@ -1,23 +1,87 @@
 {
   "metadata": {
     "ticker": "ICE",
-    "generated_at": "2025-11-19T11:13:23.429405+00:00Z",
+    "generated_at": "2025-11-19T23:00:15.374757+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 169.77,
+      "volume": 1602195,
+      "dollars": 272004645,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 179.8,
+      "volume": 4690000,
+      "dollars": 840000000,
+      "rank": "3"
+    },
+    {
+      "price": 156.1,
+      "volume": 4430000,
+      "dollars": 690000000,
+      "rank": "7"
+    },
+    {
+      "price": 150.3,
+      "volume": 4520000,
+      "dollars": 680000000,
+      "rank": "9"
+    },
+    {
+      "price": 159.8,
+      "volume": 4160000,
+      "dollars": 660000000,
+      "rank": "11"
+    },
+    {
+      "price": 173.2,
+      "volume": 3760000,
+      "dollars": 650000000,
+      "rank": "13"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
       "high_price": 157.85,
+      "low_price": 155.0,
+      "volume": 2427700,
+      "dollars": 381288968,
+      "trades": 7,
+      "date_range": "2025-10-16 to 2025-10-24",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 154.0,
+      "low_price": 154.0,
+      "volume": 299300,
+      "dollars": 46092200,
+      "trades": 1,
+      "date_range": "2025-11-18",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 150.1,
       "low_price": 150.1,
-      "volume": 2908425,
-      "dollars": 454612733,
-      "trades": 9,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "volume": 181425,
+      "dollars": 27231565,
+      "trades": 1,
+      "date_range": "2025-10-30",
+      "color": "orange"
     }
   ]
 }

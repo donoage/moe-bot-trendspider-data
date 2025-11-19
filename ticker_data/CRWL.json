@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "CRWL",
-    "generated_at": "2025-11-19T11:13:23.414757+00:00Z",
+    "generated_at": "2025-11-19T22:30:38.789323+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758513600,
+      "price": 37.3,
+      "volume": 28673,
+      "dollars": 1069502,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1760068800,
+      "price": 38.8,
+      "volume": 25800,
+      "dollars": 1001040,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1762920000,
+      "price": 45.0,
+      "volume": 21596,
+      "dollars": 971820,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758513600,
+      "price": 37.25,
+      "volume": 17103,
+      "dollars": 637086,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 37.3,
+      "volume": 50000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
+      "price": 40.5,
+      "volume": 40000,
+      "dollars": 0,
+      "rank": "2"
+    },
+    {
+      "price": 39.7,
+      "volume": 40000,
+      "dollars": 0,
+      "rank": "3"
+    },
+    {
+      "price": 38.8,
+      "volume": 30000,
+      "dollars": 0,
+      "rank": "4"
+    },
+    {
+      "price": 45.0,
+      "volume": 20000,
+      "dollars": 0,
+      "rank": "5"
+    }
+  ],
   "boxes": []
 }

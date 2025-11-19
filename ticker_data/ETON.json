@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "ETON",
-    "generated_at": "2025-11-19T11:13:23.426963+00:00Z",
+    "generated_at": "2025-11-19T22:54:14.318614+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 18.34,
+      "volume": 150638,
+      "dollars": 2762700,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1761192000,
+      "price": 18.54,
+      "volume": 102830,
+      "dollars": 1906468,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1762142400,
+      "price": 17.96,
+      "volume": 92533,
+      "dollars": 1661892,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1759896000,
+      "price": 20.93,
+      "volume": 62560,
+      "dollars": 1309380,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 17.1,
+      "volume": 190000,
+      "dollars": 0,
+      "rank": "6"
+    },
+    {
+      "price": 18.3,
+      "volume": 150000,
+      "dollars": 0,
+      "rank": "7"
+    },
+    {
+      "price": 18.5,
+      "volume": 140000,
+      "dollars": 0,
+      "rank": "8"
+    },
+    {
+      "price": 17.3,
+      "volume": 110000,
+      "dollars": 0,
+      "rank": "14"
+    },
+    {
+      "price": 19.9,
+      "volume": 80000,
+      "dollars": 0,
+      "rank": "16"
+    }
+  ],
   "boxes": []
 }

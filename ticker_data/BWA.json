@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "BWA",
-    "generated_at": "2025-11-19T11:13:23.419870+00:00Z",
+    "generated_at": "2025-11-19T22:39:24.003043+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 44.22,
+      "volume": 2469321,
+      "dollars": 109193374,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 44.3,
+      "volume": 10150000,
+      "dollars": 450000000,
+      "rank": "13"
+    },
+    {
+      "price": 44.2,
+      "volume": 9250000,
+      "dollars": 410000000,
+      "rank": "18"
+    },
+    {
+      "price": 42.8,
+      "volume": 9090000,
+      "dollars": 390000000,
+      "rank": "25"
+    },
+    {
+      "price": 41.6,
+      "volume": 8700000,
+      "dollars": 360000000,
+      "rank": "28"
+    },
+    {
+      "price": 43.6,
+      "volume": 8210000,
+      "dollars": 360000000,
+      "rank": "29"
+    }
+  ],
   "boxes": []
 }

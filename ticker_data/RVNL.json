@@ -1,12 +1,50 @@
 {
   "metadata": {
     "ticker": "RVNL",
-    "generated_at": "2025-11-19T11:13:23.415216+00:00Z",
+    "generated_at": "2025-11-19T22:31:21.609520+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758168000,
+      "price": 37.39,
+      "volume": 13960,
+      "dollars": 521964,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758772800,
+      "price": 43.25,
+      "volume": 11840,
+      "dollars": 512080,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 37.4,
+      "volume": 10000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
+      "price": 43.3,
+      "volume": 10000,
+      "dollars": 0,
+      "rank": "2"
+    }
+  ],
   "boxes": []
 }

@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "TEL",
-    "generated_at": "2025-11-19T11:13:23.420872+00:00Z",
+    "generated_at": "2025-11-19T22:41:01.662772+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 216.17,
+      "volume": 1873524,
+      "dollars": 404999683,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 216.2,
+      "volume": 2470000,
+      "dollars": 530000000,
+      "rank": "9"
+    },
+    {
+      "price": 246.3,
+      "volume": 960000,
+      "dollars": 240000000,
+      "rank": "0"
+    },
+    {
+      "price": 206.9,
+      "volume": 1090000,
+      "dollars": 230000000,
+      "rank": "0"
+    },
+    {
+      "price": 213.8,
+      "volume": 960000,
+      "dollars": 210000000,
+      "rank": "0"
+    },
+    {
+      "price": 201.9,
+      "volume": 830000,
+      "dollars": 170000000,
+      "rank": "0"
+    }
+  ],
   "boxes": []
 }

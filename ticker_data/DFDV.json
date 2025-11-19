@@ -1,12 +1,128 @@
 {
   "metadata": {
     "ticker": "DFDV",
-    "generated_at": "2025-11-19T11:13:23.422610+00:00Z",
+    "generated_at": "2025-11-19T22:44:43.470669+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1762142400,
+      "price": 9.56,
+      "volume": 1074130,
+      "dollars": 10268682,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 15.39,
+      "volume": 477711,
+      "dollars": 7352411,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758168000,
+      "price": 16.14,
+      "volume": 228428,
+      "dollars": 3686000,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1756353600,
+      "price": 14.97,
+      "volume": 173844,
+      "dollars": 2602918,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1762228800,
+      "price": 9.2,
+      "volume": 250000,
+      "dollars": 2300000,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758168000,
+      "price": 16.14,
+      "volume": 136292,
+      "dollars": 2199260,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1762228800,
+      "price": 8.66,
+      "volume": 248041,
+      "dollars": 2148035,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 17.0,
+      "volume": 1270000,
+      "dollars": 20000000,
+      "rank": "1"
+    },
+    {
+      "price": 9.6,
+      "volume": 1270000,
+      "dollars": 10000000,
+      "rank": "2"
+    },
+    {
+      "price": 15.4,
+      "volume": 640000,
+      "dollars": 10000000,
+      "rank": "3"
+    },
+    {
+      "price": 16.0,
+      "volume": 570000,
+      "dollars": 10000000,
+      "rank": "4"
+    },
+    {
+      "price": 16.1,
+      "volume": 530000,
+      "dollars": 10000000,
+      "rank": "5"
+    }
+  ],
   "boxes": []
 }

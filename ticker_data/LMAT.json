@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "LMAT",
-    "generated_at": "2025-11-19T11:13:23.425454+00:00Z",
+    "generated_at": "2025-11-19T22:51:14.001108+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 92.25,
+      "volume": 358355,
+      "dollars": 33058248,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 92.25,
+      "volume": 114200,
+      "dollars": 10534950,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 83.5,
+      "volume": 790000,
+      "dollars": 70000000,
+      "rank": "1"
+    },
+    {
+      "price": 92.3,
+      "volume": 570000,
+      "dollars": 50000000,
+      "rank": "2"
+    },
+    {
+      "price": 92.1,
+      "volume": 310000,
+      "dollars": 30000000,
+      "rank": "4"
+    },
+    {
+      "price": 81.8,
+      "volume": 330000,
+      "dollars": 30000000,
+      "rank": "6"
+    },
+    {
+      "price": 82.3,
+      "volume": 320000,
+      "dollars": 30000000,
+      "rank": "7"
+    }
+  ],
   "boxes": []
 }

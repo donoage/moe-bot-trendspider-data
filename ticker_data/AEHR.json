@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "AEHR",
-    "generated_at": "2025-11-19T11:13:23.417941+00:00Z",
+    "generated_at": "2025-11-19T22:36:07.433627+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1759204800,
+      "price": 30.11,
+      "volume": 424510,
+      "dollars": 12781996,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 23.2,
+      "volume": 710000,
+      "dollars": 20000000,
+      "rank": "5"
+    },
+    {
+      "price": 25.9,
+      "volume": 620000,
+      "dollars": 20000000,
+      "rank": "6"
+    },
+    {
+      "price": 30.1,
+      "volume": 520000,
+      "dollars": 20000000,
+      "rank": "7"
+    },
+    {
+      "price": 30.0,
+      "volume": 510000,
+      "dollars": 20000000,
+      "rank": "8"
+    },
+    {
+      "price": 26.1,
+      "volume": 470000,
+      "dollars": 10000000,
+      "rank": "13"
+    }
+  ],
   "boxes": []
 }

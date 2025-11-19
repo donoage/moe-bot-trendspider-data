@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "NGD",
-    "generated_at": "2025-11-19T11:13:23.427727+00:00Z",
+    "generated_at": "2025-11-19T22:55:49.102198+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 6.65,
+      "volume": 19805191,
+      "dollars": 131704520,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 6.7,
+      "volume": 27390000,
+      "dollars": 180000000,
+      "rank": "1"
+    },
+    {
+      "price": 6.3,
+      "volume": 21150000,
+      "dollars": 130000000,
+      "rank": "3"
+    },
+    {
+      "price": 7.3,
+      "volume": 15500000,
+      "dollars": 110000000,
+      "rank": "6"
+    },
+    {
+      "price": 6.8,
+      "volume": 14810000,
+      "dollars": 100000000,
+      "rank": "7"
+    },
+    {
+      "price": 6.5,
+      "volume": 12750000,
+      "dollars": 80000000,
+      "rank": "13"
+    }
+  ],
   "boxes": []
 }

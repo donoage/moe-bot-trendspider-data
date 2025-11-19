@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "ARKF",
-    "generated_at": "2025-11-19T11:13:23.414290+00:00Z",
+    "generated_at": "2025-11-19T22:29:20.405516+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1760673600,
+      "price": 54.54,
+      "volume": 1300000,
+      "dollars": 70903300,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1760068800,
+      "price": 58.11,
+      "volume": 349098,
+      "dollars": 20286084,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1755835200,
+      "price": 54.38,
+      "volume": 315816,
+      "dollars": 17175495,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 54.5,
+      "volume": 2470000,
+      "dollars": 130000000,
+      "rank": "1"
+    },
+    {
+      "price": 52.6,
+      "volume": 1350000,
+      "dollars": 70000000,
+      "rank": "2"
+    },
+    {
+      "price": 52.1,
+      "volume": 1360000,
+      "dollars": 70000000,
+      "rank": "3"
+    },
+    {
+      "price": 52.0,
+      "volume": 1110000,
+      "dollars": 60000000,
+      "rank": "4"
+    },
+    {
+      "price": 54.2,
+      "volume": 960000,
+      "dollars": 50000000,
+      "rank": "6"
+    }
+  ],
   "boxes": []
 }

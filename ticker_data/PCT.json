@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "PCT",
-    "generated_at": "2025-11-19T11:13:23.412765+00:00Z",
+    "generated_at": "2025-11-19T22:26:57.785685+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 13.91,
+      "volume": 978535,
+      "dollars": 13611421,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 13.7,
+      "volume": 5320000,
+      "dollars": 70000000,
+      "rank": "3"
+    },
+    {
+      "price": 9.3,
+      "volume": 7680000,
+      "dollars": 70000000,
+      "rank": "4"
+    },
+    {
+      "price": 13.6,
+      "volume": 3470000,
+      "dollars": 50000000,
+      "rank": "6"
+    },
+    {
+      "price": 13.0,
+      "volume": 3350000,
+      "dollars": 40000000,
+      "rank": "7"
+    },
+    {
+      "price": 15.4,
+      "volume": 2590000,
+      "dollars": 40000000,
+      "rank": "8"
+    }
+  ],
   "boxes": []
 }

@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "VCTR",
-    "generated_at": "2025-11-19T11:13:23.425637+00:00Z",
+    "generated_at": "2025-11-19T22:51:36.801776+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 67.05,
+      "volume": 637318,
+      "dollars": 42732171,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 67.05,
+      "volume": 237380,
+      "dollars": 15916329,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1759204800,
+      "price": 64.76,
+      "volume": 242600,
+      "dollars": 15710776,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758513600,
+      "price": 66.08,
+      "volume": 228940,
+      "dollars": 15128355,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 71.0,
+      "volume": 6200000,
+      "dollars": 440000000,
+      "rank": "1"
+    },
+    {
+      "price": 67.1,
+      "volume": 1370000,
+      "dollars": 90000000,
+      "rank": "3"
+    },
+    {
+      "price": 64.1,
+      "volume": 660000,
+      "dollars": 40000000,
+      "rank": "7"
+    },
+    {
+      "price": 65.5,
+      "volume": 530000,
+      "dollars": 30000000,
+      "rank": "9"
+    },
+    {
+      "price": 66.2,
+      "volume": 490000,
+      "dollars": 30000000,
+      "rank": "10"
+    }
+  ],
   "boxes": []
 }

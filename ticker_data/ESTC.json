@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "ESTC",
-    "generated_at": "2025-11-19T11:13:23.422067+00:00Z",
+    "generated_at": "2025-11-19T22:43:37.162367+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1757304000,
+      "price": 92.3,
+      "volume": 1160004,
+      "dollars": 107068369,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 85.0,
+      "volume": 3490000,
+      "dollars": 300000000,
+      "rank": "1"
+    },
+    {
+      "price": 89.2,
+      "volume": 3030000,
+      "dollars": 270000000,
+      "rank": "2"
+    },
+    {
+      "price": 82.0,
+      "volume": 3040000,
+      "dollars": 250000000,
+      "rank": "3"
+    },
+    {
+      "price": 77.6,
+      "volume": 3100000,
+      "dollars": 240000000,
+      "rank": "4"
+    },
+    {
+      "price": 106.5,
+      "volume": 1940000,
+      "dollars": 210000000,
+      "rank": "5"
+    }
+  ],
   "boxes": []
 }

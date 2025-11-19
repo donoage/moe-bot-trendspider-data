@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "OPAD",
-    "generated_at": "2025-11-19T11:13:23.422393+00:00Z",
+    "generated_at": "2025-11-19T22:44:07.389314+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 5.09,
+      "volume": 611421,
+      "dollars": 3112132,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 4.4,
+      "volume": 860000,
+      "dollars": 0,
+      "rank": "9"
+    },
+    {
+      "price": 4.9,
+      "volume": 700000,
+      "dollars": 0,
+      "rank": "11"
+    },
+    {
+      "price": 5.1,
+      "volume": 610000,
+      "dollars": 0,
+      "rank": "14"
+    },
+    {
+      "price": 4.2,
+      "volume": 300000,
+      "dollars": 0,
+      "rank": "24"
+    },
+    {
+      "price": 5.0,
+      "volume": 210000,
+      "dollars": 0,
+      "rank": "28"
+    }
+  ],
   "boxes": []
 }

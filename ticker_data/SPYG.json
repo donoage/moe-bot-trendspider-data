@@ -1,23 +1,99 @@
 {
   "metadata": {
     "ticker": "SPYG",
-    "generated_at": "2025-11-19T11:13:23.418396+00:00Z",
+    "generated_at": "2025-11-19T22:36:50.936270+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758600000,
+      "price": 104.74,
+      "volume": 7847804,
+      "dollars": 821978990,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758600000,
+      "price": 104.67,
+      "volume": 2672803,
+      "dollars": 279762290,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 104.7,
+      "volume": 10660000,
+      "dollars": 1120000000,
+      "rank": "2"
+    },
+    {
+      "price": 98.0,
+      "volume": 5700000,
+      "dollars": 560000000,
+      "rank": "10"
+    },
+    {
+      "price": 99.7,
+      "volume": 3100000,
+      "dollars": 310000000,
+      "rank": "38"
+    },
+    {
+      "price": 103.1,
+      "volume": 2060000,
+      "dollars": 210000000,
+      "rank": "83"
+    },
+    {
+      "price": 105.0,
+      "volume": 1810000,
+      "dollars": 190000000,
+      "rank": "99"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 107.05,
+      "high_price": 104.74,
       "low_price": 102.78,
-      "volume": 11825891,
-      "dollars": 1239043326,
-      "trades": 6,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "volume": 11159383,
+      "dollars": 1167693647,
+      "trades": 5,
+      "date_range": "2025-09-10 to 2025-09-23",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 107.05,
+      "low_price": 107.05,
+      "volume": 666508,
+      "dollars": 71349681,
+      "trades": 1,
+      "date_range": "2025-11-05",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 103.55,
+      "low_price": 103.55,
+      "volume": 541583,
+      "dollars": 56080919,
+      "trades": 1,
+      "date_range": "2025-11-19",
+      "color": "orange"
     }
   ]
 }

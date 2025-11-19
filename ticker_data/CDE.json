@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "CDE",
-    "generated_at": "2025-11-19T11:13:23.426700+00:00Z",
+    "generated_at": "2025-11-19T22:53:29.169479+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 17.42,
+      "volume": 25731561,
+      "dollars": 448243792,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1761883200,
+      "price": 17.17,
+      "volume": 3041703,
+      "dollars": 52226040,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758081600,
+      "price": 16.0,
+      "volume": 2751433,
+      "dollars": 44022928,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 17.4,
+      "volume": 31960000,
+      "dollars": 560000000,
+      "rank": "1"
+    },
+    {
+      "price": 11.7,
+      "volume": 29080000,
+      "dollars": 340000000,
+      "rank": "4"
+    },
+    {
+      "price": 12.4,
+      "volume": 24290000,
+      "dollars": 300000000,
+      "rank": "6"
+    },
+    {
+      "price": 19.0,
+      "volume": 8850000,
+      "dollars": 170000000,
+      "rank": "19"
+    },
+    {
+      "price": 18.8,
+      "volume": 6150000,
+      "dollars": 120000000,
+      "rank": "34"
+    }
+  ],
   "boxes": []
 }

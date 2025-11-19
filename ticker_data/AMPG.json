@@ -1,12 +1,38 @@
 {
   "metadata": {
     "ticker": "AMPG",
-    "generated_at": "2025-11-19T11:13:23.423341+00:00Z",
+    "generated_at": "2025-11-19T22:46:14.621140+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1761105600,
+      "price": 3.5,
+      "volume": 144868,
+      "dollars": 507038,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 3.7,
+      "volume": 140000,
+      "dollars": 0,
+      "rank": "3"
+    },
+    {
+      "price": 3.5,
+      "volume": 140000,
+      "dollars": 0,
+      "rank": "4"
+    }
+  ],
   "boxes": []
 }

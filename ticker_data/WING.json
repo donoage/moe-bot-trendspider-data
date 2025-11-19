@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "WING",
-    "generated_at": "2025-11-19T11:13:23.419375+00:00Z",
+    "generated_at": "2025-11-19T22:38:24.083264+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 253.55,
+      "volume": 169012,
+      "dollars": 42852992,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 215.5,
+      "volume": 530000,
+      "dollars": 110000000,
+      "rank": "5"
+    },
+    {
+      "price": 290.7,
+      "volume": 340000,
+      "dollars": 100000000,
+      "rank": "9"
+    },
+    {
+      "price": 247.1,
+      "volume": 340000,
+      "dollars": 90000000,
+      "rank": "13"
+    },
+    {
+      "price": 334.1,
+      "volume": 240000,
+      "dollars": 80000000,
+      "rank": "14"
+    },
+    {
+      "price": 238.0,
+      "volume": 270000,
+      "dollars": 60000000,
+      "rank": "18"
+    }
+  ],
   "boxes": []
 }

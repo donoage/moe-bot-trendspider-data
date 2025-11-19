@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "IAG",
-    "generated_at": "2025-11-19T11:13:23.427376+00:00Z",
+    "generated_at": "2025-11-19T22:54:57.374534+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 11.34,
+      "volume": 12890141,
+      "dollars": 146174198,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 11.3,
+      "volume": 16739999,
+      "dollars": 190000000,
+      "rank": "4"
+    },
+    {
+      "price": 13.3,
+      "volume": 7690000,
+      "dollars": 100000000,
+      "rank": "12"
+    },
+    {
+      "price": 14.8,
+      "volume": 3850000,
+      "dollars": 60000000,
+      "rank": "37"
+    },
+    {
+      "price": 12.0,
+      "volume": 4580000,
+      "dollars": 60000000,
+      "rank": "40"
+    },
+    {
+      "price": 11.2,
+      "volume": 4790000,
+      "dollars": 50000000,
+      "rank": "41"
+    }
+  ],
   "boxes": []
 }

@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "MEG",
-    "generated_at": "2025-11-19T11:13:23.419102+00:00Z",
+    "generated_at": "2025-11-19T22:38:04.159493+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 28.57,
+      "volume": 546467,
+      "dollars": 15612562,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 24.5,
+      "volume": 1580000,
+      "dollars": 40000000,
+      "rank": "2"
+    },
+    {
+      "price": 28.0,
+      "volume": 720000,
+      "dollars": 20000000,
+      "rank": "12"
+    },
+    {
+      "price": 27.9,
+      "volume": 670000,
+      "dollars": 20000000,
+      "rank": "15"
+    },
+    {
+      "price": 28.8,
+      "volume": 640000,
+      "dollars": 20000000,
+      "rank": "16"
+    },
+    {
+      "price": 28.6,
+      "volume": 640000,
+      "dollars": 20000000,
+      "rank": "17"
+    }
+  ],
   "boxes": []
 }

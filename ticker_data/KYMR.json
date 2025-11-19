@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "KYMR",
-    "generated_at": "2025-11-19T11:13:23.412856+00:00Z",
+    "generated_at": "2025-11-19T22:26:58.444031+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 49.13,
+      "volume": 1297598,
+      "dollars": 63750989,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 44.4,
+      "volume": 2870000,
+      "dollars": 130000000,
+      "rank": "1"
+    },
+    {
+      "price": 63.0,
+      "volume": 1590000,
+      "dollars": 100000000,
+      "rank": "2"
+    },
+    {
+      "price": 49.1,
+      "volume": 1550000,
+      "dollars": 80000000,
+      "rank": "4"
+    },
+    {
+      "price": 40.6,
+      "volume": 1710000,
+      "dollars": 70000000,
+      "rank": "5"
+    },
+    {
+      "price": 40.7,
+      "volume": 1270000,
+      "dollars": 50000000,
+      "rank": "9"
+    }
+  ],
   "boxes": []
 }

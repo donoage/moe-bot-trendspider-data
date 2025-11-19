@@ -1,23 +1,74 @@
 {
   "metadata": {
     "ticker": "VGT",
-    "generated_at": "2025-11-19T11:13:23.416289+00:00Z",
+    "generated_at": "2025-11-19T22:33:14.848220+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
+  "levels": [
+    {
+      "price": 682.0,
+      "volume": 270000,
+      "dollars": 180000000,
+      "rank": "98"
+    },
+    {
+      "price": 699.6,
+      "volume": 220000,
+      "dollars": 150000000,
+      "rank": "0"
+    },
+    {
+      "price": 684.9,
+      "volume": 160000,
+      "dollars": 110000000,
+      "rank": "0"
+    },
+    {
+      "price": 703.1,
+      "volume": 120000,
+      "dollars": 90000000,
+      "rank": "0"
+    },
+    {
+      "price": 719.9,
+      "volume": 110000,
+      "dollars": 80000000,
+      "rank": "0"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 747.39,
+      "high_price": 719.87,
       "low_price": 718.99,
-      "volume": 231307,
-      "dollars": 168793806,
-      "trades": 5,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "volume": 141492,
+      "dollars": 101829013,
+      "trades": 2,
+      "date_range": "2025-09-11 to 2025-09-12",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 744.64,
+      "low_price": 744.11,
+      "volume": 54005,
+      "dollars": 40200758,
+      "trades": 2,
+      "date_range": "2025-09-23 to 2025-09-29",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 747.39,
+      "low_price": 747.39,
+      "volume": 35810,
+      "dollars": 26764035,
+      "trades": 1,
+      "date_range": "2025-10-10",
+      "color": "orange"
     }
   ]
 }

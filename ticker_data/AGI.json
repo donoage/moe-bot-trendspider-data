@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "AGI",
-    "generated_at": "2025-11-19T11:13:23.423679+00:00Z",
+    "generated_at": "2025-11-19T22:46:34.921111+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 32.34,
+      "volume": 10107032,
+      "dollars": 326861414,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 32.34,
+      "volume": 1156493,
+      "dollars": 37400983,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 32.3,
+      "volume": 13300000,
+      "dollars": 430000000,
+      "rank": "1"
+    },
+    {
+      "price": 26.5,
+      "volume": 5390000,
+      "dollars": 140000000,
+      "rank": "6"
+    },
+    {
+      "price": 26.7,
+      "volume": 3640000,
+      "dollars": 100000000,
+      "rank": "16"
+    },
+    {
+      "price": 27.1,
+      "volume": 2900000,
+      "dollars": 80000000,
+      "rank": "22"
+    },
+    {
+      "price": 27.0,
+      "volume": 2470000,
+      "dollars": 70000000,
+      "rank": "27"
+    }
+  ],
   "boxes": []
 }

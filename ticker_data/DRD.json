@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "DRD",
-    "generated_at": "2025-11-19T11:13:23.423765+00:00Z",
+    "generated_at": "2025-11-19T22:46:43.852850+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 25.59,
+      "volume": 2978639,
+      "dollars": 76223372,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 25.59,
+      "volume": 590046,
+      "dollars": 15098805,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 25.59,
+      "volume": 321430,
+      "dollars": 8225393,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 25.6,
+      "volume": 4030000,
+      "dollars": 100000000,
+      "rank": "1"
+    },
+    {
+      "price": 22.4,
+      "volume": 340000,
+      "dollars": 10000000,
+      "rank": "17"
+    },
+    {
+      "price": 28.0,
+      "volume": 150000,
+      "dollars": 0,
+      "rank": "35"
+    },
+    {
+      "price": 27.6,
+      "volume": 130000,
+      "dollars": 0,
+      "rank": "42"
+    },
+    {
+      "price": 24.2,
+      "volume": 110000,
+      "dollars": 0,
+      "rank": "52"
+    }
+  ],
   "boxes": []
 }

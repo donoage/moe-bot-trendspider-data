@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "TARS",
-    "generated_at": "2025-11-19T11:13:23.428843+00:00Z",
+    "generated_at": "2025-11-19T22:58:30.512375+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 55.0,
+      "volume": 333945,
+      "dollars": 18366975,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 50.7,
+      "volume": 1760000,
+      "dollars": 90000000,
+      "rank": "1"
+    },
+    {
+      "price": 56.2,
+      "volume": 1240000,
+      "dollars": 70000000,
+      "rank": "2"
+    },
+    {
+      "price": 49.6,
+      "volume": 1150000,
+      "dollars": 60000000,
+      "rank": "3"
+    },
+    {
+      "price": 49.4,
+      "volume": 790000,
+      "dollars": 40000000,
+      "rank": "9"
+    },
+    {
+      "price": 55.4,
+      "volume": 570000,
+      "dollars": 30000000,
+      "rank": "14"
+    }
+  ],
   "boxes": []
 }

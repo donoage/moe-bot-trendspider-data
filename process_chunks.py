@@ -42,7 +42,7 @@ def process_chunk(tickers_chunk, chunk_num, total_chunks, python_path, script_pa
         script_path,
         '--tickers'
     ] + tickers_chunk + [
-        '--max-workers', '1',
+        '--max-workers', '3',
         '--days-back', '90'
     ]
     
@@ -96,7 +96,7 @@ def process_chunk(tickers_chunk, chunk_num, total_chunks, python_path, script_pa
         
         # Wait for process to complete
         try:
-            return_code = process.wait(timeout=600)  # 10 minute timeout per chunk
+            return_code = process.wait(timeout=300)  # 5 minute timeout per chunk
         except subprocess.TimeoutExpired:
             process.terminate()
             process.wait()
@@ -143,7 +143,7 @@ def process_chunk(tickers_chunk, chunk_num, total_chunks, python_path, script_pa
 def main():
     """Main function to process all tickers in chunks"""
     # Configuration
-    CHUNK_SIZE = 20  # Process 20 tickers at a time (reduced for reliability)
+    CHUNK_SIZE = 50  # Process 50 tickers at a time (optimized for speed)
     PYTHON_PATH = "/Users/stephenbae/Projects/moe-bot/.venv/bin/python"
     SCRIPT_PATH = str(Path(__file__).parent / "populate_ticker_data.py")
     

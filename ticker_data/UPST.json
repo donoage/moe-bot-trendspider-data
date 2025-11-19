@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "UPST",
-    "generated_at": "2025-11-19T11:13:23.413744+00:00Z",
+    "generated_at": "2025-11-19T22:28:18.532121+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1763524800,
+      "price": 37.27,
+      "volume": 2374829,
+      "dollars": 88509876,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763438400,
+      "price": 37.91,
+      "volume": 2105980,
+      "dollars": 79837701,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1759291200,
+      "price": 52.13,
+      "volume": 1054462,
+      "dollars": 54969104,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 76.4,
+      "volume": 3530000,
+      "dollars": 270000000,
+      "rank": "2"
+    },
+    {
+      "price": 52.1,
+      "volume": 3350000,
+      "dollars": 170000000,
+      "rank": "6"
+    },
+    {
+      "price": 52.7,
+      "volume": 3110000,
+      "dollars": 160000000,
+      "rank": "9"
+    },
+    {
+      "price": 63.4,
+      "volume": 2480000,
+      "dollars": 160000000,
+      "rank": "12"
+    },
+    {
+      "price": 63.5,
+      "volume": 2440000,
+      "dollars": 150000000,
+      "rank": "13"
+    }
+  ],
   "boxes": []
 }

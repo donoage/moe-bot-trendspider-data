@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "EVLV",
-    "generated_at": "2025-11-19T11:13:23.412950+00:00Z",
+    "generated_at": "2025-11-19T22:27:07.796000+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 8.03,
+      "volume": 2555499,
+      "dollars": 20520656,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1759204800,
+      "price": 7.55,
+      "volume": 1345335,
+      "dollars": 10157279,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1759809600,
+      "price": 7.42,
+      "volume": 1051623,
+      "dollars": 7803042,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 8.03,
+      "volume": 639100,
+      "dollars": 5131973,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 8.0,
+      "volume": 6910000,
+      "dollars": 60000000,
+      "rank": "1"
+    },
+    {
+      "price": 5.9,
+      "volume": 6070000,
+      "dollars": 40000000,
+      "rank": "2"
+    },
+    {
+      "price": 6.2,
+      "volume": 5530000,
+      "dollars": 30000000,
+      "rank": "3"
+    },
+    {
+      "price": 7.4,
+      "volume": 4139999,
+      "dollars": 30000000,
+      "rank": "4"
+    },
+    {
+      "price": 6.0,
+      "volume": 4810000,
+      "dollars": 30000000,
+      "rank": "5"
+    }
+  ],
   "boxes": []
 }

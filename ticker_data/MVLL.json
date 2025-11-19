@@ -1,12 +1,104 @@
 {
   "metadata": {
     "ticker": "MVLL",
-    "generated_at": "2025-11-19T11:13:23.415078+00:00Z",
+    "generated_at": "2025-11-19T22:30:58.267815+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1756440000,
+      "price": 14.54,
+      "volume": 70655,
+      "dollars": 1027323,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1761278400,
+      "price": 23.83,
+      "volume": 35488,
+      "dollars": 845682,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758686400,
+      "price": 21.76,
+      "volume": 37541,
+      "dollars": 816892,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1760500800,
+      "price": 25.21,
+      "volume": 29150,
+      "dollars": 734871,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1756440000,
+      "price": 14.9,
+      "volume": 35555,
+      "dollars": 529822,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 14.5,
+      "volume": 70000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
+      "price": 23.8,
+      "volume": 40000,
+      "dollars": 0,
+      "rank": "2"
+    },
+    {
+      "price": 21.8,
+      "volume": 40000,
+      "dollars": 0,
+      "rank": "3"
+    },
+    {
+      "price": 25.2,
+      "volume": 30000,
+      "dollars": 0,
+      "rank": "4"
+    },
+    {
+      "price": 23.3,
+      "volume": 30000,
+      "dollars": 0,
+      "rank": "5"
+    }
+  ],
   "boxes": []
 }

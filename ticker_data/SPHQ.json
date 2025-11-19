@@ -1,23 +1,91 @@
 {
   "metadata": {
     "ticker": "SPHQ",
-    "generated_at": "2025-11-19T11:13:23.418830+00:00Z",
+    "generated_at": "2025-11-19T22:37:34.914159+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1761710400,
+      "price": 74.15,
+      "volume": 1619952,
+      "dollars": 120119440,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1761796800,
+      "price": 74.13,
+      "volume": 1593323,
+      "dollars": 118113033,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758081600,
+      "price": 72.87,
+      "volume": 1617103,
+      "dollars": 117833606,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 72.1,
+      "volume": 3760000,
+      "dollars": 270000000,
+      "rank": "3"
+    },
+    {
+      "price": 72.9,
+      "volume": 3500000,
+      "dollars": 260000000,
+      "rank": "4"
+    },
+    {
+      "price": 72.4,
+      "volume": 2830000,
+      "dollars": 210000000,
+      "rank": "6"
+    },
+    {
+      "price": 74.1,
+      "volume": 2240000,
+      "dollars": 170000000,
+      "rank": "7"
+    },
+    {
+      "price": 71.9,
+      "volume": 2220000,
+      "dollars": 160000000,
+      "rank": "12"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
       "high_price": 73.31,
       "low_price": 72.59,
       "volume": 724908,
-      "dollars": 52954754,
+      "dollars": 52954755,
       "trades": 2,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "date_range": "2025-09-15 to 2025-09-19",
+      "color": "blue"
     }
   ]
 }

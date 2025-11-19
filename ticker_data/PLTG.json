@@ -1,12 +1,44 @@
 {
   "metadata": {
     "ticker": "PLTG",
-    "generated_at": "2025-11-19T11:13:23.421793+00:00Z",
+    "generated_at": "2025-11-19T22:42:53.041995+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1755835200,
+      "price": 27.7,
+      "volume": 47430,
+      "dollars": 1313811,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 27.7,
+      "volume": 50000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
+      "price": 28.0,
+      "volume": 30000,
+      "dollars": 0,
+      "rank": "2"
+    },
+    {
+      "price": 37.5,
+      "volume": 10000,
+      "dollars": 0,
+      "rank": "3"
+    }
+  ],
   "boxes": []
 }

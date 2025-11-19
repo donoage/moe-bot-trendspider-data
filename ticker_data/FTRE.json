@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "FTRE",
-    "generated_at": "2025-11-19T11:13:23.419035+00:00Z",
+    "generated_at": "2025-11-19T22:37:49.229021+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1756180800,
+      "price": 8.98,
+      "volume": 2078230,
+      "dollars": 18662505,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 8.8,
+      "volume": 6390000,
+      "dollars": 60000000,
+      "rank": "7"
+    },
+    {
+      "price": 10.7,
+      "volume": 3160000,
+      "dollars": 30000000,
+      "rank": "20"
+    },
+    {
+      "price": 7.5,
+      "volume": 4490000,
+      "dollars": 30000000,
+      "rank": "21"
+    },
+    {
+      "price": 10.1,
+      "volume": 3320000,
+      "dollars": 30000000,
+      "rank": "23"
+    },
+    {
+      "price": 9.6,
+      "volume": 2560000,
+      "dollars": 20000000,
+      "rank": "41"
+    }
+  ],
   "boxes": []
 }
