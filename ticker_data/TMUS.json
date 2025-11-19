@@ -1,23 +1,87 @@
 {
   "metadata": {
     "ticker": "TMUS",
-    "generated_at": "2025-11-19T11:13:23.405992+00:00Z",
+    "generated_at": "2025-11-19T20:09:30.683574+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1756180800,
+      "price": 251.2,
+      "volume": 2803737,
+      "dollars": 704298734,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 255.8,
+      "volume": 5600000,
+      "dollars": 1430000000,
+      "rank": "9"
+    },
+    {
+      "price": 242.2,
+      "volume": 5080000,
+      "dollars": 1230000000,
+      "rank": "14"
+    },
+    {
+      "price": 220.7,
+      "volume": 5390000,
+      "dollars": 1190000000,
+      "rank": "16"
+    },
+    {
+      "price": 215.8,
+      "volume": 4950000,
+      "dollars": 1070000000,
+      "rank": "26"
+    },
+    {
+      "price": 220.3,
+      "volume": 4590000,
+      "dollars": 1010000000,
+      "rank": "30"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 215.7,
+      "low_price": 215.7,
+      "volume": 233549,
+      "dollars": 50376519,
+      "trades": 1,
+      "date_range": "2025-10-29",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 226.33,
+      "low_price": 226.33,
+      "volume": 91091,
+      "dollars": 20616626,
+      "trades": 1,
+      "date_range": "2025-10-09",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 204.5,
       "low_price": 204.5,
-      "volume": 424340,
-      "dollars": 91381795,
-      "trades": 3,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "volume": 99700,
+      "dollars": 20388650,
+      "trades": 1,
+      "date_range": "2025-11-05",
+      "color": "orange"
     }
   ]
 }

@@ -1,13 +1,44 @@
 {
   "metadata": {
     "ticker": "BABA",
-    "generated_at": "2025-11-19T11:13:23.400192+00:00Z",
+    "generated_at": "2025-11-19T19:36:25.551281+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
+  "levels": [
+    {
+      "price": 180.0,
+      "volume": 22910000,
+      "dollars": 4120000000,
+      "rank": "5"
+    },
+    {
+      "price": 175.0,
+      "volume": 18170000,
+      "dollars": 3180000000,
+      "rank": "7"
+    },
+    {
+      "price": 173.6,
+      "volume": 17010000,
+      "dollars": 2950000000,
+      "rank": "9"
+    },
+    {
+      "price": 176.7,
+      "volume": 16629999,
+      "dollars": 2940000000,
+      "rank": "10"
+    },
+    {
+      "price": 182.5,
+      "volume": 14760000,
+      "dollars": 2690000000,
+      "rank": "13"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
@@ -16,8 +47,8 @@
       "volume": 358800,
       "dollars": 59237880,
       "trades": 1,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "date_range": "2025-11-10",
+      "color": "blue"
     }
   ]
 }

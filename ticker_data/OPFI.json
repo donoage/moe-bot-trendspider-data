@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "OPFI",
-    "generated_at": "2025-11-19T11:13:23.404530+00:00Z",
+    "generated_at": "2025-11-19T20:02:29.171897+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 11.74,
+      "volume": 354850,
+      "dollars": 4165939,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1761710400,
+      "price": 9.81,
+      "volume": 180410,
+      "dollars": 1769822,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 9.8,
+      "volume": 800000,
+      "dollars": 10000000,
+      "rank": "2"
+    },
+    {
+      "price": 11.7,
+      "volume": 590000,
+      "dollars": 10000000,
+      "rank": "3"
+    },
+    {
+      "price": 10.4,
+      "volume": 590000,
+      "dollars": 10000000,
+      "rank": "4"
+    },
+    {
+      "price": 11.3,
+      "volume": 530000,
+      "dollars": 10000000,
+      "rank": "5"
+    },
+    {
+      "price": 11.8,
+      "volume": 410000,
+      "dollars": 0,
+      "rank": "7"
+    }
+  ],
   "boxes": []
 }

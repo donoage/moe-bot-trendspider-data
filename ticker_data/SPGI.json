@@ -1,23 +1,87 @@
 {
   "metadata": {
     "ticker": "SPGI",
-    "generated_at": "2025-11-19T11:13:23.396427+00:00Z",
+    "generated_at": "2025-11-19T19:15:29.308917+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 507.16,
+      "volume": 891407,
+      "dollars": 452085974,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 497.9,
+      "volume": 2590000,
+      "dollars": 1290000000,
+      "rank": "4"
+    },
+    {
+      "price": 522.9,
+      "volume": 2250000,
+      "dollars": 1180000000,
+      "rank": "5"
+    },
+    {
+      "price": 491.8,
+      "volume": 1700000,
+      "dollars": 840000000,
+      "rank": "9"
+    },
+    {
+      "price": 489.7,
+      "volume": 1600000,
+      "dollars": 780000000,
+      "rank": "13"
+    },
+    {
+      "price": 529.3,
+      "volume": 1350000,
+      "dollars": 710000000,
+      "rank": "18"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 504.0,
+      "high_price": 484.0,
       "low_price": 484.0,
-      "volume": 389111,
-      "dollars": 190755400,
-      "trades": 4,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "volume": 215011,
+      "dollars": 104065324,
+      "trades": 1,
+      "date_range": "2025-09-25",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 496.25,
+      "low_price": 490.28,
+      "volume": 98400,
+      "dollars": 48537276,
+      "trades": 2,
+      "date_range": "2025-10-28 to 2025-10-31",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 504.0,
+      "low_price": 504.0,
+      "volume": 75700,
+      "dollars": 38152800,
+      "trades": 1,
+      "date_range": "2025-09-19",
+      "color": "orange"
     }
   ]
 }

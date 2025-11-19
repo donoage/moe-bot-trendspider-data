@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "MGNI",
-    "generated_at": "2025-11-19T11:13:23.409777+00:00Z",
+    "generated_at": "2025-11-19T20:28:42.222819+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 25.92,
+      "volume": 2109568,
+      "dollars": 54680002,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758600000,
+      "price": 23.45,
+      "volume": 891546,
+      "dollars": 20906753,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 13.3,
+      "volume": 10700000,
+      "dollars": 140000000,
+      "rank": "1"
+    },
+    {
+      "price": 23.5,
+      "volume": 4890000,
+      "dollars": 110000000,
+      "rank": "3"
+    },
+    {
+      "price": 25.9,
+      "volume": 3820000,
+      "dollars": 100000000,
+      "rank": "5"
+    },
+    {
+      "price": 23.9,
+      "volume": 2890000,
+      "dollars": 70000000,
+      "rank": "7"
+    },
+    {
+      "price": 23.7,
+      "volume": 2900000,
+      "dollars": 70000000,
+      "rank": "8"
+    }
+  ],
   "boxes": []
 }

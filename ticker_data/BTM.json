@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "BTM",
-    "generated_at": "2025-11-19T11:13:23.392423+00:00Z",
+    "generated_at": "2025-11-19T18:55:58.596583+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 3.66,
+      "volume": 372613,
+      "dollars": 1363763,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763092800,
+      "price": 2.04,
+      "volume": 465108,
+      "dollars": 948820,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763006400,
+      "price": 2.48,
+      "volume": 220854,
+      "dollars": 547717,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 3.7,
+      "volume": 370000,
+      "dollars": 0,
+      "rank": "2"
+    },
+    {
+      "price": 2.0,
+      "volume": 470000,
+      "dollars": 0,
+      "rank": "3"
+    },
+    {
+      "price": 2.5,
+      "volume": 220000,
+      "dollars": 0,
+      "rank": "6"
+    }
+  ],
   "boxes": []
 }

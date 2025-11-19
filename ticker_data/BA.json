@@ -1,13 +1,44 @@
 {
   "metadata": {
     "ticker": "BA",
-    "generated_at": "2025-11-19T11:13:23.368040+00:00Z",
+    "generated_at": "2025-11-19T17:53:20.924094+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
+  "levels": [
+    {
+      "price": 215.7,
+      "volume": 5570000,
+      "dollars": 1200000000,
+      "rank": "6"
+    },
+    {
+      "price": 212.0,
+      "volume": 5610000,
+      "dollars": 1190000000,
+      "rank": "7"
+    },
+    {
+      "price": 211.0,
+      "volume": 5540000,
+      "dollars": 1170000000,
+      "rank": "9"
+    },
+    {
+      "price": 215.0,
+      "volume": 5220000,
+      "dollars": 1120000000,
+      "rank": "12"
+    },
+    {
+      "price": 201.1,
+      "volume": 5250000,
+      "dollars": 1060000000,
+      "rank": "15"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
@@ -16,8 +47,8 @@
       "volume": 96604,
       "dollars": 20769860,
       "trades": 1,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "date_range": "2025-10-01",
+      "color": "blue"
     }
   ]
 }

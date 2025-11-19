@@ -1,23 +1,64 @@
 {
   "metadata": {
     "ticker": "CVS",
-    "generated_at": "2025-11-19T11:13:23.397050+00:00Z",
+    "generated_at": "2025-11-19T19:18:48.637904+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
+  "levels": [
+    {
+      "price": 77.4,
+      "volume": 39670000,
+      "dollars": 3070000000,
+      "rank": "1"
+    },
+    {
+      "price": 74.4,
+      "volume": 38240000,
+      "dollars": 2840000000,
+      "rank": "2"
+    },
+    {
+      "price": 78.9,
+      "volume": 29130000,
+      "dollars": 2300000000,
+      "rank": "3"
+    },
+    {
+      "price": 73.9,
+      "volume": 30250000,
+      "dollars": 2240000000,
+      "rank": "4"
+    },
+    {
+      "price": 80.5,
+      "volume": 27180000,
+      "dollars": 2190000000,
+      "rank": "5"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
       "high_price": 80.68,
+      "low_price": 80.68,
+      "volume": 1460428,
+      "dollars": 117827331,
+      "trades": 2,
+      "date_range": "2025-11-12",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 79.1,
       "low_price": 79.1,
-      "volume": 1785428,
-      "dollars": 143534831,
-      "trades": 3,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "volume": 325000,
+      "dollars": 25707500,
+      "trades": 1,
+      "date_range": "2025-10-03",
+      "color": "green"
     }
   ]
 }

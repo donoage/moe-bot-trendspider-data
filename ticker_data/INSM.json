@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "INSM",
-    "generated_at": "2025-11-19T11:13:23.402230+00:00Z",
+    "generated_at": "2025-11-19T19:49:26.377048+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 144.76,
+      "volume": 3043181,
+      "dollars": 440530881,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758513600,
+      "price": 145.03,
+      "volume": 851119,
+      "dollars": 123437788,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758168000,
+      "price": 145.86,
+      "volume": 626879,
+      "dollars": 91436570,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1762401600,
+      "price": 185.68,
+      "volume": 453803,
+      "dollars": 84262141,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 144.8,
+      "volume": 5680000,
+      "dollars": 820000000,
+      "rank": "2"
+    },
+    {
+      "price": 145.9,
+      "volume": 1310000,
+      "dollars": 190000000,
+      "rank": "12"
+    },
+    {
+      "price": 145.0,
+      "volume": 1050000,
+      "dollars": 150000000,
+      "rank": "23"
+    },
+    {
+      "price": 127.3,
+      "volume": 990000,
+      "dollars": 130000000,
+      "rank": "42"
+    },
+    {
+      "price": 127.8,
+      "volume": 980000,
+      "dollars": 120000000,
+      "rank": "43"
+    }
+  ],
   "boxes": []
 }

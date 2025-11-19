@@ -1,23 +1,107 @@
 {
   "metadata": {
     "ticker": "WFC",
-    "generated_at": "2025-11-19T11:13:23.368517+00:00Z",
+    "generated_at": "2025-11-19T17:53:36.187621+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 84.64,
+      "volume": 15120244,
+      "dollars": 1279777452,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 84.6,
+      "volume": 28120000,
+      "dollars": 2380000000,
+      "rank": "0"
+    },
+    {
+      "price": 77.9,
+      "volume": 20330000,
+      "dollars": 1580000000,
+      "rank": "0"
+    },
+    {
+      "price": 86.0,
+      "volume": 16120000,
+      "dollars": 1390000000,
+      "rank": "0"
+    },
+    {
+      "price": 79.5,
+      "volume": 16340000,
+      "dollars": 1300000000,
+      "rank": "0"
+    },
+    {
+      "price": 77.4,
+      "volume": 15360000,
+      "dollars": 1190000000,
+      "rank": "0"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 87.05,
+      "high_price": 81.0,
       "low_price": 80.34,
-      "volume": 3943709,
-      "dollars": 323118634,
-      "trades": 9,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "volume": 2769146,
+      "dollars": 223414003,
+      "trades": 5,
+      "date_range": "2025-09-10 to 2025-09-11",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 84.66,
+      "low_price": 84.66,
+      "volume": 349100,
+      "dollars": 29554806,
+      "trades": 1,
+      "date_range": "2025-11-14",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 87.05,
+      "low_price": 87.05,
+      "volume": 326538,
+      "dollars": 28425132,
+      "trades": 1,
+      "date_range": "2025-10-30",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
+      "high_price": 85.57,
+      "low_price": 85.57,
+      "volume": 250000,
+      "dollars": 21392500,
+      "trades": 1,
+      "date_range": "2025-10-21",
+      "color": "red"
+    },
+    {
+      "box_number": 5,
+      "high_price": 81.68,
+      "low_price": 81.68,
+      "volume": 248925,
+      "dollars": 20332194,
+      "trades": 1,
+      "date_range": "2025-10-01",
+      "color": "purple"
     }
   ]
 }

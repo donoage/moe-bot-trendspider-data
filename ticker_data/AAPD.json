@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "AAPD",
-    "generated_at": "2025-11-19T11:13:23.385678+00:00Z",
+    "generated_at": "2025-11-19T18:23:21.711441+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1756958400,
+      "price": 15.14,
+      "volume": 99500,
+      "dollars": 1506439,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 15.0,
+      "volume": 600000,
+      "dollars": 10000000,
+      "rank": "3"
+    },
+    {
+      "price": 16.0,
+      "volume": 330000,
+      "dollars": 10000000,
+      "rank": "10"
+    },
+    {
+      "price": 15.1,
+      "volume": 340000,
+      "dollars": 10000000,
+      "rank": "12"
+    },
+    {
+      "price": 15.7,
+      "volume": 110000,
+      "dollars": 0,
+      "rank": "20"
+    },
+    {
+      "price": 15.8,
+      "volume": 90000,
+      "dollars": 0,
+      "rank": "26"
+    }
+  ],
   "boxes": []
 }

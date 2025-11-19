@@ -1,13 +1,44 @@
 {
   "metadata": {
     "ticker": "CELH",
-    "generated_at": "2025-11-19T11:13:23.382234+00:00Z",
+    "generated_at": "2025-11-19T18:06:54.454873+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
+  "levels": [
+    {
+      "price": 50.0,
+      "volume": 19620000,
+      "dollars": 980000000,
+      "rank": "1"
+    },
+    {
+      "price": 49.5,
+      "volume": 7460000,
+      "dollars": 370000000,
+      "rank": "5"
+    },
+    {
+      "price": 65.8,
+      "volume": 4750000,
+      "dollars": 310000000,
+      "rank": "6"
+    },
+    {
+      "price": 54.7,
+      "volume": 4410000,
+      "dollars": 240000000,
+      "rank": "10"
+    },
+    {
+      "price": 57.5,
+      "volume": 3830000,
+      "dollars": 220000000,
+      "rank": "12"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
@@ -16,8 +47,18 @@
       "volume": 558197,
       "dollars": 25118865,
       "trades": 1,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "date_range": "2025-11-12",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 41.58,
+      "low_price": 41.58,
+      "volume": 564900,
+      "dollars": 23488542,
+      "trades": 1,
+      "date_range": "2025-11-19",
+      "color": "green"
     }
   ]
 }

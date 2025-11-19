@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "KHC",
-    "generated_at": "2025-11-19T11:13:23.405441+00:00Z",
+    "generated_at": "2025-11-19T20:07:04.452744+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1756180800,
+      "price": 27.7,
+      "volume": 6295233,
+      "dollars": 174377954,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 27.7,
+      "volume": 27630000,
+      "dollars": 770000000,
+      "rank": "51"
+    },
+    {
+      "price": 28.5,
+      "volume": 25900000,
+      "dollars": 740000000,
+      "rank": "55"
+    },
+    {
+      "price": 25.6,
+      "volume": 26760000,
+      "dollars": 690000000,
+      "rank": "64"
+    },
+    {
+      "price": 26.6,
+      "volume": 23340000,
+      "dollars": 620000000,
+      "rank": "73"
+    },
+    {
+      "price": 26.7,
+      "volume": 21610000,
+      "dollars": 580000000,
+      "rank": "81"
+    }
+  ],
   "boxes": []
 }

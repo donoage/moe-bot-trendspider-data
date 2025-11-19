@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "ZGN",
-    "generated_at": "2025-11-19T11:13:23.408283+00:00Z",
+    "generated_at": "2025-11-19T20:21:33.541214+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758168000,
+      "price": 9.5,
+      "volume": 998399,
+      "dollars": 9484790,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 8.6,
+      "volume": 12360000,
+      "dollars": 110000000,
+      "rank": "2"
+    },
+    {
+      "price": 8.0,
+      "volume": 4040000,
+      "dollars": 30000000,
+      "rank": "4"
+    },
+    {
+      "price": 9.1,
+      "volume": 2970000,
+      "dollars": 30000000,
+      "rank": "5"
+    },
+    {
+      "price": 9.0,
+      "volume": 2860000,
+      "dollars": 30000000,
+      "rank": "6"
+    },
+    {
+      "price": 8.4,
+      "volume": 2820000,
+      "dollars": 20000000,
+      "rank": "7"
+    }
+  ],
   "boxes": []
 }

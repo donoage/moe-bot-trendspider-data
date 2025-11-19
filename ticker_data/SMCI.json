@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "SMCI",
-    "generated_at": "2025-11-19T11:13:23.355973+00:00Z",
+    "generated_at": "2025-11-19T17:47:04.580623+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1760932800,
+      "price": 55.04,
+      "volume": 10407698,
+      "dollars": 572839697,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1761019200,
+      "price": 54.82,
+      "volume": 10407698,
+      "dollars": 570550004,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 45.7,
+      "volume": 23970000,
+      "dollars": 1100000000,
+      "rank": "5"
+    },
+    {
+      "price": 54.8,
+      "volume": 19270000,
+      "dollars": 1060000000,
+      "rank": "6"
+    },
+    {
+      "price": 55.0,
+      "volume": 15770000,
+      "dollars": 870000000,
+      "rank": "7"
+    },
+    {
+      "price": 42.0,
+      "volume": 18590000,
+      "dollars": 780000000,
+      "rank": "8"
+    },
+    {
+      "price": 45.8,
+      "volume": 16469999,
+      "dollars": 750000000,
+      "rank": "9"
+    }
+  ],
   "boxes": []
 }

@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "AI",
-    "generated_at": "2025-11-19T11:13:23.393615+00:00Z",
+    "generated_at": "2025-11-19T19:03:28.684631+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 17.99,
+      "volume": 2500000,
+      "dollars": 44970000,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 19.1,
+      "volume": 8720000,
+      "dollars": 170000000,
+      "rank": "6"
+    },
+    {
+      "price": 18.0,
+      "volume": 5760000,
+      "dollars": 100000000,
+      "rank": "28"
+    },
+    {
+      "price": 17.9,
+      "volume": 3930000,
+      "dollars": 70000000,
+      "rank": "75"
+    },
+    {
+      "price": 16.9,
+      "volume": 3480000,
+      "dollars": 60000000,
+      "rank": "96"
+    },
+    {
+      "price": 19.2,
+      "volume": 2860000,
+      "dollars": 50000000,
+      "rank": "0"
+    }
+  ],
   "boxes": []
 }

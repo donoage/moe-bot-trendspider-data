@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "AMZD",
-    "generated_at": "2025-11-19T11:13:23.385979+00:00Z",
+    "generated_at": "2025-11-19T18:24:13.635483+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
+  "levels": [
+    {
+      "price": 10.7,
+      "volume": 620000,
+      "dollars": 10000000,
+      "rank": "2"
+    },
+    {
+      "price": 11.1,
+      "volume": 390000,
+      "dollars": 0,
+      "rank": "3"
+    },
+    {
+      "price": 10.5,
+      "volume": 330000,
+      "dollars": 0,
+      "rank": "4"
+    },
+    {
+      "price": 10.9,
+      "volume": 70000,
+      "dollars": 0,
+      "rank": "16"
+    }
+  ],
   "boxes": []
 }

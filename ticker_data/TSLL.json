@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "TSLL",
-    "generated_at": "2025-11-19T11:13:23.378593+00:00Z",
+    "generated_at": "2025-11-19T17:55:45.662694+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1762920000,
+      "price": 18.91,
+      "volume": 2853451,
+      "dollars": 53958758,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1762401600,
+      "price": 20.68,
+      "volume": 2080393,
+      "dollars": 43022527,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1756785600,
+      "price": 12.29,
+      "volume": 3000000,
+      "dollars": 36870000,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1759982400,
+      "price": 20.01,
+      "volume": 1400000,
+      "dollars": 28014000,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 12.4,
+      "volume": 29470000,
+      "dollars": 370000000,
+      "rank": "2"
+    },
+    {
+      "price": 12.3,
+      "volume": 28210000,
+      "dollars": 350000000,
+      "rank": "3"
+    },
+    {
+      "price": 11.4,
+      "volume": 27430000,
+      "dollars": 310000000,
+      "rank": "6"
+    },
+    {
+      "price": 12.2,
+      "volume": 24700000,
+      "dollars": 300000000,
+      "rank": "7"
+    },
+    {
+      "price": 12.1,
+      "volume": 23980000,
+      "dollars": 290000000,
+      "rank": "9"
+    }
+  ],
   "boxes": []
 }

@@ -1,23 +1,99 @@
 {
   "metadata": {
     "ticker": "MSFT",
-    "generated_at": "2025-11-19T11:13:23.351596+00:00Z",
+    "generated_at": "2025-11-19T17:44:26.782442+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 517.93,
+      "volume": 16016523,
+      "dollars": 8295437757,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1756180800,
+      "price": 502.04,
+      "volume": 9139295,
+      "dollars": 4588291661,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 517.9,
+      "volume": 22820000,
+      "dollars": 11820000000,
+      "rank": "16"
+    },
+    {
+      "price": 495.9,
+      "volume": 14420000,
+      "dollars": 7150000000,
+      "rank": "65"
+    },
+    {
+      "price": 502.0,
+      "volume": 13960000,
+      "dollars": 7010000000,
+      "rank": "67"
+    },
+    {
+      "price": 506.7,
+      "volume": 13330000,
+      "dollars": 6750000000,
+      "rank": "74"
+    },
+    {
+      "price": 503.3,
+      "volume": 13290000,
+      "dollars": 6690000000,
+      "rank": "77"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
       "high_price": 518.7,
+      "low_price": 517.5,
+      "volume": 570587,
+      "dollars": 295756715,
+      "trades": 2,
+      "date_range": "2025-10-02",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 510.67,
+      "low_price": 510.1,
+      "volume": 172009,
+      "dollars": 87787840,
+      "trades": 3,
+      "date_range": "2025-11-12",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 509.96,
       "low_price": 509.96,
-      "volume": 797954,
-      "dollars": 411774848,
-      "trades": 6,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "volume": 55358,
+      "dollars": 28230293,
+      "trades": 1,
+      "date_range": "2025-09-23",
+      "color": "orange"
     }
   ]
 }

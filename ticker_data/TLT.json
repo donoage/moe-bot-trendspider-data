@@ -1,23 +1,94 @@
 {
   "metadata": {
     "ticker": "TLT",
-    "generated_at": "2025-11-19T11:13:23.390401+00:00Z",
+    "generated_at": "2025-11-19T18:48:26.695420+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
+  "levels": [
+    {
+      "price": 87.8,
+      "volume": 104730000,
+      "dollars": 9200000000,
+      "rank": "2"
+    },
+    {
+      "price": 89.8,
+      "volume": 95000000,
+      "dollars": 8529999999,
+      "rank": "3"
+    },
+    {
+      "price": 90.2,
+      "volume": 89650000,
+      "dollars": 8090000000,
+      "rank": "5"
+    },
+    {
+      "price": 91.4,
+      "volume": 87220000,
+      "dollars": 7970000000,
+      "rank": "6"
+    },
+    {
+      "price": 90.7,
+      "volume": 87280000,
+      "dollars": 7920000000,
+      "rank": "7"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 90.31,
+      "low_price": 89.61,
+      "volume": 5166458,
+      "dollars": 464348822,
+      "trades": 3,
+      "date_range": "2025-10-31 to 2025-11-07",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 91.12,
+      "low_price": 90.59,
+      "volume": 3949283,
+      "dollars": 358423643,
+      "trades": 3,
+      "date_range": "2025-10-10 to 2025-10-17",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 89.74,
+      "low_price": 89.74,
+      "volume": 2680437,
+      "dollars": 240542416,
+      "trades": 1,
+      "date_range": "2025-09-10",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
+      "high_price": 89.67,
+      "low_price": 89.67,
+      "volume": 1127100,
+      "dollars": 101067057,
+      "trades": 1,
+      "date_range": "2025-09-29",
+      "color": "red"
+    },
+    {
+      "box_number": 5,
       "high_price": 91.95,
-      "low_price": 87.08,
-      "volume": 15869329,
-      "dollars": 1429791523,
-      "trades": 18,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "low_price": 91.95,
+      "volume": 743836,
+      "dollars": 68395720,
+      "trades": 2,
+      "date_range": "2025-10-22",
+      "color": "purple"
     }
   ]
 }

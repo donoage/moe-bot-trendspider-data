@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "SOBO",
-    "generated_at": "2025-11-19T11:13:23.410175+00:00Z",
+    "generated_at": "2025-11-19T20:31:22.693879+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758859200,
+      "price": 28.55,
+      "volume": 2475000,
+      "dollars": 70657042,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758859200,
+      "price": 28.55,
+      "volume": 2475000,
+      "dollars": 70657042,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1760932800,
+      "price": 26.12,
+      "volume": 832412,
+      "dollars": 21742601,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1760414400,
+      "price": 27.05,
+      "volume": 697942,
+      "dollars": 18879331,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 25.8,
+      "volume": 10160000,
+      "dollars": 260000000,
+      "rank": "1"
+    },
+    {
+      "price": 25.7,
+      "volume": 7130000,
+      "dollars": 180000000,
+      "rank": "2"
+    },
+    {
+      "price": 28.6,
+      "volume": 5190000,
+      "dollars": 150000000,
+      "rank": "3"
+    },
+    {
+      "price": 26.1,
+      "volume": 3550000,
+      "dollars": 90000000,
+      "rank": "5"
+    },
+    {
+      "price": 26.6,
+      "volume": 2630000,
+      "dollars": 70000000,
+      "rank": "6"
+    }
+  ],
   "boxes": []
 }

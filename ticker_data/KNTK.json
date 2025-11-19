@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "KNTK",
-    "generated_at": "2025-11-19T11:13:23.402480+00:00Z",
+    "generated_at": "2025-11-19T19:51:59.466599+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1756440000,
+      "price": 41.83,
+      "volume": 3631276,
+      "dollars": 151896275,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 42.94,
+      "volume": 1375416,
+      "dollars": 59060363,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1756440000,
+      "price": 41.83,
+      "volume": 423200,
+      "dollars": 17702456,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1761278400,
+      "price": 40.34,
+      "volume": 418672,
+      "dollars": 16889228,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 41.8,
+      "volume": 5870000,
+      "dollars": 250000000,
+      "rank": "1"
+    },
+    {
+      "price": 44.1,
+      "volume": 2390000,
+      "dollars": 110000000,
+      "rank": "2"
+    },
+    {
+      "price": 42.9,
+      "volume": 2320000,
+      "dollars": 100000000,
+      "rank": "3"
+    },
+    {
+      "price": 43.3,
+      "volume": 1720000,
+      "dollars": 70000000,
+      "rank": "4"
+    },
+    {
+      "price": 42.0,
+      "volume": 1680000,
+      "dollars": 70000000,
+      "rank": "5"
+    }
+  ],
   "boxes": []
 }

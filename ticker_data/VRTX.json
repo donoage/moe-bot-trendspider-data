@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "VRTX",
-    "generated_at": "2025-11-19T11:13:23.396478+00:00Z",
+    "generated_at": "2025-11-19T19:16:01.994309+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 383.12,
+      "volume": 1006878,
+      "dollars": 385755099,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 441.3,
+      "volume": 2350000,
+      "dollars": 1040000000,
+      "rank": "7"
+    },
+    {
+      "price": 410.7,
+      "volume": 1980000,
+      "dollars": 810000000,
+      "rank": "8"
+    },
+    {
+      "price": 397.3,
+      "volume": 1910000,
+      "dollars": 760000000,
+      "rank": "9"
+    },
+    {
+      "price": 442.1,
+      "volume": 1450000,
+      "dollars": 640000000,
+      "rank": "14"
+    },
+    {
+      "price": 383.1,
+      "volume": 1610000,
+      "dollars": 620000000,
+      "rank": "16"
+    }
+  ],
   "boxes": []
 }

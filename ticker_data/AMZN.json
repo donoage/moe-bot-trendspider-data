@@ -1,13 +1,57 @@
 {
   "metadata": {
     "ticker": "AMZN",
-    "generated_at": "2025-11-19T11:13:23.354832+00:00Z",
+    "generated_at": "2025-11-19T17:45:44.636892+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 231.48,
+      "volume": 36854250,
+      "dollars": 8531021790,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 223.3,
+      "volume": 75930000,
+      "dollars": 16950000000,
+      "rank": "1"
+    },
+    {
+      "price": 231.5,
+      "volume": 62190000,
+      "dollars": 14400000000,
+      "rank": "2"
+    },
+    {
+      "price": 224.9,
+      "volume": 51310000,
+      "dollars": 11540000000,
+      "rank": "5"
+    },
+    {
+      "price": 219.4,
+      "volume": 27720000,
+      "dollars": 6080000000,
+      "rank": "31"
+    },
+    {
+      "price": 244.2,
+      "volume": 22700000,
+      "dollars": 5540000000,
+      "rank": "39"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
@@ -16,8 +60,18 @@
       "volume": 322206,
       "dollars": 71266743,
       "trades": 3,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "date_range": "2025-08-21",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 221.25,
+      "low_price": 221.25,
+      "volume": 249300,
+      "dollars": 55157625,
+      "trades": 1,
+      "date_range": "2025-11-19",
+      "color": "green"
     }
   ]
 }

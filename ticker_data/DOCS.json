@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "DOCS",
-    "generated_at": "2025-11-19T11:13:23.389609+00:00Z",
+    "generated_at": "2025-11-19T18:43:03.496942+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 72.82,
+      "volume": 1510219,
+      "dollars": 109974147,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 57.8,
+      "volume": 4650000,
+      "dollars": 270000000,
+      "rank": "2"
+    },
+    {
+      "price": 52.4,
+      "volume": 5090000,
+      "dollars": 270000000,
+      "rank": "4"
+    },
+    {
+      "price": 61.1,
+      "volume": 3620000,
+      "dollars": 220000000,
+      "rank": "6"
+    },
+    {
+      "price": 73.5,
+      "volume": 2610000,
+      "dollars": 190000000,
+      "rank": "7"
+    },
+    {
+      "price": 63.0,
+      "volume": 2750000,
+      "dollars": 170000000,
+      "rank": "8"
+    }
+  ],
   "boxes": []
 }

@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "BYRN",
-    "generated_at": "2025-11-19T11:13:23.389315+00:00Z",
+    "generated_at": "2025-11-19T18:40:35.399663+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1759204800,
+      "price": 22.16,
+      "volume": 575944,
+      "dollars": 12762919,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 21.21,
+      "volume": 213854,
+      "dollars": 4535843,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 18.2,
+      "volume": 1570000,
+      "dollars": 30000000,
+      "rank": "1"
+    },
+    {
+      "price": 22.7,
+      "volume": 1080000,
+      "dollars": 20000000,
+      "rank": "2"
+    },
+    {
+      "price": 23.2,
+      "volume": 850000,
+      "dollars": 20000000,
+      "rank": "4"
+    },
+    {
+      "price": 25.6,
+      "volume": 750000,
+      "dollars": 20000000,
+      "rank": "5"
+    },
+    {
+      "price": 22.2,
+      "volume": 860000,
+      "dollars": 20000000,
+      "rank": "6"
+    }
+  ],
   "boxes": []
 }

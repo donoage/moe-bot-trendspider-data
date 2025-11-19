@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "SITM",
-    "generated_at": "2025-11-19T11:13:23.389342+00:00Z",
+    "generated_at": "2025-11-19T18:40:53.669025+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 312.85,
+      "volume": 272600,
+      "dollars": 85282910,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1759291200,
+      "price": 295.71,
+      "volume": 138607,
+      "dollars": 40987475,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1756180800,
+      "price": 245.94,
+      "volume": 159447,
+      "dollars": 39214395,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1759377600,
+      "price": 295.71,
+      "volume": 100000,
+      "dollars": 29571000,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 305.4,
+      "volume": 1840000,
+      "dollars": 560000000,
+      "rank": "1"
+    },
+    {
+      "price": 312.9,
+      "volume": 300000,
+      "dollars": 100000000,
+      "rank": "5"
+    },
+    {
+      "price": 261.4,
+      "volume": 330000,
+      "dollars": 90000000,
+      "rank": "6"
+    },
+    {
+      "price": 295.7,
+      "volume": 240000,
+      "dollars": 70000000,
+      "rank": "7"
+    },
+    {
+      "price": 254.9,
+      "volume": 190000,
+      "dollars": 50000000,
+      "rank": "9"
+    }
+  ],
   "boxes": []
 }

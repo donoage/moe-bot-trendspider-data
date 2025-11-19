@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "GAP",
-    "generated_at": "2025-11-19T11:13:23.401720+00:00Z",
+    "generated_at": "2025-11-19T19:46:50.380469+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 22.26,
+      "volume": 4115396,
+      "dollars": 91608714,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 20.0,
+      "volume": 84920000,
+      "dollars": 1700000000,
+      "rank": "2"
+    },
+    {
+      "price": 21.5,
+      "volume": 77600000,
+      "dollars": 1670000000,
+      "rank": "3"
+    },
+    {
+      "price": 21.0,
+      "volume": 79060000,
+      "dollars": 1660000000,
+      "rank": "4"
+    },
+    {
+      "price": 21.4,
+      "volume": 69420000,
+      "dollars": 1490000000,
+      "rank": "5"
+    },
+    {
+      "price": 21.3,
+      "volume": 61830000,
+      "dollars": 1320000000,
+      "rank": "7"
+    }
+  ],
   "boxes": []
 }

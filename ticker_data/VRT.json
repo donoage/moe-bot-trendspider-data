@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "VRT",
-    "generated_at": "2025-11-19T11:13:23.407592+00:00Z",
+    "generated_at": "2025-11-19T20:19:23.655457+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 143.6,
+      "volume": 1284968,
+      "dollars": 184521404,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1761883200,
+      "price": 192.86,
+      "volume": 930113,
+      "dollars": 179381593,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763092800,
+      "price": 170.97,
+      "volume": 1047178,
+      "dollars": 179036022,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 125.8,
+      "volume": 4820000,
+      "dollars": 610000000,
+      "rank": "3"
+    },
+    {
+      "price": 192.9,
+      "volume": 2790000,
+      "dollars": 540000000,
+      "rank": "5"
+    },
+    {
+      "price": 130.9,
+      "volume": 4059999,
+      "dollars": 530000000,
+      "rank": "6"
+    },
+    {
+      "price": 125.0,
+      "volume": 3890000,
+      "dollars": 490000000,
+      "rank": "8"
+    },
+    {
+      "price": 127.2,
+      "volume": 3620000,
+      "dollars": 460000000,
+      "rank": "9"
+    }
+  ],
   "boxes": []
 }

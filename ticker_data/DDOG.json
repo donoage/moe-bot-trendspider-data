@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "DDOG",
-    "generated_at": "2025-11-19T11:13:23.384431+00:00Z",
+    "generated_at": "2025-11-19T18:17:09.110738+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 138.82,
+      "volume": 3513809,
+      "dollars": 487786965,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 145.9,
+      "volume": 61900000,
+      "dollars": 9030000000,
+      "rank": "1"
+    },
+    {
+      "price": 170.2,
+      "volume": 13440000,
+      "dollars": 2290000000,
+      "rank": "2"
+    },
+    {
+      "price": 138.8,
+      "volume": 7100000,
+      "dollars": 990000000,
+      "rank": "3"
+    },
+    {
+      "price": 149.5,
+      "volume": 3580000,
+      "dollars": 530000000,
+      "rank": "7"
+    },
+    {
+      "price": 155.4,
+      "volume": 3330000,
+      "dollars": 520000000,
+      "rank": "8"
+    }
+  ],
   "boxes": []
 }

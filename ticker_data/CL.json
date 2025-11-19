@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "CL",
-    "generated_at": "2025-11-19T11:13:23.398581+00:00Z",
+    "generated_at": "2025-11-19T19:26:34.568613+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 81.17,
+      "volume": 5037953,
+      "dollars": 408930645,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 77.1,
+      "volume": 28490000,
+      "dollars": 2200000000,
+      "rank": "1"
+    },
+    {
+      "price": 75.4,
+      "volume": 25600000,
+      "dollars": 1930000000,
+      "rank": "2"
+    },
+    {
+      "price": 74.4,
+      "volume": 25920000,
+      "dollars": 1930000000,
+      "rank": "3"
+    },
+    {
+      "price": 78.8,
+      "volume": 24180000,
+      "dollars": 1910000000,
+      "rank": "4"
+    },
+    {
+      "price": 80.3,
+      "volume": 23660000,
+      "dollars": 1900000000,
+      "rank": "5"
+    }
+  ],
   "boxes": []
 }

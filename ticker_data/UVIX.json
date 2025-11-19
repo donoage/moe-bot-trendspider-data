@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "UVIX",
-    "generated_at": "2025-11-19T11:13:23.390521+00:00Z",
+    "generated_at": "2025-11-19T18:49:03.747125+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1759982400,
+      "price": 10.09,
+      "volume": 387672,
+      "dollars": 3911610,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 10.1,
+      "volume": 2300000,
+      "dollars": 20000000,
+      "rank": "4"
+    },
+    {
+      "price": 10.2,
+      "volume": 2040000,
+      "dollars": 20000000,
+      "rank": "6"
+    },
+    {
+      "price": 10.5,
+      "volume": 1950000,
+      "dollars": 20000000,
+      "rank": "7"
+    },
+    {
+      "price": 12.0,
+      "volume": 1390000,
+      "dollars": 20000000,
+      "rank": "9"
+    },
+    {
+      "price": 11.0,
+      "volume": 1460000,
+      "dollars": 20000000,
+      "rank": "10"
+    }
+  ],
   "boxes": []
 }

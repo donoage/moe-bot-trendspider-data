@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "AEM",
-    "generated_at": "2025-11-19T11:13:23.406631+00:00Z",
+    "generated_at": "2025-11-19T20:13:03.025764+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 161.19,
+      "volume": 4680329,
+      "dollars": 754422231,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 161.19,
+      "volume": 573621,
+      "dollars": 92461968,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 161.2,
+      "volume": 5620000,
+      "dollars": 910000000,
+      "rank": "1"
+    },
+    {
+      "price": 164.9,
+      "volume": 750000,
+      "dollars": 120000000,
+      "rank": "51"
+    },
+    {
+      "price": 168.1,
+      "volume": 710000,
+      "dollars": 120000000,
+      "rank": "56"
+    },
+    {
+      "price": 170.4,
+      "volume": 410000,
+      "dollars": 70000000,
+      "rank": "0"
+    },
+    {
+      "price": 171.4,
+      "volume": 370000,
+      "dollars": 60000000,
+      "rank": "0"
+    }
+  ],
   "boxes": []
 }

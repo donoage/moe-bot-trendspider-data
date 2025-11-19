@@ -1,23 +1,89 @@
 {
   "metadata": {
     "ticker": "IOT",
-    "generated_at": "2025-11-19T11:13:23.407270+00:00Z",
+    "generated_at": "2025-11-19T20:16:55.703340+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 40.08,
+      "volume": 2330935,
+      "dollars": 93423874,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1756180800,
+      "price": 33.6,
+      "volume": 2237554,
+      "dollars": 75181814,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 39.6,
+      "volume": 21630000,
+      "dollars": 860000000,
+      "rank": "1"
+    },
+    {
+      "price": 39.2,
+      "volume": 11880000,
+      "dollars": 470000000,
+      "rank": "2"
+    },
+    {
+      "price": 34.6,
+      "volume": 10950000,
+      "dollars": 380000000,
+      "rank": "3"
+    },
+    {
+      "price": 40.2,
+      "volume": 6840000,
+      "dollars": 270000000,
+      "rank": "4"
+    },
+    {
+      "price": 39.8,
+      "volume": 6680000,
+      "dollars": 270000000,
+      "rank": "5"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
       "high_price": 37.67,
+      "low_price": 37.67,
+      "volume": 631368,
+      "dollars": 23783632,
+      "trades": 1,
+      "date_range": "2025-10-07",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 37.35,
       "low_price": 37.35,
-      "volume": 1130768,
-      "dollars": 42436222,
-      "trades": 2,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "volume": 499400,
+      "dollars": 18652590,
+      "trades": 1,
+      "date_range": "2025-09-25",
+      "color": "green"
     }
   ]
 }

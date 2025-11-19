@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "GRRR",
-    "generated_at": "2025-11-19T11:13:23.389421+00:00Z",
+    "generated_at": "2025-11-19T18:41:19.684183+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758686400,
+      "price": 19.2,
+      "volume": 152044,
+      "dollars": 2919244,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1756872000,
+      "price": 16.89,
+      "volume": 139330,
+      "dollars": 2353283,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758081600,
+      "price": 20.55,
+      "volume": 100000,
+      "dollars": 2055000,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 20.6,
+      "volume": 490000,
+      "dollars": 10000000,
+      "rank": "2"
+    },
+    {
+      "price": 21.5,
+      "volume": 410000,
+      "dollars": 10000000,
+      "rank": "3"
+    },
+    {
+      "price": 20.1,
+      "volume": 380000,
+      "dollars": 10000000,
+      "rank": "5"
+    },
+    {
+      "price": 17.6,
+      "volume": 350000,
+      "dollars": 10000000,
+      "rank": "7"
+    },
+    {
+      "price": 16.9,
+      "volume": 350000,
+      "dollars": 10000000,
+      "rank": "8"
+    }
+  ],
   "boxes": []
 }

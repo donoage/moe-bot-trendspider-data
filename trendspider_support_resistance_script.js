@@ -31,7 +31,7 @@ const MAX_PRINTS = 15;           // Typically 0-10 prints per ticker, allow buff
 const MAX_TOTAL_PAINTED_LINES = 40; // Total limit to prevent performance issues (reduced since boxes removed)
 
 // Projection configuration - number of bars to project into the future
-const projectionLength = 15; // Project lines 15 bars into the future
+const projectionLength = 60; // Project lines 50 bars into the future
 
 // Performance tracking
 let totalPaintedLines = 0;

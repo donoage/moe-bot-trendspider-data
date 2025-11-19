@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "BUR",
-    "generated_at": "2025-11-19T11:13:23.401116+00:00Z",
+    "generated_at": "2025-11-19T19:42:05.693501+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 12.44,
+      "volume": 1193304,
+      "dollars": 14844701,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 13.1,
+      "volume": 28150000,
+      "dollars": 370000000,
+      "rank": "1"
+    },
+    {
+      "price": 12.9,
+      "volume": 8770000,
+      "dollars": 110000000,
+      "rank": "2"
+    },
+    {
+      "price": 13.5,
+      "volume": 4840000,
+      "dollars": 70000000,
+      "rank": "3"
+    },
+    {
+      "price": 13.6,
+      "volume": 3790000,
+      "dollars": 50000000,
+      "rank": "4"
+    },
+    {
+      "price": 11.7,
+      "volume": 4280000,
+      "dollars": 50000000,
+      "rank": "5"
+    }
+  ],
   "boxes": []
 }

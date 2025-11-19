@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "FSLR",
-    "generated_at": "2025-11-19T11:13:23.383653+00:00Z",
+    "generated_at": "2025-11-19T18:11:34.394086+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 212.49,
+      "volume": 867516,
+      "dollars": 184338474,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 199.6,
+      "volume": 2540000,
+      "dollars": 510000000,
+      "rank": "5"
+    },
+    {
+      "price": 258.9,
+      "volume": 1720000,
+      "dollars": 440000000,
+      "rank": "7"
+    },
+    {
+      "price": 271.8,
+      "volume": 1180000,
+      "dollars": 320000000,
+      "rank": "11"
+    },
+    {
+      "price": 193.0,
+      "volume": 1480000,
+      "dollars": 280000000,
+      "rank": "15"
+    },
+    {
+      "price": 200.0,
+      "volume": 1370000,
+      "dollars": 270000000,
+      "rank": "21"
+    }
+  ],
   "boxes": []
 }

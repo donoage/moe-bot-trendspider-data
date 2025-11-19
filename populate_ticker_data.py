@@ -864,20 +864,23 @@ def process_ticker(ticker, start_date, end_date, output_dir, batch_prints_cache=
     # Process sequentially to avoid nested thread pool issues and resource leaks
     try:
         # Use batch caches if available, otherwise fetch individually
-        if batch_prints_cache and ticker in batch_prints_cache and batch_prints_cache[ticker] is not None:
-            prints = batch_prints_cache[ticker]
-        else:
-            prints = fetch_big_prints_for_ticker(ticker, start_date, end_date)
+        # Force individual processing for prints to avoid batch hanging issues
+        # if batch_prints_cache and ticker in batch_prints_cache and batch_prints_cache[ticker] is not None:
+        #     prints = batch_prints_cache[ticker]
+        # else:
+        prints = fetch_big_prints_for_ticker(ticker, start_date, end_date)
         
-        if batch_levels_cache and ticker in batch_levels_cache and batch_levels_cache[ticker] is not None:
-            levels = batch_levels_cache[ticker]
-        else:
-            levels = fetch_support_resistance_for_ticker(ticker, start_date, end_date)
+        # Force individual processing for levels since batch processing has issues
+        # if batch_levels_cache and ticker in batch_levels_cache and batch_levels_cache[ticker] is not None:
+        #     levels = batch_levels_cache[ticker]
+        # else:
+        levels = fetch_support_resistance_for_ticker(ticker, start_date, end_date)
         
-        if batch_boxes_cache and ticker in batch_boxes_cache and batch_boxes_cache[ticker] is not None:
-            boxes = batch_boxes_cache[ticker]
-        else:
-            boxes = fetch_price_boxes_for_ticker(ticker, start_date, end_date)
+        # Force individual processing for boxes to avoid batch hanging issues
+        # if batch_boxes_cache and ticker in batch_boxes_cache and batch_boxes_cache[ticker] is not None:
+        #     boxes = batch_boxes_cache[ticker]
+        # else:
+        boxes = fetch_price_boxes_for_ticker(ticker, start_date, end_date)
     except Exception as e:
         print(f"\n✗ Error fetching data for {ticker}: {e}")
         return False

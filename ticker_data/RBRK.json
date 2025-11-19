@@ -1,13 +1,81 @@
 {
   "metadata": {
     "ticker": "RBRK",
-    "generated_at": "2025-11-19T11:13:23.384868+00:00Z",
+    "generated_at": "2025-11-19T18:19:19.843811+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 80.23,
+      "volume": 2992337,
+      "dollars": 240075197,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1756180800,
+      "price": 85.17,
+      "volume": 1466833,
+      "dollars": 124930166,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758081600,
+      "price": 74.21,
+      "volume": 870645,
+      "dollars": 64610565,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 87.4,
+      "volume": 8230000,
+      "dollars": 720000000,
+      "rank": "1"
+    },
+    {
+      "price": 85.5,
+      "volume": 7620000,
+      "dollars": 650000000,
+      "rank": "2"
+    },
+    {
+      "price": 90.3,
+      "volume": 3590000,
+      "dollars": 320000000,
+      "rank": "3"
+    },
+    {
+      "price": 80.2,
+      "volume": 4030000,
+      "dollars": 320000000,
+      "rank": "4"
+    },
+    {
+      "price": 95.4,
+      "volume": 2190000,
+      "dollars": 210000000,
+      "rank": "6"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
@@ -16,8 +84,8 @@
       "volume": 346436,
       "dollars": 26155918,
       "trades": 1,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "date_range": "2025-09-12",
+      "color": "blue"
     }
   ]
 }

@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "COHR",
-    "generated_at": "2025-11-19T11:13:23.409472+00:00Z",
+    "generated_at": "2025-11-19T20:27:19.886409+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1762401600,
+      "price": 159.3,
+      "volume": 639373,
+      "dollars": 101852118,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758254400,
+      "price": 109.11,
+      "volume": 862714,
+      "dollars": 94130724,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1758513600,
+      "price": 114.6,
+      "volume": 708491,
+      "dollars": 81193068,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1762747200,
+      "price": 166.72,
+      "volume": 431511,
+      "dollars": 71941513,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 87.0,
+      "volume": 4550000,
+      "dollars": 400000000,
+      "rank": "3"
+    },
+    {
+      "price": 97.7,
+      "volume": 3160000,
+      "dollars": 310000000,
+      "rank": "5"
+    },
+    {
+      "price": 87.2,
+      "volume": 2530000,
+      "dollars": 220000000,
+      "rank": "6"
+    },
+    {
+      "price": 90.5,
+      "volume": 2360000,
+      "dollars": 210000000,
+      "rank": "7"
+    },
+    {
+      "price": 89.9,
+      "volume": 2000000,
+      "dollars": 180000000,
+      "rank": "9"
+    }
+  ],
   "boxes": []
 }

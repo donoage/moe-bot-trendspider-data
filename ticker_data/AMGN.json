@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "AMGN",
-    "generated_at": "2025-11-19T11:13:23.396071+00:00Z",
+    "generated_at": "2025-11-19T19:14:03.265561+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 285.41,
+      "volume": 2872402,
+      "dollars": 819812254,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 316.0,
+      "volume": 6630000,
+      "dollars": 2089999999,
+      "rank": "9"
+    },
+    {
+      "price": 275.5,
+      "volume": 6170000,
+      "dollars": 1700000000,
+      "rank": "21"
+    },
+    {
+      "price": 285.4,
+      "volume": 5060000,
+      "dollars": 1440000000,
+      "rank": "37"
+    },
+    {
+      "price": 289.3,
+      "volume": 4000000,
+      "dollars": 1160000000,
+      "rank": "64"
+    },
+    {
+      "price": 288.2,
+      "volume": 3940000,
+      "dollars": 1140000000,
+      "rank": "66"
+    }
+  ],
   "boxes": []
 }

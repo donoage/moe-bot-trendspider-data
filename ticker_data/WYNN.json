@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "WYNN",
-    "generated_at": "2025-11-19T11:13:23.405481+00:00Z",
+    "generated_at": "2025-11-19T20:07:21.808131+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 129.52,
+      "volume": 1420039,
+      "dollars": 183923451,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 120.8,
+      "volume": 8289999,
+      "dollars": 1000000000,
+      "rank": "2"
+    },
+    {
+      "price": 115.9,
+      "volume": 3890000,
+      "dollars": 450000000,
+      "rank": "7"
+    },
+    {
+      "price": 127.7,
+      "volume": 3030000,
+      "dollars": 390000000,
+      "rank": "10"
+    },
+    {
+      "price": 116.6,
+      "volume": 3240000,
+      "dollars": 380000000,
+      "rank": "13"
+    },
+    {
+      "price": 129.5,
+      "volume": 2700000,
+      "dollars": 350000000,
+      "rank": "21"
+    }
+  ],
   "boxes": []
 }

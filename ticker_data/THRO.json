@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "THRO",
-    "generated_at": "2025-11-19T11:13:23.403286+00:00Z",
+    "generated_at": "2025-11-19T19:56:21.243994+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1757390400,
+      "price": 37.25,
+      "volume": 2142642,
+      "dollars": 79807843,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 36.9,
+      "volume": 5920000,
+      "dollars": 220000000,
+      "rank": "4"
+    },
+    {
+      "price": 37.5,
+      "volume": 3520000,
+      "dollars": 130000000,
+      "rank": "6"
+    },
+    {
+      "price": 37.3,
+      "volume": 2430000,
+      "dollars": 90000000,
+      "rank": "7"
+    },
+    {
+      "price": 37.7,
+      "volume": 1180000,
+      "dollars": 40000000,
+      "rank": "13"
+    },
+    {
+      "price": 37.6,
+      "volume": 880000,
+      "dollars": 30000000,
+      "rank": "15"
+    }
+  ],
   "boxes": []
 }

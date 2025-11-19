@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "FWRG",
-    "generated_at": "2025-11-19T11:13:23.401602+00:00Z",
+    "generated_at": "2025-11-19T19:45:46.700449+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 15.94,
+      "volume": 889563,
+      "dollars": 14179634,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1755835200,
+      "price": 17.6,
+      "volume": 473669,
+      "dollars": 8336574,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 17.6,
+      "volume": 4040000,
+      "dollars": 70000000,
+      "rank": "1"
+    },
+    {
+      "price": 15.9,
+      "volume": 3240000,
+      "dollars": 50000000,
+      "rank": "2"
+    },
+    {
+      "price": 18.9,
+      "volume": 2360000,
+      "dollars": 40000000,
+      "rank": "3"
+    },
+    {
+      "price": 16.3,
+      "volume": 2670000,
+      "dollars": 40000000,
+      "rank": "4"
+    },
+    {
+      "price": 16.1,
+      "volume": 2640000,
+      "dollars": 40000000,
+      "rank": "5"
+    }
+  ],
   "boxes": []
 }

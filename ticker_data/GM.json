@@ -1,13 +1,44 @@
 {
   "metadata": {
     "ticker": "GM",
-    "generated_at": "2025-11-19T11:13:23.398196+00:00Z",
+    "generated_at": "2025-11-19T19:25:30.519635+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
+  "levels": [
+    {
+      "price": 58.8,
+      "volume": 25000000,
+      "dollars": 1470000000,
+      "rank": "85"
+    },
+    {
+      "price": 59.0,
+      "volume": 21810000,
+      "dollars": 1290000000,
+      "rank": "97"
+    },
+    {
+      "price": 58.5,
+      "volume": 18900000,
+      "dollars": 1110000000,
+      "rank": "0"
+    },
+    {
+      "price": 59.8,
+      "volume": 16399999,
+      "dollars": 980000000,
+      "rank": "0"
+    },
+    {
+      "price": 58.6,
+      "volume": 15340000,
+      "dollars": 900000000,
+      "rank": "0"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
@@ -16,8 +47,8 @@
       "volume": 606344,
       "dollars": 43674958,
       "trades": 1,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "date_range": "2025-11-12",
+      "color": "blue"
     }
   ]
 }

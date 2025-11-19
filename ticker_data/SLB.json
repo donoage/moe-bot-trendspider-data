@@ -1,23 +1,77 @@
 {
   "metadata": {
     "ticker": "SLB",
-    "generated_at": "2025-11-19T11:13:23.399057+00:00Z",
+    "generated_at": "2025-11-19T19:28:20.518647+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 34.43,
+      "volume": 13028787,
+      "dollars": 448581136,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 34.7,
+      "volume": 80720000,
+      "dollars": 2800000000,
+      "rank": "3"
+    },
+    {
+      "price": 35.8,
+      "volume": 61060000,
+      "dollars": 2190000000,
+      "rank": "4"
+    },
+    {
+      "price": 33.5,
+      "volume": 50370000,
+      "dollars": 1690000000,
+      "rank": "6"
+    },
+    {
+      "price": 35.9,
+      "volume": 46760000,
+      "dollars": 1680000000,
+      "rank": "7"
+    },
+    {
+      "price": 34.4,
+      "volume": 45550000,
+      "dollars": 1570000000,
+      "rank": "8"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 36.2,
+      "high_price": 35.65,
       "low_price": 35.65,
-      "volume": 1342628,
-      "dollars": 48139688,
-      "trades": 2,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "volume": 842628,
+      "dollars": 30039688,
+      "trades": 1,
+      "date_range": "2025-11-18",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 36.2,
+      "low_price": 36.2,
+      "volume": 500000,
+      "dollars": 18100000,
+      "trades": 1,
+      "date_range": "2025-09-12",
+      "color": "green"
     }
   ]
 }

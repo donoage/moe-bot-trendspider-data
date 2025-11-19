@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "AU",
-    "generated_at": "2025-11-19T11:13:23.406905+00:00Z",
+    "generated_at": "2025-11-19T20:14:23.238183+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 67.82,
+      "volume": 2177851,
+      "dollars": 147701854,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 67.8,
+      "volume": 2940000,
+      "dollars": 200000000,
+      "rank": "9"
+    },
+    {
+      "price": 79.4,
+      "volume": 980000,
+      "dollars": 80000000,
+      "rank": "0"
+    },
+    {
+      "price": 69.4,
+      "volume": 990000,
+      "dollars": 70000000,
+      "rank": "0"
+    },
+    {
+      "price": 56.7,
+      "volume": 1120000,
+      "dollars": 60000000,
+      "rank": "0"
+    },
+    {
+      "price": 56.5,
+      "volume": 1000000,
+      "dollars": 60000000,
+      "rank": "0"
+    }
+  ],
   "boxes": []
 }

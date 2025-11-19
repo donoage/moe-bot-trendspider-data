@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "CW",
-    "generated_at": "2025-11-19T11:13:23.410708+00:00Z",
+    "generated_at": "2025-11-19T20:35:58.754221+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 514.72,
+      "volume": 298050,
+      "dollars": 153412296,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 466.8,
+      "volume": 730000,
+      "dollars": 340000000,
+      "rank": "3"
+    },
+    {
+      "price": 514.7,
+      "volume": 310000,
+      "dollars": 160000000,
+      "rank": "6"
+    },
+    {
+      "price": 487.7,
+      "volume": 140000,
+      "dollars": 70000000,
+      "rank": "21"
+    },
+    {
+      "price": 481.1,
+      "volume": 140000,
+      "dollars": 70000000,
+      "rank": "24"
+    },
+    {
+      "price": 476.0,
+      "volume": 140000,
+      "dollars": 70000000,
+      "rank": "28"
+    }
+  ],
   "boxes": []
 }

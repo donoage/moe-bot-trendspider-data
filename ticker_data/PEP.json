@@ -1,13 +1,44 @@
 {
   "metadata": {
     "ticker": "PEP",
-    "generated_at": "2025-11-19T11:13:23.394807+00:00Z",
+    "generated_at": "2025-11-19T19:08:55.520028+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
+  "levels": [
+    {
+      "price": 145.4,
+      "volume": 16120000,
+      "dollars": 2340000000,
+      "rank": "14"
+    },
+    {
+      "price": 152.8,
+      "volume": 13200000,
+      "dollars": 2020000000,
+      "rank": "21"
+    },
+    {
+      "price": 147.0,
+      "volume": 12990000,
+      "dollars": 1910000000,
+      "rank": "27"
+    },
+    {
+      "price": 142.9,
+      "volume": 12650000,
+      "dollars": 1810000000,
+      "rank": "35"
+    },
+    {
+      "price": 148.6,
+      "volume": 12110000,
+      "dollars": 1800000000,
+      "rank": "36"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
@@ -16,8 +47,8 @@
       "volume": 139244,
       "dollars": 21220785,
       "trades": 1,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "date_range": "2025-09-02",
+      "color": "blue"
     }
   ]
 }

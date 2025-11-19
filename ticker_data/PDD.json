@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "PDD",
-    "generated_at": "2025-11-19T11:13:23.400377+00:00Z",
+    "generated_at": "2025-11-19T19:37:41.316501+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1759204800,
+      "price": 131.51,
+      "volume": 3850000,
+      "dollars": 506313500,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 138.8,
+      "volume": 10690000,
+      "dollars": 1480000000,
+      "rank": "3"
+    },
+    {
+      "price": 125.0,
+      "volume": 9440000,
+      "dollars": 1180000000,
+      "rank": "7"
+    },
+    {
+      "price": 139.0,
+      "volume": 8270000,
+      "dollars": 1150000000,
+      "rank": "8"
+    },
+    {
+      "price": 131.3,
+      "volume": 8750000,
+      "dollars": 1150000000,
+      "rank": "9"
+    },
+    {
+      "price": 138.0,
+      "volume": 8119999,
+      "dollars": 1120000000,
+      "rank": "10"
+    }
+  ],
   "boxes": []
 }

@@ -1,13 +1,44 @@
 {
   "metadata": {
     "ticker": "TNA",
-    "generated_at": "2025-11-19T11:13:23.391971+00:00Z",
+    "generated_at": "2025-11-19T18:54:08.249106+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
+  "levels": [
+    {
+      "price": 37.3,
+      "volume": 8810000,
+      "dollars": 330000000,
+      "rank": "3"
+    },
+    {
+      "price": 37.0,
+      "volume": 8600000,
+      "dollars": 320000000,
+      "rank": "5"
+    },
+    {
+      "price": 38.0,
+      "volume": 8020000,
+      "dollars": 300000000,
+      "rank": "7"
+    },
+    {
+      "price": 37.4,
+      "volume": 8119999,
+      "dollars": 300000000,
+      "rank": "8"
+    },
+    {
+      "price": 37.1,
+      "volume": 8060000,
+      "dollars": 300000000,
+      "rank": "9"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
@@ -16,8 +47,8 @@
       "volume": 455466,
       "dollars": 21607307,
       "trades": 1,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "date_range": "2025-10-30",
+      "color": "blue"
     }
   ]
 }

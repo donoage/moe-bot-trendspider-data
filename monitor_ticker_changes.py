@@ -33,6 +33,7 @@ REPO_DIR = "/Users/stephenbae/Projects/moe-bot-trendspider-data"
 CONFIG_FILE = f"{MAIN_PROJECT_DIR}/volumeleaders_config.json"
 TICKER_CACHE_FILE = f"{MAIN_PROJECT_DIR}/logs/ticker_cache.json"
 POPULATE_SCRIPT = f"{REPO_DIR}/populate_ticker_data.py"
+CHUNK_SCRIPT = f"{REPO_DIR}/process_chunks.py"
 PYTHON_PATH = f"{MAIN_PROJECT_DIR}/.venv/bin/python3"
 
 def get_file_hash(filepath):
@@ -98,15 +99,22 @@ def update_ticker_data(tickers=None, full_refresh=False):
     """Update ticker data using populate_ticker_data.py"""
     try:
         if full_refresh or not tickers:
-            logger.info(f"Running full ticker data update...")
-            cmd = [PYTHON_PATH, POPULATE_SCRIPT, '--max-workers', '2', '--timeout', '7200']
+            logger.info(f"Running full ticker data update using chunk processing...")
+            cmd = [PYTHON_PATH, CHUNK_SCRIPT]
         else:
             logger.info(f"Running incremental update for {len(tickers)} tickers: {', '.join(tickers[:10])}{'...' if len(tickers) > 10 else ''}")
             cmd = [PYTHON_PATH, POPULATE_SCRIPT, '--tickers'] + tickers + ['--max-workers', '3']
         
         # For full refresh, stream output in real-time to show progress
         if full_refresh:
-            logger.info(f"🚀 Starting full refresh with real-time progress...")
+            logger.info(f"🚀 Starting full refresh with chunk processing...")
+            logger.info(f"📊 Command: {' '.join(cmd)}")
+            ticker_count = len(load_base_tickers())
+            estimated_minutes = ticker_count // 10  # ~10 tickers per minute with chunk processing
+            logger.info(f"⏱️  Estimated time: ~{estimated_minutes} minutes for {ticker_count} tickers in chunks")
+            print(f"[{datetime.now().strftime('%H:%M:%S')}] 🚀 Starting chunk processing of {ticker_count} tickers...")
+            print(f"[{datetime.now().strftime('%H:%M:%S')}] 📦 Processing in chunks of 50 tickers each")
+            print(f"[{datetime.now().strftime('%H:%M:%S')}] ⏱️  Estimated completion time: ~{estimated_minutes} minutes")
             sys.stdout.flush()
             
             # Run with real-time output streaming and timeout
@@ -129,12 +137,21 @@ def update_ticker_data(tickers=None, full_refresh=False):
                 if line:
                     line = line.rstrip()
                     output_lines.append(line)
-                    # Print progress lines immediately to console
-                    if any(indicator in line for indicator in ['Processing tickers', '📈 Progress Update:', '✅ Completed:', '🚀 Starting processing']):
-                        print(line)
+                    # Print chunk progress lines immediately to console with enhanced formatting
+                    if any(indicator in line for indicator in [
+                        '🚀 PROCESSING CHUNK', '✅ Chunk', '❌ Chunk', '📊 OVERALL PROGRESS:', 
+                        '🎉 PROCESSING COMPLETE!', '⏱️  Time:', '📈 Tickers processed:', 
+                        '🔮 Estimated remaining:', '🎯 ETA:', '⏸️  Waiting', 'CHUNK PROCESSING PLAN'
+                    ]):
+                        # Add timestamp and enhanced formatting for better visibility
+                        timestamp = datetime.now().strftime('%H:%M:%S')
+                        print(f"[{timestamp}] {line}")
                         sys.stdout.flush()
-                    # Also log important lines
-                    if any(indicator in line for indicator in ['📈 Progress Update:', '✅ Completed:', 'Date range:', 'Processing all base_tickers']):
+                    # Also log important chunk progress lines
+                    if any(indicator in line for indicator in [
+                        '🚀 PROCESSING CHUNK', '✅ Chunk', '❌ Chunk', '📊 OVERALL PROGRESS:', 
+                        '🎉 PROCESSING COMPLETE!', 'CHUNK PROCESSING PLAN', '📈 Tickers processed:'
+                    ]):
                         logger.info(line)
                 elif process.poll() is not None:
                     break
@@ -154,9 +171,14 @@ def update_ticker_data(tickers=None, full_refresh=False):
                 return_code = -1
             
             if return_code == 0:
+                completion_time = datetime.now().strftime('%H:%M:%S')
+                print(f"[{completion_time}] ✅ Chunk processing completed successfully!")
+                print(f"[{completion_time}] 📊 All {len(load_base_tickers())} tickers processed in chunks")
                 logger.info(f"✅ Successfully updated ticker data")
                 return True
             else:
+                failure_time = datetime.now().strftime('%H:%M:%S')
+                print(f"[{failure_time}] ❌ Chunk processing failed (exit code: {return_code})")
                 logger.error(f"❌ Failed to update ticker data (exit code: {return_code})")
                 # Log last few lines for debugging
                 for line in output_lines[-5:]:

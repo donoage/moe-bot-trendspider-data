@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "UTI",
-    "generated_at": "2025-11-19T11:13:23.389858+00:00Z",
+    "generated_at": "2025-11-19T18:44:08.416682+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 28.29,
+      "volume": 648965,
+      "dollars": 18359219,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1759204800,
+      "price": 32.55,
+      "volume": 299478,
+      "dollars": 9748008,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 26.5,
+      "volume": 2640000,
+      "dollars": 70000000,
+      "rank": "1"
+    },
+    {
+      "price": 31.5,
+      "volume": 1610000,
+      "dollars": 50000000,
+      "rank": "3"
+    },
+    {
+      "price": 34.5,
+      "volume": 930000,
+      "dollars": 30000000,
+      "rank": "6"
+    },
+    {
+      "price": 26.9,
+      "volume": 1150000,
+      "dollars": 30000000,
+      "rank": "7"
+    },
+    {
+      "price": 26.0,
+      "volume": 1000000,
+      "dollars": 30000000,
+      "rank": "11"
+    }
+  ],
   "boxes": []
 }

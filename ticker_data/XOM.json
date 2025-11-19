@@ -1,23 +1,87 @@
 {
   "metadata": {
     "ticker": "XOM",
-    "generated_at": "2025-11-19T11:13:23.394227+00:00Z",
+    "generated_at": "2025-11-19T19:06:54.552182+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 112.82,
+      "volume": 16900970,
+      "dollars": 1906767435,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 110.8,
+      "volume": 60210000,
+      "dollars": 6670000000,
+      "rank": "5"
+    },
+    {
+      "price": 111.3,
+      "volume": 57740000,
+      "dollars": 6430000000,
+      "rank": "10"
+    },
+    {
+      "price": 114.7,
+      "volume": 50310000,
+      "dollars": 5770000000,
+      "rank": "20"
+    },
+    {
+      "price": 115.5,
+      "volume": 45280000,
+      "dollars": 5230000000,
+      "rank": "34"
+    },
+    {
+      "price": 112.8,
+      "volume": 45870000,
+      "dollars": 5170000000,
+      "rank": "36"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 120.25,
+      "high_price": 114.1,
       "low_price": 111.75,
-      "volume": 4546427,
-      "dollars": 515900088,
-      "trades": 6,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "volume": 4167857,
+      "dollars": 471227047,
+      "trades": 4,
+      "date_range": "2025-09-22 to 2025-09-23",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 116.0,
+      "low_price": 116.0,
+      "volume": 200000,
+      "dollars": 23200000,
+      "trades": 1,
+      "date_range": "2025-10-30",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 120.25,
+      "low_price": 120.25,
+      "volume": 178570,
+      "dollars": 21473042,
+      "trades": 1,
+      "date_range": "2025-11-11",
+      "color": "orange"
     }
   ]
 }

@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "SPXL",
-    "generated_at": "2025-11-19T11:13:23.378196+00:00Z",
+    "generated_at": "2025-11-19T17:55:17.180434+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1762833600,
+      "price": 224.16,
+      "volume": 1780653,
+      "dollars": 399151176,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 187.7,
+      "volume": 2900000,
+      "dollars": 540000000,
+      "rank": "14"
+    },
+    {
+      "price": 224.2,
+      "volume": 2350000,
+      "dollars": 530000000,
+      "rank": "16"
+    },
+    {
+      "price": 219.6,
+      "volume": 2330000,
+      "dollars": 510000000,
+      "rank": "17"
+    },
+    {
+      "price": 186.3,
+      "volume": 2590000,
+      "dollars": 480000000,
+      "rank": "22"
+    },
+    {
+      "price": 213.0,
+      "volume": 2200000,
+      "dollars": 470000000,
+      "rank": "24"
+    }
+  ],
   "boxes": []
 }

@@ -1,13 +1,69 @@
 {
   "metadata": {
     "ticker": "BROS",
-    "generated_at": "2025-11-19T11:13:23.390355+00:00Z",
+    "generated_at": "2025-11-19T18:48:00.673693+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 58.62,
+      "volume": 913244,
+      "dollars": 53534363,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1762142400,
+      "price": 56.5,
+      "volume": 700000,
+      "dollars": 39550000,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 69.3,
+      "volume": 3380000,
+      "dollars": 230000000,
+      "rank": "2"
+    },
+    {
+      "price": 70.2,
+      "volume": 2310000,
+      "dollars": 160000000,
+      "rank": "4"
+    },
+    {
+      "price": 57.8,
+      "volume": 2750000,
+      "dollars": 160000000,
+      "rank": "5"
+    },
+    {
+      "price": 67.5,
+      "volume": 1770000,
+      "dollars": 120000000,
+      "rank": "7"
+    },
+    {
+      "price": 54.9,
+      "volume": 2029999,
+      "dollars": 110000000,
+      "rank": "10"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
@@ -16,8 +72,8 @@
       "volume": 700000,
       "dollars": 39550000,
       "trades": 1,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "date_range": "2025-11-03",
+      "color": "blue"
     }
   ]
 }

@@ -1,13 +1,93 @@
 {
   "metadata": {
     "ticker": "MNDY",
-    "generated_at": "2025-11-19T11:13:23.408054+00:00Z",
+    "generated_at": "2025-11-19T20:20:49.123908+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1757908800,
+      "price": 193.49,
+      "volume": 470080,
+      "dollars": 90955779,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1757908800,
+      "price": 193.49,
+      "volume": 417842,
+      "dollars": 80848248,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1759377600,
+      "price": 180.1,
+      "volume": 289639,
+      "dollars": 52163983,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1759291200,
+      "price": 184.32,
+      "volume": 277000,
+      "dollars": 51056640,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 180.2,
+      "volume": 1740000,
+      "dollars": 310000000,
+      "rank": "1"
+    },
+    {
+      "price": 193.5,
+      "volume": 950000,
+      "dollars": 180000000,
+      "rank": "4"
+    },
+    {
+      "price": 213.0,
+      "volume": 770000,
+      "dollars": 160000000,
+      "rank": "5"
+    },
+    {
+      "price": 179.8,
+      "volume": 700000,
+      "dollars": 130000000,
+      "rank": "7"
+    },
+    {
+      "price": 150.3,
+      "volume": 730000,
+      "dollars": 110000000,
+      "rank": "11"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
@@ -16,8 +96,8 @@
       "volume": 289639,
       "dollars": 52163983,
       "trades": 1,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "date_range": "2025-10-02",
+      "color": "blue"
     }
   ]
 }

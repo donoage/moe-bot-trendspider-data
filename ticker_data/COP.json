@@ -1,13 +1,44 @@
 {
   "metadata": {
     "ticker": "COP",
-    "generated_at": "2025-11-19T11:13:23.405044+00:00Z",
+    "generated_at": "2025-11-19T20:05:39.188566+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
+  "levels": [
+    {
+      "price": 95.1,
+      "volume": 21930000,
+      "dollars": 2089999999,
+      "rank": "11"
+    },
+    {
+      "price": 99.3,
+      "volume": 20100000,
+      "dollars": 2000000000,
+      "rank": "12"
+    },
+    {
+      "price": 91.9,
+      "volume": 18460000,
+      "dollars": 1700000000,
+      "rank": "20"
+    },
+    {
+      "price": 94.4,
+      "volume": 15430000,
+      "dollars": 1460000000,
+      "rank": "42"
+    },
+    {
+      "price": 94.7,
+      "volume": 13530000,
+      "dollars": 1280000000,
+      "rank": "73"
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
@@ -16,8 +47,8 @@
       "volume": 547450,
       "dollars": 49051520,
       "trades": 1,
-      "date_range": "2025-08-21 to 2025-11-19",
-      "color": "#FF6B6B"
+      "date_range": "2025-10-24",
+      "color": "blue"
     }
   ]
 }

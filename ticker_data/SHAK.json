@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "SHAK",
-    "generated_at": "2025-11-19T11:13:23.391776+00:00Z",
+    "generated_at": "2025-11-19T18:53:27.307632+00:00Z",
     "date_range": "2025-08-21 to 2025-11-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1758254400,
+      "price": 99.62,
+      "volume": 503417,
+      "dollars": 50150401,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1761192000,
+      "price": 91.42,
+      "volume": 471739,
+      "dollars": 43126379,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 91.4,
+      "volume": 1250000,
+      "dollars": 110000000,
+      "rank": "2"
+    },
+    {
+      "price": 105.6,
+      "volume": 1020000,
+      "dollars": 110000000,
+      "rank": "3"
+    },
+    {
+      "price": 104.3,
+      "volume": 990000,
+      "dollars": 100000000,
+      "rank": "4"
+    },
+    {
+      "price": 90.0,
+      "volume": 1140000,
+      "dollars": 100000000,
+      "rank": "5"
+    },
+    {
+      "price": 99.0,
+      "volume": 890000,
+      "dollars": 90000000,
+      "rank": "9"
+    }
+  ],
   "boxes": []
 }

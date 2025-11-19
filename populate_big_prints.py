@@ -63,7 +63,7 @@ def load_ticker_list():
 def get_cookies():
     """Load cookies from cookies.json file"""
     try:
-        cookies_file = Path(__file__).parent.parent / 'cookies.json'
+        cookies_file = Path("/Users/stephenbae/Projects/moe-bot/cookies.json")
         with open(cookies_file, 'r') as f:
             cookies_list = json.load(f)
             # Convert the list to a cookie string
