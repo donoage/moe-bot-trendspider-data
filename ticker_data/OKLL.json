@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "OKLL",
-    "generated_at": "2025-11-19T22:31:30.417614+00:00Z",
-    "date_range": "2025-08-21 to 2025-11-19",
+    "generated_at": "2025-11-20T18:01:07.251408+00:00Z",
+    "date_range": "2025-08-22 to 2025-11-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -92,11 +92,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1763611200,
+      "price": 43.6,
+      "volume": 31220,
+      "dollars": 1361192,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1760500800,
       "price": 135.99,
       "volume": 10000,
       "dollars": 1359901,
-      "rank": 9,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 63.75,
       "volume": 19930,
       "dollars": 1270537,
-      "rank": 10,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1761624000,
-      "price": 79.09,
-      "volume": 15595,
-      "dollars": 1233410,
       "rank": 11,
       "conditions": "",
       "exchange": "",
@@ -142,20 +142,20 @@
       "rank": "2"
     },
     {
-      "price": 123.0,
-      "volume": 10000,
+      "price": 43.6,
+      "volume": 50000,
       "dollars": 0,
       "rank": "3"
     },
     {
-      "price": 114.6,
+      "price": 123.0,
       "volume": 10000,
       "dollars": 0,
       "rank": "4"
     },
     {
-      "price": 77.5,
-      "volume": 20000,
+      "price": 114.6,
+      "volume": 10000,
       "dollars": 0,
       "rank": "5"
     }
