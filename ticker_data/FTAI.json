@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "FTAI",
-    "generated_at": "2025-11-20T20:52:33.404384+00:00Z",
-    "date_range": "2025-08-22 to 2025-11-20",
+    "generated_at": "2025-11-25T02:50:06.956562+00:00Z",
+    "date_range": "2025-08-26 to 2025-11-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -32,11 +32,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1763697600,
+      "price": 157.49,
+      "volume": 350981,
+      "dollars": 55275997,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1758254400,
       "price": 178.89,
       "volume": 301126,
       "dollars": 53868430,
-      "rank": 19,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -45,12 +57,6 @@
     }
   ],
   "levels": [
-    {
-      "price": 145.0,
-      "volume": 930000,
-      "dollars": 130000000,
-      "rank": "7"
-    },
     {
       "price": 153.6,
       "volume": 830000,
@@ -74,6 +80,12 @@
       "volume": 600000,
       "dollars": 110000000,
       "rank": "20"
+    },
+    {
+      "price": 150.0,
+      "volume": 700000,
+      "dollars": 100000000,
+      "rank": "22"
     }
   ],
   "boxes": []

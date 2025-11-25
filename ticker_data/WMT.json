@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "WMT",
-    "generated_at": "2025-11-20T21:50:51.461196+00:00Z",
-    "date_range": "2025-08-22 to 2025-11-20",
+    "generated_at": "2025-11-25T02:46:02.243866+00:00Z",
+    "date_range": "2025-08-26 to 2025-11-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1763956800,
+      "price": 104.06,
+      "volume": 14661661,
+      "dollars": 1525692443,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1758254400,
       "price": 102.33,
       "volume": 12472389,
       "dollars": 1276299566,
-      "rank": 6,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -40,15 +52,15 @@
       "rank": "89"
     },
     {
+      "price": 104.1,
+      "volume": 24500000,
+      "dollars": 2550000000,
+      "rank": "92"
+    },
+    {
       "price": 98.0,
       "volume": 23040000,
       "dollars": 2260000000,
-      "rank": "0"
-    },
-    {
-      "price": 102.5,
-      "volume": 18340000,
-      "dollars": 1880000000,
       "rank": "0"
     }
   ],
@@ -72,6 +84,16 @@
       "trades": 3,
       "date_range": "2025-10-14 to 2025-10-22",
       "color": "green"
+    },
+    {
+      "box_number": 3,
+      "high_price": 105.1,
+      "low_price": 105.1,
+      "volume": 200000,
+      "dollars": 21020000,
+      "trades": 1,
+      "date_range": "2025-11-21",
+      "color": "orange"
     }
   ]
 }

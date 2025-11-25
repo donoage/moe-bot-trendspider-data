@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "ICE",
-    "generated_at": "2025-11-19T23:00:15.374757+00:00Z",
-    "date_range": "2025-08-21 to 2025-11-19",
+    "generated_at": "2025-11-25T02:54:23.346356+00:00Z",
+    "date_range": "2025-08-26 to 2025-11-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -18,15 +18,21 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1763956800,
+      "price": 152.9,
+      "volume": 1567092,
+      "dollars": 239608366,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
-    {
-      "price": 179.8,
-      "volume": 4690000,
-      "dollars": 840000000,
-      "rank": "3"
-    },
     {
       "price": 156.1,
       "volume": 4430000,
@@ -50,6 +56,12 @@
       "volume": 3760000,
       "dollars": 650000000,
       "rank": "13"
+    },
+    {
+      "price": 178.7,
+      "volume": 3480000,
+      "dollars": 620000000,
+      "rank": "18"
     }
   ],
   "boxes": [
@@ -66,11 +78,11 @@
     {
       "box_number": 2,
       "high_price": 154.0,
-      "low_price": 154.0,
-      "volume": 299300,
-      "dollars": 46092200,
-      "trades": 1,
-      "date_range": "2025-11-18",
+      "low_price": 153.45,
+      "volume": 646800,
+      "dollars": 99416075,
+      "trades": 2,
+      "date_range": "2025-11-18 to 2025-11-20",
       "color": "green"
     },
     {

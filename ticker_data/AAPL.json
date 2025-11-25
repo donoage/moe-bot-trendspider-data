@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "AAPL",
-    "generated_at": "2025-11-20T21:54:05.536074+00:00Z",
-    "date_range": "2025-08-22 to 2025-11-20",
+    "generated_at": "2025-11-25T02:45:14.146218+00:00Z",
+    "date_range": "2025-08-26 to 2025-11-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -55,22 +55,22 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 272.9,
+      "low_price": 266.85,
+      "volume": 173822,
+      "dollars": 46839053,
+      "trades": 2,
+      "date_range": "2025-11-18 to 2025-11-21",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 269.05,
       "low_price": 269.05,
       "volume": 99000,
       "dollars": 26635950,
       "trades": 1,
       "date_range": "2025-10-28",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 266.85,
-      "low_price": 266.85,
-      "volume": 98669,
-      "dollars": 26329822,
-      "trades": 1,
-      "date_range": "2025-11-18",
       "color": "green"
     }
   ]

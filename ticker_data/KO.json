@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "KO",
-    "generated_at": "2025-11-20T20:57:57.636722+00:00Z",
-    "date_range": "2025-08-22 to 2025-11-20",
+    "generated_at": "2025-11-25T02:47:37.985596+00:00Z",
+    "date_range": "2025-08-26 to 2025-11-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1763956800,
+      "price": 72.59,
+      "volume": 15965183,
+      "dollars": 1158912633,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 68.7,
@@ -22,13 +35,13 @@
     },
     {
       "price": 71.2,
-      "volume": 42880000,
-      "dollars": 3050000000,
-      "rank": "61"
+      "volume": 45880000,
+      "dollars": 3270000000,
+      "rank": "45"
     },
     {
       "price": 71.4,
-      "volume": 39960000,
+      "volume": 39970000,
       "dollars": 2850000000,
       "rank": "71"
     },

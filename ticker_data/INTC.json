@@ -1,19 +1,26 @@
 {
   "metadata": {
     "ticker": "INTC",
-    "generated_at": "2025-11-20T20:58:02.205485+00:00Z",
-    "date_range": "2025-08-22 to 2025-11-20",
+    "generated_at": "2025-11-25T02:47:40.007781+00:00Z",
+    "date_range": "2025-08-26 to 2025-11-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [
+  "prints": [
     {
-      "price": 23.4,
-      "volume": 391560000,
-      "dollars": 9160000000,
-      "rank": "8"
-    },
+      "timestamp": 1763956800,
+      "price": 35.79,
+      "volume": 21065352,
+      "dollars": 753928948,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
     {
       "price": 24.2,
       "volume": 356150000,
@@ -33,10 +40,16 @@
       "rank": "24"
     },
     {
+      "price": 34.5,
+      "volume": 209760000,
+      "dollars": 7230000000,
+      "rank": "26"
+    },
+    {
       "price": 26.9,
       "volume": 254950000,
       "dollars": 6860000000,
-      "rank": "27"
+      "rank": "28"
     }
   ],
   "boxes": [

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "AVGO",
-    "generated_at": "2025-11-20T21:51:25.520926+00:00Z",
-    "date_range": "2025-08-22 to 2025-11-20",
+    "generated_at": "2025-11-25T02:46:06.596904+00:00Z",
+    "date_range": "2025-08-26 to 2025-11-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1763956800,
+      "price": 377.96,
+      "volume": 10130029,
+      "dollars": 3828745760,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1758081600,
       "price": 352.44,
       "volume": 6567453,
       "dollars": 2314621313,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 298.01,
       "volume": 7642039,
       "dollars": 2277404042,
-      "rank": 18,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -47,33 +59,33 @@
   "levels": [
     {
       "price": 344.9,
-      "volume": 19700000,
-      "dollars": 6800000000,
+      "volume": 19750000,
+      "dollars": 6810000000,
       "rank": "4"
+    },
+    {
+      "price": 378.0,
+      "volume": 15550000,
+      "dollars": 5880000000,
+      "rank": "8"
     },
     {
       "price": 369.6,
       "volume": 12630000,
       "dollars": 4670000000,
-      "rank": "11"
+      "rank": "12"
     },
     {
       "price": 352.4,
       "volume": 13180000,
       "dollars": 4640000000,
-      "rank": "12"
+      "rank": "13"
     },
     {
       "price": 359.9,
       "volume": 12730000,
       "dollars": 4580000000,
-      "rank": "13"
-    },
-    {
-      "price": 298.0,
-      "volume": 10740000,
-      "dollars": 3200000000,
-      "rank": "24"
+      "rank": "14"
     }
   ],
   "boxes": [

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "GE",
-    "generated_at": "2025-11-20T20:58:14.273808+00:00Z",
-    "date_range": "2025-08-22 to 2025-11-20",
+    "generated_at": "2025-11-25T02:47:44.275816+00:00Z",
+    "date_range": "2025-08-26 to 2025-11-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -18,9 +18,27 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1763956800,
+      "price": 294.05,
+      "volume": 2819595,
+      "dollars": 829101909,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
+    {
+      "price": 294.1,
+      "volume": 8350000,
+      "dollars": 2450000000,
+      "rank": "17"
+    },
     {
       "price": 301.1,
       "volume": 4760000,
@@ -43,12 +61,6 @@
       "price": 309.0,
       "volume": 2060000,
       "dollars": 640000000,
-      "rank": "0"
-    },
-    {
-      "price": 304.2,
-      "volume": 1940000,
-      "dollars": 590000000,
       "rank": "0"
     }
   ],

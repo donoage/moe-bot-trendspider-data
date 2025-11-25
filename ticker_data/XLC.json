@@ -1,25 +1,12 @@
 {
   "metadata": {
     "ticker": "XLC",
-    "generated_at": "2025-11-20T18:01:46.082631+00:00Z",
-    "date_range": "2025-08-22 to 2025-11-20",
+    "generated_at": "2025-11-25T02:51:40.577567+00:00Z",
+    "date_range": "2025-08-26 to 2025-11-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1756094400,
-      "price": 111.49,
-      "volume": 1523336,
-      "dollars": 169836730,
-      "rank": 18,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 111.2,
@@ -40,14 +27,14 @@
       "rank": "0"
     },
     {
-      "price": 109.7,
-      "volume": 1750000,
-      "dollars": 190000000,
+      "price": 111.9,
+      "volume": 1760000,
+      "dollars": 200000000,
       "rank": "0"
     },
     {
-      "price": 111.5,
-      "volume": 1680000,
+      "price": 109.7,
+      "volume": 1750000,
       "dollars": 190000000,
       "rank": "0"
     }
@@ -76,42 +63,32 @@
     {
       "box_number": 3,
       "high_price": 115.02,
-      "low_price": 115.02,
-      "volume": 480002,
-      "dollars": 55209830,
-      "trades": 1,
-      "date_range": "2025-09-09",
+      "low_price": 114.83,
+      "volume": 685456,
+      "dollars": 78802112,
+      "trades": 2,
+      "date_range": "2025-09-08 to 2025-09-09",
       "color": "orange"
     },
     {
       "box_number": 4,
-      "high_price": 111.15,
-      "low_price": 111.15,
-      "volume": 248862,
-      "dollars": 27661011,
-      "trades": 1,
-      "date_range": "2025-08-22",
-      "color": "red"
-    },
-    {
-      "box_number": 5,
       "high_price": 118.45,
       "low_price": 118.45,
       "volume": 231841,
       "dollars": 27461566,
       "trades": 1,
       "date_range": "2025-09-23",
-      "color": "purple"
+      "color": "red"
     },
     {
-      "box_number": 6,
+      "box_number": 5,
       "high_price": 115.42,
       "low_price": 115.42,
       "volume": 226907,
       "dollars": 26189605,
       "trades": 1,
       "date_range": "2025-10-16",
-      "color": "yellow"
+      "color": "purple"
     }
   ]
 }

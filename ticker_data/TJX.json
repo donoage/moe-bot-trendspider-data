@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "TJX",
-    "generated_at": "2025-11-20T20:58:44.887952+00:00Z",
-    "date_range": "2025-08-22 to 2025-11-20",
+    "generated_at": "2025-11-25T02:48:02.960402+00:00Z",
+    "date_range": "2025-08-26 to 2025-11-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1763956800,
+      "price": 148.86,
+      "volume": 4816953,
+      "dollars": 717051623,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1758254400,
       "price": 139.78,
       "volume": 3634502,
       "dollars": 508030689,
-      "rank": 5,
+      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,33 +34,33 @@
   ],
   "levels": [
     {
+      "price": 148.9,
+      "volume": 6920000,
+      "dollars": 1030000000,
+      "rank": "17"
+    },
+    {
       "price": 145.2,
       "volume": 6490000,
       "dollars": 940000000,
-      "rank": "18"
+      "rank": "19"
     },
     {
       "price": 139.8,
       "volume": 5060000,
       "dollars": 710000000,
-      "rank": "69"
+      "rank": "70"
     },
     {
       "price": 143.8,
       "volume": 4570000,
       "dollars": 660000000,
-      "rank": "86"
+      "rank": "87"
     },
     {
       "price": 143.1,
       "volume": 4170000,
       "dollars": 600000000,
-      "rank": "0"
-    },
-    {
-      "price": 140.4,
-      "volume": 4000000,
-      "dollars": 560000000,
       "rank": "0"
     }
   ],

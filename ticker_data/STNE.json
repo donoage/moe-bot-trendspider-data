@@ -1,42 +1,55 @@
 {
   "metadata": {
     "ticker": "STNE",
-    "generated_at": "2025-11-19T22:58:08.224372+00:00Z",
-    "date_range": "2025-08-21 to 2025-11-19",
+    "generated_at": "2025-11-25T02:54:08.504006+00:00Z",
+    "date_range": "2025-08-26 to 2025-11-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1763956800,
+      "price": 15.08,
+      "volume": 20865935,
+      "dollars": 314658299,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
+      "price": 15.1,
+      "volume": 33020000,
+      "dollars": 500000000,
+      "rank": "2"
+    },
+    {
       "price": 15.4,
-      "volume": 14790000,
+      "volume": 14870000,
       "dollars": 230000000,
-      "rank": "6"
+      "rank": "7"
     },
     {
       "price": 15.0,
-      "volume": 12400000,
-      "dollars": 190000000,
+      "volume": 14270000,
+      "dollars": 210000000,
       "rank": "8"
     },
     {
       "price": 17.1,
       "volume": 9430000,
       "dollars": 160000000,
-      "rank": "10"
+      "rank": "11"
     },
     {
       "price": 16.3,
       "volume": 9790000,
       "dollars": 160000000,
-      "rank": "13"
-    },
-    {
-      "price": 17.0,
-      "volume": 8520000,
-      "dollars": 140000000,
-      "rank": "17"
+      "rank": "14"
     }
   ],
   "boxes": []

@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "PLD",
-    "generated_at": "2025-11-20T20:58:39.414841+00:00Z",
-    "date_range": "2025-08-22 to 2025-11-20",
+    "generated_at": "2025-11-25T02:48:00.343321+00:00Z",
+    "date_range": "2025-08-26 to 2025-11-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1763956800,
+      "price": 126.45,
+      "volume": 4878123,
+      "dollars": 616838653,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1758254400,
       "price": 113.51,
       "volume": 3770653,
       "dollars": 428006822,
-      "rank": 11,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -47,8 +59,8 @@
     },
     {
       "price": 124.0,
-      "volume": 10720000,
-      "dollars": 1330000000,
+      "volume": 10820000,
+      "dollars": 1340000000,
       "rank": "6"
     }
   ],

@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "AKAM",
-    "generated_at": "2025-11-20T20:56:28.254953+00:00Z",
-    "date_range": "2025-08-22 to 2025-11-20",
+    "generated_at": "2025-11-25T02:46:53.123773+00:00Z",
+    "date_range": "2025-08-26 to 2025-11-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1763956800,
+      "price": 88.34,
+      "volume": 9658260,
+      "dollars": 853210688,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1758254400,
       "price": 76.28,
       "volume": 3631561,
       "dollars": 277015473,
-      "rank": 3,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,34 +34,34 @@
   ],
   "levels": [
     {
+      "price": 88.3,
+      "volume": 16410000,
+      "dollars": 1450000000,
+      "rank": "1"
+    },
+    {
       "price": 76.3,
       "volume": 9380000,
       "dollars": 720000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 89.4,
-      "volume": 6220000,
+      "volume": 6240000,
       "dollars": 560000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 77.5,
       "volume": 7070000,
       "dollars": 550000000,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 88.9,
       "volume": 5550000,
       "dollars": 490000000,
-      "rank": "6"
-    },
-    {
-      "price": 76.4,
-      "volume": 5810000,
-      "dollars": 440000000,
-      "rank": "10"
+      "rank": "7"
     }
   ],
   "boxes": []
