@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "NVOX",
-    "generated_at": "2025-11-25T02:51:19.244279+00:00Z",
-    "date_range": "2025-08-26 to 2025-11-24",
+    "generated_at": "2025-11-27T02:20:50.219000+00:00Z",
+    "date_range": "2025-08-28 to 2025-11-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -92,11 +92,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1764043200,
+      "price": 2.35,
+      "volume": 409358,
+      "dollars": 961991,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1763352000,
       "price": 2.61,
       "volume": 357749,
       "dollars": 933689,
-      "rank": 10,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 2.73,
       "volume": 332270,
       "dollars": 907097,
-      "rank": 11,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1761796800,
-      "price": 2.81,
-      "volume": 316200,
-      "dollars": 888522,
       "rank": 12,
       "conditions": "",
       "exchange": "",
@@ -137,7 +137,7 @@
     },
     {
       "price": 2.6,
-      "volume": 2000000,
+      "volume": 2260000,
       "dollars": 10000000,
       "rank": "2"
     },
@@ -154,8 +154,8 @@
       "rank": "4"
     },
     {
-      "price": 2.8,
-      "volume": 520000,
+      "price": 2.4,
+      "volume": 660000,
       "dollars": 0,
       "rank": "6"
     }

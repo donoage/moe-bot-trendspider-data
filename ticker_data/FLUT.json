@@ -1,25 +1,12 @@
 {
   "metadata": {
     "ticker": "FLUT",
-    "generated_at": "2025-11-25T02:52:13.109892+00:00Z",
-    "date_range": "2025-08-26 to 2025-11-24",
+    "generated_at": "2025-11-27T02:21:42.929386+00:00Z",
+    "date_range": "2025-08-28 to 2025-11-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1756180800,
-      "price": 300.82,
-      "volume": 906734,
-      "dollars": 272763721,
-      "rank": 17,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 278.7,
@@ -75,13 +62,23 @@
     },
     {
       "box_number": 3,
+      "high_price": 200.0,
+      "low_price": 200.0,
+      "volume": 133141,
+      "dollars": 26628200,
+      "trades": 1,
+      "date_range": "2025-11-26",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
       "high_price": 212.6,
       "low_price": 212.6,
       "volume": 99780,
       "dollars": 21213228,
       "trades": 1,
       "date_range": "2025-11-05",
-      "color": "orange"
+      "color": "red"
     }
   ]
 }

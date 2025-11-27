@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "ABT",
-    "generated_at": "2025-11-25T02:47:39.221676+00:00Z",
-    "date_range": "2025-08-26 to 2025-11-24",
+    "generated_at": "2025-11-27T02:17:29.452339+00:00Z",
+    "date_range": "2025-08-28 to 2025-11-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -47,7 +47,7 @@
     },
     {
       "price": 127.2,
-      "volume": 12010000,
+      "volume": 12060000,
       "dollars": 1530000000,
       "rank": "27"
     },
@@ -77,33 +77,43 @@
     },
     {
       "box_number": 2,
+      "high_price": 128.24,
+      "low_price": 128.24,
+      "volume": 398886,
+      "dollars": 51153938,
+      "trades": 1,
+      "date_range": "2025-11-25",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 129.81,
       "low_price": 129.81,
       "volume": 381900,
       "dollars": 49574439,
       "trades": 1,
       "date_range": "2025-10-15",
-      "color": "green"
+      "color": "orange"
     },
     {
-      "box_number": 3,
+      "box_number": 4,
       "high_price": 130.6,
       "low_price": 130.6,
       "volume": 359695,
       "dollars": 46976167,
       "trades": 1,
       "date_range": "2025-08-28",
-      "color": "orange"
+      "color": "red"
     },
     {
-      "box_number": 4,
+      "box_number": 5,
       "high_price": 127.09,
       "low_price": 127.09,
       "volume": 199900,
       "dollars": 25405291,
       "trades": 1,
       "date_range": "2025-10-27",
-      "color": "red"
+      "color": "purple"
     }
   ]
 }

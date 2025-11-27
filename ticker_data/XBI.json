@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "XBI",
-    "generated_at": "2025-11-25T02:52:02.910229+00:00Z",
-    "date_range": "2025-08-26 to 2025-11-24",
+    "generated_at": "2025-11-27T02:21:31.979090+00:00Z",
+    "date_range": "2025-08-28 to 2025-11-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -62,23 +62,33 @@
     },
     {
       "box_number": 3,
+      "high_price": 119.7,
+      "low_price": 119.7,
+      "volume": 185046,
+      "dollars": 22150006,
+      "trades": 1,
+      "date_range": "2025-11-25",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
       "high_price": 112.78,
       "low_price": 112.78,
       "volume": 196195,
       "dollars": 22126872,
       "trades": 1,
       "date_range": "2025-10-31",
-      "color": "orange"
+      "color": "red"
     },
     {
-      "box_number": 4,
+      "box_number": 5,
       "high_price": 103.2,
       "low_price": 103.2,
       "volume": 181981,
       "dollars": 18780439,
       "trades": 1,
       "date_range": "2025-10-07",
-      "color": "red"
+      "color": "purple"
     }
   ]
 }
