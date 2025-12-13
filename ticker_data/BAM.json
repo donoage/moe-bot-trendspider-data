@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "BAM",
-    "generated_at": "2025-11-29T07:59:40.145260+00:00Z",
-    "date_range": "2025-08-30 to 2025-11-28",
+    "generated_at": "2025-12-13T09:07:32.762628+00:00Z",
+    "date_range": "2025-09-13 to 2025-12-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -13,30 +13,6 @@
       "volume": 1281576,
       "dollars": 74874155,
       "rank": 5,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1756785600,
-      "price": 59.13,
-      "volume": 1212957,
-      "dollars": 71722147,
-      "rank": 6,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1757304000,
-      "price": 56.91,
-      "volume": 1098577,
-      "dollars": 62520017,
-      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -76,5 +52,16 @@
       "rank": "6"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 53.05,
+      "low_price": 53.05,
+      "volume": 352340,
+      "dollars": 18691637,
+      "trades": 1,
+      "date_range": "2025-12-05",
+      "color": "blue"
+    }
+  ]
 }

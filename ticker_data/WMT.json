@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "WMT",
-    "generated_at": "2025-11-29T10:59:10.198647+00:00Z",
-    "date_range": "2025-08-30 to 2025-11-28",
+    "generated_at": "2025-12-13T09:16:01.483550+00:00Z",
+    "date_range": "2025-09-13 to 2025-12-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -34,12 +34,6 @@
   ],
   "levels": [
     {
-      "price": 97.3,
-      "volume": 34070000,
-      "dollars": 3310000000,
-      "rank": "61"
-    },
-    {
       "price": 102.3,
       "volume": 25520000,
       "dollars": 2610000000,
@@ -61,6 +55,12 @@
       "price": 102.5,
       "volume": 18340000,
       "dollars": 1880000000,
+      "rank": "0"
+    },
+    {
+      "price": 98.7,
+      "volume": 18540000,
+      "dollars": 1830000000,
       "rank": "0"
     }
   ],
@@ -87,13 +87,23 @@
     },
     {
       "box_number": 3,
+      "high_price": 114.0,
+      "low_price": 113.84,
+      "volume": 486100,
+      "dollars": 55367833,
+      "trades": 2,
+      "date_range": "2025-12-03",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
       "high_price": 105.1,
       "low_price": 105.1,
       "volume": 200000,
       "dollars": 21020000,
       "trades": 1,
       "date_range": "2025-11-21",
-      "color": "orange"
+      "color": "red"
     }
   ]
 }

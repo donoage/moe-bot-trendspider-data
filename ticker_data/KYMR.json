@@ -1,18 +1,42 @@
 {
   "metadata": {
     "ticker": "KYMR",
-    "generated_at": "2025-11-29T07:51:25.713098+00:00Z",
-    "date_range": "2025-08-30 to 2025-11-28",
+    "generated_at": "2025-12-13T09:11:18.138901+00:00Z",
+    "date_range": "2025-09-13 to 2025-12-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1765339200,
+      "price": 89.89,
+      "volume": 709321,
+      "dollars": 63760864,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1758254400,
       "price": 49.13,
       "volume": 1297598,
       "dollars": 63750989,
-      "rank": 4,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765512000,
+      "price": 89.68,
+      "volume": 475511,
+      "dollars": 42643826,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,16 +46,16 @@
   ],
   "levels": [
     {
-      "price": 44.4,
-      "volume": 2870000,
-      "dollars": 130000000,
-      "rank": "1"
-    },
-    {
       "price": 63.0,
       "volume": 1590000,
       "dollars": 100000000,
       "rank": "2"
+    },
+    {
+      "price": 71.5,
+      "volume": 1310000,
+      "dollars": 90000000,
+      "rank": "3"
     },
     {
       "price": 49.1,
@@ -40,16 +64,16 @@
       "rank": "4"
     },
     {
-      "price": 40.6,
-      "volume": 1710000,
+      "price": 89.9,
+      "volume": 810000,
       "dollars": 70000000,
       "rank": "5"
     },
     {
-      "price": 40.7,
-      "volume": 1270000,
-      "dollars": 50000000,
-      "rank": "9"
+      "price": 89.7,
+      "volume": 680000,
+      "dollars": 60000000,
+      "rank": "8"
     }
   ],
   "boxes": []

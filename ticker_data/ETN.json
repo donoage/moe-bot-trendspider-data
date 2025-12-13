@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "ETN",
-    "generated_at": "2025-11-29T07:58:41.327629+00:00Z",
-    "date_range": "2025-08-30 to 2025-11-28",
+    "generated_at": "2025-12-13T09:09:24.732262+00:00Z",
+    "date_range": "2025-09-13 to 2025-12-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -67,13 +67,23 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 340.45,
+      "low_price": 340.45,
+      "volume": 269680,
+      "dollars": 91812556,
+      "trades": 2,
+      "date_range": "2025-12-02",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 373.64,
       "low_price": 373.64,
       "volume": 239914,
       "dollars": 89641466,
       "trades": 1,
       "date_range": "2025-10-21",
-      "color": "blue"
+      "color": "green"
     }
   ]
 }

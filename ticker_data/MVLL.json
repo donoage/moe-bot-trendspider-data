@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "MVLL",
-    "generated_at": "2025-11-29T07:52:19.496956+00:00Z",
-    "date_range": "2025-08-30 to 2025-11-28",
+    "generated_at": "2025-12-13T09:11:58.584887+00:00Z",
+    "date_range": "2025-09-13 to 2025-12-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1764820800,
+      "price": 29.3,
+      "volume": 27934,
+      "dollars": 818466,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1758686400,
       "price": 21.76,
       "volume": 37541,
       "dollars": 816892,
-      "rank": 3,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,19 @@
       "price": 25.21,
       "volume": 29150,
       "dollars": 734871,
-      "rank": 4,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765252800,
+      "price": 24.16,
+      "volume": 28032,
+      "dollars": 677253,
+      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,34 +70,34 @@
   ],
   "levels": [
     {
-      "price": 14.5,
-      "volume": 70000,
-      "dollars": 0,
-      "rank": "1"
-    },
-    {
       "price": 23.8,
       "volume": 40000,
       "dollars": 0,
       "rank": "2"
     },
     {
+      "price": 29.3,
+      "volume": 30000,
+      "dollars": 0,
+      "rank": "3"
+    },
+    {
       "price": 21.8,
       "volume": 40000,
       "dollars": 0,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 25.2,
       "volume": 30000,
       "dollars": 0,
-      "rank": "4"
+      "rank": "5"
     },
     {
-      "price": 23.3,
+      "price": 24.2,
       "volume": 30000,
       "dollars": 0,
-      "rank": "5"
+      "rank": "6"
     }
   ],
   "boxes": []

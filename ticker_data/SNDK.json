@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SNDK",
-    "generated_at": "2025-11-27T02:22:17.575396+00:00Z",
-    "date_range": "2025-08-28 to 2025-11-26",
+    "generated_at": "2025-12-13T09:13:57.437566+00:00Z",
+    "date_range": "2025-09-13 to 2025-12-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -92,11 +92,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1765166400,
+      "price": 225.47,
+      "volume": 741724,
+      "dollars": 167236510,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1762142400,
       "price": 207.01,
       "volume": 741652,
       "dollars": 153529380,
-      "rank": 9,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 267.95,
       "volume": 555450,
       "dollars": 148832827,
-      "rank": 10,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1758254400,
-      "price": 102.21,
-      "volume": 1450401,
-      "dollars": 148245486,
       "rank": 11,
       "conditions": "",
       "exchange": "",
@@ -131,34 +131,45 @@
   "levels": [
     {
       "price": 215.0,
-      "volume": 29700000,
+      "volume": 29710000,
       "dollars": 6390000000,
       "rank": "1"
     },
     {
-      "price": 48.6,
-      "volume": 25040000,
-      "dollars": 1220000000,
-      "rank": "2"
+      "price": 225.5,
+      "volume": 2190000,
+      "dollars": 490000000,
+      "rank": "3"
     },
     {
       "price": 268.0,
       "volume": 1240000,
       "dollars": 330000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 121.1,
       "volume": 2660000,
       "dollars": 320000000,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 227.0,
-      "volume": 1210000,
-      "dollars": 270000000,
-      "rank": "5"
+      "volume": 1280000,
+      "dollars": 290000000,
+      "rank": "6"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 227.86,
+      "low_price": 227.86,
+      "volume": 92041,
+      "dollars": 20972342,
+      "trades": 1,
+      "date_range": "2025-12-05",
+      "color": "blue"
+    }
+  ]
 }

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "ticker": "BEX",
+    "generated_at": "2025-12-13T09:07:39.351463+00:00Z",
+    "date_range": "2025-09-13 to 2025-12-12",
+    "source": "volumeleaders.com",
+    "script": "populate_ticker_data.py"
+  },
+  "prints": [
+    {
+      "timestamp": 1765166400,
+      "price": 16.15,
+      "volume": 40705,
+      "dollars": 657385,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1764734400,
+      "price": 14.42,
+      "volume": 35111,
+      "dollars": 506300,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 16.2,
+      "volume": 40000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
+      "price": 14.4,
+      "volume": 40000,
+      "dollars": 0,
+      "rank": "2"
+    }
+  ],
+  "boxes": []
+}

@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "LLYVA",
-    "generated_at": "2025-11-29T08:01:16.192914+00:00Z",
-    "date_range": "2025-08-30 to 2025-11-28",
+    "generated_at": "2025-12-13T09:11:25.585578+00:00Z",
+    "date_range": "2025-09-13 to 2025-12-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1765339200,
+      "price": 81.71,
+      "volume": 935411,
+      "dollars": 76432432,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1762228800,
       "price": 87.63,
       "volume": 159613,
       "dollars": 13986887,
-      "rank": 6,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 94.05,
       "volume": 113144,
       "dollars": 10641193,
-      "rank": 7,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -32,11 +44,11 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1757044800,
-      "price": 93.88,
-      "volume": 80500,
-      "dollars": 7557340,
-      "rank": 12,
+      "timestamp": 1764734400,
+      "price": 78.57,
+      "volume": 90978,
+      "dollars": 7148141,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,32 +58,32 @@
   ],
   "levels": [
     {
+      "price": 81.7,
+      "volume": 1000000,
+      "dollars": 80000000,
+      "rank": "1"
+    },
+    {
       "price": 92.5,
       "volume": 270000,
       "dollars": 30000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 83.4,
       "volume": 270000,
       "dollars": 20000000,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 83.3,
       "volume": 260000,
       "dollars": 20000000,
-      "rank": "6"
+      "rank": "7"
     },
     {
       "price": 87.6,
       "volume": 170000,
-      "dollars": 10000000,
-      "rank": "9"
-    },
-    {
-      "price": 74.9,
-      "volume": 190000,
       "dollars": 10000000,
       "rank": "10"
     }

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SO",
-    "generated_at": "2025-11-29T07:58:38.640870+00:00Z",
-    "date_range": "2025-08-30 to 2025-11-28",
+    "generated_at": "2025-12-13T09:14:00.367834+00:00Z",
+    "date_range": "2025-09-13 to 2025-12-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -10,15 +10,15 @@
   "levels": [
     {
       "price": 88.9,
-      "volume": 12940000,
+      "volume": 12950000,
       "dollars": 1150000000,
       "rank": "22"
     },
     {
       "price": 89.3,
-      "volume": 12210000,
-      "dollars": 1090000000,
-      "rank": "25"
+      "volume": 12480000,
+      "dollars": 1110000000,
+      "rank": "23"
     },
     {
       "price": 90.4,
@@ -28,9 +28,9 @@
     },
     {
       "price": 90.0,
-      "volume": 10080000,
+      "volume": 10150000,
       "dollars": 910000000,
-      "rank": "48"
+      "rank": "47"
     },
     {
       "price": 89.7,
@@ -39,5 +39,16 @@
       "rank": "49"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 87.35,
+      "low_price": 87.35,
+      "volume": 680612,
+      "dollars": 59451458,
+      "trades": 2,
+      "date_range": "2025-12-03",
+      "color": "blue"
+    }
+  ]
 }

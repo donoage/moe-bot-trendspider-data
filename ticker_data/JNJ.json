@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "JNJ",
-    "generated_at": "2025-11-29T10:33:00.513836+00:00Z",
-    "date_range": "2025-08-30 to 2025-11-28",
+    "generated_at": "2025-12-13T09:11:03.051414+00:00Z",
+    "date_range": "2025-09-13 to 2025-12-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -77,13 +77,23 @@
     },
     {
       "box_number": 2,
+      "high_price": 202.76,
+      "low_price": 202.76,
+      "volume": 139800,
+      "dollars": 28345848,
+      "trades": 1,
+      "date_range": "2025-12-08",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 205.45,
       "low_price": 205.45,
       "volume": 124700,
       "dollars": 25619615,
       "trades": 1,
       "date_range": "2025-11-21",
-      "color": "green"
+      "color": "orange"
     }
   ]
 }

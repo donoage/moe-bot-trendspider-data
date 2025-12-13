@@ -1,42 +1,30 @@
 {
   "metadata": {
     "ticker": "FNMA",
-    "generated_at": "2025-11-29T07:48:54.412757+00:00Z",
-    "date_range": "2025-08-30 to 2025-11-28",
+    "generated_at": "2025-12-13T09:09:49.986104+00:00Z",
+    "date_range": "2025-09-13 to 2025-12-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1764561600,
+      "price": 10.55,
+      "volume": 590821,
+      "dollars": 6232807,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1758081600,
       "price": 14.06,
       "volume": 255000,
       "dollars": 3585300,
-      "rank": 8,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1757390400,
-      "price": 14.7,
-      "volume": 211861,
-      "dollars": 3114356,
-      "rank": 15,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1757563200,
-      "price": 15.5,
-      "volume": 200000,
-      "dollars": 3100000,
-      "rank": 16,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -58,22 +46,22 @@
       "rank": "3"
     },
     {
+      "price": 12.0,
+      "volume": 1280000,
+      "dollars": 20000000,
+      "rank": "4"
+    },
+    {
       "price": 11.4,
-      "volume": 1270000,
-      "dollars": 10000000,
+      "volume": 1340000,
+      "dollars": 20000000,
       "rank": "5"
     },
     {
-      "price": 12.0,
-      "volume": 1190000,
-      "dollars": 10000000,
-      "rank": "6"
-    },
-    {
       "price": 11.0,
-      "volume": 1180000,
+      "volume": 1300000,
       "dollars": 10000000,
-      "rank": "8"
+      "rank": "7"
     }
   ],
   "boxes": []

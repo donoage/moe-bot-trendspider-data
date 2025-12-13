@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "SLV",
-    "generated_at": "2025-12-01T22:00:23.162787+00:00Z",
-    "date_range": "2025-09-02 to 2025-12-01",
+    "generated_at": "2025-12-13T09:13:53.148061+00:00Z",
+    "date_range": "2025-09-13 to 2025-12-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1765425600,
+      "price": 56.07,
+      "volume": 4000000,
+      "dollars": 224280000,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1760673600,
       "price": 47.04,
       "volume": 3976111,
       "dollars": 187034671,
-      "rank": 8,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 52.52,
       "volume": 3452163,
       "dollars": 181307600,
-      "rank": 10,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 47.05,
       "volume": 3000000,
       "dollars": 141150000,
-      "rank": 17,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -90,11 +102,11 @@
     {
       "box_number": 2,
       "high_price": 52.18,
-      "low_price": 52.18,
-      "volume": 922800,
-      "dollars": 48151704,
-      "trades": 1,
-      "date_range": "2025-12-01",
+      "low_price": 51.62,
+      "volume": 1467250,
+      "dollars": 76256213,
+      "trades": 2,
+      "date_range": "2025-12-01 to 2025-12-04",
       "color": "green"
     },
     {

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "HYG",
-    "generated_at": "2025-11-29T07:50:29.836996+00:00Z",
-    "date_range": "2025-08-30 to 2025-11-28",
+    "generated_at": "2025-12-13T09:10:34.471756+00:00Z",
+    "date_range": "2025-09-13 to 2025-12-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -44,9 +44,9 @@
       "box_number": 1,
       "high_price": 80.58,
       "low_price": 80.06,
-      "volume": 8077827,
-      "dollars": 650002347,
-      "trades": 4,
+      "volume": 7093332,
+      "dollars": 570770190,
+      "trades": 3,
       "date_range": "2025-10-10 to 2025-10-17",
       "color": "blue"
     },
@@ -62,13 +62,23 @@
     },
     {
       "box_number": 3,
+      "high_price": 80.61,
+      "low_price": 80.61,
+      "volume": 3645337,
+      "dollars": 293832388,
+      "trades": 1,
+      "date_range": "2025-12-12",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
       "high_price": 81.07,
       "low_price": 81.01,
       "volume": 2310503,
       "dollars": 187240351,
       "trades": 2,
       "date_range": "2025-11-28",
-      "color": "orange"
+      "color": "red"
     }
   ]
 }

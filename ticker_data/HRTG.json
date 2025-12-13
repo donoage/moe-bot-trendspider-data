@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "HRTG",
-    "generated_at": "2025-11-29T10:53:05.690337+00:00Z",
-    "date_range": "2025-08-30 to 2025-11-28",
+    "generated_at": "2025-12-13T09:10:31.526614+00:00Z",
+    "date_range": "2025-09-13 to 2025-12-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -42,15 +42,21 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1765166400,
+      "price": 27.53,
+      "volume": 218969,
+      "dollars": 6028216,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
-    {
-      "price": 22.3,
-      "volume": 1180000,
-      "dollars": 30000000,
-      "rank": "2"
-    },
     {
       "price": 25.2,
       "volume": 740000,
@@ -64,16 +70,22 @@
       "rank": "6"
     },
     {
+      "price": 28.3,
+      "volume": 490000,
+      "dollars": 10000000,
+      "rank": "7"
+    },
+    {
       "price": 24.9,
       "volume": 500000,
       "dollars": 10000000,
-      "rank": "8"
+      "rank": "9"
     },
     {
-      "price": 28.3,
+      "price": 22.8,
       "volume": 440000,
       "dollars": 10000000,
-      "rank": "9"
+      "rank": "13"
     }
   ],
   "boxes": []
