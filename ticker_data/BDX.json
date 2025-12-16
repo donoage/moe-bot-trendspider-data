@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "BDX",
-    "generated_at": "2025-12-13T09:07:35.695411+00:00Z",
-    "date_range": "2025-09-13 to 2025-12-12",
+    "generated_at": "2025-12-16T10:58:32.788246+00:00Z",
+    "date_range": "2025-09-17 to 2025-12-16",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1765771200,
+      "price": 200.09,
+      "volume": 1326575,
+      "dollars": 265434391,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 178.3,
@@ -27,14 +40,14 @@
       "rank": "75"
     },
     {
-      "price": 195.0,
-      "volume": 1940000,
-      "dollars": 380000000,
-      "rank": "0"
+      "price": 200.1,
+      "volume": 2049999,
+      "dollars": 410000000,
+      "rank": "99"
     },
     {
-      "price": 193.0,
-      "volume": 1950000,
+      "price": 195.0,
+      "volume": 1940000,
       "dollars": 380000000,
       "rank": "0"
     }
