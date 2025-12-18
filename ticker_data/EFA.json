@@ -1,23 +1,36 @@
 {
   "metadata": {
     "ticker": "EFA",
-    "generated_at": "2025-12-16T10:50:29.762787+00:00Z",
-    "date_range": "2025-09-17 to 2025-12-16",
+    "generated_at": "2025-12-18T10:50:58.660826+00:00Z",
+    "date_range": "2025-09-19 to 2025-12-18",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1765944000,
+      "price": 94.51,
+      "volume": 6050000,
+      "dollars": 571755250,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 94.5,
+      "volume": 21070000,
+      "dollars": 1990000000,
+      "rank": "0"
+    },
     {
       "price": 93.0,
       "volume": 13660000,
       "dollars": 1270000000,
-      "rank": "0"
-    },
-    {
-      "price": 94.5,
-      "volume": 13020000,
-      "dollars": 1230000000,
       "rank": "0"
     },
     {

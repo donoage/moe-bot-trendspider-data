@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "POET",
-    "generated_at": "2025-12-16T10:55:10.157021+00:00Z",
-    "date_range": "2025-09-17 to 2025-12-16",
+    "generated_at": "2025-12-18T10:55:25.440082+00:00Z",
+    "date_range": "2025-09-19 to 2025-12-18",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -80,11 +80,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1765944000,
+      "price": 5.97,
+      "volume": 703569,
+      "dollars": 4200306,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1762315200,
       "price": 6.06,
       "volume": 514116,
       "dollars": 3115542,
-      "rank": 8,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,7 +108,7 @@
       "price": 9.21,
       "volume": 283550,
       "dollars": 2611495,
-      "rank": 12,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 7.7,
       "volume": 311941,
       "dollars": 2401945,
-      "rank": 13,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1762315200,
-      "price": 6.04,
-      "volume": 379101,
-      "dollars": 2287874,
       "rank": 14,
       "conditions": "",
       "exchange": "",
@@ -136,26 +136,26 @@
       "rank": "1"
     },
     {
+      "price": 6.0,
+      "volume": 2470000,
+      "dollars": 10000000,
+      "rank": "2"
+    },
+    {
       "price": 6.2,
       "volume": 2260000,
       "dollars": 10000000,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 5.1,
       "volume": 2750000,
       "dollars": 10000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 8.3,
       "volume": 1480000,
-      "dollars": 10000000,
-      "rank": "4"
-    },
-    {
-      "price": 4.6,
-      "volume": 2600000,
       "dollars": 10000000,
       "rank": "5"
     }

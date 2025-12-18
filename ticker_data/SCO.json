@@ -1,13 +1,19 @@
 {
   "metadata": {
     "ticker": "SCO",
-    "generated_at": "2025-12-16T10:56:16.246956+00:00Z",
-    "date_range": "2025-09-17 to 2025-12-16",
+    "generated_at": "2025-12-18T10:56:27.853898+00:00Z",
+    "date_range": "2025-09-19 to 2025-12-18",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
   "levels": [
+    {
+      "price": 20.9,
+      "volume": 3000000,
+      "dollars": 60000000,
+      "rank": "1"
+    },
     {
       "price": 16.9,
       "volume": 2510000,
@@ -31,12 +37,6 @@
       "volume": 2310000,
       "dollars": 40000000,
       "rank": "6"
-    },
-    {
-      "price": 17.3,
-      "volume": 2049999,
-      "dollars": 40000000,
-      "rank": "8"
     }
   ],
   "boxes": []

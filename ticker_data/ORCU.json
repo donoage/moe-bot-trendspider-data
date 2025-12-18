@@ -1,12 +1,50 @@
 {
   "metadata": {
     "ticker": "ORCU",
-    "generated_at": "2025-12-16T10:54:38.338909+00:00Z",
-    "date_range": "2025-09-17 to 2025-12-16",
+    "generated_at": "2025-12-18T10:54:56.029282+00:00Z",
+    "date_range": "2025-09-19 to 2025-12-18",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1765425600,
+      "price": 17.77,
+      "volume": 42999,
+      "dollars": 764092,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765166400,
+      "price": 25.12,
+      "volume": 24600,
+      "dollars": 617952,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 17.8,
+      "volume": 40000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
+      "price": 25.1,
+      "volume": 20000,
+      "dollars": 0,
+      "rank": "2"
+    }
+  ],
   "boxes": []
 }

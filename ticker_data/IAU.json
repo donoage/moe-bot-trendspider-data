@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "IAU",
-    "generated_at": "2025-12-16T10:52:00.184286+00:00Z",
-    "date_range": "2025-09-17 to 2025-12-16",
+    "generated_at": "2025-12-18T10:52:27.805532+00:00Z",
+    "date_range": "2025-09-19 to 2025-12-18",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -21,12 +21,6 @@
       "rank": "0"
     },
     {
-      "price": 68.5,
-      "volume": 3550000,
-      "dollars": 240000000,
-      "rank": "0"
-    },
-    {
       "price": 75.4,
       "volume": 2940000,
       "dollars": 220000000,
@@ -37,6 +31,12 @@
       "volume": 2320000,
       "dollars": 180000000,
       "rank": "0"
+    },
+    {
+      "price": 77.6,
+      "volume": 2060000,
+      "dollars": 160000000,
+      "rank": "0"
     }
   ],
   "boxes": [
@@ -44,9 +44,9 @@
       "box_number": 1,
       "high_price": 77.61,
       "low_price": 75.28,
-      "volume": 5247220,
-      "dollars": 401622575,
-      "trades": 6,
+      "volume": 4732311,
+      "dollars": 361784065,
+      "trades": 5,
       "date_range": "2025-10-21 to 2025-10-29",
       "color": "blue"
     },
@@ -62,13 +62,23 @@
     },
     {
       "box_number": 3,
+      "high_price": 81.77,
+      "low_price": 81.77,
+      "volume": 675915,
+      "dollars": 55269569,
+      "trades": 1,
+      "date_range": "2025-12-17",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
       "high_price": 72.95,
       "low_price": 72.95,
       "volume": 669793,
       "dollars": 48861399,
       "trades": 1,
       "date_range": "2025-10-01",
-      "color": "orange"
+      "color": "red"
     }
   ]
 }

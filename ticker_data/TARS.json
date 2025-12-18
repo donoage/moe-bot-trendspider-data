@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "TARS",
-    "generated_at": "2025-12-16T10:26:56.126054+00:00Z",
-    "date_range": "2025-09-17 to 2025-12-16",
+    "generated_at": "2025-12-18T10:57:25.991746+00:00Z",
+    "date_range": "2025-09-19 to 2025-12-18",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -18,15 +18,21 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1765944000,
+      "price": 77.77,
+      "volume": 195800,
+      "dollars": 15227366,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
-    {
-      "price": 50.7,
-      "volume": 1760000,
-      "dollars": 90000000,
-      "rank": "1"
-    },
     {
       "price": 56.2,
       "volume": 1240000,
@@ -34,22 +40,28 @@
       "rank": "2"
     },
     {
+      "price": 77.8,
+      "volume": 440000,
+      "dollars": 30000000,
+      "rank": "11"
+    },
+    {
       "price": 55.4,
       "volume": 570000,
       "dollars": 30000000,
-      "rank": "14"
-    },
-    {
-      "price": 52.4,
-      "volume": 550000,
-      "dollars": 30000000,
-      "rank": "17"
+      "rank": "15"
     },
     {
       "price": 55.0,
       "volume": 480000,
       "dollars": 30000000,
-      "rank": "20"
+      "rank": "21"
+    },
+    {
+      "price": 56.9,
+      "volume": 400000,
+      "dollars": 20000000,
+      "rank": "31"
     }
   ],
   "boxes": []
