@@ -1,18 +1,18 @@
 {
   "metadata": {
     "ticker": "AIT",
-    "generated_at": "2025-12-18T10:58:00.211625+00:00Z",
-    "date_range": "2025-09-19 to 2025-12-18",
+    "generated_at": "2025-12-20T06:07:17.206149+00:00Z",
+    "date_range": "2025-09-20 to 2025-12-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1760673600,
-      "price": 247.92,
-      "volume": 318868,
-      "dollars": 79053754,
-      "rank": 7,
+      "timestamp": 1766116800,
+      "price": 262.41,
+      "volume": 520070,
+      "dollars": 136471568,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1758254400,
-      "price": 260.45,
-      "volume": 283594,
-      "dollars": 73862057,
+      "timestamp": 1760673600,
+      "price": 247.92,
+      "volume": 318868,
+      "dollars": 79053754,
       "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 262.41,
+      "volume": 264160,
+      "dollars": 69318225,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,34 +46,34 @@
   ],
   "levels": [
     {
+      "price": 262.4,
+      "volume": 960000,
+      "dollars": 250000000,
+      "rank": "3"
+    },
+    {
       "price": 240.6,
       "volume": 510000,
       "dollars": 120000000,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 260.0,
       "volume": 420000,
       "dollars": 110000000,
-      "rank": "5"
+      "rank": "6"
     },
     {
       "price": 260.5,
       "volume": 380000,
       "dollars": 100000000,
-      "rank": "6"
+      "rank": "7"
     },
     {
       "price": 265.0,
       "volume": 310000,
       "dollars": 80000000,
-      "rank": "9"
-    },
-    {
-      "price": 247.9,
-      "volume": 320000,
-      "dollars": 80000000,
-      "rank": "12"
+      "rank": "10"
     }
   ],
   "boxes": [

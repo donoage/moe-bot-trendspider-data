@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "ZS",
-    "generated_at": "2025-12-13T09:16:13.351986+00:00Z",
-    "date_range": "2025-09-13 to 2025-12-12",
+    "generated_at": "2025-12-20T06:16:37.935541+00:00Z",
+    "date_range": "2025-09-20 to 2025-12-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 232.55,
+      "volume": 1478761,
+      "dollars": 343885870,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 304.9,
@@ -33,9 +46,9 @@
       "rank": "6"
     },
     {
-      "price": 307.3,
-      "volume": 1410000,
-      "dollars": 430000000,
+      "price": 232.6,
+      "volume": 2049999,
+      "dollars": 480000000,
       "rank": "7"
     }
   ],

@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "INTC",
-    "generated_at": "2025-12-18T10:52:46.107036+00:00Z",
-    "date_range": "2025-09-19 to 2025-12-18",
+    "generated_at": "2025-12-20T06:11:16.956902+00:00Z",
+    "date_range": "2025-09-20 to 2025-12-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1766116800,
+      "price": 36.82,
+      "volume": 48489939,
+      "dollars": 1785399553,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1763956800,
       "price": 35.79,
       "volume": 21065352,
       "dollars": 753928948,
-      "rank": 18,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,34 +34,34 @@
   ],
   "levels": [
     {
+      "price": 36.8,
+      "volume": 215640000,
+      "dollars": 7940000000,
+      "rank": "17"
+    },
+    {
       "price": 34.5,
       "volume": 209760000,
       "dollars": 7230000000,
-      "rank": "26"
+      "rank": "27"
+    },
+    {
+      "price": 36.3,
+      "volume": 164940000,
+      "dollars": 5990000000,
+      "rank": "44"
     },
     {
       "price": 36.4,
-      "volume": 162740000,
-      "dollars": 5920000000,
-      "rank": "46"
+      "volume": 163070000,
+      "dollars": 5930000000,
+      "rank": "47"
     },
     {
       "price": 35.8,
-      "volume": 162680000,
+      "volume": 162730000,
       "dollars": 5820000000,
-      "rank": "51"
-    },
-    {
-      "price": 34.0,
-      "volume": 167170000,
-      "dollars": 5680000000,
       "rank": "53"
-    },
-    {
-      "price": 34.7,
-      "volume": 163800000,
-      "dollars": 5680000000,
-      "rank": "54"
     }
   ],
   "boxes": [

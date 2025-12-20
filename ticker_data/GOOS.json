@@ -1,13 +1,19 @@
 {
   "metadata": {
     "ticker": "GOOS",
-    "generated_at": "2025-12-18T10:52:06.236393+00:00Z",
-    "date_range": "2025-09-19 to 2025-12-18",
+    "generated_at": "2025-12-20T06:10:46.378637+00:00Z",
+    "date_range": "2025-09-20 to 2025-12-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
   "levels": [
+    {
+      "price": 12.9,
+      "volume": 1550000,
+      "dollars": 20000000,
+      "rank": "68"
+    },
     {
       "price": 12.2,
       "volume": 1330000,
@@ -29,12 +35,6 @@
     {
       "price": 13.1,
       "volume": 1080000,
-      "dollars": 10000000,
-      "rank": "0"
-    },
-    {
-      "price": 14.1,
-      "volume": 990000,
       "dollars": 10000000,
       "rank": "0"
     }

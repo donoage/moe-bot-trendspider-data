@@ -1,42 +1,55 @@
 {
   "metadata": {
     "ticker": "TGT",
-    "generated_at": "2025-12-18T10:47:33.618859+00:00Z",
-    "date_range": "2025-09-19 to 2025-12-18",
+    "generated_at": "2025-12-20T06:15:19.851070+00:00Z",
+    "date_range": "2025-09-20 to 2025-12-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 98.01,
+      "volume": 3841285,
+      "dollars": 376484342,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 98.0,
+      "volume": 8039999,
+      "dollars": 790000000,
+      "rank": "62"
+    },
     {
       "price": 86.6,
       "volume": 8820000,
       "dollars": 760000000,
-      "rank": "65"
+      "rank": "66"
     },
     {
       "price": 87.6,
       "volume": 8540000,
       "dollars": 750000000,
-      "rank": "71"
+      "rank": "72"
     },
     {
       "price": 91.5,
       "volume": 7800000,
       "dollars": 710000000,
-      "rank": "80"
+      "rank": "81"
     },
     {
       "price": 87.3,
       "volume": 7930000,
       "dollars": 690000000,
-      "rank": "92"
-    },
-    {
-      "price": 95.5,
-      "volume": 6350000,
-      "dollars": 610000000,
-      "rank": "0"
+      "rank": "93"
     }
   ],
   "boxes": []

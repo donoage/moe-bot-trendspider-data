@@ -1,18 +1,18 @@
 {
   "metadata": {
     "ticker": "NVDA",
-    "generated_at": "2025-12-18T10:54:38.522881+00:00Z",
-    "date_range": "2025-09-19 to 2025-12-18",
+    "generated_at": "2025-12-20T06:12:51.033157+00:00Z",
+    "date_range": "2025-09-20 to 2025-12-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1758254400,
-      "price": 176.67,
-      "volume": 56921671,
-      "dollars": 10056351615,
-      "rank": 3,
+      "timestamp": 1766116800,
+      "price": 180.99,
+      "volume": 64528215,
+      "dollars": 11678961632,
+      "rank": 2,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +24,7 @@
       "price": 182.55,
       "volume": 29671775,
       "dollars": 5416582526,
-      "rank": 13,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,33 +34,33 @@
   ],
   "levels": [
     {
+      "price": 181.0,
+      "volume": 129830000,
+      "dollars": 23500000000,
+      "rank": "2"
+    },
+    {
       "price": 176.7,
-      "volume": 91710000,
-      "dollars": 16200000000,
-      "rank": "4"
+      "volume": 115140000,
+      "dollars": 20340000000,
+      "rank": "5"
     },
     {
       "price": 182.6,
       "volume": 75440000,
       "dollars": 13770000000,
-      "rank": "10"
+      "rank": "11"
     },
     {
       "price": 183.2,
       "volume": 65700000,
       "dollars": 12030000000,
-      "rank": "15"
+      "rank": "16"
     },
     {
       "price": 177.8,
       "volume": 60260000,
       "dollars": 10710000000,
-      "rank": "24"
-    },
-    {
-      "price": 181.8,
-      "volume": 58130000,
-      "dollars": 10570000000,
       "rank": "25"
     }
   ],
@@ -107,13 +107,23 @@
     },
     {
       "box_number": 5,
+      "high_price": 180.66,
+      "low_price": 180.66,
+      "volume": 114435,
+      "dollars": 20673575,
+      "trades": 1,
+      "date_range": "2025-12-19",
+      "color": "purple"
+    },
+    {
+      "box_number": 6,
       "high_price": 183.03,
       "low_price": 183.03,
       "volume": 104000,
       "dollars": 19035463,
       "trades": 1,
       "date_range": "2025-12-04",
-      "color": "purple"
+      "color": "yellow"
     }
   ]
 }

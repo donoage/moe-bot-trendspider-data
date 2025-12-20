@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "LULU",
-    "generated_at": "2025-12-18T10:53:38.697545+00:00Z",
-    "date_range": "2025-09-19 to 2025-12-18",
+    "generated_at": "2025-12-20T06:12:00.535481+00:00Z",
+    "date_range": "2025-09-20 to 2025-12-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1758254400,
-      "price": 169.62,
-      "volume": 2109949,
-      "dollars": 357889549,
-      "rank": 9,
+      "timestamp": 1766116800,
+      "price": 209.45,
+      "volume": 5206448,
+      "dollars": 1090490533,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 209.45,
+      "volume": 2993253,
+      "dollars": 626936840,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 206.74,
       "volume": 1247065,
       "dollars": 257818218,
-      "rank": 18,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,34 +46,34 @@
   ],
   "levels": [
     {
+      "price": 209.5,
+      "volume": 10380000,
+      "dollars": 2170000000,
+      "rank": "2"
+    },
+    {
       "price": 169.6,
       "volume": 2890000,
       "dollars": 490000000,
-      "rank": "8"
+      "rank": "9"
     },
     {
       "price": 207.9,
       "volume": 1640000,
       "dollars": 340000000,
-      "rank": "17"
+      "rank": "18"
     },
     {
       "price": 206.7,
       "volume": 1510000,
       "dollars": 310000000,
-      "rank": "22"
+      "rank": "23"
     },
     {
       "price": 180.2,
       "volume": 1630000,
       "dollars": 290000000,
-      "rank": "25"
-    },
-    {
-      "price": 163.9,
-      "volume": 1450000,
-      "dollars": 240000000,
-      "rank": "45"
+      "rank": "26"
     }
   ],
   "boxes": [

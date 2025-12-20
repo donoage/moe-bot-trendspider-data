@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "SNOW",
-    "generated_at": "2025-12-18T10:56:48.226920+00:00Z",
-    "date_range": "2025-09-19 to 2025-12-18",
+    "generated_at": "2025-12-20T06:14:36.687006+00:00Z",
+    "date_range": "2025-09-20 to 2025-12-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 222.46,
+      "volume": 1802543,
+      "dollars": 400993715,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 247.1,
@@ -33,10 +46,10 @@
       "rank": "15"
     },
     {
-      "price": 220.8,
-      "volume": 2860000,
-      "dollars": 630000000,
-      "rank": "17"
+      "price": 222.5,
+      "volume": 3020000,
+      "dollars": 670000000,
+      "rank": "16"
     }
   ],
   "boxes": []

@@ -1,24 +1,12 @@
 {
   "metadata": {
     "ticker": "ZEPP",
-    "generated_at": "2025-12-13T09:16:11.838888+00:00Z",
-    "date_range": "2025-09-13 to 2025-12-12",
+    "generated_at": "2025-12-20T06:16:36.466399+00:00Z",
+    "date_range": "2025-09-20 to 2025-12-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1758081600,
-      "price": 47.64,
-      "volume": 158368,
-      "dollars": 7544651,
-      "rank": 3,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1764561600,
       "price": 26.71,
@@ -54,6 +42,18 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 27.76,
+      "volume": 88306,
+      "dollars": 2451374,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
@@ -76,16 +76,16 @@
       "rank": "7"
     },
     {
+      "price": 27.8,
+      "volume": 140000,
+      "dollars": 0,
+      "rank": "9"
+    },
+    {
       "price": 57.3,
       "volume": 60000,
       "dollars": 0,
-      "rank": "11"
-    },
-    {
-      "price": 54.6,
-      "volume": 60000,
-      "dollars": 0,
-      "rank": "15"
+      "rank": "12"
     }
   ],
   "boxes": []

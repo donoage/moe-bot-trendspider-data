@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "SGMT",
-    "generated_at": "2025-12-18T10:56:34.735988+00:00Z",
-    "date_range": "2025-09-19 to 2025-12-18",
+    "generated_at": "2025-12-20T06:14:25.929688+00:00Z",
+    "date_range": "2025-09-20 to 2025-12-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 6.28,
+      "volume": 335511,
+      "dollars": 2107009,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 8.0,
@@ -15,28 +28,28 @@
       "rank": "9"
     },
     {
+      "price": 6.3,
+      "volume": 340000,
+      "dollars": 0,
+      "rank": "11"
+    },
+    {
       "price": 6.9,
       "volume": 290000,
       "dollars": 0,
-      "rank": "12"
+      "rank": "13"
     },
     {
       "price": 6.7,
       "volume": 290000,
       "dollars": 0,
-      "rank": "14"
+      "rank": "15"
     },
     {
       "price": 6.5,
       "volume": 230000,
       "dollars": 0,
-      "rank": "17"
-    },
-    {
-      "price": 8.7,
-      "volume": 120000,
-      "dollars": 0,
-      "rank": "21"
+      "rank": "18"
     }
   ],
   "boxes": []

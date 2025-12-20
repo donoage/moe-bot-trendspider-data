@@ -1,18 +1,18 @@
 {
   "metadata": {
     "ticker": "AVGO",
-    "generated_at": "2025-12-18T10:58:44.066882+00:00Z",
-    "date_range": "2025-09-19 to 2025-12-18",
+    "generated_at": "2025-12-20T06:07:55.172025+00:00Z",
+    "date_range": "2025-09-20 to 2025-12-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1758254400,
-      "price": 344.94,
-      "volume": 13427839,
-      "dollars": 4631798784,
-      "rank": 5,
+      "timestamp": 1766116800,
+      "price": 340.36,
+      "volume": 65295974,
+      "dollars": 22224137710,
+      "rank": 1,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +24,7 @@
       "price": 377.96,
       "volume": 10130029,
       "dollars": 3828745760,
-      "rank": 7,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +36,7 @@
       "price": 412.97,
       "volume": 7576769,
       "dollars": 3128978293,
-      "rank": 10,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -48,7 +48,7 @@
       "price": 339.81,
       "volume": 8215884,
       "dollars": 2791839542,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -60,19 +60,7 @@
       "price": 359.93,
       "volume": 7307070,
       "dollars": 2630033705,
-      "rank": 16,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1765857600,
-      "price": 341.3,
-      "volume": 6891977,
-      "dollars": 2352231750,
-      "rank": 20,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -82,55 +70,55 @@
   ],
   "levels": [
     {
+      "price": 340.4,
+      "volume": 110270000,
+      "dollars": 37530000000,
+      "rank": "1"
+    },
+    {
       "price": 359.9,
       "volume": 22770000,
       "dollars": 8199999999,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 344.9,
       "volume": 19790000,
       "dollars": 6830000000,
-      "rank": "5"
+      "rank": "6"
     },
     {
       "price": 378.0,
       "volume": 15270000,
       "dollars": 5770000000,
-      "rank": "9"
+      "rank": "10"
     },
     {
       "price": 413.0,
       "volume": 12340000,
       "dollars": 5100000000,
-      "rank": "13"
-    },
-    {
-      "price": 369.6,
-      "volume": 12630000,
-      "dollars": 4670000000,
       "rank": "14"
     }
   ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 344.7,
-      "low_price": 338.85,
-      "volume": 1098239,
-      "dollars": 375514470,
-      "trades": 7,
-      "date_range": "2025-12-16",
+      "high_price": 330.4,
+      "low_price": 326.65,
+      "volume": 1073827,
+      "dollars": 352184127,
+      "trades": 5,
+      "date_range": "2025-12-17 to 2025-12-18",
       "color": "blue"
     },
     {
       "box_number": 2,
-      "high_price": 327.95,
-      "low_price": 326.65,
-      "volume": 648787,
-      "dollars": 212223426,
-      "trades": 3,
-      "date_range": "2025-12-17",
+      "high_price": 344.7,
+      "low_price": 340.7,
+      "volume": 799042,
+      "dollars": 273892174,
+      "trades": 5,
+      "date_range": "2025-12-16",
       "color": "green"
     }
   ]

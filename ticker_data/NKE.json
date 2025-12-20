@@ -1,18 +1,18 @@
 {
   "metadata": {
     "ticker": "NKE",
-    "generated_at": "2025-12-18T10:54:23.484484+00:00Z",
-    "date_range": "2025-09-19 to 2025-12-18",
+    "generated_at": "2025-12-20T06:12:47.076362+00:00Z",
+    "date_range": "2025-09-20 to 2025-12-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1758254400,
-      "price": 70.89,
-      "volume": 9970335,
-      "dollars": 706797048,
-      "rank": 6,
+      "timestamp": 1766116800,
+      "price": 58.71,
+      "volume": 10750258,
+      "dollars": 631147647,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -55,43 +55,53 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 58.7,
+      "low_price": 58.46,
+      "volume": 1732928,
+      "dollars": 101496395,
+      "trades": 3,
+      "date_range": "2025-12-19",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 65.82,
       "low_price": 65.82,
       "volume": 599110,
       "dollars": 39433420,
       "trades": 1,
       "date_range": "2025-11-13",
-      "color": "blue"
+      "color": "green"
     },
     {
-      "box_number": 2,
+      "box_number": 3,
       "high_price": 65.6,
       "low_price": 65.6,
       "volume": 598500,
       "dollars": 39261600,
       "trades": 1,
       "date_range": "2025-10-30",
-      "color": "green"
+      "color": "orange"
     },
     {
-      "box_number": 3,
+      "box_number": 4,
       "high_price": 69.46,
       "low_price": 69.46,
       "volume": 448610,
       "dollars": 31159463,
       "trades": 1,
       "date_range": "2025-10-09",
-      "color": "orange"
+      "color": "red"
     },
     {
-      "box_number": 4,
+      "box_number": 5,
       "high_price": 65.75,
       "low_price": 65.75,
       "volume": 282794,
       "dollars": 18593705,
       "trades": 1,
       "date_range": "2025-12-17",
-      "color": "red"
+      "color": "purple"
     }
   ]
 }

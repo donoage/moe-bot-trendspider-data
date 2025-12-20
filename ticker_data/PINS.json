@@ -1,41 +1,54 @@
 {
   "metadata": {
     "ticker": "PINS",
-    "generated_at": "2025-12-18T10:55:20.209063+00:00Z",
-    "date_range": "2025-09-19 to 2025-12-18",
+    "generated_at": "2025-12-20T06:13:25.818100+00:00Z",
+    "date_range": "2025-09-20 to 2025-12-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 26.08,
+      "volume": 49255810,
+      "dollars": 1284591524,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
-      "price": 26.2,
-      "volume": 34240000,
-      "dollars": 900000000,
+      "price": 26.1,
+      "volume": 83660000,
+      "dollars": 2180000000,
       "rank": "1"
+    },
+    {
+      "price": 26.2,
+      "volume": 38120000,
+      "dollars": 1000000000,
+      "rank": "2"
     },
     {
       "price": 25.0,
       "volume": 30710000,
       "dollars": 770000000,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 36.0,
       "volume": 20400000,
       "dollars": 730000000,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 34.0,
       "volume": 20750000,
       "dollars": 710000000,
-      "rank": "5"
-    },
-    {
-      "price": 32.9,
-      "volume": 21390000,
-      "dollars": 700000000,
       "rank": "6"
     }
   ],

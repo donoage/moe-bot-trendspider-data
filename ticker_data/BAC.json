@@ -1,18 +1,18 @@
 {
   "metadata": {
     "ticker": "BAC",
-    "generated_at": "2025-12-18T10:58:57.801387+00:00Z",
-    "date_range": "2025-09-19 to 2025-12-18",
+    "generated_at": "2025-12-20T06:08:07.460633+00:00Z",
+    "date_range": "2025-09-20 to 2025-12-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1758254400,
-      "price": 52.25,
-      "volume": 40745404,
-      "dollars": 2128947359,
-      "rank": 1,
+      "timestamp": 1766116800,
+      "price": 55.27,
+      "volume": 24923453,
+      "dollars": 1377519247,
+      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -20,11 +20,11 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1763956800,
-      "price": 51.93,
-      "volume": 15333438,
-      "dollars": 796265435,
-      "rank": 19,
+      "timestamp": 1766030400,
+      "price": 54.26,
+      "volume": 21099319,
+      "dollars": 1144849048,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -38,6 +38,12 @@
       "volume": 95320000,
       "dollars": 4980000000,
       "rank": "94"
+    },
+    {
+      "price": 54.3,
+      "volume": 65950000,
+      "dollars": 3580000000,
+      "rank": "0"
     },
     {
       "price": 50.6,
@@ -56,23 +62,17 @@
       "volume": 54510000,
       "dollars": 2820000000,
       "rank": "0"
-    },
-    {
-      "price": 50.4,
-      "volume": 55570000,
-      "dollars": 2800000000,
-      "rank": "0"
     }
   ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 52.56,
+      "high_price": 51.6,
       "low_price": 51.55,
-      "volume": 2741033,
-      "dollars": 141778903,
-      "trades": 3,
-      "date_range": "2025-11-14 to 2025-11-21",
+      "volume": 2343933,
+      "dollars": 120907327,
+      "trades": 2,
+      "date_range": "2025-11-21",
       "color": "blue"
     },
     {
@@ -87,42 +87,42 @@
     },
     {
       "box_number": 3,
-      "high_price": 52.32,
-      "low_price": 52.32,
-      "volume": 558002,
-      "dollars": 29194664,
-      "trades": 1,
-      "date_range": "2025-09-19",
-      "color": "orange"
-    },
-    {
-      "box_number": 4,
       "high_price": 50.44,
       "low_price": 50.44,
       "volume": 521968,
       "dollars": 26328065,
       "trades": 1,
       "date_range": "2025-10-16",
-      "color": "red"
+      "color": "orange"
     },
     {
-      "box_number": 5,
+      "box_number": 4,
       "high_price": 52.8,
       "low_price": 52.8,
       "volume": 427854,
       "dollars": 22590691,
       "trades": 1,
       "date_range": "2025-10-27",
-      "color": "purple"
+      "color": "red"
     },
     {
-      "box_number": 6,
+      "box_number": 5,
       "high_price": 52.5,
       "low_price": 52.5,
       "volume": 400000,
       "dollars": 21000000,
       "trades": 1,
       "date_range": "2025-10-15",
+      "color": "purple"
+    },
+    {
+      "box_number": 6,
+      "high_price": 52.56,
+      "low_price": 52.56,
+      "volume": 397100,
+      "dollars": 20871576,
+      "trades": 1,
+      "date_range": "2025-11-14",
       "color": "yellow"
     }
   ]

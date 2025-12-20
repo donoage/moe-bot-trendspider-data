@@ -1,18 +1,18 @@
 {
   "metadata": {
     "ticker": "WFC",
-    "generated_at": "2025-12-18T05:46:08.591533+00:00Z",
-    "date_range": "2025-09-19 to 2025-12-18",
+    "generated_at": "2025-12-20T06:16:22.510502+00:00Z",
+    "date_range": "2025-09-20 to 2025-12-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1758254400,
-      "price": 84.64,
-      "volume": 15120244,
-      "dollars": 1279777452,
-      "rank": 7,
+      "timestamp": 1766116800,
+      "price": 93.01,
+      "volume": 12254087,
+      "dollars": 1139752631,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -21,6 +21,12 @@
     }
   ],
   "levels": [
+    {
+      "price": 93.0,
+      "volume": 26370000,
+      "dollars": 2450000000,
+      "rank": "0"
+    },
     {
       "price": 84.6,
       "volume": 28180000,
@@ -43,12 +49,6 @@
       "price": 79.5,
       "volume": 16340000,
       "dollars": 1300000000,
-      "rank": "0"
-    },
-    {
-      "price": 84.7,
-      "volume": 14890000,
-      "dollars": 1260000000,
       "rank": "0"
     }
   ],

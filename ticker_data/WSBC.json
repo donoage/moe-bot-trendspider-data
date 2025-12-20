@@ -1,47 +1,22 @@
 {
   "metadata": {
     "ticker": "WSBC",
-    "generated_at": "2025-12-13T09:16:02.991073+00:00Z",
-    "date_range": "2025-09-13 to 2025-12-12",
+    "generated_at": "2025-12-20T06:16:28.716380+00:00Z",
+    "date_range": "2025-09-20 to 2025-12-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1758254400,
-      "price": 31.77,
-      "volume": 1359200,
-      "dollars": 43181784,
-      "rank": 3,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1758254400,
-      "price": 32.27,
-      "volume": 778357,
-      "dollars": 25117580,
-      "rank": 13,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
-      "price": 31.8,
-      "volume": 2990000,
-      "dollars": 90000000,
+      "price": 35.1,
+      "volume": 2780000,
+      "dollars": 100000000,
       "rank": "1"
     },
     {
-      "price": 35.1,
-      "volume": 2660000,
+      "price": 31.8,
+      "volume": 2990000,
       "dollars": 90000000,
       "rank": "2"
     },
@@ -64,16 +39,5 @@
       "rank": "5"
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 31.77,
-      "low_price": 31.77,
-      "volume": 1359200,
-      "dollars": 43181784,
-      "trades": 1,
-      "date_range": "2025-09-19",
-      "color": "blue"
-    }
-  ]
+  "boxes": []
 }

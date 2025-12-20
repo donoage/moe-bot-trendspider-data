@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "QQQ",
-    "generated_at": "2025-12-18T10:55:39.868496+00:00Z",
-    "date_range": "2025-09-19 to 2025-12-18",
+    "generated_at": "2025-12-20T06:13:48.189787+00:00Z",
+    "date_range": "2025-09-20 to 2025-12-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -54,9 +54,27 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 617.05,
+      "volume": 1672884,
+      "dollars": 1032253072,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
+    {
+      "price": 612.1,
+      "volume": 8730000,
+      "dollars": 5340000000,
+      "rank": "0"
+    },
     {
       "price": 598.1,
       "volume": 8380000,
@@ -70,21 +88,15 @@
       "rank": "0"
     },
     {
+      "price": 617.0,
+      "volume": 6820000,
+      "dollars": 4210000000,
+      "rank": "0"
+    },
+    {
       "price": 610.6,
       "volume": 6880000,
       "dollars": 4200000000,
-      "rank": "0"
-    },
-    {
-      "price": 604.4,
-      "volume": 6170000,
-      "dollars": 3730000000,
-      "rank": "0"
-    },
-    {
-      "price": 617.0,
-      "volume": 5980000,
-      "dollars": 3690000000,
       "rank": "0"
     }
   ],

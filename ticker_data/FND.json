@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "FND",
-    "generated_at": "2025-12-18T10:51:33.744935+00:00Z",
-    "date_range": "2025-09-19 to 2025-12-18",
+    "generated_at": "2025-12-20T06:10:17.769044+00:00Z",
+    "date_range": "2025-09-20 to 2025-12-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1766116800,
+      "price": 62.25,
+      "volume": 1334761,
+      "dollars": 83088872,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1759291200,
       "price": 72.0,
       "volume": 749600,
       "dollars": 53971200,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 72.1,
       "volume": 697507,
       "dollars": 50290254,
-      "rank": 19,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -33,12 +45,6 @@
     }
   ],
   "levels": [
-    {
-      "price": 84.3,
-      "volume": 14220000,
-      "dollars": 1200000000,
-      "rank": "1"
-    },
     {
       "price": 72.5,
       "volume": 2330000,
@@ -62,6 +68,12 @@
       "volume": 1960000,
       "dollars": 140000000,
       "rank": "10"
+    },
+    {
+      "price": 83.0,
+      "volume": 1520000,
+      "dollars": 130000000,
+      "rank": "17"
     }
   ],
   "boxes": [

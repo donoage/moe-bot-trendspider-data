@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "PPRUY",
-    "generated_at": "2025-12-18T10:55:27.184520+00:00Z",
-    "date_range": "2025-09-19 to 2025-12-18",
+    "generated_at": "2025-12-20T06:13:31.430418+00:00Z",
+    "date_range": "2025-09-20 to 2025-12-19",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 35.39,
+      "volume": 580681,
+      "dollars": 20551926,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 40.5,
@@ -27,14 +40,14 @@
       "rank": "10"
     },
     {
-      "price": 36.1,
-      "volume": 770000,
+      "price": 35.4,
+      "volume": 890000,
       "dollars": 30000000,
-      "rank": "16"
+      "rank": "13"
     },
     {
-      "price": 33.4,
-      "volume": 820000,
+      "price": 36.1,
+      "volume": 770000,
       "dollars": 30000000,
       "rank": "17"
     }
