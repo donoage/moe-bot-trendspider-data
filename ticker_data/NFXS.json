@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "ticker": "NFXS",
+    "generated_at": "2025-12-22T22:04:34.608840+00:00Z",
+    "date_range": "2025-09-23 to 2025-12-22",
+    "source": "volumeleaders.com",
+    "script": "populate_ticker_data.py"
+  },
+  "prints": [
+    {
+      "timestamp": 1765252800,
+      "price": 17.06,
+      "volume": 45309,
+      "dollars": 772971,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 17.1,
+      "volume": 50000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
+      "price": 14.7,
+      "volume": 40000,
+      "dollars": 0,
+      "rank": "3"
+    },
+    {
+      "price": 17.3,
+      "volume": 30000,
+      "dollars": 0,
+      "rank": "5"
+    }
+  ],
+  "boxes": []
+}
