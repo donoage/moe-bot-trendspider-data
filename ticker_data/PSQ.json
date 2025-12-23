@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "PSQ",
-    "generated_at": "2025-12-20T06:13:35.462318+00:00Z",
-    "date_range": "2025-09-20 to 2025-12-19",
+    "generated_at": "2025-12-23T03:55:16.957066+00:00Z",
+    "date_range": "2025-09-23 to 2025-12-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -44,11 +44,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1766376000,
+      "price": 30.3,
+      "volume": 3464741,
+      "dollars": 104981652,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1763352000,
       "price": 30.82,
       "volume": 1089035,
       "dollars": 33564058,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -91,22 +103,22 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 30.85,
+      "high_price": 31.6,
       "low_price": 30.71,
-      "volume": 8480463,
-      "dollars": 261094688,
-      "trades": 3,
+      "volume": 11999136,
+      "dollars": 372284755,
+      "trades": 4,
       "date_range": "2025-11-14 to 2025-11-25",
       "color": "blue"
     },
     {
       "box_number": 2,
-      "high_price": 31.6,
-      "low_price": 31.6,
-      "volume": 3518673,
-      "dollars": 111190066,
+      "high_price": 30.3,
+      "low_price": 30.3,
+      "volume": 3464741,
+      "dollars": 104981652,
       "trades": 1,
-      "date_range": "2025-11-18",
+      "date_range": "2025-12-22",
       "color": "green"
     }
   ]

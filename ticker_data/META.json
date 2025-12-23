@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "META",
-    "generated_at": "2025-12-20T06:12:15.930402+00:00Z",
-    "date_range": "2025-09-20 to 2025-12-19",
+    "generated_at": "2025-12-23T03:53:37.255830+00:00Z",
+    "date_range": "2025-09-23 to 2025-12-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -83,8 +83,8 @@
   "levels": [
     {
       "price": 658.8,
-      "volume": 31550000,
-      "dollars": 20780000000,
+      "volume": 31370000,
+      "dollars": 20670000000,
       "rank": "1"
     },
     {
@@ -92,12 +92,6 @@
       "volume": 25660000,
       "dollars": 15020000000,
       "rank": "2"
-    },
-    {
-      "price": 778.4,
-      "volume": 9440000,
-      "dollars": 7350000000,
-      "rank": "5"
     },
     {
       "price": 647.5,
@@ -110,6 +104,12 @@
       "volume": 7530000,
       "dollars": 5130000000,
       "rank": "12"
+    },
+    {
+      "price": 733.6,
+      "volume": 6880000,
+      "dollars": 5050000000,
+      "rank": "13"
     }
   ],
   "boxes": [
@@ -135,32 +135,32 @@
     },
     {
       "box_number": 3,
+      "high_price": 662.87,
+      "low_price": 661.05,
+      "volume": 88793,
+      "dollars": 58754727,
+      "trades": 2,
+      "date_range": "2025-12-19 to 2025-12-22",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
       "high_price": 632.4,
       "low_price": 632.4,
       "volume": 75738,
       "dollars": 47896544,
       "trades": 1,
       "date_range": "2025-11-25",
-      "color": "orange"
+      "color": "red"
     },
     {
-      "box_number": 4,
+      "box_number": 5,
       "high_price": 645.09,
       "low_price": 645.09,
       "volume": 63512,
       "dollars": 40970956,
       "trades": 1,
       "date_range": "2025-12-15",
-      "color": "red"
-    },
-    {
-      "box_number": 5,
-      "high_price": 662.87,
-      "low_price": 662.87,
-      "volume": 31931,
-      "dollars": 21166101,
-      "trades": 1,
-      "date_range": "2025-12-19",
       "color": "purple"
     }
   ]
