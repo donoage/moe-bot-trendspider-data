@@ -1,18 +1,42 @@
 {
   "metadata": {
     "ticker": "STN",
-    "generated_at": "2025-12-23T03:56:58.069587+00:00Z",
-    "date_range": "2025-09-23 to 2025-12-22",
+    "generated_at": "2025-12-25T10:52:43.565963+00:00Z",
+    "date_range": "2025-09-26 to 2025-12-25",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1766462400,
+      "price": 95.89,
+      "volume": 202547,
+      "dollars": 19422231,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1759896000,
       "price": 113.14,
       "volume": 123229,
       "dollars": 13942215,
-      "rank": 14,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766548800,
+      "price": 95.79,
+      "volume": 135354,
+      "dollars": 12965559,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,22 +58,22 @@
       "rank": "8"
     },
     {
+      "price": 95.9,
+      "volume": 340000,
+      "dollars": 30000000,
+      "rank": "9"
+    },
+    {
       "price": 108.3,
       "volume": 240000,
       "dollars": 30000000,
-      "rank": "11"
+      "rank": "12"
     },
     {
       "price": 93.6,
       "volume": 240000,
       "dollars": 20000000,
-      "rank": "15"
-    },
-    {
-      "price": 106.9,
-      "volume": 160000,
-      "dollars": 20000000,
-      "rank": "22"
+      "rank": "16"
     }
   ],
   "boxes": []

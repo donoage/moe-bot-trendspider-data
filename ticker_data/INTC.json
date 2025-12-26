@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "INTC",
-    "generated_at": "2025-12-23T03:52:31.757894+00:00Z",
-    "date_range": "2025-09-23 to 2025-12-22",
+    "generated_at": "2025-12-25T10:58:19.419095+00:00Z",
+    "date_range": "2025-09-26 to 2025-12-25",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -35,7 +35,7 @@
   "levels": [
     {
       "price": 36.8,
-      "volume": 215750000,
+      "volume": 215780000,
       "dollars": 7940000000,
       "rank": "17"
     },
@@ -47,63 +47,43 @@
     },
     {
       "price": 36.4,
-      "volume": 174230000,
-      "dollars": 6340000000,
-      "rank": "38"
+      "volume": 182210000,
+      "dollars": 6630000000,
+      "rank": "35"
     },
     {
       "price": 36.3,
-      "volume": 164950000,
-      "dollars": 5990000000,
+      "volume": 166140000,
+      "dollars": 6030000000,
       "rank": "45"
     },
     {
       "price": 35.8,
-      "volume": 162730000,
-      "dollars": 5820000000,
+      "volume": 163000000,
+      "dollars": 5830000000,
       "rank": "53"
     }
   ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 33.25,
-      "low_price": 32.88,
-      "volume": 3213104,
-      "dollars": 106016822,
-      "trades": 2,
-      "date_range": "2025-09-25",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
       "high_price": 38.1,
       "low_price": 38.02,
       "volume": 2481618,
       "dollars": 94470532,
       "trades": 2,
       "date_range": "2025-10-20 to 2025-10-21",
-      "color": "green"
+      "color": "blue"
     },
     {
-      "box_number": 3,
-      "high_price": 30.42,
-      "low_price": 30.28,
-      "volume": 1994600,
-      "dollars": 60535951,
-      "trades": 2,
-      "date_range": "2025-09-24",
-      "color": "orange"
-    },
-    {
-      "box_number": 4,
+      "box_number": 2,
       "high_price": 42.0,
       "low_price": 42.0,
       "volume": 500000,
       "dollars": 21000000,
       "trades": 1,
       "date_range": "2025-12-05",
-      "color": "red"
+      "color": "green"
     }
   ]
 }

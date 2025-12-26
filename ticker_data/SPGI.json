@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SPGI",
-    "generated_at": "2025-12-23T03:56:46.908617+00:00Z",
-    "date_range": "2025-09-23 to 2025-12-22",
+    "generated_at": "2025-12-25T10:52:32.973787+00:00Z",
+    "date_range": "2025-09-26 to 2025-12-25",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -79,33 +79,23 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 484.0,
-      "low_price": 484.0,
-      "volume": 215011,
-      "dollars": 104065324,
-      "trades": 1,
-      "date_range": "2025-09-25",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
       "high_price": 496.25,
       "low_price": 490.28,
       "volume": 98400,
       "dollars": 48537276,
       "trades": 2,
       "date_range": "2025-10-28 to 2025-10-31",
-      "color": "green"
+      "color": "blue"
     },
     {
-      "box_number": 3,
+      "box_number": 2,
       "high_price": 488.7,
       "low_price": 488.7,
       "volume": 87064,
       "dollars": 42548176,
       "trades": 1,
       "date_range": "2025-11-19",
-      "color": "orange"
+      "color": "green"
     }
   ]
 }
