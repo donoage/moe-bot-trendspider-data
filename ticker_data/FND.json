@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "FND",
-    "generated_at": "2025-12-25T10:57:11.913727+00:00Z",
-    "date_range": "2025-09-26 to 2025-12-25",
+    "generated_at": "2026-01-01T10:51:43.673026+00:00Z",
+    "date_range": "2025-10-03 to 2026-01-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -13,18 +13,6 @@
       "volume": 1334761,
       "dollars": 83088872,
       "rank": 5,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1759291200,
-      "price": 72.0,
-      "volume": 749600,
-      "dollars": 53971200,
-      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -65,7 +53,7 @@
     },
     {
       "price": 62.3,
-      "volume": 1930000,
+      "volume": 1940000,
       "dollars": 120000000,
       "rank": "25"
     },
@@ -79,23 +67,13 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 73.6,
-      "low_price": 72.0,
-      "volume": 1251089,
-      "dollars": 90880790,
-      "trades": 3,
-      "date_range": "2025-09-30 to 2025-10-01",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
       "high_price": 72.1,
       "low_price": 72.1,
       "volume": 697507,
       "dollars": 50290254,
       "trades": 1,
       "date_range": "2025-10-28",
-      "color": "green"
+      "color": "blue"
     }
   ]
 }

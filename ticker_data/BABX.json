@@ -1,24 +1,12 @@
 {
   "metadata": {
     "ticker": "BABX",
-    "generated_at": "2025-12-25T10:54:51.492009+00:00Z",
-    "date_range": "2025-09-26 to 2025-12-25",
+    "generated_at": "2026-01-01T10:59:26.422820+00:00Z",
+    "date_range": "2025-10-03 to 2026-01-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1759118400,
-      "price": 57.0,
-      "volume": 73697,
-      "dollars": 4200729,
-      "rank": 2,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1761278400,
       "price": 53.1,
@@ -112,6 +100,12 @@
       "rank": "1"
     },
     {
+      "price": 36.1,
+      "volume": 190000,
+      "dollars": 10000000,
+      "rank": "3"
+    },
+    {
       "price": 57.0,
       "volume": 110000,
       "dollars": 10000000,
@@ -128,12 +122,6 @@
       "volume": 110000,
       "dollars": 10000000,
       "rank": "9"
-    },
-    {
-      "price": 53.1,
-      "volume": 100000,
-      "dollars": 10000000,
-      "rank": "11"
     }
   ],
   "boxes": []

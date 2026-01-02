@@ -1,41 +1,16 @@
 {
   "metadata": {
     "ticker": "SNY",
-    "generated_at": "2025-12-25T10:52:25.534753+00:00Z",
-    "date_range": "2025-09-26 to 2025-12-25",
+    "generated_at": "2026-01-01T10:57:08.184912+00:00Z",
+    "date_range": "2025-10-03 to 2026-01-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1758859200,
-      "price": 45.66,
-      "volume": 3400000,
-      "dollars": 155244000,
-      "rank": 2,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1758859200,
-      "price": 45.66,
-      "volume": 3400000,
-      "dollars": 155244000,
-      "rank": 2,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 48.3,
-      "volume": 29370000,
+      "volume": 29390000,
       "dollars": 1420000000,
       "rank": "1"
     },
@@ -74,16 +49,6 @@
       "trades": 1,
       "date_range": "2025-11-14",
       "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 50.35,
-      "low_price": 50.35,
-      "volume": 416912,
-      "dollars": 20991519,
-      "trades": 1,
-      "date_range": "2025-10-02",
-      "color": "green"
     }
   ]
 }

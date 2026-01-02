@@ -1,42 +1,18 @@
 {
   "metadata": {
     "ticker": "RGTX",
-    "generated_at": "2025-12-25T10:51:34.216352+00:00Z",
-    "date_range": "2025-09-26 to 2025-12-25",
+    "generated_at": "2026-01-01T10:56:16.363509+00:00Z",
+    "date_range": "2025-10-03 to 2026-01-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1759377600,
-      "price": 50.25,
-      "volume": 69200,
-      "dollars": 3477300,
-      "rank": 1,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1761192000,
       "price": 55.54,
       "volume": 43944,
       "dollars": 2440759,
       "rank": 3,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1759377600,
-      "price": 47.6,
-      "volume": 40000,
-      "dollars": 1903999,
-      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -112,16 +88,16 @@
       "rank": "3"
     },
     {
+      "price": 12.4,
+      "volume": 250000,
+      "dollars": 0,
+      "rank": "4"
+    },
+    {
       "price": 55.5,
       "volume": 40000,
       "dollars": 0,
       "rank": "5"
-    },
-    {
-      "price": 14.9,
-      "volume": 140000,
-      "dollars": 0,
-      "rank": "8"
     }
   ],
   "boxes": []

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "ARQT",
-    "generated_at": "2025-12-25T10:54:31.064310+00:00Z",
-    "date_range": "2025-09-26 to 2025-12-25",
+    "generated_at": "2026-01-01T10:59:04.905956+00:00Z",
+    "date_range": "2025-10-03 to 2026-01-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -80,11 +80,23 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1762228800,
-      "price": 24.01,
-      "volume": 674713,
-      "dollars": 16199859,
-      "rank": 20,
+      "timestamp": 1766980800,
+      "price": 28.56,
+      "volume": 631301,
+      "dollars": 18029956,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766721600,
+      "price": 28.97,
+      "volume": 604284,
+      "dollars": 17506107,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -94,34 +106,34 @@
   ],
   "levels": [
     {
+      "price": 29.0,
+      "volume": 2780000,
+      "dollars": 80000000,
+      "rank": "4"
+    },
+    {
       "price": 28.0,
       "volume": 2550000,
       "dollars": 70000000,
-      "rank": "5"
+      "rank": "6"
     },
     {
       "price": 28.5,
       "volume": 2240000,
       "dollars": 60000000,
-      "rank": "8"
-    },
-    {
-      "price": 17.0,
-      "volume": 3260000,
-      "dollars": 60000000,
-      "rank": "10"
+      "rank": "9"
     },
     {
       "price": 28.9,
       "volume": 1740000,
       "dollars": 50000000,
-      "rank": "13"
+      "rank": "14"
     },
     {
-      "price": 29.0,
-      "volume": 1600000,
-      "dollars": 50000000,
-      "rank": "15"
+      "price": 25.0,
+      "volume": 1780000,
+      "dollars": 40000000,
+      "rank": "19"
     }
   ],
   "boxes": []

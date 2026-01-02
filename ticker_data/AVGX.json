@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "AVGX",
-    "generated_at": "2025-12-25T10:54:47.186019+00:00Z",
-    "date_range": "2025-09-26 to 2025-12-25",
+    "generated_at": "2026-01-01T10:59:21.684505+00:00Z",
+    "date_range": "2025-10-03 to 2026-01-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -114,6 +114,18 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1767067200,
+      "price": 48.22,
+      "volume": 27876,
+      "dollars": 1344180,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
@@ -124,25 +136,25 @@
       "rank": "1"
     },
     {
+      "price": 48.2,
+      "volume": 80000,
+      "dollars": 0,
+      "rank": "3"
+    },
+    {
       "price": 54.7,
       "volume": 60000,
       "dollars": 0,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 55.6,
       "volume": 60000,
       "dollars": 0,
-      "rank": "5"
-    },
-    {
-      "price": 57.4,
-      "volume": 50000,
-      "dollars": 0,
       "rank": "6"
     },
     {
-      "price": 60.4,
+      "price": 57.4,
       "volume": 50000,
       "dollars": 0,
       "rank": "7"

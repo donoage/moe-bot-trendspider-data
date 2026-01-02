@@ -1,25 +1,12 @@
 {
   "metadata": {
     "ticker": "IBIT",
-    "generated_at": "2025-12-25T10:58:12.112341+00:00Z",
-    "date_range": "2025-09-26 to 2025-12-25",
+    "generated_at": "2026-01-01T10:52:44.191348+00:00Z",
+    "date_range": "2025-10-03 to 2026-01-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1759204800,
-      "price": 64.3,
-      "volume": 3500000,
-      "dollars": 225050000,
-      "rank": 17,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 60.6,
@@ -75,23 +62,33 @@
     },
     {
       "box_number": 3,
+      "high_price": 49.65,
+      "low_price": 49.31,
+      "volume": 1167338,
+      "dollars": 57724262,
+      "trades": 2,
+      "date_range": "2025-12-29",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
       "high_price": 54.8,
       "low_price": 54.56,
       "volume": 795916,
       "dollars": 43519469,
       "trades": 2,
       "date_range": "2025-11-14",
-      "color": "orange"
+      "color": "red"
     },
     {
-      "box_number": 4,
+      "box_number": 5,
       "high_price": 50.7,
       "low_price": 50.7,
       "volume": 847637,
       "dollars": 42975195,
       "trades": 1,
       "date_range": "2025-12-22",
-      "color": "red"
+      "color": "purple"
     }
   ]
 }

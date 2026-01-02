@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SLV",
-    "generated_at": "2025-12-25T10:52:09.238345+00:00Z",
-    "date_range": "2025-09-26 to 2025-12-25",
+    "generated_at": "2026-01-01T10:56:53.011414+00:00Z",
+    "date_range": "2025-10-03 to 2026-01-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -121,13 +121,23 @@
     },
     {
       "box_number": 4,
+      "high_price": 66.07,
+      "low_price": 64.87,
+      "volume": 708855,
+      "dollars": 46467860,
+      "trades": 2,
+      "date_range": "2025-12-29 to 2025-12-31",
+      "color": "red"
+    },
+    {
+      "box_number": 5,
       "high_price": 60.54,
       "low_price": 60.54,
       "volume": 504860,
       "dollars": 30564224,
       "trades": 1,
       "date_range": "2025-12-17",
-      "color": "red"
+      "color": "purple"
     }
   ]
 }
