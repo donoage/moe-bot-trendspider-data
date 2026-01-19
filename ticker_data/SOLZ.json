@@ -1,24 +1,12 @@
 {
   "metadata": {
     "ticker": "SOLZ",
-    "generated_at": "2026-01-01T10:57:12.075041+00:00Z",
-    "date_range": "2025-10-03 to 2026-01-01",
+    "generated_at": "2026-01-13T10:57:06.264165+00:00Z",
+    "date_range": "2025-10-15 to 2026-01-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1759896000,
-      "price": 23.22,
-      "volume": 140000,
-      "dollars": 3250800,
-      "rank": 2,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1761278400,
       "price": 20.08,
@@ -54,27 +42,9 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
-    },
-    {
-      "timestamp": 1760068800,
-      "price": 23.28,
-      "volume": 50000,
-      "dollars": 1164040,
-      "rank": 19,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
     }
   ],
   "levels": [
-    {
-      "price": 22.1,
-      "volume": 470000,
-      "dollars": 10000000,
-      "rank": "1"
-    },
     {
       "price": 20.4,
       "volume": 330000,
@@ -98,6 +68,12 @@
       "volume": 200000,
       "dollars": 0,
       "rank": "5"
+    },
+    {
+      "price": 21.1,
+      "volume": 180000,
+      "dollars": 0,
+      "rank": "6"
     }
   ],
   "boxes": []

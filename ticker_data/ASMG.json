@@ -1,24 +1,12 @@
 {
   "metadata": {
     "ticker": "ASMG",
-    "generated_at": "2026-01-01T10:59:06.399125+00:00Z",
-    "date_range": "2025-10-03 to 2026-01-01",
+    "generated_at": "2026-01-15T01:37:37.940124+00:00Z",
+    "date_range": "2025-10-16 to 2026-01-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1760500800,
-      "price": 24.38,
-      "volume": 43110,
-      "dollars": 1051021,
-      "rank": 1,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1764648000,
       "price": 27.48,
@@ -37,6 +25,18 @@
       "volume": 30398,
       "dollars": 689730,
       "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1767326400,
+      "price": 25.91,
+      "volume": 19500,
+      "dollars": 505245,
+      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -68,6 +68,12 @@
       "volume": 30000,
       "dollars": 0,
       "rank": "4"
+    },
+    {
+      "price": 25.9,
+      "volume": 20000,
+      "dollars": 0,
+      "rank": "6"
     }
   ],
   "boxes": []

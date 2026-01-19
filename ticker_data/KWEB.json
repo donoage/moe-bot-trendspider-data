@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "KWEB",
-    "generated_at": "2026-01-01T10:53:24.891494+00:00Z",
-    "date_range": "2025-10-03 to 2026-01-01",
+    "generated_at": "2026-01-13T10:53:13.017998+00:00Z",
+    "date_range": "2025-10-15 to 2026-01-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -111,23 +111,33 @@
     },
     {
       "box_number": 3,
+      "high_price": 36.49,
+      "low_price": 35.83,
+      "volume": 1360831,
+      "dollars": 49197148,
+      "trades": 2,
+      "date_range": "2026-01-05 to 2026-01-08",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
       "high_price": 37.21,
       "low_price": 37.21,
       "volume": 737436,
       "dollars": 27439993,
       "trades": 1,
       "date_range": "2025-12-10",
-      "color": "orange"
+      "color": "red"
     },
     {
-      "box_number": 4,
+      "box_number": 5,
       "high_price": 39.47,
       "low_price": 39.47,
       "volume": 684600,
       "dollars": 27021162,
       "trades": 1,
       "date_range": "2025-11-10",
-      "color": "red"
+      "color": "purple"
     }
   ]
 }

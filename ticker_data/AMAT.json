@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "AMAT",
-    "generated_at": "2026-01-01T10:58:32.709566+00:00Z",
-    "date_range": "2025-10-03 to 2026-01-01",
+    "generated_at": "2026-01-15T01:36:39.414998+00:00Z",
+    "date_range": "2025-10-16 to 2026-01-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -54,6 +54,18 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1767931200,
+      "price": 301.18,
+      "volume": 1889755,
+      "dollars": 569156410,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
@@ -91,33 +103,23 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 233.5,
+      "high_price": 227.6,
       "low_price": 227.6,
-      "volume": 1028282,
-      "dollars": 235743434,
-      "trades": 3,
-      "date_range": "2025-10-27 to 2025-10-31",
+      "volume": 637170,
+      "dollars": 145019892,
+      "trades": 1,
+      "date_range": "2025-10-28",
       "color": "blue"
     },
     {
       "box_number": 2,
-      "high_price": 213.7,
-      "low_price": 213.7,
-      "volume": 628256,
-      "dollars": 134258307,
-      "trades": 1,
-      "date_range": "2025-10-07",
+      "high_price": 233.5,
+      "low_price": 230.56,
+      "volume": 391112,
+      "dollars": 90723542,
+      "trades": 2,
+      "date_range": "2025-10-27 to 2025-10-31",
       "color": "green"
-    },
-    {
-      "box_number": 3,
-      "high_price": 218.9,
-      "low_price": 218.9,
-      "volume": 546934,
-      "dollars": 119723852,
-      "trades": 1,
-      "date_range": "2025-10-14",
-      "color": "orange"
     }
   ]
 }

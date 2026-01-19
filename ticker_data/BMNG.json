@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "BMNG",
-    "generated_at": "2026-01-01T10:59:44.043892+00:00Z",
-    "date_range": "2025-10-03 to 2026-01-01",
+    "generated_at": "2026-01-15T01:38:37.383048+00:00Z",
+    "date_range": "2025-10-16 to 2026-01-14",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1768363200,
+      "price": 4.28,
+      "volume": 309700,
+      "dollars": 1325516,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1766376000,
       "price": 4.47,
       "volume": 222717,
       "dollars": 995544,
-      "rank": 1,
+      "rank": 2,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 6.57,
       "volume": 151057,
       "dollars": 992308,
-      "rank": 2,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 6.1,
       "volume": 113578,
       "dollars": 692814,
-      "rank": 3,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -48,7 +60,19 @@
       "price": 7.21,
       "volume": 84664,
       "dollars": 610427,
-      "rank": 4,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1767931200,
+      "price": 3.8,
+      "volume": 140109,
+      "dollars": 532400,
+      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -58,28 +82,34 @@
   ],
   "levels": [
     {
+      "price": 4.3,
+      "volume": 310000,
+      "dollars": 0,
+      "rank": "1"
+    },
+    {
       "price": 4.5,
       "volume": 220000,
       "dollars": 0,
-      "rank": "1"
+      "rank": "2"
     },
     {
       "price": 6.6,
       "volume": 150000,
       "dollars": 0,
-      "rank": "2"
+      "rank": "3"
     },
     {
       "price": 6.1,
       "volume": 110000,
       "dollars": 0,
-      "rank": "3"
+      "rank": "4"
     },
     {
       "price": 7.2,
       "volume": 80000,
       "dollars": 0,
-      "rank": "4"
+      "rank": "5"
     }
   ],
   "boxes": []

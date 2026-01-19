@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "PLTG",
-    "generated_at": "2026-01-01T10:55:38.784457+00:00Z",
-    "date_range": "2025-10-03 to 2026-01-01",
+    "generated_at": "2026-01-13T10:55:27.745620+00:00Z",
+    "date_range": "2025-10-15 to 2026-01-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1767585600,
+      "price": 24.74,
+      "volume": 33960,
+      "dollars": 840170,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1767585600,
+      "price": 25.05,
+      "volume": 19977,
+      "dollars": 500423,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 27.7,
@@ -15,16 +40,28 @@
       "rank": "1"
     },
     {
-      "price": 28.0,
+      "price": 24.7,
       "volume": 30000,
       "dollars": 0,
       "rank": "2"
     },
     {
+      "price": 28.0,
+      "volume": 30000,
+      "dollars": 0,
+      "rank": "3"
+    },
+    {
       "price": 37.5,
       "volume": 10000,
       "dollars": 0,
-      "rank": "3"
+      "rank": "4"
+    },
+    {
+      "price": 25.1,
+      "volume": 20000,
+      "dollars": 0,
+      "rank": "5"
     }
   ],
   "boxes": []

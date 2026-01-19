@@ -1,18 +1,49 @@
 {
   "metadata": {
     "ticker": "TSXU",
-    "generated_at": "2026-01-02T22:03:57.748242+00:00Z",
-    "date_range": "2025-10-04 to 2026-01-02",
+    "generated_at": "2026-01-08T05:46:18.236776+00:00Z",
+    "date_range": "2025-10-10 to 2026-01-08",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1767758400,
+      "price": 30.84,
+      "volume": 51935,
+      "dollars": 1601675,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1767326400,
+      "price": 31.14,
+      "volume": 45951,
+      "dollars": 1430914,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 30.8,
+      "volume": 50000,
+      "dollars": 0,
+      "rank": "1"
+    },
     {
       "price": 31.1,
       "volume": 50000,
       "dollars": 0,
-      "rank": "1"
+      "rank": "2"
     }
   ],
   "boxes": []

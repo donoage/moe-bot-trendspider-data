@@ -1,18 +1,42 @@
 {
   "metadata": {
     "ticker": "SPHQ",
-    "generated_at": "2026-01-01T10:57:16.519010+00:00Z",
-    "date_range": "2025-10-03 to 2026-01-01",
+    "generated_at": "2026-01-13T10:57:11.510648+00:00Z",
+    "date_range": "2025-10-15 to 2026-01-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1768190400,
+      "price": 77.47,
+      "volume": 2925809,
+      "dollars": 226662423,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1767585600,
+      "price": 76.39,
+      "volume": 1847220,
+      "dollars": 141109135,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1761710400,
       "price": 74.15,
       "volume": 1619952,
       "dollars": 120119440,
-      "rank": 8,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +48,7 @@
       "price": 74.13,
       "volume": 1593323,
       "dollars": 118113033,
-      "rank": 9,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -49,31 +73,41 @@
       "price": 72.4,
       "volume": 2830000,
       "dollars": 210000000,
-      "rank": "6"
+      "rank": "7"
     },
     {
       "price": 74.1,
       "volume": 2250000,
       "dollars": 170000000,
-      "rank": "7"
+      "rank": "8"
     },
     {
       "price": 71.9,
       "volume": 2220000,
       "dollars": 160000000,
-      "rank": "12"
+      "rank": "13"
     }
   ],
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 76.39,
+      "low_price": 76.39,
+      "volume": 1847220,
+      "dollars": 141109135,
+      "trades": 1,
+      "date_range": "2026-01-05",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 75.96,
       "low_price": 75.96,
       "volume": 413778,
       "dollars": 31430576,
       "trades": 1,
       "date_range": "2025-12-12",
-      "color": "blue"
+      "color": "green"
     }
   ]
 }

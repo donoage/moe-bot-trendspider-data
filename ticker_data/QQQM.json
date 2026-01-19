@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "QQQM",
-    "generated_at": "2026-01-01T10:56:03.167912+00:00Z",
-    "date_range": "2025-10-03 to 2026-01-01",
+    "generated_at": "2026-01-13T10:55:53.968820+00:00Z",
+    "date_range": "2025-10-15 to 2026-01-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1767844800,
+      "price": 255.15,
+      "volume": 1210000,
+      "dollars": 308735009,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1761796800,
       "price": 259.28,
       "volume": 875000,
       "dollars": 226868250,
-      "rank": 13,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,34 +34,34 @@
   ],
   "levels": [
     {
+      "price": 255.2,
+      "volume": 1410000,
+      "dollars": 360000000,
+      "rank": "8"
+    },
+    {
       "price": 259.3,
       "volume": 880000,
       "dollars": 230000000,
-      "rank": "31"
+      "rank": "32"
     },
     {
       "price": 248.8,
       "volume": 790000,
       "dollars": 200000000,
-      "rank": "37"
+      "rank": "38"
     },
     {
-      "price": 256.4,
-      "volume": 630000,
-      "dollars": 160000000,
-      "rank": "56"
+      "price": 256.0,
+      "volume": 720000,
+      "dollars": 180000000,
+      "rank": "44"
     },
     {
       "price": 256.9,
-      "volume": 600000,
-      "dollars": 150000000,
-      "rank": "61"
-    },
-    {
-      "price": 246.7,
-      "volume": 580000,
-      "dollars": 140000000,
-      "rank": "71"
+      "volume": 660000,
+      "dollars": 170000000,
+      "rank": "53"
     }
   ],
   "boxes": [
@@ -75,22 +87,22 @@
     },
     {
       "box_number": 3,
-      "high_price": 243.65,
-      "low_price": 243.65,
-      "volume": 443000,
-      "dollars": 107936950,
-      "trades": 1,
-      "date_range": "2025-10-14",
-      "color": "orange"
-    },
-    {
-      "box_number": 4,
       "high_price": 251.31,
       "low_price": 250.65,
       "volume": 404660,
       "dollars": 101560002,
       "trades": 2,
       "date_range": "2025-12-15 to 2025-12-16",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
+      "high_price": 255.37,
+      "low_price": 255.37,
+      "volume": 299135,
+      "dollars": 76390104,
+      "trades": 1,
+      "date_range": "2026-01-05",
       "color": "red"
     },
     {

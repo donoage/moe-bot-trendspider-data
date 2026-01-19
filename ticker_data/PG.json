@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "PG",
-    "generated_at": "2026-01-01T10:55:31.941635+00:00Z",
-    "date_range": "2025-10-03 to 2026-01-01",
+    "generated_at": "2026-01-13T10:55:20.983764+00:00Z",
+    "date_range": "2025-10-15 to 2026-01-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -62,13 +62,33 @@
     },
     {
       "box_number": 3,
+      "high_price": 143.88,
+      "low_price": 142.1,
+      "volume": 389328,
+      "dollars": 55744610,
+      "trades": 2,
+      "date_range": "2026-01-09 to 2026-01-12",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
       "high_price": 153.5,
       "low_price": 153.5,
       "volume": 153700,
       "dollars": 23592950,
       "trades": 1,
       "date_range": "2025-10-24",
-      "color": "orange"
+      "color": "red"
+    },
+    {
+      "box_number": 5,
+      "high_price": 140.33,
+      "low_price": 140.33,
+      "volume": 157723,
+      "dollars": 22133268,
+      "trades": 1,
+      "date_range": "2026-01-05",
+      "color": "purple"
     }
   ]
 }

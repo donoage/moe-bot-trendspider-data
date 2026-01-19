@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "PLD",
-    "generated_at": "2026-01-01T10:55:36.460571+00:00Z",
-    "date_range": "2025-10-03 to 2026-01-01",
+    "generated_at": "2026-01-13T10:55:26.164124+00:00Z",
+    "date_range": "2025-10-15 to 2026-01-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -34,22 +34,16 @@
   ],
   "levels": [
     {
-      "price": 124.6,
-      "volume": 13460000,
-      "dollars": 1680000000,
+      "price": 127.5,
+      "volume": 13410000,
+      "dollars": 1710000000,
       "rank": "2"
     },
     {
-      "price": 127.5,
-      "volume": 12430000,
-      "dollars": 1590000000,
+      "price": 124.6,
+      "volume": 13460000,
+      "dollars": 1680000000,
       "rank": "3"
-    },
-    {
-      "price": 110.5,
-      "volume": 13230000,
-      "dollars": 1460000000,
-      "rank": "4"
     },
     {
       "price": 122.6,
@@ -62,6 +56,12 @@
       "volume": 10820000,
       "dollars": 1340000000,
       "rank": "6"
+    },
+    {
+      "price": 117.8,
+      "volume": 10690000,
+      "dollars": 1260000000,
+      "rank": "7"
     }
   ],
   "boxes": [
@@ -74,6 +74,16 @@
       "trades": 3,
       "date_range": "2025-11-14 to 2025-11-18",
       "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 128.15,
+      "low_price": 128.15,
+      "volume": 220124,
+      "dollars": 28209462,
+      "trades": 1,
+      "date_range": "2026-01-02",
+      "color": "green"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "LIN",
-    "generated_at": "2026-01-01T10:53:34.508266+00:00Z",
-    "date_range": "2025-10-03 to 2026-01-01",
+    "generated_at": "2026-01-13T10:53:21.051100+00:00Z",
+    "date_range": "2025-10-15 to 2026-01-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -21,12 +21,6 @@
     }
   ],
   "levels": [
-    {
-      "price": 468.2,
-      "volume": 29320000,
-      "dollars": 13730000000,
-      "rank": "1"
-    },
     {
       "price": 424.3,
       "volume": 4310000,
@@ -50,7 +44,24 @@
       "volume": 3830000,
       "dollars": 1610000000,
       "rank": "8"
+    },
+    {
+      "price": 407.9,
+      "volume": 3920000,
+      "dollars": 1600000000,
+      "rank": "9"
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 438.0,
+      "low_price": 438.0,
+      "volume": 148573,
+      "dollars": 65074974,
+      "trades": 1,
+      "date_range": "2026-01-07",
+      "color": "blue"
+    }
+  ]
 }

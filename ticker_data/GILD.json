@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "GILD",
-    "generated_at": "2026-01-01T10:52:08.914427+00:00Z",
-    "date_range": "2025-10-03 to 2026-01-01",
+    "generated_at": "2026-01-13T10:51:50.557815+00:00Z",
+    "date_range": "2025-10-15 to 2026-01-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -22,12 +22,6 @@
   ],
   "levels": [
     {
-      "price": 111.0,
-      "volume": 18680000,
-      "dollars": 2069999999,
-      "rank": "18"
-    },
-    {
       "price": 124.3,
       "volume": 16390000,
       "dollars": 2040000000,
@@ -35,53 +29,49 @@
     },
     {
       "price": 121.2,
-      "volume": 15150000,
+      "volume": 15170000,
       "dollars": 1840000000,
       "rank": "37"
     },
     {
-      "price": 110.7,
-      "volume": 12940000,
-      "dollars": 1430000000,
+      "price": 112.5,
+      "volume": 10340000,
+      "dollars": 1160000000,
       "rank": "0"
     },
     {
-      "price": 110.0,
-      "volume": 11510000,
-      "dollars": 1270000000,
+      "price": 112.3,
+      "volume": 9890000,
+      "dollars": 1110000000,
+      "rank": "0"
+    },
+    {
+      "price": 115.9,
+      "volume": 9350000,
+      "dollars": 1080000000,
       "rank": "0"
     }
   ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 112.5,
-      "low_price": 112.5,
-      "volume": 365396,
-      "dollars": 41107050,
-      "trades": 1,
-      "date_range": "2025-10-06",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
       "high_price": 126.94,
       "low_price": 126.94,
       "volume": 249520,
       "dollars": 31674068,
       "trades": 1,
       "date_range": "2025-11-21",
-      "color": "green"
+      "color": "blue"
     },
     {
-      "box_number": 3,
+      "box_number": 2,
       "high_price": 124.3,
       "low_price": 124.3,
       "volume": 176400,
       "dollars": 21926520,
       "trades": 1,
       "date_range": "2025-10-21",
-      "color": "orange"
+      "color": "green"
     }
   ]
 }

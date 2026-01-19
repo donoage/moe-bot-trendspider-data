@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "OPEX",
-    "generated_at": "2026-01-01T10:55:06.831452+00:00Z",
-    "date_range": "2025-10-03 to 2026-01-01",
+    "generated_at": "2026-01-13T10:54:55.809982+00:00Z",
+    "date_range": "2025-10-15 to 2026-01-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -32,11 +32,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1767931200,
+      "price": 21.3,
+      "volume": 32082,
+      "dollars": 683346,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1762228800,
       "price": 25.67,
       "volume": 25791,
       "dollars": 662052,
-      "rank": 3,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -48,7 +60,7 @@
       "price": 27.1,
       "volume": 21420,
       "dollars": 580482,
-      "rank": 4,
+      "rank": 5,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -70,16 +82,22 @@
       "rank": "2"
     },
     {
-      "price": 25.7,
+      "price": 21.3,
       "volume": 30000,
       "dollars": 0,
       "rank": "3"
     },
     {
+      "price": 25.7,
+      "volume": 30000,
+      "dollars": 0,
+      "rank": "4"
+    },
+    {
       "price": 27.1,
       "volume": 20000,
       "dollars": 0,
-      "rank": "4"
+      "rank": "5"
     }
   ],
   "boxes": []

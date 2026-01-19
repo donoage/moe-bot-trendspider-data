@@ -1,13 +1,19 @@
 {
   "metadata": {
     "ticker": "SLB",
-    "generated_at": "2026-01-01T10:56:51.986297+00:00Z",
-    "date_range": "2025-10-03 to 2026-01-01",
+    "generated_at": "2026-01-13T10:56:44.618202+00:00Z",
+    "date_range": "2025-10-15 to 2026-01-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
   "levels": [
+    {
+      "price": 41.0,
+      "volume": 80230000,
+      "dollars": 3290000000,
+      "rank": "1"
+    },
     {
       "price": 34.7,
       "volume": 80720000,
@@ -31,12 +37,6 @@
       "volume": 53210000,
       "dollars": 1910000000,
       "rank": "7"
-    },
-    {
-      "price": 33.5,
-      "volume": 50370000,
-      "dollars": 1690000000,
-      "rank": "8"
     }
   ],
   "boxes": [

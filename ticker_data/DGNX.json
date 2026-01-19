@@ -1,24 +1,12 @@
 {
   "metadata": {
     "ticker": "DGNX",
-    "generated_at": "2026-01-01T10:50:57.231290+00:00Z",
-    "date_range": "2025-10-03 to 2026-01-01",
+    "generated_at": "2026-01-13T10:50:34.941623+00:00Z",
+    "date_range": "2025-10-15 to 2026-01-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1759982400,
-      "price": 39.78,
-      "volume": 50234,
-      "dollars": 1998308,
-      "rank": 2,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1762142400,
       "price": 23.86,
@@ -32,59 +20,11 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1759896000,
-      "price": 30.0,
-      "volume": 34632,
-      "dollars": 1038960,
-      "rank": 5,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
       "timestamp": 1761883200,
       "price": 21.54,
       "volume": 44887,
       "dollars": 966865,
       "rank": 6,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1760328000,
-      "price": 27.19,
-      "volume": 31181,
-      "dollars": 847811,
-      "rank": 11,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1759896000,
-      "price": 30.28,
-      "volume": 24700,
-      "dollars": 747916,
-      "rank": 13,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1759809600,
-      "price": 22.7,
-      "volume": 32042,
-      "dollars": 727353,
-      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -130,12 +70,6 @@
   ],
   "levels": [
     {
-      "price": 39.8,
-      "volume": 50000,
-      "dollars": 0,
-      "rank": "2"
-    },
-    {
       "price": 6.3,
       "volume": 280000,
       "dollars": 0,
@@ -154,10 +88,16 @@
       "rank": "5"
     },
     {
-      "price": 30.0,
-      "volume": 30000,
+      "price": 21.5,
+      "volume": 40000,
       "dollars": 0,
-      "rank": "6"
+      "rank": "7"
+    },
+    {
+      "price": 6.7,
+      "volume": 130000,
+      "dollars": 0,
+      "rank": "8"
     }
   ],
   "boxes": []

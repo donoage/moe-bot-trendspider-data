@@ -1,17 +1,17 @@
 {
   "metadata": {
     "ticker": "IVES",
-    "generated_at": "2026-01-01T10:53:08.423182+00:00Z",
-    "date_range": "2025-10-03 to 2026-01-01",
+    "generated_at": "2026-01-13T10:52:54.961803+00:00Z",
+    "date_range": "2025-10-15 to 2026-01-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1759464000,
-      "price": 32.76,
-      "volume": 136529,
-      "dollars": 4472690,
+      "timestamp": 1767585600,
+      "price": 32.5,
+      "volume": 140654,
+      "dollars": 4571255,
       "rank": 2,
       "conditions": "",
       "exchange": "",
@@ -24,7 +24,7 @@
       "price": 31.28,
       "volume": 130503,
       "dollars": 4082133,
-      "rank": 3,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +36,7 @@
       "price": 33.01,
       "volume": 121046,
       "dollars": 3995728,
-      "rank": 4,
+      "rank": 5,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -48,7 +48,7 @@
       "price": 33.89,
       "volume": 106891,
       "dollars": 3622535,
-      "rank": 8,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -60,7 +60,7 @@
       "price": 32.88,
       "volume": 109628,
       "dollars": 3604568,
-      "rank": 9,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -72,7 +72,7 @@
       "price": 30.61,
       "volume": 110606,
       "dollars": 3385649,
-      "rank": 10,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -84,7 +84,19 @@
       "price": 32.25,
       "volume": 102046,
       "dollars": 3290983,
-      "rank": 12,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1767758400,
+      "price": 32.71,
+      "volume": 70203,
+      "dollars": 2296340,
+      "rank": 15,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,31 +108,19 @@
       "price": 30.14,
       "volume": 70621,
       "dollars": 2128516,
-      "rank": 16,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1760500800,
-      "price": 33.54,
-      "volume": 62285,
-      "dollars": 2089038,
-      "rank": 17,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1763438400,
-      "price": 31.0,
-      "volume": 60335,
-      "dollars": 1870385,
       "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1767585600,
+      "price": 32.51,
+      "volume": 64931,
+      "dollars": 2110893,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -130,26 +130,26 @@
   ],
   "levels": [
     {
+      "price": 32.5,
+      "volume": 470000,
+      "dollars": 20000000,
+      "rank": "1"
+    },
+    {
       "price": 32.3,
       "volume": 440000,
       "dollars": 10000000,
-      "rank": "1"
+      "rank": "2"
     },
     {
       "price": 31.2,
       "volume": 280000,
       "dollars": 10000000,
-      "rank": "4"
+      "rank": "5"
     },
     {
       "price": 31.3,
       "volume": 260000,
-      "dollars": 10000000,
-      "rank": "5"
-    },
-    {
-      "price": 32.5,
-      "volume": 230000,
       "dollars": 10000000,
       "rank": "6"
     },

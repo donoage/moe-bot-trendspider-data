@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "BYRN",
-    "generated_at": "2026-01-01T10:49:56.845047+00:00Z",
-    "date_range": "2025-10-03 to 2026-01-01",
+    "generated_at": "2026-01-13T10:59:33.159569+00:00Z",
+    "date_range": "2025-10-15 to 2026-01-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1767672000,
+      "price": 16.98,
+      "volume": 380875,
+      "dollars": 6467257,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 18.2,
@@ -27,16 +40,16 @@
       "rank": "4"
     },
     {
-      "price": 25.6,
-      "volume": 750000,
-      "dollars": 20000000,
-      "rank": "5"
-    },
-    {
       "price": 22.2,
       "volume": 860000,
       "dollars": 20000000,
       "rank": "6"
+    },
+    {
+      "price": 17.0,
+      "volume": 970000,
+      "dollars": 20000000,
+      "rank": "8"
     }
   ],
   "boxes": []

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "TJX",
-    "generated_at": "2026-01-01T10:57:49.664005+00:00Z",
-    "date_range": "2025-10-03 to 2026-01-01",
+    "generated_at": "2026-01-10T02:25:02.873251+00:00Z",
+    "date_range": "2025-10-11 to 2026-01-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -67,22 +67,22 @@
   "boxes": [
     {
       "box_number": 1,
+      "high_price": 158.39,
+      "low_price": 158.39,
+      "volume": 385550,
+      "dollars": 61065336,
+      "trades": 1,
+      "date_range": "2026-01-08",
+      "color": "blue"
+    },
+    {
+      "box_number": 2,
       "high_price": 144.15,
       "low_price": 144.15,
       "volume": 249700,
       "dollars": 35994255,
       "trades": 1,
       "date_range": "2025-10-22",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 142.7,
-      "low_price": 142.7,
-      "volume": 150000,
-      "dollars": 21405000,
-      "trades": 1,
-      "date_range": "2025-10-07",
       "color": "green"
     }
   ]
