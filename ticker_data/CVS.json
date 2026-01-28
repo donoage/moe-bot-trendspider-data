@@ -1,57 +1,13 @@
 {
   "metadata": {
     "ticker": "CVS",
-    "generated_at": "2026-01-13T10:50:15.390782+00:00Z",
-    "date_range": "2025-10-15 to 2026-01-13",
+    "generated_at": "2026-01-27T01:33:05.191051+00:00Z",
+    "date_range": "2025-10-28 to 2026-01-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1763697600,
-      "price": 77.74,
-      "volume": 6687500,
-      "dollars": 519886250,
-      "rank": 8,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
-  "levels": [
-    {
-      "price": 77.4,
-      "volume": 39710000,
-      "dollars": 3070000000,
-      "rank": "1"
-    },
-    {
-      "price": 74.4,
-      "volume": 38290000,
-      "dollars": 2850000000,
-      "rank": "2"
-    },
-    {
-      "price": 80.4,
-      "volume": 28670000,
-      "dollars": 2300000000,
-      "rank": "3"
-    },
-    {
-      "price": 78.9,
-      "volume": 29200000,
-      "dollars": 2300000000,
-      "rank": "4"
-    },
-    {
-      "price": 80.5,
-      "volume": 27460000,
-      "dollars": 2210000000,
-      "rank": "6"
-    }
-  ],
+  "prints": [],
+  "levels": [],
   "boxes": [
     {
       "box_number": 1,
@@ -82,6 +38,16 @@
       "trades": 2,
       "date_range": "2026-01-09",
       "color": "orange"
+    },
+    {
+      "box_number": 4,
+      "high_price": 80.1,
+      "low_price": 80.1,
+      "volume": 246500,
+      "dollars": 19744650,
+      "trades": 1,
+      "date_range": "2026-01-20",
+      "color": "red"
     }
   ]
 }

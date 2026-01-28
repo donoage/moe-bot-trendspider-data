@@ -1,56 +1,23 @@
 {
   "metadata": {
     "ticker": "ORLY",
-    "generated_at": "2026-01-13T10:55:01.020508+00:00Z",
-    "date_range": "2025-10-15 to 2026-01-13",
+    "generated_at": "2026-01-27T01:36:53.939032+00:00Z",
+    "date_range": "2025-10-28 to 2026-01-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
+  "prints": [],
+  "levels": [],
+  "boxes": [
     {
-      "timestamp": 1766116800,
-      "price": 91.0,
-      "volume": 4915847,
-      "dollars": 447342077,
-      "rank": 2,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
+      "box_number": 1,
+      "high_price": 99.12,
+      "low_price": 99.12,
+      "volume": 249200,
+      "dollars": 24700704,
+      "trades": 1,
+      "date_range": "2026-01-23",
+      "color": "blue"
     }
-  ],
-  "levels": [
-    {
-      "price": 91.0,
-      "volume": 10680000,
-      "dollars": 970000000,
-      "rank": "3"
-    },
-    {
-      "price": 91.2,
-      "volume": 9890000,
-      "dollars": 900000000,
-      "rank": "4"
-    },
-    {
-      "price": 89.9,
-      "volume": 8369999,
-      "dollars": 750000000,
-      "rank": "7"
-    },
-    {
-      "price": 89.3,
-      "volume": 8060000,
-      "dollars": 720000000,
-      "rank": "9"
-    },
-    {
-      "price": 91.6,
-      "volume": 7620000,
-      "dollars": 700000000,
-      "rank": "12"
-    }
-  ],
-  "boxes": []
+  ]
 }

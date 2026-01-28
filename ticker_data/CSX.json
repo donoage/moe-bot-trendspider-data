@@ -1,57 +1,13 @@
 {
   "metadata": {
     "ticker": "CSX",
-    "generated_at": "2026-01-13T10:50:12.142683+00:00Z",
-    "date_range": "2025-10-15 to 2026-01-13",
+    "generated_at": "2026-01-27T01:33:01.888020+00:00Z",
+    "date_range": "2025-10-28 to 2026-01-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1766116800,
-      "price": 36.5,
-      "volume": 7375392,
-      "dollars": 269201808,
-      "rank": 19,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
-  "levels": [
-    {
-      "price": 34.0,
-      "volume": 85470000,
-      "dollars": 2910000000,
-      "rank": "6"
-    },
-    {
-      "price": 35.3,
-      "volume": 74520000,
-      "dollars": 2630000000,
-      "rank": "9"
-    },
-    {
-      "price": 34.4,
-      "volume": 74640000,
-      "dollars": 2570000000,
-      "rank": "12"
-    },
-    {
-      "price": 34.6,
-      "volume": 70270000,
-      "dollars": 2430000000,
-      "rank": "16"
-    },
-    {
-      "price": 33.8,
-      "volume": 71090000,
-      "dollars": 2400000000,
-      "rank": "18"
-    }
-  ],
+  "prints": [],
+  "levels": [],
   "boxes": [
     {
       "box_number": 1,
@@ -75,23 +31,13 @@
     },
     {
       "box_number": 3,
-      "high_price": 36.82,
-      "low_price": 36.82,
-      "volume": 596718,
-      "dollars": 21971156,
-      "trades": 1,
-      "date_range": "2025-10-20",
-      "color": "orange"
-    },
-    {
-      "box_number": 4,
       "high_price": 35.91,
       "low_price": 35.91,
       "volume": 568000,
       "dollars": 20396880,
       "trades": 1,
       "date_range": "2025-12-04",
-      "color": "red"
+      "color": "orange"
     }
   ]
 }

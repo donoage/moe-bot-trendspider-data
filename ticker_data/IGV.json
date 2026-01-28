@@ -1,44 +1,13 @@
 {
   "metadata": {
     "ticker": "IGV",
-    "generated_at": "2026-01-13T10:52:32.649950+00:00Z",
-    "date_range": "2025-10-15 to 2026-01-13",
+    "generated_at": "2026-01-27T01:34:51.797624+00:00Z",
+    "date_range": "2025-10-28 to 2026-01-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [
-    {
-      "price": 106.8,
-      "volume": 5370000,
-      "dollars": 570000000,
-      "rank": "4"
-    },
-    {
-      "price": 102.7,
-      "volume": 5430000,
-      "dollars": 560000000,
-      "rank": "5"
-    },
-    {
-      "price": 103.8,
-      "volume": 5330000,
-      "dollars": 550000000,
-      "rank": "6"
-    },
-    {
-      "price": 103.1,
-      "volume": 4380000,
-      "dollars": 450000000,
-      "rank": "10"
-    },
-    {
-      "price": 103.4,
-      "volume": 3970000,
-      "dollars": 410000000,
-      "rank": "16"
-    }
-  ],
+  "levels": [],
   "boxes": [
     {
       "box_number": 1,
@@ -52,32 +21,32 @@
     },
     {
       "box_number": 2,
+      "high_price": 98.22,
+      "low_price": 95.91,
+      "volume": 779922,
+      "dollars": 75524554,
+      "trades": 4,
+      "date_range": "2026-01-20 to 2026-01-23",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 102.13,
       "low_price": 102.13,
       "volume": 723721,
       "dollars": 73913625,
       "trades": 1,
       "date_range": "2025-11-24",
-      "color": "green"
+      "color": "orange"
     },
     {
-      "box_number": 3,
+      "box_number": 4,
       "high_price": 108.45,
       "low_price": 108.4,
       "volume": 430938,
       "dollars": 46724438,
       "trades": 2,
       "date_range": "2025-11-13 to 2025-11-14",
-      "color": "orange"
-    },
-    {
-      "box_number": 4,
-      "high_price": 113.83,
-      "low_price": 113.83,
-      "volume": 318585,
-      "dollars": 36264530,
-      "trades": 1,
-      "date_range": "2025-10-21",
       "color": "red"
     },
     {

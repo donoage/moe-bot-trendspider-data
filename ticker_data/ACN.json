@@ -1,56 +1,23 @@
 {
   "metadata": {
     "ticker": "ACN",
-    "generated_at": "2026-01-15T01:36:19.572979+00:00Z",
-    "date_range": "2025-10-16 to 2026-01-14",
+    "generated_at": "2026-01-27T01:30:11.816591+00:00Z",
+    "date_range": "2025-10-28 to 2026-01-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
+  "prints": [],
+  "levels": [],
+  "boxes": [
     {
-      "timestamp": 1766116800,
-      "price": 272.25,
-      "volume": 2511466,
-      "dollars": 683746618,
-      "rank": 11,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
+      "box_number": 1,
+      "high_price": 286.55,
+      "low_price": 280.84,
+      "volume": 354377,
+      "dollars": 100776665,
+      "trades": 3,
+      "date_range": "2026-01-15 to 2026-01-22",
+      "color": "blue"
     }
-  ],
-  "levels": [
-    {
-      "price": 239.7,
-      "volume": 6500000,
-      "dollars": 1560000000,
-      "rank": "4"
-    },
-    {
-      "price": 272.3,
-      "volume": 4760000,
-      "dollars": 1300000000,
-      "rank": "8"
-    },
-    {
-      "price": 280.1,
-      "volume": 4380000,
-      "dollars": 1230000000,
-      "rank": "12"
-    },
-    {
-      "price": 266.3,
-      "volume": 4040000,
-      "dollars": 1080000000,
-      "rank": "17"
-    },
-    {
-      "price": 285.4,
-      "volume": 3580000,
-      "dollars": 1020000000,
-      "rank": "18"
-    }
-  ],
-  "boxes": []
+  ]
 }

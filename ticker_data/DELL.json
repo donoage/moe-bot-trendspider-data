@@ -1,57 +1,13 @@
 {
   "metadata": {
     "ticker": "DELL",
-    "generated_at": "2026-01-13T10:50:32.961642+00:00Z",
-    "date_range": "2025-10-15 to 2026-01-13",
+    "generated_at": "2026-01-27T01:33:19.538110+00:00Z",
+    "date_range": "2025-10-28 to 2026-01-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1766116800,
-      "price": 126.42,
-      "volume": 2001746,
-      "dollars": 253060729,
-      "rank": 16,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
-  "levels": [
-    {
-      "price": 117.5,
-      "volume": 59030000,
-      "dollars": 6940000000,
-      "rank": "1"
-    },
-    {
-      "price": 137.9,
-      "volume": 13120000,
-      "dollars": 1810000000,
-      "rank": "2"
-    },
-    {
-      "price": 139.6,
-      "volume": 4700000,
-      "dollars": 660000000,
-      "rank": "7"
-    },
-    {
-      "price": 124.0,
-      "volume": 5190000,
-      "dollars": 640000000,
-      "rank": "8"
-    },
-    {
-      "price": 115.8,
-      "volume": 5440000,
-      "dollars": 630000000,
-      "rank": "9"
-    }
-  ],
+  "prints": [],
+  "levels": [],
   "boxes": [
     {
       "box_number": 1,
@@ -85,13 +41,23 @@
     },
     {
       "box_number": 4,
+      "high_price": 113.9,
+      "low_price": 113.9,
+      "volume": 211792,
+      "dollars": 24123108,
+      "trades": 1,
+      "date_range": "2026-01-20",
+      "color": "red"
+    },
+    {
+      "box_number": 5,
       "high_price": 126.57,
       "low_price": 126.57,
       "volume": 182996,
       "dollars": 23161803,
       "trades": 1,
       "date_range": "2025-12-22",
-      "color": "red"
+      "color": "purple"
     }
   ]
 }

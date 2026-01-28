@@ -1,57 +1,13 @@
 {
   "metadata": {
     "ticker": "HD",
-    "generated_at": "2026-01-13T10:52:06.077695+00:00Z",
-    "date_range": "2025-10-15 to 2026-01-13",
+    "generated_at": "2026-01-27T01:34:30.274176+00:00Z",
+    "date_range": "2025-10-28 to 2026-01-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1766116800,
-      "price": 345.0,
-      "volume": 4683707,
-      "dollars": 1615878915,
-      "rank": 6,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
-  "levels": [
-    {
-      "price": 373.2,
-      "volume": 7830000,
-      "dollars": 2920000000,
-      "rank": "3"
-    },
-    {
-      "price": 345.0,
-      "volume": 8060000,
-      "dollars": 2780000000,
-      "rank": "4"
-    },
-    {
-      "price": 354.0,
-      "volume": 6820000,
-      "dollars": 2420000000,
-      "rank": "8"
-    },
-    {
-      "price": 346.6,
-      "volume": 6480000,
-      "dollars": 2240000000,
-      "rank": "10"
-    },
-    {
-      "price": 388.0,
-      "volume": 5690000,
-      "dollars": 2210000000,
-      "rank": "11"
-    }
-  ],
+  "prints": [],
+  "levels": [],
   "boxes": [
     {
       "box_number": 1,
@@ -65,23 +21,33 @@
     },
     {
       "box_number": 2,
+      "high_price": 376.25,
+      "low_price": 376.25,
+      "volume": 251760,
+      "dollars": 94724700,
+      "trades": 1,
+      "date_range": "2026-01-21",
+      "color": "green"
+    },
+    {
+      "box_number": 3,
       "high_price": 352.0,
       "low_price": 352.0,
       "volume": 224196,
       "dollars": 78916992,
       "trades": 1,
       "date_range": "2025-12-05",
-      "color": "green"
+      "color": "orange"
     },
     {
-      "box_number": 3,
+      "box_number": 4,
       "high_price": 338.0,
       "low_price": 338.0,
       "volume": 74640,
       "dollars": 25228320,
       "trades": 1,
       "date_range": "2025-11-19",
-      "color": "orange"
+      "color": "red"
     }
   ]
 }

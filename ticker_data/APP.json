@@ -1,68 +1,23 @@
 {
   "metadata": {
     "ticker": "APP",
-    "generated_at": "2026-01-15T01:37:16.502539+00:00Z",
-    "date_range": "2025-10-16 to 2026-01-14",
+    "generated_at": "2026-01-27T01:30:48.232263+00:00Z",
+    "date_range": "2025-10-28 to 2026-01-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
+  "prints": [],
+  "levels": [],
+  "boxes": [
     {
-      "timestamp": 1766116800,
-      "price": 721.37,
-      "volume": 2259066,
-      "dollars": 1629622440,
-      "rank": 6,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1763956800,
-      "price": 559.8,
-      "volume": 1166746,
-      "dollars": 653144410,
-      "rank": 17,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
+      "box_number": 1,
+      "high_price": 564.34,
+      "low_price": 564.34,
+      "volume": 68097,
+      "dollars": 38429895,
+      "trades": 1,
+      "date_range": "2026-01-20",
+      "color": "blue"
     }
-  ],
-  "levels": [
-    {
-      "price": 649.6,
-      "volume": 58660000,
-      "dollars": 38100000000,
-      "rank": "1"
-    },
-    {
-      "price": 721.4,
-      "volume": 2860000,
-      "dollars": 2060000000,
-      "rank": "4"
-    },
-    {
-      "price": 559.8,
-      "volume": 1270000,
-      "dollars": 710000000,
-      "rank": "14"
-    },
-    {
-      "price": 643.5,
-      "volume": 1070000,
-      "dollars": 690000000,
-      "rank": "15"
-    },
-    {
-      "price": 500.0,
-      "volume": 1240000,
-      "dollars": 620000000,
-      "rank": "16"
-    }
-  ],
-  "boxes": []
+  ]
 }

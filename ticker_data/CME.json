@@ -1,56 +1,23 @@
 {
   "metadata": {
     "ticker": "CME",
-    "generated_at": "2026-01-13T10:59:47.278994+00:00Z",
-    "date_range": "2025-10-15 to 2026-01-13",
+    "generated_at": "2026-01-27T01:32:04.583001+00:00Z",
+    "date_range": "2025-10-28 to 2026-01-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
+  "prints": [],
+  "levels": [],
+  "boxes": [
     {
-      "timestamp": 1763956800,
-      "price": 275.68,
-      "volume": 1476579,
-      "dollars": 407063298,
-      "rank": 14,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
+      "box_number": 1,
+      "high_price": 267.55,
+      "low_price": 266.85,
+      "volume": 174501,
+      "dollars": 46617951,
+      "trades": 2,
+      "date_range": "2026-01-13",
+      "color": "blue"
     }
-  ],
-  "levels": [
-    {
-      "price": 274.0,
-      "volume": 6190000,
-      "dollars": 1700000000,
-      "rank": "2"
-    },
-    {
-      "price": 263.4,
-      "volume": 4670000,
-      "dollars": 1230000000,
-      "rank": "4"
-    },
-    {
-      "price": 261.5,
-      "volume": 3500000,
-      "dollars": 910000000,
-      "rank": "9"
-    },
-    {
-      "price": 275.6,
-      "volume": 3140000,
-      "dollars": 870000000,
-      "rank": "10"
-    },
-    {
-      "price": 275.7,
-      "volume": 2380000,
-      "dollars": 660000000,
-      "rank": "21"
-    }
-  ],
-  "boxes": []
+  ]
 }

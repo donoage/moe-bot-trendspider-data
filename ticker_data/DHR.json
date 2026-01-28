@@ -1,44 +1,13 @@
 {
   "metadata": {
     "ticker": "DHR",
-    "generated_at": "2026-01-13T10:50:36.567956+00:00Z",
-    "date_range": "2025-10-15 to 2026-01-13",
+    "generated_at": "2026-01-27T01:33:21.868835+00:00Z",
+    "date_range": "2025-10-28 to 2026-01-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [
-    {
-      "price": 226.3,
-      "volume": 10530000,
-      "dollars": 2380000000,
-      "rank": "5"
-    },
-    {
-      "price": 203.6,
-      "volume": 10600000,
-      "dollars": 2160000000,
-      "rank": "12"
-    },
-    {
-      "price": 227.2,
-      "volume": 6190000,
-      "dollars": 1410000000,
-      "rank": "20"
-    },
-    {
-      "price": 224.8,
-      "volume": 5830000,
-      "dollars": 1310000000,
-      "rank": "21"
-    },
-    {
-      "price": 226.8,
-      "volume": 5100000,
-      "dollars": 1160000000,
-      "rank": "28"
-    }
-  ],
+  "levels": [],
   "boxes": [
     {
       "box_number": 1,
@@ -49,6 +18,16 @@
       "trades": 1,
       "date_range": "2025-11-07",
       "color": "blue"
+    },
+    {
+      "box_number": 2,
+      "high_price": 236.9,
+      "low_price": 236.9,
+      "volume": 99168,
+      "dollars": 23492899,
+      "trades": 1,
+      "date_range": "2026-01-26",
+      "color": "green"
     }
   ]
 }

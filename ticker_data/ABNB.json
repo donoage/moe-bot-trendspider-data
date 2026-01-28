@@ -1,56 +1,23 @@
 {
   "metadata": {
     "ticker": "ABNB",
-    "generated_at": "2026-01-15T01:36:15.880586+00:00Z",
-    "date_range": "2025-10-16 to 2026-01-14",
+    "generated_at": "2026-01-27T01:30:08.134903+00:00Z",
+    "date_range": "2025-10-28 to 2026-01-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
+  "prints": [],
+  "levels": [],
+  "boxes": [
     {
-      "timestamp": 1766116800,
-      "price": 135.28,
-      "volume": 3565414,
-      "dollars": 482329205,
-      "rank": 14,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
+      "box_number": 1,
+      "high_price": 132.5,
+      "low_price": 132.5,
+      "volume": 174223,
+      "dollars": 23084547,
+      "trades": 1,
+      "date_range": "2026-01-15",
+      "color": "blue"
     }
-  ],
-  "levels": [
-    {
-      "price": 134.2,
-      "volume": 11600000,
-      "dollars": 1560000000,
-      "rank": "5"
-    },
-    {
-      "price": 137.0,
-      "volume": 8850000,
-      "dollars": 1210000000,
-      "rank": "8"
-    },
-    {
-      "price": 118.8,
-      "volume": 9140000,
-      "dollars": 1090000000,
-      "rank": "9"
-    },
-    {
-      "price": 135.3,
-      "volume": 7570000,
-      "dollars": 1020000000,
-      "rank": "10"
-    },
-    {
-      "price": 132.2,
-      "volume": 6950000,
-      "dollars": 920000000,
-      "rank": "12"
-    }
-  ],
-  "boxes": []
+  ]
 }

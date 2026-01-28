@@ -1,57 +1,13 @@
 {
   "metadata": {
     "ticker": "BMY",
-    "generated_at": "2026-01-15T01:38:41.535804+00:00Z",
-    "date_range": "2025-10-16 to 2026-01-14",
+    "generated_at": "2026-01-27T01:31:35.966847+00:00Z",
+    "date_range": "2025-10-28 to 2026-01-26",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1766116800,
-      "price": 54.19,
-      "volume": 12270967,
-      "dollars": 664963701,
-      "rank": 14,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
-  "levels": [
-    {
-      "price": 56.4,
-      "volume": 202430000,
-      "dollars": 11420000000,
-      "rank": "1"
-    },
-    {
-      "price": 52.3,
-      "volume": 150970000,
-      "dollars": 7900000000,
-      "rank": "2"
-    },
-    {
-      "price": 50.0,
-      "volume": 82060000,
-      "dollars": 4099999999,
-      "rank": "3"
-    },
-    {
-      "price": 46.9,
-      "volume": 82010000,
-      "dollars": 3840000000,
-      "rank": "4"
-    },
-    {
-      "price": 50.9,
-      "volume": 74700000,
-      "dollars": 3800000000,
-      "rank": "5"
-    }
-  ],
+  "prints": [],
+  "levels": [],
   "boxes": [
     {
       "box_number": 1,
@@ -75,23 +31,13 @@
     },
     {
       "box_number": 3,
-      "high_price": 43.3,
-      "low_price": 43.3,
-      "volume": 447999,
-      "dollars": 19398356,
-      "trades": 1,
-      "date_range": "2025-10-17",
-      "color": "orange"
-    },
-    {
-      "box_number": 4,
       "high_price": 49.6,
       "low_price": 49.6,
       "volume": 380476,
       "dollars": 18871609,
       "trades": 1,
       "date_range": "2025-11-13",
-      "color": "red"
+      "color": "orange"
     }
   ]
 }
