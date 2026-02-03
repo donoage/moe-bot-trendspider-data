@@ -386,7 +386,10 @@ def fetch_support_resistance_batch(tickers_batch, start_date, end_date):
                     ticker_levels = {ticker: [] for ticker in tickers_batch}
                     
                     for level in result['data']:
-                        ticker = level.get('Ticker', '')
+                        ticker = level.get('Ticker', '') or level.get('ticker', '')
+                        # If Ticker is null/None (single-ticker request), assign to first ticker in batch
+                        if not ticker and len(tickers_batch) == 1:
+                            ticker = tickers_batch[0]
                         if ticker not in ticker_levels:
                             continue
                         
@@ -888,24 +891,24 @@ def process_ticker(ticker, start_date, end_date, output_dir, batch_prints_cache=
     
     # Process sequentially to avoid nested thread pool issues and resource leaks
     try:
-        # Use batch caches if available, otherwise fetch individually
-        # Force individual processing for prints to avoid batch hanging issues
-        # if batch_prints_cache and ticker in batch_prints_cache and batch_prints_cache[ticker] is not None:
-        #     prints = batch_prints_cache[ticker]
-        # else:
-        prints = fetch_big_prints_for_ticker(ticker, start_date, end_date)
+        # Use batch caches if available (now works with XSRF token as of Jan 2026)
+        if batch_prints_cache and ticker in batch_prints_cache and batch_prints_cache[ticker] is not None:
+            prints = batch_prints_cache[ticker]
+        else:
+            prints = fetch_big_prints_for_ticker(ticker, start_date, end_date)
         
-        # Force individual processing for levels since batch processing has issues
-        # if batch_levels_cache and ticker in batch_levels_cache and batch_levels_cache[ticker] is not None:
-        #     levels = batch_levels_cache[ticker]
-        # else:
-        levels = fetch_support_resistance_for_ticker(ticker, start_date, end_date)
+        # Use batch cache for levels (now works with XSRF token)
+        if batch_levels_cache and ticker in batch_levels_cache and batch_levels_cache[ticker] is not None:
+            levels = batch_levels_cache[ticker]
+        else:
+            levels = fetch_support_resistance_for_ticker(ticker, start_date, end_date)
         
-        # Force individual processing for boxes to avoid batch hanging issues
-        # if batch_boxes_cache and ticker in batch_boxes_cache and batch_boxes_cache[ticker] is not None:
-        #     boxes = batch_boxes_cache[ticker]
-        # else:
-        boxes = fetch_price_boxes_for_ticker(ticker, start_date, end_date)
+        # Use batch cache for boxes
+        if batch_boxes_cache and ticker in batch_boxes_cache and batch_boxes_cache[ticker] is not None:
+            boxes = batch_boxes_cache[ticker]
+        else:
+            boxes = fetch_price_boxes_for_ticker(ticker, start_date, end_date)
+
     except Exception as e:
         print(f"\n✗ Error fetching data for {ticker}: {e}")
         return False
@@ -996,27 +999,28 @@ def main():
     
     print(f"✅ Big prints batch fetch complete! {len(batch_prints_cache)} tickers cached\n")
     
-    # Fetch all support/resistance levels in batches
+    # Fetch all support/resistance levels - NOTE: API only supports single ticker, so we iterate
     print(f"\n🎯 FETCHING SUPPORT/RESISTANCE LEVELS")
-    print(f"   Fetching levels for {len(tickers)} tickers in {num_batches} batches")
-    print(f"   API calls reduction: {len(tickers)} → {num_batches} calls (-{100 * (1 - num_batches / len(tickers)):.1f}%)")
+    print(f"   Fetching levels for {len(tickers)} tickers (one at a time - API limitation)")
     
     batch_levels_cache = {}
-    for i, batch in enumerate(batches, 1):
-        print(f"   📊 Fetching levels batch {i}/{num_batches} ({len(batch)} tickers)...", end='', flush=True)
+    for i, ticker in enumerate(tickers, 1):
+        if i % 10 == 0 or i == len(tickers):
+            print(f"   📊 Fetching levels {i}/{len(tickers)}...", flush=True)
         try:
-            batch_results = fetch_support_resistance_batch(batch, start_date, end_date)
+            # Fetch single ticker at a time (API doesn't support true batch)
+            batch_results = fetch_support_resistance_batch([ticker], start_date, end_date)
             batch_levels_cache.update(batch_results)
-            print(f" ✓")
         except Exception as e:
-            print(f" ✗ Error: {e}")
-            for ticker in batch:
-                batch_levels_cache[ticker] = None
+            print(f" ✗ Error fetching {ticker}: {e}")
+            batch_levels_cache[ticker] = None
         
-        if i < num_batches:
-            time.sleep(1)
+        # Small delay every 10 tickers to avoid rate limiting
+        if i % 10 == 0:
+            time.sleep(0.5)
     
-    print(f"✅ Levels batch fetch complete! {len(batch_levels_cache)} tickers cached\n")
+    print(f"✅ Levels fetch complete! {len(batch_levels_cache)} tickers cached\n")
+
     
     # Fetch all price boxes in batches
     print(f"\n🎯 FETCHING PRICE BOXES")
