@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "BMY",
-    "generated_at": "2026-01-27T01:31:35.966847+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-01-31T01:31:49.174884+00:00Z",
+    "date_range": "2025-11-01 to 2026-01-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -31,13 +31,23 @@
     },
     {
       "box_number": 3,
+      "high_price": 54.85,
+      "low_price": 54.85,
+      "volume": 558142,
+      "dollars": 30614088,
+      "trades": 1,
+      "date_range": "2026-01-30",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
       "high_price": 49.6,
       "low_price": 49.6,
       "volume": 380476,
       "dollars": 18871609,
       "trades": 1,
       "date_range": "2025-11-13",
-      "color": "orange"
+      "color": "red"
     }
   ]
 }

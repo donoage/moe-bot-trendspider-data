@@ -1,12 +1,23 @@
 {
   "metadata": {
     "ticker": "ELV",
-    "generated_at": "2026-01-27T01:33:33.368615+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-01-31T01:33:50.257283+00:00Z",
+    "date_range": "2025-11-01 to 2026-01-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
   "levels": [],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 335.0,
+      "low_price": 333.0,
+      "volume": 181993,
+      "dollars": 60767655,
+      "trades": 2,
+      "date_range": "2026-01-27",
+      "color": "blue"
+    }
+  ]
 }

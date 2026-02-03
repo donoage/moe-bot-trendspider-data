@@ -93,19 +93,21 @@ def load_ticker_list():
         print(f"Error: Invalid JSON in volumeleaders_config.json: {e}")
         return []
 
+# Import VL auth utilities from moe-bot shared module
+sys.path.insert(0, str(Path(__file__).parent.parent / 'moe-bot'))
+from shared.vl_auth import get_vl_cookie, get_vl_xsrf_token, get_vl_headers, check_vl_auth_ready
+
 def get_cookies():
-    """Load cookies from cookies.json file"""
-    try:
-        cookies_file = Path("/Users/stephenbae/Projects/moe-bot/cookies.json")
-        with open(cookies_file, 'r') as f:
-            cookies_list = json.load(f)
-            # Convert the list to a cookie string
-            cookie_header = "; ".join([f"{cookie['name']}={cookie['value']}" for cookie in cookies_list])
-            return cookie_header
-    except (FileNotFoundError, json.JSONDecodeError) as e:
-        print(f"Error loading cookies.json: {e}")
-        print("Please make sure cookies.json exists and is properly formatted")
-        sys.exit(1)
+    """Load cookies from cookie_string.txt or cookies.json file (legacy compatibility)"""
+    return get_vl_cookie()
+
+def get_xsrf_token():
+    """Load XSRF token (required as of Jan 2026)"""
+    return get_vl_xsrf_token()
+
+def get_auth_headers(referer_ticker="", start_date="", end_date=""):
+    """Get complete headers with cookie and XSRF token for VL API requests"""
+    return get_vl_headers(referer_ticker=referer_ticker, start_date=start_date, end_date=end_date)
 
 def convert_dotnet_timestamp(timestamp_str):
     """Convert /Date(1748563200000)/ format to Unix timestamp with timezone adjustment"""
@@ -154,6 +156,9 @@ def fetch_big_prints_batch(tickers_batch, start_date, end_date):
     # Join tickers with comma for batch request
     tickers_str = ",".join(tickers_batch)
     
+    # Get XSRF token (required as of Jan 2026)
+    xsrf_token = get_xsrf_token()
+    
     headers = {
         "Accept": "application/json, text/javascript, */*; q=0.01",
         "Accept-Language": "en-US,en;q=0.9",
@@ -163,6 +168,10 @@ def fetch_big_prints_batch(tickers_batch, start_date, end_date):
         "X-Requested-With": "XMLHttpRequest",
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
     }
+    
+    # Add XSRF token if available
+    if xsrf_token:
+        headers["x-xsrf-token"] = xsrf_token
 
     # Column definitions for the API
     columns = [
@@ -294,8 +303,9 @@ def fetch_big_prints_batch(tickers_batch, start_date, end_date):
 def fetch_support_resistance_batch(tickers_batch, start_date, end_date):
     """Fetch support/resistance levels for a batch of tickers in a single API call"""
     
-    # Get cookies
+    # Get cookies and XSRF token
     cookie_header = get_cookies()
+    xsrf_token = get_xsrf_token()
     
     # Join tickers with comma
     tickers_str = ",".join(tickers_batch)
@@ -309,6 +319,10 @@ def fetch_support_resistance_batch(tickers_batch, start_date, end_date):
         "X-Requested-With": "XMLHttpRequest",
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
     }
+    
+    # Add XSRF token if available
+    if xsrf_token:
+        headers["x-xsrf-token"] = xsrf_token
     
     data = {
         "draw": "1",
@@ -407,8 +421,9 @@ def fetch_support_resistance_batch(tickers_batch, start_date, end_date):
 def fetch_price_boxes_batch(tickers_batch, start_date, end_date):
     """Fetch price boxes for a batch of tickers in a single API call"""
     
-    # Get cookies
+    # Get cookies and XSRF token
     cookie_header = get_cookies()
+    xsrf_token = get_xsrf_token()
     
     # Join tickers with comma
     tickers_str = ",".join(tickers_batch)
@@ -422,6 +437,11 @@ def fetch_price_boxes_batch(tickers_batch, start_date, end_date):
         "x-requested-with": "XMLHttpRequest"
     }
     
+    # Add XSRF token if available
+    if xsrf_token:
+        headers["x-xsrf-token"] = xsrf_token
+    
+
     # Column definitions
     columns = []
     for i, (data_field, name) in enumerate([
@@ -531,8 +551,9 @@ def fetch_price_boxes_batch(tickers_batch, start_date, end_date):
 def fetch_big_prints_for_ticker(ticker, start_date, end_date):
     """Fetch big prints (rank 20 or better) for a single ticker"""
     
-    # Get cookies
+    # Get cookies and XSRF token
     cookie_header = get_cookies()
+    xsrf_token = get_xsrf_token()
     
     headers = {
         "Accept": "application/json, text/javascript, */*; q=0.01",
@@ -543,6 +564,10 @@ def fetch_big_prints_for_ticker(ticker, start_date, end_date):
         "X-Requested-With": "XMLHttpRequest",
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
     }
+    
+    # Add XSRF token if available
+    if xsrf_token:
+        headers["x-xsrf-token"] = xsrf_token
 
     # Column definitions for the API
     columns = [

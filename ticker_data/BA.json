@@ -1,12 +1,23 @@
 {
   "metadata": {
     "ticker": "BA",
-    "generated_at": "2026-01-27T01:31:15.227335+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-01-31T01:31:22.655299+00:00Z",
+    "date_range": "2025-11-01 to 2026-01-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
   "levels": [],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 245.45,
+      "low_price": 245.45,
+      "volume": 123655,
+      "dollars": 30351119,
+      "trades": 1,
+      "date_range": "2026-01-28",
+      "color": "blue"
+    }
+  ]
 }

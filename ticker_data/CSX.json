@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "CSX",
-    "generated_at": "2026-01-27T01:33:01.888020+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-01-31T01:33:21.836550+00:00Z",
+    "date_range": "2025-11-01 to 2026-01-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -31,13 +31,23 @@
     },
     {
       "box_number": 3,
+      "high_price": 37.49,
+      "low_price": 37.49,
+      "volume": 599770,
+      "dollars": 22485377,
+      "trades": 1,
+      "date_range": "2026-01-28",
+      "color": "orange"
+    },
+    {
+      "box_number": 4,
       "high_price": 35.91,
       "low_price": 35.91,
       "volume": 568000,
       "dollars": 20396880,
       "trades": 1,
       "date_range": "2025-12-04",
-      "color": "orange"
+      "color": "red"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "EFA",
-    "generated_at": "2026-01-27T01:33:33.468811+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-01-31T01:33:49.420907+00:00Z",
+    "date_range": "2025-11-01 to 2026-01-30",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -41,23 +41,33 @@
     },
     {
       "box_number": 4,
+      "high_price": 101.62,
+      "low_price": 101.62,
+      "volume": 435396,
+      "dollars": 44244941,
+      "trades": 1,
+      "date_range": "2026-01-29",
+      "color": "red"
+    },
+    {
+      "box_number": 5,
       "high_price": 92.45,
       "low_price": 91.99,
       "volume": 470019,
       "dollars": 43361490,
       "trades": 2,
       "date_range": "2025-11-20 to 2025-11-24",
-      "color": "red"
+      "color": "purple"
     },
     {
-      "box_number": 5,
+      "box_number": 6,
       "high_price": 99.38,
       "low_price": 99.38,
       "volume": 201365,
       "dollars": 20011653,
       "trades": 1,
       "date_range": "2026-01-15",
-      "color": "purple"
+      "color": "yellow"
     }
   ]
 }
