@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "CONL",
-    "generated_at": "2026-01-31T01:33:08.315507+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:07:05.510484+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1768881600,
+      "price": 14.47,
+      "volume": 1360000,
+      "dollars": 19679608,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763006400,
+      "price": 24.57,
+      "volume": 300000,
+      "dollars": 7371000,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1762488000,
+      "price": 29.29,
+      "volume": 250000,
+      "dollars": 7322500,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 25.9,
+      "volume": 1156811,
+      "dollars": 29940186,
+      "rank": 5
+    },
+    {
+      "price": 25.2,
+      "volume": 1187571,
+      "dollars": 29884984,
+      "rank": 6
+    },
+    {
+      "price": 14.5,
+      "volume": 1360000,
+      "dollars": 19679608,
+      "rank": 9
+    },
+    {
+      "price": 32.5,
+      "volume": 419974,
+      "dollars": 13650013,
+      "rank": 15
+    },
+    {
+      "price": 29.3,
+      "volume": 465040,
+      "dollars": 13618011,
+      "rank": 16
+    }
+  ],
   "boxes": []
 }

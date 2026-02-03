@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "EVEX",
-    "generated_at": "2026-01-31T01:34:05.120863+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:08:46.736142+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 4.8,
+      "volume": 3725484,
+      "dollars": 17882323,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 4.8,
+      "volume": 511385,
+      "dollars": 2454392,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 4.8,
+      "volume": 352546,
+      "dollars": 1692220,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 4.8,
+      "volume": 5474147,
+      "dollars": 26276750,
+      "rank": 1
+    },
+    {
+      "price": 4.0,
+      "volume": 3895832,
+      "dollars": 15581838,
+      "rank": 3
+    },
+    {
+      "price": 5.0,
+      "volume": 2668432,
+      "dollars": 13367845,
+      "rank": 4
+    },
+    {
+      "price": 4.6,
+      "volume": 1741399,
+      "dollars": 8028180,
+      "rank": 6
+    },
+    {
+      "price": 4.2,
+      "volume": 1091509,
+      "dollars": 4571743,
+      "rank": 8
+    }
+  ],
   "boxes": []
 }

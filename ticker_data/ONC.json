@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "ONC",
-    "generated_at": "2026-01-27T01:36:45.354382+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:14:19.966909+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 316.05,
+      "volume": 118409,
+      "dollars": 37423164,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765944000,
+      "price": 306.05,
+      "volume": 63760,
+      "dollars": 19513748,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1769140800,
+      "price": 339.32,
+      "volume": 52988,
+      "dollars": 17979888,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 316.1,
+      "volume": 217032,
+      "dollars": 68592963,
+      "rank": 2
+    },
+    {
+      "price": 301.1,
+      "volume": 187302,
+      "dollars": 56396681,
+      "rank": 4
+    },
+    {
+      "price": 306.1,
+      "volume": 163817,
+      "dollars": 50136192,
+      "rank": 5
+    },
+    {
+      "price": 321.4,
+      "volume": 85093,
+      "dollars": 27346276,
+      "rank": 15
+    },
+    {
+      "price": 316.4,
+      "volume": 81304,
+      "dollars": 25726211,
+      "rank": 18
+    }
+  ],
   "boxes": []
 }

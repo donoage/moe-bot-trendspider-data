@@ -1,33 +1,67 @@
 {
   "metadata": {
     "ticker": "ABBV",
-    "generated_at": "2026-02-03T00:44:42.071252+00:00Z",
+    "generated_at": "2026-02-03T02:03:48.302893+00:00Z",
     "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 226.82,
+      "volume": 6322597,
+      "dollars": 1434091451,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 226.8,
+      "volume": 10826647,
+      "dollars": 2455697806,
+      "rank": 8
+    },
+    {
+      "price": 222.5,
+      "volume": 9740923,
+      "dollars": 2167078809,
+      "rank": 11
+    },
+    {
+      "price": 210.0,
+      "volume": 10051820,
+      "dollars": 2110982558,
+      "rank": 12
+    },
+    {
+      "price": 230.2,
+      "volume": 7434679,
+      "dollars": 1711452303,
+      "rank": 16
+    },
+    {
+      "price": 209.0,
+      "volume": 7223825,
+      "dollars": 1509987381,
+      "rank": 30
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
       "high_price": 217.0,
-      "low_price": 217.0,
-      "volume": 699000,
-      "dollars": 151683000,
-      "trades": 1,
-      "date_range": "2026-01-21",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 215.0,
       "low_price": 214.9,
-      "volume": 310680,
-      "dollars": 66775132,
-      "trades": 2,
-      "date_range": "2026-01-16",
-      "color": "green"
+      "volume": 1009680,
+      "dollars": 218458132,
+      "trades": 3,
+      "date_range": "2025-11-04 to 2026-02-02",
+      "color": "#FF6B6B"
     }
   ]
 }

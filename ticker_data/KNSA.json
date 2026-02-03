@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "KNSA",
-    "generated_at": "2026-01-27T01:35:19.914931+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:11:52.525816+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1768968000,
+      "price": 41.83,
+      "volume": 409400,
+      "dollars": 17125202,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1769054400,
+      "price": 42.44,
+      "volume": 285838,
+      "dollars": 12130964,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1768190400,
+      "price": 41.87,
+      "volume": 286500,
+      "dollars": 11996041,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 41.8,
+      "volume": 791133,
+      "dollars": 33091567,
+      "rank": 9
+    },
+    {
+      "price": 41.6,
+      "volume": 679701,
+      "dollars": 28253947,
+      "rank": 18
+    },
+    {
+      "price": 42.0,
+      "volume": 662055,
+      "dollars": 27800955,
+      "rank": 19
+    },
+    {
+      "price": 42.4,
+      "volume": 613892,
+      "dollars": 26048729,
+      "rank": 20
+    },
+    {
+      "price": 42.7,
+      "volume": 513336,
+      "dollars": 21915671,
+      "rank": 31
+    }
+  ],
   "boxes": []
 }

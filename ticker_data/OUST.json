@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "OUST",
-    "generated_at": "2026-01-27T01:36:56.030852+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:15:02.959284+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 22.23,
+      "volume": 831993,
+      "dollars": 18495204,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 30.9,
+      "volume": 1528309,
+      "dollars": 47214967,
+      "rank": 5
+    },
+    {
+      "price": 24.1,
+      "volume": 1934751,
+      "dollars": 46635199,
+      "rank": 6
+    },
+    {
+      "price": 28.3,
+      "volume": 1232004,
+      "dollars": 34883359,
+      "rank": 8
+    },
+    {
+      "price": 21.5,
+      "volume": 1289315,
+      "dollars": 27746052,
+      "rank": 9
+    },
+    {
+      "price": 25.7,
+      "volume": 958272,
+      "dollars": 24630487,
+      "rank": 10
+    }
+  ],
   "boxes": []
 }

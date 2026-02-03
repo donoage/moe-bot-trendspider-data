@@ -1,13 +1,81 @@
 {
   "metadata": {
     "ticker": "BDX",
-    "generated_at": "2026-01-31T01:31:32.404032+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:05:25.725566+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 195.59,
+      "volume": 2082967,
+      "dollars": 407407515,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765771200,
+      "price": 200.09,
+      "volume": 1326575,
+      "dollars": 265434391,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765944000,
+      "price": 195.36,
+      "volume": 1234245,
+      "dollars": 241122103,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 195.6,
+      "volume": 3179752,
+      "dollars": 621937277,
+      "rank": 23
+    },
+    {
+      "price": 178.3,
+      "volume": 2916962,
+      "dollars": 520006870,
+      "rank": 40
+    },
+    {
+      "price": 195.4,
+      "volume": 2650962,
+      "dollars": 517910684,
+      "rank": 41
+    },
+    {
+      "price": 194.7,
+      "volume": 2510787,
+      "dollars": 488840082,
+      "rank": 56
+    },
+    {
+      "price": 184.9,
+      "volume": 2531878,
+      "dollars": 468061741,
+      "rank": 74
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
@@ -16,8 +84,8 @@
       "volume": 324575,
       "dollars": 67268168,
       "trades": 2,
-      "date_range": "2026-01-15",
-      "color": "blue"
+      "date_range": "2025-11-04 to 2026-02-02",
+      "color": "#FF6B6B"
     }
   ]
 }

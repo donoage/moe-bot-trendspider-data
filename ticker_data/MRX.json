@@ -1,13 +1,69 @@
 {
   "metadata": {
     "ticker": "MRX",
-    "generated_at": "2026-01-27T01:36:05.995577+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:13:34.645395+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1765252800,
+      "price": 39.35,
+      "volume": 543563,
+      "dollars": 21389204,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765771200,
+      "price": 38.07,
+      "volume": 289300,
+      "dollars": 11013651,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 40.0,
+      "volume": 5520012,
+      "dollars": 220854877,
+      "rank": 1
+    },
+    {
+      "price": 32.8,
+      "volume": 2759203,
+      "dollars": 90584825,
+      "rank": 2
+    },
+    {
+      "price": 39.2,
+      "volume": 1774689,
+      "dollars": 69543019,
+      "rank": 3
+    },
+    {
+      "price": 38.1,
+      "volume": 1400199,
+      "dollars": 53317965,
+      "rank": 4
+    },
+    {
+      "price": 38.8,
+      "volume": 1284387,
+      "dollars": 49846529,
+      "rank": 5
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
@@ -16,8 +72,8 @@
       "volume": 543563,
       "dollars": 21389204,
       "trades": 1,
-      "date_range": "2025-12-09",
-      "color": "blue"
+      "date_range": "2025-11-04 to 2026-02-02",
+      "color": "#FF6B6B"
     }
   ]
 }

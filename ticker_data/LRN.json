@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "LRN",
-    "generated_at": "2026-01-27T01:35:43.804601+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:12:48.022437+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 66.08,
+      "volume": 877598,
+      "dollars": 57991675,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 61.3,
+      "volume": 2370136,
+      "dollars": 145181475,
+      "rank": 3
+    },
+    {
+      "price": 66.1,
+      "volume": 1730260,
+      "dollars": 114353495,
+      "rank": 5
+    },
+    {
+      "price": 84.0,
+      "volume": 1289326,
+      "dollars": 108294630,
+      "rank": 6
+    },
+    {
+      "price": 85.0,
+      "volume": 1204535,
+      "dollars": 102384344,
+      "rank": 7
+    },
+    {
+      "price": 65.5,
+      "volume": 1511877,
+      "dollars": 98984704,
+      "rank": 8
+    }
+  ],
   "boxes": []
 }

@@ -1,12 +1,50 @@
 {
   "metadata": {
     "ticker": "BTM",
-    "generated_at": "2026-01-31T01:32:00.897635+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:06:13.795225+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1763092800,
+      "price": 2.04,
+      "volume": 465108,
+      "dollars": 948820,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763006400,
+      "price": 2.48,
+      "volume": 220854,
+      "dollars": 547717,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 2.0,
+      "volume": 465108,
+      "dollars": 948820,
+      "rank": 3
+    },
+    {
+      "price": 2.5,
+      "volume": 220854,
+      "dollars": 547717,
+      "rank": 6
+    }
+  ],
   "boxes": []
 }

@@ -1,43 +1,54 @@
 {
   "metadata": {
     "ticker": "DUK",
-    "generated_at": "2026-01-31T01:33:45.992596+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:07:55.551646+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
+  "levels": [
+    {
+      "price": 117.7,
+      "volume": 10697639,
+      "dollars": 1259176056,
+      "rank": 2
+    },
+    {
+      "price": 115.6,
+      "volume": 7986611,
+      "dollars": 923030830,
+      "rank": 24
+    },
+    {
+      "price": 116.4,
+      "volume": 6602497,
+      "dollars": 768424855,
+      "rank": 46
+    },
+    {
+      "price": 118.9,
+      "volume": 6185094,
+      "dollars": 735531079,
+      "rank": 51
+    },
+    {
+      "price": 117.4,
+      "volume": 6219564,
+      "dollars": 730327501,
+      "rank": 53
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
       "high_price": 121.15,
-      "low_price": 121.15,
-      "volume": 249900,
-      "dollars": 30275385,
-      "trades": 1,
-      "date_range": "2026-01-29",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 117.2,
       "low_price": 117.2,
-      "volume": 205063,
-      "dollars": 24033383,
-      "trades": 1,
-      "date_range": "2026-01-13",
-      "color": "green"
-    },
-    {
-      "box_number": 3,
-      "high_price": 117.6,
-      "low_price": 117.6,
-      "volume": 199600,
-      "dollars": 23472960,
-      "trades": 1,
-      "date_range": "2025-12-18",
-      "color": "orange"
+      "volume": 654563,
+      "dollars": 77781728,
+      "trades": 3,
+      "date_range": "2025-11-04 to 2026-02-02",
+      "color": "#FF6B6B"
     }
   ]
 }

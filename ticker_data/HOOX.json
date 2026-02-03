@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "HOOX",
-    "generated_at": "2026-01-31T01:35:06.535340+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:10:50.101679+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1764561600,
+      "price": 28.39,
+      "volume": 45060,
+      "dollars": 1279028,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1767153600,
+      "price": 21.29,
+      "volume": 47432,
+      "dollars": 1009827,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 13.9,
+      "volume": 105844,
+      "dollars": 1469643,
+      "rank": 1
+    },
+    {
+      "price": 26.7,
+      "volume": 48520,
+      "dollars": 1296818,
+      "rank": 2
+    },
+    {
+      "price": 28.4,
+      "volume": 45060,
+      "dollars": 1279028,
+      "rank": 3
+    },
+    {
+      "price": 21.3,
+      "volume": 47432,
+      "dollars": 1009827,
+      "rank": 4
+    },
+    {
+      "price": 14.5,
+      "volume": 58204,
+      "dollars": 841912,
+      "rank": 6
+    }
+  ],
   "boxes": []
 }

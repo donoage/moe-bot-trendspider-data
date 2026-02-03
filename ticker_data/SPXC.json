@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SPXC",
-    "generated_at": "2026-01-13T10:57:14.685898+00:00Z",
-    "date_range": "2025-10-15 to 2026-01-13",
+    "generated_at": "2026-02-03T02:17:15.614561+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -32,11 +32,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1768536000,
+      "price": 217.65,
+      "volume": 798997,
+      "dollars": 173901697,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1766116800,
       "price": 203.17,
       "volume": 439739,
       "dollars": 89341772,
-      "rank": 3,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -48,7 +60,7 @@
       "price": 203.17,
       "volume": 193598,
       "dollars": 39333402,
-      "rank": 13,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -60,7 +72,7 @@
       "price": 211.97,
       "volume": 135554,
       "dollars": 28733381,
-      "rank": 19,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -71,33 +83,33 @@
   "levels": [
     {
       "price": 203.2,
-      "volume": 7690000,
-      "dollars": 1560000000,
-      "rank": "1"
+      "volume": 7693117,
+      "dollars": 1563010253,
+      "rank": 1
     },
     {
-      "price": 188.0,
-      "volume": 760000,
-      "dollars": 140000000,
-      "rank": "2"
+      "price": 217.7,
+      "volume": 898367,
+      "dollars": 195533552,
+      "rank": 2
     },
     {
-      "price": 186.6,
-      "volume": 560000,
-      "dollars": 100000000,
-      "rank": "4"
-    },
-    {
-      "price": 186.4,
-      "volume": 370000,
-      "dollars": 70000000,
-      "rank": "8"
+      "price": 212.0,
+      "volume": 228300,
+      "dollars": 48397793,
+      "rank": 15
     },
     {
       "price": 191.9,
-      "volume": 230000,
-      "dollars": 40000000,
-      "rank": "17"
+      "volume": 230170,
+      "dollars": 44165019,
+      "rank": 19
+    },
+    {
+      "price": 207.3,
+      "volume": 178791,
+      "dollars": 37066775,
+      "rank": 32
     }
   ],
   "boxes": []

@@ -1,12 +1,50 @@
 {
   "metadata": {
     "ticker": "MSTW",
-    "generated_at": "2026-01-27T01:36:12.009631+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:13:34.647581+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1763697600,
+      "price": 12.55,
+      "volume": 563710,
+      "dollars": 7074560,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 11.26,
+      "volume": 90730,
+      "dollars": 1021619,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 12.6,
+      "volume": 563710,
+      "dollars": 7074560,
+      "rank": 1
+    },
+    {
+      "price": 11.3,
+      "volume": 90730,
+      "dollars": 1021619,
+      "rank": 5
+    }
+  ],
   "boxes": []
 }

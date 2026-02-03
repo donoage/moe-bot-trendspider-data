@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "MGC",
-    "generated_at": "2026-01-27T01:35:53.793935+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:12:48.029461+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1765857600,
+      "price": 249.48,
+      "volume": 3174147,
+      "dollars": 791875401,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1769659200,
+      "price": 254.48,
+      "volume": 1319113,
+      "dollars": 335686557,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765425600,
+      "price": 252.04,
+      "volume": 164684,
+      "dollars": 41506955,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 249.5,
+      "volume": 3174147,
+      "dollars": 791875401,
+      "rank": 1
+    },
+    {
+      "price": 254.5,
+      "volume": 1319113,
+      "dollars": 335686557,
+      "rank": 2
+    },
+    {
+      "price": 245.5,
+      "volume": 810987,
+      "dollars": 199078874,
+      "rank": 3
+    },
+    {
+      "price": 252.0,
+      "volume": 164684,
+      "dollars": 41506955,
+      "rank": 21
+    },
+    {
+      "price": 242.0,
+      "volume": 167817,
+      "dollars": 40611951,
+      "rank": 22
+    }
+  ],
   "boxes": []
 }

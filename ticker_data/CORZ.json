@@ -1,12 +1,104 @@
 {
   "metadata": {
     "ticker": "CORZ",
-    "generated_at": "2026-01-31T01:33:10.550851+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:07:05.513724+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 15.6,
+      "volume": 3447407,
+      "dollars": 53779549,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765857600,
+      "price": 14.73,
+      "volume": 3000000,
+      "dollars": 44190000,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763956800,
+      "price": 15.75,
+      "volume": 2494694,
+      "dollars": 39291430,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765944000,
+      "price": 13.57,
+      "volume": 2193791,
+      "dollars": 29769743,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766030400,
+      "price": 14.56,
+      "volume": 1977423,
+      "dollars": 28791278,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 16.7,
+      "volume": 25470387,
+      "dollars": 424476110,
+      "rank": 1
+    },
+    {
+      "price": 14.1,
+      "volume": 20090171,
+      "dollars": 283226414,
+      "rank": 3
+    },
+    {
+      "price": 16.6,
+      "volume": 12903710,
+      "dollars": 214097036,
+      "rank": 4
+    },
+    {
+      "price": 14.5,
+      "volume": 14667249,
+      "dollars": 212524590,
+      "rank": 5
+    },
+    {
+      "price": 14.0,
+      "volume": 13744332,
+      "dollars": 192420177,
+      "rank": 7
+    }
+  ],
   "boxes": []
 }

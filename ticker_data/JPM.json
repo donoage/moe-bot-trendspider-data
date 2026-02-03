@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "JPM",
-    "generated_at": "2026-01-27T01:35:17.115150+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:11:52.519573+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 317.21,
+      "volume": 7559454,
+      "dollars": 2397934403,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1768363200,
+      "price": 307.87,
+      "volume": 7661431,
+      "dollars": 2358724761,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 317.2,
+      "volume": 15085993,
+      "dollars": 4785429423,
+      "rank": 3
+    },
+    {
+      "price": 307.9,
+      "volume": 15092353,
+      "dollars": 4646507774,
+      "rank": 4
+    },
+    {
+      "price": 314.8,
+      "volume": 13720515,
+      "dollars": 4318945508,
+      "rank": 5
+    },
+    {
+      "price": 296.2,
+      "volume": 11126149,
+      "dollars": 3296002399,
+      "rank": 16
+    },
+    {
+      "price": 309.2,
+      "volume": 8278759,
+      "dollars": 2559676834,
+      "rank": 65
+    }
+  ],
   "boxes": []
 }

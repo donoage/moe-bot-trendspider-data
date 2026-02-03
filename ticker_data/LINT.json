@@ -1,12 +1,50 @@
 {
   "metadata": {
     "ticker": "LINT",
-    "generated_at": "2026-01-27T01:35:38.594663+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:12:48.018148+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1769572800,
+      "price": 43.42,
+      "volume": 23000,
+      "dollars": 998662,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1768449600,
+      "price": 46.45,
+      "volume": 15000,
+      "dollars": 696751,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 43.4,
+      "volume": 23000,
+      "dollars": 998662,
+      "rank": 1
+    },
+    {
+      "price": 46.5,
+      "volume": 15000,
+      "dollars": 696751,
+      "rank": 2
+    }
+  ],
   "boxes": []
 }

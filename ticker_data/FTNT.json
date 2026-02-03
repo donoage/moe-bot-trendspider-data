@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "FTNT",
-    "generated_at": "2026-01-31T01:34:30.824600+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:08:46.751199+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 80.24,
+      "volume": 5802484,
+      "dollars": 465591316,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 84.2,
+      "volume": 17629109,
+      "dollars": 1484537907,
+      "rank": 3
+    },
+    {
+      "price": 80.2,
+      "volume": 14788822,
+      "dollars": 1186494805,
+      "rank": 6
+    },
+    {
+      "price": 79.8,
+      "volume": 9516142,
+      "dollars": 759109707,
+      "rank": 12
+    },
+    {
+      "price": 76.8,
+      "volume": 9839752,
+      "dollars": 755526680,
+      "rank": 13
+    },
+    {
+      "price": 78.2,
+      "volume": 9659774,
+      "dollars": 755042419,
+      "rank": 14
+    }
+  ],
   "boxes": []
 }

@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "HIPO",
-    "generated_at": "2026-01-31T01:34:56.127086+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:09:38.922786+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1763956800,
+      "price": 32.68,
+      "volume": 194821,
+      "dollars": 6366750,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 30.89,
+      "volume": 126353,
+      "dollars": 3903044,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 37.3,
+      "volume": 239371,
+      "dollars": 8935959,
+      "rank": 9
+    },
+    {
+      "price": 31.1,
+      "volume": 224876,
+      "dollars": 6987910,
+      "rank": 12
+    },
+    {
+      "price": 32.7,
+      "volume": 194821,
+      "dollars": 6366750,
+      "rank": 14
+    },
+    {
+      "price": 30.9,
+      "volume": 201960,
+      "dollars": 6240561,
+      "rank": 15
+    },
+    {
+      "price": 35.6,
+      "volume": 128560,
+      "dollars": 4576374,
+      "rank": 19
+    }
+  ],
   "boxes": []
 }

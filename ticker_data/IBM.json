@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "IBM",
-    "generated_at": "2026-01-31T01:35:11.834731+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:10:50.103248+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 300.98,
+      "volume": 3171947,
+      "dollars": 954692608,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 301.0,
+      "volume": 7011873,
+      "dollars": 2110439162,
+      "rank": 4
+    },
+    {
+      "price": 305.7,
+      "volume": 4927515,
+      "dollars": 1506371670,
+      "rank": 22
+    },
+    {
+      "price": 306.7,
+      "volume": 2547420,
+      "dollars": 781297725,
+      "rank": 0
+    },
+    {
+      "price": 309.2,
+      "volume": 2431572,
+      "dollars": 751884901,
+      "rank": 0
+    },
+    {
+      "price": 300.9,
+      "volume": 2455378,
+      "dollars": 738707971,
+      "rank": 0
+    }
+  ],
   "boxes": []
 }

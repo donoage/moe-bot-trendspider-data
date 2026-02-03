@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "LYFT",
-    "generated_at": "2026-01-27T01:35:46.980655+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:12:48.023441+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1762401600,
+      "price": 21.25,
+      "volume": 8369526,
+      "dollars": 177852427,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1762401600,
+      "price": 21.25,
+      "volume": 5000000,
+      "dollars": 106250000,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1762401600,
+      "price": 21.25,
+      "volume": 4444222,
+      "dollars": 94439717,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 17.2,
+      "volume": 30754748,
+      "dollars": 528762162,
+      "rank": 3
+    },
+    {
+      "price": 18.6,
+      "volume": 28394169,
+      "dollars": 528323967,
+      "rank": 4
+    },
+    {
+      "price": 16.8,
+      "volume": 30281334,
+      "dollars": 508588492,
+      "rank": 6
+    },
+    {
+      "price": 21.3,
+      "volume": 20050472,
+      "dollars": 426119500,
+      "rank": 14
+    },
+    {
+      "price": 16.7,
+      "volume": 23620048,
+      "dollars": 394148175,
+      "rank": 15
+    }
+  ],
   "boxes": []
 }

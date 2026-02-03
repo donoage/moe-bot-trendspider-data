@@ -1,12 +1,32 @@
 {
   "metadata": {
     "ticker": "OSCX",
-    "generated_at": "2026-01-27T01:36:54.988542+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:15:02.957736+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1763956800,
+      "price": 11.0,
+      "volume": 55300,
+      "dollars": 608300,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 11.0,
+      "volume": 55300,
+      "dollars": 608300,
+      "rank": 1
+    }
+  ],
   "boxes": []
 }

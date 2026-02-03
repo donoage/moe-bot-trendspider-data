@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "BHE",
-    "generated_at": "2026-01-31T01:31:36.203880+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:05:25.729315+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 44.52,
+      "volume": 872892,
+      "dollars": 38861151,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 45.2,
+      "volume": 1393645,
+      "dollars": 63007154,
+      "rank": 14
+    },
+    {
+      "price": 44.5,
+      "volume": 1365533,
+      "dollars": 60785551,
+      "rank": 15
+    },
+    {
+      "price": 44.0,
+      "volume": 987872,
+      "dollars": 43447883,
+      "rank": 38
+    },
+    {
+      "price": 42.7,
+      "volume": 611252,
+      "dollars": 26087470,
+      "rank": 99
+    },
+    {
+      "price": 43.1,
+      "volume": 601720,
+      "dollars": 25938899,
+      "rank": 100
+    }
+  ],
   "boxes": []
 }

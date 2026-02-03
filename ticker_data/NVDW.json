@@ -1,12 +1,74 @@
 {
   "metadata": {
     "ticker": "NVDW",
-    "generated_at": "2026-01-27T01:36:38.867579+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:14:19.961802+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1763697600,
+      "price": 42.33,
+      "volume": 232038,
+      "dollars": 9822168,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1768536000,
+      "price": 40.86,
+      "volume": 17916,
+      "dollars": 732047,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 40.98,
+      "volume": 16036,
+      "dollars": 657155,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 42.3,
+      "volume": 232038,
+      "dollars": 9822168,
+      "rank": 1
+    },
+    {
+      "price": 46.3,
+      "volume": 29319,
+      "dollars": 1358349,
+      "rank": 2
+    },
+    {
+      "price": 40.9,
+      "volume": 17916,
+      "dollars": 732047,
+      "rank": 3
+    },
+    {
+      "price": 41.0,
+      "volume": 16036,
+      "dollars": 657155,
+      "rank": 4
+    }
+  ],
   "boxes": []
 }

@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "EL",
-    "generated_at": "2026-01-31T01:33:49.210082+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:07:55.563787+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 108.0,
+      "volume": 3121715,
+      "dollars": 337145220,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 85.0,
+      "volume": 8862269,
+      "dollars": 753346770,
+      "rank": 3
+    },
+    {
+      "price": 87.8,
+      "volume": 8443934,
+      "dollars": 741259778,
+      "rank": 4
+    },
+    {
+      "price": 108.0,
+      "volume": 5427390,
+      "dollars": 586100945,
+      "rank": 9
+    },
+    {
+      "price": 87.7,
+      "volume": 5241787,
+      "dollars": 459723309,
+      "rank": 12
+    },
+    {
+      "price": 113.9,
+      "volume": 3697229,
+      "dollars": 420981625,
+      "rank": 15
+    }
+  ],
   "boxes": []
 }

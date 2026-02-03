@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "TMUS",
-    "generated_at": "2026-01-10T02:25:07.818419+00:00Z",
-    "date_range": "2025-10-11 to 2026-01-09",
+    "generated_at": "2026-02-03T02:18:02.272469+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -30,60 +30,62 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1770004800,
+      "price": 194.99,
+      "volume": 2681607,
+      "dollars": 522886548,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
     {
       "price": 199.4,
-      "volume": 11190000,
-      "dollars": 2230000000,
-      "rank": "4"
+      "volume": 11188470,
+      "dollars": 2231211574,
+      "rank": 4
     },
     {
       "price": 196.7,
-      "volume": 11190000,
-      "dollars": 2200000000,
-      "rank": "5"
+      "volume": 11216591,
+      "dollars": 2206579230,
+      "rank": 5
     },
     {
       "price": 195.3,
-      "volume": 6490000,
-      "dollars": 1270000000,
-      "rank": "13"
+      "volume": 6488203,
+      "dollars": 1267284425,
+      "rank": 13
     },
     {
-      "price": 220.7,
-      "volume": 5390000,
-      "dollars": 1190000000,
-      "rank": "18"
+      "price": 186.3,
+      "volume": 5964225,
+      "dollars": 1111069983,
+      "rank": 21
     },
     {
       "price": 215.8,
-      "volume": 4950000,
-      "dollars": 1070000000,
-      "rank": "28"
+      "volume": 4945019,
+      "dollars": 1067297988,
+      "rank": 29
     }
   ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 215.7,
-      "low_price": 215.7,
-      "volume": 233549,
-      "dollars": 50376519,
-      "trades": 1,
-      "date_range": "2025-10-29",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
       "high_price": 204.5,
-      "low_price": 204.5,
-      "volume": 99700,
-      "dollars": 20388650,
-      "trades": 1,
-      "date_range": "2025-11-05",
-      "color": "green"
+      "low_price": 182.0,
+      "volume": 3117351,
+      "dollars": 576157940,
+      "trades": 7,
+      "date_range": "2025-11-04 to 2026-02-02",
+      "color": "#FF6B6B"
     }
   ]
 }

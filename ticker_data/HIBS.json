@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "HIBS",
-    "generated_at": "2026-01-31T01:34:55.128769+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:09:38.922274+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1762488000,
+      "price": 5.94,
+      "volume": 609829,
+      "dollars": 3622384,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1762401600,
+      "price": 5.95,
+      "volume": 594512,
+      "dollars": 3537346,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763611200,
+      "price": 7.21,
+      "volume": 368798,
+      "dollars": 2659033,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763697600,
+      "price": 6.68,
+      "volume": 386868,
+      "dollars": 2584278,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 5.9,
+      "volume": 921333,
+      "dollars": 5466487,
+      "rank": 4
+    },
+    {
+      "price": 6.0,
+      "volume": 750620,
+      "dollars": 4466189,
+      "rank": 10
+    },
+    {
+      "price": 7.5,
+      "volume": 396134,
+      "dollars": 2971005,
+      "rank": 18
+    },
+    {
+      "price": 7.2,
+      "volume": 368798,
+      "dollars": 2659033,
+      "rank": 22
+    },
+    {
+      "price": 6.7,
+      "volume": 386868,
+      "dollars": 2584278,
+      "rank": 26
+    }
+  ],
   "boxes": []
 }

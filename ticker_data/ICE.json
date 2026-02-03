@@ -1,13 +1,93 @@
 {
   "metadata": {
     "ticker": "ICE",
-    "generated_at": "2026-01-31T01:35:13.225716+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:10:50.105721+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1764648000,
+      "price": 155.36,
+      "volume": 1817689,
+      "dollars": 282396163,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 160.3,
+      "volume": 1650893,
+      "dollars": 264638147,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765857600,
+      "price": 160.05,
+      "volume": 1650914,
+      "dollars": 264228785,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765166400,
+      "price": 157.03,
+      "volume": 1569263,
+      "dollars": 246421368,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 157.0,
+      "volume": 5508053,
+      "dollars": 864741163,
+      "rank": 3
+    },
+    {
+      "price": 173.2,
+      "volume": 4250792,
+      "dollars": 736313689,
+      "rank": 6
+    },
+    {
+      "price": 156.1,
+      "volume": 4431890,
+      "dollars": 691735383,
+      "rank": 9
+    },
+    {
+      "price": 150.3,
+      "volume": 4520543,
+      "dollars": 679489687,
+      "rank": 11
+    },
+    {
+      "price": 159.8,
+      "volume": 4157632,
+      "dollars": 664508331,
+      "rank": 13
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
@@ -16,8 +96,8 @@
       "volume": 646800,
       "dollars": 99416075,
       "trades": 2,
-      "date_range": "2025-11-18 to 2025-11-20",
-      "color": "blue"
+      "date_range": "2025-11-04 to 2026-02-02",
+      "color": "#FF6B6B"
     }
   ]
 }

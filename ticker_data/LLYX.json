@@ -1,12 +1,74 @@
 {
   "metadata": {
     "ticker": "LLYX",
-    "generated_at": "2026-01-27T01:35:40.028171+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:12:48.020542+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1764302400,
+      "price": 26.53,
+      "volume": 85039,
+      "dollars": 2256084,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1768536000,
+      "price": 22.7,
+      "volume": 55641,
+      "dollars": 1263050,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765425600,
+      "price": 24.09,
+      "volume": 36959,
+      "dollars": 890342,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 26.5,
+      "volume": 85039,
+      "dollars": 2256084,
+      "rank": 3
+    },
+    {
+      "price": 22.7,
+      "volume": 55641,
+      "dollars": 1263050,
+      "rank": 9
+    },
+    {
+      "price": 24.1,
+      "volume": 36959,
+      "dollars": 890342,
+      "rank": 12
+    },
+    {
+      "price": 27.6,
+      "volume": 22427,
+      "dollars": 618312,
+      "rank": 18
+    }
+  ],
   "boxes": []
 }

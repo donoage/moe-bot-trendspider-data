@@ -1,73 +1,54 @@
 {
   "metadata": {
     "ticker": "IWM",
-    "generated_at": "2026-01-27T01:35:12.748591+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:11:52.514702+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
+  "levels": [
+    {
+      "price": 242.9,
+      "volume": 24006111,
+      "dollars": 5831211996,
+      "rank": 0
+    },
+    {
+      "price": 229.8,
+      "volume": 23054944,
+      "dollars": 5298069938,
+      "rank": 0
+    },
+    {
+      "price": 238.6,
+      "volume": 19304890,
+      "dollars": 4605849713,
+      "rank": 0
+    },
+    {
+      "price": 228.7,
+      "volume": 16541169,
+      "dollars": 3782644127,
+      "rank": 0
+    },
+    {
+      "price": 243.0,
+      "volume": 13676337,
+      "dollars": 3323177924,
+      "rank": 0
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 244.42,
-      "low_price": 242.72,
-      "volume": 595298,
-      "dollars": 144990845,
-      "trades": 2,
-      "date_range": "2025-11-03 to 2025-11-05",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 261.64,
-      "low_price": 260.76,
-      "volume": 532190,
-      "dollars": 138947902,
-      "trades": 2,
-      "date_range": "2026-01-12 to 2026-01-13",
-      "color": "green"
-    },
-    {
-      "box_number": 3,
-      "high_price": 251.42,
-      "low_price": 250.45,
-      "volume": 503628,
-      "dollars": 126410498,
-      "trades": 2,
-      "date_range": "2025-12-08 to 2025-12-18",
-      "color": "orange"
-    },
-    {
-      "box_number": 4,
-      "high_price": 253.4,
-      "low_price": 251.67,
-      "volume": 478451,
-      "dollars": 120751673,
-      "trades": 2,
-      "date_range": "2026-01-05 to 2026-01-06",
-      "color": "red"
-    },
-    {
-      "box_number": 5,
-      "high_price": 235.61,
-      "low_price": 235.61,
-      "volume": 421611,
-      "dollars": 99335767,
-      "trades": 1,
-      "date_range": "2025-11-17",
-      "color": "purple"
-    },
-    {
-      "box_number": 6,
-      "high_price": 267.0,
-      "low_price": 267.0,
-      "volume": 190000,
-      "dollars": 50730000,
-      "trades": 1,
-      "date_range": "2026-01-21",
-      "color": "yellow"
+      "high_price": 267.5,
+      "low_price": 232.52,
+      "volume": 5973811,
+      "dollars": 1505330266,
+      "trades": 39,
+      "date_range": "2025-11-04 to 2026-02-02",
+      "color": "#FF6B6B"
     }
   ]
 }

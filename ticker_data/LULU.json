@@ -1,13 +1,81 @@
 {
   "metadata": {
     "ticker": "LULU",
-    "generated_at": "2026-01-27T01:35:45.927869+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:12:48.022818+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 209.45,
+      "volume": 5206448,
+      "dollars": 1090490533,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 209.45,
+      "volume": 2993253,
+      "dollars": 626936840,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765857600,
+      "price": 206.74,
+      "volume": 1247065,
+      "dollars": 257818218,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 209.5,
+      "volume": 10452144,
+      "dollars": 2189202134,
+      "rank": 2
+    },
+    {
+      "price": 169.6,
+      "volume": 2891775,
+      "dollars": 490499543,
+      "rank": 9
+    },
+    {
+      "price": 201.9,
+      "volume": 1853343,
+      "dollars": 374134732,
+      "rank": 14
+    },
+    {
+      "price": 207.9,
+      "volume": 1637682,
+      "dollars": 340426451,
+      "rank": 19
+    },
+    {
+      "price": 206.7,
+      "volume": 1508559,
+      "dollars": 311874623,
+      "rank": 24
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
@@ -16,8 +84,8 @@
       "volume": 199700,
       "dollars": 32301475,
       "trades": 1,
-      "date_range": "2025-11-04",
-      "color": "blue"
+      "date_range": "2025-11-04 to 2026-02-02",
+      "color": "#FF6B6B"
     }
   ]
 }

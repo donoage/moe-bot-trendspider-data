@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "NAMS",
-    "generated_at": "2026-01-27T01:36:17.787348+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:13:34.652097+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1765166400,
+      "price": 35.75,
+      "volume": 407000,
+      "dollars": 14550250,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1768449600,
+      "price": 31.83,
+      "volume": 357987,
+      "dollars": 11394726,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1767153600,
+      "price": 35.08,
+      "volume": 255175,
+      "dollars": 8951539,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766030400,
+      "price": 33.9,
+      "volume": 250098,
+      "dollars": 8478322,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 35.8,
+      "volume": 752561,
+      "dollars": 26921332,
+      "rank": 6
+    },
+    {
+      "price": 37.7,
+      "volume": 419099,
+      "dollars": 15785062,
+      "rank": 23
+    },
+    {
+      "price": 35.1,
+      "volume": 428032,
+      "dollars": 15020548,
+      "rank": 27
+    },
+    {
+      "price": 31.8,
+      "volume": 461917,
+      "dollars": 14700888,
+      "rank": 29
+    },
+    {
+      "price": 36.0,
+      "volume": 393455,
+      "dollars": 14163546,
+      "rank": 31
+    }
+  ],
   "boxes": []
 }

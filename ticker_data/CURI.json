@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "CURI",
-    "generated_at": "2026-01-31T01:33:22.438847+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:07:05.524733+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1765339200,
+      "price": 4.79,
+      "volume": 426374,
+      "dollars": 2042331,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 4.08,
+      "volume": 460682,
+      "dollars": 1879582,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1768363200,
+      "price": 3.58,
+      "volume": 465000,
+      "dollars": 1664700,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 4.8,
+      "volume": 891918,
+      "dollars": 4274045,
+      "rank": 6
+    },
+    {
+      "price": 3.6,
+      "volume": 930000,
+      "dollars": 3324750,
+      "rank": 10
+    },
+    {
+      "price": 4.1,
+      "volume": 720850,
+      "dollars": 2948873,
+      "rank": 14
+    },
+    {
+      "price": 4.9,
+      "volume": 152741,
+      "dollars": 751485,
+      "rank": 34
+    },
+    {
+      "price": 3.5,
+      "volume": 169651,
+      "dollars": 595475,
+      "rank": 41
+    }
+  ],
   "boxes": []
 }

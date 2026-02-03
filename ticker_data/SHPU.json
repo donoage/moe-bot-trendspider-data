@@ -1,49 +1,24 @@
 {
   "metadata": {
     "ticker": "SHPU",
-    "generated_at": "2026-01-13T10:56:41.214778+00:00Z",
-    "date_range": "2025-10-15 to 2026-01-13",
+    "generated_at": "2026-02-03T02:16:32.976939+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1761192000,
-      "price": 37.73,
-      "volume": 29434,
-      "dollars": 1110544,
-      "rank": 1,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1761019200,
-      "price": 37.31,
-      "volume": 14000,
-      "dollars": 522341,
-      "rank": 2,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 37.7,
-      "volume": 30000,
-      "dollars": 0,
-      "rank": "1"
+      "volume": 29434,
+      "dollars": 1110544,
+      "rank": 1
     },
     {
       "price": 37.3,
-      "volume": 10000,
-      "dollars": 0,
-      "rank": "2"
+      "volume": 14000,
+      "dollars": 522341,
+      "rank": 2
     }
   ],
   "boxes": []

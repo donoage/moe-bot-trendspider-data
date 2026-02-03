@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "AAOI",
-    "generated_at": "2026-02-03T00:44:39.304068+00:00Z",
+    "generated_at": "2026-02-03T02:03:48.301197+00:00Z",
     "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 31.32,
+      "volume": 1088093,
+      "dollars": 34079072,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1769400000,
+      "price": 34.89,
+      "volume": 782373,
+      "dollars": 27296993,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1767844800,
+      "price": 33.01,
+      "volume": 577165,
+      "dollars": 19052216,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 48.8,
+      "volume": 2790601,
+      "dollars": 136123155,
+      "rank": 1
+    },
+    {
+      "price": 26.2,
+      "volume": 3076051,
+      "dollars": 80655787,
+      "rank": 2
+    },
+    {
+      "price": 29.0,
+      "volume": 2499824,
+      "dollars": 72474871,
+      "rank": 3
+    },
+    {
+      "price": 33.0,
+      "volume": 2096790,
+      "dollars": 69194197,
+      "rank": 4
+    },
+    {
+      "price": 31.3,
+      "volume": 1880422,
+      "dollars": 58896433,
+      "rank": 5
+    }
+  ],
   "boxes": []
 }

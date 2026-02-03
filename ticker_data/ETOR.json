@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "ETOR",
-    "generated_at": "2026-01-31T01:34:02.763508+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:08:46.734442+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1767153600,
+      "price": 35.13,
+      "volume": 321076,
+      "dollars": 11279399,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765857600,
+      "price": 36.35,
+      "volume": 299951,
+      "dollars": 10903218,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 36.21,
+      "volume": 262282,
+      "dollars": 9497231,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 37.1,
+      "volume": 977562,
+      "dollars": 36230687,
+      "rank": 3
+    },
+    {
+      "price": 41.3,
+      "volume": 498996,
+      "dollars": 20600437,
+      "rank": 8
+    },
+    {
+      "price": 39.1,
+      "volume": 485787,
+      "dollars": 18977736,
+      "rank": 10
+    },
+    {
+      "price": 35.1,
+      "volume": 494832,
+      "dollars": 17370397,
+      "rank": 12
+    },
+    {
+      "price": 39.4,
+      "volume": 417411,
+      "dollars": 16429296,
+      "rank": 14
+    }
+  ],
   "boxes": []
 }

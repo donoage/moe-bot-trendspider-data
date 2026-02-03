@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "DOCU",
-    "generated_at": "2026-01-31T01:33:42.650118+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:07:55.542624+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 69.98,
+      "volume": 3365541,
+      "dollars": 235520559,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 69.2,
+      "volume": 25529246,
+      "dollars": 1767091087,
+      "rank": 1
+    },
+    {
+      "price": 56.3,
+      "volume": 13596759,
+      "dollars": 765179523,
+      "rank": 4
+    },
+    {
+      "price": 70.0,
+      "volume": 7449947,
+      "dollars": 521389791,
+      "rank": 8
+    },
+    {
+      "price": 56.8,
+      "volume": 7185257,
+      "dollars": 408017258,
+      "rank": 12
+    },
+    {
+      "price": 58.0,
+      "volume": 6490082,
+      "dollars": 376340280,
+      "rank": 15
+    }
+  ],
   "boxes": []
 }

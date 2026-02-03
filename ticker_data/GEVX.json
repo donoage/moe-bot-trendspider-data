@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "GEVX",
-    "generated_at": "2026-01-31T01:34:42.496305+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:09:38.902916+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1763524800,
+      "price": 27.0,
+      "volume": 24872,
+      "dollars": 671544,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765339200,
+      "price": 38.7,
+      "volume": 15925,
+      "dollars": 616297,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1768276800,
+      "price": 31.0,
+      "volume": 19500,
+      "dollars": 604500,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 27.0,
+      "volume": 24872,
+      "dollars": 671544,
+      "rank": 1
+    },
+    {
+      "price": 38.7,
+      "volume": 15925,
+      "dollars": 616297,
+      "rank": 2
+    },
+    {
+      "price": 31.0,
+      "volume": 19500,
+      "dollars": 604500,
+      "rank": 3
+    }
+  ],
   "boxes": []
 }

@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "ANF",
-    "generated_at": "2026-01-31T01:30:49.264265+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:04:38.274995+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 121.06,
+      "volume": 702662,
+      "dollars": 85064261,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 76.2,
+      "volume": 8299963,
+      "dollars": 632369255,
+      "rank": 2
+    },
+    {
+      "price": 125.9,
+      "volume": 2643383,
+      "dollars": 332773273,
+      "rank": 4
+    },
+    {
+      "price": 84.2,
+      "volume": 1937882,
+      "dollars": 163116436,
+      "rank": 19
+    },
+    {
+      "price": 78.0,
+      "volume": 1940265,
+      "dollars": 151360821,
+      "rank": 24
+    },
+    {
+      "price": 73.3,
+      "volume": 1921177,
+      "dollars": 140806226,
+      "rank": 34
+    }
+  ],
   "boxes": []
 }

@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "IONZ",
-    "generated_at": "2026-01-27T01:34:57.691436+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:10:50.114142+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1762488000,
+      "price": 27.59,
+      "volume": 37007,
+      "dollars": 1021200,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1762488000,
+      "price": 26.57,
+      "volume": 37007,
+      "dollars": 983460,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1762401600,
+      "price": 23.25,
+      "volume": 36654,
+      "dollars": 852042,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 18.1,
+      "volume": 237094,
+      "dollars": 4285603,
+      "rank": 1
+    },
+    {
+      "price": 24.4,
+      "volume": 78814,
+      "dollars": 1921597,
+      "rank": 2
+    },
+    {
+      "price": 16.0,
+      "volume": 115698,
+      "dollars": 1853137,
+      "rank": 3
+    },
+    {
+      "price": 17.5,
+      "volume": 101590,
+      "dollars": 1774950,
+      "rank": 4
+    },
+    {
+      "price": 18.4,
+      "volume": 88465,
+      "dollars": 1627257,
+      "rank": 5
+    }
+  ],
   "boxes": []
 }

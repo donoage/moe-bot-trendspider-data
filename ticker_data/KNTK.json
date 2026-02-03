@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "KNTK",
-    "generated_at": "2026-01-27T01:35:20.770042+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:11:52.525842+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1765339200,
+      "price": 38.32,
+      "volume": 558373,
+      "dollars": 21396853,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 33.62,
+      "volume": 565830,
+      "dollars": 19023204,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 37.0,
+      "volume": 1881024,
+      "dollars": 69580515,
+      "rank": 6
+    },
+    {
+      "price": 40.3,
+      "volume": 1725669,
+      "dollars": 69564336,
+      "rank": 7
+    },
+    {
+      "price": 34.0,
+      "volume": 1722099,
+      "dollars": 58565588,
+      "rank": 9
+    },
+    {
+      "price": 41.4,
+      "volume": 1380055,
+      "dollars": 57182839,
+      "rank": 10
+    },
+    {
+      "price": 36.7,
+      "volume": 1513016,
+      "dollars": 55476312,
+      "rank": 11
+    }
+  ],
   "boxes": []
 }

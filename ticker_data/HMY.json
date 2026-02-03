@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "HMY",
-    "generated_at": "2026-01-31T01:35:03.422173+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:10:50.098655+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 20.67,
+      "volume": 4798755,
+      "dollars": 99190265,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 16.9,
+      "volume": 17319538,
+      "dollars": 292392119,
+      "rank": 1
+    },
+    {
+      "price": 20.7,
+      "volume": 6445075,
+      "dollars": 133224183,
+      "rank": 8
+    },
+    {
+      "price": 15.4,
+      "volume": 5220100,
+      "dollars": 80339320,
+      "rank": 30
+    },
+    {
+      "price": 20.2,
+      "volume": 3499762,
+      "dollars": 70708774,
+      "rank": 40
+    },
+    {
+      "price": 18.1,
+      "volume": 3740760,
+      "dollars": 67639153,
+      "rank": 46
+    }
+  ],
   "boxes": []
 }

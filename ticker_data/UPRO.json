@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "UPRO",
-    "generated_at": "2025-12-25T10:23:29.185917+00:00Z",
-    "date_range": "2025-09-26 to 2025-12-25",
+    "generated_at": "2026-02-03T02:18:43.130358+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -37,18 +37,6 @@
       "volume": 3126038,
       "dollars": 360932347,
       "rank": 6,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1761537600,
-      "price": 119.9,
-      "volume": 3001038,
-      "dollars": 359824456,
-      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -102,51 +90,50 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
-    },
-    {
-      "timestamp": 1759464000,
-      "price": 112.88,
-      "volume": 2113028,
-      "dollars": 238518600,
-      "rank": 15,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
     }
   ],
   "levels": [
     {
       "price": 117.9,
-      "volume": 4430000,
-      "dollars": 520000000,
-      "rank": "2"
+      "volume": 4443888,
+      "dollars": 524068192,
+      "rank": 2
     },
     {
       "price": 112.1,
-      "volume": 4440000,
-      "dollars": 500000000,
-      "rank": "3"
-    },
-    {
-      "price": 117.5,
-      "volume": 4210000,
-      "dollars": 500000000,
-      "rank": "4"
+      "volume": 4439671,
+      "dollars": 497466006,
+      "rank": 3
     },
     {
       "price": 115.5,
-      "volume": 4290000,
-      "dollars": 490000000,
-      "rank": "5"
+      "volume": 4297674,
+      "dollars": 496211768,
+      "rank": 4
+    },
+    {
+      "price": 117.5,
+      "volume": 4214652,
+      "dollars": 495304940,
+      "rank": 5
     },
     {
       "price": 117.2,
-      "volume": 3900000,
-      "dollars": 460000000,
-      "rank": "6"
+      "volume": 3938453,
+      "dollars": 461625515,
+      "rank": 6
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 121.54,
+      "low_price": 118.8,
+      "volume": 378338,
+      "dollars": 45464110,
+      "trades": 2,
+      "date_range": "2025-11-04 to 2026-02-02",
+      "color": "#FF6B6B"
+    }
+  ]
 }

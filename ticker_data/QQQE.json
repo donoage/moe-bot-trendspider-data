@@ -1,18 +1,18 @@
 {
   "metadata": {
     "ticker": "QQQE",
-    "generated_at": "2026-01-13T10:55:52.405539+00:00Z",
-    "date_range": "2025-10-15 to 2026-01-13",
+    "generated_at": "2026-02-03T02:15:45.677958+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1761537600,
-      "price": 105.04,
-      "volume": 557797,
-      "dollars": 58590996,
-      "rank": 7,
+      "timestamp": 1768968000,
+      "price": 104.2,
+      "volume": 551082,
+      "dollars": 57422744,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +24,7 @@
       "price": 100.48,
       "volume": 556412,
       "dollars": 55908277,
-      "rank": 9,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,46 +34,35 @@
   ],
   "levels": [
     {
-      "price": 100.5,
-      "volume": 590000,
-      "dollars": 60000000,
-      "rank": "11"
+      "price": 105.0,
+      "volume": 593342,
+      "dollars": 62321444,
+      "rank": 9
     },
     {
-      "price": 105.0,
-      "volume": 560000,
-      "dollars": 60000000,
-      "rank": "12"
+      "price": 100.5,
+      "volume": 589812,
+      "dollars": 59264309,
+      "rank": 12
+    },
+    {
+      "price": 104.2,
+      "volume": 561082,
+      "dollars": 58465144,
+      "rank": 13
     },
     {
       "price": 103.2,
-      "volume": 240000,
-      "dollars": 20000000,
-      "rank": "46"
+      "volume": 270885,
+      "dollars": 27954798,
+      "rank": 40
     },
     {
       "price": 103.5,
-      "volume": 200000,
-      "dollars": 20000000,
-      "rank": "51"
-    },
-    {
-      "price": 98.0,
-      "volume": 170000,
-      "dollars": 20000000,
-      "rank": "70"
+      "volume": 203810,
+      "dollars": 21084729,
+      "rank": 52
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 105.04,
-      "low_price": 105.04,
-      "volume": 557797,
-      "dollars": 58590996,
-      "trades": 1,
-      "date_range": "2025-10-27",
-      "color": "blue"
-    }
-  ]
+  "boxes": []
 }

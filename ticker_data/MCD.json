@@ -1,13 +1,57 @@
 {
   "metadata": {
     "ticker": "MCD",
-    "generated_at": "2026-01-27T01:35:51.052465+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:12:48.027997+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 315.84,
+      "volume": 1712177,
+      "dollars": 540773983,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 294.5,
+      "volume": 6400793,
+      "dollars": 1885028987,
+      "rank": 6
+    },
+    {
+      "price": 292.7,
+      "volume": 5984799,
+      "dollars": 1751663945,
+      "rank": 9
+    },
+    {
+      "price": 315.8,
+      "volume": 4226396,
+      "dollars": 1334832585,
+      "rank": 20
+    },
+    {
+      "price": 295.2,
+      "volume": 4334084,
+      "dollars": 1279403836,
+      "rank": 21
+    },
+    {
+      "price": 302.4,
+      "volume": 4167998,
+      "dollars": 1260345453,
+      "rank": 22
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
@@ -16,8 +60,8 @@
       "volume": 94029,
       "dollars": 27926613,
       "trades": 1,
-      "date_range": "2025-11-10",
-      "color": "blue"
+      "date_range": "2025-11-04 to 2026-02-02",
+      "color": "#FF6B6B"
     }
   ]
 }

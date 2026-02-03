@@ -1,43 +1,79 @@
 {
   "metadata": {
     "ticker": "ABT",
-    "generated_at": "2026-02-03T00:44:43.467598+00:00Z",
+    "generated_at": "2026-02-03T02:03:48.303422+00:00Z",
     "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1763956800,
+      "price": 127.19,
+      "volume": 5276836,
+      "dollars": 671160770,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 125.45,
+      "volume": 4046803,
+      "dollars": 507671436,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 107.3,
+      "volume": 23126058,
+      "dollars": 2481034366,
+      "rank": 1
+    },
+    {
+      "price": 109.5,
+      "volume": 21053870,
+      "dollars": 2304875617,
+      "rank": 4
+    },
+    {
+      "price": 117.5,
+      "volume": 18001809,
+      "dollars": 2115020796,
+      "rank": 6
+    },
+    {
+      "price": 116.8,
+      "volume": 15522812,
+      "dollars": 1813042888,
+      "rank": 9
+    },
+    {
+      "price": 113.4,
+      "volume": 15315038,
+      "dollars": 1736604349,
+      "rank": 11
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 108.08,
-      "low_price": 106.15,
-      "volume": 1496394,
-      "dollars": 159334155,
-      "trades": 2,
-      "date_range": "2026-01-26 to 2026-01-28",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 121.0,
-      "low_price": 120.72,
-      "volume": 913852,
-      "dollars": 110469555,
-      "trades": 2,
-      "date_range": "2026-01-20 to 2026-01-21",
-      "color": "green"
-    },
-    {
-      "box_number": 3,
       "high_price": 128.24,
-      "low_price": 128.24,
-      "volume": 398886,
-      "dollars": 51153938,
-      "trades": 1,
-      "date_range": "2025-11-25",
-      "color": "orange"
+      "low_price": 106.15,
+      "volume": 2809132,
+      "dollars": 320957647,
+      "trades": 5,
+      "date_range": "2025-11-04 to 2026-02-02",
+      "color": "#FF6B6B"
     }
   ]
 }

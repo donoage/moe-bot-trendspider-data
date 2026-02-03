@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "GLW",
-    "generated_at": "2026-01-31T01:34:46.776373+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:09:38.912188+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 87.86,
+      "volume": 6018225,
+      "dollars": 528761248,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763956800,
+      "price": 82.6,
+      "volume": 5055023,
+      "dollars": 417544899,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 87.9,
+      "volume": 12585265,
+      "dollars": 1105811576,
+      "rank": 11
+    },
+    {
+      "price": 82.6,
+      "volume": 7139549,
+      "dollars": 589727546,
+      "rank": 0
+    },
+    {
+      "price": 85.5,
+      "volume": 6280013,
+      "dollars": 536745875,
+      "rank": 0
+    },
+    {
+      "price": 79.6,
+      "volume": 6363498,
+      "dollars": 506387819,
+      "rank": 0
+    },
+    {
+      "price": 94.2,
+      "volume": 4929689,
+      "dollars": 464377091,
+      "rank": 0
+    }
+  ],
   "boxes": []
 }

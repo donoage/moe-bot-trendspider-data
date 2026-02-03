@@ -1,53 +1,67 @@
 {
   "metadata": {
     "ticker": "MDLZ",
-    "generated_at": "2026-01-27T01:35:51.564678+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:12:48.028226+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 54.5,
+      "volume": 10813319,
+      "dollars": 589325885,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 54.5,
+      "volume": 41732531,
+      "dollars": 2274208168,
+      "rank": 5
+    },
+    {
+      "price": 57.2,
+      "volume": 27256003,
+      "dollars": 1559325699,
+      "rank": 33
+    },
+    {
+      "price": 54.8,
+      "volume": 28278550,
+      "dollars": 1549567421,
+      "rank": 34
+    },
+    {
+      "price": 57.4,
+      "volume": 26774648,
+      "dollars": 1536611480,
+      "rank": 35
+    },
+    {
+      "price": 59.4,
+      "volume": 25345957,
+      "dollars": 1505393508,
+      "rank": 41
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 54.2,
-      "low_price": 53.22,
-      "volume": 1589828,
-      "dollars": 85629207,
-      "trades": 3,
-      "date_range": "2025-12-10 to 2025-12-11",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
       "high_price": 56.42,
-      "low_price": 55.9,
-      "volume": 1484483,
-      "dollars": 83432151,
-      "trades": 3,
-      "date_range": "2025-12-01 to 2025-12-04",
-      "color": "green"
-    },
-    {
-      "box_number": 3,
-      "high_price": 62.0,
-      "low_price": 61.2,
-      "volume": 1342984,
-      "dollars": 82961714,
-      "trades": 3,
-      "date_range": "2025-10-28",
-      "color": "orange"
-    },
-    {
-      "box_number": 4,
-      "high_price": 53.49,
-      "low_price": 53.49,
-      "volume": 804180,
-      "dollars": 43012532,
-      "trades": 1,
-      "date_range": "2026-01-05",
-      "color": "red"
+      "low_price": 53.22,
+      "volume": 4213889,
+      "dollars": 230604628,
+      "trades": 8,
+      "date_range": "2025-11-04 to 2026-02-02",
+      "color": "#FF6B6B"
     }
   ]
 }

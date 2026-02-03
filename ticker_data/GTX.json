@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "GTX",
-    "generated_at": "2026-01-31T01:34:51.793106+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:09:38.920971+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 17.39,
+      "volume": 2872994,
+      "dollars": 49961365,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1769572800,
+      "price": 18.14,
+      "volume": 1045800,
+      "dollars": 18970812,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1768881600,
+      "price": 17.92,
+      "volume": 881465,
+      "dollars": 15795852,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763956800,
+      "price": 16.23,
+      "volume": 956280,
+      "dollars": 15520424,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 18.4,
+      "volume": 16430943,
+      "dollars": 302168675,
+      "rank": 1
+    },
+    {
+      "price": 17.4,
+      "volume": 6616528,
+      "dollars": 115125035,
+      "rank": 6
+    },
+    {
+      "price": 17.1,
+      "volume": 4734244,
+      "dollars": 80855077,
+      "rank": 9
+    },
+    {
+      "price": 18.1,
+      "volume": 3964803,
+      "dollars": 71801974,
+      "rank": 12
+    },
+    {
+      "price": 16.8,
+      "volume": 4211048,
+      "dollars": 70693001,
+      "rank": 13
+    }
+  ],
   "boxes": []
 }

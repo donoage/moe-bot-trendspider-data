@@ -1,13 +1,57 @@
 {
   "metadata": {
     "ticker": "AJG",
-    "generated_at": "2026-02-03T00:44:54.733910+00:00Z",
+    "generated_at": "2026-02-03T02:03:48.307822+00:00Z",
     "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 253.39,
+      "volume": 1482539,
+      "dollars": 375660557,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 253.4,
+      "volume": 1987661,
+      "dollars": 503653420,
+      "rank": 7
+    },
+    {
+      "price": 245.0,
+      "volume": 1226045,
+      "dollars": 300390700,
+      "rank": 24
+    },
+    {
+      "price": 257.0,
+      "volume": 1129918,
+      "dollars": 290381271,
+      "rank": 25
+    },
+    {
+      "price": 251.7,
+      "volume": 1086806,
+      "dollars": 273545193,
+      "rank": 30
+    },
+    {
+      "price": 259.3,
+      "volume": 1023753,
+      "dollars": 265468036,
+      "rank": 33
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
@@ -16,8 +60,8 @@
       "volume": 299880,
       "dollars": 73420600,
       "trades": 2,
-      "date_range": "2025-12-11",
-      "color": "blue"
+      "date_range": "2025-11-04 to 2026-02-02",
+      "color": "#FF6B6B"
     }
   ]
 }

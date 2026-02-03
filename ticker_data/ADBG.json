@@ -1,12 +1,50 @@
 {
   "metadata": {
     "ticker": "ADBG",
-    "generated_at": "2026-02-03T00:44:46.316770+00:00Z",
+    "generated_at": "2026-02-03T02:03:48.304877+00:00Z",
     "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1764734400,
+      "price": 8.76,
+      "volume": 74655,
+      "dollars": 653977,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763006400,
+      "price": 9.81,
+      "volume": 52537,
+      "dollars": 515387,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 8.8,
+      "volume": 74655,
+      "dollars": 653977,
+      "rank": 1
+    },
+    {
+      "price": 9.8,
+      "volume": 52537,
+      "dollars": 515387,
+      "rank": 2
+    }
+  ],
   "boxes": []
 }

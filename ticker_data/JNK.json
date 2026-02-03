@@ -1,33 +1,54 @@
 {
   "metadata": {
     "ticker": "JNK",
-    "generated_at": "2026-01-27T01:35:16.228094+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:11:52.518995+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
+  "levels": [
+    {
+      "price": 96.7,
+      "volume": 17654609,
+      "dollars": 1707159066,
+      "rank": 52
+    },
+    {
+      "price": 97.0,
+      "volume": 17595892,
+      "dollars": 1706937212,
+      "rank": 53
+    },
+    {
+      "price": 96.6,
+      "volume": 15667172,
+      "dollars": 1513518211,
+      "rank": 62
+    },
+    {
+      "price": 97.1,
+      "volume": 15259739,
+      "dollars": 1481576327,
+      "rank": 65
+    },
+    {
+      "price": 96.9,
+      "volume": 12753830,
+      "dollars": 1235747442,
+      "rank": 83
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 97.27,
-      "low_price": 97.22,
-      "volume": 2163861,
-      "dollars": 210382041,
-      "trades": 3,
-      "date_range": "2025-12-04 to 2025-12-11",
-      "color": "blue"
-    },
-    {
-      "box_number": 2,
-      "high_price": 97.2,
+      "high_price": 97.3,
       "low_price": 97.2,
-      "volume": 478996,
-      "dollars": 46558411,
-      "trades": 2,
-      "date_range": "2025-12-31 to 2026-01-02",
-      "color": "green"
+      "volume": 2869445,
+      "dollars": 278987464,
+      "trades": 6,
+      "date_range": "2025-11-04 to 2026-02-02",
+      "color": "#FF6B6B"
     }
   ]
 }

@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "OKTA",
-    "generated_at": "2026-01-27T01:36:45.342035+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:14:19.965656+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 90.21,
+      "volume": 3036068,
+      "dollars": 273883694,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 90.2,
+      "volume": 6096612,
+      "dollars": 549977365,
+      "rank": 3
+    },
+    {
+      "price": 93.4,
+      "volume": 4616290,
+      "dollars": 431032720,
+      "rank": 7
+    },
+    {
+      "price": 83.2,
+      "volume": 4456362,
+      "dollars": 370684831,
+      "rank": 9
+    },
+    {
+      "price": 75.8,
+      "volume": 4172138,
+      "dollars": 316066097,
+      "rank": 10
+    },
+    {
+      "price": 93.6,
+      "volume": 3297951,
+      "dollars": 308705209,
+      "rank": 12
+    }
+  ],
   "boxes": []
 }

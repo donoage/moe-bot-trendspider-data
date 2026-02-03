@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "AIBD",
-    "generated_at": "2026-02-03T00:44:53.415591+00:00Z",
+    "generated_at": "2026-02-03T02:03:48.307150+00:00Z",
     "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1763611200,
+      "price": 8.12,
+      "volume": 189858,
+      "dollars": 1541646,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763438400,
+      "price": 8.03,
+      "volume": 189958,
+      "dollars": 1525362,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1762488000,
+      "price": 7.37,
+      "volume": 75222,
+      "dollars": 554386,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 8.1,
+      "volume": 189858,
+      "dollars": 1541646,
+      "rank": 2
+    },
+    {
+      "price": 8.0,
+      "volume": 189958,
+      "dollars": 1525362,
+      "rank": 3
+    },
+    {
+      "price": 7.4,
+      "volume": 75222,
+      "dollars": 554386,
+      "rank": 5
+    }
+  ],
   "boxes": []
 }

@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "AMDD",
-    "generated_at": "2026-02-03T00:45:01.073625+00:00Z",
+    "generated_at": "2026-02-03T02:03:48.312373+00:00Z",
     "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766030400,
+      "price": 10.03,
+      "volume": 277185,
+      "dollars": 2780165,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 9.73,
+      "volume": 170227,
+      "dollars": 1656308,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1769745600,
+      "price": 8.2,
+      "volume": 118640,
+      "dollars": 972254,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 9.7,
+      "volume": 553903,
+      "dollars": 5380405,
+      "rank": 1
+    },
+    {
+      "price": 8.5,
+      "volume": 487000,
+      "dollars": 4136983,
+      "rank": 2
+    },
+    {
+      "price": 8.4,
+      "volume": 458200,
+      "dollars": 3848843,
+      "rank": 3
+    },
+    {
+      "price": 9.2,
+      "volume": 400000,
+      "dollars": 3675850,
+      "rank": 4
+    },
+    {
+      "price": 10.0,
+      "volume": 277185,
+      "dollars": 2780165,
+      "rank": 5
+    }
+  ],
   "boxes": []
 }

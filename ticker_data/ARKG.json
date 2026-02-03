@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "ARKG",
-    "generated_at": "2026-01-31T01:30:57.132471+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:04:38.278612+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1762401600,
+      "price": 28.36,
+      "volume": 1233349,
+      "dollars": 34977777,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 27.3,
+      "volume": 4002997,
+      "dollars": 109193225,
+      "rank": 3
+    },
+    {
+      "price": 34.1,
+      "volume": 2653717,
+      "dollars": 90493315,
+      "rank": 6
+    },
+    {
+      "price": 28.4,
+      "volume": 2511905,
+      "dollars": 71266041,
+      "rank": 13
+    },
+    {
+      "price": 28.0,
+      "volume": 2382882,
+      "dollars": 66730145,
+      "rank": 16
+    },
+    {
+      "price": 29.8,
+      "volume": 1778009,
+      "dollars": 52989704,
+      "rank": 26
+    }
+  ],
   "boxes": []
 }

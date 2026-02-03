@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "ADI",
-    "generated_at": "2026-02-03T00:44:47.174897+00:00Z",
+    "generated_at": "2026-02-03T02:03:48.305005+00:00Z",
     "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 274.44,
+      "volume": 3426133,
+      "dollars": 940267940,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763956800,
+      "price": 239.4,
+      "volume": 2556187,
+      "dollars": 611951167,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1769745600,
+      "price": 310.88,
+      "volume": 1285334,
+      "dollars": 399584633,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 274.4,
+      "volume": 5432521,
+      "dollars": 1490901279,
+      "rank": 4
+    },
+    {
+      "price": 230.1,
+      "volume": 5612268,
+      "dollars": 1291421810,
+      "rank": 7
+    },
+    {
+      "price": 224.6,
+      "volume": 4723292,
+      "dollars": 1060938182,
+      "rank": 14
+    },
+    {
+      "price": 237.0,
+      "volume": 4375968,
+      "dollars": 1037029074,
+      "rank": 15
+    },
+    {
+      "price": 231.1,
+      "volume": 4239098,
+      "dollars": 979488785,
+      "rank": 16
+    }
+  ],
   "boxes": []
 }

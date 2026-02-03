@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "AU",
-    "generated_at": "2026-01-31T01:31:06.134449+00:00Z",
-    "date_range": "2025-11-01 to 2026-01-30",
+    "generated_at": "2026-02-03T02:04:38.285189+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 86.2,
+      "volume": 1988936,
+      "dollars": 171446283,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765339200,
+      "price": 82.33,
+      "volume": 1042128,
+      "dollars": 85798398,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 86.2,
+      "volume": 2475119,
+      "dollars": 213356372,
+      "rank": 9
+    },
+    {
+      "price": 67.8,
+      "volume": 2944838,
+      "dollars": 199718507,
+      "rank": 10
+    },
+    {
+      "price": 78.8,
+      "volume": 1544608,
+      "dollars": 121731439,
+      "rank": 53
+    },
+    {
+      "price": 88.5,
+      "volume": 1329974,
+      "dollars": 117665434,
+      "rank": 56
+    },
+    {
+      "price": 82.5,
+      "volume": 1348330,
+      "dollars": 111171567,
+      "rank": 63
+    }
+  ],
   "boxes": []
 }

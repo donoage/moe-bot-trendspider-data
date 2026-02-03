@@ -1,13 +1,93 @@
 {
   "metadata": {
     "ticker": "AMDL",
-    "generated_at": "2026-02-03T00:45:00.877960+00:00Z",
+    "generated_at": "2026-02-03T02:03:48.312461+00:00Z",
     "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1763956800,
+      "price": 16.23,
+      "volume": 1225895,
+      "dollars": 19896275,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1769745600,
+      "price": 18.6,
+      "volume": 303077,
+      "dollars": 5637232,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1769659200,
+      "price": 21.15,
+      "volume": 167710,
+      "dollars": 3547066,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765339200,
+      "price": 16.6,
+      "volume": 178400,
+      "dollars": 2961440,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 18.6,
+      "volume": 2156760,
+      "dollars": 40132731,
+      "rank": 1
+    },
+    {
+      "price": 16.2,
+      "volume": 1814609,
+      "dollars": 29434879,
+      "rank": 3
+    },
+    {
+      "price": 20.9,
+      "volume": 1003098,
+      "dollars": 20958411,
+      "rank": 7
+    },
+    {
+      "price": 20.3,
+      "volume": 790386,
+      "dollars": 16031886,
+      "rank": 15
+    },
+    {
+      "price": 18.0,
+      "volume": 870002,
+      "dollars": 15645227,
+      "rank": 16
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
@@ -16,8 +96,8 @@
       "volume": 1225895,
       "dollars": 19896275,
       "trades": 1,
-      "date_range": "2025-11-24",
-      "color": "blue"
+      "date_range": "2025-11-04 to 2026-02-02",
+      "color": "#FF6B6B"
     }
   ]
 }

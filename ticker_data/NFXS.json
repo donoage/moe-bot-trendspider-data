@@ -1,12 +1,62 @@
 {
   "metadata": {
     "ticker": "NFXS",
-    "generated_at": "2026-01-27T01:36:23.130292+00:00Z",
-    "date_range": "2025-10-28 to 2026-01-26",
+    "generated_at": "2026-02-03T02:13:34.660303+00:00Z",
+    "date_range": "2025-11-04 to 2026-02-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1770004800,
+      "price": 19.48,
+      "volume": 98027,
+      "dollars": 1909565,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765252800,
+      "price": 17.06,
+      "volume": 45309,
+      "dollars": 772971,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 19.5,
+      "volume": 98027,
+      "dollars": 1909565,
+      "rank": 1
+    },
+    {
+      "price": 17.1,
+      "volume": 45309,
+      "dollars": 772971,
+      "rank": 2
+    },
+    {
+      "price": 14.7,
+      "volume": 38610,
+      "dollars": 567258,
+      "rank": 4
+    },
+    {
+      "price": 17.3,
+      "volume": 30163,
+      "dollars": 521216,
+      "rank": 6
+    }
+  ],
   "boxes": []
 }
