@@ -256,8 +256,9 @@ def fetch_big_prints_batch(tickers_batch, start_date, end_date):
                     ticker_prints = {ticker: [] for ticker in tickers_batch}
                     
                     for trade in data['data']:
-                        ticker = trade.get('Symbol', '')
-                        if ticker not in ticker_prints:
+                        # API returns ticker in 'Ticker' field, not 'Symbol'
+                        ticker = trade.get('Ticker', '') or trade.get('Symbol', '')
+                        if not ticker or ticker not in ticker_prints:
                             continue
                             
                         rank = trade.get('TradeRank', 999)
