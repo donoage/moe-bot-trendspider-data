@@ -130,13 +130,16 @@ def update_ticker_data(tickers=None, full_refresh=False):
                 universal_newlines=True
             )
             
-            # Stream output in real-time
+            # Stream output in real-time (keep only last 20 lines to avoid memory bloat)
             output_lines = []
+            MAX_KEPT_LINES = 20
             while True:
                 line = process.stdout.readline()
                 if line:
                     line = line.rstrip()
                     output_lines.append(line)
+                    if len(output_lines) > MAX_KEPT_LINES:
+                        output_lines = output_lines[-MAX_KEPT_LINES:]
                     # Print chunk progress lines immediately to console with enhanced formatting
                     if any(indicator in line for indicator in [
                         '🚀 PROCESSING CHUNK', '✅ Chunk', '❌ Chunk', '📊 OVERALL PROGRESS:', 

@@ -64,8 +64,9 @@ def process_chunk(tickers_chunk, chunk_num, total_chunks, python_path, script_pa
             universal_newlines=True
         )
         
-        # Stream output in real-time with heartbeat
+        # Stream output in real-time with heartbeat (cap stored lines to avoid memory bloat)
         output_lines = []
+        MAX_KEPT_LINES = 20
         last_heartbeat = time.time()
         heartbeat_interval = 30  # Show heartbeat every 30 seconds
         
@@ -74,6 +75,8 @@ def process_chunk(tickers_chunk, chunk_num, total_chunks, python_path, script_pa
             if line:
                 line = line.rstrip()
                 output_lines.append(line)
+                if len(output_lines) > MAX_KEPT_LINES:
+                    output_lines = output_lines[-MAX_KEPT_LINES:]
                 last_heartbeat = time.time()  # Reset heartbeat timer
                 # Show progress indicators immediately
                 if any(indicator in line for indicator in [
