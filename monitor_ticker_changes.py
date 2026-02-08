@@ -105,10 +105,10 @@ def update_ticker_data(tickers=None, full_refresh=False):
             logger.info(f"Running incremental update for {len(tickers)} tickers: {', '.join(tickers[:10])}{'...' if len(tickers) > 10 else ''}")
             cmd = [PYTHON_PATH, POPULATE_SCRIPT, '--tickers'] + tickers + ['--max-workers', '3']
         
-        # For full refresh, stream output in real-time to show progress
+        # For full refresh, call process_chunks.main() directly (no subprocess)
+        # This keeps everything in a single process to avoid macOS jetsam kills
         if full_refresh:
             logger.info(f"🚀 Starting full refresh with chunk processing...")
-            logger.info(f"📊 Command: {' '.join(cmd)}")
             ticker_count = len(load_base_tickers())
             estimated_minutes = ticker_count // 10  # ~10 tickers per minute with chunk processing
             logger.info(f"⏱️  Estimated time: ~{estimated_minutes} minutes for {ticker_count} tickers in chunks")
@@ -117,76 +117,38 @@ def update_ticker_data(tickers=None, full_refresh=False):
             print(f"[{datetime.now().strftime('%H:%M:%S')}] ⏱️  Estimated completion time: ~{estimated_minutes} minutes")
             sys.stdout.flush()
             
-            # Run with real-time output streaming and timeout
-            process = subprocess.Popen(
-                cmd,
-                cwd=REPO_DIR,
-                stdout=subprocess.PIPE,
-                stderr=subprocess.STDOUT,
-                text=True,
-                encoding='utf-8',
-                errors='replace',
-                bufsize=1,  # Line buffered
-                universal_newlines=True
-            )
-            
-            # Stream output in real-time (keep only last 20 lines to avoid memory bloat)
-            output_lines = []
-            MAX_KEPT_LINES = 20
-            while True:
-                line = process.stdout.readline()
-                if line:
-                    line = line.rstrip()
-                    output_lines.append(line)
-                    if len(output_lines) > MAX_KEPT_LINES:
-                        output_lines = output_lines[-MAX_KEPT_LINES:]
-                    # Print chunk progress lines immediately to console with enhanced formatting
-                    if any(indicator in line for indicator in [
-                        '🚀 PROCESSING CHUNK', '✅ Chunk', '❌ Chunk', '📊 OVERALL PROGRESS:', 
-                        '🎉 PROCESSING COMPLETE!', '⏱️  Time:', '📈 Tickers processed:', 
-                        '🔮 Estimated remaining:', '🎯 ETA:', '⏸️  Waiting', 'CHUNK PROCESSING PLAN'
-                    ]):
-                        # Add timestamp and enhanced formatting for better visibility
-                        timestamp = datetime.now().strftime('%H:%M:%S')
-                        print(f"[{timestamp}] {line}")
-                        sys.stdout.flush()
-                    # Also log important chunk progress lines
-                    if any(indicator in line for indicator in [
-                        '🚀 PROCESSING CHUNK', '✅ Chunk', '❌ Chunk', '📊 OVERALL PROGRESS:', 
-                        '🎉 PROCESSING COMPLETE!', 'CHUNK PROCESSING PLAN', '📈 Tickers processed:'
-                    ]):
-                        logger.info(line)
-                elif process.poll() is not None:
-                    break
-            
-            # Wait for process to complete with timeout (2 hours)
+            # Import and call process_chunks.main() directly instead of subprocess
+            # This avoids the 3-process tree that macOS jetsam targets
             try:
-                return_code = process.wait(timeout=7200)
-            except subprocess.TimeoutExpired:
-                logger.error("❌ Process timed out after 2 hours, terminating...")
-                process.terminate()
-                try:
-                    process.wait(timeout=30)
-                except subprocess.TimeoutExpired:
-                    logger.error("❌ Process didn't terminate gracefully, killing...")
-                    process.kill()
-                    process.wait()
-                return_code = -1
-            
-            if return_code == 0:
+                # Ensure the repo dir is importable
+                if REPO_DIR not in sys.path:
+                    sys.path.insert(0, REPO_DIR)
+                import process_chunks
+                process_chunks.main()
+                
                 completion_time = datetime.now().strftime('%H:%M:%S')
                 print(f"[{completion_time}] ✅ Chunk processing completed successfully!")
-                print(f"[{completion_time}] 📊 All {len(load_base_tickers())} tickers processed in chunks")
+                print(f"[{completion_time}] 📊 All {ticker_count} tickers processed in chunks")
                 logger.info(f"✅ Successfully updated ticker data")
                 return True
-            else:
+            except SystemExit as e:
+                exit_code = e.code if e.code is not None else 0
+                if exit_code == 0:
+                    completion_time = datetime.now().strftime('%H:%M:%S')
+                    print(f"[{completion_time}] ✅ Chunk processing completed successfully!")
+                    logger.info(f"✅ Successfully updated ticker data")
+                    return True
+                else:
+                    failure_time = datetime.now().strftime('%H:%M:%S')
+                    print(f"[{failure_time}] ❌ Chunk processing failed (exit code: {exit_code})")
+                    logger.error(f"❌ Failed to update ticker data (exit code: {exit_code})")
+                    return False
+            except Exception as e:
                 failure_time = datetime.now().strftime('%H:%M:%S')
-                print(f"[{failure_time}] ❌ Chunk processing failed (exit code: {return_code})")
-                logger.error(f"❌ Failed to update ticker data (exit code: {return_code})")
-                # Log last few lines for debugging
-                for line in output_lines[-5:]:
-                    if line.strip():
-                        logger.error(f"Error output: {line.strip()}")
+                print(f"[{failure_time}] ❌ Chunk processing failed with exception: {e}")
+                logger.error(f"❌ Failed to update ticker data: {e}")
+                import traceback
+                traceback.print_exc()
                 return False
                 
         else:
