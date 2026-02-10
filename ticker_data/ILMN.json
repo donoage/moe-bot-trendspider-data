@@ -1,12 +1,79 @@
 {
   "metadata": {
     "ticker": "ILMN",
-    "generated_at": "2026-02-08T15:53:37.552252+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:40:22.208112+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 134.78,
+      "volume": 2186950,
+      "dollars": 294757121,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 134.78,
+      "volume": 1486854,
+      "dollars": 200398182,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 136.0,
+      "volume": 12893809,
+      "dollars": 1753797487,
+      "rank": 3
+    },
+    {
+      "price": 134.8,
+      "volume": 4485599,
+      "dollars": 604559716,
+      "rank": 6
+    },
+    {
+      "price": 138.9,
+      "volume": 3167496,
+      "dollars": 439979840,
+      "rank": 10
+    },
+    {
+      "price": 140.0,
+      "volume": 2595019,
+      "dollars": 363269407,
+      "rank": 17
+    },
+    {
+      "price": 130.1,
+      "volume": 2527577,
+      "dollars": 328895659,
+      "rank": 20
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 152.5,
+      "low_price": 148.0,
+      "volume": 607419,
+      "dollars": 91475743,
+      "trades": 2,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

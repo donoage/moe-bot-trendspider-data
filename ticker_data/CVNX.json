@@ -1,12 +1,50 @@
 {
   "metadata": {
     "ticker": "CVNX",
-    "generated_at": "2026-02-08T15:50:17.795994+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:36:33.764550+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766030400,
+      "price": 32.27,
+      "volume": 25103,
+      "dollars": 810073,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766376000,
+      "price": 27.56,
+      "volume": 27635,
+      "dollars": 761620,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 32.3,
+      "volume": 25103,
+      "dollars": 810073,
+      "rank": 1
+    },
+    {
+      "price": 27.6,
+      "volume": 27635,
+      "dollars": 761620,
+      "rank": 2
+    }
+  ],
   "boxes": []
 }

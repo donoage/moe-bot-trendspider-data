@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "TSLT",
-    "generated_at": "2026-02-08T16:01:50.078743+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:49:09.105089+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766548800,
+      "price": 31.56,
+      "volume": 62950,
+      "dollars": 1986683,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766980800,
+      "price": 28.95,
+      "volume": 59920,
+      "dollars": 1734684,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 26.7,
+      "volume": 1460096,
+      "dollars": 38951581,
+      "rank": 1
+    },
+    {
+      "price": 27.6,
+      "volume": 1023600,
+      "dollars": 28265488,
+      "rank": 2
+    },
+    {
+      "price": 19.9,
+      "volume": 1192794,
+      "dollars": 23758798,
+      "rank": 3
+    },
+    {
+      "price": 20.4,
+      "volume": 1000000,
+      "dollars": 20373600,
+      "rank": 4
+    },
+    {
+      "price": 21.9,
+      "volume": 500000,
+      "dollars": 10928650,
+      "rank": 5
+    }
+  ],
   "boxes": []
 }

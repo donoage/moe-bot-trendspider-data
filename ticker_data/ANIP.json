@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "ANIP",
-    "generated_at": "2026-02-08T15:47:49.538077+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:33:52.629137+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1765771200,
+      "price": 81.51,
+      "volume": 316092,
+      "dollars": 25764658,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 82.85,
+      "volume": 301194,
+      "dollars": 24953922,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763352000,
+      "price": 81.97,
+      "volume": 285661,
+      "dollars": 23415632,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 81.5,
+      "volume": 997774,
+      "dollars": 81320877,
+      "rank": 3
+    },
+    {
+      "price": 88.7,
+      "volume": 567147,
+      "dollars": 50328624,
+      "rank": 9
+    },
+    {
+      "price": 82.0,
+      "volume": 489754,
+      "dollars": 40153015,
+      "rank": 14
+    },
+    {
+      "price": 82.9,
+      "volume": 450047,
+      "dollars": 37286641,
+      "rank": 18
+    },
+    {
+      "price": 84.4,
+      "volume": 348946,
+      "dollars": 29436245,
+      "rank": 25
+    }
+  ],
   "boxes": []
 }

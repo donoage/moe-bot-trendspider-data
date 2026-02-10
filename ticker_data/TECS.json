@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "TECS",
-    "generated_at": "2026-02-08T16:01:01.621236+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:48:17.316325+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1770609600,
+      "price": 18.17,
+      "volume": 724832,
+      "dollars": 13170197,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1770004800,
+      "price": 17.37,
+      "volume": 657280,
+      "dollars": 11416953,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 18.2,
+      "volume": 964061,
+      "dollars": 17526518,
+      "rank": 2
+    },
+    {
+      "price": 17.4,
+      "volume": 762180,
+      "dollars": 13238760,
+      "rank": 3
+    },
+    {
+      "price": 18.4,
+      "volume": 719441,
+      "dollars": 13218738,
+      "rank": 4
+    },
+    {
+      "price": 17.8,
+      "volume": 647374,
+      "dollars": 11530840,
+      "rank": 7
+    },
+    {
+      "price": 18.9,
+      "volume": 520818,
+      "dollars": 9835041,
+      "rank": 10
+    }
+  ],
   "boxes": []
 }

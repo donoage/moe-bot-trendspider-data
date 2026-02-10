@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "TECL",
-    "generated_at": "2026-02-08T16:01:01.620652+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:48:17.315977+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1765944000,
+      "price": 113.41,
+      "volume": 164369,
+      "dollars": 18641088,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 113.4,
+      "volume": 164369,
+      "dollars": 18641088,
+      "rank": 61
+    },
+    {
+      "price": 136.1,
+      "volume": 103899,
+      "dollars": 14141468,
+      "rank": 0
+    },
+    {
+      "price": 116.9,
+      "volume": 120500,
+      "dollars": 14080425,
+      "rank": 0
+    },
+    {
+      "price": 98.0,
+      "volume": 139016,
+      "dollars": 13623159,
+      "rank": 0
+    },
+    {
+      "price": 103.8,
+      "volume": 127993,
+      "dollars": 13288233,
+      "rank": 0
+    }
+  ],
   "boxes": []
 }

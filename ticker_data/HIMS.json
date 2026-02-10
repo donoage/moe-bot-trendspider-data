@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "HIMS",
-    "generated_at": "2026-02-08T15:52:45.116887+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:39:21.368915+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1764907200,
+      "price": 39.2,
+      "volume": 7140417,
+      "dollars": 279904346,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 34.8,
+      "volume": 35312005,
+      "dollars": 1227188689,
+      "rank": 1
+    },
+    {
+      "price": 18.8,
+      "volume": 30039785,
+      "dollars": 563342089,
+      "rank": 4
+    },
+    {
+      "price": 39.2,
+      "volume": 8973969,
+      "dollars": 351769345,
+      "rank": 14
+    },
+    {
+      "price": 40.0,
+      "volume": 6384341,
+      "dollars": 255408996,
+      "rank": 27
+    },
+    {
+      "price": 20.2,
+      "volume": 10981765,
+      "dollars": 221723988,
+      "rank": 33
+    }
+  ],
   "boxes": []
 }

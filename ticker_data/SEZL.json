@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "SEZL",
-    "generated_at": "2026-02-08T15:59:25.689020+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:46:32.657845+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1765512000,
+      "price": 70.35,
+      "volume": 1543576,
+      "dollars": 108590571,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 73.5,
+      "volume": 191557,
+      "dollars": 14079439,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1767153600,
+      "price": 63.48,
+      "volume": 214525,
+      "dollars": 13616974,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765512000,
+      "price": 70.35,
+      "volume": 151500,
+      "dollars": 10658025,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 70.4,
+      "volume": 2096688,
+      "dollars": 147501289,
+      "rank": 1
+    },
+    {
+      "price": 77.3,
+      "volume": 247830,
+      "dollars": 19165520,
+      "rank": 12
+    },
+    {
+      "price": 51.0,
+      "volume": 364623,
+      "dollars": 18604265,
+      "rank": 14
+    },
+    {
+      "price": 67.7,
+      "volume": 263365,
+      "dollars": 17831228,
+      "rank": 16
+    },
+    {
+      "price": 79.5,
+      "volume": 206142,
+      "dollars": 16394473,
+      "rank": 20
+    }
+  ],
   "boxes": []
 }

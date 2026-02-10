@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "PARR",
-    "generated_at": "2026-02-08T15:57:47.390869+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:44:49.162783+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 37.77,
+      "volume": 1242173,
+      "dollars": 46916874,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 34.4,
+      "volume": 4893026,
+      "dollars": 168306209,
+      "rank": 2
+    },
+    {
+      "price": 35.0,
+      "volume": 2855245,
+      "dollars": 99885037,
+      "rank": 4
+    },
+    {
+      "price": 37.2,
+      "volume": 2339309,
+      "dollars": 86912354,
+      "rank": 5
+    },
+    {
+      "price": 37.8,
+      "volume": 2199304,
+      "dollars": 83073600,
+      "rank": 6
+    },
+    {
+      "price": 35.4,
+      "volume": 2103459,
+      "dollars": 74455292,
+      "rank": 11
+    }
+  ],
   "boxes": []
 }

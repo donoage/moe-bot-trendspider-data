@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "GILT",
-    "generated_at": "2026-02-08T15:52:45.107392+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:39:21.355252+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1769745600,
+      "price": 19.29,
+      "volume": 299913,
+      "dollars": 5785321,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 11.6,
+      "volume": 1245956,
+      "dollars": 14490468,
+      "rank": 3
+    },
+    {
+      "price": 12.3,
+      "volume": 881829,
+      "dollars": 10849829,
+      "rank": 5
+    },
+    {
+      "price": 19.3,
+      "volume": 490387,
+      "dollars": 9456808,
+      "rank": 8
+    },
+    {
+      "price": 11.1,
+      "volume": 654869,
+      "dollars": 7264806,
+      "rank": 10
+    },
+    {
+      "price": 11.8,
+      "volume": 582935,
+      "dollars": 6886527,
+      "rank": 12
+    }
+  ],
   "boxes": []
 }

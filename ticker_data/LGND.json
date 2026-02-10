@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "LGND",
-    "generated_at": "2026-02-08T15:55:20.290034+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:42:11.243168+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 200.33,
+      "volume": 204503,
+      "dollars": 40968085,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 200.3,
+      "volume": 432333,
+      "dollars": 86607449,
+      "rank": 8
+    },
+    {
+      "price": 191.6,
+      "volume": 346500,
+      "dollars": 66385977,
+      "rank": 20
+    },
+    {
+      "price": 191.1,
+      "volume": 320482,
+      "dollars": 61256029,
+      "rank": 24
+    },
+    {
+      "price": 181.6,
+      "volume": 300000,
+      "dollars": 54480000,
+      "rank": 32
+    },
+    {
+      "price": 185.9,
+      "volume": 266600,
+      "dollars": 49560940,
+      "rank": 39
+    }
+  ],
   "boxes": []
 }

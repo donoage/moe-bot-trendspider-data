@@ -1,12 +1,54 @@
 {
   "metadata": {
     "ticker": "SE",
-    "generated_at": "2026-02-08T15:59:25.687675+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:46:32.654299+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
-  "boxes": []
+  "levels": [
+    {
+      "price": 145.6,
+      "volume": 22118694,
+      "dollars": 3220469963,
+      "rank": 1
+    },
+    {
+      "price": 116.3,
+      "volume": 3931206,
+      "dollars": 457073892,
+      "rank": 10
+    },
+    {
+      "price": 142.5,
+      "volume": 2998508,
+      "dollars": 427252968,
+      "rank": 13
+    },
+    {
+      "price": 160.4,
+      "volume": 2625309,
+      "dollars": 421022285,
+      "rank": 14
+    },
+    {
+      "price": 117.1,
+      "volume": 3374053,
+      "dollars": 395167024,
+      "rank": 15
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 108.05,
+      "low_price": 107.7,
+      "volume": 779335,
+      "dollars": 84137216,
+      "trades": 2,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

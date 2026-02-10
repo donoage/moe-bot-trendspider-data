@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "SERV",
-    "generated_at": "2026-02-08T15:59:25.688971+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:46:32.657222+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 10.26,
+      "volume": 2733943,
+      "dollars": 28050255,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763956800,
+      "price": 9.58,
+      "volume": 1012226,
+      "dollars": 9697125,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 11.4,
+      "volume": 7056532,
+      "dollars": 80678734,
+      "rank": 1
+    },
+    {
+      "price": 10.3,
+      "volume": 6030737,
+      "dollars": 61961845,
+      "rank": 2
+    },
+    {
+      "price": 14.0,
+      "volume": 4081073,
+      "dollars": 57086696,
+      "rank": 3
+    },
+    {
+      "price": 14.6,
+      "volume": 3183100,
+      "dollars": 46480241,
+      "rank": 4
+    },
+    {
+      "price": 12.1,
+      "volume": 3119164,
+      "dollars": 37728950,
+      "rank": 5
+    }
+  ],
   "boxes": []
 }

@@ -1,12 +1,32 @@
 {
   "metadata": {
     "ticker": "BETH",
-    "generated_at": "2026-02-08T15:48:38.257522+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:34:48.207963+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1764043200,
+      "price": 56.69,
+      "volume": 10000,
+      "dollars": 566900,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 56.7,
+      "volume": 10000,
+      "dollars": 566900,
+      "rank": 3
+    }
+  ],
   "boxes": []
 }

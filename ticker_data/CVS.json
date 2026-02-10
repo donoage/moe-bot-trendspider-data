@@ -1,12 +1,67 @@
 {
   "metadata": {
     "ticker": "CVS",
-    "generated_at": "2026-02-08T15:50:17.796430+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:36:33.764669+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1763697600,
+      "price": 77.74,
+      "volume": 6687500,
+      "dollars": 519886250,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 74.4,
+      "volume": 41431584,
+      "dollars": 3082215927,
+      "rank": 1
+    },
+    {
+      "price": 77.4,
+      "volume": 39714701,
+      "dollars": 3074125232,
+      "rank": 2
+    },
+    {
+      "price": 81.4,
+      "volume": 29702878,
+      "dollars": 2417879805,
+      "rank": 3
+    },
+    {
+      "price": 80.7,
+      "volume": 29925914,
+      "dollars": 2414463574,
+      "rank": 4
+    },
+    {
+      "price": 80.4,
+      "volume": 29442196,
+      "dollars": 2366442566,
+      "rank": 5
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 80.95,
+      "low_price": 74.98,
+      "volume": 3932126,
+      "dollars": 310810149,
+      "trades": 9,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

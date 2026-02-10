@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "SPOT",
-    "generated_at": "2026-02-08T16:00:13.395627+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:47:25.376316+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1763956800,
+      "price": 584.98,
+      "volume": 673223,
+      "dollars": 393821990,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 481.4,
+      "volume": 22548538,
+      "dollars": 10854375396,
+      "rank": 1
+    },
+    {
+      "price": 608.0,
+      "volume": 2113831,
+      "dollars": 1285226155,
+      "rank": 2
+    },
+    {
+      "price": 665.1,
+      "volume": 1227460,
+      "dollars": 816432099,
+      "rank": 6
+    },
+    {
+      "price": 585.0,
+      "volume": 943401,
+      "dollars": 551870939,
+      "rank": 9
+    },
+    {
+      "price": 603.1,
+      "volume": 626168,
+      "dollars": 377660705,
+      "rank": 12
+    }
+  ],
   "boxes": []
 }

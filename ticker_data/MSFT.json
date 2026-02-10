@@ -1,12 +1,79 @@
 {
   "metadata": {
     "ticker": "MSFT",
-    "generated_at": "2026-02-08T15:56:08.562937+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:43:02.823163+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 485.92,
+      "volume": 18591484,
+      "dollars": 9033973905,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 485.92,
+      "volume": 11291894,
+      "dollars": 5486957132,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 485.9,
+      "volume": 46984967,
+      "dollars": 22830931735,
+      "rank": 1
+    },
+    {
+      "price": 435.3,
+      "volume": 49528155,
+      "dollars": 21557998713,
+      "rank": 2
+    },
+    {
+      "price": 436.6,
+      "volume": 39449916,
+      "dollars": 17223833486,
+      "rank": 3
+    },
+    {
+      "price": 413.6,
+      "volume": 33228468,
+      "dollars": 13744031091,
+      "rank": 10
+    },
+    {
+      "price": 415.1,
+      "volume": 30876767,
+      "dollars": 12817156260,
+      "rank": 13
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 510.67,
+      "low_price": 416.3,
+      "volume": 842546,
+      "dollars": 394270048,
+      "trades": 11,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

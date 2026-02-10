@@ -1,12 +1,79 @@
 {
   "metadata": {
     "ticker": "DDOG",
-    "generated_at": "2026-02-08T15:50:17.800352+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:36:33.768449+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 140.39,
+      "volume": 2175910,
+      "dollars": 305476004,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763956800,
+      "price": 158.44,
+      "volume": 1727041,
+      "dollars": 273632376,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 145.9,
+      "volume": 61939349,
+      "dollars": 9039396798,
+      "rank": 1
+    },
+    {
+      "price": 170.2,
+      "volume": 13437819,
+      "dollars": 2286548323,
+      "rank": 2
+    },
+    {
+      "price": 138.8,
+      "volume": 7534780,
+      "dollars": 1045924192,
+      "rank": 3
+    },
+    {
+      "price": 107.7,
+      "volume": 6317760,
+      "dollars": 680518679,
+      "rank": 4
+    },
+    {
+      "price": 105.0,
+      "volume": 5437923,
+      "dollars": 570963991,
+      "rank": 5
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 151.17,
+      "low_price": 123.0,
+      "volume": 853808,
+      "dollars": 115859396,
+      "trades": 3,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

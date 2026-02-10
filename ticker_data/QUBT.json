@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "QUBT",
-    "generated_at": "2026-02-08T15:58:36.417663+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:45:41.820865+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 10.89,
+      "volume": 9698179,
+      "dollars": 105613169,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763438400,
+      "price": 12.34,
+      "volume": 2706348,
+      "dollars": 33396334,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766376000,
+      "price": 12.29,
+      "volume": 2580729,
+      "dollars": 31717159,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 10.9,
+      "volume": 16865176,
+      "dollars": 183707764,
+      "rank": 2
+    },
+    {
+      "price": 12.1,
+      "volume": 8238149,
+      "dollars": 99555369,
+      "rank": 7
+    },
+    {
+      "price": 11.5,
+      "volume": 7966732,
+      "dollars": 91526221,
+      "rank": 8
+    },
+    {
+      "price": 11.3,
+      "volume": 8025430,
+      "dollars": 90760131,
+      "rank": 9
+    },
+    {
+      "price": 11.9,
+      "volume": 6925890,
+      "dollars": 82619606,
+      "rank": 12
+    }
+  ],
   "boxes": []
 }

@@ -1,12 +1,91 @@
 {
   "metadata": {
     "ticker": "DASH",
-    "generated_at": "2026-02-08T15:50:17.799242+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:36:33.766733+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 234.25,
+      "volume": 2695326,
+      "dollars": 631380115,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763956800,
+      "price": 188.08,
+      "volume": 1851508,
+      "dollars": 348231624,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1764648000,
+      "price": 216.98,
+      "volume": 1553518,
+      "dollars": 337082335,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 190.6,
+      "volume": 62220951,
+      "dollars": 11860515898,
+      "rank": 1
+    },
+    {
+      "price": 222.9,
+      "volume": 9778231,
+      "dollars": 2179664146,
+      "rank": 3
+    },
+    {
+      "price": 234.3,
+      "volume": 4362390,
+      "dollars": 1021890890,
+      "rank": 5
+    },
+    {
+      "price": 182.0,
+      "volume": 5050044,
+      "dollars": 919098220,
+      "rank": 6
+    },
+    {
+      "price": 198.4,
+      "volume": 3365665,
+      "dollars": 667862668,
+      "rank": 10
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 211.1,
+      "low_price": 181.45,
+      "volume": 922415,
+      "dollars": 186236066,
+      "trades": 6,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

@@ -1,12 +1,79 @@
 {
   "metadata": {
     "ticker": "EFA",
-    "generated_at": "2026-02-08T15:51:05.502448+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:37:30.948873+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1765944000,
+      "price": 94.51,
+      "volume": 6050000,
+      "dollars": 571755250,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1767326400,
+      "price": 97.04,
+      "volume": 4595813,
+      "dollars": 445977693,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 94.5,
+      "volume": 21069387,
+      "dollars": 1990942261,
+      "rank": 0
+    },
+    {
+      "price": 95.5,
+      "volume": 15227884,
+      "dollars": 1454210294,
+      "rank": 0
+    },
+    {
+      "price": 93.0,
+      "volume": 13655612,
+      "dollars": 1269835546,
+      "rank": 0
+    },
+    {
+      "price": 93.4,
+      "volume": 12444539,
+      "dollars": 1161906836,
+      "rank": 0
+    },
+    {
+      "price": 95.3,
+      "volume": 11957650,
+      "dollars": 1139362070,
+      "rank": 0
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 101.62,
+      "low_price": 91.99,
+      "volume": 4704141,
+      "dollars": 453726873,
+      "trades": 8,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

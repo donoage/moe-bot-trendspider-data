@@ -1,12 +1,67 @@
 {
   "metadata": {
     "ticker": "ITB",
-    "generated_at": "2026-02-08T15:54:32.617258+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:41:17.879277+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1768449600,
+      "price": 109.5,
+      "volume": 939183,
+      "dollars": 102840538,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 102.0,
+      "volume": 2215935,
+      "dollars": 226004079,
+      "rank": 9
+    },
+    {
+      "price": 103.6,
+      "volume": 1997824,
+      "dollars": 206981927,
+      "rank": 15
+    },
+    {
+      "price": 99.8,
+      "volume": 1881160,
+      "dollars": 187765016,
+      "rank": 19
+    },
+    {
+      "price": 98.0,
+      "volume": 1896499,
+      "dollars": 185865193,
+      "rank": 21
+    },
+    {
+      "price": 108.1,
+      "volume": 1566327,
+      "dollars": 169306450,
+      "rank": 26
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 109.5,
+      "low_price": 101.7,
+      "volume": 1138483,
+      "dollars": 123109348,
+      "trades": 2,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

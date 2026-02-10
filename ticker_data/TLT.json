@@ -1,12 +1,54 @@
 {
   "metadata": {
     "ticker": "TLT",
-    "generated_at": "2026-02-08T16:01:01.624709+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:48:17.324348+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
-  "boxes": []
+  "levels": [
+    {
+      "price": 87.8,
+      "volume": 128213650,
+      "dollars": 11257216321,
+      "rank": 1
+    },
+    {
+      "price": 90.2,
+      "volume": 98679337,
+      "dollars": 8900539666,
+      "rank": 3
+    },
+    {
+      "price": 87.5,
+      "volume": 99684274,
+      "dollars": 8722539242,
+      "rank": 4
+    },
+    {
+      "price": 89.8,
+      "volume": 95060158,
+      "dollars": 8536216511,
+      "rank": 5
+    },
+    {
+      "price": 90.1,
+      "volume": 89543679,
+      "dollars": 8067146991,
+      "rank": 7
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 90.0,
+      "low_price": 86.97,
+      "volume": 7230911,
+      "dollars": 632870787,
+      "trades": 11,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

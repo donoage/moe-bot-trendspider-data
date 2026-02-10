@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "QTWO",
-    "generated_at": "2026-02-08T15:58:36.417573+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:45:41.820107+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 74.14,
+      "volume": 491792,
+      "dollars": 36461458,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 74.1,
+      "volume": 1209231,
+      "dollars": 89637333,
+      "rank": 8
+    },
+    {
+      "price": 75.5,
+      "volume": 993905,
+      "dollars": 75022498,
+      "rank": 15
+    },
+    {
+      "price": 60.3,
+      "volume": 1239746,
+      "dollars": 74773971,
+      "rank": 17
+    },
+    {
+      "price": 61.4,
+      "volume": 1157119,
+      "dollars": 71048901,
+      "rank": 19
+    },
+    {
+      "price": 73.4,
+      "volume": 929898,
+      "dollars": 68250493,
+      "rank": 24
+    }
+  ],
   "boxes": []
 }

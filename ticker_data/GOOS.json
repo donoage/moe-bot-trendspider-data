@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "GOOS",
-    "generated_at": "2026-02-08T15:52:45.111336+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:39:21.359509+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766376000,
+      "price": 12.5,
+      "volume": 1112116,
+      "dollars": 13901450,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 12.9,
+      "volume": 1595568,
+      "dollars": 20588686,
+      "rank": 60
+    },
+    {
+      "price": 12.5,
+      "volume": 1566367,
+      "dollars": 19579666,
+      "rank": 73
+    },
+    {
+      "price": 12.8,
+      "volume": 1397745,
+      "dollars": 17865948,
+      "rank": 90
+    },
+    {
+      "price": 11.3,
+      "volume": 1560408,
+      "dollars": 17628377,
+      "rank": 93
+    },
+    {
+      "price": 13.2,
+      "volume": 1319011,
+      "dollars": 17398337,
+      "rank": 96
+    }
+  ],
   "boxes": []
 }

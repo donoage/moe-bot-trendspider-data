@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "VTMX",
-    "generated_at": "2026-02-08T16:02:38.060520+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:50:01.085617+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1769054400,
+      "price": 32.3,
+      "volume": 144218,
+      "dollars": 4658241,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 32.0,
+      "volume": 469805,
+      "dollars": 15033760,
+      "rank": 6
+    },
+    {
+      "price": 31.3,
+      "volume": 445418,
+      "dollars": 13928929,
+      "rank": 7
+    },
+    {
+      "price": 30.5,
+      "volume": 384200,
+      "dollars": 11705581,
+      "rank": 11
+    },
+    {
+      "price": 31.1,
+      "volume": 339992,
+      "dollars": 10572266,
+      "rank": 14
+    },
+    {
+      "price": 30.2,
+      "volume": 292393,
+      "dollars": 8832408,
+      "rank": 21
+    }
+  ],
   "boxes": []
 }

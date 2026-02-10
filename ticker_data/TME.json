@@ -1,12 +1,54 @@
 {
   "metadata": {
     "ticker": "TME",
-    "generated_at": "2026-02-08T16:01:01.625748+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:48:17.325533+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
-  "boxes": []
+  "levels": [
+    {
+      "price": 20.1,
+      "volume": 179637192,
+      "dollars": 3610743605,
+      "rank": 1
+    },
+    {
+      "price": 20.3,
+      "volume": 45610748,
+      "dollars": 927618852,
+      "rank": 2
+    },
+    {
+      "price": 18.0,
+      "volume": 28835725,
+      "dollars": 519201920,
+      "rank": 7
+    },
+    {
+      "price": 21.0,
+      "volume": 23156188,
+      "dollars": 485964899,
+      "rank": 9
+    },
+    {
+      "price": 21.3,
+      "volume": 20847866,
+      "dollars": 444736426,
+      "rank": 13
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 15.87,
+      "low_price": 15.87,
+      "volume": 1966445,
+      "dollars": 31207482,
+      "trades": 1,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

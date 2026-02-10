@@ -1,12 +1,91 @@
 {
   "metadata": {
     "ticker": "RBLX",
-    "generated_at": "2026-02-08T15:58:36.418666+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:45:41.821981+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 81.94,
+      "volume": 3624591,
+      "dollars": 296998986,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1770091200,
+      "price": 65.4,
+      "volume": 3421229,
+      "dollars": 223748376,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763956800,
+      "price": 90.58,
+      "volume": 2411393,
+      "dollars": 218423977,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 64.5,
+      "volume": 23647292,
+      "dollars": 1525248619,
+      "rank": 1
+    },
+    {
+      "price": 87.0,
+      "volume": 8829264,
+      "dollars": 767959810,
+      "rank": 6
+    },
+    {
+      "price": 77.0,
+      "volume": 9297614,
+      "dollars": 715922842,
+      "rank": 7
+    },
+    {
+      "price": 81.0,
+      "volume": 7861766,
+      "dollars": 636905698,
+      "rank": 8
+    },
+    {
+      "price": 105.6,
+      "volume": 5048417,
+      "dollars": 533061885,
+      "rank": 9
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 94.75,
+      "low_price": 75.61,
+      "volume": 527764,
+      "dollars": 44661751,
+      "trades": 2,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

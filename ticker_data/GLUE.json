@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "GLUE",
-    "generated_at": "2026-02-08T15:52:45.108578+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:39:21.356269+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 15.54,
+      "volume": 2259085,
+      "dollars": 35106180,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1767931200,
+      "price": 24.28,
+      "volume": 390922,
+      "dollars": 9491586,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1768190400,
+      "price": 23.72,
+      "volume": 371077,
+      "dollars": 8801946,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 15.5,
+      "volume": 2259085,
+      "dollars": 35106180,
+      "rank": 5
+    },
+    {
+      "price": 14.0,
+      "volume": 2000823,
+      "dollars": 27954137,
+      "rank": 9
+    },
+    {
+      "price": 22.0,
+      "volume": 1056934,
+      "dollars": 23247343,
+      "rank": 12
+    },
+    {
+      "price": 23.7,
+      "volume": 847565,
+      "dollars": 20101023,
+      "rank": 13
+    },
+    {
+      "price": 19.5,
+      "volume": 816325,
+      "dollars": 15919939,
+      "rank": 15
+    }
+  ],
   "boxes": []
 }

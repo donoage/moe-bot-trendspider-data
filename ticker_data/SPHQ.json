@@ -1,12 +1,79 @@
 {
   "metadata": {
     "ticker": "SPHQ",
-    "generated_at": "2026-02-08T16:00:13.394468+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:47:25.375326+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1768190400,
+      "price": 77.47,
+      "volume": 2925809,
+      "dollars": 226662423,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1767585600,
+      "price": 76.39,
+      "volume": 1847220,
+      "dollars": 141109135,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 72.1,
+      "volume": 3758304,
+      "dollars": 270984671,
+      "rank": 3
+    },
+    {
+      "price": 72.9,
+      "volume": 3511692,
+      "dollars": 255951383,
+      "rank": 4
+    },
+    {
+      "price": 77.5,
+      "volume": 3110688,
+      "dollars": 240987465,
+      "rank": 6
+    },
+    {
+      "price": 72.4,
+      "volume": 2834055,
+      "dollars": 205137870,
+      "rank": 7
+    },
+    {
+      "price": 76.4,
+      "volume": 2346926,
+      "dollars": 179294074,
+      "rank": 8
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 77.04,
+      "low_price": 75.96,
+      "volume": 2757631,
+      "dollars": 210800317,
+      "trades": 3,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "SYK",
-    "generated_at": "2026-02-08T16:01:01.618403+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:48:17.313499+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 355.2,
+      "volume": 758198,
+      "dollars": 269311929,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 352.2,
+      "volume": 1901871,
+      "dollars": 669880978,
+      "rank": 1
+    },
+    {
+      "price": 364.6,
+      "volume": 1829612,
+      "dollars": 667075004,
+      "rank": 2
+    },
+    {
+      "price": 370.2,
+      "volume": 1770415,
+      "dollars": 655417432,
+      "rank": 3
+    },
+    {
+      "price": 355.2,
+      "volume": 1630543,
+      "dollars": 579159817,
+      "rank": 5
+    },
+    {
+      "price": 372.3,
+      "volume": 1454214,
+      "dollars": 541369809,
+      "rank": 8
+    }
+  ],
   "boxes": []
 }

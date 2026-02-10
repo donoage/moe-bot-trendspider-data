@@ -1,12 +1,67 @@
 {
   "metadata": {
     "ticker": "SBUX",
-    "generated_at": "2026-02-08T15:59:25.685340+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:46:32.652832+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 88.33,
+      "volume": 5062407,
+      "dollars": 447162410,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 96.1,
+      "volume": 29101965,
+      "dollars": 2795821814,
+      "rank": 1
+    },
+    {
+      "price": 93.1,
+      "volume": 27545985,
+      "dollars": 2564334688,
+      "rank": 2
+    },
+    {
+      "price": 98.3,
+      "volume": 26055396,
+      "dollars": 2561365062,
+      "rank": 3
+    },
+    {
+      "price": 84.6,
+      "volume": 26741195,
+      "dollars": 2261689516,
+      "rank": 5
+    },
+    {
+      "price": 92.1,
+      "volume": 24194666,
+      "dollars": 2228442079,
+      "rank": 6
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 95.3,
+      "low_price": 87.11,
+      "volume": 3035336,
+      "dollars": 276727428,
+      "trades": 4,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

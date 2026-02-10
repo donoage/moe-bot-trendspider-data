@@ -1,12 +1,91 @@
 {
   "metadata": {
     "ticker": "QQQ",
-    "generated_at": "2026-02-08T15:58:36.414945+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:45:41.816632+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1769659200,
+      "price": 625.91,
+      "volume": 2000000,
+      "dollars": 1251820000,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763438400,
+      "price": 595.0,
+      "volume": 1785000,
+      "dollars": 1062083746,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 617.05,
+      "volume": 1672884,
+      "dollars": 1032253072,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 626.2,
+      "volume": 8788776,
+      "dollars": 5503525924,
+      "rank": 0
+    },
+    {
+      "price": 612.1,
+      "volume": 8744731,
+      "dollars": 5352571649,
+      "rank": 0
+    },
+    {
+      "price": 621.0,
+      "volume": 8334642,
+      "dollars": 5175803343,
+      "rank": 0
+    },
+    {
+      "price": 598.1,
+      "volume": 8473290,
+      "dollars": 5067597853,
+      "rank": 0
+    },
+    {
+      "price": 622.9,
+      "volume": 7913040,
+      "dollars": 4929065374,
+      "rank": 0
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 628.06,
+      "low_price": 585.01,
+      "volume": 3248197,
+      "dollars": 1998717452,
+      "trades": 39,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

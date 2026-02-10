@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "VIAV",
-    "generated_at": "2026-02-08T16:02:38.056833+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:50:01.078206+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 18.02,
+      "volume": 2301100,
+      "dollars": 41465822,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763524800,
+      "price": 16.14,
+      "volume": 1589851,
+      "dollars": 25660195,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1769659200,
+      "price": 24.7,
+      "volume": 1002279,
+      "dollars": 24756291,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 16.5,
+      "volume": 13481604,
+      "dollars": 222466932,
+      "rank": 11
+    },
+    {
+      "price": 16.6,
+      "volume": 13118670,
+      "dollars": 217479767,
+      "rank": 12
+    },
+    {
+      "price": 16.7,
+      "volume": 11875575,
+      "dollars": 198205030,
+      "rank": 16
+    },
+    {
+      "price": 16.0,
+      "volume": 10897664,
+      "dollars": 174354127,
+      "rank": 26
+    },
+    {
+      "price": 18.0,
+      "volume": 8620649,
+      "dollars": 155273384,
+      "rank": 30
+    }
+  ],
   "boxes": []
 }

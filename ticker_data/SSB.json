@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "SSB",
-    "generated_at": "2026-02-08T16:01:01.611113+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:48:17.305568+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 97.18,
+      "volume": 590590,
+      "dollars": 57393536,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 91.0,
+      "volume": 13896248,
+      "dollars": 1264285977,
+      "rank": 1
+    },
+    {
+      "price": 97.0,
+      "volume": 3984146,
+      "dollars": 386465503,
+      "rank": 3
+    },
+    {
+      "price": 92.5,
+      "volume": 2287246,
+      "dollars": 211464856,
+      "rank": 4
+    },
+    {
+      "price": 101.4,
+      "volume": 1602144,
+      "dollars": 162445844,
+      "rank": 5
+    },
+    {
+      "price": 87.1,
+      "volume": 1514724,
+      "dollars": 131897648,
+      "rank": 6
+    }
+  ],
   "boxes": []
 }

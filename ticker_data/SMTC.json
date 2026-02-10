@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "SMTC",
-    "generated_at": "2026-02-08T16:00:13.385052+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:47:25.353496+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1765339200,
+      "price": 79.44,
+      "volume": 1198919,
+      "dollars": 95242125,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 72.97,
+      "volume": 651897,
+      "dollars": 47568924,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 64.9,
+      "volume": 2465025,
+      "dollars": 160068986,
+      "rank": 4
+    },
+    {
+      "price": 63.6,
+      "volume": 2393153,
+      "dollars": 152096802,
+      "rank": 5
+    },
+    {
+      "price": 62.9,
+      "volume": 2320688,
+      "dollars": 145963699,
+      "rank": 6
+    },
+    {
+      "price": 79.4,
+      "volume": 1519023,
+      "dollars": 120668349,
+      "rank": 10
+    },
+    {
+      "price": 66.1,
+      "volume": 1693887,
+      "dollars": 111998959,
+      "rank": 14
+    }
+  ],
   "boxes": []
 }

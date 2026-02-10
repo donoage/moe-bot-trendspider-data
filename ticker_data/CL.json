@@ -1,12 +1,67 @@
 {
   "metadata": {
     "ticker": "CL",
-    "generated_at": "2026-02-08T15:49:29.745965+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:35:40.648148+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 78.36,
+      "volume": 3463468,
+      "dollars": 271397352,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 77.1,
+      "volume": 30848467,
+      "dollars": 2378266398,
+      "rank": 1
+    },
+    {
+      "price": 77.8,
+      "volume": 26978574,
+      "dollars": 2098372780,
+      "rank": 2
+    },
+    {
+      "price": 78.8,
+      "volume": 26196859,
+      "dollars": 2064072294,
+      "rank": 3
+    },
+    {
+      "price": 80.3,
+      "volume": 23975908,
+      "dollars": 1924532400,
+      "rank": 6
+    },
+    {
+      "price": 78.0,
+      "volume": 23409300,
+      "dollars": 1825737252,
+      "rank": 7
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 84.7,
+      "low_price": 84.7,
+      "volume": 349000,
+      "dollars": 29560300,
+      "trades": 1,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

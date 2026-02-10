@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "HRTG",
-    "generated_at": "2026-02-08T15:53:37.546226+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:40:22.201595+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1763956800,
+      "price": 28.25,
+      "volume": 354279,
+      "dollars": 10008381,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 28.96,
+      "volume": 248760,
+      "dollars": 7204089,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765166400,
+      "price": 27.53,
+      "volume": 218969,
+      "dollars": 6028216,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 25.2,
+      "volume": 742385,
+      "dollars": 18691580,
+      "rank": 4
+    },
+    {
+      "price": 28.3,
+      "volume": 491580,
+      "dollars": 13896727,
+      "rank": 7
+    },
+    {
+      "price": 24.9,
+      "volume": 504726,
+      "dollars": 12577458,
+      "rank": 9
+    },
+    {
+      "price": 26.5,
+      "volume": 327676,
+      "dollars": 8686972,
+      "rank": 23
+    },
+    {
+      "price": 28.4,
+      "volume": 301834,
+      "dollars": 8571114,
+      "rank": 25
+    }
+  ],
   "boxes": []
 }

@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "DGNX",
-    "generated_at": "2026-02-08T15:51:05.491212+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:37:30.936975+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1763092800,
+      "price": 11.9,
+      "volume": 55556,
+      "dollars": 661116,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 6.3,
+      "volume": 283480,
+      "dollars": 1786191,
+      "rank": 3
+    },
+    {
+      "price": 7.5,
+      "volume": 140800,
+      "dollars": 1056000,
+      "rank": 5
+    },
+    {
+      "price": 6.7,
+      "volume": 134184,
+      "dollars": 902555,
+      "rank": 8
+    },
+    {
+      "price": 2.3,
+      "volume": 346952,
+      "dollars": 795387,
+      "rank": 10
+    },
+    {
+      "price": 17.0,
+      "volume": 41407,
+      "dollars": 703919,
+      "rank": 14
+    }
+  ],
   "boxes": []
 }

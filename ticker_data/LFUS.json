@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "LFUS",
-    "generated_at": "2026-02-08T15:54:32.635006+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:41:17.952735+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1769745600,
+      "price": 323.76,
+      "volume": 138857,
+      "dollars": 44956342,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 255.0,
+      "volume": 142450,
+      "dollars": 36324750,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 278.4,
+      "volume": 412312,
+      "dollars": 114791401,
+      "rank": 3
+    },
+    {
+      "price": 234.4,
+      "volume": 359271,
+      "dollars": 84225118,
+      "rank": 5
+    },
+    {
+      "price": 262.5,
+      "volume": 290042,
+      "dollars": 76137446,
+      "rank": 6
+    },
+    {
+      "price": 323.8,
+      "volume": 223470,
+      "dollars": 72350647,
+      "rank": 7
+    },
+    {
+      "price": 255.0,
+      "volume": 260570,
+      "dollars": 66445476,
+      "rank": 9
+    }
+  ],
   "boxes": []
 }

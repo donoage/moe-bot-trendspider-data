@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "CNA",
-    "generated_at": "2026-02-08T15:49:29.748994+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:35:40.651123+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1765339200,
+      "price": 45.09,
+      "volume": 1005346,
+      "dollars": 45331051,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765339200,
+      "price": 45.09,
+      "volume": 881074,
+      "dollars": 39727626,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 47.43,
+      "volume": 699780,
+      "dollars": 33190565,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 45.1,
+      "volume": 4139030,
+      "dollars": 186649998,
+      "rank": 2
+    },
+    {
+      "price": 46.5,
+      "volume": 3426470,
+      "dollars": 159322309,
+      "rank": 3
+    },
+    {
+      "price": 48.5,
+      "volume": 3259564,
+      "dollars": 158106106,
+      "rank": 4
+    },
+    {
+      "price": 45.5,
+      "volume": 3270601,
+      "dollars": 148826607,
+      "rank": 5
+    },
+    {
+      "price": 46.1,
+      "volume": 2828669,
+      "dollars": 130334142,
+      "rank": 6
+    }
+  ],
   "boxes": []
 }

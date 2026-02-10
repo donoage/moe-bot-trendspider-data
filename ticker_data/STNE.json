@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "STNE",
-    "generated_at": "2026-02-08T16:01:01.614677+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:48:17.310482+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1763956800,
+      "price": 15.08,
+      "volume": 20865935,
+      "dollars": 314658299,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 15.1,
+      "volume": 34167891,
+      "dollars": 515281149,
+      "rank": 2
+    },
+    {
+      "price": 15.4,
+      "volume": 16326725,
+      "dollars": 251120746,
+      "rank": 7
+    },
+    {
+      "price": 15.0,
+      "volume": 15044604,
+      "dollars": 225376982,
+      "rank": 8
+    },
+    {
+      "price": 17.1,
+      "volume": 10222418,
+      "dollars": 174740366,
+      "rank": 10
+    },
+    {
+      "price": 16.3,
+      "volume": 10676489,
+      "dollars": 173910340,
+      "rank": 11
+    }
+  ],
   "boxes": []
 }

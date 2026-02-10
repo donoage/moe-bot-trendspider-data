@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "CSTL",
-    "generated_at": "2026-02-08T15:50:17.792793+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:36:33.760648+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1763956800,
+      "price": 38.49,
+      "volume": 167879,
+      "dollars": 6461662,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 38.9,
+      "volume": 517843,
+      "dollars": 20147463,
+      "rank": 7
+    },
+    {
+      "price": 43.0,
+      "volume": 371204,
+      "dollars": 15965831,
+      "rank": 14
+    },
+    {
+      "price": 39.4,
+      "volume": 340103,
+      "dollars": 13404465,
+      "rank": 21
+    },
+    {
+      "price": 38.0,
+      "volume": 343623,
+      "dollars": 13056537,
+      "rank": 22
+    },
+    {
+      "price": 33.8,
+      "volume": 375300,
+      "dollars": 12673142,
+      "rank": 23
+    }
+  ],
   "boxes": []
 }

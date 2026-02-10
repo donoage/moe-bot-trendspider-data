@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "WGO",
-    "generated_at": "2026-02-08T16:02:38.064180+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:50:01.091397+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1764129600,
+      "price": 36.44,
+      "volume": 1169831,
+      "dollars": 42628641,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 34.8,
+      "volume": 5594267,
+      "dollars": 194502629,
+      "rank": 1
+    },
+    {
+      "price": 50.0,
+      "volume": 2784458,
+      "dollars": 139174352,
+      "rank": 2
+    },
+    {
+      "price": 35.0,
+      "volume": 2234550,
+      "dollars": 78179892,
+      "rank": 6
+    },
+    {
+      "price": 36.4,
+      "volume": 1942436,
+      "dollars": 70754415,
+      "rank": 10
+    },
+    {
+      "price": 48.4,
+      "volume": 1292080,
+      "dollars": 62527212,
+      "rank": 15
+    }
+  ],
   "boxes": []
 }

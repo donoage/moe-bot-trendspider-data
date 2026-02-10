@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "ZS",
-    "generated_at": "2026-02-08T16:03:11.623976+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:50:39.271006+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 232.55,
+      "volume": 1478761,
+      "dollars": 343885870,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 304.9,
+      "volume": 6328825,
+      "dollars": 1929438506,
+      "rank": 1
+    },
+    {
+      "price": 275.7,
+      "volume": 4173769,
+      "dollars": 1150591749,
+      "rank": 2
+    },
+    {
+      "price": 222.7,
+      "volume": 2904667,
+      "dollars": 646898864,
+      "rank": 3
+    },
+    {
+      "price": 311.8,
+      "volume": 2022631,
+      "dollars": 630676572,
+      "rank": 4
+    },
+    {
+      "price": 169.5,
+      "volume": 3408634,
+      "dollars": 577741075,
+      "rank": 5
+    }
+  ],
   "boxes": []
 }

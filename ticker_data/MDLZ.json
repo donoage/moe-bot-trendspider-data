@@ -1,12 +1,67 @@
 {
   "metadata": {
     "ticker": "MDLZ",
-    "generated_at": "2026-02-08T15:55:20.302085+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:42:11.260493+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 54.5,
+      "volume": 10813319,
+      "dollars": 589325885,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 54.5,
+      "volume": 41732531,
+      "dollars": 2274208168,
+      "rank": 5
+    },
+    {
+      "price": 59.4,
+      "volume": 28508118,
+      "dollars": 1693220262,
+      "rank": 22
+    },
+    {
+      "price": 57.2,
+      "volume": 27256003,
+      "dollars": 1559325699,
+      "rank": 34
+    },
+    {
+      "price": 54.8,
+      "volume": 28278550,
+      "dollars": 1549567421,
+      "rank": 35
+    },
+    {
+      "price": 57.4,
+      "volume": 26774648,
+      "dollars": 1536611480,
+      "rank": 36
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 60.0,
+      "low_price": 53.22,
+      "volume": 4991105,
+      "dollars": 277237588,
+      "trades": 10,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

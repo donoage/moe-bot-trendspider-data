@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "KVYO",
-    "generated_at": "2026-02-08T15:54:32.630314+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:41:17.947613+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1767585600,
+      "price": 29.09,
+      "volume": 2578951,
+      "dollars": 75021684,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 31.95,
+      "volume": 1756599,
+      "dollars": 56123338,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765944000,
+      "price": 29.99,
+      "volume": 1340854,
+      "dollars": 40212211,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765771200,
+      "price": 28.85,
+      "volume": 1244279,
+      "dollars": 35897449,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 32.0,
+      "volume": 5411953,
+      "dollars": 173126945,
+      "rank": 3
+    },
+    {
+      "price": 29.1,
+      "volume": 4553532,
+      "dollars": 132444926,
+      "rank": 4
+    },
+    {
+      "price": 31.5,
+      "volume": 3831380,
+      "dollars": 120729868,
+      "rank": 6
+    },
+    {
+      "price": 30.5,
+      "volume": 3448826,
+      "dollars": 105122631,
+      "rank": 7
+    },
+    {
+      "price": 29.4,
+      "volume": 3361272,
+      "dollars": 98872799,
+      "rank": 8
+    }
+  ],
   "boxes": []
 }

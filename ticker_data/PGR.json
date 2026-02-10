@@ -1,12 +1,79 @@
 {
   "metadata": {
     "ticker": "PGR",
-    "generated_at": "2026-02-08T15:57:47.392881+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:44:49.169425+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1763956800,
+      "price": 225.08,
+      "volume": 2206439,
+      "dollars": 496625290,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 224.28,
+      "volume": 1781101,
+      "dollars": 399465332,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 208.3,
+      "volume": 4768749,
+      "dollars": 993190866,
+      "rank": 6
+    },
+    {
+      "price": 224.3,
+      "volume": 4404889,
+      "dollars": 987928117,
+      "rank": 7
+    },
+    {
+      "price": 225.1,
+      "volume": 3721278,
+      "dollars": 837584283,
+      "rank": 8
+    },
+    {
+      "price": 206.0,
+      "volume": 3907034,
+      "dollars": 804912093,
+      "rank": 14
+    },
+    {
+      "price": 208.0,
+      "volume": 3241348,
+      "dollars": 674192116,
+      "rank": 23
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 224.87,
+      "low_price": 199.75,
+      "volume": 873519,
+      "dollars": 182681689,
+      "trades": 4,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

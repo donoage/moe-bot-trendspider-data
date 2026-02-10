@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "KTOS",
-    "generated_at": "2026-02-08T15:54:32.629787+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:41:17.946672+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 75.39,
+      "volume": 1434844,
+      "dollars": 108172889,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1768536000,
+      "price": 130.72,
+      "volume": 762273,
+      "dollars": 99644326,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1767153600,
+      "price": 75.91,
+      "volume": 958991,
+      "dollars": 72797006,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1770350400,
+      "price": 94.41,
+      "volume": 634714,
+      "dollars": 59923348,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 80.8,
+      "volume": 30161734,
+      "dollars": 2436163663,
+      "rank": 1
+    },
+    {
+      "price": 80.7,
+      "volume": 2491949,
+      "dollars": 201126119,
+      "rank": 4
+    },
+    {
+      "price": 75.4,
+      "volume": 2357162,
+      "dollars": 177706437,
+      "rank": 5
+    },
+    {
+      "price": 91.4,
+      "volume": 1524270,
+      "dollars": 139290727,
+      "rank": 6
+    },
+    {
+      "price": 90.6,
+      "volume": 1472221,
+      "dollars": 133392242,
+      "rank": 7
+    }
+  ],
   "boxes": []
 }

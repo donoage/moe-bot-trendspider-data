@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "STZ",
-    "generated_at": "2026-02-08T16:01:01.616147+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:48:17.311724+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 135.01,
+      "volume": 1699606,
+      "dollars": 229463806,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 161.3,
+      "volume": 3237375,
+      "dollars": 522254569,
+      "rank": 9
+    },
+    {
+      "price": 162.4,
+      "volume": 3071373,
+      "dollars": 498775111,
+      "rank": 10
+    },
+    {
+      "price": 132.9,
+      "volume": 3354191,
+      "dollars": 445838084,
+      "rank": 14
+    },
+    {
+      "price": 152.5,
+      "volume": 2330572,
+      "dollars": 355436485,
+      "rank": 33
+    },
+    {
+      "price": 140.5,
+      "volume": 2373927,
+      "dollars": 333534025,
+      "rank": 41
+    }
+  ],
   "boxes": []
 }

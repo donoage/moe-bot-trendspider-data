@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "EQX",
-    "generated_at": "2026-02-08T15:51:05.504436+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:37:30.954137+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 14.1,
+      "volume": 10259222,
+      "dollars": 144655030,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765166400,
+      "price": 13.41,
+      "volume": 1572087,
+      "dollars": 21081686,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1764129600,
+      "price": 13.5,
+      "volume": 1316189,
+      "dollars": 17768551,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1770350400,
+      "price": 14.55,
+      "volume": 1198196,
+      "dollars": 17435429,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 14.1,
+      "volume": 14342653,
+      "dollars": 202200568,
+      "rank": 2
+    },
+    {
+      "price": 14.6,
+      "volume": 6478559,
+      "dollars": 94514112,
+      "rank": 5
+    },
+    {
+      "price": 15.0,
+      "volume": 5144224,
+      "dollars": 77129925,
+      "rank": 10
+    },
+    {
+      "price": 14.7,
+      "volume": 5239357,
+      "dollars": 76955380,
+      "rank": 11
+    },
+    {
+      "price": 14.0,
+      "volume": 4873910,
+      "dollars": 68229584,
+      "rank": 13
+    }
+  ],
   "boxes": []
 }

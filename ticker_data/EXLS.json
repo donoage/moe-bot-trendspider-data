@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "EXLS",
-    "generated_at": "2026-02-08T15:51:55.273873+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:38:28.393176+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 43.1,
+      "volume": 985914,
+      "dollars": 42492893,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 43.8,
+      "volume": 26581364,
+      "dollars": 1164737522,
+      "rank": 1
+    },
+    {
+      "price": 43.2,
+      "volume": 4168135,
+      "dollars": 180082599,
+      "rank": 4
+    },
+    {
+      "price": 43.4,
+      "volume": 3766716,
+      "dollars": 163420048,
+      "rank": 5
+    },
+    {
+      "price": 30.6,
+      "volume": 4982429,
+      "dollars": 152417579,
+      "rank": 6
+    },
+    {
+      "price": 30.1,
+      "volume": 4657313,
+      "dollars": 140122272,
+      "rank": 8
+    }
+  ],
   "boxes": []
 }

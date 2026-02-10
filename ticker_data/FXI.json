@@ -1,12 +1,54 @@
 {
   "metadata": {
     "ticker": "FXI",
-    "generated_at": "2026-02-08T15:51:55.286642+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:38:28.409249+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
-  "boxes": []
+  "levels": [
+    {
+      "price": 40.5,
+      "volume": 224002890,
+      "dollars": 9071267704,
+      "rank": 1
+    },
+    {
+      "price": 38.3,
+      "volume": 195787348,
+      "dollars": 7498306080,
+      "rank": 2
+    },
+    {
+      "price": 41.1,
+      "volume": 177860571,
+      "dollars": 7309352554,
+      "rank": 3
+    },
+    {
+      "price": 40.7,
+      "volume": 173703391,
+      "dollars": 7068103211,
+      "rank": 5
+    },
+    {
+      "price": 38.5,
+      "volume": 180420492,
+      "dollars": 6945505240,
+      "rank": 6
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 40.2,
+      "low_price": 38.37,
+      "volume": 3704467,
+      "dollars": 146669457,
+      "trades": 3,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

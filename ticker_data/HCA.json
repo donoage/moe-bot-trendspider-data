@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "HCA",
-    "generated_at": "2026-02-08T15:52:45.115415+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:39:21.367901+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 472.98,
+      "volume": 1350537,
+      "dollars": 638776990,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763956800,
+      "price": 501.04,
+      "volume": 1041534,
+      "dollars": 521850195,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 473.0,
+      "volume": 2455558,
+      "dollars": 1161430034,
+      "rank": 3
+    },
+    {
+      "price": 501.0,
+      "volume": 1254246,
+      "dollars": 628427415,
+      "rank": 10
+    },
+    {
+      "price": 486.8,
+      "volume": 732027,
+      "dollars": 356328782,
+      "rank": 34
+    },
+    {
+      "price": 473.3,
+      "volume": 487040,
+      "dollars": 230504246,
+      "rank": 0
+    },
+    {
+      "price": 472.0,
+      "volume": 479060,
+      "dollars": 226128166,
+      "rank": 0
+    }
+  ],
   "boxes": []
 }

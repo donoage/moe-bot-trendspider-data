@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "CI",
-    "generated_at": "2026-02-08T15:49:29.744710+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:35:40.646172+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 271.89,
+      "volume": 1670026,
+      "dollars": 454063369,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 290.4,
+      "volume": 4082889,
+      "dollars": 1185479912,
+      "rank": 1
+    },
+    {
+      "price": 275.8,
+      "volume": 3704267,
+      "dollars": 1021569917,
+      "rank": 3
+    },
+    {
+      "price": 292.8,
+      "volume": 2397979,
+      "dollars": 702185926,
+      "rank": 13
+    },
+    {
+      "price": 268.3,
+      "volume": 2532047,
+      "dollars": 679321894,
+      "rank": 14
+    },
+    {
+      "price": 269.5,
+      "volume": 2370147,
+      "dollars": 638664779,
+      "rank": 16
+    }
+  ],
   "boxes": []
 }

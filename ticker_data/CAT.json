@@ -1,12 +1,115 @@
 {
   "metadata": {
     "ticker": "CAT",
-    "generated_at": "2026-02-08T15:49:29.740349+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:35:40.639556+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 576.22,
+      "volume": 1742189,
+      "dollars": 1003884145,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763956800,
+      "price": 559.6,
+      "volume": 1713658,
+      "dollars": 958963016,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1770177600,
+      "price": 691.82,
+      "volume": 1346707,
+      "dollars": 931678836,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1770177600,
+      "price": 691.82,
+      "volume": 1000000,
+      "dollars": 691820000,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1770091200,
+      "price": 702.89,
+      "volume": 921595,
+      "dollars": 647779909,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 691.8,
+      "volume": 2978227,
+      "dollars": 2060397003,
+      "rank": 2
+    },
+    {
+      "price": 576.2,
+      "volume": 2243129,
+      "dollars": 1292535792,
+      "rank": 7
+    },
+    {
+      "price": 559.6,
+      "volume": 2233224,
+      "dollars": 1249712613,
+      "rank": 8
+    },
+    {
+      "price": 578.6,
+      "volume": 1229930,
+      "dollars": 711649797,
+      "rank": 39
+    },
+    {
+      "price": 582.4,
+      "volume": 1206751,
+      "dollars": 702830196,
+      "rank": 42
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 603.0,
+      "low_price": 603.0,
+      "volume": 42131,
+      "dollars": 25404993,
+      "trades": 1,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

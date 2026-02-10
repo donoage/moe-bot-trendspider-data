@@ -1,12 +1,67 @@
 {
   "metadata": {
     "ticker": "CIBR",
-    "generated_at": "2026-02-08T15:49:29.744796+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:35:40.646280+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1768449600,
+      "price": 72.1,
+      "volume": 784507,
+      "dollars": 56562954,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 72.1,
+      "volume": 7655401,
+      "dollars": 551698076,
+      "rank": 1
+    },
+    {
+      "price": 74.4,
+      "volume": 768407,
+      "dollars": 57162908,
+      "rank": 11
+    },
+    {
+      "price": 71.0,
+      "volume": 741681,
+      "dollars": 52658332,
+      "rank": 16
+    },
+    {
+      "price": 73.4,
+      "volume": 715648,
+      "dollars": 52516196,
+      "rank": 17
+    },
+    {
+      "price": 74.3,
+      "volume": 584109,
+      "dollars": 43406664,
+      "rank": 25
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 72.1,
+      "low_price": 72.1,
+      "volume": 784507,
+      "dollars": 56562954,
+      "trades": 1,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

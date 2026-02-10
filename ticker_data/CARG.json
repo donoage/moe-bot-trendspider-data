@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "CARG",
-    "generated_at": "2026-02-08T15:49:29.740281+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:35:40.639117+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 38.62,
+      "volume": 1497096,
+      "dollars": 57817847,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 34.6,
+      "volume": 7034989,
+      "dollars": 243465653,
+      "rank": 2
+    },
+    {
+      "price": 33.0,
+      "volume": 5407024,
+      "dollars": 178420760,
+      "rank": 4
+    },
+    {
+      "price": 36.1,
+      "volume": 4368273,
+      "dollars": 157711380,
+      "rank": 6
+    },
+    {
+      "price": 38.4,
+      "volume": 4031299,
+      "dollars": 154802189,
+      "rank": 7
+    },
+    {
+      "price": 35.8,
+      "volume": 4276830,
+      "dollars": 153042734,
+      "rank": 8
+    }
+  ],
   "boxes": []
 }

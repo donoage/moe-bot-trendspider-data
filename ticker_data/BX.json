@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "BX",
-    "generated_at": "2026-02-08T15:49:29.738733+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:35:40.637022+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 151.59,
+      "volume": 3046536,
+      "dollars": 461824392,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 133.6,
+      "volume": 10274242,
+      "dollars": 1372918092,
+      "rank": 7
+    },
+    {
+      "price": 141.5,
+      "volume": 9269912,
+      "dollars": 1311236479,
+      "rank": 8
+    },
+    {
+      "price": 151.6,
+      "volume": 4937167,
+      "dollars": 748424696,
+      "rank": 15
+    },
+    {
+      "price": 134.6,
+      "volume": 5265077,
+      "dollars": 708625010,
+      "rank": 17
+    },
+    {
+      "price": 148.3,
+      "volume": 4770038,
+      "dollars": 707348162,
+      "rank": 18
+    }
+  ],
   "boxes": []
 }

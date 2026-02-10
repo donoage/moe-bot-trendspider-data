@@ -1,12 +1,54 @@
 {
   "metadata": {
     "ticker": "APD",
-    "generated_at": "2026-02-08T15:47:49.538254+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:33:52.630404+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
-  "boxes": []
+  "levels": [
+    {
+      "price": 267.1,
+      "volume": 5514410,
+      "dollars": 1472850560,
+      "rank": 2
+    },
+    {
+      "price": 270.9,
+      "volume": 4518718,
+      "dollars": 1224049072,
+      "rank": 3
+    },
+    {
+      "price": 263.1,
+      "volume": 2673132,
+      "dollars": 703233501,
+      "rank": 7
+    },
+    {
+      "price": 248.6,
+      "volume": 2483532,
+      "dollars": 617323788,
+      "rank": 9
+    },
+    {
+      "price": 278.9,
+      "volume": 2181924,
+      "dollars": 608551684,
+      "rank": 10
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 267.68,
+      "low_price": 260.13,
+      "volume": 179723,
+      "dollars": 47558589,
+      "trades": 2,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

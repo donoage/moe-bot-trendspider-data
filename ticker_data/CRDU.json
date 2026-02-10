@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "CRDU",
-    "generated_at": "2026-02-08T15:50:17.789501+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:36:33.757626+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1768968000,
+      "price": 14.85,
+      "volume": 38838,
+      "dollars": 576744,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763524800,
+      "price": 16.7,
+      "volume": 31304,
+      "dollars": 522776,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 14.9,
+      "volume": 38838,
+      "dollars": 576744,
+      "rank": 1
+    },
+    {
+      "price": 16.7,
+      "volume": 31304,
+      "dollars": 522776,
+      "rank": 2
+    },
+    {
+      "price": 30.3,
+      "volume": 17257,
+      "dollars": 522024,
+      "rank": 3
+    }
+  ],
   "boxes": []
 }

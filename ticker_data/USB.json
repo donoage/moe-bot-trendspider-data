@@ -1,12 +1,67 @@
 {
   "metadata": {
     "ticker": "USB",
-    "generated_at": "2026-02-08T16:02:38.049299+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:50:01.070013+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 54.16,
+      "volume": 13489498,
+      "dollars": 730591211,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 51.3,
+      "volume": 37992592,
+      "dollars": 1948683786,
+      "rank": 5
+    },
+    {
+      "price": 51.4,
+      "volume": 36058346,
+      "dollars": 1852831435,
+      "rank": 9
+    },
+    {
+      "price": 54.2,
+      "volume": 34020834,
+      "dollars": 1843133101,
+      "rank": 11
+    },
+    {
+      "price": 50.8,
+      "volume": 32131896,
+      "dollars": 1631929537,
+      "rank": 18
+    },
+    {
+      "price": 55.2,
+      "volume": 29443667,
+      "dollars": 1625259918,
+      "rank": 20
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 58.82,
+      "low_price": 53.5,
+      "volume": 9196033,
+      "dollars": 522702244,
+      "trades": 4,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

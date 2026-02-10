@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "MAR",
-    "generated_at": "2026-02-08T15:55:20.300838+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:42:11.258504+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 310.16,
+      "volume": 910684,
+      "dollars": 282457749,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765425600,
+      "price": 296.46,
+      "volume": 903500,
+      "dollars": 267851610,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763956800,
+      "price": 296.23,
+      "volume": 789647,
+      "dollars": 233917130,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 310.2,
+      "volume": 1715541,
+      "dollars": 532113813,
+      "rank": 12
+    },
+    {
+      "price": 325.8,
+      "volume": 1290448,
+      "dollars": 420415053,
+      "rank": 23
+    },
+    {
+      "price": 290.5,
+      "volume": 1248239,
+      "dollars": 362560448,
+      "rank": 35
+    },
+    {
+      "price": 284.0,
+      "volume": 1195998,
+      "dollars": 339615900,
+      "rank": 46
+    },
+    {
+      "price": 281.5,
+      "volume": 1110136,
+      "dollars": 312449484,
+      "rank": 59
+    }
+  ],
   "boxes": []
 }

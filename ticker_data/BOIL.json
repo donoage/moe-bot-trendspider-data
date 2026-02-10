@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "BOIL",
-    "generated_at": "2026-02-08T15:48:38.264581+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:34:48.221689+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1764648000,
+      "price": 37.25,
+      "volume": 199900,
+      "dollars": 7446275,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 29.4,
+      "volume": 430423,
+      "dollars": 12647197,
+      "rank": 8
+    },
+    {
+      "price": 37.3,
+      "volume": 291339,
+      "dollars": 10857004,
+      "rank": 15
+    },
+    {
+      "price": 30.0,
+      "volume": 357265,
+      "dollars": 10716023,
+      "rank": 16
+    },
+    {
+      "price": 28.0,
+      "volume": 377286,
+      "dollars": 10560879,
+      "rank": 18
+    },
+    {
+      "price": 29.7,
+      "volume": 325851,
+      "dollars": 9677331,
+      "rank": 23
+    }
+  ],
   "boxes": []
 }

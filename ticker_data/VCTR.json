@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "VCTR",
-    "generated_at": "2026-02-08T16:02:38.055228+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:50:01.076909+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 62.92,
+      "volume": 465284,
+      "dollars": 29275669,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 71.0,
+      "volume": 6271933,
+      "dollars": 445123633,
+      "rank": 1
+    },
+    {
+      "price": 67.1,
+      "volume": 1415715,
+      "dollars": 94942963,
+      "rank": 3
+    },
+    {
+      "price": 64.1,
+      "volume": 830879,
+      "dollars": 53242956,
+      "rank": 6
+    },
+    {
+      "price": 62.9,
+      "volume": 756649,
+      "dollars": 47603888,
+      "rank": 8
+    },
+    {
+      "price": 63.1,
+      "volume": 742883,
+      "dollars": 46864684,
+      "rank": 9
+    }
+  ],
   "boxes": []
 }

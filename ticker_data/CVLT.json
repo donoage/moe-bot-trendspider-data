@@ -1,12 +1,67 @@
 {
   "metadata": {
     "ticker": "CVLT",
-    "generated_at": "2026-02-08T15:50:17.795488+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:36:33.763738+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 125.19,
+      "volume": 876379,
+      "dollars": 109713887,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 125.2,
+      "volume": 1454515,
+      "dollars": 182089749,
+      "rank": 3
+    },
+    {
+      "price": 119.7,
+      "volume": 703448,
+      "dollars": 84181660,
+      "rank": 16
+    },
+    {
+      "price": 97.9,
+      "volume": 631091,
+      "dollars": 61790179,
+      "rank": 41
+    },
+    {
+      "price": 108.5,
+      "volume": 510735,
+      "dollars": 55404532,
+      "rank": 56
+    },
+    {
+      "price": 122.2,
+      "volume": 419110,
+      "dollars": 51213546,
+      "rank": 66
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 125.45,
+      "low_price": 125.45,
+      "volume": 185000,
+      "dollars": 23208250,
+      "trades": 1,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

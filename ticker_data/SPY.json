@@ -1,12 +1,67 @@
 {
   "metadata": {
     "ticker": "SPY",
-    "generated_at": "2026-02-08T16:00:13.397274+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:47:25.384467+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1765944000,
+      "price": 671.26,
+      "volume": 4030279,
+      "dollars": 2705371933,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 679.1,
+      "volume": 31781124,
+      "dollars": 21582646366,
+      "rank": 0
+    },
+    {
+      "price": 671.3,
+      "volume": 31067611,
+      "dollars": 20855035729,
+      "rank": 0
+    },
+    {
+      "price": 689.0,
+      "volume": 28173235,
+      "dollars": 19410870023,
+      "rank": 0
+    },
+    {
+      "price": 659.2,
+      "volume": 28549678,
+      "dollars": 18820277994,
+      "rank": 0
+    },
+    {
+      "price": 681.8,
+      "volume": 25656733,
+      "dollars": 17492768851,
+      "rank": 0
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 695.15,
+      "low_price": 653.76,
+      "volume": 8643648,
+      "dollars": 5883775185,
+      "trades": 130,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

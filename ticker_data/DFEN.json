@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "DFEN",
-    "generated_at": "2026-02-08T15:51:05.489421+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:37:30.936145+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1765944000,
+      "price": 59.17,
+      "volume": 39811,
+      "dollars": 2355616,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 59.2,
+      "volume": 39811,
+      "dollars": 2355616,
+      "rank": 28
+    },
+    {
+      "price": 55.8,
+      "volume": 23821,
+      "dollars": 1328997,
+      "rank": 68
+    },
+    {
+      "price": 81.8,
+      "volume": 15509,
+      "dollars": 1268326,
+      "rank": 74
+    },
+    {
+      "price": 63.1,
+      "volume": 20000,
+      "dollars": 1261400,
+      "rank": 75
+    },
+    {
+      "price": 66.8,
+      "volume": 17065,
+      "dollars": 1140112,
+      "rank": 83
+    }
+  ],
   "boxes": []
 }

@@ -1,12 +1,103 @@
 {
   "metadata": {
     "ticker": "KWEB",
-    "generated_at": "2026-02-08T15:54:32.630480+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:41:17.947700+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1770609600,
+      "price": 34.32,
+      "volume": 5841210,
+      "dollars": 200470327,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1769659200,
+      "price": 36.16,
+      "volume": 4963816,
+      "dollars": 179504988,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1770264000,
+      "price": 33.43,
+      "volume": 5269425,
+      "dollars": 176152662,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1764302400,
+      "price": 37.61,
+      "volume": 4000000,
+      "dollars": 150440000,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 34.3,
+      "volume": 31517811,
+      "dollars": 1081256609,
+      "rank": 2
+    },
+    {
+      "price": 34.2,
+      "volume": 27600744,
+      "dollars": 943768254,
+      "rank": 3
+    },
+    {
+      "price": 35.6,
+      "volume": 23993530,
+      "dollars": 854086496,
+      "rank": 7
+    },
+    {
+      "price": 35.7,
+      "volume": 22677776,
+      "dollars": 809523888,
+      "rank": 8
+    },
+    {
+      "price": 33.4,
+      "volume": 23755712,
+      "dollars": 793404351,
+      "rank": 10
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 37.21,
+      "low_price": 34.32,
+      "volume": 9938530,
+      "dollars": 348124219,
+      "trades": 7,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

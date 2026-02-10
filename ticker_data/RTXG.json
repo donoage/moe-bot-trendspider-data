@@ -1,12 +1,50 @@
 {
   "metadata": {
     "ticker": "RTXG",
-    "generated_at": "2026-02-08T15:59:25.681764+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:46:32.649432+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1765771200,
+      "price": 23.96,
+      "volume": 36228,
+      "dollars": 868022,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765944000,
+      "price": 22.53,
+      "volume": 34429,
+      "dollars": 775685,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 24.0,
+      "volume": 36228,
+      "dollars": 868022,
+      "rank": 1
+    },
+    {
+      "price": 22.5,
+      "volume": 34429,
+      "dollars": 775685,
+      "rank": 2
+    }
+  ],
   "boxes": []
 }

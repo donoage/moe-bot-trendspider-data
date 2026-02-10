@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "VRTL",
-    "generated_at": "2026-02-08T16:02:38.059634+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:50:01.081772+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1770350400,
+      "price": 69.0,
+      "volume": 11766,
+      "dollars": 811854,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763956800,
+      "price": 57.53,
+      "volume": 10000,
+      "dollars": 575300,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 75.5,
+      "volume": 13000,
+      "dollars": 981630,
+      "rank": 1
+    },
+    {
+      "price": 47.3,
+      "volume": 20280,
+      "dollars": 958838,
+      "rank": 2
+    },
+    {
+      "price": 69.0,
+      "volume": 11766,
+      "dollars": 811854,
+      "rank": 3
+    },
+    {
+      "price": 59.8,
+      "volume": 13166,
+      "dollars": 787459,
+      "rank": 4
+    },
+    {
+      "price": 63.8,
+      "volume": 10227,
+      "dollars": 652482,
+      "rank": 5
+    }
+  ],
   "boxes": []
 }

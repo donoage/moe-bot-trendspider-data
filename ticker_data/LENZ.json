@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "LENZ",
-    "generated_at": "2026-02-08T15:54:32.633844+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:41:17.951666+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1769054400,
+      "price": 21.27,
+      "volume": 726114,
+      "dollars": 15444444,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 30.2,
+      "volume": 965336,
+      "dollars": 29133268,
+      "rank": 3
+    },
+    {
+      "price": 18.4,
+      "volume": 1316806,
+      "dollars": 24231165,
+      "rank": 4
+    },
+    {
+      "price": 17.3,
+      "volume": 1053894,
+      "dollars": 18217793,
+      "rank": 7
+    },
+    {
+      "price": 21.3,
+      "volume": 836602,
+      "dollars": 17794524,
+      "rank": 9
+    },
+    {
+      "price": 27.6,
+      "volume": 600000,
+      "dollars": 16530000,
+      "rank": 12
+    }
+  ],
   "boxes": []
 }

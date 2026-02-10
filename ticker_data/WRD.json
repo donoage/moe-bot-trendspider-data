@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "WRD",
-    "generated_at": "2026-02-08T16:03:11.612645+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:50:39.256539+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1769745600,
+      "price": 8.01,
+      "volume": 1851676,
+      "dollars": 14831924,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 8.92,
+      "volume": 954978,
+      "dollars": 8518403,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 9.2,
+      "volume": 7308135,
+      "dollars": 67037146,
+      "rank": 1
+    },
+    {
+      "price": 7.9,
+      "volume": 6183214,
+      "dollars": 48656511,
+      "rank": 4
+    },
+    {
+      "price": 8.6,
+      "volume": 4551174,
+      "dollars": 39034478,
+      "rank": 6
+    },
+    {
+      "price": 8.0,
+      "volume": 4164339,
+      "dollars": 33367041,
+      "rank": 8
+    },
+    {
+      "price": 8.9,
+      "volume": 3693697,
+      "dollars": 32887343,
+      "rank": 9
+    }
+  ],
   "boxes": []
 }

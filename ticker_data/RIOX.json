@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "RIOX",
-    "generated_at": "2026-02-08T15:59:25.677180+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:46:32.642734+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1762920000,
+      "price": 18.5,
+      "volume": 57615,
+      "dollars": 1065877,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1762920000,
+      "price": 18.52,
+      "volume": 54784,
+      "dollars": 1014599,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1767153600,
+      "price": 7.19,
+      "volume": 110520,
+      "dollars": 794638,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 18.5,
+      "volume": 140514,
+      "dollars": 2600885,
+      "rank": 1
+    },
+    {
+      "price": 21.1,
+      "volume": 70000,
+      "dollars": 1477000,
+      "rank": 4
+    },
+    {
+      "price": 17.9,
+      "volume": 54645,
+      "dollars": 978047,
+      "rank": 7
+    },
+    {
+      "price": 21.3,
+      "volume": 40012,
+      "dollars": 852655,
+      "rank": 10
+    },
+    {
+      "price": 7.2,
+      "volume": 110520,
+      "dollars": 794638,
+      "rank": 13
+    }
+  ],
   "boxes": []
 }

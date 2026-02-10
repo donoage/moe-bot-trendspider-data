@@ -1,12 +1,67 @@
 {
   "metadata": {
     "ticker": "QCOM",
-    "generated_at": "2026-02-08T15:58:36.413383+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:45:41.812135+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 175.25,
+      "volume": 10974887,
+      "dollars": 1923348946,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 175.3,
+      "volume": 26904668,
+      "dollars": 4715500375,
+      "rank": 1
+    },
+    {
+      "price": 158.5,
+      "volume": 29337925,
+      "dollars": 4650706754,
+      "rank": 2
+    },
+    {
+      "price": 168.9,
+      "volume": 20768853,
+      "dollars": 3508145802,
+      "rank": 3
+    },
+    {
+      "price": 166.9,
+      "volume": 18736277,
+      "dollars": 3126721005,
+      "rank": 5
+    },
+    {
+      "price": 151.3,
+      "volume": 16963119,
+      "dollars": 2566745274,
+      "rank": 9
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 176.47,
+      "low_price": 176.47,
+      "volume": 1021019,
+      "dollars": 180179222,
+      "trades": 1,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

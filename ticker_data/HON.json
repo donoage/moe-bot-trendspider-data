@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "HON",
-    "generated_at": "2026-02-08T15:53:37.544173+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:40:22.198498+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1769745600,
+      "price": 227.52,
+      "volume": 2257467,
+      "dollars": 513618891,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 199.11,
+      "volume": 2272844,
+      "dollars": 452545968,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 229.7,
+      "volume": 22833138,
+      "dollars": 5243819321,
+      "rank": 1
+    },
+    {
+      "price": 208.6,
+      "volume": 15902196,
+      "dollars": 3317219656,
+      "rank": 2
+    },
+    {
+      "price": 215.1,
+      "volume": 10516145,
+      "dollars": 2261824422,
+      "rank": 3
+    },
+    {
+      "price": 212.9,
+      "volume": 10050325,
+      "dollars": 2139747032,
+      "rank": 4
+    },
+    {
+      "price": 199.1,
+      "volume": 9996741,
+      "dollars": 1990438731,
+      "rank": 5
+    }
+  ],
   "boxes": []
 }

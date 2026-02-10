@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "SA",
-    "generated_at": "2026-02-08T15:59:25.683752+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:46:32.650972+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1769659200,
+      "price": 32.15,
+      "volume": 1000000,
+      "dollars": 32150000,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766116800,
+      "price": 29.58,
+      "volume": 901997,
+      "dollars": 26681071,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1769659200,
+      "price": 32.08,
+      "volume": 700000,
+      "dollars": 22454250,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763697600,
+      "price": 23.56,
+      "volume": 483815,
+      "dollars": 11398681,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 29.6,
+      "volume": 1815701,
+      "dollars": 53712690,
+      "rank": 4
+    },
+    {
+      "price": 29.5,
+      "volume": 1624952,
+      "dollars": 47860993,
+      "rank": 5
+    },
+    {
+      "price": 32.2,
+      "volume": 1025633,
+      "dollars": 32975126,
+      "rank": 8
+    },
+    {
+      "price": 32.1,
+      "volume": 853450,
+      "dollars": 27376290,
+      "rank": 10
+    },
+    {
+      "price": 24.2,
+      "volume": 968574,
+      "dollars": 23411141,
+      "rank": 16
+    }
+  ],
   "boxes": []
 }

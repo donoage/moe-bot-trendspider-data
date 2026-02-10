@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "REZI",
-    "generated_at": "2026-02-08T15:58:36.422992+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:45:41.825868+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 35.72,
+      "volume": 2265008,
+      "dollars": 80906085,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 35.7,
+      "volume": 3913407,
+      "dollars": 139790796,
+      "rank": 9
+    },
+    {
+      "price": 29.6,
+      "volume": 2656658,
+      "dollars": 78539177,
+      "rank": 22
+    },
+    {
+      "price": 29.7,
+      "volume": 1860599,
+      "dollars": 55264413,
+      "rank": 42
+    },
+    {
+      "price": 34.6,
+      "volume": 1558451,
+      "dollars": 53880771,
+      "rank": 44
+    },
+    {
+      "price": 31.3,
+      "volume": 1646110,
+      "dollars": 51499099,
+      "rank": 52
+    }
+  ],
   "boxes": []
 }

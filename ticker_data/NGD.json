@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "NGD",
-    "generated_at": "2026-02-08T15:56:08.577708+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:43:02.838856+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 8.82,
+      "volume": 7851896,
+      "dollars": 69253722,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1769572800,
+      "price": 12.58,
+      "volume": 3375530,
+      "dollars": 42464167,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 6.7,
+      "volume": 27969021,
+      "dollars": 186278223,
+      "rank": 1
+    },
+    {
+      "price": 8.8,
+      "volume": 14886220,
+      "dollars": 131217556,
+      "rank": 5
+    },
+    {
+      "price": 12.7,
+      "volume": 10034933,
+      "dollars": 127559804,
+      "rank": 6
+    },
+    {
+      "price": 7.3,
+      "volume": 16310182,
+      "dollars": 118863512,
+      "rank": 7
+    },
+    {
+      "price": 12.6,
+      "volume": 9212426,
+      "dollars": 115954215,
+      "rank": 8
+    }
+  ],
   "boxes": []
 }

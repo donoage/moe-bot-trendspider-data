@@ -1,12 +1,54 @@
 {
   "metadata": {
     "ticker": "UNP",
-    "generated_at": "2026-02-08T16:01:50.109053+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:49:09.117781+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
-  "boxes": []
+  "levels": [
+    {
+      "price": 231.4,
+      "volume": 7659774,
+      "dollars": 1772459440,
+      "rank": 2
+    },
+    {
+      "price": 242.3,
+      "volume": 6609487,
+      "dollars": 1601635980,
+      "rank": 3
+    },
+    {
+      "price": 222.0,
+      "volume": 6325386,
+      "dollars": 1404156450,
+      "rank": 5
+    },
+    {
+      "price": 223.9,
+      "volume": 6140872,
+      "dollars": 1374754894,
+      "rank": 6
+    },
+    {
+      "price": 232.0,
+      "volume": 5488123,
+      "dollars": 1273214122,
+      "rank": 7
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 252.5,
+      "low_price": 251.5,
+      "volume": 598471,
+      "dollars": 150864792,
+      "trades": 2,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

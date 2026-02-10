@@ -1,12 +1,80 @@
 {
   "metadata": {
     "ticker": "UBR",
-    "generated_at": "2026-02-08T16:01:50.086862+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:49:09.112649+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1764648000,
+      "price": 28.84,
+      "volume": 82574,
+      "dollars": 2381434,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1764907200,
+      "price": 26.03,
+      "volume": 50562,
+      "dollars": 1316128,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1764907200,
+      "price": 26.03,
+      "volume": 32357,
+      "dollars": 842252,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 28.8,
+      "volume": 82574,
+      "dollars": 2381434,
+      "rank": 1
+    },
+    {
+      "price": 26.0,
+      "volume": 82919,
+      "dollars": 2158381,
+      "rank": 2
+    },
+    {
+      "price": 24.4,
+      "volume": 53760,
+      "dollars": 1311744,
+      "rank": 4
+    },
+    {
+      "price": 38.2,
+      "volume": 33665,
+      "dollars": 1287349,
+      "rank": 6
+    },
+    {
+      "price": 27.5,
+      "volume": 45689,
+      "dollars": 1256447,
+      "rank": 7
+    }
+  ],
   "boxes": []
 }

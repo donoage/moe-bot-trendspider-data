@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "PLTR",
-    "generated_at": "2026-02-08T15:57:47.396581+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:44:49.176685+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 193.38,
+      "volume": 15794324,
+      "dollars": 3054306375,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763956800,
+      "price": 162.25,
+      "volume": 8166429,
+      "dollars": 1325003105,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1770177600,
+      "price": 139.54,
+      "volume": 7231029,
+      "dollars": 1009017786,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1768536000,
+      "price": 170.96,
+      "volume": 5188365,
+      "dollars": 887002880,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 130.7,
+      "volume": 71822169,
+      "dollars": 9389759002,
+      "rank": 3
+    },
+    {
+      "price": 182.4,
+      "volume": 41806066,
+      "dollars": 7625108265,
+      "rank": 4
+    },
+    {
+      "price": 193.4,
+      "volume": 27110527,
+      "dollars": 5242635926,
+      "rank": 5
+    },
+    {
+      "price": 137.3,
+      "volume": 27303686,
+      "dollars": 3748787354,
+      "rank": 6
+    },
+    {
+      "price": 131.8,
+      "volume": 22152014,
+      "dollars": 2919198977,
+      "rank": 7
+    }
+  ],
   "boxes": []
 }

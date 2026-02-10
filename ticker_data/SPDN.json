@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "SPDN",
-    "generated_at": "2026-02-08T16:00:13.393577+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:47:25.373151+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1763611200,
+      "price": 9.59,
+      "volume": 2553417,
+      "dollars": 24487269,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 9.5,
+      "volume": 24707549,
+      "dollars": 234575962,
+      "rank": 8
+    },
+    {
+      "price": 9.6,
+      "volume": 19432872,
+      "dollars": 186329371,
+      "rank": 10
+    },
+    {
+      "price": 9.4,
+      "volume": 19204257,
+      "dollars": 180357562,
+      "rank": 11
+    },
+    {
+      "price": 9.7,
+      "volume": 12798181,
+      "dollars": 124189594,
+      "rank": 27
+    },
+    {
+      "price": 9.8,
+      "volume": 11559106,
+      "dollars": 113094258,
+      "rank": 30
+    }
+  ],
   "boxes": []
 }

@@ -1,12 +1,67 @@
 {
   "metadata": {
     "ticker": "XLC",
-    "generated_at": "2026-02-08T16:03:11.620087+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:50:39.263998+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1768449600,
+      "price": 116.2,
+      "volume": 3090921,
+      "dollars": 359165020,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 116.2,
+      "volume": 6711985,
+      "dollars": 779962589,
+      "rank": 5
+    },
+    {
+      "price": 116.7,
+      "volume": 3439956,
+      "dollars": 401410366,
+      "rank": 27
+    },
+    {
+      "price": 111.2,
+      "volume": 3546622,
+      "dollars": 394357849,
+      "rank": 28
+    },
+    {
+      "price": 116.9,
+      "volume": 2498587,
+      "dollars": 292096891,
+      "rank": 66
+    },
+    {
+      "price": 117.0,
+      "volume": 2448082,
+      "dollars": 286372431,
+      "rank": 69
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 118.55,
+      "low_price": 111.9,
+      "volume": 9233053,
+      "dollars": 1069762818,
+      "trades": 19,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

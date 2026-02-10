@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "NHC",
-    "generated_at": "2026-02-08T15:56:08.578325+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:43:02.838951+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 141.64,
+      "volume": 243039,
+      "dollars": 34424043,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 126.8,
+      "volume": 500381,
+      "dollars": 63428295,
+      "rank": 2
+    },
+    {
+      "price": 141.6,
+      "volume": 279730,
+      "dollars": 39620957,
+      "rank": 4
+    },
+    {
+      "price": 137.2,
+      "volume": 42361,
+      "dollars": 5811081,
+      "rank": 34
+    },
+    {
+      "price": 141.7,
+      "volume": 40844,
+      "dollars": 5786369,
+      "rank": 35
+    },
+    {
+      "price": 125.3,
+      "volume": 35942,
+      "dollars": 4502191,
+      "rank": 53
+    }
+  ],
   "boxes": []
 }

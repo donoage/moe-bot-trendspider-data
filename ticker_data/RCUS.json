@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "RCUS",
-    "generated_at": "2026-02-08T15:58:36.419575+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:45:41.822937+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 21.98,
+      "volume": 2519303,
+      "dollars": 55374279,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 22.0,
+      "volume": 6373648,
+      "dollars": 140182613,
+      "rank": 2
+    },
+    {
+      "price": 20.4,
+      "volume": 4752077,
+      "dollars": 96776506,
+      "rank": 5
+    },
+    {
+      "price": 19.5,
+      "volume": 4267006,
+      "dollars": 83297177,
+      "rank": 8
+    },
+    {
+      "price": 19.0,
+      "volume": 3395124,
+      "dollars": 64450630,
+      "rank": 12
+    },
+    {
+      "price": 21.8,
+      "volume": 2846946,
+      "dollars": 62051398,
+      "rank": 13
+    }
+  ],
   "boxes": []
 }

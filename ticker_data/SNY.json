@@ -1,12 +1,67 @@
 {
   "metadata": {
     "ticker": "SNY",
-    "generated_at": "2026-02-08T16:00:13.388785+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:47:25.356246+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1767931200,
+      "price": 49.16,
+      "volume": 2160000,
+      "dollars": 106185600,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 48.0,
+      "volume": 30886943,
+      "dollars": 1482703873,
+      "rank": 1
+    },
+    {
+      "price": 48.3,
+      "volume": 30249779,
+      "dollars": 1460754981,
+      "rank": 2
+    },
+    {
+      "price": 48.4,
+      "volume": 26724415,
+      "dollars": 1292984092,
+      "rank": 3
+    },
+    {
+      "price": 48.2,
+      "volume": 26457088,
+      "dollars": 1275010347,
+      "rank": 4
+    },
+    {
+      "price": 49.2,
+      "volume": 24852827,
+      "dollars": 1222522631,
+      "rank": 5
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 52.03,
+      "low_price": 48.02,
+      "volume": 1064703,
+      "dollars": 53227114,
+      "trades": 2,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

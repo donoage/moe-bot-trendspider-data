@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "IAG",
-    "generated_at": "2026-02-08T15:53:37.548333+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:40:22.203582+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 16.79,
+      "volume": 7888626,
+      "dollars": 132450030,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1768968000,
+      "price": 19.26,
+      "volume": 1816372,
+      "dollars": 34983324,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 16.8,
+      "volume": 11712232,
+      "dollars": 196644381,
+      "rank": 4
+    },
+    {
+      "price": 16.3,
+      "volume": 6767111,
+      "dollars": 110483756,
+      "rank": 11
+    },
+    {
+      "price": 13.3,
+      "volume": 7687900,
+      "dollars": 102178797,
+      "rank": 13
+    },
+    {
+      "price": 14.8,
+      "volume": 6184719,
+      "dollars": 91545983,
+      "rank": 16
+    },
+    {
+      "price": 17.8,
+      "volume": 4890943,
+      "dollars": 87061949,
+      "rank": 20
+    }
+  ],
   "boxes": []
 }

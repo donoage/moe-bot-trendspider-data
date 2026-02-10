@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "SOLZ",
-    "generated_at": "2026-02-08T16:00:13.391613+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:47:25.358295+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1768968000,
+      "price": 12.97,
+      "volume": 167698,
+      "dollars": 2175043,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 13.0,
+      "volume": 262698,
+      "dollars": 3406993,
+      "rank": 8
+    },
+    {
+      "price": 13.7,
+      "volume": 93162,
+      "dollars": 1271969,
+      "rank": 27
+    },
+    {
+      "price": 9.6,
+      "volume": 96906,
+      "dollars": 934173,
+      "rank": 38
+    },
+    {
+      "price": 12.0,
+      "volume": 56600,
+      "dollars": 679483,
+      "rank": 45
+    },
+    {
+      "price": 7.9,
+      "volume": 80824,
+      "dollars": 641750,
+      "rank": 49
+    }
+  ],
   "boxes": []
 }

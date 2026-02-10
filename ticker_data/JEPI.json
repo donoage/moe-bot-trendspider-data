@@ -1,12 +1,67 @@
 {
   "metadata": {
     "ticker": "JEPI",
-    "generated_at": "2026-02-08T15:54:32.624604+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:41:17.940824+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1767758400,
+      "price": 57.96,
+      "volume": 2840746,
+      "dollars": 164649638,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 56.9,
+      "volume": 19523569,
+      "dollars": 1110733704,
+      "rank": 1
+    },
+    {
+      "price": 57.0,
+      "volume": 16796723,
+      "dollars": 957210336,
+      "rank": 6
+    },
+    {
+      "price": 57.4,
+      "volume": 15921701,
+      "dollars": 913866733,
+      "rank": 8
+    },
+    {
+      "price": 56.2,
+      "volume": 16189028,
+      "dollars": 909756062,
+      "rank": 9
+    },
+    {
+      "price": 55.9,
+      "volume": 15033870,
+      "dollars": 840246931,
+      "rank": 13
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 58.48,
+      "low_price": 57.96,
+      "volume": 4339294,
+      "dollars": 252060692,
+      "trades": 5,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

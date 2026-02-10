@@ -1,12 +1,116 @@
 {
   "metadata": {
     "ticker": "POET",
-    "generated_at": "2026-02-08T15:57:47.397028+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:44:49.178919+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1763092800,
+      "price": 4.6,
+      "volume": 1960000,
+      "dollars": 9016000,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1762920000,
+      "price": 5.05,
+      "volume": 1472449,
+      "dollars": 7435867,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1767758400,
+      "price": 7.45,
+      "volume": 734362,
+      "dollars": 5470996,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765944000,
+      "price": 5.97,
+      "volume": 703569,
+      "dollars": 4200306,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1769572800,
+      "price": 6.22,
+      "volume": 436140,
+      "dollars": 2712790,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1769054400,
+      "price": 6.94,
+      "volume": 323106,
+      "dollars": 2242355,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 6.2,
+      "volume": 4177837,
+      "dollars": 25877830,
+      "rank": 1
+    },
+    {
+      "price": 6.0,
+      "volume": 2973464,
+      "dollars": 17823994,
+      "rank": 2
+    },
+    {
+      "price": 6.6,
+      "volume": 2533484,
+      "dollars": 16780925,
+      "rank": 3
+    },
+    {
+      "price": 8.3,
+      "volume": 1994901,
+      "dollars": 16583987,
+      "rank": 4
+    },
+    {
+      "price": 5.1,
+      "volume": 2750980,
+      "dollars": 13908730,
+      "rank": 5
+    }
+  ],
   "boxes": []
 }

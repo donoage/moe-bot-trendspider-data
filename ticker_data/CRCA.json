@@ -1,12 +1,92 @@
 {
   "metadata": {
     "ticker": "CRCA",
-    "generated_at": "2026-02-08T15:50:17.788127+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:36:33.755062+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1768276800,
+      "price": 4.39,
+      "volume": 382989,
+      "dollars": 1681321,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1769745600,
+      "price": 2.32,
+      "volume": 470400,
+      "dollars": 1091375,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1765252800,
+      "price": 5.09,
+      "volume": 196078,
+      "dollars": 997978,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1766462400,
+      "price": 4.32,
+      "volume": 188400,
+      "dollars": 813850,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 4.4,
+      "volume": 666579,
+      "dollars": 2929047,
+      "rank": 3
+    },
+    {
+      "price": 5.1,
+      "volume": 305693,
+      "dollars": 1551533,
+      "rank": 8
+    },
+    {
+      "price": 4.2,
+      "volume": 309411,
+      "dollars": 1302620,
+      "rank": 10
+    },
+    {
+      "price": 2.9,
+      "volume": 444957,
+      "dollars": 1299274,
+      "rank": 11
+    },
+    {
+      "price": 4.6,
+      "volume": 276657,
+      "dollars": 1258837,
+      "rank": 12
+    }
+  ],
   "boxes": []
 }

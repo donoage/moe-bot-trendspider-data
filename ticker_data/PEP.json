@@ -1,12 +1,67 @@
 {
   "metadata": {
     "ticker": "PEP",
-    "generated_at": "2026-02-08T15:57:47.392437+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:44:49.165100+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 148.16,
+      "volume": 6503198,
+      "dollars": 963513815,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 167.0,
+      "volume": 22705071,
+      "dollars": 3791452533,
+      "rank": 1
+    },
+    {
+      "price": 164.7,
+      "volume": 21723185,
+      "dollars": 3577331337,
+      "rank": 2
+    },
+    {
+      "price": 168.3,
+      "volume": 18372611,
+      "dollars": 3091721102,
+      "rank": 4
+    },
+    {
+      "price": 169.4,
+      "volume": 15695606,
+      "dollars": 2658749482,
+      "rank": 9
+    },
+    {
+      "price": 144.2,
+      "volume": 18081425,
+      "dollars": 2607416216,
+      "rank": 11
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 149.5,
+      "low_price": 140.08,
+      "volume": 2657984,
+      "dollars": 379050833,
+      "trades": 6,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

@@ -1,12 +1,54 @@
 {
   "metadata": {
     "ticker": "DIS",
-    "generated_at": "2026-02-08T15:51:05.493239+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:37:30.938533+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
-  "levels": [],
-  "boxes": []
+  "levels": [
+    {
+      "price": 112.0,
+      "volume": 44946473,
+      "dollars": 5033790445,
+      "rank": 1
+    },
+    {
+      "price": 110.0,
+      "volume": 40002811,
+      "dollars": 4400211268,
+      "rank": 2
+    },
+    {
+      "price": 113.0,
+      "volume": 33805956,
+      "dollars": 3820174582,
+      "rank": 3
+    },
+    {
+      "price": 110.4,
+      "volume": 34393195,
+      "dollars": 3797235633,
+      "rank": 4
+    },
+    {
+      "price": 110.5,
+      "volume": 32900435,
+      "dollars": 3635356607,
+      "rank": 5
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 113.45,
+      "low_price": 108.48,
+      "volume": 394800,
+      "dollars": 43798048,
+      "trades": 2,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

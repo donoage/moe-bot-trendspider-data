@@ -1,12 +1,79 @@
 {
   "metadata": {
     "ticker": "INTC",
-    "generated_at": "2026-02-08T15:53:37.554104+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:40:22.210623+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 36.82,
+      "volume": 48489939,
+      "dollars": 1785399553,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1763956800,
+      "price": 35.79,
+      "volume": 21065352,
+      "dollars": 753928948,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 36.8,
+      "volume": 215795870,
+      "dollars": 7943335071,
+      "rank": 17
+    },
+    {
+      "price": 34.5,
+      "volume": 209764360,
+      "dollars": 7234464744,
+      "rank": 27
+    },
+    {
+      "price": 36.4,
+      "volume": 182426417,
+      "dollars": 6636622517,
+      "rank": 34
+    },
+    {
+      "price": 47.5,
+      "volume": 139703916,
+      "dollars": 6631787482,
+      "rank": 36
+    },
+    {
+      "price": 48.8,
+      "volume": 126279634,
+      "dollars": 6161683113,
+      "rank": 42
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 48.0,
+      "low_price": 42.0,
+      "volume": 1424904,
+      "dollars": 65395392,
+      "trades": 2,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

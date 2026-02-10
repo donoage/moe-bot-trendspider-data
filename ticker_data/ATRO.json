@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "ATRO",
-    "generated_at": "2026-02-08T15:47:49.545371+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:33:52.646564+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 54.79,
+      "volume": 1036469,
+      "dollars": 56788136,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1770091200,
+      "price": 80.4,
+      "volume": 155239,
+      "dollars": 12481215,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 54.8,
+      "volume": 1140432,
+      "dollars": 62484951,
+      "rank": 1
+    },
+    {
+      "price": 71.6,
+      "volume": 472322,
+      "dollars": 33809126,
+      "rank": 7
+    },
+    {
+      "price": 47.9,
+      "volume": 487348,
+      "dollars": 23336586,
+      "rank": 16
+    },
+    {
+      "price": 66.2,
+      "volume": 336088,
+      "dollars": 22232817,
+      "rank": 19
+    },
+    {
+      "price": 80.4,
+      "volume": 262681,
+      "dollars": 21119552,
+      "rank": 22
+    }
+  ],
   "boxes": []
 }

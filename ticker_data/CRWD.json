@@ -1,12 +1,67 @@
 {
   "metadata": {
     "ticker": "CRWD",
-    "generated_at": "2026-02-08T15:50:17.790924+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:36:33.759183+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
-  "boxes": []
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 481.28,
+      "volume": 1496075,
+      "dollars": 720030976,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 380.6,
+      "volume": 46662153,
+      "dollars": 17760990329,
+      "rank": 1
+    },
+    {
+      "price": 383.2,
+      "volume": 5289627,
+      "dollars": 2026933076,
+      "rank": 4
+    },
+    {
+      "price": 502.6,
+      "volume": 3271762,
+      "dollars": 1644276221,
+      "rank": 5
+    },
+    {
+      "price": 481.3,
+      "volume": 2515000,
+      "dollars": 1210419104,
+      "rank": 7
+    },
+    {
+      "price": 476.3,
+      "volume": 2457200,
+      "dollars": 1170370322,
+      "rank": 8
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 464.0,
+      "low_price": 463.55,
+      "volume": 389579,
+      "dollars": 180677095,
+      "trades": 2,
+      "date_range": "2025-11-11 to 2026-02-09",
+      "color": "#FF6B6B"
+    }
+  ]
 }

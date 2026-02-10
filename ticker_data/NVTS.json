@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "NVTS",
-    "generated_at": "2026-02-08T15:56:56.777919+00:00Z",
-    "date_range": "2025-11-08 to 2026-02-06",
+    "generated_at": "2026-02-10T01:43:55.775483+00:00Z",
+    "date_range": "2025-11-11 to 2026-02-09",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 7.81,
+      "volume": 4602424,
+      "dollars": 35944931,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1764648000,
+      "price": 8.32,
+      "volume": 3533595,
+      "dollars": 29399510,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 8.8,
+      "volume": 19580360,
+      "dollars": 171947474,
+      "rank": 1
+    },
+    {
+      "price": 7.0,
+      "volume": 21292123,
+      "dollars": 148845752,
+      "rank": 2
+    },
+    {
+      "price": 7.8,
+      "volume": 16556021,
+      "dollars": 129240872,
+      "rank": 3
+    },
+    {
+      "price": 7.2,
+      "volume": 12657939,
+      "dollars": 91126419,
+      "rank": 5
+    },
+    {
+      "price": 8.3,
+      "volume": 10680962,
+      "dollars": 88708823,
+      "rank": 6
+    }
+  ],
   "boxes": []
 }
