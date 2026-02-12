@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "CRDU",
-    "generated_at": "2026-02-10T01:36:33.757626+00:00Z",
-    "date_range": "2025-11-11 to 2026-02-09",
+    "generated_at": "2026-02-12T01:35:28.394049+00:00Z",
+    "date_range": "2025-11-13 to 2026-02-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1770696000,
+      "price": 13.0,
+      "volume": 58501,
+      "dollars": 760513,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1768968000,
       "price": 14.85,
       "volume": 38838,
       "dollars": 576744,
-      "rank": 1,
+      "rank": 2,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 16.7,
       "volume": 31304,
       "dollars": 522776,
-      "rank": 2,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,22 +46,28 @@
   ],
   "levels": [
     {
+      "price": 13.0,
+      "volume": 58501,
+      "dollars": 760513,
+      "rank": 1
+    },
+    {
       "price": 14.9,
       "volume": 38838,
       "dollars": 576744,
-      "rank": 1
+      "rank": 2
     },
     {
       "price": 16.7,
       "volume": 31304,
       "dollars": 522776,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 30.3,
       "volume": 17257,
       "dollars": 522024,
-      "rank": 3
+      "rank": 4
     }
   ],
   "boxes": []

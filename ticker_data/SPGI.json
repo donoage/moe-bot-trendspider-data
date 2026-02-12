@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SPGI",
-    "generated_at": "2026-02-10T01:47:25.374149+00:00Z",
-    "date_range": "2025-11-11 to 2026-02-09",
+    "generated_at": "2026-02-12T01:45:31.699612+00:00Z",
+    "date_range": "2025-11-13 to 2026-02-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -46,6 +46,12 @@
   ],
   "levels": [
     {
+      "price": 390.6,
+      "volume": 5965475,
+      "dollars": 2329986744,
+      "rank": 1
+    },
+    {
       "price": 497.9,
       "volume": 2588793,
       "dollars": 1288880265,
@@ -58,33 +64,27 @@
       "rank": 5
     },
     {
+      "price": 428.4,
+      "volume": 2020258,
+      "dollars": 865452272,
+      "rank": 8
+    },
+    {
       "price": 491.8,
       "volume": 1704190,
       "dollars": 838124185,
       "rank": 9
-    },
-    {
-      "price": 489.7,
-      "volume": 1595826,
-      "dollars": 781488782,
-      "rank": 13
-    },
-    {
-      "price": 512.6,
-      "volume": 1490954,
-      "dollars": 764263243,
-      "rank": 14
     }
   ],
   "boxes": [
     {
       "box_number": 1,
       "high_price": 488.7,
-      "low_price": 488.7,
-      "volume": 87064,
-      "dollars": 42548176,
-      "trades": 1,
-      "date_range": "2025-11-11 to 2026-02-09",
+      "low_price": 417.44,
+      "volume": 162131,
+      "dollars": 73884144,
+      "trades": 2,
+      "date_range": "2025-11-13 to 2026-02-11",
       "color": "#FF6B6B"
     }
   ]

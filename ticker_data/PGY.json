@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "PGY",
-    "generated_at": "2026-02-10T01:44:49.169549+00:00Z",
-    "date_range": "2025-11-11 to 2026-02-09",
+    "generated_at": "2026-02-12T01:43:03.258338+00:00Z",
+    "date_range": "2025-11-13 to 2026-02-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -70,6 +70,12 @@
   ],
   "levels": [
     {
+      "price": 12.8,
+      "volume": 6787089,
+      "dollars": 86620195,
+      "rank": 1
+    },
+    {
       "price": 22.9,
       "volume": 2331209,
       "dollars": 53348722,
@@ -92,12 +98,6 @@
       "volume": 1557606,
       "dollars": 32539913,
       "rank": 8
-    },
-    {
-      "price": 25.0,
-      "volume": 1131555,
-      "dollars": 28260729,
-      "rank": 11
     }
   ],
   "boxes": []
