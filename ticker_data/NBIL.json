@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "NBIL",
-    "generated_at": "2026-02-12T01:41:25.349215+00:00Z",
-    "date_range": "2025-11-13 to 2026-02-11",
+    "generated_at": "2026-02-14T01:41:35.529597+00:00Z",
+    "date_range": "2025-11-15 to 2026-02-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -44,11 +44,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1770955200,
+      "price": 11.0,
+      "volume": 49600,
+      "dollars": 545600,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1765166400,
       "price": 12.78,
       "volume": 42197,
       "dollars": 539277,
-      "rank": 12,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -58,16 +70,16 @@
   ],
   "levels": [
     {
-      "price": 12.7,
-      "volume": 89471,
-      "dollars": 1138965,
+      "price": 11.0,
+      "volume": 104450,
+      "dollars": 1147299,
       "rank": 2
     },
     {
-      "price": 11.0,
-      "volume": 54850,
-      "dollars": 601699,
-      "rank": 5
+      "price": 12.7,
+      "volume": 89471,
+      "dollars": 1138965,
+      "rank": 3
     },
     {
       "price": 9.0,

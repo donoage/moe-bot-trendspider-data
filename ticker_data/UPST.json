@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "UPST",
-    "generated_at": "2026-02-12T01:47:08.842594+00:00Z",
-    "date_range": "2025-11-13 to 2026-02-11",
+    "generated_at": "2026-02-14T01:47:26.968445+00:00Z",
+    "date_range": "2025-11-15 to 2026-02-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -58,6 +58,12 @@
   ],
   "levels": [
     {
+      "price": 30.1,
+      "volume": 8389503,
+      "dollars": 252619877,
+      "rank": 3
+    },
+    {
       "price": 52.1,
       "volume": 3350527,
       "dollars": 174617576,
@@ -80,12 +86,6 @@
       "volume": 2980652,
       "dollars": 154933383,
       "rank": 16
-    },
-    {
-      "price": 50.4,
-      "volume": 2977052,
-      "dollars": 150037327,
-      "rank": 17
     }
   ],
   "boxes": []

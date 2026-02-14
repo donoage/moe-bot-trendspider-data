@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "BBVA",
-    "generated_at": "2026-02-12T01:33:49.334173+00:00Z",
-    "date_range": "2025-11-13 to 2026-02-11",
+    "generated_at": "2026-02-14T01:34:01.996157+00:00Z",
+    "date_range": "2025-11-15 to 2026-02-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -18,49 +18,85 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1770955200,
+      "price": 22.8,
+      "volume": 1654353,
+      "dollars": 37719248,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1770955200,
+      "price": 22.74,
+      "volume": 1500000,
+      "dollars": 34110000,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1770955200,
+      "price": 22.74,
+      "volume": 1500000,
+      "dollars": 34110000,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
     {
+      "price": 22.7,
+      "volume": 5301999,
+      "dollars": 120435122,
+      "rank": 25
+    },
+    {
+      "price": 22.8,
+      "volume": 1961437,
+      "dollars": 44708480,
+      "rank": 79
+    },
+    {
       "price": 23.9,
       "volume": 1633542,
       "dollars": 39032705,
-      "rank": 79
+      "rank": 81
     },
     {
       "price": 24.5,
       "volume": 1278671,
       "dollars": 31324625,
-      "rank": 83
+      "rank": 85
     },
     {
       "price": 21.3,
       "volume": 1332500,
       "dollars": 28376985,
-      "rank": 87
-    },
-    {
-      "price": 20.1,
-      "volume": 1365435,
-      "dollars": 27473366,
       "rank": 89
-    },
-    {
-      "price": 22.5,
-      "volume": 984698,
-      "dollars": 22131633,
-      "rank": 98
     }
   ],
   "boxes": [
     {
       "box_number": 1,
       "high_price": 23.9,
-      "low_price": 23.9,
-      "volume": 1581510,
-      "dollars": 37790181,
-      "trades": 1,
-      "date_range": "2025-11-13 to 2026-02-11",
+      "low_price": 22.8,
+      "volume": 3235863,
+      "dollars": 75509429,
+      "trades": 2,
+      "date_range": "2025-11-15 to 2026-02-13",
       "color": "#FF6B6B"
     }
   ]
