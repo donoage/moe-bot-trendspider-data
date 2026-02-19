@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "IOT",
-    "generated_at": "2026-02-17T01:40:10.694699+00:00Z",
-    "date_range": "2025-11-18 to 2026-02-16",
+    "generated_at": "2026-02-19T01:39:08.192984+00:00Z",
+    "date_range": "2025-11-20 to 2026-02-18",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -32,11 +32,11 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1765771200,
-      "price": 39.67,
-      "volume": 1587863,
-      "dollars": 62990525,
-      "rank": 19,
+      "timestamp": 1771300800,
+      "price": 25.55,
+      "volume": 3211801,
+      "dollars": 82061515,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -44,10 +44,10 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1769659200,
-      "price": 29.09,
-      "volume": 2073233,
-      "dollars": 60310347,
+      "timestamp": 1765771200,
+      "price": 39.67,
+      "volume": 1587863,
+      "dollars": 62990525,
       "rank": 20,
       "conditions": "",
       "exchange": "",
@@ -88,5 +88,16 @@
       "rank": 5
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 25.55,
+      "low_price": 25.55,
+      "volume": 3211801,
+      "dollars": 82061515,
+      "trades": 1,
+      "date_range": "2025-11-20 to 2026-02-18",
+      "color": "#FF6B6B"
+    }
+  ]
 }

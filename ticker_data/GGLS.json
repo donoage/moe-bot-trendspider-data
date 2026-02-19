@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "GGLS",
-    "generated_at": "2026-02-17T01:39:11.390516+00:00Z",
-    "date_range": "2025-11-18 to 2026-02-16",
+    "generated_at": "2026-02-19T01:38:16.619288+00:00Z",
+    "date_range": "2025-11-20 to 2026-02-18",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -44,11 +44,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1771300800,
+      "price": 7.02,
+      "volume": 134400,
+      "dollars": 943488,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1769572800,
       "price": 6.33,
       "volume": 117375,
       "dollars": 742983,
-      "rank": 17,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -60,18 +72,6 @@
       "price": 6.65,
       "volume": 100000,
       "dollars": 665030,
-      "rank": 19,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1764043200,
-      "price": 6.65,
-      "volume": 100000,
-      "dollars": 665000,
       "rank": 20,
       "conditions": "",
       "exchange": "",
@@ -100,16 +100,16 @@
       "rank": 12
     },
     {
+      "price": 7.0,
+      "volume": 134400,
+      "dollars": 943488,
+      "rank": 14
+    },
+    {
       "price": 6.3,
       "volume": 117375,
       "dollars": 742983,
-      "rank": 17
-    },
-    {
-      "price": 6.8,
-      "volume": 87200,
-      "dollars": 588600,
-      "rank": 23
+      "rank": 18
     }
   ],
   "boxes": []
