@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "TFPM",
-    "generated_at": "2026-02-19T01:47:47.085644+00:00Z",
-    "date_range": "2025-11-20 to 2026-02-18",
+    "generated_at": "2026-02-21T01:47:09.880853+00:00Z",
+    "date_range": "2025-11-22 to 2026-02-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1771560000,
+      "price": 37.71,
+      "volume": 216024,
+      "dollars": 8146265,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1768968000,
       "price": 37.34,
       "volume": 201024,
       "dollars": 7506236,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -20,22 +32,10 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1769572800,
-      "price": 39.46,
-      "volume": 144400,
-      "dollars": 5698024,
-      "rank": 19,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1766462400,
-      "price": 34.82,
-      "volume": 159600,
-      "dollars": 5557272,
+      "timestamp": 1771560000,
+      "price": 37.71,
+      "volume": 155485,
+      "dollars": 5863339,
       "rank": 20,
       "conditions": "",
       "exchange": "",
@@ -46,34 +46,34 @@
   ],
   "levels": [
     {
-      "price": 29.7,
-      "volume": 511574,
-      "dollars": 15197137,
-      "rank": 8
+      "price": 37.7,
+      "volume": 371509,
+      "dollars": 14009604,
+      "rank": 9
     },
     {
       "price": 34.8,
       "volume": 398716,
       "dollars": 13881583,
-      "rank": 9
+      "rank": 10
     },
     {
       "price": 37.3,
       "volume": 324000,
       "dollars": 12095570,
-      "rank": 11
+      "rank": 12
     },
     {
       "price": 34.7,
       "volume": 330553,
       "dollars": 11464551,
-      "rank": 13
+      "rank": 14
     },
     {
       "price": 34.4,
       "volume": 238236,
       "dollars": 8204859,
-      "rank": 19
+      "rank": 20
     }
   ],
   "boxes": []

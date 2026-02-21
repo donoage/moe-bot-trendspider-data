@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "AJG",
-    "generated_at": "2026-02-19T01:31:50.436914+00:00Z",
-    "date_range": "2025-11-20 to 2026-02-18",
+    "generated_at": "2026-02-21T01:32:56.654621+00:00Z",
+    "date_range": "2025-11-22 to 2026-02-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -46,11 +46,22 @@
       "rank": 29
     },
     {
-      "price": 251.7,
-      "volume": 1086806,
-      "dollars": 273545193,
+      "price": 213.8,
+      "volume": 1292209,
+      "dollars": 276274243,
       "rank": 30
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 249.3,
+      "low_price": 244.75,
+      "volume": 634200,
+      "dollars": 156487136,
+      "trades": 4,
+      "date_range": "2025-11-22 to 2026-02-20",
+      "color": "#FF6B6B"
+    }
+  ]
 }
