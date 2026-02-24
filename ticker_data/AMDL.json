@@ -1,24 +1,12 @@
 {
   "metadata": {
     "ticker": "AMDL",
-    "generated_at": "2026-02-21T01:32:56.688161+00:00Z",
-    "date_range": "2025-11-22 to 2026-02-20",
+    "generated_at": "2026-02-24T01:31:46.660731+00:00Z",
+    "date_range": "2025-11-25 to 2026-02-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1763956800,
-      "price": 16.23,
-      "volume": 1225895,
-      "dollars": 19896275,
-      "rank": 2,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1769745600,
       "price": 18.6,
@@ -88,16 +76,5 @@
       "rank": 10
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 16.23,
-      "low_price": 16.23,
-      "volume": 1225895,
-      "dollars": 19896275,
-      "trades": 1,
-      "date_range": "2025-11-22 to 2026-02-20",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

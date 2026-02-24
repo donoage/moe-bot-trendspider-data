@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SOXX",
-    "generated_at": "2026-02-21T01:46:20.774966+00:00Z",
-    "date_range": "2025-11-22 to 2026-02-20",
+    "generated_at": "2026-02-24T01:46:10.794516+00:00Z",
+    "date_range": "2025-11-25 to 2026-02-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -20,11 +20,35 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1771819200,
+      "price": 357.02,
+      "volume": 864073,
+      "dollars": 308492206,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1771819200,
+      "price": 357.02,
+      "volume": 864040,
+      "dollars": 308480424,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1765771200,
       "price": 298.01,
       "volume": 709915,
       "dollars": 211561769,
-      "rank": 11,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +60,7 @@
       "price": 352.69,
       "volume": 556388,
       "dollars": 196232483,
-      "rank": 14,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,45 +70,45 @@
   ],
   "levels": [
     {
-      "price": 271.7,
-      "volume": 2494646,
-      "dollars": 677852302,
-      "rank": 2
+      "price": 357.0,
+      "volume": 1728113,
+      "dollars": 616972631,
+      "rank": 5
     },
     {
       "price": 276.2,
       "volume": 1343550,
       "dollars": 371060967,
-      "rank": 8
+      "rank": 9
     },
     {
       "price": 316.3,
       "volume": 1082524,
       "dollars": 342434816,
-      "rank": 9
+      "rank": 10
     },
     {
       "price": 314.5,
       "volume": 989678,
       "dollars": 311273524,
-      "rank": 14
+      "rank": 15
     },
     {
       "price": 283.6,
       "volume": 1042309,
       "dollars": 295575955,
-      "rank": 15
+      "rank": 16
     }
   ],
   "boxes": [
     {
       "box_number": 1,
       "high_price": 360.88,
-      "low_price": 277.07,
-      "volume": 418257,
-      "dollars": 136673328,
-      "trades": 6,
-      "date_range": "2025-11-22 to 2026-02-20",
+      "low_price": 301.26,
+      "volume": 344380,
+      "dollars": 116204228,
+      "trades": 5,
+      "date_range": "2025-11-25 to 2026-02-23",
       "color": "#FF6B6B"
     }
   ]

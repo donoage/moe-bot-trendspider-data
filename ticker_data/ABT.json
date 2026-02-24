@@ -1,24 +1,12 @@
 {
   "metadata": {
     "ticker": "ABT",
-    "generated_at": "2026-02-21T01:32:56.643828+00:00Z",
-    "date_range": "2025-11-22 to 2026-02-20",
+    "generated_at": "2026-02-24T01:31:46.618628+00:00Z",
+    "date_range": "2025-11-25 to 2026-02-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1763956800,
-      "price": 127.19,
-      "volume": 5276836,
-      "dollars": 671160770,
-      "rank": 5,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1766116800,
       "price": 125.45,
@@ -64,16 +52,5 @@
       "rank": 10
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 128.24,
-      "low_price": 106.15,
-      "volume": 2809132,
-      "dollars": 320957647,
-      "trades": 5,
-      "date_range": "2025-11-22 to 2026-02-20",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

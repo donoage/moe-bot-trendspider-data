@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "AMD",
-    "generated_at": "2026-02-21T01:32:56.685237+00:00Z",
-    "date_range": "2025-11-22 to 2026-02-20",
+    "generated_at": "2026-02-24T01:31:46.657683+00:00Z",
+    "date_range": "2025-11-25 to 2026-02-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -13,18 +13,6 @@
       "volume": 11660891,
       "dollars": 2488783966,
       "rank": 1,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1763956800,
-      "price": 215.05,
-      "volume": 7649075,
-      "dollars": 1644933578,
-      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -68,6 +56,37 @@
       "vcd": 0.0
     }
   ],
-  "levels": [],
+  "levels": [
+    {
+      "price": 213.4,
+      "volume": 22271068,
+      "dollars": 4753310127,
+      "rank": 1
+    },
+    {
+      "price": 259.7,
+      "volume": 10868549,
+      "dollars": 2822181772,
+      "rank": 6
+    },
+    {
+      "price": 215.1,
+      "volume": 11209990,
+      "dollars": 2410767572,
+      "rank": 15
+    },
+    {
+      "price": 214.9,
+      "volume": 11059761,
+      "dollars": 2376741619,
+      "rank": 17
+    },
+    {
+      "price": 191.1,
+      "volume": 11994032,
+      "dollars": 2291579977,
+      "rank": 18
+    }
+  ],
   "boxes": []
 }

@@ -1,23 +1,30 @@
 {
   "metadata": {
     "ticker": "IWM",
-    "generated_at": "2026-02-21T01:40:15.095942+00:00Z",
-    "date_range": "2025-11-22 to 2026-02-20",
+    "generated_at": "2026-02-24T01:39:39.967774+00:00Z",
+    "date_range": "2025-11-25 to 2026-02-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1771819200,
+      "price": 259.27,
+      "volume": 3684332,
+      "dollars": 955228652,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 242.9,
       "volume": 24006111,
       "dollars": 5831211996,
-      "rank": 0
-    },
-    {
-      "price": 238.6,
-      "volume": 19304890,
-      "dollars": 4605849713,
       "rank": 0
     },
     {
@@ -33,9 +40,15 @@
       "rank": 0
     },
     {
-      "price": 238.4,
-      "volume": 11526436,
-      "dollars": 2747693855,
+      "price": 244.4,
+      "volume": 9763257,
+      "dollars": 2385978824,
+      "rank": 0
+    },
+    {
+      "price": 248.8,
+      "volume": 9158335,
+      "dollars": 2278719694,
       "rank": 0
     }
   ],
@@ -44,10 +57,10 @@
       "box_number": 1,
       "high_price": 267.89,
       "low_price": 247.06,
-      "volume": 7072368,
-      "dollars": 1840480984,
-      "trades": 44,
-      "date_range": "2025-11-22 to 2026-02-20",
+      "volume": 7452603,
+      "dollars": 1938817359,
+      "trades": 45,
+      "date_range": "2025-11-25 to 2026-02-23",
       "color": "#FF6B6B"
     }
   ]
