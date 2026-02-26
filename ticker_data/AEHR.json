@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "AEHR",
-    "generated_at": "2026-02-24T01:31:46.622329+00:00Z",
-    "date_range": "2025-11-25 to 2026-02-23",
+    "generated_at": "2026-02-26T01:31:21.610923+00:00Z",
+    "date_range": "2025-11-27 to 2026-02-25",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -21,6 +21,12 @@
     }
   ],
   "levels": [
+    {
+      "price": 40.0,
+      "volume": 3216011,
+      "dollars": 128481013,
+      "rank": 1
+    },
     {
       "price": 25.9,
       "volume": 669294,
@@ -44,12 +50,6 @@
       "volume": 511412,
       "dollars": 15337286,
       "rank": 8
-    },
-    {
-      "price": 26.1,
-      "volume": 528804,
-      "dollars": 13784888,
-      "rank": 9
     }
   ],
   "boxes": []

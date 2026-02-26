@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "DRS",
-    "generated_at": "2026-02-24T01:36:26.683960+00:00Z",
-    "date_range": "2025-11-25 to 2026-02-23",
+    "generated_at": "2026-02-26T01:36:45.677577+00:00Z",
+    "date_range": "2025-11-27 to 2026-02-25",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1771992000,
+      "price": 42.74,
+      "volume": 850116,
+      "dollars": 36334807,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 39.3,
@@ -21,6 +34,12 @@
       "rank": 13
     },
     {
+      "price": 44.0,
+      "volume": 1697064,
+      "dollars": 74664892,
+      "rank": 15
+    },
+    {
       "price": 41.4,
       "volume": 1708945,
       "dollars": 70812452,
@@ -31,12 +50,6 @@
       "volume": 2098312,
       "dollars": 69236901,
       "rank": 19
-    },
-    {
-      "price": 33.2,
-      "volume": 2030267,
-      "dollars": 67411054,
-      "rank": 20
     }
   ],
   "boxes": []

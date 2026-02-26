@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "BERZ",
-    "generated_at": "2026-02-24T01:34:06.982661+00:00Z",
-    "date_range": "2025-11-25 to 2026-02-23",
+    "generated_at": "2026-02-26T01:33:58.209822+00:00Z",
+    "date_range": "2025-11-27 to 2026-02-25",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1771905600,
+      "price": 68.58,
+      "volume": 20000,
+      "dollars": 1371600,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1771819200,
-      "price": 3.51,
-      "volume": 198523,
+      "price": 70.2,
+      "volume": 9926,
       "dollars": 696815,
-      "rank": 2,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -21,10 +33,10 @@
     },
     {
       "timestamp": 1764302400,
-      "price": 2.94,
-      "volume": 203462,
+      "price": 58.8,
+      "volume": 10173,
       "dollars": 598178,
-      "rank": 5,
+      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -33,10 +45,10 @@
     },
     {
       "timestamp": 1768363200,
-      "price": 2.74,
-      "volume": 200000,
+      "price": 54.8,
+      "volume": 10000,
       "dollars": 548000,
-      "rank": 11,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,22 +58,28 @@
   ],
   "levels": [
     {
-      "price": 3.5,
-      "volume": 198523,
+      "price": 68.6,
+      "volume": 20000,
+      "dollars": 1371600,
+      "rank": 1
+    },
+    {
+      "price": 70.2,
+      "volume": 9926,
       "dollars": 696815,
-      "rank": 2
+      "rank": 3
     },
     {
-      "price": 2.9,
-      "volume": 203462,
+      "price": 58.8,
+      "volume": 10173,
       "dollars": 598178,
-      "rank": 5
+      "rank": 6
     },
     {
-      "price": 2.7,
-      "volume": 200000,
+      "price": 54.8,
+      "volume": 10000,
       "dollars": 548000,
-      "rank": 11
+      "rank": 12
     }
   ],
   "boxes": []
