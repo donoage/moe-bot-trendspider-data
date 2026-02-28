@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "NFLX",
-    "generated_at": "2026-02-26T01:41:56.704833+00:00Z",
-    "date_range": "2025-11-27 to 2026-02-25",
+    "generated_at": "2026-02-28T01:42:41.518290+00:00Z",
+    "date_range": "2025-11-29 to 2026-02-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -18,49 +18,61 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1772164800,
+      "price": 96.24,
+      "volume": 17746514,
+      "dollars": 1707924507,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
     {
       "price": 94.4,
-      "volume": 43699236,
-      "dollars": 4124786146,
+      "volume": 47291645,
+      "dollars": 4463801982,
       "rank": 1
+    },
+    {
+      "price": 96.2,
+      "volume": 31106164,
+      "dollars": 2992995356,
+      "rank": 5
     },
     {
       "price": 107.0,
       "volume": 22928183,
       "dollars": 2452628415,
-      "rank": 22
+      "rank": 23
     },
     {
       "price": 96.0,
-      "volume": 21807463,
-      "dollars": 2093197003,
-      "rank": 44
+      "volume": 21882971,
+      "dollars": 2100445665,
+      "rank": 43
     },
     {
       "price": 97.2,
       "volume": 20931378,
       "dollars": 2034375908,
-      "rank": 50
-    },
-    {
-      "price": 94.6,
-      "volume": 19940960,
-      "dollars": 1885585015,
-      "rank": 69
+      "rank": 51
     }
   ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 83.25,
+      "high_price": 91.9,
       "low_price": 83.25,
-      "volume": 353129,
-      "dollars": 29397989,
-      "trades": 1,
-      "date_range": "2025-11-27 to 2026-02-25",
+      "volume": 852528,
+      "dollars": 75292757,
+      "trades": 2,
+      "date_range": "2025-11-29 to 2026-02-27",
       "color": "#FF6B6B"
     }
   ]

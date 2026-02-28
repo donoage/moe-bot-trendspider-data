@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "AAPL",
-    "generated_at": "2026-02-26T01:31:21.603164+00:00Z",
-    "date_range": "2025-11-27 to 2026-02-25",
+    "generated_at": "2026-02-28T01:31:26.634162+00:00Z",
+    "date_range": "2025-11-29 to 2026-02-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -18,13 +18,25 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1772164800,
+      "price": 264.18,
+      "volume": 21637668,
+      "dollars": 5716239132,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
     {
       "price": 273.7,
-      "volume": 96787890,
-      "dollars": 26488105370,
+      "volume": 96801411,
+      "dollars": 26491806068,
       "rank": 3
     },
     {
@@ -60,7 +72,7 @@
       "volume": 726553,
       "dollars": 191243563,
       "trades": 5,
-      "date_range": "2025-11-27 to 2026-02-25",
+      "date_range": "2025-11-29 to 2026-02-27",
       "color": "#FF6B6B"
     }
   ]

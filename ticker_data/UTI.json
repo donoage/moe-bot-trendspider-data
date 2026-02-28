@@ -1,18 +1,37 @@
 {
   "metadata": {
     "ticker": "UTI",
-    "generated_at": "2026-02-26T01:48:52.526559+00:00Z",
-    "date_range": "2025-11-27 to 2026-02-25",
+    "generated_at": "2026-02-28T01:49:43.719640+00:00Z",
+    "date_range": "2025-11-29 to 2026-02-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1772164800,
+      "price": 36.2,
+      "volume": 336951,
+      "dollars": 12197626,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 26.5,
       "volume": 2797091,
       "dollars": 74118851,
       "rank": 1
+    },
+    {
+      "price": 35.8,
+      "volume": 1492819,
+      "dollars": 53387561,
+      "rank": 2
     },
     {
       "price": 31.5,
@@ -31,12 +50,6 @@
       "volume": 1729901,
       "dollars": 42374591,
       "rank": 5
-    },
-    {
-      "price": 26.3,
-      "volume": 1408399,
-      "dollars": 37040905,
-      "rank": 6
     }
   ],
   "boxes": []

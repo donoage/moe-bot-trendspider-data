@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "FIX",
-    "generated_at": "2026-02-26T01:37:41.372080+00:00Z",
-    "date_range": "2025-11-27 to 2026-02-25",
+    "generated_at": "2026-02-28T01:38:10.702230+00:00Z",
+    "date_range": "2025-11-29 to 2026-02-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -68,11 +68,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1772164800,
+      "price": 1429.37,
+      "volume": 113504,
+      "dollars": 162239212,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1768881600,
       "price": 1134.75,
       "volume": 135664,
       "dollars": 153944724,
-      "rank": 13,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -84,7 +96,7 @@
       "price": 1131.7,
       "volume": 102269,
       "dollars": 115737827,
-      "rank": 17,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,7 +108,7 @@
       "price": 1119.98,
       "volume": 100399,
       "dollars": 112444872,
-      "rank": 18,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,7 +120,7 @@
       "price": 1300.02,
       "volume": 82355,
       "dollars": 107063147,
-      "rank": 19,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -130,22 +142,22 @@
       "rank": 2
     },
     {
+      "price": 1429.4,
+      "volume": 144504,
+      "dollars": 206549682,
+      "rank": 7
+    },
+    {
       "price": 1413.6,
       "volume": 122436,
       "dollars": 173071856,
-      "rank": 8
+      "rank": 9
     },
     {
       "price": 1134.8,
       "volume": 145777,
       "dollars": 165420450,
-      "rank": 10
-    },
-    {
-      "price": 1038.2,
-      "volume": 128910,
-      "dollars": 133831783,
-      "rank": 14
+      "rank": 11
     }
   ],
   "boxes": []
