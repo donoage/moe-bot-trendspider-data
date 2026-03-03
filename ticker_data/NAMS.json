@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "NAMS",
-    "generated_at": "2026-02-28T01:42:41.512797+00:00Z",
-    "date_range": "2025-11-29 to 2026-02-27",
+    "generated_at": "2026-03-03T01:41:00.062152+00:00Z",
+    "date_range": "2025-12-02 to 2026-03-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1772424000,
+      "price": 33.25,
+      "volume": 443707,
+      "dollars": 14753257,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1765166400,
       "price": 35.75,
       "volume": 407000,
       "dollars": 14550250,
-      "rank": 8,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 31.83,
       "volume": 357987,
       "dollars": 11394726,
-      "rank": 11,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 35.08,
       "volume": 255175,
       "dollars": 8951539,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -48,7 +60,7 @@
       "price": 33.9,
       "volume": 250098,
       "dollars": 8478322,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -64,28 +76,28 @@
       "rank": 6
     },
     {
+      "price": 33.3,
+      "volume": 636496,
+      "dollars": 21170343,
+      "rank": 12
+    },
+    {
       "price": 36.0,
       "volume": 561818,
       "dollars": 20225115,
-      "rank": 14
+      "rank": 15
     },
     {
       "price": 35.5,
       "volume": 556475,
       "dollars": 19742668,
-      "rank": 16
+      "rank": 17
     },
     {
       "price": 35.1,
       "volume": 483032,
       "dollars": 16948298,
-      "rank": 22
-    },
-    {
-      "price": 35.0,
-      "volume": 455688,
-      "dollars": 15948425,
-      "rank": 24
+      "rank": 23
     }
   ],
   "boxes": []
