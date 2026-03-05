@@ -1,13 +1,32 @@
 {
   "metadata": {
     "ticker": "MSTU",
-    "generated_at": "2026-03-03T01:41:00.057850+00:00Z",
-    "date_range": "2025-12-02 to 2026-03-02",
+    "generated_at": "2026-03-05T01:41:29.883663+00:00Z",
+    "date_range": "2025-12-04 to 2026-03-04",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1772596800,
+      "price": 6.12,
+      "volume": 3000000,
+      "dollars": 18359100,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 6.1,
+      "volume": 3162968,
+      "dollars": 19348315,
+      "rank": 3
+    },
     {
       "price": 10.3,
       "volume": 507224,
@@ -30,12 +49,6 @@
       "price": 9.9,
       "volume": 418480,
       "dollars": 4139674,
-      "rank": 0
-    },
-    {
-      "price": 5.5,
-      "volume": 636000,
-      "dollars": 3515560,
       "rank": 0
     }
   ],

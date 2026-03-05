@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "XMTR",
-    "generated_at": "2026-03-03T01:48:12.500726+00:00Z",
-    "date_range": "2025-12-02 to 2026-03-02",
+    "generated_at": "2026-03-05T01:47:34.295271+00:00Z",
+    "date_range": "2025-12-04 to 2026-03-04",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -58,6 +58,12 @@
   ],
   "levels": [
     {
+      "price": 39.7,
+      "volume": 2207461,
+      "dollars": 87677473,
+      "rank": 1
+    },
+    {
       "price": 56.7,
       "volume": 1359358,
       "dollars": 77048159,
@@ -80,12 +86,6 @@
       "volume": 593780,
       "dollars": 36520996,
       "rank": 8
-    },
-    {
-      "price": 42.1,
-      "volume": 841648,
-      "dollars": 35442892,
-      "rank": 9
     }
   ],
   "boxes": []
