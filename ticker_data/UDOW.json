@@ -1,41 +1,54 @@
 {
   "metadata": {
     "ticker": "UDOW",
-    "generated_at": "2026-03-05T01:46:22.782709+00:00Z",
-    "date_range": "2025-12-04 to 2026-03-04",
+    "generated_at": "2026-03-07T01:42:57.101362+00:00Z",
+    "date_range": "2025-12-06 to 2026-03-06",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1772769600,
+      "price": 53.53,
+      "volume": 231000,
+      "dollars": 12365430,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
-      "price": 62.3,
-      "volume": 250959,
-      "dollars": 15638002,
-      "rank": 0
+      "price": 53.7,
+      "volume": 753829,
+      "dollars": 40464635,
+      "rank": 35
     },
     {
-      "price": 59.6,
-      "volume": 170209,
-      "dollars": 10142762,
-      "rank": 0
+      "price": 53.1,
+      "volume": 672912,
+      "dollars": 35735276,
+      "rank": 60
     },
     {
-      "price": 59.5,
-      "volume": 166733,
-      "dollars": 9919593,
-      "rank": 0
+      "price": 53.4,
+      "volume": 651290,
+      "dollars": 34780268,
+      "rank": 67
     },
     {
-      "price": 55.3,
-      "volume": 179116,
-      "dollars": 9903016,
-      "rank": 0
+      "price": 53.2,
+      "volume": 599247,
+      "dollars": 31876714,
+      "rank": 82
     },
     {
-      "price": 62.2,
-      "volume": 153254,
-      "dollars": 9534198,
+      "price": 53.5,
+      "volume": 520952,
+      "dollars": 27870499,
       "rank": 0
     }
   ],

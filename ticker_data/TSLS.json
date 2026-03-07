@@ -1,16 +1,16 @@
 {
   "metadata": {
     "ticker": "TSLS",
-    "generated_at": "2026-03-05T01:46:22.772645+00:00Z",
-    "date_range": "2025-12-04 to 2026-03-04",
+    "generated_at": "2026-03-07T01:42:57.083329+00:00Z",
+    "date_range": "2025-12-06 to 2026-03-06",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
       "timestamp": 1768276800,
-      "price": 5.09,
-      "volume": 999999,
+      "price": 50.9,
+      "volume": 99999,
       "dollars": 5089994,
       "rank": 10,
       "conditions": "",
@@ -21,8 +21,8 @@
     },
     {
       "timestamp": 1768276800,
-      "price": 5.09,
-      "volume": 999999,
+      "price": 50.9,
+      "volume": 99999,
       "dollars": 5089894,
       "rank": 11,
       "conditions": "",
@@ -33,8 +33,8 @@
     },
     {
       "timestamp": 1772078400,
-      "price": 5.57,
-      "volume": 783508,
+      "price": 55.7,
+      "volume": 78350,
       "dollars": 4364139,
       "rank": 13,
       "conditions": "",
@@ -45,8 +45,8 @@
     },
     {
       "timestamp": 1767326400,
-      "price": 5.13,
-      "volume": 671980,
+      "price": 51.3,
+      "volume": 67198,
       "dollars": 3447257,
       "rank": 16,
       "conditions": "",
@@ -54,39 +54,20 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1772683200,
+      "price": 5.59,
+      "volume": 615125,
+      "dollars": 3438548,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
-  "levels": [
-    {
-      "price": 5.5,
-      "volume": 20268002,
-      "dollars": 111473101,
-      "rank": 1
-    },
-    {
-      "price": 5.4,
-      "volume": 20516257,
-      "dollars": 110579448,
-      "rank": 2
-    },
-    {
-      "price": 5.2,
-      "volume": 19353108,
-      "dollars": 100678670,
-      "rank": 3
-    },
-    {
-      "price": 5.6,
-      "volume": 17926746,
-      "dollars": 100298088,
-      "rank": 4
-    },
-    {
-      "price": 5.7,
-      "volume": 13192188,
-      "dollars": 75073774,
-      "rank": 5
-    }
-  ],
+  "levels": [],
   "boxes": []
 }

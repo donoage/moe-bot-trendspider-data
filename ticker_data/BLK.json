@@ -1,13 +1,19 @@
 {
   "metadata": {
     "ticker": "BLK",
-    "generated_at": "2026-03-05T01:35:17.160875+00:00Z",
-    "date_range": "2025-12-04 to 2026-03-04",
+    "generated_at": "2026-03-07T01:32:06.005534+00:00Z",
+    "date_range": "2025-12-06 to 2026-03-06",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
   "levels": [
+    {
+      "price": 951.7,
+      "volume": 4174607,
+      "dollars": 3973097462,
+      "rank": 1
+    },
     {
       "price": 1028.7,
       "volume": 1222147,
@@ -27,27 +33,21 @@
       "rank": 16
     },
     {
-      "price": 1128.5,
-      "volume": 507560,
-      "dollars": 572763878,
-      "rank": 24
-    },
-    {
-      "price": 1079.9,
-      "volume": 476049,
-      "dollars": 514078785,
-      "rank": 27
+      "price": 979.9,
+      "volume": 622976,
+      "dollars": 610445082,
+      "rank": 21
     }
   ],
   "boxes": [
     {
       "box_number": 1,
       "high_price": 1033.21,
-      "low_price": 1033.21,
-      "volume": 24940,
-      "dollars": 25768257,
-      "trades": 1,
-      "date_range": "2025-12-04 to 2026-03-04",
+      "low_price": 960.0,
+      "volume": 90308,
+      "dollars": 89006853,
+      "trades": 3,
+      "date_range": "2025-12-06 to 2026-03-06",
       "color": "#FF6B6B"
     }
   ]

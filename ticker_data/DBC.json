@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "DBC",
-    "generated_at": "2026-03-05T01:36:42.025402+00:00Z",
-    "date_range": "2025-12-04 to 2026-03-04",
+    "generated_at": "2026-03-07T01:33:31.811964+00:00Z",
+    "date_range": "2025-12-06 to 2026-03-06",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -15,29 +15,40 @@
       "rank": 2
     },
     {
+      "price": 26.6,
+      "volume": 17629842,
+      "dollars": 468713033,
+      "rank": 3
+    },
+    {
       "price": 26.5,
-      "volume": 17553302,
-      "dollars": 465143526,
+      "volume": 17632237,
+      "dollars": 467236882,
       "rank": 4
+    },
+    {
+      "price": 27.6,
+      "volume": 16509000,
+      "dollars": 455780684,
+      "rank": 5
     },
     {
       "price": 25.7,
       "volume": 17338581,
       "dollars": 445630746,
       "rank": 6
-    },
-    {
-      "price": 26.0,
-      "volume": 17133591,
-      "dollars": 445249702,
-      "rank": 7
-    },
-    {
-      "price": 25.6,
-      "volume": 16865633,
-      "dollars": 431776802,
-      "rank": 8
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 27.38,
+      "low_price": 27.38,
+      "volume": 1667513,
+      "dollars": 45656505,
+      "trades": 1,
+      "date_range": "2025-12-06 to 2026-03-06",
+      "color": "#FF6B6B"
+    }
+  ]
 }

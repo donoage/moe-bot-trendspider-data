@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "MST",
-    "generated_at": "2026-03-05T01:41:29.882680+00:00Z",
-    "date_range": "2025-12-04 to 2026-03-04",
+    "generated_at": "2026-03-07T01:38:11.655063+00:00Z",
+    "date_range": "2025-12-06 to 2026-03-06",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1772769600,
+      "price": 3.43,
+      "volume": 170287,
+      "dollars": 584084,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1772424000,
       "price": 3.77,
       "volume": 150000,
       "dollars": 565500,
-      "rank": 7,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -40,10 +52,16 @@
       "rank": 3
     },
     {
+      "price": 3.4,
+      "volume": 170287,
+      "dollars": 584084,
+      "rank": 5
+    },
+    {
       "price": 3.8,
       "volume": 150000,
       "dollars": 565500,
-      "rank": 5
+      "rank": 6
     }
   ],
   "boxes": []

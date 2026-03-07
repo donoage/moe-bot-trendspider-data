@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "CRDU",
-    "generated_at": "2026-03-05T01:36:42.012353+00:00Z",
-    "date_range": "2025-12-04 to 2026-03-04",
+    "generated_at": "2026-03-07T01:33:31.800682+00:00Z",
+    "date_range": "2025-12-06 to 2026-03-06",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1772683200,
+      "price": 7.73,
+      "volume": 119507,
+      "dollars": 923789,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1770696000,
       "price": 13.0,
       "volume": 58501,
       "dollars": 760513,
-      "rank": 1,
+      "rank": 2,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 14.85,
       "volume": 38838,
       "dollars": 576744,
-      "rank": 2,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 9.45,
       "volume": 58500,
       "dollars": 552825,
-      "rank": 3,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,28 +58,34 @@
   ],
   "levels": [
     {
+      "price": 7.7,
+      "volume": 119507,
+      "dollars": 923789,
+      "rank": 1
+    },
+    {
       "price": 13.0,
       "volume": 58501,
       "dollars": 760513,
-      "rank": 1
+      "rank": 2
     },
     {
       "price": 14.9,
       "volume": 38838,
       "dollars": 576744,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 9.5,
       "volume": 58500,
       "dollars": 552825,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 16.7,
       "volume": 31304,
       "dollars": 522776,
-      "rank": 4
+      "rank": 5
     }
   ],
   "boxes": []
