@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "ABNB",
-    "generated_at": "2026-03-10T00:32:49.479422+00:00Z",
-    "date_range": "2025-12-09 to 2026-03-09",
+    "generated_at": "2026-03-11T00:27:43.363570+00:00Z",
+    "date_range": "2025-12-10 to 2026-03-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 135.28,
+      "volume": 3565414,
+      "dollars": 482329205,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 134.2,
@@ -47,7 +60,7 @@
       "volume": 174223,
       "dollars": 23084547,
       "trades": 1,
-      "date_range": "2025-12-09 to 2026-03-09",
+      "date_range": "2025-12-10 to 2026-03-10",
       "color": "#FF6B6B"
     }
   ]

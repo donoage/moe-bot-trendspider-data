@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "SMH",
-    "generated_at": "2026-03-10T00:46:55.988990+00:00Z",
-    "date_range": "2025-12-09 to 2026-03-09",
+    "generated_at": "2026-03-11T00:41:48.126890+00:00Z",
+    "date_range": "2025-12-10 to 2026-03-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1773115200,
+      "price": 401.99,
+      "volume": 1522886,
+      "dollars": 612184943,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1772424000,
       "price": 406.39,
       "volume": 592021,
       "dollars": 240589638,
-      "rank": 19,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -26,6 +38,12 @@
       "volume": 3337307,
       "dollars": 1134045620,
       "rank": 68
+    },
+    {
+      "price": 402.0,
+      "volume": 1545386,
+      "dollars": 621229943,
+      "rank": 0
     },
     {
       "price": 406.4,
@@ -44,12 +62,6 @@
       "volume": 1100947,
       "dollars": 381224811,
       "rank": 0
-    },
-    {
-      "price": 356.2,
-      "volume": 973331,
-      "dollars": 346728911,
-      "rank": 0
     }
   ],
   "boxes": [
@@ -57,10 +69,10 @@
       "box_number": 1,
       "high_price": 425.58,
       "low_price": 340.02,
-      "volume": 2611269,
-      "dollars": 1024882383,
-      "trades": 19,
-      "date_range": "2025-12-09 to 2026-03-09",
+      "volume": 4134155,
+      "dollars": 1637067326,
+      "trades": 20,
+      "date_range": "2025-12-10 to 2026-03-10",
       "color": "#FF6B6B"
     }
   ]

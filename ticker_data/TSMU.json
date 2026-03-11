@@ -1,18 +1,73 @@
 {
   "metadata": {
     "ticker": "TSMU",
-    "generated_at": "2026-03-10T00:48:55.245421+00:00Z",
-    "date_range": "2025-12-09 to 2026-03-09",
+    "generated_at": "2026-03-11T00:43:28.970347+00:00Z",
+    "date_range": "2025-12-10 to 2026-03-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773115200,
+      "price": 55.52,
+      "volume": 13000,
+      "dollars": 721758,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773115200,
+      "price": 54.11,
+      "volume": 11990,
+      "dollars": 648778,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773115200,
+      "price": 55.63,
+      "volume": 10000,
+      "dollars": 556300,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 55.5,
+      "volume": 13000,
+      "dollars": 721758,
+      "rank": 1
+    },
+    {
+      "price": 54.1,
+      "volume": 11990,
+      "dollars": 648778,
+      "rank": 2
+    },
+    {
+      "price": 55.6,
+      "volume": 10000,
+      "dollars": 556300,
+      "rank": 3
+    },
     {
       "price": 39.0,
       "volume": 14025,
       "dollars": 546554,
-      "rank": 1
+      "rank": 4
     }
   ],
   "boxes": []

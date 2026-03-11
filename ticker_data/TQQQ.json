@@ -1,13 +1,19 @@
 {
   "metadata": {
     "ticker": "TQQQ",
-    "generated_at": "2026-03-10T00:48:55.232452+00:00Z",
-    "date_range": "2025-12-09 to 2026-03-09",
+    "generated_at": "2026-03-11T00:43:28.960843+00:00Z",
+    "date_range": "2025-12-10 to 2026-03-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
   "levels": [
+    {
+      "price": 50.3,
+      "volume": 14473959,
+      "dollars": 727905020,
+      "rank": 0
+    },
     {
       "price": 55.3,
       "volume": 12917364,
@@ -31,23 +37,17 @@
       "volume": 12208567,
       "dollars": 676194695,
       "rank": 0
-    },
-    {
-      "price": 55.5,
-      "volume": 12087723,
-      "dollars": 670785287,
-      "rank": 0
     }
   ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 56.01,
+      "high_price": 49.53,
       "low_price": 49.07,
-      "volume": 2181305,
-      "dollars": 109672709,
-      "trades": 3,
-      "date_range": "2025-12-09 to 2026-03-09",
+      "volume": 1841142,
+      "dollars": 90620180,
+      "trades": 2,
+      "date_range": "2025-12-10 to 2026-03-10",
       "color": "#FF6B6B"
     }
   ]

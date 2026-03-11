@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "ACN",
-    "generated_at": "2026-03-10T00:32:49.481872+00:00Z",
-    "date_range": "2025-12-09 to 2026-03-09",
+    "generated_at": "2026-03-11T00:27:43.366177+00:00Z",
+    "date_range": "2025-12-10 to 2026-03-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 272.25,
+      "volume": 2511466,
+      "dollars": 683746618,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 239.7,
@@ -47,7 +60,7 @@
       "volume": 527109,
       "dollars": 145686985,
       "trades": 4,
-      "date_range": "2025-12-09 to 2026-03-09",
+      "date_range": "2025-12-10 to 2026-03-10",
       "color": "#FF6B6B"
     }
   ]

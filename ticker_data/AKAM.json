@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "AKAM",
-    "generated_at": "2026-03-10T00:32:49.497746+00:00Z",
-    "date_range": "2025-12-09 to 2026-03-09",
+    "generated_at": "2026-03-11T00:27:43.376644+00:00Z",
+    "date_range": "2025-12-10 to 2026-03-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 89.22,
+      "volume": 2178562,
+      "dollars": 194371301,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 88.3,
@@ -47,7 +60,7 @@
       "volume": 249600,
       "dollars": 24566880,
       "trades": 1,
-      "date_range": "2025-12-09 to 2026-03-09",
+      "date_range": "2025-12-10 to 2026-03-10",
       "color": "#FF6B6B"
     }
   ]

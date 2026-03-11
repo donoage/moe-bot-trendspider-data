@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "ADP",
-    "generated_at": "2026-03-10T00:32:49.483587+00:00Z",
-    "date_range": "2025-12-09 to 2026-03-09",
+    "generated_at": "2026-03-11T00:27:43.367860+00:00Z",
+    "date_range": "2025-12-10 to 2026-03-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1766116800,
+      "price": 257.94,
+      "volume": 3037605,
+      "dollars": 783519833,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 242.1,
@@ -47,7 +60,7 @@
       "volume": 247171,
       "dollars": 56628625,
       "trades": 2,
-      "date_range": "2025-12-09 to 2026-03-09",
+      "date_range": "2025-12-10 to 2026-03-10",
       "color": "#FF6B6B"
     }
   ]
