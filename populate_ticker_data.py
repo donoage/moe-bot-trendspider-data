@@ -972,7 +972,7 @@ def main():
         sys.exit(1)
     
     # Pre-fetch big prints in batches for massive API call reduction
-    batch_size = 50  # Process 50 tickers per API call
+    batch_size = 10  # Process 10 tickers per API call (50 caused empty responses from API)
     batches = [tickers[i:i + batch_size] for i in range(0, len(tickers), batch_size)]
     num_batches = len(batches)
     
