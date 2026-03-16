@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "NBIL",
-    "generated_at": "2026-03-12T00:45:41.473248+00:00Z",
-    "date_range": "2025-12-11 to 2026-03-11",
+    "generated_at": "2026-03-14T00:50:38.640240+00:00Z",
+    "date_range": "2025-12-13 to 2026-03-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1773374400,
+      "price": 13.85,
+      "volume": 46000,
+      "dollars": 637100,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1770004800,
       "price": 8.96,
       "volume": 64458,
       "dollars": 577221,
-      "rank": 8,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 11.5,
       "volume": 48200,
       "dollars": 554300,
-      "rank": 10,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 11.0,
       "volume": 49600,
       "dollars": 545600,
-      "rank": 12,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -58,22 +70,22 @@
       "rank": 3
     },
     {
+      "price": 13.9,
+      "volume": 46000,
+      "dollars": 637100,
+      "rank": 5
+    },
+    {
       "price": 9.0,
       "volume": 64458,
       "dollars": 577221,
-      "rank": 8
+      "rank": 9
     },
     {
       "price": 11.5,
       "volume": 48200,
       "dollars": 554300,
-      "rank": 10
-    },
-    {
-      "price": 12.8,
-      "volume": 42197,
-      "dollars": 539277,
-      "rank": 12
+      "rank": 11
     }
   ],
   "boxes": []

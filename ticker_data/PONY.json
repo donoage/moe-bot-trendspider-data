@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "PONY",
-    "generated_at": "2026-03-12T00:47:34.435071+00:00Z",
-    "date_range": "2025-12-11 to 2026-03-11",
+    "generated_at": "2026-03-14T00:53:35.766282+00:00Z",
+    "date_range": "2025-12-13 to 2026-03-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773374400,
+      "price": 11.55,
+      "volume": 1000000,
+      "dollars": 11550000,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 12.7,

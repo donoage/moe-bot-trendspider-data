@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "FNMA",
-    "generated_at": "2026-03-12T00:40:46.633242+00:00Z",
-    "date_range": "2025-12-11 to 2026-03-11",
+    "generated_at": "2026-03-14T00:44:05.418476+00:00Z",
+    "date_range": "2025-12-13 to 2026-03-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773288000,
+      "price": 5.91,
+      "volume": 1142644,
+      "dollars": 6749940,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 10.0,

@@ -1,13 +1,50 @@
 {
   "metadata": {
     "ticker": "IAU",
-    "generated_at": "2026-03-12T00:42:49.503582+00:00Z",
-    "date_range": "2025-12-11 to 2026-03-11",
+    "generated_at": "2026-03-14T00:46:22.970159+00:00Z",
+    "date_range": "2025-12-13 to 2026-03-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773288000,
+      "price": 96.06,
+      "volume": 10507900,
+      "dollars": 1009339486,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773288000,
+      "price": 96.19,
+      "volume": 3101276,
+      "dollars": 298311738,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 96.1,
+      "volume": 11522927,
+      "dollars": 1106849426,
+      "rank": 34
+    },
+    {
+      "price": 96.2,
+      "volume": 3526668,
+      "dollars": 339227715,
+      "rank": 0
+    },
     {
       "price": 92.9,
       "volume": 2955187,
@@ -15,27 +52,15 @@
       "rank": 0
     },
     {
+      "price": 95.3,
+      "volume": 2351584,
+      "dollars": 224112021,
+      "rank": 0
+    },
+    {
       "price": 99.8,
       "volume": 2100000,
       "dollars": 209517000,
-      "rank": 0
-    },
-    {
-      "price": 96.7,
-      "volume": 2116923,
-      "dollars": 204764613,
-      "rank": 0
-    },
-    {
-      "price": 93.0,
-      "volume": 2163705,
-      "dollars": 201259502,
-      "rank": 0
-    },
-    {
-      "price": 86.9,
-      "volume": 2183128,
-      "dollars": 189682884,
       "rank": 0
     }
   ],
@@ -43,11 +68,11 @@
     {
       "box_number": 1,
       "high_price": 100.91,
-      "low_price": 79.75,
-      "volume": 21340840,
-      "dollars": 1922792131,
-      "trades": 29,
-      "date_range": "2025-12-11 to 2026-03-11",
+      "low_price": 81.58,
+      "volume": 23203354,
+      "dollars": 2146340794,
+      "trades": 31,
+      "date_range": "2025-12-13 to 2026-03-13",
       "color": "#FF6B6B"
     }
   ]

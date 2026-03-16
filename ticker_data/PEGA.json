@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "PEGA",
-    "generated_at": "2026-03-12T00:47:34.424839+00:00Z",
-    "date_range": "2025-12-11 to 2026-03-11",
+    "generated_at": "2026-03-14T00:53:35.746341+00:00Z",
+    "date_range": "2025-12-13 to 2026-03-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1773374400,
+      "price": 42.45,
+      "volume": 2753685,
+      "dollars": 116893928,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1766116800,
       "price": 61.17,
       "volume": 1623892,
       "dollars": 99333473,
-      "rank": 4,
+      "rank": 5,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,22 +46,22 @@
       "rank": 2
     },
     {
+      "price": 42.5,
+      "volume": 3749725,
+      "dollars": 159224543,
+      "rank": 4
+    },
+    {
       "price": 60.3,
       "volume": 2348540,
       "dollars": 141675814,
-      "rank": 5
+      "rank": 6
     },
     {
       "price": 61.2,
       "volume": 2086315,
       "dollars": 127622160,
-      "rank": 7
-    },
-    {
-      "price": 48.1,
-      "volume": 2436822,
-      "dollars": 117231863,
-      "rank": 11
+      "rank": 8
     }
   ],
   "boxes": []
