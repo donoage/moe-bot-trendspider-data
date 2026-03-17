@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "ULTA",
-    "generated_at": "2026-03-14T01:00:26.784871+00:00Z",
-    "date_range": "2025-12-13 to 2026-03-13",
+    "generated_at": "2026-03-17T00:54:41.536382+00:00Z",
+    "date_range": "2025-12-16 to 2026-03-16",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -46,23 +46,34 @@
       "rank": 12
     },
     {
+      "price": 521.5,
+      "volume": 506435,
+      "dollars": 264090659,
+      "rank": 13
+    },
+    {
+      "price": 514.6,
+      "volume": 452611,
+      "dollars": 232910447,
+      "rank": 21
+    },
+    {
       "price": 604.1,
       "volume": 378464,
       "dollars": 228626317,
       "rank": 23
-    },
-    {
-      "price": 548.6,
-      "volume": 394608,
-      "dollars": 216466164,
-      "rank": 27
-    },
-    {
-      "price": 684.8,
-      "volume": 238894,
-      "dollars": 163592222,
-      "rank": 53
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 538.0,
+      "low_price": 538.0,
+      "volume": 39400,
+      "dollars": 21197200,
+      "trades": 1,
+      "date_range": "2025-12-16 to 2026-03-16",
+      "color": "#FF6B6B"
+    }
+  ]
 }

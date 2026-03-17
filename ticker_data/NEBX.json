@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "NEBX",
-    "generated_at": "2026-03-14T00:50:38.642325+00:00Z",
-    "date_range": "2025-12-13 to 2026-03-13",
+    "generated_at": "2026-03-17T00:45:15.862519+00:00Z",
+    "date_range": "2025-12-16 to 2026-03-16",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -70,6 +70,12 @@
   ],
   "levels": [
     {
+      "price": 49.2,
+      "volume": 65792,
+      "dollars": 3235650,
+      "rank": 2
+    },
+    {
       "price": 38.5,
       "volume": 75000,
       "dollars": 2889750,
@@ -92,12 +98,6 @@
       "volume": 53887,
       "dollars": 2257031,
       "rank": 6
-    },
-    {
-      "price": 26.0,
-      "volume": 79238,
-      "dollars": 2060188,
-      "rank": 7
     }
   ],
   "boxes": []
