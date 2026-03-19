@@ -1,49 +1,12 @@
 {
   "metadata": {
     "ticker": "TSMZ",
-    "generated_at": "2026-03-17T00:54:41.523680+00:00Z",
-    "date_range": "2025-12-16 to 2026-03-16",
+    "generated_at": "2026-03-19T00:55:25.395822+00:00Z",
+    "date_range": "2025-12-18 to 2026-03-18",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1766116800,
-      "price": 12.84,
-      "volume": 86468,
-      "dollars": 1110249,
-      "rank": 1,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1767585600,
-      "price": 11.2,
-      "volume": 93307,
-      "dollars": 1045038,
-      "rank": 2,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1765944000,
-      "price": 13.17,
-      "volume": 74458,
-      "dollars": 980611,
-      "rank": 3,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 12.8,
@@ -56,12 +19,6 @@
       "volume": 93307,
       "dollars": 1045038,
       "rank": 2
-    },
-    {
-      "price": 13.2,
-      "volume": 74458,
-      "dollars": 980611,
-      "rank": 3
     }
   ],
   "boxes": []

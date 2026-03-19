@@ -1,49 +1,12 @@
 {
   "metadata": {
     "ticker": "TSM",
-    "generated_at": "2026-03-17T00:54:41.509857+00:00Z",
-    "date_range": "2025-12-16 to 2026-03-16",
+    "generated_at": "2026-03-19T00:55:25.394400+00:00Z",
+    "date_range": "2025-12-18 to 2026-03-18",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1769140800,
-      "price": 334.87,
-      "volume": 2108364,
-      "dollars": 706027852,
-      "rank": 10,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1773374400,
-      "price": 338.31,
-      "volume": 1914789,
-      "dollars": 647792266,
-      "rank": 12,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1772596800,
-      "price": 357.44,
-      "volume": 1591472,
-      "dollars": 568855751,
-      "rank": 18,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 338.3,
@@ -58,22 +21,22 @@
       "rank": 3
     },
     {
+      "price": 339.6,
+      "volume": 4796095,
+      "dollars": 1628582100,
+      "rank": 4
+    },
+    {
       "price": 292.0,
       "volume": 5291488,
       "dollars": 1545245026,
-      "rank": 4
+      "rank": 5
     },
     {
       "price": 303.4,
       "volume": 3582193,
       "dollars": 1086873178,
-      "rank": 15
-    },
-    {
-      "price": 302.4,
-      "volume": 3277014,
-      "dollars": 990928428,
-      "rank": 19
+      "rank": 16
     }
   ],
   "boxes": []

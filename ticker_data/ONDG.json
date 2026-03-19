@@ -1,12 +1,32 @@
 {
   "metadata": {
     "ticker": "ONDG",
-    "generated_at": "2026-03-17T00:46:21.564614+00:00Z",
-    "date_range": "2025-12-16 to 2026-03-16",
+    "generated_at": "2026-03-19T00:44:49.644183+00:00Z",
+    "date_range": "2025-12-18 to 2026-03-18",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1773720000,
+      "price": 7.97,
+      "volume": 71275,
+      "dollars": 568061,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 8.0,
+      "volume": 71275,
+      "dollars": 568061,
+      "rank": 1
+    }
+  ],
   "boxes": []
 }

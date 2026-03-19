@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "IYZ",
-    "generated_at": "2026-03-17T00:43:14.899067+00:00Z",
-    "date_range": "2025-12-16 to 2026-03-16",
+    "generated_at": "2026-03-19T00:41:58.952505+00:00Z",
+    "date_range": "2025-12-18 to 2026-03-18",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773806400,
+      "price": 39.38,
+      "volume": 1898035,
+      "dollars": 74744618,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 34.1,
@@ -27,27 +40,27 @@
       "rank": 35
     },
     {
-      "price": 32.7,
-      "volume": 3138643,
-      "dollars": 102607857,
-      "rank": 46
+      "price": 33.7,
+      "volume": 2558989,
+      "dollars": 86236381,
+      "rank": 62
     },
     {
-      "price": 32.8,
-      "volume": 2911268,
-      "dollars": 95448558,
-      "rank": 51
+      "price": 34.3,
+      "volume": 2503811,
+      "dollars": 85822493,
+      "rank": 63
     }
   ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 38.67,
+      "high_price": 39.38,
       "low_price": 37.04,
-      "volume": 2127032,
-      "dollars": 80535407,
-      "trades": 2,
-      "date_range": "2025-12-16 to 2026-03-16",
+      "volume": 4025067,
+      "dollars": 155280025,
+      "trades": 3,
+      "date_range": "2025-12-18 to 2026-03-18",
       "color": "#FF6B6B"
     }
   ]
