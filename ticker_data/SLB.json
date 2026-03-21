@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "SLB",
-    "generated_at": "2026-03-19T00:48:42.086782+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:49:11.229856+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 46.63,
+      "volume": 17208979,
+      "dollars": 802454690,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 41.0,
@@ -15,28 +28,28 @@
       "rank": 1
     },
     {
+      "price": 46.6,
+      "volume": 63819568,
+      "dollars": 2975220285,
+      "rank": 2
+    },
+    {
       "price": 49.4,
       "volume": 33904596,
       "dollars": 1674341179,
-      "rank": 9
+      "rank": 10
     },
     {
       "price": 45.9,
-      "volume": 35354123,
-      "dollars": 1622381981,
-      "rank": 10
+      "volume": 35404123,
+      "dollars": 1624675731,
+      "rank": 11
     },
     {
       "price": 49.8,
       "volume": 31280314,
       "dollars": 1557741306,
-      "rank": 14
-    },
-    {
-      "price": 42.4,
-      "volume": 34699928,
-      "dollars": 1471260724,
-      "rank": 16
+      "rank": 15
     }
   ],
   "boxes": [
@@ -44,10 +57,10 @@
       "box_number": 1,
       "high_price": 50.56,
       "low_price": 46.4,
-      "volume": 12313802,
-      "dollars": 605838996,
-      "trades": 19,
-      "date_range": "2025-12-18 to 2026-03-18",
+      "volume": 13312302,
+      "dollars": 653137941,
+      "trades": 20,
+      "date_range": "2025-12-20 to 2026-03-20",
       "color": "#FF6B6B"
     }
   ]

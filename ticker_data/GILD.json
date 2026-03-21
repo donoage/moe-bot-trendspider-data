@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "GILD",
-    "generated_at": "2026-03-19T00:39:49.370454+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:39:46.449209+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1766116800,
-      "price": 124.29,
-      "volume": 6380798,
-      "dollars": 793069383,
-      "rank": 6,
+      "timestamp": 1773979200,
+      "price": 137.21,
+      "volume": 7304212,
+      "dollars": 1002210928,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773892800,
+      "price": 141.11,
+      "volume": 3480816,
+      "dollars": 491177945,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 148.95,
       "volume": 3280546,
       "dollars": 488637326,
-      "rank": 18,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,6 +58,12 @@
       "rank": 37
     },
     {
+      "price": 137.2,
+      "volume": 9132381,
+      "dollars": 1253054730,
+      "rank": 0
+    },
+    {
       "price": 119.8,
       "volume": 9013539,
       "dollars": 1079739692,
@@ -55,12 +73,6 @@
       "price": 119.4,
       "volume": 8226079,
       "dollars": 982064678,
-      "rank": 0
-    },
-    {
-      "price": 120.4,
-      "volume": 8043261,
-      "dollars": 968398409,
       "rank": 0
     }
   ],
@@ -72,7 +84,7 @@
       "volume": 1393479,
       "dollars": 195328326,
       "trades": 4,
-      "date_range": "2025-12-18 to 2026-03-18",
+      "date_range": "2025-12-20 to 2026-03-20",
       "color": "#FF6B6B"
     }
   ]

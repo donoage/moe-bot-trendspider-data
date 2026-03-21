@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "TDS",
-    "generated_at": "2026-03-19T00:49:47.509906+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:50:08.457486+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 41.01,
+      "volume": 1917389,
+      "dollars": 78632122,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 40.0,
@@ -15,28 +28,28 @@
       "rank": 13
     },
     {
-      "price": 38.3,
-      "volume": 3194926,
-      "dollars": 122363028,
-      "rank": 19
+      "price": 41.0,
+      "volume": 2728687,
+      "dollars": 111885410,
+      "rank": 24
     },
     {
       "price": 40.6,
       "volume": 2679584,
       "dollars": 108722907,
-      "rank": 25
+      "rank": 26
     },
     {
       "price": 38.8,
       "volume": 2586770,
       "dollars": 100321710,
-      "rank": 35
+      "rank": 36
     },
     {
       "price": 38.6,
       "volume": 2555916,
       "dollars": 98616442,
-      "rank": 39
+      "rank": 40
     }
   ],
   "boxes": []

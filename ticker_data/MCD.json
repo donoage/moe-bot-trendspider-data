@@ -1,25 +1,12 @@
 {
   "metadata": {
     "ticker": "MCD",
-    "generated_at": "2026-03-19T00:42:56.440189+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:43:11.897253+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1766116800,
-      "price": 315.84,
-      "volume": 1712177,
-      "dollars": 540773983,
-      "rank": 14,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 315.8,
@@ -52,5 +39,16 @@
       "rank": 52
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 309.8,
+      "low_price": 309.8,
+      "volume": 249800,
+      "dollars": 77388040,
+      "trades": 1,
+      "date_range": "2025-12-20 to 2026-03-20",
+      "color": "#FF6B6B"
+    }
+  ]
 }

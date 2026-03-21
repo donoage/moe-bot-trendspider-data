@@ -1,26 +1,19 @@
 {
   "metadata": {
     "ticker": "DRD",
-    "generated_at": "2026-03-19T00:37:28.612192+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:37:21.526067+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1766116800,
-      "price": 31.24,
-      "volume": 213072,
-      "dollars": 6656369,
-      "rank": 16,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
+    {
+      "price": 25.6,
+      "volume": 4029944,
+      "dollars": 103125794,
+      "rank": 1
+    },
     {
       "price": 31.2,
       "volume": 409952,
@@ -34,22 +27,16 @@
       "rank": 23
     },
     {
+      "price": 26.1,
+      "volume": 258904,
+      "dollars": 6765703,
+      "rank": 24
+    },
+    {
       "price": 28.0,
       "volume": 172022,
       "dollars": 4811588,
-      "rank": 33
-    },
-    {
-      "price": 37.4,
-      "volume": 115172,
-      "dollars": 4310887,
-      "rank": 37
-    },
-    {
-      "price": 31.4,
-      "volume": 124773,
-      "dollars": 3917872,
-      "rank": 44
+      "rank": 34
     }
   ],
   "boxes": []

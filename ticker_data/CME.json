@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "CME",
-    "generated_at": "2026-03-19T00:35:14.142375+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:35:14.366126+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 307.32,
+      "volume": 1286159,
+      "dollars": 395262383,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 274.0,
@@ -47,7 +60,7 @@
       "volume": 273960,
       "dollars": 78419966,
       "trades": 3,
-      "date_range": "2025-12-18 to 2026-03-18",
+      "date_range": "2025-12-20 to 2026-03-20",
       "color": "#FF6B6B"
     }
   ]

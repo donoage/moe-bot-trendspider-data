@@ -1,18 +1,18 @@
 {
   "metadata": {
     "ticker": "ISSC",
-    "generated_at": "2026-03-19T00:41:58.944882+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:42:07.604989+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1772510400,
-      "price": 26.85,
-      "volume": 167958,
-      "dollars": 4509672,
-      "rank": 5,
+      "timestamp": 1773979200,
+      "price": 28.66,
+      "volume": 163779,
+      "dollars": 4693906,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1773720000,
-      "price": 30.13,
-      "volume": 74443,
-      "dollars": 2242967,
-      "rank": 20,
+      "timestamp": 1772510400,
+      "price": 26.85,
+      "volume": 167958,
+      "dollars": 4509672,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773892800,
+      "price": 28.32,
+      "volume": 131956,
+      "dollars": 3736743,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -33,12 +45,6 @@
     }
   ],
   "levels": [
-    {
-      "price": 12.5,
-      "volume": 976848,
-      "dollars": 12222851,
-      "rank": 2
-    },
     {
       "price": 18.4,
       "volume": 632606,
@@ -62,6 +68,12 @@
       "volume": 240850,
       "dollars": 4817926,
       "rank": 9
+    },
+    {
+      "price": 28.7,
+      "volume": 163779,
+      "dollars": 4693906,
+      "rank": 10
     }
   ],
   "boxes": []

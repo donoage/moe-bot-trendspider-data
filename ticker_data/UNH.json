@@ -1,42 +1,67 @@
 {
   "metadata": {
     "ticker": "UNH",
-    "generated_at": "2026-03-19T00:55:25.407221+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:51:04.500500+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 275.59,
+      "volume": 14523983,
+      "dollars": 4002664474,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773979200,
+      "price": 275.59,
+      "volume": 12025176,
+      "dollars": 3314018253,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 275.6,
+      "volume": 28515938,
+      "dollars": 7858690751,
+      "rank": 1
+    },
     {
       "price": 338.4,
       "volume": 6742542,
       "dollars": 2281599617,
-      "rank": 8
+      "rank": 9
     },
     {
       "price": 303.2,
       "volume": 6735522,
       "dollars": 2042201018,
-      "rank": 15
+      "rank": 16
     },
     {
       "price": 309.1,
       "volume": 6501884,
       "dollars": 2009746366,
-      "rank": 16
+      "rank": 17
     },
     {
       "price": 302.0,
       "volume": 6304031,
       "dollars": 1903884717,
-      "rank": 17
-    },
-    {
-      "price": 292.5,
-      "volume": 6023417,
-      "dollars": 1761747206,
-      "rank": 19
+      "rank": 18
     }
   ],
   "boxes": [
@@ -47,7 +72,7 @@
       "volume": 329280,
       "dollars": 92271171,
       "trades": 2,
-      "date_range": "2025-12-18 to 2026-03-18",
+      "date_range": "2025-12-20 to 2026-03-20",
       "color": "#FF6B6B"
     }
   ]

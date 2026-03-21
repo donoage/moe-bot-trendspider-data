@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "OXY",
-    "generated_at": "2026-03-19T00:45:47.287799+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:46:15.666800+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 60.71,
+      "volume": 4515029,
+      "dollars": 274107410,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 57.5,
@@ -33,10 +46,10 @@
       "rank": 10
     },
     {
-      "price": 58.0,
-      "volume": 21221097,
-      "dollars": 1230714912,
-      "rank": 13
+      "price": 60.0,
+      "volume": 21152759,
+      "dollars": 1269215495,
+      "rank": 11
     }
   ],
   "boxes": [
@@ -47,7 +60,7 @@
       "volume": 1498610,
       "dollars": 80325496,
       "trades": 1,
-      "date_range": "2025-12-18 to 2026-03-18",
+      "date_range": "2025-12-20 to 2026-03-20",
       "color": "#FF6B6B"
     }
   ]

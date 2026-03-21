@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "UPS",
-    "generated_at": "2026-03-19T00:57:12.686161+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:52:18.203404+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1766116800,
-      "price": 101.92,
-      "volume": 4715530,
-      "dollars": 480606817,
-      "rank": 17,
+      "timestamp": 1773979200,
+      "price": 95.86,
+      "volume": 12491850,
+      "dollars": 1197468741,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773979200,
+      "price": 95.86,
+      "volume": 10929157,
+      "dollars": 1047668990,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,34 +34,34 @@
   ],
   "levels": [
     {
+      "price": 95.9,
+      "volume": 33045166,
+      "dollars": 3167781610,
+      "rank": 1
+    },
+    {
       "price": 115.1,
       "volume": 11832350,
       "dollars": 1361880030,
-      "rank": 6
+      "rank": 7
     },
     {
       "price": 101.9,
       "volume": 12795626,
       "dollars": 1304050192,
-      "rank": 7
+      "rank": 8
     },
     {
       "price": 99.3,
       "volume": 11586785,
       "dollars": 1150310551,
-      "rank": 10
+      "rank": 11
     },
     {
       "price": 119.0,
       "volume": 9514869,
       "dollars": 1132415897,
-      "rank": 11
-    },
-    {
-      "price": 116.8,
-      "volume": 8931490,
-      "dollars": 1043041494,
-      "rank": 14
+      "rank": 12
     }
   ],
   "boxes": []

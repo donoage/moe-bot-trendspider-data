@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "OKTA",
-    "generated_at": "2026-03-19T00:44:49.643403+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:45:14.177296+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1766116800,
-      "price": 90.21,
-      "volume": 3036068,
-      "dollars": 273883694,
-      "rank": 6,
+      "timestamp": 1773979200,
+      "price": 78.41,
+      "volume": 2490014,
+      "dollars": 195241997,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773979200,
+      "price": 78.41,
+      "volume": 1872155,
+      "dollars": 146795673,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -28,28 +40,28 @@
       "rank": 3
     },
     {
+      "price": 78.4,
+      "volume": 5762207,
+      "dollars": 451817706,
+      "rank": 7
+    },
+    {
       "price": 93.4,
       "volume": 4616290,
       "dollars": 431032720,
-      "rank": 7
+      "rank": 8
     },
     {
       "price": 83.2,
       "volume": 4473262,
       "dollars": 372090657,
-      "rank": 9
+      "rank": 10
     },
     {
       "price": 75.8,
       "volume": 4172138,
       "dollars": 316066097,
-      "rank": 10
-    },
-    {
-      "price": 93.6,
-      "volume": 3297951,
-      "dollars": 308705209,
-      "rank": 12
+      "rank": 11
     }
   ],
   "boxes": [
@@ -60,7 +72,7 @@
       "volume": 249300,
       "dollars": 18572850,
       "trades": 1,
-      "date_range": "2025-12-18 to 2026-03-18",
+      "date_range": "2025-12-20 to 2026-03-20",
       "color": "#FF6B6B"
     }
   ]

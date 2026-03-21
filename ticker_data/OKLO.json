@@ -1,18 +1,37 @@
 {
   "metadata": {
     "ticker": "OKLO",
-    "generated_at": "2026-03-19T00:44:49.643352+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:45:14.176112+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 53.97,
+      "volume": 3006362,
+      "dollars": 162253357,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 89.6,
       "volume": 12115704,
       "dollars": 1084962800,
       "rank": 1
+    },
+    {
+      "price": 55.3,
+      "volume": 16899069,
+      "dollars": 933849707,
+      "rank": 2
     },
     {
       "price": 76.6,
@@ -31,12 +50,6 @@
       "volume": 3479456,
       "dollars": 333434825,
       "rank": 13
-    },
-    {
-      "price": 97.6,
-      "volume": 1981821,
-      "dollars": 193398638,
-      "rank": 16
     }
   ],
   "boxes": []

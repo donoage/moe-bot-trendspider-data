@@ -1,18 +1,37 @@
 {
   "metadata": {
     "ticker": "AVGW",
-    "generated_at": "2026-03-19T00:34:13.490053+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:34:14.599180+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 37.17,
+      "volume": 179880,
+      "dollars": 6686139,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 49.8,
       "volume": 188277,
       "dollars": 9378077,
       "rank": 1
+    },
+    {
+      "price": 37.2,
+      "volume": 179880,
+      "dollars": 6686139,
+      "rank": 2
     }
   ],
   "boxes": []

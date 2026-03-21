@@ -1,24 +1,12 @@
 {
   "metadata": {
     "ticker": "NVMI",
-    "generated_at": "2026-03-19T00:44:49.640456+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:45:14.171418+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1766116800,
-      "price": 322.83,
-      "volume": 313049,
-      "dollars": 101061608,
-      "rank": 2,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1769745600,
       "price": 457.84,
@@ -92,11 +80,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1773979200,
+      "price": 465.3,
+      "volume": 101948,
+      "dollars": 47436404,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1767844800,
       "price": 375.79,
       "volume": 125521,
       "dollars": 47169536,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,7 +108,7 @@
       "price": 459.95,
       "volume": 101384,
       "dollars": 46631570,
-      "rank": 17,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -120,7 +120,7 @@
       "price": 462.06,
       "volume": 100000,
       "dollars": 46206000,
-      "rank": 18,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -129,12 +129,6 @@
     }
   ],
   "levels": [
-    {
-      "price": 322.8,
-      "volume": 313049,
-      "dollars": 101061608,
-      "rank": 4
-    },
     {
       "price": 457.8,
       "volume": 186816,
@@ -158,6 +152,12 @@
       "volume": 145141,
       "dollars": 61721210,
       "rank": 8
+    },
+    {
+      "price": 443.6,
+      "volume": 138748,
+      "dollars": 61541675,
+      "rank": 9
     }
   ],
   "boxes": []

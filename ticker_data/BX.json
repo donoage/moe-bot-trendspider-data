@@ -1,18 +1,42 @@
 {
   "metadata": {
     "ticker": "BX",
-    "generated_at": "2026-03-19T00:35:14.130319+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:35:14.353881+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1766116800,
-      "price": 151.59,
-      "volume": 3046536,
-      "dollars": 461824392,
-      "rank": 20,
+      "timestamp": 1773979200,
+      "price": 110.43,
+      "volume": 16720816,
+      "dollars": 1846479710,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773979200,
+      "price": 110.43,
+      "volume": 15298271,
+      "dollars": 1689388066,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773979200,
+      "price": 110.43,
+      "volume": 5910329,
+      "dollars": 652677631,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -28,28 +52,28 @@
       "rank": 1
     },
     {
+      "price": 110.4,
+      "volume": 43075196,
+      "dollars": 4756736992,
+      "rank": 2
+    },
+    {
       "price": 125.0,
       "volume": 21057442,
       "dollars": 2631591876,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 133.6,
       "volume": 10274242,
       "dollars": 1372918092,
-      "rank": 7
+      "rank": 8
     },
     {
       "price": 141.5,
       "volume": 9269912,
       "dollars": 1311236479,
-      "rank": 8
-    },
-    {
-      "price": 122.9,
-      "volume": 8513802,
-      "dollars": 1045993755,
-      "rank": 11
+      "rank": 9
     }
   ],
   "boxes": [
@@ -60,7 +84,7 @@
       "volume": 250000,
       "dollars": 27900000,
       "trades": 1,
-      "date_range": "2025-12-18 to 2026-03-18",
+      "date_range": "2025-12-20 to 2026-03-20",
       "color": "#FF6B6B"
     }
   ]

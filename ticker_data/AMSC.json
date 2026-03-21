@@ -1,41 +1,54 @@
 {
   "metadata": {
     "ticker": "AMSC",
-    "generated_at": "2026-03-19T00:33:17.054905+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:33:13.330025+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 28.74,
+      "volume": 513095,
+      "dollars": 14746350,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 28.7,
+      "volume": 982020,
+      "dollars": 28203174,
+      "rank": 6
+    },
     {
       "price": 26.4,
       "volume": 994412,
       "dollars": 26242003,
-      "rank": 7
+      "rank": 8
     },
     {
       "price": 31.2,
       "volume": 794762,
       "dollars": 24780835,
-      "rank": 8
+      "rank": 9
     },
     {
       "price": 29.8,
       "volume": 823726,
       "dollars": 24543652,
-      "rank": 9
+      "rank": 10
     },
     {
       "price": 31.5,
       "volume": 771918,
       "dollars": 24309602,
-      "rank": 10
-    },
-    {
-      "price": 29.0,
-      "volume": 829178,
-      "dollars": 24039041,
       "rank": 11
     }
   ],

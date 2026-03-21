@@ -1,17 +1,17 @@
 {
   "metadata": {
     "ticker": "NFLW",
-    "generated_at": "2026-03-19T00:43:52.942822+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:44:11.148978+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1766116800,
-      "price": 28.12,
-      "volume": 60129,
-      "dollars": 1690827,
+      "timestamp": 1773979200,
+      "price": 24.42,
+      "volume": 97833,
+      "dollars": 2389081,
       "rank": 2,
       "conditions": "",
       "exchange": "",
@@ -24,7 +24,7 @@
       "price": 25.0,
       "volume": 47774,
       "dollars": 1194350,
-      "rank": 3,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,16 +34,22 @@
   ],
   "levels": [
     {
+      "price": 24.4,
+      "volume": 97833,
+      "dollars": 2389081,
+      "rank": 2
+    },
+    {
       "price": 28.1,
       "volume": 60129,
       "dollars": 1690827,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 25.0,
       "volume": 47774,
       "dollars": 1194350,
-      "rank": 3
+      "rank": 4
     }
   ],
   "boxes": []

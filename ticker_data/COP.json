@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "COP",
-    "generated_at": "2026-03-19T00:36:23.810304+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:36:14.328465+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 126.92,
+      "volume": 19347335,
+      "dollars": 2455563758,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 101.9,
@@ -27,15 +40,15 @@
       "rank": 3
     },
     {
-      "price": 111.3,
-      "volume": 24014550,
-      "dollars": 2673643275,
+      "price": 126.9,
+      "volume": 21940828,
+      "dollars": 2784724732,
       "rank": 6
     },
     {
-      "price": 91.9,
-      "volume": 26838027,
-      "dollars": 2466875978,
+      "price": 111.3,
+      "volume": 24014550,
+      "dollars": 2673643275,
       "rank": 7
     }
   ],

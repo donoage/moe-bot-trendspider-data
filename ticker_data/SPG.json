@@ -1,18 +1,18 @@
 {
   "metadata": {
     "ticker": "SPG",
-    "generated_at": "2026-03-19T00:48:42.098031+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:49:11.246304+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1766116800,
-      "price": 184.93,
-      "volume": 1488209,
-      "dollars": 275214490,
-      "rank": 5,
+      "timestamp": 1773979200,
+      "price": 184.52,
+      "volume": 1077165,
+      "dollars": 198758485,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +24,7 @@
       "price": 191.31,
       "volume": 994131,
       "dollars": 190187201,
-      "rank": 18,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -64,5 +64,16 @@
       "rank": 15
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 187.5,
+      "low_price": 187.5,
+      "volume": 300000,
+      "dollars": 56250000,
+      "trades": 1,
+      "date_range": "2025-12-20 to 2026-03-20",
+      "color": "#FF6B6B"
+    }
+  ]
 }

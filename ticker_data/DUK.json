@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "DUK",
-    "generated_at": "2026-03-19T00:37:28.615955+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:37:21.528345+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 126.81,
+      "volume": 2645723,
+      "dollars": 335504133,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 117.7,
@@ -44,10 +57,10 @@
       "box_number": 1,
       "high_price": 121.15,
       "low_price": 117.2,
-      "volume": 654563,
-      "dollars": 77781728,
-      "trades": 3,
-      "date_range": "2025-12-18 to 2026-03-18",
+      "volume": 454963,
+      "dollars": 54308768,
+      "trades": 2,
+      "date_range": "2025-12-20 to 2026-03-20",
       "color": "#FF6B6B"
     }
   ]

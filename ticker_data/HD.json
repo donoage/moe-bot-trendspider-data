@@ -1,18 +1,18 @@
 {
   "metadata": {
     "ticker": "HD",
-    "generated_at": "2026-03-19T00:39:49.382448+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:39:46.461709+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1766116800,
-      "price": 345.0,
-      "volume": 4683707,
-      "dollars": 1615878915,
-      "rank": 6,
+      "timestamp": 1773979200,
+      "price": 320.75,
+      "volume": 3304593,
+      "dollars": 1059948204,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -21,6 +21,12 @@
     }
   ],
   "levels": [
+    {
+      "price": 324.0,
+      "volume": 12175932,
+      "dollars": 3944886727,
+      "rank": 1
+    },
     {
       "price": 373.2,
       "volume": 8021292,
@@ -44,12 +50,6 @@
       "volume": 6475211,
       "dollars": 2243985716,
       "rank": 10
-    },
-    {
-      "price": 388.0,
-      "volume": 5689144,
-      "dollars": 2207274124,
-      "rank": 11
     }
   ],
   "boxes": [
@@ -60,7 +60,7 @@
       "volume": 251760,
       "dollars": 94724700,
       "trades": 1,
-      "date_range": "2025-12-18 to 2026-03-18",
+      "date_range": "2025-12-20 to 2026-03-20",
       "color": "#FF6B6B"
     }
   ]

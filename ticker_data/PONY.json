@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "PONY",
-    "generated_at": "2026-03-19T00:45:47.304218+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:46:15.686173+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1773979200,
+      "price": 10.53,
+      "volume": 12864709,
+      "dollars": 135465385,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1773374400,
       "price": 11.55,
       "volume": 1000000,
       "dollars": 11550000,
-      "rank": 13,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,34 +34,34 @@
   ],
   "levels": [
     {
+      "price": 10.5,
+      "volume": 13183743,
+      "dollars": 138823385,
+      "rank": 1
+    },
+    {
       "price": 12.7,
       "volume": 8475065,
       "dollars": 107263522,
-      "rank": 1
+      "rank": 2
     },
     {
       "price": 15.0,
       "volume": 5575175,
       "dollars": 83577702,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 13.1,
       "volume": 4749851,
       "dollars": 62328304,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 14.8,
       "volume": 3745009,
       "dollars": 55450199,
-      "rank": 4
-    },
-    {
-      "price": 15.2,
-      "volume": 3237307,
-      "dollars": 49218451,
-      "rank": 7
+      "rank": 5
     }
   ],
   "boxes": []

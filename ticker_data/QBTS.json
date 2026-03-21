@@ -1,24 +1,12 @@
 {
   "metadata": {
     "ticker": "QBTS",
-    "generated_at": "2026-03-19T00:46:45.397739+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:47:13.179131+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1766116800,
-      "price": 26.82,
-      "volume": 4714823,
-      "dollars": 126451552,
-      "rank": 4,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1766376000,
       "price": 32.19,
@@ -32,11 +20,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1773979200,
+      "price": 15.73,
+      "volume": 5791441,
+      "dollars": 91099366,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1769054400,
       "price": 27.43,
       "volume": 3078709,
       "dollars": 84448987,
-      "rank": 13,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -52,15 +52,21 @@
       "rank": 1
     },
     {
-      "price": 26.8,
-      "volume": 12483093,
-      "dollars": 334580225,
+      "price": 15.7,
+      "volume": 26289585,
+      "dollars": 412420264,
       "rank": 2
     },
     {
+      "price": 26.8,
+      "volume": 12483093,
+      "dollars": 334580225,
+      "rank": 3
+    },
+    {
       "price": 16.0,
-      "volume": 16563880,
-      "dollars": 265031569,
+      "volume": 17563880,
+      "dollars": 281031569,
       "rank": 5
     },
     {
@@ -68,12 +74,6 @@
       "volume": 14484100,
       "dollars": 257692214,
       "rank": 6
-    },
-    {
-      "price": 16.3,
-      "volume": 14333522,
-      "dollars": 233836958,
-      "rank": 7
     }
   ],
   "boxes": []

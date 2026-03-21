@@ -1,24 +1,12 @@
 {
   "metadata": {
     "ticker": "AXP",
-    "generated_at": "2026-03-19T00:34:13.493481+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:34:14.603430+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1766116800,
-      "price": 376.51,
-      "volume": 2287474,
-      "dollars": 861256835,
-      "rank": 2,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1772164800,
       "price": 308.9,
@@ -32,11 +20,11 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1768449600,
-      "price": 357.37,
-      "volume": 997642,
-      "dollars": 356527321,
-      "rank": 20,
+      "timestamp": 1773979200,
+      "price": 295.5,
+      "volume": 1560304,
+      "dollars": 461069832,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -58,33 +46,33 @@
       "rank": 3
     },
     {
+      "price": 295.5,
+      "volume": 4212767,
+      "dollars": 1244901937,
+      "rank": 14
+    },
+    {
       "price": 298.7,
       "volume": 3258721,
       "dollars": 973217656,
-      "rank": 41
+      "rank": 42
     },
     {
       "price": 294.1,
       "volume": 2858945,
       "dollars": 840676202,
-      "rank": 54
-    },
-    {
-      "price": 298.6,
-      "volume": 2682886,
-      "dollars": 801082726,
-      "rank": 65
+      "rank": 55
     }
   ],
   "boxes": [
     {
       "box_number": 1,
       "high_price": 381.2,
-      "low_price": 350.35,
-      "volume": 517847,
-      "dollars": 187575403,
-      "trades": 3,
-      "date_range": "2025-12-18 to 2026-03-18",
+      "low_price": 294.75,
+      "volume": 721806,
+      "dollars": 247692318,
+      "trades": 4,
+      "date_range": "2025-12-20 to 2026-03-20",
       "color": "#FF6B6B"
     }
   ]

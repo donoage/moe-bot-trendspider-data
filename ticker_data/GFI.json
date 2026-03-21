@@ -1,18 +1,37 @@
 {
   "metadata": {
     "ticker": "GFI",
-    "generated_at": "2026-03-19T00:39:49.368628+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:39:46.447526+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 39.07,
+      "volume": 2151925,
+      "dollars": 84075709,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 39.1,
+      "volume": 2984960,
+      "dollars": 116652179,
+      "rank": 96
+    },
     {
       "price": 43.8,
       "volume": 2534957,
       "dollars": 110994760,
-      "rank": 96
+      "rank": 97
     },
     {
       "price": 45.2,
@@ -30,12 +49,6 @@
       "price": 58.5,
       "volume": 938872,
       "dollars": 54912270,
-      "rank": 0
-    },
-    {
-      "price": 52.2,
-      "volume": 997555,
-      "dollars": 52052265,
       "rank": 0
     }
   ],

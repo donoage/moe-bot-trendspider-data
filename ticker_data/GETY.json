@@ -1,30 +1,37 @@
 {
   "metadata": {
     "ticker": "GETY",
-    "generated_at": "2026-03-19T00:39:49.367183+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:39:46.446035+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 0.81,
+      "volume": 2294287,
+      "dollars": 1846901,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
-      "price": 1.4,
-      "volume": 3421661,
-      "dollars": 4735450,
-      "rank": 11
+      "price": 0.8,
+      "volume": 3607023,
+      "dollars": 2930555,
+      "rank": 15
     },
     {
       "price": 1.3,
       "volume": 1029347,
       "dollars": 1296977,
-      "rank": 24
-    },
-    {
-      "price": 0.8,
-      "volume": 694597,
-      "dollars": 567694,
-      "rank": 45
+      "rank": 25
     }
   ],
   "boxes": []

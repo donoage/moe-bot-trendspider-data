@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "FTNT",
-    "generated_at": "2026-03-19T00:38:39.050589+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:38:36.558734+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1766116800,
-      "price": 80.24,
-      "volume": 5802484,
-      "dollars": 465591316,
-      "rank": 11,
+      "timestamp": 1773979200,
+      "price": 81.4,
+      "volume": 6039683,
+      "dollars": 491630196,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773979200,
+      "price": 81.4,
+      "volume": 3574177,
+      "dollars": 290938007,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,21 +46,21 @@
       "rank": 6
     },
     {
+      "price": 81.4,
+      "volume": 11014773,
+      "dollars": 896602654,
+      "rank": 10
+    },
+    {
       "price": 79.8,
       "volume": 9533525,
       "dollars": 760497392,
-      "rank": 12
+      "rank": 13
     },
     {
       "price": 76.8,
       "volume": 9839752,
       "dollars": 755526680,
-      "rank": 13
-    },
-    {
-      "price": 78.2,
-      "volume": 9659774,
-      "dollars": 755042419,
       "rank": 14
     }
   ],

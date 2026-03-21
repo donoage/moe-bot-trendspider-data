@@ -1,17 +1,30 @@
 {
   "metadata": {
     "ticker": "KMX",
-    "generated_at": "2026-03-19T00:41:58.959345+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:42:07.618695+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 41.86,
+      "volume": 2454124,
+      "dollars": 102729630,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 41.9,
-      "volume": 34406520,
-      "dollars": 1440659901,
+      "volume": 38282359,
+      "dollars": 1602902538,
       "rank": 1
     },
     {

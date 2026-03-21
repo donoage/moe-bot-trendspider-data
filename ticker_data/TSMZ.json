@@ -1,19 +1,26 @@
 {
   "metadata": {
     "ticker": "TSMZ",
-    "generated_at": "2026-03-19T00:55:25.395822+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:51:04.484981+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [
+  "prints": [
     {
-      "price": 12.8,
-      "volume": 86468,
-      "dollars": 1110249,
-      "rank": 1
-    },
+      "timestamp": 1767585600,
+      "price": 11.2,
+      "volume": 93307,
+      "dollars": 1045038,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
     {
       "price": 11.2,
       "volume": 93307,

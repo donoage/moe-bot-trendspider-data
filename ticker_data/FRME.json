@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "FRME",
-    "generated_at": "2026-03-19T00:38:39.048702+00:00Z",
-    "date_range": "2025-12-18 to 2026-03-18",
+    "generated_at": "2026-03-21T00:38:36.557367+00:00Z",
+    "date_range": "2025-12-20 to 2026-03-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 36.56,
+      "volume": 424742,
+      "dollars": 15528567,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 40.3,
@@ -15,21 +28,21 @@
       "rank": 1
     },
     {
+      "price": 36.6,
+      "volume": 2383196,
+      "dollars": 87208924,
+      "rank": 2
+    },
+    {
       "price": 40.2,
       "volume": 2092181,
       "dollars": 84141706,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 38.7,
       "volume": 1763303,
       "dollars": 68192250,
-      "rank": 3
-    },
-    {
-      "price": 36.6,
-      "volume": 1823452,
-      "dollars": 66739283,
       "rank": 4
     },
     {
