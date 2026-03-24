@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "GLL",
-    "generated_at": "2026-03-21T00:39:46.450700+00:00Z",
-    "date_range": "2025-12-20 to 2026-03-20",
+    "generated_at": "2026-03-24T00:40:55.321157+00:00Z",
+    "date_range": "2025-12-23 to 2026-03-23",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1774238400,
+      "price": 22.17,
+      "volume": 524903,
+      "dollars": 11637099,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1771819200,
       "price": 16.63,
       "volume": 582804,
       "dollars": 9692030,
-      "rank": 1,
+      "rank": 2,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 18.93,
       "volume": 452998,
       "dollars": 8575252,
-      "rank": 7,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -40,28 +52,28 @@
       "rank": 3
     },
     {
+      "price": 22.2,
+      "volume": 524903,
+      "dollars": 11637099,
+      "rank": 4
+    },
+    {
       "price": 20.8,
       "volume": 504301,
       "dollars": 10478751,
-      "rank": 6
+      "rank": 7
+    },
+    {
+      "price": 23.1,
+      "volume": 426610,
+      "dollars": 9843577,
+      "rank": 8
     },
     {
       "price": 16.6,
       "volume": 582804,
       "dollars": 9692030,
-      "rank": 7
-    },
-    {
-      "price": 19.7,
-      "volume": 459439,
-      "dollars": 9046346,
       "rank": 9
-    },
-    {
-      "price": 19.3,
-      "volume": 389717,
-      "dollars": 7518516,
-      "rank": 18
     }
   ],
   "boxes": []
