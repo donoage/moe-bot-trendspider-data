@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "KGC",
-    "generated_at": "2026-03-24T00:42:47.535233+00:00Z",
-    "date_range": "2025-12-23 to 2026-03-23",
+    "generated_at": "2026-03-26T00:41:45.379535+00:00Z",
+    "date_range": "2025-12-25 to 2026-03-25",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -41,8 +41,8 @@
     },
     {
       "price": 27.8,
-      "volume": 6965084,
-      "dollars": 193696603,
+      "volume": 6984392,
+      "dollars": 194232496,
       "rank": 44
     },
     {
@@ -52,17 +52,28 @@
       "rank": 58
     },
     {
+      "price": 27.9,
+      "volume": 5777391,
+      "dollars": 161325600,
+      "rank": 59
+    },
+    {
       "price": 26.5,
       "volume": 5228159,
       "dollars": 138603441,
-      "rank": 75
-    },
-    {
-      "price": 37.9,
-      "volume": 2730798,
-      "dollars": 103423100,
-      "rank": 0
+      "rank": 76
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 27.92,
+      "low_price": 27.92,
+      "volume": 746200,
+      "dollars": 20833904,
+      "trades": 1,
+      "date_range": "2025-12-25 to 2026-03-25",
+      "color": "#FF6B6B"
+    }
+  ]
 }

@@ -1,13 +1,19 @@
 {
   "metadata": {
     "ticker": "LABU",
-    "generated_at": "2026-03-24T00:42:47.540254+00:00Z",
-    "date_range": "2025-12-23 to 2026-03-23",
+    "generated_at": "2026-03-26T00:41:45.386201+00:00Z",
+    "date_range": "2025-12-25 to 2026-03-25",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
   "levels": [
+    {
+      "price": 135.4,
+      "volume": 230276,
+      "dollars": 31174396,
+      "rank": 3
+    },
     {
       "price": 150.0,
       "volume": 151778,
@@ -31,12 +37,6 @@
       "volume": 71906,
       "dollars": 14036363,
       "rank": 28
-    },
-    {
-      "price": 140.0,
-      "volume": 98231,
-      "dollars": 13752725,
-      "rank": 30
     }
   ],
   "boxes": []
