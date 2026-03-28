@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "FND",
-    "generated_at": "2026-03-26T00:38:24.940014+00:00Z",
-    "date_range": "2025-12-25 to 2026-03-25",
+    "generated_at": "2026-03-28T00:41:18.367920+00:00Z",
+    "date_range": "2025-12-27 to 2026-03-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1774497600,
+      "price": 52.61,
+      "volume": 1067542,
+      "dollars": 56163384,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 72.5,
@@ -47,7 +60,7 @@
       "volume": 1184906,
       "dollars": 84223143,
       "trades": 3,
-      "date_range": "2025-12-25 to 2026-03-25",
+      "date_range": "2025-12-27 to 2026-03-27",
       "color": "#FF6B6B"
     }
   ]
