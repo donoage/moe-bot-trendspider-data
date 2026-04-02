@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "CDE",
-    "generated_at": "2026-03-31T00:36:26.896378+00:00Z",
-    "date_range": "2025-12-30 to 2026-03-30",
+    "generated_at": "2026-04-02T00:34:49.208842+00:00Z",
+    "date_range": "2026-01-01 to 2026-04-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -80,11 +80,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1774929600,
+      "price": 18.77,
+      "volume": 4763132,
+      "dollars": 89403987,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1774497600,
       "price": 16.07,
       "volume": 5441917,
       "dollars": 87441266,
-      "rank": 12,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -95,32 +107,32 @@
   "levels": [
     {
       "price": 17.9,
-      "volume": 84049796,
-      "dollars": 1503565132,
+      "volume": 84079753,
+      "dollars": 1504101363,
       "rank": 1
     },
     {
       "price": 18.3,
-      "volume": 77960615,
-      "dollars": 1426348578,
+      "volume": 78052759,
+      "dollars": 1428031893,
       "rank": 2
     },
     {
       "price": 17.4,
-      "volume": 32792653,
-      "dollars": 571179917,
+      "volume": 32924653,
+      "dollars": 573473736,
       "rank": 3
     },
     {
       "price": 17.7,
-      "volume": 28661629,
-      "dollars": 506504485,
+      "volume": 28690286,
+      "dollars": 507011284,
       "rank": 4
     },
     {
-      "price": 24.6,
-      "volume": 9332292,
-      "dollars": 229729313,
+      "price": 18.8,
+      "volume": 12594381,
+      "dollars": 236514838,
       "rank": 13
     }
   ],

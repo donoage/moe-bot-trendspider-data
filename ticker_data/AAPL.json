@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "AAPL",
-    "generated_at": "2026-03-31T00:33:13.323800+00:00Z",
-    "date_range": "2025-12-30 to 2026-03-30",
+    "generated_at": "2026-04-02T00:32:05.348022+00:00Z",
+    "date_range": "2026-01-01 to 2026-04-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 247.99,
+      "volume": 30247549,
+      "dollars": 7501089676,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1772164800,
+      "price": 264.18,
+      "volume": 21637668,
+      "dollars": 5716239132,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 273.7,
@@ -16,8 +41,8 @@
     },
     {
       "price": 254.5,
-      "volume": 94992235,
-      "dollars": 24174608153,
+      "volume": 95026693,
+      "dollars": 24183378372,
       "rank": 4
     },
     {
@@ -28,14 +53,14 @@
     },
     {
       "price": 248.0,
-      "volume": 69780110,
-      "dollars": 17304959563,
+      "volume": 69854470,
+      "dollars": 17323400660,
       "rank": 7
     },
     {
       "price": 255.5,
-      "volume": 53214390,
-      "dollars": 13596038164,
+      "volume": 53227423,
+      "dollars": 13599367444,
       "rank": 9
     }
   ],
@@ -47,7 +72,7 @@
       "volume": 1175488,
       "dollars": 304831567,
       "trades": 8,
-      "date_range": "2025-12-30 to 2026-03-30",
+      "date_range": "2026-01-01 to 2026-04-01",
       "color": "#FF6B6B"
     }
   ]

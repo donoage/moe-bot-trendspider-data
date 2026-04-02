@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "AMAT",
-    "generated_at": "2026-03-31T00:33:13.362863+00:00Z",
-    "date_range": "2025-12-30 to 2026-03-30",
+    "generated_at": "2026-04-02T00:32:05.381766+00:00Z",
+    "date_range": "2026-01-01 to 2026-04-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -56,11 +56,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1774929600,
+      "price": 341.79,
+      "volume": 2207369,
+      "dollars": 754456650,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1773028800,
       "price": 338.94,
       "volume": 2058413,
       "dollars": 697678502,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -69,12 +81,6 @@
     }
   ],
   "levels": [
-    {
-      "price": 256.4,
-      "volume": 18753014,
-      "dollars": 4808460109,
-      "rank": 1
-    },
     {
       "price": 357.1,
       "volume": 10177279,
@@ -98,6 +104,12 @@
       "volume": 3169252,
       "dollars": 1170451063,
       "rank": 61
+    },
+    {
+      "price": 322.3,
+      "volume": 3471323,
+      "dollars": 1118876829,
+      "rank": 71
     }
   ],
   "boxes": [
@@ -108,7 +120,7 @@
       "volume": 766507,
       "dollars": 246199832,
       "trades": 2,
-      "date_range": "2025-12-30 to 2026-03-30",
+      "date_range": "2026-01-01 to 2026-04-01",
       "color": "#FF6B6B"
     }
   ]

@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "MQQQ",
-    "generated_at": "2026-03-31T00:45:11.068889+00:00Z",
-    "date_range": "2025-12-30 to 2026-03-30",
+    "generated_at": "2026-04-02T00:43:12.414664+00:00Z",
+    "date_range": "2026-01-01 to 2026-04-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1775016000,
+      "price": 160.83,
+      "volume": 41395,
+      "dollars": 6657557,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1775016000,
+      "price": 160.83,
+      "volume": 41395,
+      "dollars": 6657557,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 176.9,
@@ -33,10 +58,10 @@
       "rank": 6
     },
     {
-      "price": 190.9,
-      "volume": 63797,
-      "dollars": 12181399,
-      "rank": 8
+      "price": 160.8,
+      "volume": 82790,
+      "dollars": 13315115,
+      "rank": 7
     }
   ],
   "boxes": []

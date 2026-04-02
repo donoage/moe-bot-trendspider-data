@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "YANG",
-    "generated_at": "2026-03-31T00:55:21.743797+00:00Z",
-    "date_range": "2025-12-30 to 2026-03-30",
+    "generated_at": "2026-04-02T00:52:20.340725+00:00Z",
+    "date_range": "2026-01-01 to 2026-04-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1775016000,
+      "price": 29.6,
+      "volume": 200906,
+      "dollars": 5946817,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 32.7,
@@ -21,22 +34,22 @@
       "rank": 7
     },
     {
+      "price": 29.6,
+      "volume": 200906,
+      "dollars": 5946817,
+      "rank": 14
+    },
+    {
       "price": 28.3,
       "volume": 113603,
       "dollars": 3209284,
-      "rank": 66
+      "rank": 67
     },
     {
       "price": 23.6,
       "volume": 129646,
       "dollars": 3058336,
-      "rank": 73
-    },
-    {
-      "price": 30.6,
-      "volume": 99138,
-      "dollars": 3034778,
-      "rank": 77
+      "rank": 74
     }
   ],
   "boxes": []

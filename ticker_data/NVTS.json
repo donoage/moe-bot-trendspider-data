@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "NVTS",
-    "generated_at": "2026-03-31T00:46:08.753959+00:00Z",
-    "date_range": "2025-12-30 to 2026-03-30",
+    "generated_at": "2026-04-02T00:44:09.284357+00:00Z",
+    "date_range": "2026-01-01 to 2026-04-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -30,13 +30,25 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1774929600,
+      "price": 8.77,
+      "volume": 2171662,
+      "dollars": 19045475,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
     {
       "price": 8.8,
-      "volume": 28475157,
-      "dollars": 249895762,
+      "volume": 30843248,
+      "dollars": 270663920,
       "rank": 1
     },
     {
@@ -52,15 +64,15 @@
       "rank": 4
     },
     {
+      "price": 8.2,
+      "volume": 11378742,
+      "dollars": 93178838,
+      "rank": 5
+    },
+    {
       "price": 7.2,
       "volume": 12657939,
       "dollars": 91126419,
-      "rank": 6
-    },
-    {
-      "price": 8.2,
-      "volume": 11053175,
-      "dollars": 90525467,
       "rank": 7
     }
   ],

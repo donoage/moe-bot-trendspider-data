@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "LRCX",
-    "generated_at": "2026-03-31T00:44:14.492987+00:00Z",
-    "date_range": "2025-12-30 to 2026-03-30",
+    "generated_at": "2026-04-02T00:42:12.671179+00:00Z",
+    "date_range": "2026-01-01 to 2026-04-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -104,11 +104,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1774929600,
+      "price": 213.66,
+      "volume": 2684276,
+      "dollars": 573522410,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1770004800,
       "price": 237.5,
       "volume": 2391890,
       "dollars": 568073875,
-      "rank": 18,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -117,12 +129,6 @@
     }
   ],
   "levels": [
-    {
-      "price": 172.3,
-      "volume": 24761821,
-      "dollars": 4265719329,
-      "rank": 1
-    },
     {
       "price": 228.4,
       "volume": 17785728,
@@ -146,6 +152,12 @@
       "volume": 5949194,
       "dollars": 1388884382,
       "rank": 17
+    },
+    {
+      "price": 231.0,
+      "volume": 4705657,
+      "dollars": 1087029902,
+      "rank": 39
     }
   ],
   "boxes": [
@@ -156,7 +168,7 @@
       "volume": 109072,
       "dollars": 24055829,
       "trades": 1,
-      "date_range": "2025-12-30 to 2026-03-30",
+      "date_range": "2026-01-01 to 2026-04-01",
       "color": "#FF6B6B"
     }
   ]
