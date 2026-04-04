@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "IHS",
-    "generated_at": "2026-04-02T00:40:11.623289+00:00Z",
-    "date_range": "2026-01-01 to 2026-04-01",
+    "generated_at": "2026-04-04T00:41:02.419129+00:00Z",
+    "date_range": "2026-01-03 to 2026-04-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -68,11 +68,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1775102400,
+      "price": 8.23,
+      "volume": 855508,
+      "dollars": 7040830,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1771473600,
       "price": 8.05,
       "volume": 718484,
       "dollars": 5783796,
-      "rank": 14,
+      "rank": 15,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -84,7 +96,7 @@
       "price": 8.0,
       "volume": 662310,
       "dollars": 5298480,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,7 +108,7 @@
       "price": 8.0,
       "volume": 570333,
       "dollars": 4562664,
-      "rank": 18,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 8.25,
       "volume": 550000,
       "dollars": 4537500,
-      "rank": 19,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1774411200,
-      "price": 8.25,
-      "volume": 536200,
-      "dollars": 4423650,
       "rank": 20,
       "conditions": "",
       "exchange": "",
@@ -143,14 +143,14 @@
     },
     {
       "price": 8.2,
-      "volume": 5460091,
-      "dollars": 44777558,
+      "volume": 6315599,
+      "dollars": 51818388,
       "rank": 3
     },
     {
       "price": 8.3,
-      "volume": 5137253,
-      "dollars": 42514134,
+      "volume": 5206842,
+      "dollars": 43091026,
       "rank": 4
     },
     {
@@ -168,7 +168,7 @@
       "volume": 2500000,
       "dollars": 20200000,
       "trades": 1,
-      "date_range": "2026-01-01 to 2026-04-01",
+      "date_range": "2026-01-03 to 2026-04-03",
       "color": "#FF6B6B"
     }
   ]

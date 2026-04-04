@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "ETON",
-    "generated_at": "2026-04-02T00:37:59.161010+00:00Z",
-    "date_range": "2026-01-01 to 2026-04-01",
+    "generated_at": "2026-04-04T00:38:48.197823+00:00Z",
+    "date_range": "2026-01-03 to 2026-04-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1775102400,
+      "price": 24.99,
+      "volume": 131928,
+      "dollars": 3296880,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1773979200,
       "price": 22.32,
       "volume": 127624,
       "dollars": 2848567,
-      "rank": 6,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 15.46,
       "volume": 153044,
       "dollars": 2366060,
-      "rank": 11,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 15.41,
       "volume": 105080,
       "dollars": 1619282,
-      "rank": 19,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -58,21 +70,21 @@
       "rank": 6
     },
     {
+      "price": 25.0,
+      "volume": 131928,
+      "dollars": 3296880,
+      "rank": 7
+    },
+    {
       "price": 14.4,
       "volume": 222868,
       "dollars": 3207567,
-      "rank": 7
+      "rank": 8
     },
     {
       "price": 17.1,
       "volume": 186388,
       "dollars": 3190214,
-      "rank": 8
-    },
-    {
-      "price": 23.8,
-      "volume": 122388,
-      "dollars": 2915905,
       "rank": 9
     }
   ],
