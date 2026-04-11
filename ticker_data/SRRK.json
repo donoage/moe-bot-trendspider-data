@@ -1,73 +1,12 @@
 {
   "metadata": {
     "ticker": "SRRK",
-    "generated_at": "2026-04-09T00:51:17.486472+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:46:54.608748+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1772596800,
-      "price": 43.75,
-      "volume": 2284814,
-      "dollars": 99960612,
-      "rank": 1,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1773979200,
-      "price": 44.64,
-      "volume": 685938,
-      "dollars": 30620272,
-      "rank": 12,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1774929600,
-      "price": 49.16,
-      "volume": 489444,
-      "dollars": 24061067,
-      "rank": 14,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1769054400,
-      "price": 47.76,
-      "volume": 458233,
-      "dollars": 21885208,
-      "rank": 18,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1771560000,
-      "price": 47.5,
-      "volume": 450186,
-      "dollars": 21383835,
-      "rank": 20,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 43.8,
@@ -100,16 +39,5 @@
       "rank": 7
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 43.75,
-      "low_price": 43.75,
-      "volume": 2284814,
-      "dollars": 99960612,
-      "trades": 1,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

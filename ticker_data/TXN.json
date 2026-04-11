@@ -1,37 +1,18 @@
 {
   "metadata": {
     "ticker": "TXN",
-    "generated_at": "2026-04-09T00:52:28.381321+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:47:48.161536+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1773979200,
-      "price": 187.19,
-      "volume": 7277787,
-      "dollars": 1362328948,
-      "rank": 2,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 192.4,
       "volume": 12666650,
       "dollars": 2436966168,
       "rank": 6
-    },
-    {
-      "price": 184.3,
-      "volume": 13069366,
-      "dollars": 2408865218,
-      "rank": 7
     },
     {
       "price": 198.2,
@@ -50,18 +31,13 @@
       "volume": 11898616,
       "dollars": 2250186237,
       "rank": 11
+    },
+    {
+      "price": 193.3,
+      "volume": 11398538,
+      "dollars": 2203429777,
+      "rank": 13
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 215.86,
-      "low_price": 194.66,
-      "volume": 619978,
-      "dollars": 128632556,
-      "trades": 4,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

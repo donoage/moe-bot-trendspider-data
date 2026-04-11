@@ -1,37 +1,12 @@
 {
   "metadata": {
     "ticker": "GWRE",
-    "generated_at": "2026-04-09T00:41:03.485132+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:38:12.349990+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1773979200,
-      "price": 155.61,
-      "volume": 970792,
-      "dollars": 151064943,
-      "rank": 6,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1772596800,
-      "price": 153.79,
-      "volume": 749794,
-      "dollars": 115310819,
-      "rank": 12,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 122.5,
@@ -40,28 +15,28 @@
       "rank": 2
     },
     {
+      "price": 124.3,
+      "volume": 1654570,
+      "dollars": 205663051,
+      "rank": 9
+    },
+    {
       "price": 155.6,
       "volume": 1074280,
       "dollars": 167166250,
-      "rank": 14
+      "rank": 15
+    },
+    {
+      "price": 118.0,
+      "volume": 1312043,
+      "dollars": 154782870,
+      "rank": 17
     },
     {
       "price": 153.8,
       "volume": 956444,
       "dollars": 147091522,
-      "rank": 17
-    },
-    {
-      "price": 137.9,
-      "volume": 1024531,
-      "dollars": 141271945,
       "rank": 19
-    },
-    {
-      "price": 174.5,
-      "volume": 729385,
-      "dollars": 127293831,
-      "rank": 23
     }
   ],
   "boxes": []

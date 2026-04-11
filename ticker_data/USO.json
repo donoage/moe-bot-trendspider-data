@@ -1,32 +1,13 @@
 {
   "metadata": {
     "ticker": "USO",
-    "generated_at": "2026-04-09T00:53:32.756016+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:48:38.428247+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1773115200,
-      "price": 103.33,
-      "volume": 800000,
-      "dollars": 82660000,
-      "rank": 12,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
-    {
-      "price": 70.3,
-      "volume": 6394401,
-      "dollars": 449497483,
-      "rank": 1
-    },
     {
       "price": 81.5,
       "volume": 5252850,
@@ -50,18 +31,13 @@
       "volume": 4798732,
       "dollars": 356040344,
       "rank": 5
+    },
+    {
+      "price": 72.7,
+      "volume": 4811942,
+      "dollars": 349846837,
+      "rank": 6
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 79.83,
-      "low_price": 79.83,
-      "volume": 293255,
-      "dollars": 23410546,
-      "trades": 1,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

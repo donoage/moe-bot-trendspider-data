@@ -1,25 +1,12 @@
 {
   "metadata": {
     "ticker": "QCOM",
-    "generated_at": "2026-04-09T00:47:59.393934+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:44:23.260352+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1773979200,
-      "price": 129.9,
-      "volume": 28371216,
-      "dollars": 3685420958,
-      "rank": 1,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 129.9,
@@ -52,16 +39,5 @@
       "rank": 6
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 141.55,
-      "low_price": 137.2,
-      "volume": 1675297,
-      "dollars": 230960228,
-      "trades": 3,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

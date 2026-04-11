@@ -1,37 +1,12 @@
 {
   "metadata": {
     "ticker": "AVGO",
-    "generated_at": "2026-04-09T00:35:38.313552+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:33:14.728271+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1773979200,
-      "price": 310.51,
-      "volume": 16833299,
-      "dollars": 5226907672,
-      "rank": 5,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1773720000,
-      "price": 322.79,
-      "volume": 8188722,
-      "dollars": 2643221196,
-      "rank": 18,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 340.4,
@@ -46,6 +21,12 @@
       "rank": 5
     },
     {
+      "price": 359.9,
+      "volume": 22772070,
+      "dollars": 8195603644,
+      "rank": 6
+    },
+    {
       "price": 344.9,
       "volume": 19804308,
       "dollars": 6831293065,
@@ -56,24 +37,7 @@
       "volume": 15551785,
       "dollars": 5130396419,
       "rank": 15
-    },
-    {
-      "price": 324.9,
-      "volume": 14838287,
-      "dollars": 4820914331,
-      "rank": 17
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 333.7,
-      "low_price": 318.4,
-      "volume": 1676900,
-      "dollars": 547568809,
-      "trades": 18,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

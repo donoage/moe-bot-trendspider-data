@@ -1,37 +1,12 @@
 {
   "metadata": {
     "ticker": "OPFI",
-    "generated_at": "2026-04-09T00:45:49.508876+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:42:40.686478+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1769054400,
-      "price": 9.97,
-      "volume": 247749,
-      "dollars": 2470057,
-      "rank": 8,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1773979200,
-      "price": 7.96,
-      "volume": 281212,
-      "dollars": 2238447,
-      "rank": 12,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 9.8,
@@ -52,16 +27,16 @@
       "rank": 6
     },
     {
-      "price": 10.4,
-      "volume": 586525,
-      "dollars": 6092810,
-      "rank": 7
-    },
-    {
       "price": 9.5,
       "volume": 552979,
       "dollars": 5244275,
       "rank": 9
+    },
+    {
+      "price": 9.9,
+      "volume": 483550,
+      "dollars": 4780818,
+      "rank": 13
     }
   ],
   "boxes": []

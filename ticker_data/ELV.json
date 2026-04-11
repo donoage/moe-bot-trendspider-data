@@ -1,37 +1,12 @@
 {
   "metadata": {
     "ticker": "ELV",
-    "generated_at": "2026-04-09T00:39:01.154862+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:36:24.444405+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1772164800,
-      "price": 320.0,
-      "volume": 1309774,
-      "dollars": 419127680,
-      "rank": 9,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1772683200,
-      "price": 286.48,
-      "volume": 1120665,
-      "dollars": 321048109,
-      "rank": 15,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 340.7,
@@ -64,16 +39,5 @@
       "rank": 19
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 335.0,
-      "low_price": 333.0,
-      "volume": 181993,
-      "dollars": 60767655,
-      "trades": 2,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

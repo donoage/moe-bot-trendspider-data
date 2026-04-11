@@ -1,48 +1,17 @@
 {
   "metadata": {
     "ticker": "AKAM",
-    "generated_at": "2026-04-09T00:33:17.837022+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:30:53.768080+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1773979200,
-      "price": 110.48,
-      "volume": 4295937,
-      "dollars": 474615119,
-      "rank": 2,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1773979200,
-      "price": 110.48,
-      "volume": 1697703,
-      "dollars": 187562227,
-      "rank": 11,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
-      "price": 88.3,
-      "volume": 16643451,
-      "dollars": 1470174706,
-      "rank": 1
-    },
-    {
       "price": 110.5,
-      "volume": 8081420,
-      "dollars": 892868369,
+      "volume": 8094020,
+      "dollars": 894261047,
       "rank": 3
     },
     {
@@ -52,28 +21,23 @@
       "rank": 5
     },
     {
-      "price": 89.4,
-      "volume": 6351871,
-      "dollars": 567781172,
+      "price": 91.5,
+      "volume": 6358054,
+      "dollars": 581772907,
       "rank": 6
     },
     {
-      "price": 91.5,
-      "volume": 6124954,
-      "dollars": 560444863,
+      "price": 89.4,
+      "volume": 6351871,
+      "dollars": 567781172,
       "rank": 7
+    },
+    {
+      "price": 88.9,
+      "volume": 6185477,
+      "dollars": 549892997,
+      "rank": 8
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 98.43,
-      "low_price": 98.43,
-      "volume": 249600,
-      "dollars": 24566880,
-      "trades": 1,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

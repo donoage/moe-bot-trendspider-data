@@ -1,25 +1,12 @@
 {
   "metadata": {
     "ticker": "QQQM",
-    "generated_at": "2026-04-09T00:47:59.402939+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:44:23.262598+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1767844800,
-      "price": 255.15,
-      "volume": 1210000,
-      "dollars": 308735009,
-      "rank": 7,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 231.9,
@@ -52,16 +39,5 @@
       "rank": 26
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 257.2,
-      "low_price": 231.23,
-      "volume": 3688154,
-      "dollars": 927344220,
-      "trades": 15,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

@@ -1,37 +1,12 @@
 {
   "metadata": {
     "ticker": "DDOG",
-    "generated_at": "2026-04-09T00:39:01.125093+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:36:24.432205+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1773979200,
-      "price": 125.08,
-      "volume": 4601657,
-      "dollars": 575575257,
-      "rank": 7,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1773979200,
-      "price": 125.08,
-      "volume": 1845969,
-      "dollars": 230893802,
-      "rank": 19,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 138.8,
@@ -64,16 +39,5 @@
       "rank": 7
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 123.4,
-      "low_price": 109.65,
-      "volume": 699165,
-      "dollars": 83041985,
-      "trades": 3,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

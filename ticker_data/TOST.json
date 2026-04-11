@@ -1,25 +1,12 @@
 {
   "metadata": {
     "ticker": "TOST",
-    "generated_at": "2026-04-09T00:51:17.510486+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:46:54.616434+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1770177600,
-      "price": 28.32,
-      "volume": 3002282,
-      "dollars": 85024626,
-      "rank": 19,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 35.7,
@@ -52,16 +39,5 @@
       "rank": 9
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 31.5,
-      "low_price": 30.14,
-      "volume": 2810544,
-      "dollars": 87084076,
-      "trades": 3,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

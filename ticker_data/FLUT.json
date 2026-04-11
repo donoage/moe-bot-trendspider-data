@@ -1,49 +1,12 @@
 {
   "metadata": {
     "ticker": "FLUT",
-    "generated_at": "2026-04-09T00:40:00.375449+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:37:16.194601+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1770609600,
-      "price": 154.51,
-      "volume": 8234400,
-      "dollars": 1272297144,
-      "rank": 3,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1770609600,
-      "price": 154.51,
-      "volume": 7801310,
-      "dollars": 1205380408,
-      "rank": 4,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1772164800,
-      "price": 106.14,
-      "volume": 5500000,
-      "dollars": 583770000,
-      "rank": 11,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 154.5,
@@ -70,22 +33,11 @@
       "rank": 9
     },
     {
-      "price": 220.2,
-      "volume": 2942418,
-      "dollars": 647891575,
-      "rank": 13
+      "price": 181.2,
+      "volume": 2704604,
+      "dollars": 490060078,
+      "rank": 17
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 206.7,
-      "low_price": 201.3,
-      "volume": 424840,
-      "dollars": 86060076,
-      "trades": 2,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

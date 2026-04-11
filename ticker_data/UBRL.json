@@ -1,37 +1,12 @@
 {
   "metadata": {
     "ticker": "UBRL",
-    "generated_at": "2026-04-09T00:52:28.384130+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:47:48.163526+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1770696000,
-      "price": 17.35,
-      "volume": 32921,
-      "dollars": 571212,
-      "rank": 14,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1771905600,
-      "price": 15.33,
-      "volume": 36844,
-      "dollars": 564818,
-      "rank": 15,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 21.8,
@@ -46,22 +21,22 @@
       "rank": 3
     },
     {
-      "price": 23.5,
-      "volume": 34855,
-      "dollars": 819092,
-      "rank": 7
-    },
-    {
-      "price": 24.4,
-      "volume": 30412,
-      "dollars": 741444,
-      "rank": 10
-    },
-    {
       "price": 17.4,
       "volume": 32921,
       "dollars": 571212,
       "rank": 14
+    },
+    {
+      "price": 15.3,
+      "volume": 36844,
+      "dollars": 564818,
+      "rank": 15
+    },
+    {
+      "price": 21.9,
+      "volume": 25000,
+      "dollars": 547512,
+      "rank": 16
     }
   ],
   "boxes": []

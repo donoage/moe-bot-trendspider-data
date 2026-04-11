@@ -1,44 +1,13 @@
 {
   "metadata": {
     "ticker": "CVX",
-    "generated_at": "2026-04-09T00:38:01.293055+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:35:14.262986+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1773979200,
-      "price": 201.73,
-      "volume": 17079995,
-      "dollars": 3445547391,
-      "rank": 2,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
-    {
-      "price": 156.5,
-      "volume": 43079995,
-      "dollars": 6740567108,
-      "rank": 1
-    },
-    {
-      "price": 155.3,
-      "volume": 31438236,
-      "dollars": 4881954599,
-      "rank": 2
-    },
-    {
-      "price": 156.2,
-      "volume": 27492089,
-      "dollars": 4294588719,
-      "rank": 5
-    },
     {
       "price": 201.7,
       "volume": 19548308,
@@ -46,22 +15,29 @@
       "rank": 6
     },
     {
-      "price": 155.6,
-      "volume": 22912108,
-      "dollars": 3564393937,
-      "rank": 8
+      "price": 168.7,
+      "volume": 16212414,
+      "dollars": 2735330514,
+      "rank": 14
+    },
+    {
+      "price": 166.5,
+      "volume": 15998316,
+      "dollars": 2663721362,
+      "rank": 18
+    },
+    {
+      "price": 164.8,
+      "volume": 16092418,
+      "dollars": 2651366795,
+      "rank": 19
+    },
+    {
+      "price": 160.8,
+      "volume": 15109488,
+      "dollars": 2429538690,
+      "rank": 27
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 175.29,
-      "low_price": 167.1,
-      "volume": 359000,
-      "dollars": 61215762,
-      "trades": 2,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

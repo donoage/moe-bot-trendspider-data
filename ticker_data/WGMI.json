@@ -1,114 +1,41 @@
 {
   "metadata": {
     "ticker": "WGMI",
-    "generated_at": "2026-04-09T00:53:32.773031+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:48:38.475594+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1772596800,
-      "price": 41.55,
-      "volume": 237714,
-      "dollars": 9877016,
-      "rank": 1,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1770004800,
-      "price": 45.39,
-      "volume": 100000,
-      "dollars": 4539000,
-      "rank": 4,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1770004800,
-      "price": 45.5,
-      "volume": 89992,
-      "dollars": 4094636,
-      "rank": 7,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1773633600,
-      "price": 40.53,
-      "volume": 98600,
-      "dollars": 3996258,
-      "rank": 8,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1770264000,
-      "price": 35.85,
-      "volume": 97299,
-      "dollars": 3488169,
-      "rank": 12,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1770264000,
-      "price": 36.45,
-      "volume": 90088,
-      "dollars": 3283707,
-      "rank": 15,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
+    {
+      "price": 41.4,
+      "volume": 242424,
+      "dollars": 10041202,
+      "rank": 1
+    },
     {
       "price": 41.6,
       "volume": 237714,
       "dollars": 9877016,
-      "rank": 1
+      "rank": 2
     },
     {
       "price": 45.4,
       "volume": 214338,
       "dollars": 9728639,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 45.5,
       "volume": 188608,
       "dollars": 8581664,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 45.8,
       "volume": 176424,
       "dollars": 8087276,
-      "rank": 4
-    },
-    {
-      "price": 43.6,
-      "volume": 178888,
-      "dollars": 7804204,
       "rank": 5
     }
   ],

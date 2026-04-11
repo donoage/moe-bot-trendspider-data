@@ -1,37 +1,12 @@
 {
   "metadata": {
     "ticker": "UNH",
-    "generated_at": "2026-04-09T00:52:28.387937+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:47:48.166929+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1773979200,
-      "price": 275.59,
-      "volume": 14523983,
-      "dollars": 4002664474,
-      "rank": 1,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1773979200,
-      "price": 275.59,
-      "volume": 12025176,
-      "dollars": 3314018253,
-      "rank": 2,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 275.6,
@@ -64,16 +39,5 @@
       "rank": 18
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 284.7,
-      "low_price": 276.49,
-      "volume": 329280,
-      "dollars": 92271171,
-      "trades": 2,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

@@ -1,32 +1,13 @@
 {
   "metadata": {
     "ticker": "WDAY",
-    "generated_at": "2026-04-09T00:53:32.771228+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:48:38.475045+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1773979200,
-      "price": 135.96,
-      "volume": 3937388,
-      "dollars": 535327272,
-      "rank": 5,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
-    {
-      "price": 212.0,
-      "volume": 3441354,
-      "dollars": 729520332,
-      "rank": 8
-    },
     {
       "price": 136.0,
       "volume": 5214237,
@@ -46,22 +27,17 @@
       "rank": 17
     },
     {
-      "price": 211.5,
-      "volume": 2397733,
-      "dollars": 507016000,
-      "rank": 21
+      "price": 183.6,
+      "volume": 2140707,
+      "dollars": 392954548,
+      "rank": 50
+    },
+    {
+      "price": 139.4,
+      "volume": 2671026,
+      "dollars": 372288345,
+      "rank": 61
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 192.0,
-      "low_price": 130.0,
-      "volume": 575938,
-      "dollars": 94000578,
-      "trades": 4,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

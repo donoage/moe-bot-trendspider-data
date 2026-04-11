@@ -1,49 +1,12 @@
 {
   "metadata": {
     "ticker": "SOXX",
-    "generated_at": "2026-04-09T00:50:11.704789+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:46:02.189448+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1771819200,
-      "price": 357.02,
-      "volume": 864073,
-      "dollars": 308492206,
-      "rank": 6,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1771819200,
-      "price": 357.02,
-      "volume": 864040,
-      "dollars": 308480424,
-      "rank": 7,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1770004800,
-      "price": 352.69,
-      "volume": 556388,
-      "dollars": 196232483,
-      "rank": 16,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 357.0,
@@ -76,16 +39,5 @@
       "rank": 22
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 366.59,
-      "low_price": 325.05,
-      "volume": 694475,
-      "dollars": 237082213,
-      "trades": 8,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

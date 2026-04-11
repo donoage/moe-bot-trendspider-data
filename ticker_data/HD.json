@@ -1,25 +1,12 @@
 {
   "metadata": {
     "ticker": "HD",
-    "generated_at": "2026-04-09T00:41:03.486150+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:38:12.394337+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1773979200,
-      "price": 320.75,
-      "volume": 3304593,
-      "dollars": 1059948204,
-      "rank": 16,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 324.0,
@@ -52,16 +39,5 @@
       "rank": 10
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 376.25,
-      "low_price": 376.25,
-      "volume": 251760,
-      "dollars": 94724700,
-      "trades": 1,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

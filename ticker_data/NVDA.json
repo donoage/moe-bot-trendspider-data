@@ -1,54 +1,17 @@
 {
   "metadata": {
     "ticker": "NVDA",
-    "generated_at": "2026-04-09T00:45:49.493228+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:42:40.677926+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1772164800,
-      "price": 177.19,
-      "volume": 37274253,
-      "dollars": 6604624889,
-      "rank": 9,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1773979200,
-      "price": 172.7,
-      "volume": 31613745,
-      "dollars": 5459693761,
-      "rank": 15,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1774929600,
-      "price": 174.4,
-      "volume": 29409331,
-      "dollars": 5128987326,
-      "rank": 19,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 181.0,
-      "volume": 131734055,
-      "dollars": 23842612206,
+      "volume": 131764055,
+      "dollars": 23848042206,
       "rank": 2
     },
     {
@@ -59,8 +22,8 @@
     },
     {
       "price": 183.2,
-      "volume": 87214250,
-      "dollars": 15976453918,
+      "volume": 87999990,
+      "dollars": 16120425905,
       "rank": 6
     },
     {
@@ -71,21 +34,10 @@
     },
     {
       "price": 185.0,
-      "volume": 77404954,
-      "dollars": 14320030759,
+      "volume": 77438307,
+      "dollars": 14326200830,
       "rank": 10
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 185.95,
-      "low_price": 185.15,
-      "volume": 517870,
-      "dollars": 96123341,
-      "trades": 2,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

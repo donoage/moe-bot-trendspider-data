@@ -1,30 +1,17 @@
 {
   "metadata": {
     "ticker": "VZ",
-    "generated_at": "2026-04-09T00:53:32.769203+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:48:38.474753+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1773979200,
-      "price": 49.98,
-      "volume": 23716182,
-      "dollars": 1185334776,
-      "rank": 5,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 46.2,
-      "volume": 502625183,
-      "dollars": 23234066979,
+      "volume": 502951345,
+      "dollars": 23249136099,
       "rank": 1
     },
     {
@@ -52,16 +39,5 @@
       "rank": 5
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 50.85,
-      "low_price": 39.15,
-      "volume": 4781610,
-      "dollars": 224866670,
-      "trades": 7,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

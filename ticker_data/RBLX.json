@@ -1,25 +1,12 @@
 {
   "metadata": {
     "ticker": "RBLX",
-    "generated_at": "2026-04-09T00:47:59.407513+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:44:23.264913+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1770091200,
-      "price": 65.4,
-      "volume": 3421229,
-      "dollars": 223748376,
-      "rank": 15,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 64.5,
@@ -52,16 +39,5 @@
       "rank": 10
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 75.61,
-      "low_price": 57.48,
-      "volume": 1560217,
-      "dollars": 95418364,
-      "trades": 4,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

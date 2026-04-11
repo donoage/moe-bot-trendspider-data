@@ -1,31 +1,24 @@
 {
   "metadata": {
     "ticker": "DLLL",
-    "generated_at": "2026-04-09T00:39:01.135746+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:36:24.437807+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1774843200,
-      "price": 38.4,
-      "volume": 15360,
-      "dollars": 589824,
-      "rank": 1,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 38.4,
       "volume": 15360,
       "dollars": 589824,
       "rank": 1
+    },
+    {
+      "price": 42.2,
+      "volume": 13203,
+      "dollars": 556902,
+      "rank": 2
     }
   ],
   "boxes": []

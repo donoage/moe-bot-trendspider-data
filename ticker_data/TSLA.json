@@ -1,37 +1,12 @@
 {
   "metadata": {
     "ticker": "TSLA",
-    "generated_at": "2026-04-09T00:52:28.369055+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:47:48.152799+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1770696000,
-      "price": 425.21,
-      "volume": 10498886,
-      "dollars": 4464231316,
-      "rank": 9,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1774929600,
-      "price": 371.75,
-      "volume": 7178187,
-      "dollars": 2668491017,
-      "rank": 20,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 421.1,
@@ -64,16 +39,5 @@
       "rank": 11
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 426.14,
-      "low_price": 426.14,
-      "volume": 48899,
-      "dollars": 20837658,
-      "trades": 1,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

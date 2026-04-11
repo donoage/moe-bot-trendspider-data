@@ -1,25 +1,12 @@
 {
   "metadata": {
     "ticker": "AMGN",
-    "generated_at": "2026-04-09T00:33:17.875737+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:30:53.796110+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1773979200,
-      "price": 347.8,
-      "volume": 3983704,
-      "dollars": 1385532251,
-      "rank": 4,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 327.4,
@@ -52,16 +39,5 @@
       "rank": 0
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 331.4,
-      "low_price": 331.4,
-      "volume": 273527,
-      "dollars": 90646847,
-      "trades": 1,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

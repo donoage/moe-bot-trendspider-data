@@ -1,25 +1,12 @@
 {
   "metadata": {
     "ticker": "PG",
-    "generated_at": "2026-04-09T00:46:44.371938+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:43:31.417654+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1773979200,
-      "price": 144.28,
-      "volume": 19264538,
-      "dollars": 2779487542,
-      "rank": 1,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 144.3,
@@ -52,16 +39,5 @@
       "rank": 22
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 160.6,
-      "low_price": 142.1,
-      "volume": 1412360,
-      "dollars": 212404801,
-      "trades": 7,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

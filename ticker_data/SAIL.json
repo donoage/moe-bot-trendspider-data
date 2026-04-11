@@ -1,37 +1,12 @@
 {
   "metadata": {
     "ticker": "SAIL",
-    "generated_at": "2026-04-09T00:49:03.528861+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:45:13.536692+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1771560000,
-      "price": 15.25,
-      "volume": 2251661,
-      "dollars": 34337830,
-      "rank": 8,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1767844800,
-      "price": 19.55,
-      "volume": 700311,
-      "dollars": 13689819,
-      "rank": 20,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 18.6,
@@ -52,28 +27,17 @@
       "rank": 11
     },
     {
-      "price": 19.9,
-      "volume": 2398982,
-      "dollars": 47743844,
-      "rank": 13
-    },
-    {
       "price": 15.3,
       "volume": 3068406,
       "dollars": 46831807,
       "rank": 15
+    },
+    {
+      "price": 12.3,
+      "volume": 3167741,
+      "dollars": 38916123,
+      "rank": 17
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 15.25,
-      "low_price": 15.25,
-      "volume": 2251661,
-      "dollars": 34337830,
-      "trades": 1,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

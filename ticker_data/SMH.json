@@ -1,37 +1,12 @@
 {
   "metadata": {
     "ticker": "SMH",
-    "generated_at": "2026-04-09T00:50:11.680141+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:46:02.183071+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1773115200,
-      "price": 401.99,
-      "volume": 1522886,
-      "dollars": 612184943,
-      "rank": 1,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1774584000,
-      "price": 374.7,
-      "volume": 750000,
-      "dollars": 281028000,
-      "rank": 11,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 402.0,
@@ -64,16 +39,5 @@
       "rank": 0
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 425.58,
-      "low_price": 362.91,
-      "volume": 4221170,
-      "dollars": 1681039518,
-      "trades": 21,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

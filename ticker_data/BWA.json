@@ -1,25 +1,12 @@
 {
   "metadata": {
     "ticker": "BWA",
-    "generated_at": "2026-04-09T00:36:43.465826+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:34:14.417288+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1773979200,
-      "price": 52.23,
-      "volume": 3015581,
-      "dollars": 157503795,
-      "rank": 11,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 52.2,
@@ -52,16 +39,5 @@
       "rank": 97
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 57.37,
-      "low_price": 57.37,
-      "volume": 588609,
-      "dollars": 33768498,
-      "trades": 1,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

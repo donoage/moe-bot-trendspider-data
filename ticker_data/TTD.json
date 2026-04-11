@@ -1,25 +1,12 @@
 {
   "metadata": {
     "ticker": "TTD",
-    "generated_at": "2026-04-09T00:52:28.379640+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:47:48.156908+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1774929600,
-      "price": 22.69,
-      "volume": 16646062,
-      "dollars": 377699146,
-      "rank": 12,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 37.3,
@@ -52,16 +39,5 @@
       "rank": 16
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 25.7,
-      "low_price": 25.25,
-      "volume": 4488400,
-      "dollars": 114510405,
-      "trades": 4,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

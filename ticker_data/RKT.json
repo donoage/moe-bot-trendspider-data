@@ -1,49 +1,12 @@
 {
   "metadata": {
     "ticker": "RKT",
-    "generated_at": "2026-04-09T00:49:03.520017+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:45:13.534077+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1770264000,
-      "price": 19.2,
-      "volume": 7700000,
-      "dollars": 147840000,
-      "rank": 8,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1772596800,
-      "price": 16.63,
-      "volume": 7663604,
-      "dollars": 127445734,
-      "rank": 10,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1770091200,
-      "price": 20.35,
-      "volume": 4046444,
-      "dollars": 82345135,
-      "rank": 18,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 17.8,
@@ -76,16 +39,5 @@
       "rank": 5
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 23.7,
-      "low_price": 14.92,
-      "volume": 4921697,
-      "dollars": 88592728,
-      "trades": 4,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

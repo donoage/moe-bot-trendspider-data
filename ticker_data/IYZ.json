@@ -1,25 +1,12 @@
 {
   "metadata": {
     "ticker": "IYZ",
-    "generated_at": "2026-04-09T00:43:00.980203+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:39:53.843394+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1773806400,
-      "price": 39.38,
-      "volume": 1898035,
-      "dollars": 74744618,
-      "rank": 15,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 34.1,
@@ -52,16 +39,5 @@
       "rank": 63
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 39.38,
-      "low_price": 37.04,
-      "volume": 4025067,
-      "dollars": 155280025,
-      "trades": 3,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

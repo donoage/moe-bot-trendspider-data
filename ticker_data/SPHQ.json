@@ -1,25 +1,12 @@
 {
   "metadata": {
     "ticker": "SPHQ",
-    "generated_at": "2026-04-09T00:50:11.707109+00:00Z",
-    "date_range": "2026-01-08 to 2026-04-08",
+    "generated_at": "2026-04-11T00:46:02.190431+00:00Z",
+    "date_range": "2026-01-10 to 2026-04-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1768190400,
-      "price": 77.47,
-      "volume": 2925809,
-      "dollars": 226662423,
-      "rank": 3,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 77.5,
@@ -52,16 +39,5 @@
       "rank": 17
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 77.04,
-      "low_price": 74.85,
-      "volume": 2750236,
-      "dollars": 209386262,
-      "trades": 5,
-      "date_range": "2026-01-08 to 2026-04-08",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }
