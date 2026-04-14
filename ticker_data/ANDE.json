@@ -1,30 +1,31 @@
 {
   "metadata": {
     "ticker": "ANDE",
-    "generated_at": "2026-04-11T00:32:19.641586+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:33:57.199140+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 66.44,
+      "volume": 718653,
+      "dollars": 47747305,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 66.4,
       "volume": 734481,
       "dollars": 48798917,
       "rank": 15
-    },
-    {
-      "price": 54.5,
-      "volume": 465409,
-      "dollars": 25367784,
-      "rank": 47
-    },
-    {
-      "price": 54.7,
-      "volume": 457943,
-      "dollars": 25062925,
-      "rank": 49
     },
     {
       "price": 58.4,
@@ -37,6 +38,18 @@
       "volume": 335242,
       "dollars": 19453419,
       "rank": 75
+    },
+    {
+      "price": 57.6,
+      "volume": 326128,
+      "dollars": 18777537,
+      "rank": 83
+    },
+    {
+      "price": 56.1,
+      "volume": 321099,
+      "dollars": 18001970,
+      "rank": 91
     }
   ],
   "boxes": []

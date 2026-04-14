@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "TPB",
-    "generated_at": "2026-04-11T00:46:54.616522+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:50:45.316345+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 84.91,
+      "volume": 358517,
+      "dollars": 30441678,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1768449600,
+      "price": 118.01,
+      "volume": 114593,
+      "dollars": 13523119,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 102.2,

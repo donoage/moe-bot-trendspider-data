@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "SOFI",
-    "generated_at": "2026-04-11T00:46:02.186853+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:49:37.076340+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 16.9,
+      "volume": 11869559,
+      "dollars": 200595547,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 25.6,
@@ -21,12 +34,6 @@
       "rank": 2
     },
     {
-      "price": 27.9,
-      "volume": 29547757,
-      "dollars": 823691590,
-      "rank": 3
-    },
-    {
       "price": 26.4,
       "volume": 31029465,
       "dollars": 818920457,
@@ -37,6 +44,12 @@
       "volume": 53547161,
       "dollars": 807954772,
       "rank": 5
+    },
+    {
+      "price": 26.6,
+      "volume": 29143954,
+      "dollars": 774567944,
+      "rank": 8
     }
   ],
   "boxes": []

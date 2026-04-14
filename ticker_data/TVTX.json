@@ -1,25 +1,26 @@
 {
   "metadata": {
     "ticker": "TVTX",
-    "generated_at": "2026-04-11T00:47:48.158588+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:51:47.700437+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 26.84,
+      "volume": 761230,
+      "dollars": 20431413,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
-    {
-      "price": 34.5,
-      "volume": 4665462,
-      "dollars": 161011361,
-      "rank": 1
-    },
-    {
-      "price": 21.2,
-      "volume": 4691104,
-      "dollars": 99400473,
-      "rank": 3
-    },
     {
       "price": 22.5,
       "volume": 4261674,
@@ -37,6 +38,18 @@
       "volume": 3319994,
       "dollars": 92260040,
       "rank": 7
+    },
+    {
+      "price": 24.6,
+      "volume": 3148041,
+      "dollars": 77467389,
+      "rank": 10
+    },
+    {
+      "price": 26.8,
+      "volume": 2803661,
+      "dollars": 75147064,
+      "rank": 14
     }
   ],
   "boxes": []

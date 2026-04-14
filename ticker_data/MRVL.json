@@ -1,12 +1,49 @@
 {
   "metadata": {
     "ticker": "MRVL",
-    "generated_at": "2026-04-11T00:41:50.537677+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:44:52.850906+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 87.91,
+      "volume": 10235642,
+      "dollars": 899815288,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1774929600,
+      "price": 99.05,
+      "volume": 5411239,
+      "dollars": 535983222,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1775620800,
+      "price": 114.45,
+      "volume": 3741633,
+      "dollars": 428229896,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 73.5,
@@ -39,5 +76,16 @@
       "rank": 7
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 129.23,
+      "low_price": 98.0,
+      "volume": 1065514,
+      "dollars": 129584300,
+      "trades": 3,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

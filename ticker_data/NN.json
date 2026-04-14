@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "NN",
-    "generated_at": "2026-04-11T00:42:40.673763+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:45:50.006725+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 17.95,
+      "volume": 394182,
+      "dollars": 7075566,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 17.1,
@@ -16,8 +29,8 @@
     },
     {
       "price": 15.6,
-      "volume": 2641075,
-      "dollars": 41163734,
+      "volume": 2808366,
+      "dollars": 43768455,
       "rank": 4
     },
     {

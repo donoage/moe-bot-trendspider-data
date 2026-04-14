@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "MRK",
-    "generated_at": "2026-04-11T00:41:50.536972+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:44:52.850720+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 114.18,
+      "volume": 17214164,
+      "dollars": 1965513245,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 123.8,
@@ -39,5 +52,16 @@
       "rank": 55
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 122.05,
+      "low_price": 114.62,
+      "volume": 2213907,
+      "dollars": 263330161,
+      "trades": 5,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

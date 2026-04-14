@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "ARQQ",
-    "generated_at": "2026-04-11T00:32:19.645076+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:33:57.208360+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1771560000,
+      "price": 15.85,
+      "volume": 144564,
+      "dollars": 2291339,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 27.5,

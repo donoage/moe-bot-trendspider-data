@@ -1,19 +1,26 @@
 {
   "metadata": {
     "ticker": "AMLX",
-    "generated_at": "2026-04-11T00:30:53.796143+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:32:56.964408+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [
+  "prints": [
     {
-      "price": 12.0,
-      "volume": 4124821,
-      "dollars": 49557052,
-      "rank": 5
-    },
+      "timestamp": 1774324800,
+      "price": 13.66,
+      "volume": 790914,
+      "dollars": 10803885,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
     {
       "price": 14.0,
       "volume": 2513956,
@@ -37,6 +44,12 @@
       "volume": 2788452,
       "dollars": 34856095,
       "rank": 13
+    },
+    {
+      "price": 15.8,
+      "volume": 2108537,
+      "dollars": 33258573,
+      "rank": 14
     }
   ],
   "boxes": []

@@ -1,19 +1,38 @@
 {
   "metadata": {
     "ticker": "EVLV",
-    "generated_at": "2026-04-11T00:37:16.190361+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:40:06.332861+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [
+  "prints": [
     {
-      "price": 7.2,
-      "volume": 8880844,
-      "dollars": 63944453,
-      "rank": 1
+      "timestamp": 1775620800,
+      "price": 6.11,
+      "volume": 1678734,
+      "dollars": 10257064,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     },
+    {
+      "timestamp": 1774324800,
+      "price": 5.7,
+      "volume": 1355800,
+      "dollars": 7728060,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
     {
       "price": 7.0,
       "volume": 8337411,
@@ -37,6 +56,12 @@
       "volume": 7015484,
       "dollars": 39967847,
       "rank": 6
+    },
+    {
+      "price": 6.0,
+      "volume": 6175275,
+      "dollars": 36949728,
+      "rank": 8
     }
   ],
   "boxes": []

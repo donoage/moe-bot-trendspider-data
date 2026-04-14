@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "MDLZ",
-    "generated_at": "2026-04-11T00:40:53.857521+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:43:51.005851+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 56.21,
+      "volume": 8158043,
+      "dollars": 458563597,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 54.5,
@@ -39,5 +52,16 @@
       "rank": 25
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 60.0,
+      "low_price": 56.49,
+      "volume": 1225916,
+      "dollars": 71980023,
+      "trades": 3,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

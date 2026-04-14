@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "UAL",
-    "generated_at": "2026-04-11T00:47:48.162950+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:51:47.701648+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 89.95,
+      "volume": 2361842,
+      "dollars": 212447687,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1770091200,
+      "price": 110.86,
+      "volume": 1533223,
+      "dollars": 169973101,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 106.3,
@@ -22,8 +47,8 @@
     },
     {
       "price": 93.8,
-      "volume": 7073729,
-      "dollars": 663579102,
+      "volume": 7083729,
+      "dollars": 664517101,
       "rank": 9
     },
     {
@@ -39,5 +64,16 @@
       "rank": 18
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 102.75,
+      "low_price": 102.75,
+      "volume": 299065,
+      "dollars": 30728928,
+      "trades": 1,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

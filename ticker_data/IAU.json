@@ -1,12 +1,49 @@
 {
   "metadata": {
     "ticker": "IAU",
-    "generated_at": "2026-04-11T00:39:01.960584+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:41:58.806510+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773288000,
+      "price": 96.06,
+      "volume": 10507900,
+      "dollars": 1009339486,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773288000,
+      "price": 96.19,
+      "volume": 3101276,
+      "dollars": 298311738,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773979200,
+      "price": 85.92,
+      "volume": 2999131,
+      "dollars": 257685335,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 96.1,
@@ -39,5 +76,16 @@
       "rank": 0
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 100.91,
+      "low_price": 82.71,
+      "volume": 29967198,
+      "dollars": 2744761658,
+      "trades": 37,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

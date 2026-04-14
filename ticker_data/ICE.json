@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "ICE",
-    "generated_at": "2026-04-11T00:39:01.968778+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:41:58.807418+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 158.43,
+      "volume": 1591633,
+      "dollars": 252162416,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 157.0,
@@ -39,5 +52,16 @@
       "rank": 9
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 166.3,
+      "low_price": 158.1,
+      "volume": 551098,
+      "dollars": 90317221,
+      "trades": 3,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

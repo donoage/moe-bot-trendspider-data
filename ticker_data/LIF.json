@@ -1,17 +1,42 @@
 {
   "metadata": {
     "ticker": "LIF",
-    "generated_at": "2026-04-11T00:40:53.797064+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:43:50.983595+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 39.83,
+      "volume": 9174747,
+      "dollars": 365430173,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773979200,
+      "price": 39.83,
+      "volume": 718600,
+      "dollars": 28621838,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 39.8,
-      "volume": 11521812,
-      "dollars": 458905331,
+      "volume": 11540712,
+      "dollars": 459657646,
       "rank": 2
     },
     {

@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "FSLR",
-    "generated_at": "2026-04-11T00:37:16.196658+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:40:06.344765+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 192.82,
+      "volume": 1558261,
+      "dollars": 300463886,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 192.8,
@@ -39,5 +52,16 @@
       "rank": 19
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 221.16,
+      "low_price": 221.16,
+      "volume": 252211,
+      "dollars": 55778404,
+      "trades": 1,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

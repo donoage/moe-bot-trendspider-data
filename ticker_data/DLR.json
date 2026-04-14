@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "DLR",
-    "generated_at": "2026-04-11T00:36:24.438552+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:38:57.379051+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -27,17 +27,28 @@
       "rank": 10
     },
     {
-      "price": 156.3,
-      "volume": 3711947,
-      "dollars": 580243959,
-      "rank": 14
-    },
-    {
       "price": 178.6,
       "volume": 2601083,
       "dollars": 464477554,
       "rank": 29
+    },
+    {
+      "price": 176.8,
+      "volume": 2464866,
+      "dollars": 435812332,
+      "rank": 37
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 183.3,
+      "low_price": 163.64,
+      "volume": 957418,
+      "dollars": 168529205,
+      "trades": 4,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

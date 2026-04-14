@@ -1,17 +1,30 @@
 {
   "metadata": {
     "ticker": "LYFT",
-    "generated_at": "2026-04-11T00:40:53.847620+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:43:51.002668+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 13.47,
+      "volume": 48784057,
+      "dollars": 657121247,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 13.5,
-      "volume": 103805318,
-      "dollars": 1398994266,
+      "volume": 103937900,
+      "dollars": 1400783352,
       "rank": 1
     },
     {
@@ -22,20 +35,20 @@
     },
     {
       "price": 13.4,
-      "volume": 42040744,
-      "dollars": 563340195,
+      "volume": 42251244,
+      "dollars": 566163000,
       "rank": 4
+    },
+    {
+      "price": 13.6,
+      "volume": 41056038,
+      "dollars": 557641488,
+      "rank": 5
     },
     {
       "price": 16.8,
       "volume": 32397475,
       "dollars": 544079449,
-      "rank": 5
-    },
-    {
-      "price": 13.8,
-      "volume": 39106269,
-      "dollars": 539346190,
       "rank": 6
     }
   ],

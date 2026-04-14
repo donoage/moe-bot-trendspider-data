@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "ZTS",
-    "generated_at": "2026-04-11T00:49:13.582464+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:53:34.424752+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 115.67,
+      "volume": 5712664,
+      "dollars": 660783844,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1768536000,
+      "price": 124.65,
+      "volume": 2312288,
+      "dollars": 288226699,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 121.0,
@@ -39,5 +64,16 @@
       "rank": 26
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 128.35,
+      "low_price": 128.35,
+      "volume": 484804,
+      "dollars": 62224593,
+      "trades": 1,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

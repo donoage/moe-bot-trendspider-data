@@ -1,25 +1,38 @@
 {
   "metadata": {
     "ticker": "JBL",
-    "generated_at": "2026-04-11T00:39:53.843527+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:42:56.225199+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 253.63,
+      "volume": 811060,
+      "dollars": 205709147,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1772164800,
+      "price": 264.99,
+      "volume": 420945,
+      "dollars": 111546215,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
-    {
-      "price": 224.3,
-      "volume": 1785587,
-      "dollars": 400578601,
-      "rank": 7
-    },
-    {
-      "price": 226.6,
-      "volume": 1211186,
-      "dollars": 274478976,
-      "rank": 15
-    },
     {
       "price": 253.6,
       "volume": 942401,
@@ -37,6 +50,18 @@
       "volume": 593457,
       "dollars": 143507702,
       "rank": 95
+    },
+    {
+      "price": 265.0,
+      "volume": 531507,
+      "dollars": 140844310,
+      "rank": 0
+    },
+    {
+      "price": 247.5,
+      "volume": 452615,
+      "dollars": 112006999,
+      "rank": 0
     }
   ],
   "boxes": []

@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "TECS",
-    "generated_at": "2026-04-11T00:46:54.612150+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:50:45.309154+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1770609600,
+      "price": 18.17,
+      "volume": 724832,
+      "dollars": 13170197,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1770004800,
+      "price": 17.37,
+      "volume": 657280,
+      "dollars": 11416953,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 18.4,

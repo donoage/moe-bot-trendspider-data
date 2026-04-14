@@ -1,12 +1,49 @@
 {
   "metadata": {
     "ticker": "MAGS",
-    "generated_at": "2026-04-11T00:40:53.854359+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:43:51.004004+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1775102400,
+      "price": 58.27,
+      "volume": 1409364,
+      "dollars": 82123640,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1769140800,
+      "price": 65.62,
+      "volume": 1158224,
+      "dollars": 76002658,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1770955200,
+      "price": 61.15,
+      "volume": 847978,
+      "dollars": 51853854,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 65.7,
@@ -39,5 +76,16 @@
       "rank": 6
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 65.26,
+      "low_price": 61.5,
+      "volume": 1277704,
+      "dollars": 81179165,
+      "trades": 4,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "BMNU",
-    "generated_at": "2026-04-11T00:33:14.737682+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:34:55.549926+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1768276800,
+      "price": 6.1,
+      "volume": 890101,
+      "dollars": 5429616,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773633600,
+      "price": 2.47,
+      "volume": 800000,
+      "dollars": 1976240,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 2.1,

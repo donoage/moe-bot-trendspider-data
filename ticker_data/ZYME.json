@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "ZYME",
-    "generated_at": "2026-04-11T00:49:13.582515+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:53:34.424919+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1775620800,
+      "price": 26.71,
+      "volume": 463819,
+      "dollars": 12388605,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1768449600,
+      "price": 24.29,
+      "volume": 500000,
+      "dollars": 12145000,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 19.7,

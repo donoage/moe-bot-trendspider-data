@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "MAR",
-    "generated_at": "2026-04-11T00:40:53.854914+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:43:51.004579+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 319.76,
+      "volume": 1181018,
+      "dollars": 377642315,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 319.8,
@@ -39,5 +52,16 @@
       "rank": 90
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 321.9,
+      "low_price": 321.9,
+      "volume": 64090,
+      "dollars": 20630571,
+      "trades": 1,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

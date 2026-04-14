@@ -1,25 +1,26 @@
 {
   "metadata": {
     "ticker": "TEMT",
-    "generated_at": "2026-04-11T00:46:54.612748+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:50:45.309661+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1768881600,
+      "price": 44.55,
+      "volume": 11416,
+      "dollars": 508657,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
-    {
-      "price": 53.1,
-      "volume": 32463,
-      "dollars": 1723980,
-      "rank": 1
-    },
-    {
-      "price": 51.6,
-      "volume": 12510,
-      "dollars": 645602,
-      "rank": 6
-    },
     {
       "price": 45.9,
       "volume": 12771,

@@ -1,12 +1,49 @@
 {
   "metadata": {
     "ticker": "NVOX",
-    "generated_at": "2026-04-11T00:42:40.680249+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:45:50.020587+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1769400000,
+      "price": 32.87,
+      "volume": 30690,
+      "dollars": 1008780,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1768881600,
+      "price": 30.61,
+      "volume": 32223,
+      "dollars": 986346,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1768449600,
+      "price": 26.74,
+      "volume": 35932,
+      "dollars": 960821,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 20.9,

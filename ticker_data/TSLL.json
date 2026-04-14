@@ -1,17 +1,30 @@
 {
   "metadata": {
     "ticker": "TSLL",
-    "generated_at": "2026-04-11T00:47:48.153148+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:51:47.687681+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1775707200,
+      "price": 10.45,
+      "volume": 2099087,
+      "dollars": 21935459,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 10.7,
-      "volume": 36059388,
-      "dollars": 385579624,
+      "volume": 36440165,
+      "dollars": 389644996,
       "rank": 1
     },
     {
@@ -34,8 +47,8 @@
     },
     {
       "price": 10.5,
-      "volume": 32646869,
-      "dollars": 342551884,
+      "volume": 32796869,
+      "dollars": 344126374,
       "rank": 5
     }
   ],

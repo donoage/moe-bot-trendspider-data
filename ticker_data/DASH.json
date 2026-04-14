@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "DASH",
-    "generated_at": "2026-04-11T00:35:14.264161+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:37:52.554794+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 156.64,
+      "volume": 2138680,
+      "dollars": 335002835,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 190.6,
@@ -39,5 +52,16 @@
       "rank": 12
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 211.1,
+      "low_price": 181.45,
+      "volume": 472839,
+      "dollars": 96113620,
+      "trades": 2,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

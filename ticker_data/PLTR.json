@@ -1,17 +1,66 @@
 {
   "metadata": {
     "ticker": "PLTR",
-    "generated_at": "2026-04-11T00:43:31.426745+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:46:42.835993+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1772164800,
+      "price": 137.19,
+      "volume": 9231722,
+      "dollars": 1266499941,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773979200,
+      "price": 150.68,
+      "volume": 7948100,
+      "dollars": 1197619708,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1770177600,
+      "price": 139.54,
+      "volume": 7231029,
+      "dollars": 1009017786,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1768536000,
+      "price": 170.96,
+      "volume": 5188365,
+      "dollars": 887002880,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 130.7,
-      "volume": 71975755,
-      "dollars": 9409831057,
+      "volume": 71991055,
+      "dollars": 9411830921,
       "rank": 3
     },
     {
@@ -28,8 +77,8 @@
     },
     {
       "price": 131.8,
-      "volume": 22532963,
-      "dollars": 2969411109,
+      "volume": 22553241,
+      "dollars": 2972083352,
       "rank": 7
     },
     {
@@ -39,5 +88,16 @@
       "rank": 10
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 142.1,
+      "low_price": 142.1,
+      "volume": 129859,
+      "dollars": 18453509,
+      "trades": 1,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

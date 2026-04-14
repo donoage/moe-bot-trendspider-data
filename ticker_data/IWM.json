@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "IWM",
-    "generated_at": "2026-04-11T00:39:53.842974+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:42:56.223316+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1771819200,
+      "price": 259.27,
+      "volume": 3684332,
+      "dollars": 955228652,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1775620800,
+      "price": 252.76,
+      "volume": 3553257,
+      "dollars": 898138650,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 242.9,
@@ -39,5 +64,16 @@
       "rank": 0
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 267.89,
+      "low_price": 242.82,
+      "volume": 9846974,
+      "dollars": 2545194825,
+      "trades": 52,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

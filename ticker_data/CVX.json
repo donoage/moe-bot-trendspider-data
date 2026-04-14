@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "CVX",
-    "generated_at": "2026-04-11T00:35:14.262986+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:37:52.551478+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 201.73,
+      "volume": 17079995,
+      "dollars": 3445547391,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 201.7,
@@ -33,11 +46,22 @@
       "rank": 19
     },
     {
-      "price": 160.8,
-      "volume": 15109488,
-      "dollars": 2429538690,
-      "rank": 27
+      "price": 166.7,
+      "volume": 12676808,
+      "dollars": 2113300706,
+      "rank": 44
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 175.29,
+      "low_price": 167.1,
+      "volume": 359000,
+      "dollars": 61215762,
+      "trades": 2,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

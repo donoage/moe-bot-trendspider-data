@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "CMG",
-    "generated_at": "2026-04-11T00:34:14.427716+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:36:46.420015+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 33.37,
+      "volume": 7443116,
+      "dollars": 248376780,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 37.6,
@@ -39,5 +52,16 @@
       "rank": 13
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 41.39,
+      "low_price": 33.35,
+      "volume": 4005192,
+      "dollars": 149939125,
+      "trades": 6,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

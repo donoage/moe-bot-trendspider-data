@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "LLY",
-    "generated_at": "2026-04-11T00:40:53.798439+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:43:50.986179+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1772164800,
+      "price": 1051.99,
+      "volume": 1246852,
+      "dollars": 1311675835,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773979200,
+      "price": 906.7,
+      "volume": 1383296,
+      "dollars": 1254234483,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 921.5,
@@ -39,5 +64,16 @@
       "rank": 20
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 998.96,
+      "low_price": 920.5,
+      "volume": 314127,
+      "dollars": 294893061,
+      "trades": 3,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

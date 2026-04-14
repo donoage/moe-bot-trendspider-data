@@ -1,18 +1,37 @@
 {
   "metadata": {
     "ticker": "TSSI",
-    "generated_at": "2026-04-11T00:47:48.156479+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:51:47.696982+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1774843200,
+      "price": 11.82,
+      "volume": 290437,
+      "dollars": 3432965,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 10.1,
       "volume": 620298,
       "dollars": 6240197,
       "rank": 4
+    },
+    {
+      "price": 14.4,
+      "volume": 298808,
+      "dollars": 4307559,
+      "rank": 13
     },
     {
       "price": 11.8,
@@ -31,12 +50,6 @@
       "volume": 429569,
       "dollars": 4031745,
       "rank": 20
-    },
-    {
-      "price": 13.0,
-      "volume": 306366,
-      "dollars": 3985327,
-      "rank": 22
     }
   ],
   "boxes": []

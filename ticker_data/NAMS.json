@@ -1,12 +1,49 @@
 {
   "metadata": {
     "ticker": "NAMS",
-    "generated_at": "2026-04-11T00:41:50.544645+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:44:52.869324+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1772424000,
+      "price": 33.25,
+      "volume": 443707,
+      "dollars": 14753257,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1768449600,
+      "price": 31.83,
+      "volume": 357987,
+      "dollars": 11394726,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1775620800,
+      "price": 34.01,
+      "volume": 331626,
+      "dollars": 11278600,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 30.0,
@@ -21,22 +58,22 @@
       "rank": 7
     },
     {
-      "price": 33.3,
-      "volume": 636496,
-      "dollars": 21170343,
+      "price": 36.0,
+      "volume": 614012,
+      "dollars": 22104099,
       "rank": 12
     },
     {
-      "price": 36.0,
-      "volume": 561818,
-      "dollars": 20225115,
-      "rank": 15
+      "price": 33.3,
+      "volume": 636496,
+      "dollars": 21170343,
+      "rank": 13
     },
     {
       "price": 35.5,
-      "volume": 556475,
-      "dollars": 19742668,
-      "rank": 17
+      "volume": 574175,
+      "dollars": 20371018,
+      "rank": 16
     }
   ],
   "boxes": []

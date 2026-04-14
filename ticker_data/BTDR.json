@@ -1,17 +1,66 @@
 {
   "metadata": {
     "ticker": "BTDR",
-    "generated_at": "2026-04-11T00:34:14.413822+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:36:46.400523+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1771300800,
+      "price": 9.48,
+      "volume": 3506255,
+      "dollars": 33239297,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773979200,
+      "price": 8.11,
+      "volume": 3967809,
+      "dollars": 32178930,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1771819200,
+      "price": 8.02,
+      "volume": 3466000,
+      "dollars": 27797320,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1771560000,
+      "price": 7.78,
+      "volume": 2760455,
+      "dollars": 21476339,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 11.1,
-      "volume": 15487034,
-      "dollars": 171783718,
+      "volume": 15587834,
+      "dollars": 172897558,
       "rank": 1
     },
     {
@@ -33,9 +82,9 @@
       "rank": 5
     },
     {
-      "price": 10.0,
-      "volume": 9162680,
-      "dollars": 91660259,
+      "price": 11.0,
+      "volume": 8777398,
+      "dollars": 96524260,
       "rank": 6
     }
   ],

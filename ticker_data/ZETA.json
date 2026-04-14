@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "ZETA",
-    "generated_at": "2026-04-11T00:49:13.581367+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:53:34.422398+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 16.95,
+      "volume": 2910718,
+      "dollars": 49336670,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1769486400,
+      "price": 21.12,
+      "volume": 1196813,
+      "dollars": 25276690,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 18.0,
@@ -34,9 +59,9 @@
     },
     {
       "price": 15.6,
-      "volume": 7223687,
-      "dollars": 112705398,
-      "rank": 6
+      "volume": 7561747,
+      "dollars": 117989276,
+      "rank": 5
     }
   ],
   "boxes": []

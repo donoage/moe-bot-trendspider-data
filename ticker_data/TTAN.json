@@ -1,30 +1,31 @@
 {
   "metadata": {
     "ticker": "TTAN",
-    "generated_at": "2026-04-11T00:47:48.156874+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:51:47.697654+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [
+  "prints": [
     {
-      "price": 108.0,
-      "volume": 1008213,
-      "dollars": 108858391,
-      "rank": 3
-    },
+      "timestamp": 1772164800,
+      "price": 72.39,
+      "volume": 571037,
+      "dollars": 41337368,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
     {
       "price": 101.0,
       "volume": 1013718,
       "dollars": 102379758,
       "rank": 4
-    },
-    {
-      "price": 108.6,
-      "volume": 822975,
-      "dollars": 89404792,
-      "rank": 6
     },
     {
       "price": 102.0,
@@ -37,6 +38,18 @@
       "volume": 804410,
       "dollars": 75989586,
       "rank": 8
+    },
+    {
+      "price": 103.0,
+      "volume": 732359,
+      "dollars": 75430421,
+      "rank": 9
+    },
+    {
+      "price": 92.0,
+      "volume": 766875,
+      "dollars": 70555638,
+      "rank": 11
     }
   ],
   "boxes": []

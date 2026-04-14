@@ -1,12 +1,49 @@
 {
   "metadata": {
     "ticker": "KRMN",
-    "generated_at": "2026-04-11T00:39:53.852518+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:42:56.254171+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 99.38,
+      "volume": 1272811,
+      "dollars": 126491957,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1769572800,
+      "price": 115.29,
+      "volume": 1066223,
+      "dollars": 122924849,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1768536000,
+      "price": 108.5,
+      "volume": 809280,
+      "dollars": 87806880,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 99.4,
@@ -34,8 +71,8 @@
     },
     {
       "price": 88.1,
-      "volume": 962507,
-      "dollars": 84805376,
+      "volume": 978257,
+      "dollars": 86192252,
       "rank": 13
     }
   ],

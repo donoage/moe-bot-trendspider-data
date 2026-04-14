@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "TTWO",
-    "generated_at": "2026-04-11T00:47:48.158300+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:51:47.698907+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 200.63,
+      "volume": 1222436,
+      "dollars": 245257334,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 241.4,
@@ -33,10 +46,10 @@
       "rank": 9
     },
     {
-      "price": 250.9,
-      "volume": 1988310,
-      "dollars": 498767538,
-      "rank": 12
+      "price": 200.6,
+      "volume": 2199508,
+      "dollars": 441286232,
+      "rank": 15
     }
   ],
   "boxes": []

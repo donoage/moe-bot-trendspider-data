@@ -1,23 +1,23 @@
 {
   "metadata": {
     "ticker": "WYNN",
-    "generated_at": "2026-04-11T00:49:13.578827+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:53:34.415925+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
   "levels": [
     {
+      "price": 103.1,
+      "volume": 4550019,
+      "dollars": 469052447,
+      "rank": 6
+    },
+    {
       "price": 115.9,
       "volume": 3913504,
       "dollars": 453604170,
-      "rank": 7
-    },
-    {
-      "price": 103.1,
-      "volume": 4368259,
-      "dollars": 450320261,
       "rank": 8
     },
     {
@@ -39,5 +39,16 @@
       "rank": 11
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 117.0,
+      "low_price": 103.11,
+      "volume": 532197,
+      "dollars": 57652832,
+      "trades": 2,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

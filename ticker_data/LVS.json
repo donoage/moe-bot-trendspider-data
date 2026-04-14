@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "LVS",
-    "generated_at": "2026-04-11T00:40:53.847436+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:43:51.002571+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 52.93,
+      "volume": 3755221,
+      "dollars": 198763847,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 56.5,
@@ -39,5 +52,16 @@
       "rank": 7
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 58.85,
+      "low_price": 58.85,
+      "volume": 1435027,
+      "dollars": 84451338,
+      "trades": 1,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

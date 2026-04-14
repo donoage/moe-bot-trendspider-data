@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "IBIT",
-    "generated_at": "2026-04-11T00:39:01.968231+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:41:58.806584+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1775620800,
+      "price": 40.5,
+      "volume": 11835189,
+      "dollars": 479334622,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 49.7,
@@ -34,10 +47,21 @@
     },
     {
       "price": 40.5,
-      "volume": 17908806,
-      "dollars": 725270838,
+      "volume": 17951806,
+      "dollars": 727012570,
       "rank": 12
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 50.15,
+      "low_price": 41.05,
+      "volume": 3034599,
+      "dollars": 140564585,
+      "trades": 4,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

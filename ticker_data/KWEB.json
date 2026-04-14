@@ -1,12 +1,73 @@
 {
   "metadata": {
     "ticker": "KWEB",
-    "generated_at": "2026-04-11T00:39:53.854851+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:42:56.262888+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1770609600,
+      "price": 34.32,
+      "volume": 5841210,
+      "dollars": 200470327,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1769659200,
+      "price": 36.16,
+      "volume": 4963816,
+      "dollars": 179504988,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1770264000,
+      "price": 33.43,
+      "volume": 5269425,
+      "dollars": 176152662,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1775534400,
+      "price": 27.74,
+      "volume": 4100000,
+      "dollars": 113744250,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773115200,
+      "price": 31.2,
+      "volume": 3500000,
+      "dollars": 109194400,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 30.0,
@@ -39,5 +100,16 @@
       "rank": 5
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 36.95,
+      "low_price": 27.68,
+      "volume": 10510974,
+      "dollars": 349543017,
+      "trades": 7,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

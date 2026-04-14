@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "SFM",
-    "generated_at": "2026-04-11T00:45:13.539074+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:48:34.008586+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 81.8,
+      "volume": 1706143,
+      "dollars": 139562497,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 81.8,
@@ -39,5 +52,16 @@
       "rank": 38
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 72.75,
+      "low_price": 72.1,
+      "volume": 893800,
+      "dollars": 64676850,
+      "trades": 2,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

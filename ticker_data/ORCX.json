@@ -1,42 +1,79 @@
 {
   "metadata": {
     "ticker": "ORCX",
-    "generated_at": "2026-04-11T00:43:31.311651+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:46:42.814620+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1768968000,
+      "price": 43.26,
+      "volume": 190852,
+      "dollars": 8257093,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1769745600,
+      "price": 37.38,
+      "volume": 144444,
+      "dollars": 5399864,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1770004800,
+      "price": 38.85,
+      "volume": 54092,
+      "dollars": 2101707,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
-      "price": 129.8,
-      "volume": 63611,
+      "price": 43.3,
+      "volume": 190852,
       "dollars": 8257093,
       "rank": 1
     },
     {
-      "price": 112.2,
-      "volume": 48143,
+      "price": 37.4,
+      "volume": 144444,
       "dollars": 5399864,
       "rank": 4
     },
     {
-      "price": 170.3,
-      "volume": 27109,
+      "price": 56.8,
+      "volume": 81337,
       "dollars": 4617198,
       "rank": 5
     },
     {
-      "price": 153.0,
-      "volume": 17752,
+      "price": 51.0,
+      "volume": 53262,
       "dollars": 2716651,
-      "rank": 7
+      "rank": 8
     },
     {
-      "price": 158.1,
-      "volume": 16428,
-      "dollars": 2596948,
-      "rank": 8
+      "price": 48.8,
+      "volume": 53583,
+      "dollars": 2613266,
+      "rank": 9
     }
   ],
   "boxes": []

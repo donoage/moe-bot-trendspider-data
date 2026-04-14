@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "QBTS",
-    "generated_at": "2026-04-11T00:44:23.259086+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:47:35.905516+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 15.73,
+      "volume": 5791441,
+      "dollars": 91099366,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1769054400,
+      "price": 27.43,
+      "volume": 3078709,
+      "dollars": 84448987,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 26.9,
@@ -28,8 +53,8 @@
     },
     {
       "price": 14.0,
-      "volume": 23228015,
-      "dollars": 325585430,
+      "volume": 23463891,
+      "dollars": 328894770,
       "rank": 4
     },
     {

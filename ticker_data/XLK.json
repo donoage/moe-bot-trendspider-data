@@ -1,24 +1,37 @@
 {
   "metadata": {
     "ticker": "XLK",
-    "generated_at": "2026-04-11T00:49:13.579923+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:53:34.417712+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773288000,
+      "price": 137.81,
+      "volume": 6195606,
+      "dollars": 853816462,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 142.6,
+      "volume": 6637778,
+      "dollars": 946456435,
+      "rank": 50
+    },
     {
       "price": 137.8,
       "volume": 6842913,
       "dollars": 943027064,
-      "rank": 50
-    },
-    {
-      "price": 142.6,
-      "volume": 6333272,
-      "dollars": 903038782,
-      "rank": 59
+      "rank": 51
     },
     {
       "price": 138.5,
@@ -39,5 +52,16 @@
       "rank": 0
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 147.19,
+      "low_price": 127.56,
+      "volume": 11945538,
+      "dollars": 1671245943,
+      "trades": 35,
+      "date_range": "2026-01-13 to 2026-04-13",
+      "color": "#FF6B6B"
+    }
+  ]
 }

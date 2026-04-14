@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "UDOW",
-    "generated_at": "2026-04-11T00:47:48.164388+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:51:47.704351+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1776052800,
+      "price": 54.15,
+      "volume": 320000,
+      "dollars": 17328000,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1772769600,
+      "price": 53.53,
+      "volume": 231000,
+      "dollars": 12365430,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 53.1,
@@ -33,10 +58,10 @@
       "rank": 72
     },
     {
-      "price": 53.5,
-      "volume": 562639,
-      "dollars": 30098986,
-      "rank": 0
+      "price": 54.2,
+      "volume": 569515,
+      "dollars": 30849354,
+      "rank": 92
     }
   ],
   "boxes": []

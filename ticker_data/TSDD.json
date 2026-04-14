@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "TSDD",
-    "generated_at": "2026-04-11T00:47:48.152612+00:00Z",
-    "date_range": "2026-01-10 to 2026-04-10",
+    "generated_at": "2026-04-14T00:51:47.685463+00:00Z",
+    "date_range": "2026-01-13 to 2026-04-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1775707200,
+      "price": 11.79,
+      "volume": 138000,
+      "dollars": 1627020,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 10.3,
