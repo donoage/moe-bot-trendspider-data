@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "HOOG",
-    "generated_at": "2026-04-14T00:41:58.803614+00:00Z",
-    "date_range": "2026-01-13 to 2026-04-13",
+    "generated_at": "2026-04-16T00:41:51.087319+00:00Z",
+    "date_range": "2026-01-15 to 2026-04-15",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1776225600,
+      "price": 24.75,
+      "volume": 53983,
+      "dollars": 1336079,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 19.8,
@@ -15,27 +28,27 @@
       "rank": 5
     },
     {
+      "price": 24.8,
+      "volume": 53983,
+      "dollars": 1336079,
+      "rank": 6
+    },
+    {
       "price": 21.2,
       "volume": 61920,
       "dollars": 1311435,
-      "rank": 7
+      "rank": 8
     },
     {
       "price": 23.1,
       "volume": 54900,
       "dollars": 1266501,
-      "rank": 8
+      "rank": 9
     },
     {
       "price": 16.9,
       "volume": 51069,
       "dollars": 861534,
-      "rank": 22
-    },
-    {
-      "price": 52.6,
-      "volume": 16119,
-      "dollars": 847214,
       "rank": 23
     }
   ],

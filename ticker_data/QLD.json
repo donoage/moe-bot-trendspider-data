@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "QLD",
-    "generated_at": "2026-04-14T00:47:35.912104+00:00Z",
-    "date_range": "2026-01-13 to 2026-04-13",
+    "generated_at": "2026-04-16T00:48:21.618437+00:00Z",
+    "date_range": "2026-01-15 to 2026-04-15",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1776139200,
+      "price": 71.66,
+      "volume": 7649500,
+      "dollars": 548193768,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1774238400,
       "price": 63.41,
       "volume": 5149001,
       "dollars": 326483221,
-      "rank": 11,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 63.41,
       "volume": 4701582,
       "dollars": 298113680,
-      "rank": 14,
+      "rank": 15,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,22 +58,22 @@
       "rank": 9
     },
     {
+      "price": 71.7,
+      "volume": 8295409,
+      "dollars": 594494462,
+      "rank": 16
+    },
+    {
       "price": 68.7,
       "volume": 2184881,
       "dollars": 150075356,
-      "rank": 50
+      "rank": 51
     },
     {
       "price": 62.8,
       "volume": 2292194,
       "dollars": 143912076,
-      "rank": 53
-    },
-    {
-      "price": 62.9,
-      "volume": 1877352,
-      "dollars": 118085137,
-      "rank": 64
+      "rank": 54
     }
   ],
   "boxes": [
@@ -72,7 +84,7 @@
       "volume": 2181975,
       "dollars": 145744531,
       "trades": 6,
-      "date_range": "2026-01-13 to 2026-04-13",
+      "date_range": "2026-01-15 to 2026-04-15",
       "color": "#FF6B6B"
     }
   ]

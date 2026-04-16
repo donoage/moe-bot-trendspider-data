@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "LAES",
-    "generated_at": "2026-04-14T00:42:56.265822+00:00Z",
-    "date_range": "2026-01-13 to 2026-04-13",
+    "generated_at": "2026-04-16T00:42:54.552942+00:00Z",
+    "date_range": "2026-01-15 to 2026-04-15",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1776225600,
+      "price": 2.82,
+      "volume": 3000000,
+      "dollars": 8460000,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1776139200,
+      "price": 2.59,
+      "volume": 3000000,
+      "dollars": 7770000,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 3.9,
@@ -27,15 +52,15 @@
       "rank": 4
     },
     {
+      "price": 2.8,
+      "volume": 6210085,
+      "dollars": 17466099,
+      "rank": 5
+    },
+    {
       "price": 4.2,
       "volume": 3911087,
       "dollars": 16350575,
-      "rank": 6
-    },
-    {
-      "price": 4.3,
-      "volume": 3788042,
-      "dollars": 16274511,
       "rank": 7
     }
   ],

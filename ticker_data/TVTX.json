@@ -1,18 +1,42 @@
 {
   "metadata": {
     "ticker": "TVTX",
-    "generated_at": "2026-04-14T00:51:47.700437+00:00Z",
-    "date_range": "2026-01-13 to 2026-04-13",
+    "generated_at": "2026-04-16T00:53:12.703835+00:00Z",
+    "date_range": "2026-01-15 to 2026-04-15",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1776225600,
+      "price": 40.95,
+      "volume": 738958,
+      "dollars": 30260330,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1773979200,
       "price": 26.84,
       "volume": 761230,
       "dollars": 20431413,
-      "rank": 16,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1776139200,
+      "price": 42.13,
+      "volume": 447553,
+      "dollars": 18855407,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,16 +46,10 @@
   ],
   "levels": [
     {
-      "price": 22.5,
-      "volume": 4261674,
-      "dollars": 95870494,
-      "rank": 4
-    },
-    {
-      "price": 24.2,
-      "volume": 3825499,
-      "dollars": 92563193,
-      "rank": 6
+      "price": 34.5,
+      "volume": 4665462,
+      "dollars": 161011361,
+      "rank": 1
     },
     {
       "price": 27.8,
@@ -40,16 +58,22 @@
       "rank": 7
     },
     {
-      "price": 24.6,
-      "volume": 3148041,
-      "dollars": 77467389,
-      "rank": 10
-    },
-    {
       "price": 26.8,
       "volume": 2803661,
       "dollars": 75147064,
       "rank": 14
+    },
+    {
+      "price": 27.9,
+      "volume": 2552909,
+      "dollars": 71195772,
+      "rank": 17
+    },
+    {
+      "price": 28.0,
+      "volume": 2103531,
+      "dollars": 58907685,
+      "rank": 28
     }
   ],
   "boxes": []
