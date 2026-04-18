@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "ONDS",
-    "generated_at": "2026-04-16T00:46:08.430788+00:00Z",
-    "date_range": "2026-01-15 to 2026-04-15",
+    "generated_at": "2026-04-18T00:46:07.388678+00:00Z",
+    "date_range": "2026-01-17 to 2026-04-17",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -49,18 +49,6 @@
       "volume": 3245535,
       "dollars": 36934188,
       "rank": 8,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1768536000,
-      "price": 12.16,
-      "volume": 3029702,
-      "dollars": 36841176,
-      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -126,6 +114,18 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1769486400,
+      "price": 12.26,
+      "volume": 2654943,
+      "dollars": 32549601,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
@@ -136,27 +136,27 @@
       "rank": 1
     },
     {
-      "price": 10.5,
-      "volume": 23022298,
-      "dollars": 241785371,
+      "price": 10.0,
+      "volume": 25223345,
+      "dollars": 252579684,
       "rank": 2
     },
     {
-      "price": 10.1,
-      "volume": 23845236,
-      "dollars": 240200443,
+      "price": 10.5,
+      "volume": 23170304,
+      "dollars": 243334993,
       "rank": 3
+    },
+    {
+      "price": 10.1,
+      "volume": 24070232,
+      "dollars": 242469402,
+      "rank": 4
     },
     {
       "price": 9.5,
       "volume": 23749373,
       "dollars": 225120427,
-      "rank": 4
-    },
-    {
-      "price": 10.0,
-      "volume": 22341929,
-      "dollars": 223768522,
       "rank": 5
     }
   ],

@@ -1,42 +1,30 @@
 {
   "metadata": {
     "ticker": "MQQQ",
-    "generated_at": "2026-04-16T00:45:02.916818+00:00Z",
-    "date_range": "2026-01-15 to 2026-04-15",
+    "generated_at": "2026-04-18T00:45:12.870195+00:00Z",
+    "date_range": "2026-01-17 to 2026-04-17",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1776398400,
+      "price": 194.95,
+      "volume": 56738,
+      "dollars": 11061073,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1775448000,
       "price": 162.9,
       "volume": 64365,
       "dollars": 10485058,
-      "rank": 11,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1775016000,
-      "price": 160.83,
-      "volume": 41395,
-      "dollars": 6657557,
-      "rank": 20,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1775016000,
-      "price": 160.83,
-      "volume": 41395,
-      "dollars": 6657557,
-      "rank": 20,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -52,6 +40,12 @@
       "rank": 1
     },
     {
+      "price": 195.7,
+      "volume": 109770,
+      "dollars": 21483086,
+      "rank": 2
+    },
+    {
       "price": 177.3,
       "volume": 97322,
       "dollars": 17258110,
@@ -64,16 +58,10 @@
       "rank": 4
     },
     {
-      "price": 187.1,
-      "volume": 75436,
-      "dollars": 14112566,
-      "rank": 6
-    },
-    {
-      "price": 160.8,
-      "volume": 82790,
-      "dollars": 13315115,
-      "rank": 7
+      "price": 195.8,
+      "volume": 72436,
+      "dollars": 14182968,
+      "rank": 5
     }
   ],
   "boxes": []

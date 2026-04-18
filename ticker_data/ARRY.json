@@ -1,42 +1,55 @@
 {
   "metadata": {
     "ticker": "ARRY",
-    "generated_at": "2026-04-16T00:34:10.344072+00:00Z",
-    "date_range": "2026-01-15 to 2026-04-15",
+    "generated_at": "2026-04-18T00:34:02.477177+00:00Z",
+    "date_range": "2026-01-17 to 2026-04-17",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1776398400,
+      "price": 7.83,
+      "volume": 10885034,
+      "dollars": 85229816,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 7.8,
+      "volume": 20691394,
+      "dollars": 161613362,
+      "rank": 7
+    },
     {
       "price": 7.0,
       "volume": 20711530,
       "dollars": 144971079,
-      "rank": 7
+      "rank": 8
     },
     {
       "price": 7.7,
       "volume": 18731099,
       "dollars": 144304664,
-      "rank": 8
+      "rank": 9
     },
     {
       "price": 6.6,
       "volume": 18827095,
       "dollars": 124258223,
-      "rank": 12
+      "rank": 13
     },
     {
       "price": 6.7,
       "volume": 18294489,
       "dollars": 122580543,
-      "rank": 13
-    },
-    {
-      "price": 6.9,
-      "volume": 17235467,
-      "dollars": 118719316,
-      "rank": 18
+      "rank": 14
     }
   ],
   "boxes": []

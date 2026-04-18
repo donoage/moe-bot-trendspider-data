@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "IYZ",
-    "generated_at": "2026-04-16T00:42:54.544330+00:00Z",
-    "date_range": "2026-01-15 to 2026-04-15",
+    "generated_at": "2026-04-18T00:43:28.795478+00:00Z",
+    "date_range": "2026-01-17 to 2026-04-17",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -13,6 +13,18 @@
       "volume": 1898035,
       "dollars": 74744618,
       "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1776312000,
+      "price": 42.56,
+      "volume": 1727313,
+      "dollars": 73514441,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -55,12 +67,12 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 40.8,
+      "high_price": 42.56,
       "low_price": 37.04,
-      "volume": 4552237,
-      "dollars": 176788561,
-      "trades": 4,
-      "date_range": "2026-01-15 to 2026-04-15",
+      "volume": 6279550,
+      "dollars": 250303002,
+      "trades": 5,
+      "date_range": "2026-01-17 to 2026-04-17",
       "color": "#FF6B6B"
     }
   ]

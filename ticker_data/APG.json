@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "APG",
-    "generated_at": "2026-04-16T00:34:10.335877+00:00Z",
-    "date_range": "2026-01-15 to 2026-04-15",
+    "generated_at": "2026-04-18T00:34:02.470735+00:00Z",
+    "date_range": "2026-01-17 to 2026-04-17",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1776398400,
+      "price": 46.35,
+      "volume": 5278300,
+      "dollars": 244649205,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1773979200,
       "price": 39.5,
       "volume": 3530373,
       "dollars": 139449733,
-      "rank": 4,
+      "rank": 5,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,34 +34,34 @@
   ],
   "levels": [
     {
+      "price": 46.4,
+      "volume": 5278300,
+      "dollars": 244649205,
+      "rank": 7
+    },
+    {
       "price": 39.5,
       "volume": 5014320,
       "dollars": 198049258,
-      "rank": 12
+      "rank": 13
+    },
+    {
+      "price": 44.4,
+      "volume": 3956970,
+      "dollars": 175730840,
+      "rank": 17
     },
     {
       "price": 38.9,
       "volume": 4518922,
       "dollars": 175707849,
-      "rank": 16
-    },
-    {
-      "price": 44.4,
-      "volume": 3532927,
-      "dollars": 156907571,
-      "rank": 22
+      "rank": 18
     },
     {
       "price": 40.4,
       "volume": 3794471,
       "dollars": 153282331,
-      "rank": 23
-    },
-    {
-      "price": 42.2,
-      "volume": 3073917,
-      "dollars": 129680794,
-      "rank": 31
+      "rank": 24
     }
   ],
   "boxes": [
@@ -60,7 +72,7 @@
       "volume": 2045782,
       "dollars": 83700905,
       "trades": 3,
-      "date_range": "2026-01-15 to 2026-04-15",
+      "date_range": "2026-01-17 to 2026-04-17",
       "color": "#FF6B6B"
     }
   ]

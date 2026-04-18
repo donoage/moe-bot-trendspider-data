@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "CHYM",
-    "generated_at": "2026-04-16T00:36:22.240678+00:00Z",
-    "date_range": "2026-01-15 to 2026-04-15",
+    "generated_at": "2026-04-18T00:37:07.883689+00:00Z",
+    "date_range": "2026-01-17 to 2026-04-17",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -80,11 +80,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1776312000,
+      "price": 23.41,
+      "volume": 681438,
+      "dollars": 15952463,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1774929600,
       "price": 18.73,
       "volume": 794573,
       "dollars": 14882352,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,7 +108,7 @@
       "price": 21.11,
       "volume": 687565,
       "dollars": 14514497,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,19 +120,7 @@
       "price": 19.25,
       "volume": 695400,
       "dollars": 13386450,
-      "rank": 17,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1773806400,
-      "price": 18.83,
-      "volume": 695400,
-      "dollars": 13094382,
-      "rank": 19,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -130,15 +130,15 @@
   ],
   "levels": [
     {
-      "price": 19.2,
-      "volume": 5403623,
-      "dollars": 103516777,
+      "price": 23.8,
+      "volume": 4358932,
+      "dollars": 103565551,
       "rank": 2
     },
     {
-      "price": 23.8,
-      "volume": 4323532,
-      "dollars": 102722146,
+      "price": 19.2,
+      "volume": 5403623,
+      "dollars": 103516777,
       "rank": 3
     },
     {
@@ -168,7 +168,7 @@
       "volume": 1317151,
       "dollars": 23313572,
       "trades": 1,
-      "date_range": "2026-01-15 to 2026-04-15",
+      "date_range": "2026-01-17 to 2026-04-17",
       "color": "#FF6B6B"
     }
   ]
