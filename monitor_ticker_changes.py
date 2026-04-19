@@ -102,6 +102,35 @@ def update_ticker_data(tickers=None, full_refresh=False):
             logger.info(f"Running full ticker data update using chunk processing...")
             cmd = [PYTHON_PATH, CHUNK_SCRIPT]
         else:
+            # Batch large ticker lists to avoid OOM kills
+            BATCH_SIZE = 100
+            if len(tickers) > BATCH_SIZE:
+                logger.info(f"Running batched incremental update for {len(tickers)} tickers ({(len(tickers) + BATCH_SIZE - 1) // BATCH_SIZE} batches of {BATCH_SIZE})")
+                for i in range(0, len(tickers), BATCH_SIZE):
+                    batch = tickers[i:i + BATCH_SIZE]
+                    batch_num = i // BATCH_SIZE + 1
+                    total_batches = (len(tickers) + BATCH_SIZE - 1) // BATCH_SIZE
+                    logger.info(f"Processing batch {batch_num}/{total_batches}: {len(batch)} tickers")
+                    batch_cmd = [PYTHON_PATH, POPULATE_SCRIPT, '--tickers'] + batch + ['--max-workers', '3']
+                    batch_result = subprocess.run(
+                        batch_cmd,
+                        cwd=REPO_DIR,
+                        capture_output=True,
+                        text=True,
+                        encoding='utf-8',
+                        errors='replace',
+                        timeout=600,  # 10 min per batch
+                    )
+                    if batch_result.returncode != 0:
+                        logger.error(f"Batch {batch_num} failed (exit {batch_result.returncode})")
+                        if batch_result.stderr:
+                            for line in batch_result.stderr.strip().split('\n')[-5:]:
+                                logger.error(f"  {line}")
+                    else:
+                        logger.info(f"Batch {batch_num}/{total_batches} done")
+                logger.info(f"All {(len(tickers) + BATCH_SIZE - 1) // BATCH_SIZE} batches complete")
+                return True
+
             logger.info(f"Running incremental update for {len(tickers)} tickers: {', '.join(tickers[:10])}{'...' if len(tickers) > 10 else ''}")
             cmd = [PYTHON_PATH, POPULATE_SCRIPT, '--tickers'] + tickers + ['--max-workers', '3']
         
