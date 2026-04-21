@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "BABX",
-    "generated_at": "2026-04-18T00:35:52.358937+00:00Z",
-    "date_range": "2026-01-17 to 2026-04-17",
+    "generated_at": "2026-04-21T00:38:35.142488+00:00Z",
+    "date_range": "2026-01-20 to 2026-04-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1776657600,
+      "price": 30.36,
+      "volume": 79800,
+      "dollars": 2422728,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 49.5,
