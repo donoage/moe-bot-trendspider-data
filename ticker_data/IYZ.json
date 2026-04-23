@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "IYZ",
-    "generated_at": "2026-04-21T00:53:40.374720+00:00Z",
-    "date_range": "2026-01-20 to 2026-04-20",
+    "generated_at": "2026-04-23T00:44:44.835593+00:00Z",
+    "date_range": "2026-01-22 to 2026-04-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1776830400,
+      "price": 42.98,
+      "volume": 3042641,
+      "dollars": 130772710,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1773806400,
       "price": 39.38,
       "volume": 1898035,
       "dollars": 74744618,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 42.56,
       "volume": 1727313,
       "dollars": 73514441,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -40,28 +52,28 @@
       "rank": 16
     },
     {
-      "price": 33.5,
-      "volume": 4707073,
-      "dollars": 157628325,
-      "rank": 19
+      "price": 43.0,
+      "volume": 4027874,
+      "dollars": 173123003,
+      "rank": 17
     },
     {
       "price": 34.6,
       "volume": 3451977,
       "dollars": 119352717,
-      "rank": 35
-    },
-    {
-      "price": 33.7,
-      "volume": 2558989,
-      "dollars": 86236381,
-      "rank": 62
+      "rank": 36
     },
     {
       "price": 34.3,
       "volume": 2503811,
       "dollars": 85822493,
-      "rank": 63
+      "rank": 64
+    },
+    {
+      "price": 39.4,
+      "volume": 2025485,
+      "dollars": 79766580,
+      "rank": 72
     }
   ],
   "boxes": [
@@ -72,7 +84,7 @@
       "volume": 6279550,
       "dollars": 250303002,
       "trades": 5,
-      "date_range": "2026-01-20 to 2026-04-20",
+      "date_range": "2026-01-22 to 2026-04-22",
       "color": "#FF6B6B"
     }
   ]

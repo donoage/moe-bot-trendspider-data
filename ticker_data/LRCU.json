@@ -1,12 +1,32 @@
 {
   "metadata": {
     "ticker": "LRCU",
-    "generated_at": "2026-04-21T00:55:29.353344+00:00Z",
-    "date_range": "2026-01-20 to 2026-04-20",
+    "generated_at": "2026-04-23T00:46:01.382151+00:00Z",
+    "date_range": "2026-01-22 to 2026-04-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1776830400,
+      "price": 45.79,
+      "volume": 11228,
+      "dollars": 514130,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 45.8,
+      "volume": 11228,
+      "dollars": 514130,
+      "rank": 2
+    }
+  ],
   "boxes": []
 }

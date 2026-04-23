@@ -1,42 +1,18 @@
 {
   "metadata": {
     "ticker": "SRAD",
-    "generated_at": "2026-04-21T01:09:25.455360+00:00Z",
-    "date_range": "2026-01-20 to 2026-04-20",
+    "generated_at": "2026-04-23T00:54:35.128747+00:00Z",
+    "date_range": "2026-01-22 to 2026-04-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1768968000,
-      "price": 18.0,
-      "volume": 1516026,
-      "dollars": 27288468,
-      "rank": 4,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1769572800,
       "price": 18.58,
       "volume": 975782,
       "dollars": 18130029,
       "rank": 10,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1768968000,
-      "price": 18.25,
-      "volume": 972327,
-      "dollars": 17744967,
-      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -88,16 +64,5 @@
       "rank": 16
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 18.0,
-      "low_price": 18.0,
-      "volume": 1516026,
-      "dollars": 27288468,
-      "trades": 1,
-      "date_range": "2026-01-20 to 2026-04-20",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

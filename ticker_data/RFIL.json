@@ -1,12 +1,32 @@
 {
   "metadata": {
     "ticker": "RFIL",
-    "generated_at": "2026-04-21T01:03:52.250043+00:00Z",
-    "date_range": "2026-01-20 to 2026-04-20",
+    "generated_at": "2026-04-23T00:50:40.164473+00:00Z",
+    "date_range": "2026-01-22 to 2026-04-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1776744000,
+      "price": 14.0,
+      "volume": 55800,
+      "dollars": 781200,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 14.0,
+      "volume": 55800,
+      "dollars": 781200,
+      "rank": 4
+    }
+  ],
   "boxes": []
 }

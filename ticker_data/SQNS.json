@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "SQNS",
-    "generated_at": "2026-04-21T01:09:25.452245+00:00Z",
-    "date_range": "2026-01-20 to 2026-04-20",
+    "generated_at": "2026-04-23T00:54:35.125417+00:00Z",
+    "date_range": "2026-01-22 to 2026-04-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1769140800,
+      "price": 5.35,
+      "volume": 698530,
+      "dollars": 3737135,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 2.8,
+      "volume": 1456946,
+      "dollars": 4030601,
+      "rank": 3
+    },
+    {
+      "price": 5.4,
+      "volume": 698530,
+      "dollars": 3737135,
+      "rank": 4
+    },
+    {
+      "price": 2.5,
+      "volume": 1176910,
+      "dollars": 2977582,
+      "rank": 8
+    },
+    {
+      "price": 2.9,
+      "volume": 615705,
+      "dollars": 1804015,
+      "rank": 13
+    },
+    {
+      "price": 5.1,
+      "volume": 248842,
+      "dollars": 1269094,
+      "rank": 18
+    }
+  ],
   "boxes": []
 }

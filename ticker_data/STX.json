@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "STX",
-    "generated_at": "2026-04-21T01:09:25.461148+00:00Z",
-    "date_range": "2026-01-20 to 2026-04-20",
+    "generated_at": "2026-04-23T00:54:35.132738+00:00Z",
+    "date_range": "2026-01-22 to 2026-04-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -68,11 +68,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1776830400,
+      "price": 579.88,
+      "volume": 430000,
+      "dollars": 249348400,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1774324800,
       "price": 424.96,
       "volume": 582251,
       "dollars": 247433384,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -84,7 +96,7 @@
       "price": 434.6,
       "volume": 534539,
       "dollars": 232310649,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -112,16 +124,16 @@
       "rank": 8
     },
     {
+      "price": 579.9,
+      "volume": 799384,
+      "dollars": 463546793,
+      "rank": 25
+    },
+    {
       "price": 406.8,
       "volume": 1092648,
       "dollars": 444456426,
-      "rank": 32
-    },
-    {
-      "price": 357.6,
-      "volume": 1220127,
-      "dollars": 436341817,
-      "rank": 37
+      "rank": 33
     }
   ],
   "boxes": [
@@ -132,7 +144,7 @@
       "volume": 60159,
       "dollars": 24110524,
       "trades": 1,
-      "date_range": "2026-01-20 to 2026-04-20",
+      "date_range": "2026-01-22 to 2026-04-22",
       "color": "#FF6B6B"
     }
   ]

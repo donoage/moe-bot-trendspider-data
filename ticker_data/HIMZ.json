@@ -1,24 +1,43 @@
 {
   "metadata": {
     "ticker": "HIMZ",
-    "generated_at": "2026-04-21T00:51:46.591816+00:00Z",
-    "date_range": "2026-01-20 to 2026-04-20",
+    "generated_at": "2026-04-23T00:43:36.882150+00:00Z",
+    "date_range": "2026-01-22 to 2026-04-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1776830400,
+      "price": 39.5,
+      "volume": 75083,
+      "dollars": 2965778,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 39.5,
+      "volume": 75083,
+      "dollars": 2965778,
+      "rank": 7
+    },
     {
       "price": 393.3,
       "volume": 2588,
       "dollars": 1017918,
-      "rank": 66
+      "rank": 67
     },
     {
       "price": 492.4,
       "volume": 1825,
       "dollars": 898798,
-      "rank": 98
+      "rank": 99
     },
     {
       "price": 551.2,
@@ -30,12 +49,6 @@
       "price": 19.8,
       "volume": 37436,
       "dollars": 741981,
-      "rank": 0
-    },
-    {
-      "price": 21.6,
-      "volume": 32820,
-      "dollars": 707599,
       "rank": 0
     }
   ],
