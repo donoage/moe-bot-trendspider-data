@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "MEG",
-    "generated_at": "2026-04-23T00:46:01.387976+00:00Z",
-    "date_range": "2026-01-22 to 2026-04-22",
+    "generated_at": "2026-04-25T00:46:37.443284+00:00Z",
+    "date_range": "2026-01-24 to 2026-04-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1777003200,
+      "price": 21.15,
+      "volume": 490948,
+      "dollars": 10383550,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 24.5,

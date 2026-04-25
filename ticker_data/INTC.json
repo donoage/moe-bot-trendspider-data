@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "INTC",
-    "generated_at": "2026-04-23T00:43:36.897745+00:00Z",
-    "date_range": "2026-01-22 to 2026-04-22",
+    "generated_at": "2026-04-25T00:44:29.510986+00:00Z",
+    "date_range": "2026-01-24 to 2026-04-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -13,6 +13,18 @@
       "volume": 50063889,
       "dollars": 2196302810,
       "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1777003200,
+      "price": 82.54,
+      "volume": 10111255,
+      "dollars": 834582987,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -55,12 +67,12 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 65.3,
+      "high_price": 67.61,
       "low_price": 46.28,
-      "volume": 2378271,
-      "dollars": 129312367,
-      "trades": 4,
-      "date_range": "2026-01-22 to 2026-04-22",
+      "volume": 3391252,
+      "dollars": 197779425,
+      "trades": 6,
+      "date_range": "2026-01-24 to 2026-04-24",
       "color": "#FF6B6B"
     }
   ]

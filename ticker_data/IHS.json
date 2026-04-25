@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "IHS",
-    "generated_at": "2026-04-23T00:43:36.894849+00:00Z",
-    "date_range": "2026-01-22 to 2026-04-22",
+    "generated_at": "2026-04-25T00:44:29.509101+00:00Z",
+    "date_range": "2026-01-24 to 2026-04-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -92,11 +92,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1777003200,
+      "price": 8.22,
+      "volume": 750000,
+      "dollars": 6161250,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1771473600,
       "price": 8.05,
       "volume": 718484,
       "dollars": 5783796,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,19 +120,7 @@
       "price": 8.0,
       "volume": 662310,
       "dollars": 5298480,
-      "rank": 17,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1771473600,
-      "price": 8.0,
-      "volume": 570333,
-      "dollars": 4562664,
-      "rank": 20,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -136,21 +136,21 @@
       "rank": 1
     },
     {
+      "price": 8.2,
+      "volume": 7347420,
+      "dollars": 60297696,
+      "rank": 2
+    },
+    {
       "price": 8.1,
       "volume": 7063778,
       "dollars": 57023908,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 8.3,
       "volume": 6443601,
       "dollars": 53371049,
-      "rank": 3
-    },
-    {
-      "price": 8.2,
-      "volume": 6386667,
-      "dollars": 52401949,
       "rank": 4
     },
     {
@@ -168,7 +168,7 @@
       "volume": 2500000,
       "dollars": 20200000,
       "trades": 1,
-      "date_range": "2026-01-22 to 2026-04-22",
+      "date_range": "2026-01-24 to 2026-04-24",
       "color": "#FF6B6B"
     }
   ]

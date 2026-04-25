@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "ALMU",
-    "generated_at": "2026-04-23T00:33:04.757462+00:00Z",
-    "date_range": "2026-01-22 to 2026-04-22",
+    "generated_at": "2026-04-25T00:32:45.601270+00:00Z",
+    "date_range": "2026-01-24 to 2026-04-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1776916800,
+      "price": 20.31,
+      "volume": 66548,
+      "dollars": 1351589,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 14.5,
@@ -33,10 +46,10 @@
       "rank": 4
     },
     {
-      "price": 19.4,
-      "volume": 113027,
-      "dollars": 2191593,
-      "rank": 6
+      "price": 21.5,
+      "volume": 108024,
+      "dollars": 2320355,
+      "rank": 5
     }
   ],
   "boxes": []

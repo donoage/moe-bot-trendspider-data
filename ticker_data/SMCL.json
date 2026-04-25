@@ -1,24 +1,61 @@
 {
   "metadata": {
     "ticker": "SMCL",
-    "generated_at": "2026-04-23T00:53:20.530142+00:00Z",
-    "date_range": "2026-01-22 to 2026-04-22",
+    "generated_at": "2026-04-25T00:54:12.737287+00:00Z",
+    "date_range": "2026-01-24 to 2026-04-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1776916800,
+      "price": 2.18,
+      "volume": 459900,
+      "dollars": 1002582,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1776916800,
+      "price": 2.35,
+      "volume": 324960,
+      "dollars": 763753,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 2.2,
+      "volume": 459900,
+      "dollars": 1002582,
+      "rank": 11
+    },
+    {
+      "price": 2.4,
+      "volume": 324960,
+      "dollars": 763753,
+      "rank": 18
+    },
     {
       "price": 4.2,
       "volume": 131588,
       "dollars": 557933,
-      "rank": 31
+      "rank": 33
     },
     {
       "price": 5.2,
       "volume": 100000,
       "dollars": 520030,
-      "rank": 44
+      "rank": 46
     }
   ],
   "boxes": []

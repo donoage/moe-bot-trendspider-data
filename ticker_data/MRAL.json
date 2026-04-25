@@ -1,12 +1,32 @@
 {
   "metadata": {
     "ticker": "MRAL",
-    "generated_at": "2026-04-23T00:47:21.931683+00:00Z",
-    "date_range": "2026-01-22 to 2026-04-22",
+    "generated_at": "2026-04-25T00:47:57.879200+00:00Z",
+    "date_range": "2026-01-24 to 2026-04-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1776916800,
+      "price": 6.0,
+      "volume": 90000,
+      "dollars": 540000,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 6.0,
+      "volume": 90000,
+      "dollars": 540000,
+      "rank": 13
+    }
+  ],
   "boxes": []
 }
