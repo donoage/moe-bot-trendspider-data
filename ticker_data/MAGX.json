@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "MAGX",
-    "generated_at": "2026-04-25T00:46:37.441459+00:00Z",
-    "date_range": "2026-01-24 to 2026-04-24",
+    "generated_at": "2026-04-28T00:50:15.466693+00:00Z",
+    "date_range": "2026-01-27 to 2026-04-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1777262400,
+      "price": 55.9,
+      "volume": 18492,
+      "dollars": 1033702,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 55.1,

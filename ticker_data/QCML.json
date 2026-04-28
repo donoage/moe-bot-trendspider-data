@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "QCML",
-    "generated_at": "2026-04-25T00:51:42.480038+00:00Z",
-    "date_range": "2026-01-24 to 2026-04-24",
+    "generated_at": "2026-04-28T00:58:52.303284+00:00Z",
+    "date_range": "2026-01-27 to 2026-04-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1777262400,
+      "price": 15.18,
+      "volume": 63800,
+      "dollars": 968484,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1777262400,
+      "price": 16.89,
+      "volume": 36224,
+      "dollars": 611823,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 18.1,
+      "volume": 65661,
+      "dollars": 1191090,
+      "rank": 2
+    },
+    {
+      "price": 15.2,
+      "volume": 63800,
+      "dollars": 968484,
+      "rank": 3
+    },
+    {
+      "price": 16.9,
+      "volume": 36224,
+      "dollars": 611823,
+      "rank": 6
+    }
+  ],
   "boxes": []
 }

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "FNGU",
-    "generated_at": "2026-04-25T00:42:06.314935+00:00Z",
-    "date_range": "2026-01-24 to 2026-04-24",
+    "generated_at": "2026-04-28T00:42:47.098562+00:00Z",
+    "date_range": "2026-01-27 to 2026-04-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -82,6 +82,12 @@
   ],
   "levels": [
     {
+      "price": 25.0,
+      "volume": 3939189,
+      "dollars": 98406320,
+      "rank": 2
+    },
+    {
       "price": 22.8,
       "volume": 2617391,
       "dollars": 59571205,
@@ -104,12 +110,6 @@
       "volume": 2229170,
       "dollars": 53923554,
       "rank": 8
-    },
-    {
-      "price": 24.6,
-      "volume": 1609509,
-      "dollars": 39594913,
-      "rank": 12
     }
   ],
   "boxes": []
