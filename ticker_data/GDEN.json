@@ -1,41 +1,66 @@
 {
   "metadata": {
     "ticker": "GDEN",
-    "generated_at": "2026-04-28T00:44:11.129713+00:00Z",
-    "date_range": "2026-01-27 to 2026-04-27",
+    "generated_at": "2026-04-30T00:41:52.412748+00:00Z",
+    "date_range": "2026-01-29 to 2026-04-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1777435200,
+      "price": 28.55,
+      "volume": 1505763,
+      "dollars": 42989533,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1777435200,
+      "price": 28.55,
+      "volume": 300000,
+      "dollars": 8564160,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 28.6,
+      "volume": 3322236,
+      "dollars": 94867949,
+      "rank": 2
+    },
     {
       "price": 28.4,
       "volume": 1553497,
       "dollars": 44146592,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 29.0,
       "volume": 864123,
       "dollars": 25053204,
-      "rank": 12
+      "rank": 13
     },
     {
       "price": 28.7,
       "volume": 817233,
       "dollars": 23445389,
-      "rank": 14
+      "rank": 15
     },
     {
       "price": 27.3,
       "volume": 708631,
       "dollars": 19338636,
-      "rank": 19
-    },
-    {
-      "price": 28.0,
-      "volume": 675651,
-      "dollars": 18918328,
       "rank": 20
     }
   ],

@@ -1,18 +1,73 @@
 {
   "metadata": {
     "ticker": "OPTX",
-    "generated_at": "2026-04-28T00:54:27.855160+00:00Z",
-    "date_range": "2026-01-27 to 2026-04-27",
+    "generated_at": "2026-04-30T00:46:57.144583+00:00Z",
+    "date_range": "2026-01-29 to 2026-04-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1777435200,
+      "price": 6.95,
+      "volume": 246128,
+      "dollars": 1710589,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1777435200,
+      "price": 6.94,
+      "volume": 246128,
+      "dollars": 1708128,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1777435200,
+      "price": 8.2,
+      "volume": 132364,
+      "dollars": 1085384,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 7.0,
+      "volume": 246128,
+      "dollars": 1710589,
+      "rank": 1
+    },
+    {
+      "price": 6.9,
+      "volume": 246128,
+      "dollars": 1708128,
+      "rank": 2
+    },
+    {
+      "price": 8.2,
+      "volume": 132364,
+      "dollars": 1085384,
+      "rank": 3
+    },
     {
       "price": 6.2,
       "volume": 82793,
       "dollars": 513316,
-      "rank": 1
+      "rank": 4
     }
   ],
   "boxes": []

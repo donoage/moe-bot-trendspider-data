@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "BOTZ",
-    "generated_at": "2026-04-28T00:37:20.980571+00:00Z",
-    "date_range": "2026-01-27 to 2026-04-27",
+    "generated_at": "2026-04-30T00:35:54.713506+00:00Z",
+    "date_range": "2026-01-29 to 2026-04-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1777435200,
+      "price": 37.36,
+      "volume": 1502684,
+      "dollars": 56139823,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1772510400,
       "price": 36.9,
       "volume": 825000,
       "dollars": 30442500,
-      "rank": 3,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,33 +34,33 @@
   ],
   "levels": [
     {
+      "price": 37.4,
+      "volume": 2071849,
+      "dollars": 77419140,
+      "rank": 6
+    },
+    {
       "price": 36.9,
       "volume": 2073658,
       "dollars": 76511048,
-      "rank": 6
+      "rank": 7
     },
     {
       "price": 34.5,
       "volume": 1670384,
       "dollars": 57626864,
-      "rank": 15
+      "rank": 16
     },
     {
       "price": 33.6,
       "volume": 1644701,
       "dollars": 55266898,
-      "rank": 18
+      "rank": 19
     },
     {
       "price": 33.2,
       "volume": 1541949,
       "dollars": 51184263,
-      "rank": 24
-    },
-    {
-      "price": 32.4,
-      "volume": 1568814,
-      "dollars": 50795614,
       "rank": 25
     }
   ],

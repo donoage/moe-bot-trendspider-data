@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "MSOX",
-    "generated_at": "2026-04-28T00:52:20.500022+00:00Z",
-    "date_range": "2026-01-27 to 2026-04-27",
+    "generated_at": "2026-04-30T00:45:57.251758+00:00Z",
+    "date_range": "2026-01-29 to 2026-04-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1777435200,
+      "price": 3.48,
+      "volume": 185921,
+      "dollars": 647005,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 4.7,
@@ -15,22 +28,28 @@
       "rank": 5
     },
     {
+      "price": 3.5,
+      "volume": 340813,
+      "dollars": 1193773,
+      "rank": 6
+    },
+    {
       "price": 4.8,
       "volume": 150000,
       "dollars": 716985,
-      "rank": 11
+      "rank": 12
     },
     {
       "price": 4.3,
       "volume": 134209,
       "dollars": 570388,
-      "rank": 22
+      "rank": 23
     },
     {
       "price": 3.4,
       "volume": 153415,
       "dollars": 513940,
-      "rank": 27
+      "rank": 28
     }
   ],
   "boxes": []
