@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "AXTI",
-    "generated_at": "2026-04-30T00:35:54.694709+00:00Z",
-    "date_range": "2026-01-29 to 2026-04-29",
+    "generated_at": "2026-05-02T00:44:59.274031+00:00Z",
+    "date_range": "2026-01-31 to 2026-05-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1777608000,
+      "price": 96.0,
+      "volume": 933256,
+      "dollars": 89592576,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1776830400,
       "price": 86.94,
       "volume": 600422,
       "dollars": 52200688,
-      "rank": 2,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,18 +48,6 @@
       "price": 68.43,
       "volume": 750000,
       "dollars": 51322500,
-      "rank": 3,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1777348800,
-      "price": 67.37,
-      "volume": 750000,
-      "dollars": 50528250,
       "rank": 4,
       "conditions": "",
       "exchange": "",
@@ -136,27 +136,27 @@
       "rank": 1
     },
     {
+      "price": 96.0,
+      "volume": 1150988,
+      "dollars": 110494848,
+      "rank": 2
+    },
+    {
       "price": 68.4,
       "volume": 1349540,
       "dollars": 92354145,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 86.9,
       "volume": 1030328,
       "dollars": 89576602,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 37.9,
       "volume": 2159490,
       "dollars": 81844153,
-      "rank": 4
-    },
-    {
-      "price": 82.6,
-      "volume": 826745,
-      "dollars": 68256067,
       "rank": 5
     }
   ],

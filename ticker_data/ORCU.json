@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "ORCU",
-    "generated_at": "2026-04-30T00:48:21.827500+00:00Z",
-    "date_range": "2026-01-29 to 2026-04-29",
+    "generated_at": "2026-05-02T01:19:11.456030+00:00Z",
+    "date_range": "2026-01-31 to 2026-05-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -32,11 +32,35 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1777608000,
+      "price": 12.56,
+      "volume": 43800,
+      "dollars": 550128,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1777608000,
+      "price": 12.56,
+      "volume": 43800,
+      "dollars": 550123,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1771387200,
       "price": 11.17,
       "volume": 48100,
       "dollars": 537469,
-      "rank": 10,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,22 +70,28 @@
   ],
   "levels": [
     {
+      "price": 12.6,
+      "volume": 87600,
+      "dollars": 1100251,
+      "rank": 4
+    },
+    {
       "price": 10.8,
       "volume": 95397,
       "dollars": 1031241,
-      "rank": 4
+      "rank": 5
     },
     {
       "price": 12.0,
       "volume": 64600,
       "dollars": 773901,
-      "rank": 5
+      "rank": 6
     },
     {
       "price": 11.2,
       "volume": 48100,
       "dollars": 537469,
-      "rank": 9
+      "rank": 10
     }
   ],
   "boxes": []
