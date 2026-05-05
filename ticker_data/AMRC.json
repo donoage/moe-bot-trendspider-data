@@ -1,17 +1,30 @@
 {
   "metadata": {
     "ticker": "AMRC",
-    "generated_at": "2026-05-02T00:39:57.247935+00:00Z",
-    "date_range": "2026-01-31 to 2026-05-01",
+    "generated_at": "2026-05-05T00:34:12.680475+00:00Z",
+    "date_range": "2026-02-03 to 2026-05-04",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 26.66,
+      "volume": 497872,
+      "dollars": 13273267,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 31.5,
-      "volume": 2075567,
-      "dollars": 65392199,
+      "volume": 2157446,
+      "dollars": 67969750,
       "rank": 1
     },
     {

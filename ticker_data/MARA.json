@@ -1,55 +1,42 @@
 {
   "metadata": {
     "ticker": "MARA",
-    "generated_at": "2026-05-02T01:11:28.626322+00:00Z",
-    "date_range": "2026-01-31 to 2026-05-01",
+    "generated_at": "2026-05-05T00:44:43.461128+00:00Z",
+    "date_range": "2026-02-03 to 2026-05-04",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1777521600,
-      "price": 11.99,
-      "volume": 5612400,
-      "dollars": 67292676,
-      "rank": 12,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
-    {
-      "price": 12.0,
-      "volume": 26467354,
-      "dollars": 317356151,
-      "rank": 24
-    },
     {
       "price": 12.4,
       "volume": 23853134,
       "dollars": 295495532,
-      "rank": 34
+      "rank": 33
     },
     {
       "price": 10.2,
       "volume": 28942189,
       "dollars": 295104080,
-      "rank": 35
+      "rank": 34
+    },
+    {
+      "price": 12.0,
+      "volume": 20854954,
+      "dollars": 250063475,
+      "rank": 49
+    },
+    {
+      "price": 11.5,
+      "volume": 20021214,
+      "dollars": 230142845,
+      "rank": 54
     },
     {
       "price": 9.9,
       "volume": 22995361,
       "dollars": 227552682,
-      "rank": 54
-    },
-    {
-      "price": 11.5,
-      "volume": 19385220,
-      "dollars": 222854111,
-      "rank": 59
+      "rank": 55
     }
   ],
   "boxes": []
