@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "ORCX",
-    "generated_at": "2026-05-05T00:47:36.784890+00:00Z",
-    "date_range": "2026-02-03 to 2026-05-04",
+    "generated_at": "2026-05-07T00:48:27.741781+00:00Z",
+    "date_range": "2026-02-05 to 2026-05-06",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -94,6 +94,12 @@
   ],
   "levels": [
     {
+      "price": 43.3,
+      "volume": 190852,
+      "dollars": 8257093,
+      "rank": 1
+    },
+    {
       "price": 38.0,
       "volume": 210549,
       "dollars": 8005897,
@@ -116,12 +122,6 @@
       "volume": 108119,
       "dollars": 3696992,
       "rank": 9
-    },
-    {
-      "price": 38.9,
-      "volume": 89048,
-      "dollars": 3462243,
-      "rank": 11
     }
   ],
   "boxes": []

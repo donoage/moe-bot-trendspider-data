@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "RCAT",
-    "generated_at": "2026-05-05T00:48:33.422653+00:00Z",
-    "date_range": "2026-02-03 to 2026-05-04",
+    "generated_at": "2026-05-07T00:49:32.497211+00:00Z",
+    "date_range": "2026-02-05 to 2026-05-06",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -130,6 +130,12 @@
   ],
   "levels": [
     {
+      "price": 10.5,
+      "volume": 8480081,
+      "dollars": 88750632,
+      "rank": 2
+    },
+    {
       "price": 10.8,
       "volume": 6108918,
       "dollars": 65756422,
@@ -152,12 +158,6 @@
       "volume": 3302855,
       "dollars": 43198712,
       "rank": 9
-    },
-    {
-      "price": 12.9,
-      "volume": 3304665,
-      "dollars": 42616694,
-      "rank": 10
     }
   ],
   "boxes": []

@@ -1,12 +1,49 @@
 {
   "metadata": {
     "ticker": "ACN",
-    "generated_at": "2026-05-05T00:33:11.711776+00:00Z",
-    "date_range": "2026-02-03 to 2026-05-04",
+    "generated_at": "2026-05-07T00:32:11.097683+00:00Z",
+    "date_range": "2026-02-05 to 2026-05-06",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 199.99,
+      "volume": 13742132,
+      "dollars": 2748288978,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773979200,
+      "price": 199.99,
+      "volume": 12465662,
+      "dollars": 2493007743,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773979200,
+      "price": 199.99,
+      "volume": 4497326,
+      "dollars": 899420226,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 200.0,
@@ -21,22 +58,22 @@
       "rank": 5
     },
     {
-      "price": 255.4,
-      "volume": 3928909,
-      "dollars": 1003450952,
-      "rank": 20
+      "price": 243.6,
+      "volume": 3325794,
+      "dollars": 810164451,
+      "rank": 39
     },
     {
-      "price": 250.0,
-      "volume": 3654996,
-      "dollars": 913748615,
-      "rank": 27
+      "price": 196.7,
+      "volume": 3673614,
+      "dollars": 722529871,
+      "rank": 54
     },
     {
-      "price": 260.0,
-      "volume": 3222482,
-      "dollars": 837732988,
-      "rank": 37
+      "price": 201.6,
+      "volume": 3477071,
+      "dollars": 700942010,
+      "rank": 57
     }
   ],
   "boxes": []

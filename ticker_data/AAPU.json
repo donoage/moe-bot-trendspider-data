@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "AAPU",
-    "generated_at": "2026-05-05T00:33:11.702747+00:00Z",
-    "date_range": "2026-02-03 to 2026-05-04",
+    "generated_at": "2026-05-07T00:32:11.093951+00:00Z",
+    "date_range": "2026-02-05 to 2026-05-06",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1770264000,
+      "price": 34.58,
+      "volume": 129416,
+      "dollars": 4475205,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1776398400,
+      "price": 30.74,
+      "volume": 64398,
+      "dollars": 1979594,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 29.3,
@@ -27,15 +52,15 @@
       "rank": 5
     },
     {
-      "price": 30.5,
-      "volume": 280921,
-      "dollars": 8562072,
+      "price": 32.4,
+      "volume": 266882,
+      "dollars": 8646875,
       "rank": 6
     },
     {
-      "price": 29.9,
-      "volume": 284359,
-      "dollars": 8502141,
+      "price": 30.5,
+      "volume": 280921,
+      "dollars": 8562072,
       "rank": 7
     }
   ],

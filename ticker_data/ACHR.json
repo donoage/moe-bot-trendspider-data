@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "ACHR",
-    "generated_at": "2026-05-05T00:33:11.709893+00:00Z",
-    "date_range": "2026-02-03 to 2026-05-04",
+    "generated_at": "2026-05-07T00:32:11.096323+00:00Z",
+    "date_range": "2026-02-05 to 2026-05-06",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 5.76,
+      "volume": 9353227,
+      "dollars": 53874587,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 7.5,
@@ -33,10 +46,10 @@
       "rank": 25
     },
     {
-      "price": 7.0,
-      "volume": 17193781,
-      "dollars": 120006491,
-      "rank": 33
+      "price": 5.8,
+      "volume": 21047814,
+      "dollars": 121536863,
+      "rank": 32
     }
   ],
   "boxes": []

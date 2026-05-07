@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "ALLE",
-    "generated_at": "2026-05-05T00:33:11.746641+00:00Z",
-    "date_range": "2026-02-03 to 2026-05-04",
+    "generated_at": "2026-05-07T00:32:11.118193+00:00Z",
+    "date_range": "2026-02-05 to 2026-05-06",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 142.49,
+      "volume": 656518,
+      "dollars": 93547249,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773115200,
+      "price": 147.53,
+      "volume": 556588,
+      "dollars": 82113427,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 179.3,
@@ -27,16 +52,16 @@
       "rank": 4
     },
     {
+      "price": 132.2,
+      "volume": 1933088,
+      "dollars": 255513556,
+      "rank": 5
+    },
+    {
       "price": 142.7,
       "volume": 1655656,
       "dollars": 236239276,
       "rank": 9
-    },
-    {
-      "price": 139.1,
-      "volume": 1246961,
-      "dollars": 173438883,
-      "rank": 16
     }
   ],
   "boxes": []
