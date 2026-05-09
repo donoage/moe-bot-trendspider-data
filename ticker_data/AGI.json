@@ -1,37 +1,12 @@
 {
   "metadata": {
     "ticker": "AGI",
-    "generated_at": "2026-05-07T00:32:11.107011+00:00Z",
-    "date_range": "2026-02-05 to 2026-05-06",
+    "generated_at": "2026-05-09T00:37:39.535971+00:00Z",
+    "date_range": "2026-02-07 to 2026-05-08",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1773979200,
-      "price": 38.27,
-      "volume": 3527854,
-      "dollars": 135010972,
-      "rank": 3,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1773633600,
-      "price": 46.27,
-      "volume": 1016887,
-      "dollars": 47051361,
-      "rank": 15,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 38.5,
@@ -52,16 +27,16 @@
       "rank": 23
     },
     {
+      "price": 42.4,
+      "volume": 1771893,
+      "dollars": 75092000,
+      "rank": 27
+    },
+    {
       "price": 55.3,
       "volume": 982854,
       "dollars": 54380642,
-      "rank": 39
-    },
-    {
-      "price": 40.5,
-      "volume": 1314303,
-      "dollars": 53213377,
-      "rank": 42
+      "rank": 40
     }
   ],
   "boxes": []

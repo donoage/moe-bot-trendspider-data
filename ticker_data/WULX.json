@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "WULX",
-    "generated_at": "2026-05-07T00:56:06.704519+00:00Z",
-    "date_range": "2026-02-05 to 2026-05-06",
+    "generated_at": "2026-05-09T01:30:35.007797+00:00Z",
+    "date_range": "2026-02-07 to 2026-05-08",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1778126400,
+      "price": 47.05,
+      "volume": 28600,
+      "dollars": 1345630,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1771387200,
       "price": 25.52,
       "volume": 19944,
       "dollars": 508970,
-      "rank": 6,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,21 +46,21 @@
       "rank": 2
     },
     {
+      "price": 47.1,
+      "volume": 28600,
+      "dollars": 1345630,
+      "rank": 3
+    },
+    {
       "price": 30.9,
       "volume": 34161,
       "dollars": 1055574,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 20.2,
       "volume": 41346,
       "dollars": 834775,
-      "rank": 4
-    },
-    {
-      "price": 20.4,
-      "volume": 29125,
-      "dollars": 593421,
       "rank": 5
     }
   ],

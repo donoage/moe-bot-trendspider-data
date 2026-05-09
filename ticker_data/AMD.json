@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "AMD",
-    "generated_at": "2026-05-07T00:32:11.122204+00:00Z",
-    "date_range": "2026-02-05 to 2026-05-06",
+    "generated_at": "2026-05-09T00:37:39.552055+00:00Z",
+    "date_range": "2026-02-07 to 2026-05-08",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1778212800,
+      "price": 455.19,
+      "volume": 4125791,
+      "dollars": 1878018805,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1778040000,
       "price": 421.39,
       "volume": 4370949,
       "dollars": 1841874199,
-      "rank": 2,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,19 @@
       "price": 347.81,
       "volume": 3680405,
       "dollars": 1280081663,
-      "rank": 9,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1778126400,
+      "price": 408.46,
+      "volume": 2896299,
+      "dollars": 1183022289,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +60,7 @@
       "price": 201.33,
       "volume": 5816722,
       "dollars": 1171080640,
-      "rank": 12,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -48,7 +72,7 @@
       "price": 334.63,
       "volume": 3455146,
       "dollars": 1156195505,
-      "rank": 13,
+      "rank": 15,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -60,7 +84,7 @@
       "price": 355.26,
       "volume": 2818910,
       "dollars": 1001445966,
-      "rank": 18,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,7 +132,7 @@
       "volume": 184680,
       "dollars": 77711787,
       "trades": 2,
-      "date_range": "2026-02-05 to 2026-05-06",
+      "date_range": "2026-02-07 to 2026-05-08",
       "color": "#FF6B6B"
     }
   ]

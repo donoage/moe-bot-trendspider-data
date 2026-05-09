@@ -1,12 +1,68 @@
 {
   "metadata": {
     "ticker": "SUPX",
-    "generated_at": "2026-05-07T00:53:03.202386+00:00Z",
-    "date_range": "2026-02-05 to 2026-05-06",
+    "generated_at": "2026-05-09T01:26:32.845022+00:00Z",
+    "date_range": "2026-02-07 to 2026-05-08",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1774929600,
+      "price": 7.4,
+      "volume": 424620,
+      "dollars": 3142188,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1772164800,
+      "price": 13.47,
+      "volume": 163574,
+      "dollars": 2203341,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 7.4,
+      "volume": 424620,
+      "dollars": 3142188,
+      "rank": 2
+    },
+    {
+      "price": 13.5,
+      "volume": 163574,
+      "dollars": 2203341,
+      "rank": 3
+    },
+    {
+      "price": 15.0,
+      "volume": 42617,
+      "dollars": 638828,
+      "rank": 13
+    },
+    {
+      "price": 14.0,
+      "volume": 44455,
+      "dollars": 622370,
+      "rank": 15
+    },
+    {
+      "price": 18.3,
+      "volume": 29364,
+      "dollars": 538535,
+      "rank": 18
+    }
+  ],
   "boxes": []
 }

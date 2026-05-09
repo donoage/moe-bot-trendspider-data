@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "IONX",
-    "generated_at": "2026-05-07T00:43:40.410675+00:00Z",
-    "date_range": "2026-02-05 to 2026-05-06",
+    "generated_at": "2026-05-09T01:05:37.254962+00:00Z",
+    "date_range": "2026-02-07 to 2026-05-08",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1778126400,
+      "price": 54.73,
+      "volume": 28790,
+      "dollars": 1575676,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1773028800,
       "price": 92.18,
       "volume": 16184,
       "dollars": 1491865,
-      "rank": 6,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 81.2,
       "volume": 15275,
       "dollars": 1240349,
-      "rank": 13,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,34 +46,34 @@
   ],
   "levels": [
     {
+      "price": 54.7,
+      "volume": 28790,
+      "dollars": 1575676,
+      "rank": 6
+    },
+    {
       "price": 92.2,
       "volume": 16184,
       "dollars": 1491865,
-      "rank": 6
+      "rank": 7
     },
     {
       "price": 81.2,
       "volume": 15275,
       "dollars": 1240349,
-      "rank": 13
+      "rank": 14
     },
     {
       "price": 83.5,
       "volume": 11108,
       "dollars": 928010,
-      "rank": 25
+      "rank": 26
     },
     {
       "price": 39.4,
       "volume": 22578,
       "dollars": 889121,
-      "rank": 27
-    },
-    {
-      "price": 95.6,
-      "volume": 7692,
-      "dollars": 735067,
-      "rank": 37
+      "rank": 28
     }
   ],
   "boxes": []

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "AXP",
-    "generated_at": "2026-05-07T00:35:45.893421+00:00Z",
-    "date_range": "2026-02-05 to 2026-05-06",
+    "generated_at": "2026-05-09T00:45:30.721770+00:00Z",
+    "date_range": "2026-02-07 to 2026-05-08",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -30,6 +30,18 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1778212800,
+      "price": 315.84,
+      "volume": 1400000,
+      "dollars": 442176000,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
@@ -52,16 +64,16 @@
       "rank": 15
     },
     {
+      "price": 316.0,
+      "volume": 3367362,
+      "dollars": 1064137547,
+      "rank": 31
+    },
+    {
       "price": 298.7,
       "volume": 3258721,
       "dollars": 973217656,
-      "rank": 43
-    },
-    {
-      "price": 294.1,
-      "volume": 2858945,
-      "dollars": 840676202,
-      "rank": 56
+      "rank": 44
     }
   ],
   "boxes": [
@@ -72,7 +84,7 @@
       "volume": 777839,
       "dollars": 241770364,
       "trades": 5,
-      "date_range": "2026-02-05 to 2026-05-06",
+      "date_range": "2026-02-07 to 2026-05-08",
       "color": "#FF6B6B"
     }
   ]

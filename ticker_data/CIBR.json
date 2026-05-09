@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "CIBR",
-    "generated_at": "2026-05-07T00:37:53.666960+00:00Z",
-    "date_range": "2026-02-05 to 2026-05-06",
+    "generated_at": "2026-05-09T00:48:44.819730+00:00Z",
+    "date_range": "2026-02-07 to 2026-05-08",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -54,9 +54,27 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1778212800,
+      "price": 75.09,
+      "volume": 417300,
+      "dollars": 31336308,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
+    {
+      "price": 72.1,
+      "volume": 7655401,
+      "dollars": 551698076,
+      "rank": 1
+    },
     {
       "price": 66.2,
       "volume": 1226750,
@@ -65,8 +83,8 @@
     },
     {
       "price": 64.6,
-      "volume": 1096023,
-      "dollars": 70794016,
+      "volume": 1053025,
+      "dollars": 68016233,
       "rank": 9
     },
     {
@@ -76,16 +94,10 @@
       "rank": 12
     },
     {
-      "price": 61.1,
-      "volume": 896716,
-      "dollars": 54781951,
-      "rank": 18
-    },
-    {
-      "price": 71.0,
-      "volume": 741681,
-      "dollars": 52658332,
-      "rank": 20
+      "price": 74.4,
+      "volume": 768407,
+      "dollars": 57162908,
+      "rank": 14
     }
   ],
   "boxes": [
@@ -96,7 +108,7 @@
       "volume": 557822,
       "dollars": 35276663,
       "trades": 1,
-      "date_range": "2026-02-05 to 2026-05-06",
+      "date_range": "2026-02-07 to 2026-05-08",
       "color": "#FF6B6B"
     }
   ]

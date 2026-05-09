@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "IREX",
-    "generated_at": "2026-05-07T00:43:40.413850+00:00Z",
-    "date_range": "2026-02-05 to 2026-05-06",
+    "generated_at": "2026-05-09T01:05:37.257158+00:00Z",
+    "date_range": "2026-02-07 to 2026-05-08",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -44,11 +44,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1778126400,
+      "price": 49.81,
+      "volume": 12007,
+      "dollars": 598068,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1777003200,
       "price": 38.23,
       "volume": 15000,
       "dollars": 573450,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -57,6 +69,24 @@
     }
   ],
   "levels": [
+    {
+      "price": 52.8,
+      "volume": 29056,
+      "dollars": 1535239,
+      "rank": 1
+    },
+    {
+      "price": 58.8,
+      "volume": 22653,
+      "dollars": 1332192,
+      "rank": 2
+    },
+    {
+      "price": 54.6,
+      "volume": 22393,
+      "dollars": 1221441,
+      "rank": 3
+    },
     {
       "price": 37.2,
       "volume": 24855,
@@ -68,24 +98,6 @@
       "volume": 31900,
       "dollars": 870870,
       "rank": 6
-    },
-    {
-      "price": 48.8,
-      "volume": 17331,
-      "dollars": 845000,
-      "rank": 7
-    },
-    {
-      "price": 28.6,
-      "volume": 29106,
-      "dollars": 833304,
-      "rank": 8
-    },
-    {
-      "price": 26.4,
-      "volume": 26000,
-      "dollars": 686488,
-      "rank": 9
     }
   ],
   "boxes": []
