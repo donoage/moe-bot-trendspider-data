@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "ALC",
-    "generated_at": "2026-05-09T00:37:39.547336+00:00Z",
-    "date_range": "2026-02-07 to 2026-05-08",
+    "generated_at": "2026-05-12T00:38:50.711727+00:00Z",
+    "date_range": "2026-02-10 to 2026-05-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1772078400,
+      "price": 86.14,
+      "volume": 469833,
+      "dollars": 40470850,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1770696000,
+      "price": 79.19,
+      "volume": 371608,
+      "dollars": 29428529,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 85.8,

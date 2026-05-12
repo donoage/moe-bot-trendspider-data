@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "AAPL",
-    "generated_at": "2026-05-09T00:37:39.514569+00:00Z",
-    "date_range": "2026-02-07 to 2026-05-08",
+    "generated_at": "2026-05-12T00:38:50.688025+00:00Z",
+    "date_range": "2026-02-10 to 2026-05-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -39,5 +39,16 @@
       "rank": 9
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 292.43,
+      "low_price": 252.65,
+      "volume": 1256900,
+      "dollars": 341127368,
+      "trades": 9,
+      "date_range": "2026-02-10 to 2026-05-11",
+      "color": "#FF6B6B"
+    }
+  ]
 }

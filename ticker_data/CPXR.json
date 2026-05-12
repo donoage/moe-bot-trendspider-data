@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "CPXR",
-    "generated_at": "2026-05-09T00:52:36.127769+00:00Z",
-    "date_range": "2026-02-07 to 2026-05-08",
+    "generated_at": "2026-05-12T00:46:45.034260+00:00Z",
+    "date_range": "2026-02-10 to 2026-05-11",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -44,11 +44,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1778472000,
+      "price": 31.93,
+      "volume": 20000,
+      "dollars": 638600,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1770868800,
       "price": 26.92,
       "volume": 19276,
       "dollars": 518909,
-      "rank": 9,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -76,16 +88,16 @@
       "rank": 3
     },
     {
+      "price": 30.6,
+      "volume": 52599,
+      "dollars": 1607425,
+      "rank": 4
+    },
+    {
       "price": 27.0,
       "volume": 26170,
       "dollars": 705281,
       "rank": 5
-    },
-    {
-      "price": 28.6,
-      "volume": 22859,
-      "dollars": 654224,
-      "rank": 6
     }
   ],
   "boxes": []
