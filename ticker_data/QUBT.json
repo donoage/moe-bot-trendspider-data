@@ -1,17 +1,30 @@
 {
   "metadata": {
     "ticker": "QUBT",
-    "generated_at": "2026-05-12T01:07:00.946199+00:00Z",
-    "date_range": "2026-02-10 to 2026-05-11",
+    "generated_at": "2026-05-14T00:57:07.386863+00:00Z",
+    "date_range": "2026-02-12 to 2026-05-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1778558400,
+      "price": 11.78,
+      "volume": 3253772,
+      "dollars": 38329434,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 10.9,
-      "volume": 16865176,
-      "dollars": 183707764,
+      "volume": 16967676,
+      "dollars": 184825014,
       "rank": 2
     },
     {
@@ -34,8 +47,8 @@
     },
     {
       "price": 11.9,
-      "volume": 6925890,
-      "dollars": 82619606,
+      "volume": 6980159,
+      "dollars": 83263236,
       "rank": 12
     }
   ],

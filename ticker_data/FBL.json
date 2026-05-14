@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "FBL",
-    "generated_at": "2026-05-12T00:49:32.014508+00:00Z",
-    "date_range": "2026-02-10 to 2026-05-11",
+    "generated_at": "2026-05-14T00:43:28.843087+00:00Z",
+    "date_range": "2026-02-12 to 2026-05-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1778558400,
+      "price": 24.55,
+      "volume": 77000,
+      "dollars": 1890350,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 27.2,

@@ -1,36 +1,49 @@
 {
   "metadata": {
     "ticker": "LABD",
-    "generated_at": "2026-05-12T00:55:53.385493+00:00Z",
-    "date_range": "2026-02-10 to 2026-05-11",
+    "generated_at": "2026-05-14T00:48:29.355701+00:00Z",
+    "date_range": "2026-02-12 to 2026-05-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1778558400,
+      "price": 13.84,
+      "volume": 244200,
+      "dollars": 3379728,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 13.8,
+      "volume": 763911,
+      "dollars": 10544930,
+      "rank": 4
+    },
     {
       "price": 19.9,
       "volume": 485392,
       "dollars": 9659649,
-      "rank": 5
+      "rank": 6
     },
     {
       "price": 19.8,
       "volume": 416200,
       "dollars": 8235305,
-      "rank": 7
+      "rank": 8
     },
     {
       "price": 20.5,
       "volume": 382585,
       "dollars": 7844200,
-      "rank": 8
-    },
-    {
-      "price": 13.8,
-      "volume": 519711,
-      "dollars": 7165202,
-      "rank": 12
+      "rank": 9
     },
     {
       "price": 13.5,

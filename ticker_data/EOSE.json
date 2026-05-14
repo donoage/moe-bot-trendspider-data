@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "EOSE",
-    "generated_at": "2026-05-12T00:48:29.544867+00:00Z",
-    "date_range": "2026-02-10 to 2026-05-11",
+    "generated_at": "2026-05-14T00:41:50.173966+00:00Z",
+    "date_range": "2026-02-12 to 2026-05-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -30,26 +30,38 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1778644800,
+      "price": 8.44,
+      "volume": 2568400,
+      "dollars": 21677296,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1778644800,
+      "price": 8.28,
+      "volume": 2378274,
+      "dollars": 19692108,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
-    {
-      "price": 13.1,
-      "volume": 18417765,
-      "dollars": 241182567,
-      "rank": 1
-    },
     {
       "price": 4.4,
       "volume": 38962399,
       "dollars": 171601397,
       "rank": 2
-    },
-    {
-      "price": 12.8,
-      "volume": 8771791,
-      "dollars": 112098604,
-      "rank": 4
     },
     {
       "price": 6.1,
@@ -62,6 +74,18 @@
       "volume": 12268611,
       "dollars": 87046674,
       "rank": 7
+    },
+    {
+      "price": 9.8,
+      "volume": 8772727,
+      "dollars": 85643545,
+      "rank": 8
+    },
+    {
+      "price": 6.7,
+      "volume": 10282125,
+      "dollars": 69161939,
+      "rank": 16
     }
   ],
   "boxes": []

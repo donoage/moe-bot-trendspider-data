@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "RDTL",
-    "generated_at": "2026-05-12T01:07:00.950318+00:00Z",
-    "date_range": "2026-02-10 to 2026-05-11",
+    "generated_at": "2026-05-14T00:57:07.392406+00:00Z",
+    "date_range": "2026-02-12 to 2026-05-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1778558400,
+      "price": 18.66,
+      "volume": 46689,
+      "dollars": 871216,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 15.6,
@@ -27,16 +40,16 @@
       "rank": 12
     },
     {
+      "price": 18.7,
+      "volume": 46689,
+      "dollars": 871216,
+      "rank": 14
+    },
+    {
       "price": 17.2,
       "volume": 46620,
       "dollars": 803728,
-      "rank": 21
-    },
-    {
-      "price": 12.0,
-      "volume": 59190,
-      "dollars": 710280,
-      "rank": 28
+      "rank": 22
     }
   ],
   "boxes": []

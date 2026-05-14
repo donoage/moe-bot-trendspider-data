@@ -1,25 +1,12 @@
 {
   "metadata": {
     "ticker": "MMYT",
-    "generated_at": "2026-05-12T00:57:16.846995+00:00Z",
-    "date_range": "2026-02-10 to 2026-05-11",
+    "generated_at": "2026-05-14T00:50:12.663411+00:00Z",
+    "date_range": "2026-02-12 to 2026-05-13",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1770782400,
-      "price": 59.8,
-      "volume": 499733,
-      "dollars": 29884033,
-      "rank": 9,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 35.8,
@@ -52,16 +39,5 @@
       "rank": 52
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 59.8,
-      "low_price": 59.8,
-      "volume": 499733,
-      "dollars": 29884033,
-      "trades": 1,
-      "date_range": "2026-02-10 to 2026-05-11",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }
