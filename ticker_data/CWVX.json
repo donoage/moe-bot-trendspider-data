@@ -1,41 +1,54 @@
 {
   "metadata": {
     "ticker": "CWVX",
-    "generated_at": "2026-05-14T00:40:12.681998+00:00Z",
-    "date_range": "2026-02-12 to 2026-05-13",
+    "generated_at": "2026-05-16T00:56:09.743984+00:00Z",
+    "date_range": "2026-02-14 to 2026-05-15",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1778731200,
+      "price": 37.83,
+      "volume": 39678,
+      "dollars": 1501018,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 35.6,
+      "volume": 79023,
+      "dollars": 2813875,
+      "rank": 7
+    },
     {
       "price": 36.8,
       "volume": 75405,
       "dollars": 2774149,
-      "rank": 8
+      "rank": 9
     },
     {
       "price": 47.6,
       "volume": 47862,
       "dollars": 2278269,
-      "rank": 12
+      "rank": 13
+    },
+    {
+      "price": 37.8,
+      "volume": 56678,
+      "dollars": 2143873,
+      "rank": 16
     },
     {
       "price": 40.0,
       "volume": 47725,
       "dollars": 1909000,
-      "rank": 25
-    },
-    {
-      "price": 43.0,
-      "volume": 44320,
-      "dollars": 1906675,
-      "rank": 26
-    },
-    {
-      "price": 55.3,
-      "volume": 33504,
-      "dollars": 1851836,
       "rank": 27
     }
   ],

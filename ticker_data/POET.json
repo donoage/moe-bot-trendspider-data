@@ -1,18 +1,42 @@
 {
   "metadata": {
     "ticker": "POET",
-    "generated_at": "2026-05-14T00:55:25.035528+00:00Z",
-    "date_range": "2026-02-12 to 2026-05-13",
+    "generated_at": "2026-05-16T01:24:07.461659+00:00Z",
+    "date_range": "2026-02-14 to 2026-05-15",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1778817600,
+      "price": 15.97,
+      "volume": 7683832,
+      "dollars": 122710797,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1778558400,
       "price": 13.73,
       "volume": 8550216,
       "dollars": 117394465,
-      "rank": 1,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1778731200,
+      "price": 20.57,
+      "volume": 5277516,
+      "dollars": 108558504,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +48,7 @@
       "price": 14.37,
       "volume": 4623907,
       "dollars": 66445543,
-      "rank": 2,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +60,19 @@
       "price": 13.9,
       "volume": 3852550,
       "dollars": 53550445,
-      "rank": 3,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1778731200,
+      "price": 20.57,
+      "volume": 2200000,
+      "dollars": 45254000,
+      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -48,7 +84,7 @@
       "price": 10.95,
       "volume": 2808117,
       "dollars": 30748881,
-      "rank": 4,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -60,7 +96,7 @@
       "price": 13.73,
       "volume": 2000000,
       "dollars": 27460000,
-      "rank": 5,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -72,7 +108,7 @@
       "price": 13.73,
       "volume": 1826849,
       "dollars": 25082636,
-      "rank": 6,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -84,42 +120,6 @@
       "price": 14.37,
       "volume": 1500000,
       "dollars": 21555000,
-      "rank": 7,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1778558400,
-      "price": 13.73,
-      "volume": 1500000,
-      "dollars": 20595000,
-      "rank": 8,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1778644800,
-      "price": 14.37,
-      "volume": 1204153,
-      "dollars": 17303678,
-      "rank": 9,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1778126400,
-      "price": 9.58,
-      "volume": 1753567,
-      "dollars": 16799171,
       "rank": 10,
       "conditions": "",
       "exchange": "",
@@ -136,27 +136,27 @@
       "rank": 1
     },
     {
+      "price": 20.6,
+      "volume": 8832413,
+      "dollars": 181683646,
+      "rank": 2
+    },
+    {
       "price": 14.4,
       "volume": 8910821,
       "dollars": 128058383,
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "price": 16.0,
+      "volume": 7783832,
+      "dollars": 124305797,
+      "rank": 4
     },
     {
       "price": 13.9,
       "volume": 5979903,
       "dollars": 83120651,
-      "rank": 3
-    },
-    {
-      "price": 6.6,
-      "volume": 6837678,
-      "dollars": 45180804,
-      "rank": 4
-    },
-    {
-      "price": 9.6,
-      "volume": 4312649,
-      "dollars": 41281704,
       "rank": 5
     }
   ],

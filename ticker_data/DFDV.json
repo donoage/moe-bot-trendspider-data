@@ -1,13 +1,19 @@
 {
   "metadata": {
     "ticker": "DFDV",
-    "generated_at": "2026-05-14T00:41:50.147503+00:00Z",
-    "date_range": "2026-02-12 to 2026-05-13",
+    "generated_at": "2026-05-16T01:00:25.371438+00:00Z",
+    "date_range": "2026-02-14 to 2026-05-15",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
   "levels": [
+    {
+      "price": 5.2,
+      "volume": 480795,
+      "dollars": 2480149,
+      "rank": 27
+    },
     {
       "price": 4.1,
       "volume": 445421,
@@ -31,12 +37,6 @@
       "volume": 209153,
       "dollars": 890991,
       "rank": 71
-    },
-    {
-      "price": 3.5,
-      "volume": 158004,
-      "dollars": 545421,
-      "rank": 0
     }
   ],
   "boxes": []

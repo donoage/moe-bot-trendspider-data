@@ -1,12 +1,49 @@
 {
   "metadata": {
     "ticker": "ABT",
-    "generated_at": "2026-05-14T00:33:09.922291+00:00Z",
-    "date_range": "2026-02-12 to 2026-05-13",
+    "generated_at": "2026-05-16T00:39:56.412671+00:00Z",
+    "date_range": "2026-02-14 to 2026-05-15",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 105.46,
+      "volume": 30636279,
+      "dollars": 3230901983,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773979200,
+      "price": 105.46,
+      "volume": 23987944,
+      "dollars": 2529768574,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773979200,
+      "price": 105.46,
+      "volume": 8681485,
+      "dollars": 915549408,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 105.5,
@@ -47,7 +84,7 @@
       "volume": 1824922,
       "dollars": 175341442,
       "trades": 6,
-      "date_range": "2026-02-12 to 2026-05-13",
+      "date_range": "2026-02-14 to 2026-05-15",
       "color": "#FF6B6B"
     }
   ]

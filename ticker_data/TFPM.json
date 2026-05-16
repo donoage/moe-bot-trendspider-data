@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "TFPM",
-    "generated_at": "2026-05-14T01:02:12.450873+00:00Z",
-    "date_range": "2026-02-12 to 2026-05-13",
+    "generated_at": "2026-05-16T01:32:36.933559+00:00Z",
+    "date_range": "2026-02-14 to 2026-05-15",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1778817600,
+      "price": 31.98,
+      "volume": 530629,
+      "dollars": 16969515,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1778126400,
       "price": 32.41,
       "volume": 431474,
       "dollars": 13982260,
-      "rank": 3,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 41.17,
       "volume": 198604,
       "dollars": 8177380,
-      "rank": 14,
+      "rank": 15,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 37.71,
       "volume": 216024,
       "dollars": 8146265,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,33 +58,33 @@
   ],
   "levels": [
     {
+      "price": 32.0,
+      "volume": 772039,
+      "dollars": 24689406,
+      "rank": 5
+    },
+    {
       "price": 32.4,
       "volume": 676101,
       "dollars": 21902681,
-      "rank": 7
+      "rank": 8
     },
     {
       "price": 35.9,
       "volume": 510157,
       "dollars": 18308391,
-      "rank": 8
+      "rank": 9
     },
     {
       "price": 29.7,
       "volume": 511574,
       "dollars": 15197137,
-      "rank": 10
+      "rank": 11
     },
     {
       "price": 30.6,
       "volume": 482840,
       "dollars": 14751292,
-      "rank": 11
-    },
-    {
-      "price": 34.7,
-      "volume": 410335,
-      "dollars": 14233877,
       "rank": 12
     }
   ],

@@ -1,41 +1,54 @@
 {
   "metadata": {
     "ticker": "CLSX",
-    "generated_at": "2026-05-14T00:38:32.732491+00:00Z",
-    "date_range": "2026-02-12 to 2026-05-13",
+    "generated_at": "2026-05-16T00:50:42.004837+00:00Z",
+    "date_range": "2026-02-14 to 2026-05-15",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1778731200,
+      "price": 20.83,
+      "volume": 56300,
+      "dollars": 1172729,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 20.8,
+      "volume": 56300,
+      "dollars": 1172729,
+      "rank": 1
+    },
     {
       "price": 22.9,
       "volume": 37393,
       "dollars": 856355,
-      "rank": 6
+      "rank": 7
     },
     {
       "price": 22.3,
       "volume": 36083,
       "dollars": 803929,
-      "rank": 9
+      "rank": 10
     },
     {
       "price": 22.8,
       "volume": 35000,
       "dollars": 799050,
-      "rank": 10
+      "rank": 11
     },
     {
       "price": 17.4,
       "volume": 44900,
       "dollars": 779015,
-      "rank": 11
-    },
-    {
-      "price": 20.0,
-      "volume": 31525,
-      "dollars": 630500,
       "rank": 12
     }
   ],
