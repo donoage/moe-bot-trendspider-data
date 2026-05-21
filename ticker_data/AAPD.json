@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "AAPD",
-    "generated_at": "2026-05-19T00:33:10.702066+00:00Z",
-    "date_range": "2026-02-17 to 2026-05-18",
+    "generated_at": "2026-05-21T00:32:20.843101+00:00Z",
+    "date_range": "2026-02-19 to 2026-05-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1776657600,
+      "price": 13.09,
+      "volume": 150000,
+      "dollars": 1963500,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 13.1,

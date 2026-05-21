@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "NBIZ",
-    "generated_at": "2026-05-19T00:45:58.653789+00:00Z",
-    "date_range": "2026-02-17 to 2026-05-18",
+    "generated_at": "2026-05-21T00:44:15.339014+00:00Z",
+    "date_range": "2026-02-19 to 2026-05-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -42,25 +42,37 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1779163200,
+      "price": 1.98,
+      "volume": 274346,
+      "dollars": 541833,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
     {
+      "price": 2.0,
+      "volume": 602113,
+      "dollars": 1184256,
+      "rank": 1
+    },
+    {
       "price": 5.6,
       "volume": 165177,
       "dollars": 918384,
-      "rank": 1
+      "rank": 2
     },
     {
       "price": 2.1,
       "volume": 412912,
       "dollars": 846469,
-      "rank": 2
-    },
-    {
-      "price": 2.0,
-      "volume": 327767,
-      "dollars": 642423,
       "rank": 3
     }
   ],

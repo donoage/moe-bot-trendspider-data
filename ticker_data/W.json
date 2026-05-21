@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "W",
-    "generated_at": "2026-05-19T00:56:50.759225+00:00Z",
-    "date_range": "2026-02-17 to 2026-05-18",
+    "generated_at": "2026-05-21T00:52:38.228842+00:00Z",
+    "date_range": "2026-02-19 to 2026-05-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1779163200,
+      "price": 57.79,
+      "volume": 1754700,
+      "dollars": 101404113,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 82.5,
@@ -27,16 +40,16 @@
       "rank": 13
     },
     {
+      "price": 57.8,
+      "volume": 3658005,
+      "dollars": 211398711,
+      "rank": 17
+    },
+    {
       "price": 73.0,
       "volume": 2715071,
       "dollars": 198191859,
-      "rank": 19
-    },
-    {
-      "price": 58.8,
-      "volume": 3237886,
-      "dollars": 190364230,
-      "rank": 23
+      "rank": 20
     }
   ],
   "boxes": []

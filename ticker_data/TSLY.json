@@ -1,18 +1,42 @@
 {
   "metadata": {
     "ticker": "TSLY",
-    "generated_at": "2026-05-19T00:55:30.557916+00:00Z",
-    "date_range": "2026-02-17 to 2026-05-18",
+    "generated_at": "2026-05-21T00:51:18.838552+00:00Z",
+    "date_range": "2026-02-19 to 2026-05-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1779163200,
+      "price": 29.28,
+      "volume": 377358,
+      "dollars": 11049042,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1772164800,
       "price": 32.35,
       "volume": 219520,
       "dollars": 7101472,
-      "rank": 3,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1779163200,
+      "price": 29.28,
+      "volume": 177642,
+      "dollars": 5201357,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +48,7 @@
       "price": 32.35,
       "volume": 149654,
       "dollars": 4841306,
-      "rank": 11,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,33 +58,33 @@
   ],
   "levels": [
     {
+      "price": 29.3,
+      "volume": 608472,
+      "dollars": 17816750,
+      "rank": 2
+    },
+    {
       "price": 32.4,
       "volume": 424530,
       "dollars": 13734652,
-      "rank": 4
+      "rank": 5
     },
     {
       "price": 32.3,
       "volume": 109902,
       "dollars": 3547636,
-      "rank": 42
+      "rank": 43
     },
     {
       "price": 32.1,
       "volume": 101825,
       "dollars": 3266349,
-      "rank": 49
+      "rank": 50
     },
     {
       "price": 31.6,
       "volume": 99812,
       "dollars": 3150071,
-      "rank": 50
-    },
-    {
-      "price": 29.9,
-      "volume": 99593,
-      "dollars": 2981814,
       "rank": 51
     }
   ],

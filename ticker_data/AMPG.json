@@ -1,12 +1,49 @@
 {
   "metadata": {
     "ticker": "AMPG",
-    "generated_at": "2026-05-19T00:33:10.803133+00:00Z",
-    "date_range": "2026-02-17 to 2026-05-18",
+    "generated_at": "2026-05-21T00:32:20.895632+00:00Z",
+    "date_range": "2026-02-19 to 2026-05-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1779249600,
+      "price": 4.5,
+      "volume": 228260,
+      "dollars": 1027170,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1779163200,
+      "price": 3.7,
+      "volume": 219934,
+      "dollars": 813755,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1779249600,
+      "price": 4.43,
+      "volume": 123118,
+      "dollars": 545412,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 2.2,
@@ -16,15 +53,15 @@
     },
     {
       "price": 3.7,
-      "volume": 138630,
-      "dollars": 514317,
-      "rank": 3
+      "volume": 358564,
+      "dollars": 1328073,
+      "rank": 2
     },
     {
       "price": 3.5,
       "volume": 144868,
       "dollars": 507038,
-      "rank": 4
+      "rank": 6
     }
   ],
   "boxes": []

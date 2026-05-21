@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "AAPU",
-    "generated_at": "2026-05-19T00:33:10.703133+00:00Z",
-    "date_range": "2026-02-17 to 2026-05-18",
+    "generated_at": "2026-05-21T00:32:20.843589+00:00Z",
+    "date_range": "2026-02-19 to 2026-05-20",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1776398400,
+      "price": 30.74,
+      "volume": 64398,
+      "dollars": 1979594,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 29.3,
