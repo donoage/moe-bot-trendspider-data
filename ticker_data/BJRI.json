@@ -1,13 +1,19 @@
 {
   "metadata": {
     "ticker": "BJRI",
-    "generated_at": "2026-05-21T00:34:14.912138+00:00Z",
-    "date_range": "2026-02-19 to 2026-05-20",
+    "generated_at": "2026-05-23T00:45:49.922197+00:00Z",
+    "date_range": "2026-02-21 to 2026-05-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
   "levels": [
+    {
+      "price": 45.0,
+      "volume": 3249778,
+      "dollars": 146232507,
+      "rank": 1
+    },
     {
       "price": 33.5,
       "volume": 2473484,
@@ -31,12 +37,6 @@
       "volume": 1904946,
       "dollars": 67431183,
       "rank": 6
-    },
-    {
-      "price": 37.3,
-      "volume": 1791723,
-      "dollars": 66782456,
-      "rank": 7
     }
   ],
   "boxes": []

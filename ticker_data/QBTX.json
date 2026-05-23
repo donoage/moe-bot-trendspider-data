@@ -1,30 +1,55 @@
 {
   "metadata": {
     "ticker": "QBTX",
-    "generated_at": "2026-05-21T00:47:14.547174+00:00Z",
-    "date_range": "2026-02-19 to 2026-05-20",
+    "generated_at": "2026-05-23T01:27:26.059869+00:00Z",
+    "date_range": "2026-02-21 to 2026-05-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1779422400,
+      "price": 24.61,
+      "volume": 41370,
+      "dollars": 1018119,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
-      "price": 17.0,
-      "volume": 32782,
-      "dollars": 558605,
-      "rank": 31
+      "price": 26.3,
+      "volume": 46941,
+      "dollars": 1232044,
+      "rank": 9
     },
     {
-      "price": 14.7,
-      "volume": 35799,
-      "dollars": 527677,
-      "rank": 36
+      "price": 24.6,
+      "volume": 41370,
+      "dollars": 1018119,
+      "rank": 17
     },
     {
-      "price": 16.8,
-      "volume": 29760,
-      "dollars": 500860,
-      "rank": 42
+      "price": 25.5,
+      "volume": 37815,
+      "dollars": 962265,
+      "rank": 19
+    },
+    {
+      "price": 28.4,
+      "volume": 31428,
+      "dollars": 890879,
+      "rank": 20
+    },
+    {
+      "price": 19.2,
+      "volume": 40000,
+      "dollars": 767216,
+      "rank": 23
     }
   ],
   "boxes": []

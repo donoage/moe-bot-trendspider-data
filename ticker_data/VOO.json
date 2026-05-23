@@ -1,73 +1,12 @@
 {
   "metadata": {
     "ticker": "VOO",
-    "generated_at": "2026-05-21T00:52:38.214336+00:00Z",
-    "date_range": "2026-02-19 to 2026-05-20",
+    "generated_at": "2026-05-23T01:46:14.519212+00:00Z",
+    "date_range": "2026-02-21 to 2026-05-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1774238400,
-      "price": 604.51,
-      "volume": 6450569,
-      "dollars": 3899433466,
-      "rank": 2,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1771819200,
-      "price": 626.64,
-      "volume": 2200000,
-      "dollars": 1378610420,
-      "rank": 4,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1773979200,
-      "price": 605.72,
-      "volume": 2226500,
-      "dollars": 1348646489,
-      "rank": 5,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1771992000,
-      "price": 637.53,
-      "volume": 1900000,
-      "dollars": 1211307000,
-      "rank": 7,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1773806400,
-      "price": 608.44,
-      "volume": 1899400,
-      "dollars": 1155670936,
-      "rank": 8,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 622.1,
@@ -100,16 +39,5 @@
       "rank": 7
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 680.15,
-      "low_price": 582.46,
-      "volume": 14416579,
-      "dollars": 9108149373,
-      "trades": 94,
-      "date_range": "2026-02-19 to 2026-05-20",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

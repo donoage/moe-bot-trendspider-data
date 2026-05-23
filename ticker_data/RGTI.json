@@ -1,42 +1,67 @@
 {
   "metadata": {
     "ticker": "RGTI",
-    "generated_at": "2026-05-21T00:47:14.564257+00:00Z",
-    "date_range": "2026-02-19 to 2026-05-20",
+    "generated_at": "2026-05-23T01:27:26.076030+00:00Z",
+    "date_range": "2026-02-21 to 2026-05-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1779422400,
+      "price": 26.42,
+      "volume": 12938761,
+      "dollars": 341842065,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1779336000,
+      "price": 22.04,
+      "volume": 10740009,
+      "dollars": 236709798,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 22.0,
+      "volume": 22784435,
+      "dollars": 501826569,
+      "rank": 5
+    },
+    {
+      "price": 26.4,
+      "volume": 16668082,
+      "dollars": 440303746,
+      "rank": 7
+    },
     {
       "price": 17.0,
       "volume": 21711641,
       "dollars": 368653802,
-      "rank": 6
+      "rank": 8
     },
     {
       "price": 16.2,
       "volume": 22446502,
       "dollars": 363525851,
-      "rank": 7
+      "rank": 9
     },
     {
       "price": 19.1,
       "volume": 16924347,
       "dollars": 323164682,
-      "rank": 10
-    },
-    {
-      "price": 16.1,
-      "volume": 18772178,
-      "dollars": 302064145,
-      "rank": 13
-    },
-    {
-      "price": 16.9,
-      "volume": 16862141,
-      "dollars": 284845283,
-      "rank": 15
+      "rank": 12
     }
   ],
   "boxes": []

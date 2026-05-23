@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "IYZ",
-    "generated_at": "2026-05-21T00:41:47.868940+00:00Z",
-    "date_range": "2026-02-19 to 2026-05-20",
+    "generated_at": "2026-05-23T01:11:51.042415+00:00Z",
+    "date_range": "2026-02-21 to 2026-05-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -42,6 +42,18 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1779422400,
+      "price": 44.57,
+      "volume": 1570350,
+      "dollars": 69990499,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
@@ -64,28 +76,17 @@
       "rank": 73
     },
     {
+      "price": 44.6,
+      "volume": 1646119,
+      "dollars": 73369783,
+      "rank": 80
+    },
+    {
       "price": 39.7,
       "volume": 1544803,
       "dollars": 61350872,
-      "rank": 94
-    },
-    {
-      "price": 39.1,
-      "volume": 1400745,
-      "dollars": 54742798,
-      "rank": 0
+      "rank": 95
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 42.56,
-      "low_price": 38.67,
-      "volume": 5820225,
-      "dollars": 236259604,
-      "trades": 5,
-      "date_range": "2026-02-19 to 2026-05-20",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }
