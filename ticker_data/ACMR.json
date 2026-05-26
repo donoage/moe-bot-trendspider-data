@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "ACMR",
-    "generated_at": "2026-05-23T00:36:32.124364+00:00Z",
-    "date_range": "2026-02-21 to 2026-05-22",
+    "generated_at": "2026-05-26T00:32:08.891779+00:00Z",
+    "date_range": "2026-02-24 to 2026-05-25",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 43.55,
+      "volume": 972649,
+      "dollars": 42358863,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1772510400,
+      "price": 51.54,
+      "volume": 694878,
+      "dollars": 35814012,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 38.0,

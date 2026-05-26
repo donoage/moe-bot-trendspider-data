@@ -1,13 +1,32 @@
 {
   "metadata": {
     "ticker": "AAPW",
-    "generated_at": "2026-05-23T00:36:32.115723+00:00Z",
-    "date_range": "2026-02-21 to 2026-05-22",
+    "generated_at": "2026-05-26T00:32:08.885274+00:00Z",
+    "date_range": "2026-02-24 to 2026-05-25",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 34.11,
+      "volume": 427230,
+      "dollars": 14572815,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 41.7,
+      "volume": 358437,
+      "dollars": 14932485,
+      "rank": 1
+    },
     {
       "price": 34.1,
       "volume": 427230,
@@ -31,12 +50,6 @@
       "volume": 27011,
       "dollars": 1002648,
       "rank": 5
-    },
-    {
-      "price": 41.1,
-      "volume": 21175,
-      "dollars": 870716,
-      "rank": 6
     }
   ],
   "boxes": []

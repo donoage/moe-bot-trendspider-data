@@ -1,25 +1,12 @@
 {
   "metadata": {
     "ticker": "XBI",
-    "generated_at": "2026-05-23T01:48:45.638006+00:00Z",
-    "date_range": "2026-02-21 to 2026-05-22",
+    "generated_at": "2026-05-26T01:00:25.993733+00:00Z",
+    "date_range": "2026-02-24 to 2026-05-25",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1771819200,
-      "price": 126.95,
-      "volume": 1975000,
-      "dollars": 250722892,
-      "rank": 13,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 125.6,
@@ -52,5 +39,16 @@
       "rank": 33
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 138.06,
+      "low_price": 123.96,
+      "volume": 1507274,
+      "dollars": 197671115,
+      "trades": 7,
+      "date_range": "2026-02-24 to 2026-05-25",
+      "color": "#FF6B6B"
+    }
+  ]
 }

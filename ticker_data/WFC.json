@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "WFC",
-    "generated_at": "2026-05-23T01:46:14.534266+00:00Z",
-    "date_range": "2026-02-21 to 2026-05-22",
+    "generated_at": "2026-05-26T00:59:31.381393+00:00Z",
+    "date_range": "2026-02-24 to 2026-05-25",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 77.6,
+      "volume": 13270984,
+      "dollars": 1029828358,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 72.5,
@@ -47,7 +60,7 @@
       "volume": 5695008,
       "dollars": 457682444,
       "trades": 8,
-      "date_range": "2026-02-21 to 2026-05-22",
+      "date_range": "2026-02-24 to 2026-05-25",
       "color": "#FF6B6B"
     }
   ]
