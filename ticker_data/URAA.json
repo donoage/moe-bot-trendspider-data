@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "URAA",
-    "generated_at": "2026-05-26T00:59:31.356969+00:00Z",
-    "date_range": "2026-02-24 to 2026-05-25",
+    "generated_at": "2026-05-28T00:51:01.974535+00:00Z",
+    "date_range": "2026-02-26 to 2026-05-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1779768000,
+      "price": 35.35,
+      "volume": 128073,
+      "dollars": 4527380,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1778040000,
       "price": 43.5,
       "volume": 15400,
       "dollars": 669900,
-      "rank": 12,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 43.35,
       "volume": 14782,
       "dollars": 640799,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,33 +46,33 @@
   ],
   "levels": [
     {
+      "price": 35.4,
+      "volume": 128073,
+      "dollars": 4527380,
+      "rank": 1
+    },
+    {
       "price": 43.5,
       "volume": 95616,
       "dollars": 4161702,
-      "rank": 1
+      "rank": 2
     },
     {
       "price": 46.8,
       "volume": 35446,
       "dollars": 1659581,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 37.2,
       "volume": 41940,
       "dollars": 1558490,
-      "rank": 4
+      "rank": 5
     },
     {
       "price": 31.5,
       "volume": 40079,
       "dollars": 1261686,
-      "rank": 5
-    },
-    {
-      "price": 50.0,
-      "volume": 23957,
-      "dollars": 1197315,
       "rank": 6
     }
   ],

@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "SAN",
-    "generated_at": "2026-05-26T00:52:51.828949+00:00Z",
-    "date_range": "2026-02-24 to 2026-05-25",
+    "generated_at": "2026-05-28T00:47:28.811840+00:00Z",
+    "date_range": "2026-02-26 to 2026-05-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1779768000,
+      "price": 12.49,
+      "volume": 3734484,
+      "dollars": 46643705,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1779422400,
       "price": 12.04,
       "volume": 3717929,
       "dollars": 44763865,
-      "rank": 19,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -23,9 +35,9 @@
   "levels": [
     {
       "price": 12.5,
-      "volume": 21343232,
-      "dollars": 266604435,
-      "rank": 24
+      "volume": 26698807,
+      "dollars": 333487070,
+      "rank": 20
     },
     {
       "price": 12.2,
@@ -34,21 +46,21 @@
       "rank": 28
     },
     {
-      "price": 12.0,
-      "volume": 13148547,
-      "dollars": 158046634,
-      "rank": 30
-    },
-    {
       "price": 12.4,
-      "volume": 12514040,
-      "dollars": 155085153,
-      "rank": 32
+      "volume": 13268942,
+      "dollars": 164425582,
+      "rank": 29
     },
     {
-      "price": 11.1,
-      "volume": 12289295,
-      "dollars": 136190710,
+      "price": 12.0,
+      "volume": 13485320,
+      "dollars": 162101381,
+      "rank": 31
+    },
+    {
+      "price": 12.6,
+      "volume": 11380359,
+      "dollars": 143285067,
       "rank": 37
     }
   ],

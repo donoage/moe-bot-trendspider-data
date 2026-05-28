@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "IBIT",
-    "generated_at": "2026-05-26T00:41:57.070032+00:00Z",
-    "date_range": "2026-02-24 to 2026-05-25",
+    "generated_at": "2026-05-28T00:40:23.201726+00:00Z",
+    "date_range": "2026-02-26 to 2026-05-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1779768000,
+      "price": 43.16,
+      "volume": 29212864,
+      "dollars": 1260827210,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1775620800,
       "price": 40.5,
       "volume": 11835189,
       "dollars": 479334622,
-      "rank": 2,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,45 +34,45 @@
   ],
   "levels": [
     {
+      "price": 43.2,
+      "volume": 34417538,
+      "dollars": 1485634616,
+      "rank": 1
+    },
+    {
       "price": 38.3,
       "volume": 19460773,
       "dollars": 745047783,
-      "rank": 9
+      "rank": 10
     },
     {
       "price": 40.5,
       "volume": 17951806,
       "dollars": 727012570,
-      "rank": 12
+      "rank": 13
     },
     {
       "price": 40.2,
       "volume": 17328994,
       "dollars": 696095209,
-      "rank": 15
+      "rank": 16
     },
     {
       "price": 39.7,
       "volume": 14962538,
       "dollars": 593854831,
-      "rank": 25
-    },
-    {
-      "price": 38.4,
-      "volume": 14893453,
-      "dollars": 571941486,
-      "rank": 31
+      "rank": 26
     }
   ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 42.98,
+      "high_price": 43.16,
       "low_price": 41.05,
-      "volume": 1512062,
-      "dollars": 62969486,
-      "trades": 2,
-      "date_range": "2026-02-24 to 2026-05-25",
+      "volume": 30724926,
+      "dollars": 1323796696,
+      "trades": 3,
+      "date_range": "2026-02-26 to 2026-05-27",
       "color": "#FF6B6B"
     }
   ]

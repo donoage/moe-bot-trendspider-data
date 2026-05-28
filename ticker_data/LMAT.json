@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "LMAT",
-    "generated_at": "2026-05-26T00:44:52.715441+00:00Z",
-    "date_range": "2026-02-24 to 2026-05-25",
+    "generated_at": "2026-05-28T00:42:29.637450+00:00Z",
+    "date_range": "2026-02-26 to 2026-05-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1779768000,
+      "price": 98.71,
+      "volume": 120700,
+      "dollars": 11914297,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1775620800,
       "price": 112.41,
       "volume": 97957,
       "dollars": 11011346,
-      "rank": 12,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 108.18,
       "volume": 81950,
       "dollars": 8865351,
-      "rank": 18,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,34 +58,34 @@
   ],
   "levels": [
     {
-      "price": 92.3,
-      "volume": 565154,
-      "dollars": 52137441,
-      "rank": 2
+      "price": 98.7,
+      "volume": 337774,
+      "dollars": 33340300,
+      "rank": 5
     },
     {
       "price": 106.3,
       "volume": 278248,
       "dollars": 29580404,
-      "rank": 5
-    },
-    {
-      "price": 92.1,
-      "volume": 309506,
-      "dollars": 28510093,
       "rank": 6
     },
     {
       "price": 107.9,
       "volume": 183041,
       "dollars": 19745760,
-      "rank": 12
+      "rank": 13
     },
     {
-      "price": 91.7,
-      "volume": 194323,
-      "dollars": 17824674,
-      "rank": 15
+      "price": 97.0,
+      "volume": 162647,
+      "dollars": 15772442,
+      "rank": 22
+    },
+    {
+      "price": 112.4,
+      "volume": 119967,
+      "dollars": 13485270,
+      "rank": 30
     }
   ],
   "boxes": []

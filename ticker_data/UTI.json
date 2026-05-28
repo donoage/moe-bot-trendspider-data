@@ -1,18 +1,18 @@
 {
   "metadata": {
     "ticker": "UTI",
-    "generated_at": "2026-05-26T00:59:31.360043+00:00Z",
-    "date_range": "2026-02-24 to 2026-05-25",
+    "generated_at": "2026-05-28T00:51:01.976665+00:00Z",
+    "date_range": "2026-02-26 to 2026-05-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1772164800,
-      "price": 36.2,
-      "volume": 336951,
-      "dollars": 12197626,
-      "rank": 16,
+      "timestamp": 1779768000,
+      "price": 39.97,
+      "volume": 4313779,
+      "dollars": 172421746,
+      "rank": 1,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -20,11 +20,35 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1779422400,
-      "price": 40.06,
-      "volume": 269199,
-      "dollars": 10784111,
-      "rank": 18,
+      "timestamp": 1779768000,
+      "price": 39.97,
+      "volume": 758300,
+      "dollars": 30309251,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1779768000,
+      "price": 39.97,
+      "volume": 700000,
+      "dollars": 27979000,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1772164800,
+      "price": 36.2,
+      "volume": 336951,
+      "dollars": 12197626,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,33 +58,33 @@
   ],
   "levels": [
     {
+      "price": 40.0,
+      "volume": 7203227,
+      "dollars": 287914035,
+      "rank": 1
+    },
+    {
       "price": 35.8,
       "volume": 1616540,
       "dollars": 57818197,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 31.5,
       "volume": 1611390,
       "dollars": 50752683,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 34.5,
       "volume": 925311,
       "dollars": 31937703,
-      "rank": 7
+      "rank": 8
     },
     {
       "price": 40.1,
       "volume": 731299,
       "dollars": 29301209,
-      "rank": 11
-    },
-    {
-      "price": 41.0,
-      "volume": 697000,
-      "dollars": 28575324,
       "rank": 12
     }
   ],

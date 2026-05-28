@@ -1,12 +1,32 @@
 {
   "metadata": {
     "ticker": "IREG",
-    "generated_at": "2026-05-26T00:41:57.084473+00:00Z",
-    "date_range": "2026-02-24 to 2026-05-25",
+    "generated_at": "2026-05-28T00:40:23.210889+00:00Z",
+    "date_range": "2026-02-26 to 2026-05-27",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1779854400,
+      "price": 26.68,
+      "volume": 20000,
+      "dollars": 533602,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 26.7,
+      "volume": 20000,
+      "dollars": 533602,
+      "rank": 1
+    }
+  ],
   "boxes": []
 }
