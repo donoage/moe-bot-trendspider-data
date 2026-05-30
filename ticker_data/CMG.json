@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "CMG",
-    "generated_at": "2026-05-28T00:35:21.096230+00:00Z",
-    "date_range": "2026-02-26 to 2026-05-27",
+    "generated_at": "2026-05-30T00:49:12.880072+00:00Z",
+    "date_range": "2026-02-28 to 2026-05-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1780027200,
+      "price": 31.86,
+      "volume": 9011391,
+      "dollars": 287102917,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1773979200,
       "price": 33.37,
       "volume": 7443116,
       "dollars": 248376780,
-      "rank": 17,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,45 +34,45 @@
   ],
   "levels": [
     {
-      "price": 37.6,
-      "volume": 41943239,
-      "dollars": 1578329479,
-      "rank": 2
-    },
-    {
       "price": 37.0,
       "volume": 22598366,
       "dollars": 836005570,
       "rank": 12
     },
     {
+      "price": 31.9,
+      "volume": 25569660,
+      "dollars": 815145272,
+      "rank": 15
+    },
+    {
       "price": 32.5,
-      "volume": 24294067,
-      "dollars": 789826822,
+      "volume": 24562032,
+      "dollars": 798537295,
       "rank": 17
     },
     {
       "price": 33.9,
       "volume": 22749915,
       "dollars": 771095593,
-      "rank": 18
+      "rank": 19
     },
     {
       "price": 33.4,
       "volume": 21624648,
       "dollars": 721735097,
-      "rank": 25
+      "rank": 26
     }
   ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 36.85,
+      "high_price": 36.5,
       "low_price": 31.79,
-      "volume": 4566378,
-      "dollars": 156882939,
-      "trades": 5,
-      "date_range": "2026-02-26 to 2026-05-27",
+      "volume": 3885478,
+      "dollars": 131791774,
+      "trades": 4,
+      "date_range": "2026-02-28 to 2026-05-29",
       "color": "#FF6B6B"
     }
   ]

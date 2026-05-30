@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "TTWO",
-    "generated_at": "2026-05-28T00:50:05.312328+00:00Z",
-    "date_range": "2026-02-26 to 2026-05-27",
+    "generated_at": "2026-05-30T01:38:22.586506+00:00Z",
+    "date_range": "2026-02-28 to 2026-05-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1780027200,
+      "price": 224.16,
+      "volume": 2181265,
+      "dollars": 488952362,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1773979200,
       "price": 200.63,
       "volume": 1222436,
       "dollars": 245257334,
-      "rank": 19,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,34 +34,34 @@
   ],
   "levels": [
     {
+      "price": 224.2,
+      "volume": 3607840,
+      "dollars": 808737580,
+      "rank": 5
+    },
+    {
       "price": 241.4,
       "volume": 2815096,
       "dollars": 679675480,
-      "rank": 6
+      "rank": 7
     },
     {
       "price": 226.3,
       "volume": 2882705,
       "dollars": 652306261,
-      "rank": 7
+      "rank": 8
     },
     {
       "price": 203.4,
       "volume": 2786584,
       "dollars": 566763811,
-      "rank": 8
+      "rank": 9
     },
     {
       "price": 247.4,
       "volume": 2210145,
       "dollars": 546789873,
-      "rank": 9
-    },
-    {
-      "price": 250.9,
-      "volume": 1988310,
-      "dollars": 498767538,
-      "rank": 12
+      "rank": 10
     }
   ],
   "boxes": []

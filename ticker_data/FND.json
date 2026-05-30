@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "FND",
-    "generated_at": "2026-05-28T00:38:14.528331+00:00Z",
-    "date_range": "2026-02-26 to 2026-05-27",
+    "generated_at": "2026-05-30T01:02:18.055941+00:00Z",
+    "date_range": "2026-02-28 to 2026-05-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -21,12 +21,6 @@
     }
   ],
   "levels": [
-    {
-      "price": 70.0,
-      "volume": 1957098,
-      "dollars": 136978194,
-      "rank": 14
-    },
     {
       "price": 49.0,
       "volume": 2705863,
@@ -50,18 +44,13 @@
       "volume": 2440293,
       "dollars": 116340852,
       "rank": 31
+    },
+    {
+      "price": 66.8,
+      "volume": 1699639,
+      "dollars": 113546428,
+      "rank": 32
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 49.65,
-      "low_price": 47.85,
-      "volume": 881030,
-      "dollars": 43055125,
-      "trades": 2,
-      "date_range": "2026-02-26 to 2026-05-27",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

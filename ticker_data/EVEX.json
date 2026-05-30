@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "EVEX",
-    "generated_at": "2026-05-28T00:38:14.513681+00:00Z",
-    "date_range": "2026-02-26 to 2026-05-27",
+    "generated_at": "2026-05-30T01:02:18.040598+00:00Z",
+    "date_range": "2026-02-28 to 2026-05-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1780027200,
+      "price": 3.45,
+      "volume": 513914,
+      "dollars": 1773003,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1773979200,
       "price": 2.4,
       "volume": 682968,
       "dollars": 1639123,
-      "rank": 18,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,10 +58,10 @@
       "rank": 17
     },
     {
-      "price": 2.5,
-      "volume": 492487,
-      "dollars": 1226683,
-      "rank": 26
+      "price": 3.5,
+      "volume": 513914,
+      "dollars": 1773003,
+      "rank": 19
     }
   ],
   "boxes": []

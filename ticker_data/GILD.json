@@ -1,50 +1,19 @@
 {
   "metadata": {
     "ticker": "GILD",
-    "generated_at": "2026-05-28T00:39:13.805540+00:00Z",
-    "date_range": "2026-02-26 to 2026-05-27",
+    "generated_at": "2026-05-30T01:08:03.306692+00:00Z",
+    "date_range": "2026-02-28 to 2026-05-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1773979200,
-      "price": 137.21,
-      "volume": 7304212,
-      "dollars": 1002210928,
-      "rank": 2,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1773892800,
-      "price": 141.11,
-      "volume": 3480816,
-      "dollars": 491177945,
-      "rank": 18,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1772164800,
-      "price": 148.95,
-      "volume": 3280546,
-      "dollars": 488637326,
-      "rank": 20,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
+    {
+      "price": 134.4,
+      "volume": 13463023,
+      "dollars": 1809739844,
+      "rank": 41
+    },
     {
       "price": 137.2,
       "volume": 9211037,
@@ -68,12 +37,6 @@
       "volume": 3959038,
       "dollars": 593970912,
       "rank": 0
-    },
-    {
-      "price": 141.1,
-      "volume": 4115232,
-      "dollars": 580688387,
-      "rank": 0
     }
   ],
   "boxes": [
@@ -84,7 +47,7 @@
       "volume": 623355,
       "dollars": 84295977,
       "trades": 3,
-      "date_range": "2026-02-26 to 2026-05-27",
+      "date_range": "2026-02-28 to 2026-05-29",
       "color": "#FF6B6B"
     }
   ]

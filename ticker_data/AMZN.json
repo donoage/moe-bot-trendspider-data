@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "AMZN",
-    "generated_at": "2026-05-28T00:33:35.115684+00:00Z",
-    "date_range": "2026-02-26 to 2026-05-27",
+    "generated_at": "2026-05-30T00:40:36.502684+00:00Z",
+    "date_range": "2026-02-28 to 2026-05-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1780027200,
+      "price": 270.64,
+      "volume": 14049692,
+      "dollars": 3802408642,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 223.3,
@@ -42,12 +55,12 @@
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 270.1,
+      "high_price": 270.76,
       "low_price": 219.3,
-      "volume": 1062169,
-      "dollars": 274475156,
-      "trades": 11,
-      "date_range": "2026-02-26 to 2026-05-27",
+      "volume": 1324814,
+      "dollars": 345481586,
+      "trades": 14,
+      "date_range": "2026-02-28 to 2026-05-29",
       "color": "#FF6B6B"
     }
   ]

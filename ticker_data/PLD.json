@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "PLD",
-    "generated_at": "2026-05-28T00:45:24.177011+00:00Z",
-    "date_range": "2026-02-26 to 2026-05-27",
+    "generated_at": "2026-05-30T01:31:55.538887+00:00Z",
+    "date_range": "2026-02-28 to 2026-05-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1780027200,
+      "price": 143.47,
+      "volume": 3609622,
+      "dollars": 517872468,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 127.5,
@@ -47,7 +60,7 @@
       "volume": 716286,
       "dollars": 102267105,
       "trades": 3,
-      "date_range": "2026-02-26 to 2026-05-27",
+      "date_range": "2026-02-28 to 2026-05-29",
       "color": "#FF6B6B"
     }
   ]

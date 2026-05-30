@@ -1,42 +1,55 @@
 {
   "metadata": {
     "ticker": "ACVA",
-    "generated_at": "2026-05-28T00:32:42.441686+00:00Z",
-    "date_range": "2026-02-26 to 2026-05-27",
+    "generated_at": "2026-05-30T00:35:11.385965+00:00Z",
+    "date_range": "2026-02-28 to 2026-05-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1780027200,
+      "price": 6.57,
+      "volume": 4946425,
+      "dollars": 32498012,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 6.6,
+      "volume": 8693400,
+      "dollars": 57237373,
+      "rank": 26
+    },
     {
       "price": 5.2,
       "volume": 6319129,
       "dollars": 32850004,
-      "rank": 62
+      "rank": 63
     },
     {
       "price": 5.4,
       "volume": 5133487,
       "dollars": 27742318,
-      "rank": 79
+      "rank": 80
     },
     {
       "price": 5.5,
       "volume": 4343982,
       "dollars": 23798246,
-      "rank": 94
+      "rank": 95
     },
     {
       "price": 4.7,
       "volume": 4911394,
       "dollars": 23089430,
-      "rank": 96
-    },
-    {
-      "price": 6.5,
-      "volume": 2607332,
-      "dollars": 16976442,
-      "rank": 0
+      "rank": 97
     }
   ],
   "boxes": []

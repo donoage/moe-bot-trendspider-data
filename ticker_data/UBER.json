@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "UBER",
-    "generated_at": "2026-05-28T00:50:05.315596+00:00Z",
-    "date_range": "2026-02-26 to 2026-05-27",
+    "generated_at": "2026-05-30T01:38:22.589575+00:00Z",
+    "date_range": "2026-02-28 to 2026-05-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1780027200,
+      "price": 70.4,
+      "volume": 17364203,
+      "dollars": 1222439891,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1773979200,
       "price": 73.89,
       "volume": 6772746,
       "dollars": 500438201,
-      "rank": 17,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,34 +34,34 @@
   ],
   "levels": [
     {
+      "price": 70.4,
+      "volume": 36951243,
+      "dollars": 2601626163,
+      "rank": 2
+    },
+    {
       "price": 73.9,
       "volume": 31087746,
       "dollars": 2297467747,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 73.1,
       "volume": 21453887,
       "dollars": 1568303629,
-      "rank": 6
+      "rank": 7
     },
     {
       "price": 74.6,
       "volume": 20652448,
       "dollars": 1540812778,
-      "rank": 8
+      "rank": 9
     },
     {
       "price": 71.4,
       "volume": 20132012,
       "dollars": 1437299794,
-      "rank": 10
-    },
-    {
-      "price": 72.7,
-      "volume": 18496837,
-      "dollars": 1344596840,
-      "rank": 16
+      "rank": 11
     }
   ],
   "boxes": [
@@ -60,7 +72,7 @@
       "volume": 250000,
       "dollars": 18525000,
       "trades": 1,
-      "date_range": "2026-02-26 to 2026-05-27",
+      "date_range": "2026-02-28 to 2026-05-29",
       "color": "#FF6B6B"
     }
   ]

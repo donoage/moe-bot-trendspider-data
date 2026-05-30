@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "ADBE",
-    "generated_at": "2026-05-28T00:32:42.441740+00:00Z",
-    "date_range": "2026-02-26 to 2026-05-27",
+    "generated_at": "2026-05-30T00:35:11.387297+00:00Z",
+    "date_range": "2026-02-28 to 2026-05-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 248.15,
+      "volume": 3163931,
+      "dollars": 785129477,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 248.2,
@@ -15,28 +28,28 @@
       "rank": 12
     },
     {
+      "price": 259.2,
+      "volume": 4472247,
+      "dollars": 1159239160,
+      "rank": 24
+    },
+    {
       "price": 257.8,
       "volume": 4117094,
       "dollars": 1061360180,
-      "rank": 27
+      "rank": 28
     },
     {
       "price": 276.8,
       "volume": 2637312,
       "dollars": 729980763,
-      "rank": 70
+      "rank": 71
     },
     {
       "price": 262.5,
       "volume": 2770871,
       "dollars": 727353266,
-      "rank": 71
-    },
-    {
-      "price": 260.9,
-      "volume": 2535151,
-      "dollars": 661366858,
-      "rank": 88
+      "rank": 72
     }
   ],
   "boxes": [
@@ -47,7 +60,7 @@
       "volume": 788344,
       "dollars": 195259753,
       "trades": 7,
-      "date_range": "2026-02-26 to 2026-05-27",
+      "date_range": "2026-02-28 to 2026-05-29",
       "color": "#FF6B6B"
     }
   ]

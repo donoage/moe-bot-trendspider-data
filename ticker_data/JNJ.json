@@ -1,37 +1,12 @@
 {
   "metadata": {
     "ticker": "JNJ",
-    "generated_at": "2026-05-28T00:41:35.773388+00:00Z",
-    "date_range": "2026-02-26 to 2026-05-27",
+    "generated_at": "2026-05-30T01:18:06.621602+00:00Z",
+    "date_range": "2026-02-28 to 2026-05-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1772164800,
-      "price": 248.43,
-      "volume": 7061726,
-      "dollars": 1754344590,
-      "rank": 8,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1773979200,
-      "price": 235.37,
-      "volume": 6733817,
-      "dollars": 1584938507,
-      "rank": 11,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 248.4,
@@ -46,21 +21,21 @@
       "rank": 0
     },
     {
+      "price": 230.8,
+      "volume": 10676726,
+      "dollars": 2464069619,
+      "rank": 0
+    },
+    {
+      "price": 225.3,
+      "volume": 9016707,
+      "dollars": 2031745365,
+      "rank": 0
+    },
+    {
       "price": 243.5,
       "volume": 7919515,
       "dollars": 1928052947,
-      "rank": 0
-    },
-    {
-      "price": 227.3,
-      "volume": 7694092,
-      "dollars": 1748619846,
-      "rank": 0
-    },
-    {
-      "price": 226.7,
-      "volume": 6697478,
-      "dollars": 1518385740,
       "rank": 0
     }
   ],
@@ -72,7 +47,7 @@
       "volume": 787767,
       "dollars": 187088639,
       "trades": 4,
-      "date_range": "2026-02-26 to 2026-05-27",
+      "date_range": "2026-02-28 to 2026-05-29",
       "color": "#FF6B6B"
     }
   ]

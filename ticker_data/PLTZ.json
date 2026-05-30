@@ -1,13 +1,25 @@
 {
   "metadata": {
     "ticker": "PLTZ",
-    "generated_at": "2026-05-28T00:45:24.181302+00:00Z",
-    "date_range": "2026-02-26 to 2026-05-27",
+    "generated_at": "2026-05-30T01:31:55.543918+00:00Z",
+    "date_range": "2026-02-28 to 2026-05-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
   "levels": [
+    {
+      "price": 24.2,
+      "volume": 342829,
+      "dollars": 8283841,
+      "rank": 1
+    },
+    {
+      "price": 23.9,
+      "volume": 346322,
+      "dollars": 8277766,
+      "rank": 2
+    },
     {
       "price": 35.7,
       "volume": 189596,
@@ -25,18 +37,6 @@
       "volume": 196093,
       "dollars": 5027914,
       "rank": 6
-    },
-    {
-      "price": 28.3,
-      "volume": 174284,
-      "dollars": 4931264,
-      "rank": 7
-    },
-    {
-      "price": 33.4,
-      "volume": 141469,
-      "dollars": 4723948,
-      "rank": 9
     }
   ],
   "boxes": []

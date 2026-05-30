@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "DELL",
-    "generated_at": "2026-05-28T00:37:09.347221+00:00Z",
-    "date_range": "2026-02-26 to 2026-05-27",
+    "generated_at": "2026-05-30T00:55:54.638506+00:00Z",
+    "date_range": "2026-02-28 to 2026-05-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1780027200,
+      "price": 420.91,
+      "volume": 2167437,
+      "dollars": 912295907,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1773979200,
       "price": 157.67,
       "volume": 3125349,
       "dollars": 492773776,
-      "rank": 4,
+      "rank": 5,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 164.66,
       "volume": 1629521,
       "dollars": 268316927,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -32,11 +44,11 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1772164800,
-      "price": 148.08,
-      "volume": 1754773,
-      "dollars": 259846785,
-      "rank": 18,
+      "timestamp": 1779940800,
+      "price": 317.05,
+      "volume": 826151,
+      "dollars": 261931174,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -52,28 +64,28 @@
       "rank": 2
     },
     {
+      "price": 420.9,
+      "volume": 3020417,
+      "dollars": 1271323680,
+      "rank": 3
+    },
+    {
       "price": 139.6,
       "volume": 4741371,
       "dollars": 661715734,
-      "rank": 7
-    },
-    {
-      "price": 124.0,
-      "volume": 5187214,
-      "dollars": 643233778,
       "rank": 8
     },
     {
       "price": 157.7,
       "volume": 3562826,
       "dollars": 561751511,
-      "rank": 12
+      "rank": 13
     },
     {
       "price": 144.2,
       "volume": 3894002,
       "dollars": 561388860,
-      "rank": 13
+      "rank": 14
     }
   ],
   "boxes": [
@@ -84,7 +96,7 @@
       "volume": 103181,
       "dollars": 28799385,
       "trades": 1,
-      "date_range": "2026-02-26 to 2026-05-27",
+      "date_range": "2026-02-28 to 2026-05-29",
       "color": "#FF6B6B"
     }
   ]

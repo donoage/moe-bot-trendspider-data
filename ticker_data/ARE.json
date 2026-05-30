@@ -1,37 +1,18 @@
 {
   "metadata": {
     "ticker": "ARE",
-    "generated_at": "2026-05-28T00:33:35.123117+00:00Z",
-    "date_range": "2026-02-26 to 2026-05-27",
+    "generated_at": "2026-05-30T00:40:36.517933+00:00Z",
+    "date_range": "2026-02-28 to 2026-05-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1772164800,
-      "price": 54.04,
-      "volume": 6238937,
-      "dollars": 337152155,
-      "rank": 5,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 54.0,
       "volume": 11692830,
       "dollars": 631792177,
       "rank": 4
-    },
-    {
-      "price": 54.6,
-      "volume": 4423359,
-      "dollars": 241653415,
-      "rank": 32
     },
     {
       "price": 47.9,
@@ -49,6 +30,12 @@
       "price": 53.8,
       "volume": 2324329,
       "dollars": 125018844,
+      "rank": 0
+    },
+    {
+      "price": 51.2,
+      "volume": 1896732,
+      "dollars": 97123990,
       "rank": 0
     }
   ],

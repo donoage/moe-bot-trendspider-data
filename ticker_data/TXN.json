@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "TXN",
-    "generated_at": "2026-05-28T00:50:05.314378+00:00Z",
-    "date_range": "2026-02-26 to 2026-05-27",
+    "generated_at": "2026-05-30T01:38:22.588388+00:00Z",
+    "date_range": "2026-02-28 to 2026-05-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1780027200,
+      "price": 305.68,
+      "volume": 6435279,
+      "dollars": 1967136084,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1773979200,
       "price": 187.19,
       "volume": 7277787,
       "dollars": 1362328948,
-      "rank": 2,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 281.08,
       "volume": 2706710,
       "dollars": 760802046,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,34 +46,34 @@
   ],
   "levels": [
     {
+      "price": 305.7,
+      "volume": 10462821,
+      "dollars": 3198292393,
+      "rank": 2
+    },
+    {
       "price": 192.4,
       "volume": 12666650,
       "dollars": 2436966168,
-      "rank": 6
+      "rank": 7
     },
     {
       "price": 198.2,
       "volume": 11860059,
       "dollars": 2350703644,
-      "rank": 8
+      "rank": 9
     },
     {
       "price": 187.2,
       "volume": 12044646,
       "dollars": 2254684545,
-      "rank": 10
+      "rank": 11
     },
     {
       "price": 189.1,
       "volume": 11898616,
       "dollars": 2250186237,
-      "rank": 11
-    },
-    {
-      "price": 193.3,
-      "volume": 11398538,
-      "dollars": 2203429777,
-      "rank": 13
+      "rank": 12
     }
   ],
   "boxes": [
@@ -72,7 +84,7 @@
       "volume": 221176,
       "dollars": 51023618,
       "trades": 2,
-      "date_range": "2026-02-26 to 2026-05-27",
+      "date_range": "2026-02-28 to 2026-05-29",
       "color": "#FF6B6B"
     }
   ]

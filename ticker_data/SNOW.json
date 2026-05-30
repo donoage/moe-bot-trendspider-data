@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "SNOW",
-    "generated_at": "2026-05-28T00:48:19.360878+00:00Z",
-    "date_range": "2026-02-26 to 2026-05-27",
+    "generated_at": "2026-05-30T01:36:13.954385+00:00Z",
+    "date_range": "2026-02-28 to 2026-05-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1780027200,
+      "price": 255.55,
+      "volume": 1772085,
+      "dollars": 452856321,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 184.7,
@@ -15,28 +28,28 @@
       "rank": 3
     },
     {
+      "price": 247.1,
+      "volume": 5651549,
+      "dollars": 1396433627,
+      "rank": 4
+    },
+    {
+      "price": 245.0,
+      "volume": 3992543,
+      "dollars": 978173935,
+      "rank": 7
+    },
+    {
       "price": 159.4,
       "volume": 6128639,
       "dollars": 976703367,
-      "rank": 7
+      "rank": 8
     },
     {
       "price": 127.8,
       "volume": 6628463,
       "dollars": 847114920,
       "rank": 9
-    },
-    {
-      "price": 199.0,
-      "volume": 4222464,
-      "dollars": 840272936,
-      "rank": 10
-    },
-    {
-      "price": 162.4,
-      "volume": 4735856,
-      "dollars": 769141321,
-      "rank": 11
     }
   ],
   "boxes": [
@@ -47,7 +60,7 @@
       "volume": 298200,
       "dollars": 51849525,
       "trades": 2,
-      "date_range": "2026-02-26 to 2026-05-27",
+      "date_range": "2026-02-28 to 2026-05-29",
       "color": "#FF6B6B"
     }
   ]

@@ -1,37 +1,12 @@
 {
   "metadata": {
     "ticker": "NHC",
-    "generated_at": "2026-05-28T00:43:24.094322+00:00Z",
-    "date_range": "2026-02-26 to 2026-05-27",
+    "generated_at": "2026-05-30T01:27:22.536557+00:00Z",
+    "date_range": "2026-02-28 to 2026-05-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1773979200,
-      "price": 158.81,
-      "volume": 333254,
-      "dollars": 52924067,
-      "rank": 2,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1775620800,
-      "price": 172.37,
-      "volume": 60013,
-      "dollars": 10344440,
-      "rank": 13,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 158.8,
@@ -46,22 +21,22 @@
       "rank": 15
     },
     {
+      "price": 184.4,
+      "volume": 23326,
+      "dollars": 4301780,
+      "rank": 58
+    },
+    {
       "price": 193.7,
       "volume": 21217,
       "dollars": 4108672,
-      "rank": 60
+      "rank": 61
     },
     {
       "price": 157.7,
       "volume": 25452,
       "dollars": 4014390,
-      "rank": 63
-    },
-    {
-      "price": 159.7,
-      "volume": 23067,
-      "dollars": 3683799,
-      "rank": 75
+      "rank": 64
     }
   ],
   "boxes": []

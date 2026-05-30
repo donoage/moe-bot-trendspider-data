@@ -1,37 +1,12 @@
 {
   "metadata": {
     "ticker": "MNTN",
-    "generated_at": "2026-05-28T00:43:24.065396+00:00Z",
-    "date_range": "2026-02-26 to 2026-05-27",
+    "generated_at": "2026-05-30T01:27:22.494626+00:00Z",
+    "date_range": "2026-02-28 to 2026-05-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1773979200,
-      "price": 9.01,
-      "volume": 339121,
-      "dollars": 3055480,
-      "rank": 16,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1773806400,
-      "price": 9.36,
-      "volume": 292068,
-      "dollars": 2733756,
-      "rank": 20,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 9.1,
@@ -40,22 +15,22 @@
       "rank": 16
     },
     {
+      "price": 9.4,
+      "volume": 424777,
+      "dollars": 3985202,
+      "rank": 23
+    },
+    {
       "price": 9.0,
       "volume": 339121,
       "dollars": 3055480,
-      "rank": 32
+      "rank": 33
     },
     {
       "price": 10.1,
       "volume": 277353,
       "dollars": 2797344,
-      "rank": 39
-    },
-    {
-      "price": 9.4,
-      "volume": 292068,
-      "dollars": 2733756,
-      "rank": 41
+      "rank": 40
     },
     {
       "price": 11.2,

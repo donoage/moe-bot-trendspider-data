@@ -1,24 +1,31 @@
 {
   "metadata": {
     "ticker": "TMC",
-    "generated_at": "2026-05-28T00:49:10.213096+00:00Z",
-    "date_range": "2026-02-26 to 2026-05-27",
+    "generated_at": "2026-05-30T01:37:17.889398+00:00Z",
+    "date_range": "2026-02-28 to 2026-05-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1780027200,
+      "price": 6.05,
+      "volume": 578165,
+      "dollars": 3497898,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 5.4,
       "volume": 6174375,
       "dollars": 33336924,
       "rank": 1
-    },
-    {
-      "price": 6.6,
-      "volume": 4915185,
-      "dollars": 32405840,
-      "rank": 3
     },
     {
       "price": 5.7,
@@ -37,6 +44,12 @@
       "volume": 3575130,
       "dollars": 22862883,
       "rank": 9
+    },
+    {
+      "price": 5.8,
+      "volume": 3810201,
+      "dollars": 22071879,
+      "rank": 11
     }
   ],
   "boxes": []
