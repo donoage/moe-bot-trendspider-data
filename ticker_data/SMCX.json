@@ -1,18 +1,37 @@
 {
   "metadata": {
     "ticker": "SMCX",
-    "generated_at": "2026-06-02T01:54:07.684727+00:00Z",
-    "date_range": "2026-03-03 to 2026-06-01",
+    "generated_at": "2026-06-02T17:27:33.688930+00:00Z",
+    "date_range": "2026-03-04 to 2026-06-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1780372800,
+      "price": 32.92,
+      "volume": 123456,
+      "dollars": 4064171,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 32.9,
+      "volume": 123456,
+      "dollars": 4064171,
+      "rank": 21
+    },
     {
       "price": 43.4,
       "volume": 89106,
       "dollars": 3863636,
-      "rank": 24
+      "rank": 25
     },
     {
       "price": 47.9,
@@ -21,21 +40,15 @@
       "rank": 0
     },
     {
+      "price": 33.0,
+      "volume": 35000,
+      "dollars": 1155350,
+      "rank": 0
+    },
+    {
       "price": 49.4,
       "volume": 22750,
       "dollars": 1123850,
-      "rank": 0
-    },
-    {
-      "price": 41.5,
-      "volume": 24137,
-      "dollars": 1001223,
-      "rank": 0
-    },
-    {
-      "price": 42.3,
-      "volume": 23173,
-      "dollars": 980713,
       "rank": 0
     }
   ],

@@ -1,25 +1,12 @@
 {
   "metadata": {
     "ticker": "NKE",
-    "generated_at": "2026-06-02T01:37:26.607293+00:00Z",
-    "date_range": "2026-03-03 to 2026-06-01",
+    "generated_at": "2026-06-02T17:20:33.829098+00:00Z",
+    "date_range": "2026-03-04 to 2026-06-02",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1780027200,
-      "price": 46.23,
-      "volume": 14304815,
-      "dollars": 661311597,
-      "rank": 9,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 55.4,
@@ -40,16 +27,16 @@
       "rank": 28
     },
     {
-      "price": 59.8,
-      "volume": 18474114,
-      "dollars": 1104564917,
-      "rank": 45
-    },
-    {
       "price": 55.2,
       "volume": 19577968,
       "dollars": 1080522684,
       "rank": 50
+    },
+    {
+      "price": 51.8,
+      "volume": 20653489,
+      "dollars": 1069544910,
+      "rank": 53
     }
   ],
   "boxes": [
@@ -60,7 +47,7 @@
       "volume": 1925470,
       "dollars": 84198365,
       "trades": 2,
-      "date_range": "2026-03-03 to 2026-06-01",
+      "date_range": "2026-03-04 to 2026-06-02",
       "color": "#FF6B6B"
     }
   ]
