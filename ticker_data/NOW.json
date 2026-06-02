@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "NOW",
-    "generated_at": "2026-05-30T01:29:40.488738+00:00Z",
-    "date_range": "2026-02-28 to 2026-05-29",
+    "generated_at": "2026-06-02T01:37:26.622938+00:00Z",
+    "date_range": "2026-03-03 to 2026-06-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1780027200,
+      "price": 124.37,
+      "volume": 5464187,
+      "dollars": 679580937,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773979200,
+      "price": 110.38,
+      "volume": 5236068,
+      "dollars": 577957185,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 124.4,
@@ -47,7 +72,7 @@
       "volume": 2093090,
       "dollars": 209095315,
       "trades": 8,
-      "date_range": "2026-02-28 to 2026-05-29",
+      "date_range": "2026-03-03 to 2026-06-01",
       "color": "#FF6B6B"
     }
   ]

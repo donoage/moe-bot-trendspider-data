@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "MSFT",
-    "generated_at": "2026-05-30T01:27:22.508378+00:00Z",
-    "date_range": "2026-02-28 to 2026-05-29",
+    "generated_at": "2026-06-02T01:29:31.236039+00:00Z",
+    "date_range": "2026-03-03 to 2026-06-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1780027200,
+      "price": 450.24,
+      "volume": 24980337,
+      "dollars": 11247146930,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773979200,
+      "price": 381.87,
+      "volume": 10729037,
+      "dollars": 4097097359,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 435.3,
@@ -16,8 +41,8 @@
     },
     {
       "price": 450.2,
-      "volume": 39027492,
-      "dollars": 17571502463,
+      "volume": 39085317,
+      "dollars": 17597537591,
       "rank": 3
     },
     {
@@ -47,7 +72,7 @@
       "volume": 1277293,
       "dollars": 519295692,
       "trades": 19,
-      "date_range": "2026-02-28 to 2026-05-29",
+      "date_range": "2026-03-03 to 2026-06-01",
       "color": "#FF6B6B"
     }
   ]

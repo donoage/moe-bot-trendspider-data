@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "SATG",
-    "generated_at": "2026-05-30T01:35:01.135992+00:00Z",
-    "date_range": "2026-02-28 to 2026-05-29",
+    "generated_at": "2026-06-02T01:49:29.980178+00:00Z",
+    "date_range": "2026-03-03 to 2026-06-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1780286400,
+      "price": 18.34,
+      "volume": 36476,
+      "dollars": 668911,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1780027200,
       "price": 17.14,
       "volume": 30000,
       "dollars": 514197,
-      "rank": 1,
+      "rank": 2,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,10 +34,16 @@
   ],
   "levels": [
     {
+      "price": 18.3,
+      "volume": 36476,
+      "dollars": 668911,
+      "rank": 1
+    },
+    {
       "price": 17.1,
       "volume": 30000,
       "dollars": 514197,
-      "rank": 1
+      "rank": 2
     }
   ],
   "boxes": []

@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "IYW",
-    "generated_at": "2026-05-30T01:18:06.618374+00:00Z",
-    "date_range": "2026-02-28 to 2026-05-29",
+    "generated_at": "2026-06-02T01:20:44.793565+00:00Z",
+    "date_range": "2026-03-03 to 2026-06-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773115200,
+      "price": 193.12,
+      "volume": 926063,
+      "dollars": 178841286,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 190.1,
@@ -44,10 +57,10 @@
       "box_number": 1,
       "high_price": 220.83,
       "low_price": 172.7,
-      "volume": 2326905,
-      "dollars": 442684835,
-      "trades": 7,
-      "date_range": "2026-02-28 to 2026-05-29",
+      "volume": 1984765,
+      "dollars": 377086333,
+      "trades": 6,
+      "date_range": "2026-03-03 to 2026-06-01",
       "color": "#FF6B6B"
     }
   ]

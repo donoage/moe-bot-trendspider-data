@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "JEPI",
-    "generated_at": "2026-05-30T01:18:06.619719+00:00Z",
-    "date_range": "2026-02-28 to 2026-05-29",
+    "generated_at": "2026-06-02T01:20:44.794701+00:00Z",
+    "date_range": "2026-03-03 to 2026-06-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1778731200,
+      "price": 55.93,
+      "volume": 5718385,
+      "dollars": 319829273,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 55.9,
@@ -47,7 +60,7 @@
       "volume": 10775599,
       "dollars": 606148335,
       "trades": 8,
-      "date_range": "2026-02-28 to 2026-05-29",
+      "date_range": "2026-03-03 to 2026-06-01",
       "color": "#FF6B6B"
     }
   ]

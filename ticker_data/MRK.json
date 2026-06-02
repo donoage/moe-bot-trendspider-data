@@ -1,22 +1,66 @@
 {
   "metadata": {
     "ticker": "MRK",
-    "generated_at": "2026-05-30T01:27:22.505504+00:00Z",
-    "date_range": "2026-02-28 to 2026-05-29",
+    "generated_at": "2026-06-02T01:29:31.233887+00:00Z",
+    "date_range": "2026-03-03 to 2026-06-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 114.18,
+      "volume": 17214164,
+      "dollars": 1965513245,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 123.8,
+      "volume": 55576290,
+      "dollars": 6880407863,
+      "rank": 2
+    },
+    {
+      "price": 121.5,
+      "volume": 34552329,
+      "dollars": 4198776997,
+      "rank": 6
+    },
+    {
+      "price": 109.2,
+      "volume": 34653287,
+      "dollars": 3783852371,
+      "rank": 10
+    },
+    {
+      "price": 114.2,
+      "volume": 31685817,
+      "dollars": 3618035646,
+      "rank": 13
+    },
+    {
+      "price": 117.2,
+      "volume": 19790213,
+      "dollars": 2319035044,
+      "rank": 55
+    }
+  ],
   "boxes": [
     {
       "box_number": 1,
       "high_price": 122.05,
       "low_price": 113.3,
-      "volume": 1986332,
-      "dollars": 232424383,
-      "trades": 6,
-      "date_range": "2026-02-28 to 2026-05-29",
+      "volume": 2184426,
+      "dollars": 255121993,
+      "trades": 7,
+      "date_range": "2026-03-03 to 2026-06-01",
       "color": "#FF6B6B"
     }
   ]

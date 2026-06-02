@@ -1,13 +1,19 @@
 {
   "metadata": {
     "ticker": "DSP",
-    "generated_at": "2026-05-30T00:55:54.655429+00:00Z",
-    "date_range": "2026-02-28 to 2026-05-29",
+    "generated_at": "2026-06-02T00:57:35.352740+00:00Z",
+    "date_range": "2026-03-03 to 2026-06-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
   "levels": [
+    {
+      "price": 13.8,
+      "volume": 739749,
+      "dollars": 10172637,
+      "rank": 7
+    },
     {
       "price": 9.8,
       "volume": 834733,
@@ -31,12 +37,6 @@
       "volume": 323738,
       "dollars": 4240713,
       "rank": 19
-    },
-    {
-      "price": 9.9,
-      "volume": 272130,
-      "dollars": 2689062,
-      "rank": 36
     }
   ],
   "boxes": []

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "WMT",
-    "generated_at": "2026-05-30T01:40:15.963871+00:00Z",
-    "date_range": "2026-02-28 to 2026-05-29",
+    "generated_at": "2026-06-02T02:08:35.515927+00:00Z",
+    "date_range": "2026-03-03 to 2026-06-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -40,6 +40,12 @@
       "rank": 1
     },
     {
+      "price": 114.4,
+      "volume": 36434283,
+      "dollars": 4166920437,
+      "rank": 44
+    },
+    {
       "price": 119.0,
       "volume": 34632100,
       "dollars": 4121864389,
@@ -56,24 +62,7 @@
       "volume": 18250889,
       "dollars": 2282824127,
       "rank": 0
-    },
-    {
-      "price": 131.5,
-      "volume": 14247166,
-      "dollars": 1872894834,
-      "rank": 0
     }
   ],
-  "boxes": [
-    {
-      "box_number": 1,
-      "high_price": 128.18,
-      "low_price": 128.09,
-      "volume": 403012,
-      "dollars": 51635849,
-      "trades": 2,
-      "date_range": "2026-02-28 to 2026-05-29",
-      "color": "#FF6B6B"
-    }
-  ]
+  "boxes": []
 }

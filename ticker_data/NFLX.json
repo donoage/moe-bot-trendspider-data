@@ -1,12 +1,49 @@
 {
   "metadata": {
     "ticker": "NFLX",
-    "generated_at": "2026-05-30T01:27:22.535849+00:00Z",
-    "date_range": "2026-02-28 to 2026-05-29",
+    "generated_at": "2026-06-02T01:29:31.245207+00:00Z",
+    "date_range": "2026-03-03 to 2026-06-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 91.82,
+      "volume": 15653484,
+      "dollars": 1437302900,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1774929600,
+      "price": 96.15,
+      "volume": 10022463,
+      "dollars": 963659817,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1780027200,
+      "price": 86.02,
+      "volume": 9951878,
+      "dollars": 856060545,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 96.2,
@@ -47,7 +84,7 @@
       "volume": 3681676,
       "dollars": 359997111,
       "trades": 7,
-      "date_range": "2026-02-28 to 2026-05-29",
+      "date_range": "2026-03-03 to 2026-06-01",
       "color": "#FF6B6B"
     }
   ]

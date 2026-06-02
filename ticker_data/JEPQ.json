@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "JEPQ",
-    "generated_at": "2026-05-30T01:18:06.619825+00:00Z",
-    "date_range": "2026-02-28 to 2026-05-29",
+    "generated_at": "2026-06-02T01:20:44.794827+00:00Z",
+    "date_range": "2026-03-03 to 2026-06-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1780027200,
+      "price": 61.09,
+      "volume": 3423647,
+      "dollars": 209150595,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 59.2,
@@ -47,7 +60,7 @@
       "volume": 3789211,
       "dollars": 230740804,
       "trades": 2,
-      "date_range": "2026-02-28 to 2026-05-29",
+      "date_range": "2026-03-03 to 2026-06-01",
       "color": "#FF6B6B"
     }
   ]

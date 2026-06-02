@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "FIS",
-    "generated_at": "2026-05-30T01:02:18.047739+00:00Z",
-    "date_range": "2026-02-28 to 2026-05-29",
+    "generated_at": "2026-06-02T00:59:15.924042+00:00Z",
+    "date_range": "2026-03-03 to 2026-06-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -28,9 +28,9 @@
     },
     {
       "price": 43.0,
-      "volume": 11065211,
-      "dollars": 475764995,
-      "rank": 69
+      "volume": 11360911,
+      "dollars": 488478617,
+      "rank": 67
     },
     {
       "price": 49.8,
@@ -39,5 +39,16 @@
       "rank": 0
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 50.15,
+      "low_price": 43.22,
+      "volume": 3552883,
+      "dollars": 166618646,
+      "trades": 6,
+      "date_range": "2026-03-03 to 2026-06-01",
+      "color": "#FF6B6B"
+    }
+  ]
 }

@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "GGLS",
-    "generated_at": "2026-05-30T01:08:03.304713+00:00Z",
-    "date_range": "2026-02-28 to 2026-05-29",
+    "generated_at": "2026-06-02T01:00:54.688248+00:00Z",
+    "date_range": "2026-03-03 to 2026-06-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1777867200,
+      "price": 5.44,
+      "volume": 403250,
+      "dollars": 2193559,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 6.2,

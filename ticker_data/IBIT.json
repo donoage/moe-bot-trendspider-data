@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "IBIT",
-    "generated_at": "2026-05-30T01:13:25.174576+00:00Z",
-    "date_range": "2026-02-28 to 2026-05-29",
+    "generated_at": "2026-06-02T01:17:30.793712+00:00Z",
+    "date_range": "2026-03-03 to 2026-06-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1779768000,
+      "price": 43.16,
+      "volume": 29212864,
+      "dollars": 1260827210,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1775620800,
+      "price": 40.5,
+      "volume": 11835189,
+      "dollars": 479334622,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 43.2,
@@ -15,21 +40,21 @@
       "rank": 1
     },
     {
+      "price": 40.5,
+      "volume": 20824282,
+      "dollars": 843321027,
+      "rank": 7
+    },
+    {
       "price": 38.3,
       "volume": 19460773,
       "dollars": 745047783,
-      "rank": 10
-    },
-    {
-      "price": 40.5,
-      "volume": 17951806,
-      "dollars": 727012570,
-      "rank": 13
+      "rank": 11
     },
     {
       "price": 40.2,
-      "volume": 17328994,
-      "dollars": 696095209,
+      "volume": 17400084,
+      "dollars": 698954917,
       "rank": 16
     },
     {
@@ -47,7 +72,7 @@
       "volume": 30724926,
       "dollars": 1323796696,
       "trades": 3,
-      "date_range": "2026-02-28 to 2026-05-29",
+      "date_range": "2026-03-03 to 2026-06-01",
       "color": "#FF6B6B"
     }
   ]

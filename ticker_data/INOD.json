@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "INOD",
-    "generated_at": "2026-05-30T01:13:25.178113+00:00Z",
-    "date_range": "2026-02-28 to 2026-05-29",
+    "generated_at": "2026-06-02T01:17:30.796111+00:00Z",
+    "date_range": "2026-03-03 to 2026-06-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1778472000,
+      "price": 103.83,
+      "volume": 209509,
+      "dollars": 21753319,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1780286400,
+      "price": 115.32,
+      "volume": 165932,
+      "dollars": 19135278,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 81.5,

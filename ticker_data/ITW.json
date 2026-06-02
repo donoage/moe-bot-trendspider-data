@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "ITW",
-    "generated_at": "2026-05-30T01:18:06.611112+00:00Z",
-    "date_range": "2026-02-28 to 2026-05-29",
+    "generated_at": "2026-06-02T01:20:44.780949+00:00Z",
+    "date_range": "2026-03-03 to 2026-06-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1780027200,
+      "price": 247.28,
+      "volume": 1184779,
+      "dollars": 292972151,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 266.9,
@@ -47,7 +60,7 @@
       "volume": 276047,
       "dollars": 68363039,
       "trades": 2,
-      "date_range": "2026-02-28 to 2026-05-29",
+      "date_range": "2026-03-03 to 2026-06-01",
       "color": "#FF6B6B"
     }
   ]

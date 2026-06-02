@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "ZYME",
-    "generated_at": "2026-05-30T01:40:15.983156+00:00Z",
-    "date_range": "2026-02-28 to 2026-05-29",
+    "generated_at": "2026-06-02T02:08:35.646227+00:00Z",
+    "date_range": "2026-03-03 to 2026-06-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1780286400,
+      "price": 24.54,
+      "volume": 1100429,
+      "dollars": 27004527,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1775620800,
       "price": 26.71,
       "volume": 463819,
       "dollars": 12388605,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,34 +34,34 @@
   ],
   "levels": [
     {
+      "price": 24.5,
+      "volume": 2063232,
+      "dollars": 50594760,
+      "rank": 3
+    },
+    {
       "price": 19.7,
       "volume": 2440210,
       "dollars": 47981175,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 25.0,
       "volume": 1541091,
       "dollars": 38532668,
-      "rank": 5
+      "rank": 6
     },
     {
       "price": 18.1,
       "volume": 2109218,
       "dollars": 38077327,
-      "rank": 6
+      "rank": 7
     },
     {
       "price": 24.0,
       "volume": 1565190,
       "dollars": 37575555,
-      "rank": 7
-    },
-    {
-      "price": 19.4,
-      "volume": 1474306,
-      "dollars": 28570825,
-      "rank": 15
+      "rank": 8
     }
   ],
   "boxes": []

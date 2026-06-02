@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "MO",
-    "generated_at": "2026-05-30T01:27:22.498415+00:00Z",
-    "date_range": "2026-02-28 to 2026-05-29",
+    "generated_at": "2026-06-02T01:29:31.219565+00:00Z",
+    "date_range": "2026-03-03 to 2026-06-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 64.47,
+      "volume": 18691267,
+      "dollars": 1205025983,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 64.5,
@@ -47,7 +60,7 @@
       "volume": 2017521,
       "dollars": 139479630,
       "trades": 5,
-      "date_range": "2026-02-28 to 2026-05-29",
+      "date_range": "2026-03-03 to 2026-06-01",
       "color": "#FF6B6B"
     }
   ]

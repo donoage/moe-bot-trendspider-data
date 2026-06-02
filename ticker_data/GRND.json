@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "GRND",
-    "generated_at": "2026-05-30T01:08:03.313489+00:00Z",
-    "date_range": "2026-02-28 to 2026-05-29",
+    "generated_at": "2026-06-02T01:00:54.693495+00:00Z",
+    "date_range": "2026-03-03 to 2026-06-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1778817600,
+      "price": 13.85,
+      "volume": 601650,
+      "dollars": 8332852,
+      "rank": 20,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 13.9,

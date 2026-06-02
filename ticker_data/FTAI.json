@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "FTAI",
-    "generated_at": "2026-05-30T01:02:18.059799+00:00Z",
-    "date_range": "2026-02-28 to 2026-05-29",
+    "generated_at": "2026-06-02T00:59:15.929328+00:00Z",
+    "date_range": "2026-03-03 to 2026-06-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -68,6 +68,48 @@
       "vcd": 0.0
     }
   ],
-  "levels": [],
-  "boxes": []
+  "levels": [
+    {
+      "price": 230.0,
+      "volume": 2676881,
+      "dollars": 615762936,
+      "rank": 3
+    },
+    {
+      "price": 260.3,
+      "volume": 828659,
+      "dollars": 215732989,
+      "rank": 5
+    },
+    {
+      "price": 280.4,
+      "volume": 451541,
+      "dollars": 126594034,
+      "rank": 17
+    },
+    {
+      "price": 244.0,
+      "volume": 450182,
+      "dollars": 109844408,
+      "rank": 25
+    },
+    {
+      "price": 236.7,
+      "volume": 440826,
+      "dollars": 104330894,
+      "rank": 31
+    }
+  ],
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 241.39,
+      "low_price": 241.39,
+      "volume": 85970,
+      "dollars": 20752298,
+      "trades": 1,
+      "date_range": "2026-03-03 to 2026-06-01",
+      "color": "#FF6B6B"
+    }
+  ]
 }

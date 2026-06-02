@@ -1,19 +1,26 @@
 {
   "metadata": {
     "ticker": "JNJ",
-    "generated_at": "2026-05-30T01:18:06.621602+00:00Z",
-    "date_range": "2026-02-28 to 2026-05-29",
+    "generated_at": "2026-06-02T01:20:44.795614+00:00Z",
+    "date_range": "2026-03-03 to 2026-06-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [
+  "prints": [
     {
-      "price": 248.4,
-      "volume": 10177473,
-      "dollars": 2528386717,
-      "rank": 99
-    },
+      "timestamp": 1773979200,
+      "price": 235.37,
+      "volume": 6733817,
+      "dollars": 1584938507,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
     {
       "price": 235.4,
       "volume": 10724811,
@@ -37,6 +44,12 @@
       "volume": 7919515,
       "dollars": 1928052947,
       "rank": 0
+    },
+    {
+      "price": 227.3,
+      "volume": 7694092,
+      "dollars": 1748619846,
+      "rank": 0
     }
   ],
   "boxes": [
@@ -47,7 +60,7 @@
       "volume": 787767,
       "dollars": 187088639,
       "trades": 4,
-      "date_range": "2026-02-28 to 2026-05-29",
+      "date_range": "2026-03-03 to 2026-06-01",
       "color": "#FF6B6B"
     }
   ]

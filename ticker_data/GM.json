@@ -1,17 +1,30 @@
 {
   "metadata": {
     "ticker": "GM",
-    "generated_at": "2026-05-30T01:08:03.310031+00:00Z",
-    "date_range": "2026-02-28 to 2026-05-29",
+    "generated_at": "2026-06-02T01:00:54.691104+00:00Z",
+    "date_range": "2026-03-03 to 2026-06-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 72.81,
+      "volume": 7373166,
+      "dollars": 536840216,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 82.4,
-      "volume": 18929947,
-      "dollars": 1559253555,
+      "volume": 18956636,
+      "dollars": 1561452358,
       "rank": 78
     },
     {
