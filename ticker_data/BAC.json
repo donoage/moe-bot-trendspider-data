@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "BAC",
-    "generated_at": "2026-06-02T16:58:43.582639+00:00Z",
-    "date_range": "2026-03-04 to 2026-06-02",
+    "generated_at": "2026-06-04T00:34:34.583277+00:00Z",
+    "date_range": "2026-03-05 to 2026-06-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1780372800,
+      "price": 52.48,
+      "volume": 17190660,
+      "dollars": 902165836,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1780027200,
       "price": 51.6,
       "volume": 16991147,
       "dollars": 876743185,
-      "rank": 17,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -47,8 +59,8 @@
     },
     {
       "price": 52.3,
-      "volume": 123550819,
-      "dollars": 6458212479,
+      "volume": 123672960,
+      "dollars": 6464596272,
       "rank": 47
     },
     {
@@ -58,10 +70,10 @@
       "rank": 50
     },
     {
-      "price": 46.8,
-      "volume": 130544690,
-      "dollars": 6108626869,
-      "rank": 59
+      "price": 52.5,
+      "volume": 118664774,
+      "dollars": 6228271156,
+      "rank": 54
     }
   ],
   "boxes": [
@@ -72,7 +84,7 @@
       "volume": 3472900,
       "dollars": 180314948,
       "trades": 6,
-      "date_range": "2026-03-04 to 2026-06-02",
+      "date_range": "2026-03-05 to 2026-06-03",
       "color": "#FF6B6B"
     }
   ]

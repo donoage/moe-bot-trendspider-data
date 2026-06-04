@@ -1,17 +1,30 @@
 {
   "metadata": {
     "ticker": "NMAX",
-    "generated_at": "2026-06-02T17:20:33.829271+00:00Z",
-    "date_range": "2026-03-04 to 2026-06-02",
+    "generated_at": "2026-06-04T00:44:57.323766+00:00Z",
+    "date_range": "2026-03-05 to 2026-06-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1780027200,
+      "price": 8.51,
+      "volume": 589631,
+      "dollars": 5017759,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 9.1,
-      "volume": 4153695,
-      "dollars": 37839892,
+      "volume": 4231885,
+      "dollars": 38548293,
       "rank": 1
     },
     {

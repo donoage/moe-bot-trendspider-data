@@ -1,12 +1,49 @@
 {
   "metadata": {
     "ticker": "NVDA",
-    "generated_at": "2026-06-02T17:20:33.846319+00:00Z",
-    "date_range": "2026-03-04 to 2026-06-02",
+    "generated_at": "2026-06-04T00:44:57.337143+00:00Z",
+    "date_range": "2026-03-05 to 2026-06-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1780027200,
+      "price": 211.14,
+      "volume": 81985755,
+      "dollars": 17310472310,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1773979200,
+      "price": 172.7,
+      "volume": 31613745,
+      "dollars": 5459693761,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1777521600,
+      "price": 199.57,
+      "volume": 26695556,
+      "dollars": 5327632110,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 211.1,
@@ -44,10 +81,10 @@
       "box_number": 1,
       "high_price": 219.12,
       "low_price": 185.95,
-      "volume": 973660,
-      "dollars": 195840395,
-      "trades": 7,
-      "date_range": "2026-03-04 to 2026-06-02",
+      "volume": 1190175,
+      "dollars": 242758892,
+      "trades": 8,
+      "date_range": "2026-03-05 to 2026-06-03",
       "color": "#FF6B6B"
     }
   ]

@@ -1,42 +1,55 @@
 {
   "metadata": {
     "ticker": "CAMT",
-    "generated_at": "2026-06-02T17:00:49.871927+00:00Z",
-    "date_range": "2026-03-04 to 2026-06-02",
+    "generated_at": "2026-06-04T00:35:26.171171+00:00Z",
+    "date_range": "2026-03-05 to 2026-06-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1780372800,
+      "price": 187.52,
+      "volume": 651245,
+      "dollars": 122121462,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 187.5,
+      "volume": 651245,
+      "dollars": 122121462,
+      "rank": 1
+    },
     {
       "price": 144.6,
       "volume": 345900,
       "dollars": 50012113,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 142.6,
       "volume": 342210,
       "dollars": 48800406,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 162.6,
       "volume": 276969,
       "dollars": 45037929,
-      "rank": 4
+      "rank": 5
     },
     {
       "price": 145.7,
       "volume": 272723,
       "dollars": 39729592,
-      "rank": 7
-    },
-    {
-      "price": 145.5,
-      "volume": 260800,
-      "dollars": 37946400,
-      "rank": 9
+      "rank": 8
     }
   ],
   "boxes": []

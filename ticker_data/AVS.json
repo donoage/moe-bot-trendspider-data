@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "AVS",
-    "generated_at": "2026-06-02T16:58:43.564933+00:00Z",
-    "date_range": "2026-03-04 to 2026-06-02",
+    "generated_at": "2026-06-04T00:34:34.573495+00:00Z",
+    "date_range": "2026-03-05 to 2026-06-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1780459200,
+      "price": 6.4,
+      "volume": 125000,
+      "dollars": 800000,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 8.9,
@@ -27,16 +40,16 @@
       "rank": 4
     },
     {
-      "price": 9.8,
-      "volume": 72132,
-      "dollars": 708336,
+      "price": 6.4,
+      "volume": 125000,
+      "dollars": 800000,
       "rank": 5
     },
     {
-      "price": 9.0,
-      "volume": 66000,
-      "dollars": 591379,
-      "rank": 9
+      "price": 9.8,
+      "volume": 72132,
+      "dollars": 708336,
+      "rank": 6
     }
   ],
   "boxes": []

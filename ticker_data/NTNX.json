@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "NTNX",
-    "generated_at": "2026-06-02T17:20:33.845328+00:00Z",
-    "date_range": "2026-03-04 to 2026-06-02",
+    "generated_at": "2026-06-04T00:44:57.336560+00:00Z",
+    "date_range": "2026-03-05 to 2026-06-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 39.48,
+      "volume": 2944379,
+      "dollars": 116244082,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1779422400,
+      "price": 47.12,
+      "volume": 2335112,
+      "dollars": 110030477,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 38.3,

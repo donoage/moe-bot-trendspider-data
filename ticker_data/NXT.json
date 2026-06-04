@@ -1,12 +1,49 @@
 {
   "metadata": {
     "ticker": "NXT",
-    "generated_at": "2026-06-02T17:20:33.850712+00:00Z",
-    "date_range": "2026-03-04 to 2026-06-02",
+    "generated_at": "2026-06-04T00:44:57.340652+00:00Z",
+    "date_range": "2026-03-05 to 2026-06-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 114.39,
+      "volume": 1958012,
+      "dollars": 223976992,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1776398400,
+      "price": 111.39,
+      "volume": 1218636,
+      "dollars": 135743864,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1780027200,
+      "price": 156.4,
+      "volume": 565494,
+      "dollars": 88443261,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 114.4,

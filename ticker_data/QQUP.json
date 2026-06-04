@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "QQUP",
-    "generated_at": "2026-06-02T17:24:10.083060+00:00Z",
-    "date_range": "2026-03-04 to 2026-06-02",
+    "generated_at": "2026-06-04T00:46:53.801773+00:00Z",
+    "date_range": "2026-03-05 to 2026-06-03",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1780459200,
+      "price": 65.89,
+      "volume": 78486,
+      "dollars": 5171442,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1773979200,
       "price": 45.65,
       "volume": 14200,
       "dollars": 648230,
-      "rank": 6,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,33 +34,33 @@
   ],
   "levels": [
     {
+      "price": 65.9,
+      "volume": 78486,
+      "dollars": 5171442,
+      "rank": 1
+    },
+    {
       "price": 55.9,
       "volume": 54024,
       "dollars": 3019941,
-      "rank": 1
+      "rank": 2
     },
     {
       "price": 61.9,
       "volume": 13600,
       "dollars": 841581,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 60.9,
       "volume": 12375,
       "dollars": 753636,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 61.8,
       "volume": 11154,
       "dollars": 688982,
-      "rank": 4
-    },
-    {
-      "price": 57.7,
-      "volume": 11800,
-      "dollars": 680978,
       "rank": 5
     }
   ],
