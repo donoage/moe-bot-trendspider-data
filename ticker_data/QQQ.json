@@ -1,18 +1,42 @@
 {
   "metadata": {
     "ticker": "QQQ",
-    "generated_at": "2026-06-04T00:46:53.799153+00:00Z",
-    "date_range": "2026-03-05 to 2026-06-03",
+    "generated_at": "2026-06-06T01:38:44.431035+00:00Z",
+    "date_range": "2026-03-07 to 2026-06-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1780632000,
+      "price": 707.86,
+      "volume": 1700000,
+      "dollars": 1203362000,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1778212800,
       "price": 707.2,
       "volume": 1700000,
       "dollars": 1202240000,
-      "rank": 13,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1780632000,
+      "price": 705.06,
+      "volume": 1679770,
+      "dollars": 1184338636,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -28,10 +52,16 @@
       "rank": 27
     },
     {
+      "price": 740.3,
+      "volume": 10280626,
+      "dollars": 7611048572,
+      "rank": 59
+    },
+    {
       "price": 609.3,
       "volume": 11783658,
       "dollars": 7179919749,
-      "rank": 70
+      "rank": 71
     },
     {
       "price": 626.2,
@@ -44,12 +74,6 @@
       "volume": 8799781,
       "dollars": 5386267555,
       "rank": 0
-    },
-    {
-      "price": 648.8,
-      "volume": 8142542,
-      "dollars": 5283006200,
-      "rank": 0
     }
   ],
   "boxes": [
@@ -57,10 +81,10 @@
       "box_number": 1,
       "high_price": 745.53,
       "low_price": 560.24,
-      "volume": 5204176,
-      "dollars": 3499076766,
+      "volume": 5107483,
+      "dollars": 3444014583,
       "trades": 57,
-      "date_range": "2026-03-05 to 2026-06-03",
+      "date_range": "2026-03-07 to 2026-06-05",
       "color": "#FF6B6B"
     }
   ]

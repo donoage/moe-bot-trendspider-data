@@ -1,42 +1,55 @@
 {
   "metadata": {
     "ticker": "SBIT",
-    "generated_at": "2026-06-04T00:47:51.693031+00:00Z",
-    "date_range": "2026-03-05 to 2026-06-03",
+    "generated_at": "2026-06-06T01:48:06.733789+00:00Z",
+    "date_range": "2026-03-07 to 2026-06-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1780632000,
+      "price": 66.97,
+      "volume": 64650,
+      "dollars": 4329610,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 67.0,
+      "volume": 113836,
+      "dollars": 7622639,
+      "rank": 2
+    },
     {
       "price": 57.1,
       "volume": 116978,
       "dollars": 6674835,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 42.3,
       "volume": 154234,
       "dollars": 6524917,
-      "rank": 4
+      "rank": 5
     },
     {
       "price": 40.9,
       "volume": 158930,
       "dollars": 6500814,
-      "rank": 6
+      "rank": 7
     },
     {
       "price": 42.5,
       "volume": 150376,
       "dollars": 6388945,
-      "rank": 7
-    },
-    {
-      "price": 41.7,
-      "volume": 144213,
-      "dollars": 6011263,
-      "rank": 9
+      "rank": 8
     }
   ],
   "boxes": []

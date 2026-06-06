@@ -1,17 +1,30 @@
 {
   "metadata": {
     "ticker": "LVMUY",
-    "generated_at": "2026-06-04T00:42:20.487304+00:00Z",
-    "date_range": "2026-03-05 to 2026-06-03",
+    "generated_at": "2026-06-06T01:29:58.239044+00:00Z",
+    "date_range": "2026-03-07 to 2026-06-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1780545600,
+      "price": 110.06,
+      "volume": 324990,
+      "dollars": 35766774,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 110.8,
-      "volume": 780120,
-      "dollars": 86442822,
+      "volume": 819240,
+      "dollars": 90778293,
       "rank": 1
     },
     {
@@ -33,10 +46,10 @@
       "rank": 11
     },
     {
-      "price": 107.6,
-      "volume": 429166,
-      "dollars": 46172757,
-      "rank": 18
+      "price": 110.1,
+      "volume": 524014,
+      "dollars": 57682834,
+      "rank": 14
     }
   ],
   "boxes": []

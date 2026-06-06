@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SPHR",
-    "generated_at": "2026-06-04T00:48:53.196061+00:00Z",
-    "date_range": "2026-03-05 to 2026-06-03",
+    "generated_at": "2026-06-06T01:51:01.243821+00:00Z",
+    "date_range": "2026-03-07 to 2026-06-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -92,11 +92,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1780545600,
+      "price": 142.18,
+      "volume": 202200,
+      "dollars": 28748796,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1780027200,
       "price": 138.48,
       "volume": 192698,
       "dollars": 26684819,
-      "rank": 11,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 107.43,
       "volume": 244100,
       "dollars": 26223663,
-      "rank": 12,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1775620800,
-      "price": 130.94,
-      "volume": 195086,
-      "dollars": 25544560,
       "rank": 13,
       "conditions": "",
       "exchange": "",
@@ -154,10 +154,10 @@
       "rank": 9
     },
     {
-      "price": 114.2,
-      "volume": 427646,
-      "dollars": 48846632,
-      "rank": 14
+      "price": 142.2,
+      "volume": 369223,
+      "dollars": 52496126,
+      "rank": 13
     }
   ],
   "boxes": []

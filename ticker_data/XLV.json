@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "XLV",
-    "generated_at": "2026-06-04T00:52:26.262690+00:00Z",
-    "date_range": "2026-03-05 to 2026-06-03",
+    "generated_at": "2026-06-06T02:04:15.026987+00:00Z",
+    "date_range": "2026-03-07 to 2026-06-05",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1780632000,
+      "price": 153.3,
+      "volume": 2920000,
+      "dollars": 447636000,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 146.6,
@@ -44,10 +57,10 @@
       "box_number": 1,
       "high_price": 154.33,
       "low_price": 142.97,
-      "volume": 9230476,
-      "dollars": 1362488184,
-      "trades": 28,
-      "date_range": "2026-03-05 to 2026-06-03",
+      "volume": 9481981,
+      "dollars": 1400716944,
+      "trades": 29,
+      "date_range": "2026-03-07 to 2026-06-05",
       "color": "#FF6B6B"
     }
   ]
