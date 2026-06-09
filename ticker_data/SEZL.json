@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "SEZL",
-    "generated_at": "2026-06-06T01:48:06.736451+00:00Z",
-    "date_range": "2026-03-07 to 2026-06-05",
+    "generated_at": "2026-06-09T01:00:00.894801+00:00Z",
+    "date_range": "2026-03-10 to 2026-06-08",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1780891200,
+      "price": 121.16,
+      "volume": 135378,
+      "dollars": 16402398,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1773979200,
       "price": 66.15,
       "volume": 207611,
       "dollars": 13733467,
-      "rank": 14,
+      "rank": 15,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,19 @@
       "price": 69.49,
       "volume": 189175,
       "dollars": 13145770,
-      "rank": 17,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1780891200,
+      "price": 121.16,
+      "volume": 100000,
+      "dollars": 12116000,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -52,16 +76,16 @@
       "rank": 5
     },
     {
+      "price": 121.2,
+      "volume": 235378,
+      "dollars": 28518398,
+      "rank": 6
+    },
+    {
       "price": 69.3,
       "volume": 404080,
       "dollars": 27994464,
-      "rank": 7
-    },
-    {
-      "price": 106.7,
-      "volume": 212394,
-      "dollars": 22664563,
-      "rank": 10
+      "rank": 8
     }
   ],
   "boxes": []

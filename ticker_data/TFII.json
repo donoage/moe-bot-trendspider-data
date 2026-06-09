@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "TFII",
-    "generated_at": "2026-06-06T01:54:06.018058+00:00Z",
-    "date_range": "2026-03-07 to 2026-06-05",
+    "generated_at": "2026-06-09T01:18:13.035583+00:00Z",
+    "date_range": "2026-03-10 to 2026-06-08",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1780891200,
+      "price": 163.34,
+      "volume": 212721,
+      "dollars": 34744997,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 100.1,
@@ -33,10 +46,10 @@
       "rank": 9
     },
     {
-      "price": 137.8,
-      "volume": 219125,
-      "dollars": 30199367,
-      "rank": 13
+      "price": 163.3,
+      "volume": 212721,
+      "dollars": 34744997,
+      "rank": 10
     }
   ],
   "boxes": []

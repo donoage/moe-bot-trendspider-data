@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "ONDG",
-    "generated_at": "2026-06-06T01:34:36.864375+00:00Z",
-    "date_range": "2026-03-07 to 2026-06-05",
+    "generated_at": "2026-06-09T00:54:47.848440+00:00Z",
+    "date_range": "2026-03-10 to 2026-06-08",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1780891200,
+      "price": 5.65,
+      "volume": 500829,
+      "dollars": 2829733,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1780027200,
       "price": 8.49,
       "volume": 200000,
       "dollars": 1698000,
-      "rank": 1,
+      "rank": 2,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 8.67,
       "volume": 72047,
       "dollars": 624647,
-      "rank": 2,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 7.97,
       "volume": 71275,
       "dollars": 568061,
-      "rank": 3,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,22 +58,28 @@
   ],
   "levels": [
     {
+      "price": 5.7,
+      "volume": 500829,
+      "dollars": 2829733,
+      "rank": 1
+    },
+    {
       "price": 8.5,
       "volume": 200000,
       "dollars": 1698000,
-      "rank": 1
+      "rank": 2
     },
     {
       "price": 8.7,
       "volume": 72047,
       "dollars": 624647,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 8.0,
       "volume": 71275,
       "dollars": 568061,
-      "rank": 3
+      "rank": 4
     }
   ],
   "boxes": []
