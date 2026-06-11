@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "AMZD",
-    "generated_at": "2026-06-09T00:35:53.721442+00:00Z",
-    "date_range": "2026-03-10 to 2026-06-08",
+    "generated_at": "2026-06-11T00:32:58.129464+00:00Z",
+    "date_range": "2026-03-12 to 2026-06-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1781064000,
+      "price": 9.53,
+      "volume": 166985,
+      "dollars": 1591367,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 11.3,

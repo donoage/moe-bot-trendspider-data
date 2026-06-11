@@ -1,13 +1,80 @@
 {
   "metadata": {
     "ticker": "AEM",
-    "generated_at": "2026-06-09T00:34:15.783555+00:00Z",
-    "date_range": "2026-03-10 to 2026-06-08",
+    "generated_at": "2026-06-11T00:31:23.280401+00:00Z",
+    "date_range": "2026-03-12 to 2026-06-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 179.13,
+      "volume": 3292630,
+      "dollars": 589808811,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1780027200,
+      "price": 180.39,
+      "volume": 750000,
+      "dollars": 135295350,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1780027200,
+      "price": 180.39,
+      "volume": 750000,
+      "dollars": 135295350,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1778126400,
+      "price": 187.8,
+      "volume": 629981,
+      "dollars": 118312825,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1778126400,
+      "price": 187.9,
+      "volume": 616479,
+      "dollars": 115834184,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 161.2,
+      "volume": 5617746,
+      "dollars": 905524977,
+      "rank": 1
+    },
     {
       "price": 179.1,
       "volume": 3909794,
@@ -31,12 +98,6 @@
       "volume": 832854,
       "dollars": 156406993,
       "rank": 40
-    },
-    {
-      "price": 184.0,
-      "volume": 709542,
-      "dollars": 130582446,
-      "rank": 55
     }
   ],
   "boxes": []

@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "ABBV",
-    "generated_at": "2026-06-09T00:34:15.771824+00:00Z",
-    "date_range": "2026-03-10 to 2026-06-08",
+    "generated_at": "2026-06-11T00:31:23.273768+00:00Z",
+    "date_range": "2026-03-12 to 2026-06-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 205.07,
+      "volume": 17464683,
+      "dollars": 3581482542,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 205.1,
@@ -47,7 +60,7 @@
       "volume": 724039,
       "dollars": 151173432,
       "trades": 4,
-      "date_range": "2026-03-10 to 2026-06-08",
+      "date_range": "2026-03-12 to 2026-06-10",
       "color": "#FF6B6B"
     }
   ]

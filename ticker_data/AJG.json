@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "AJG",
-    "generated_at": "2026-06-09T00:34:15.793373+00:00Z",
-    "date_range": "2026-03-10 to 2026-06-08",
+    "generated_at": "2026-06-11T00:31:23.289048+00:00Z",
+    "date_range": "2026-03-12 to 2026-06-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 214.82,
+      "volume": 1095703,
+      "dollars": 235378918,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 214.8,
@@ -47,7 +60,7 @@
       "volume": 785588,
       "dollars": 161884864,
       "trades": 2,
-      "date_range": "2026-03-10 to 2026-06-08",
+      "date_range": "2026-03-12 to 2026-06-10",
       "color": "#FF6B6B"
     }
   ]

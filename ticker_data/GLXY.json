@@ -1,18 +1,42 @@
 {
   "metadata": {
     "ticker": "GLXY",
-    "generated_at": "2026-06-09T00:46:20.854791+00:00Z",
-    "date_range": "2026-03-10 to 2026-06-08",
+    "generated_at": "2026-06-11T00:42:28.672700+00:00Z",
+    "date_range": "2026-03-12 to 2026-06-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1780977600,
+      "price": 31.88,
+      "volume": 4124000,
+      "dollars": 131473120,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1780977600,
+      "price": 32.68,
+      "volume": 1108060,
+      "dollars": 36211400,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1773892800,
       "price": 21.05,
       "volume": 1689409,
       "dollars": 35562059,
-      "rank": 16,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -28,27 +52,27 @@
       "rank": 1
     },
     {
+      "price": 31.9,
+      "volume": 5242062,
+      "dollars": 167142998,
+      "rank": 2
+    },
+    {
       "price": 24.8,
       "volume": 6375707,
       "dollars": 157987759,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 24.0,
       "volume": 5995072,
       "dollars": 143874098,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 18.5,
       "volume": 7503948,
       "dollars": 138640227,
-      "rank": 4
-    },
-    {
-      "price": 29.6,
-      "volume": 4368904,
-      "dollars": 129277647,
       "rank": 5
     }
   ],

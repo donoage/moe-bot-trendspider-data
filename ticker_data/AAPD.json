@@ -1,42 +1,55 @@
 {
   "metadata": {
     "ticker": "AAPD",
-    "generated_at": "2026-06-09T00:34:15.769897+00:00Z",
-    "date_range": "2026-03-10 to 2026-06-08",
+    "generated_at": "2026-06-11T00:31:23.272239+00:00Z",
+    "date_range": "2026-03-12 to 2026-06-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1776657600,
+      "price": 13.09,
+      "volume": 150000,
+      "dollars": 1963500,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 12.1,
+      "volume": 368325,
+      "dollars": 4453018,
+      "rank": 14
+    },
     {
       "price": 13.1,
       "volume": 288902,
       "dollars": 3777171,
-      "rank": 16
+      "rank": 17
+    },
+    {
+      "price": 12.0,
+      "volume": 219200,
+      "dollars": 2622390,
+      "rank": 19
     },
     {
       "price": 11.7,
       "volume": 150017,
       "dollars": 1752799,
-      "rank": 22
-    },
-    {
-      "price": 12.0,
-      "volume": 119200,
-      "dollars": 1425400,
-      "rank": 30
+      "rank": 24
     },
     {
       "price": 14.1,
       "volume": 96190,
       "dollars": 1353667,
-      "rank": 31
-    },
-    {
-      "price": 13.0,
-      "volume": 92800,
-      "dollars": 1201296,
-      "rank": 33
+      "rank": 32
     }
   ],
   "boxes": []

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SNDK",
-    "generated_at": "2026-06-09T01:01:42.985873+00:00Z",
-    "date_range": "2026-03-10 to 2026-06-08",
+    "generated_at": "2026-06-11T00:57:18.279595+00:00Z",
+    "date_range": "2026-03-12 to 2026-06-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -92,11 +92,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1780977600,
+      "price": 1646.54,
+      "volume": 622212,
+      "dollars": 1024496946,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1778472000,
       "price": 1547.56,
       "volume": 601813,
       "dollars": 931341726,
-      "rank": 9,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 753.69,
       "volume": 1233407,
       "dollars": 929606521,
-      "rank": 10,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1774238400,
-      "price": 702.49,
-      "volume": 1316753,
-      "dollars": 925005814,
       "rank": 11,
       "conditions": "",
       "exchange": "",
@@ -136,27 +136,27 @@
       "rank": 1
     },
     {
+      "price": 1646.5,
+      "volume": 1391350,
+      "dollars": 2290913429,
+      "rank": 3
+    },
+    {
       "price": 1695.0,
       "volume": 1203944,
       "dollars": 2040661001,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 709.7,
       "volume": 2838445,
       "dollars": 2014472800,
-      "rank": 4
+      "rank": 5
     },
     {
       "price": 702.5,
       "volume": 2550851,
       "dollars": 1791935228,
-      "rank": 5
-    },
-    {
-      "price": 1547.6,
-      "volume": 1103496,
-      "dollars": 1707726269,
       "rank": 6
     }
   ],
@@ -168,7 +168,7 @@
       "volume": 33442,
       "dollars": 45576663,
       "trades": 2,
-      "date_range": "2026-03-10 to 2026-06-08",
+      "date_range": "2026-03-12 to 2026-06-10",
       "color": "#FF6B6B"
     }
   ]

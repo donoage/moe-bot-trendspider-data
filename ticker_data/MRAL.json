@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "MRAL",
-    "generated_at": "2026-06-09T00:53:10.035398+00:00Z",
-    "date_range": "2026-03-10 to 2026-06-08",
+    "generated_at": "2026-06-11T00:48:56.785744+00:00Z",
+    "date_range": "2026-03-12 to 2026-06-10",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1780977600,
+      "price": 62.0,
+      "volume": 14500,
+      "dollars": 899000,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1780027200,
       "price": 82.89,
       "volume": 10400,
       "dollars": 862057,
-      "rank": 5,
+      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 60.0,
       "volume": 9000,
       "dollars": 540000,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,16 +46,22 @@
   ],
   "levels": [
     {
+      "price": 62.0,
+      "volume": 14500,
+      "dollars": 899000,
+      "rank": 5
+    },
+    {
       "price": 82.9,
       "volume": 10400,
       "dollars": 862057,
-      "rank": 5
+      "rank": 6
     },
     {
       "price": 60.0,
       "volume": 9000,
       "dollars": 540000,
-      "rank": 15
+      "rank": 16
     }
   ],
   "boxes": []
