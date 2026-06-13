@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "IREN",
-    "generated_at": "2026-06-11T00:44:03.688392+00:00Z",
-    "date_range": "2026-03-12 to 2026-06-10",
+    "generated_at": "2026-06-13T01:08:26.141445+00:00Z",
+    "date_range": "2026-03-14 to 2026-06-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -80,11 +80,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1781150400,
+      "price": 56.71,
+      "volume": 3773487,
+      "dollars": 213994447,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1780459200,
       "price": 65.48,
       "volume": 3223903,
       "dollars": 211101168,
-      "rank": 9,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,7 +108,7 @@
       "price": 52.94,
       "volume": 3952374,
       "dollars": 209238679,
-      "rank": 10,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 60.98,
       "volume": 3228717,
       "dollars": 196887162,
-      "rank": 11,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1778126400,
-      "price": 56.85,
-      "volume": 3252394,
-      "dollars": 184898598,
       "rank": 12,
       "conditions": "",
       "exchange": "",
@@ -130,15 +130,15 @@
   ],
   "levels": [
     {
-      "price": 41.0,
-      "volume": 22144294,
-      "dollars": 906915775,
+      "price": 55.2,
+      "volume": 16544778,
+      "dollars": 912600926,
       "rank": 1
     },
     {
-      "price": 55.2,
-      "volume": 16339578,
-      "dollars": 901283839,
+      "price": 41.0,
+      "volume": 22144294,
+      "dollars": 906915775,
       "rank": 2
     },
     {
@@ -148,15 +148,15 @@
       "rank": 3
     },
     {
-      "price": 66.6,
-      "volume": 8964269,
-      "dollars": 597031743,
+      "price": 59.8,
+      "volume": 11000352,
+      "dollars": 657793809,
       "rank": 4
     },
     {
-      "price": 52.9,
-      "volume": 10684773,
-      "dollars": 565517114,
+      "price": 66.6,
+      "volume": 8964269,
+      "dollars": 597031743,
       "rank": 5
     }
   ],

@@ -1,41 +1,54 @@
 {
   "metadata": {
     "ticker": "NVDL",
-    "generated_at": "2026-06-11T00:50:34.815929+00:00Z",
-    "date_range": "2026-03-12 to 2026-06-10",
+    "generated_at": "2026-06-13T01:18:31.362301+00:00Z",
+    "date_range": "2026-03-14 to 2026-06-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1781150400,
+      "price": 95.28,
+      "volume": 1260000,
+      "dollars": 120051666,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 95.3,
+      "volume": 1400706,
+      "dollars": 133460288,
+      "rank": 1
+    },
     {
       "price": 82.2,
       "volume": 1416427,
       "dollars": 116446336,
-      "rank": 1
+      "rank": 2
     },
     {
       "price": 74.0,
       "volume": 1399422,
       "dollars": 103550214,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 83.1,
       "volume": 1197436,
       "dollars": 99519898,
-      "rank": 4
+      "rank": 5
     },
     {
       "price": 68.8,
       "volume": 1262527,
       "dollars": 86853518,
-      "rank": 5
-    },
-    {
-      "price": 68.1,
-      "volume": 1266334,
-      "dollars": 86222048,
       "rank": 6
     }
   ],

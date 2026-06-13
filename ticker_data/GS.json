@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "GS",
-    "generated_at": "2026-06-11T00:42:28.676464+00:00Z",
-    "date_range": "2026-03-12 to 2026-06-10",
+    "generated_at": "2026-06-13T01:05:26.011145+00:00Z",
+    "date_range": "2026-03-14 to 2026-06-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1781150400,
+      "price": 1035.64,
+      "volume": 759191,
+      "dollars": 786248567,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1778472000,
       "price": 944.86,
       "volume": 692287,
       "dollars": 654114294,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 1045.0,
       "volume": 605003,
       "dollars": 632228135,
-      "rank": 18,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -72,7 +84,7 @@
       "volume": 24880,
       "dollars": 20545282,
       "trades": 1,
-      "date_range": "2026-03-12 to 2026-06-10",
+      "date_range": "2026-03-14 to 2026-06-12",
       "color": "#FF6B6B"
     }
   ]

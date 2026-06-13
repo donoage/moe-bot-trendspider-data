@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "MNDY",
-    "generated_at": "2026-06-11T00:47:24.253710+00:00Z",
-    "date_range": "2026-03-12 to 2026-06-10",
+    "generated_at": "2026-06-13T01:13:47.926377+00:00Z",
+    "date_range": "2026-03-14 to 2026-06-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -18,6 +18,18 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1781236800,
+      "price": 77.57,
+      "volume": 1115510,
+      "dollars": 86530110,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
@@ -28,28 +40,28 @@
       "rank": 1
     },
     {
+      "price": 77.6,
+      "volume": 1767610,
+      "dollars": 137146395,
+      "rank": 9
+    },
+    {
       "price": 75.3,
       "volume": 907733,
       "dollars": 68376604,
-      "rank": 39
+      "rank": 40
     },
     {
       "price": 73.6,
       "volume": 795363,
       "dollars": 58540664,
-      "rank": 50
+      "rank": 51
     },
     {
       "price": 90.5,
       "volume": 585749,
       "dollars": 52985827,
-      "rank": 60
-    },
-    {
-      "price": 77.6,
-      "volume": 652100,
-      "dollars": 50616285,
-      "rank": 66
+      "rank": 61
     }
   ],
   "boxes": []

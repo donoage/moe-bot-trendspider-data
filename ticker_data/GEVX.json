@@ -1,12 +1,50 @@
 {
   "metadata": {
     "ticker": "GEVX",
-    "generated_at": "2026-06-11T00:42:28.668118+00:00Z",
-    "date_range": "2026-03-12 to 2026-06-10",
+    "generated_at": "2026-06-13T01:05:26.003270+00:00Z",
+    "date_range": "2026-03-14 to 2026-06-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1781236800,
+      "price": 18.71,
+      "volume": 50000,
+      "dollars": 935500,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1781150400,
+      "price": 17.05,
+      "volume": 30000,
+      "dollars": 511500,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 18.7,
+      "volume": 50000,
+      "dollars": 935500,
+      "rank": 1
+    },
+    {
+      "price": 17.1,
+      "volume": 30000,
+      "dollars": 511500,
+      "rank": 5
+    }
+  ],
   "boxes": []
 }

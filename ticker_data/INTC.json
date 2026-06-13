@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "INTC",
-    "generated_at": "2026-06-11T00:44:03.685820+00:00Z",
-    "date_range": "2026-03-12 to 2026-06-10",
+    "generated_at": "2026-06-13T01:08:26.137672+00:00Z",
+    "date_range": "2026-03-14 to 2026-06-12",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -44,11 +44,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1781150400,
+      "price": 116.96,
+      "volume": 15313706,
+      "dollars": 1791091053,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1780632000,
       "price": 99.17,
       "volume": 14563314,
       "dollars": 1444243849,
-      "rank": 7,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -60,7 +72,7 @@
       "price": 108.15,
       "volume": 13321909,
       "dollars": 1440764458,
-      "rank": 8,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -72,7 +84,7 @@
       "price": 129.44,
       "volume": 10299076,
       "dollars": 1333112397,
-      "rank": 10,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -84,7 +96,7 @@
       "price": 118.96,
       "volume": 11125406,
       "dollars": 1323478297,
-      "rank": 11,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,7 +108,7 @@
       "price": 120.61,
       "volume": 10242429,
       "dollars": 1235339361,
-      "rank": 12,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 110.27,
       "volume": 11106021,
       "dollars": 1224660935,
-      "rank": 13,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1778817600,
-      "price": 108.77,
-      "volume": 10633033,
-      "dollars": 1156554999,
       "rank": 14,
       "conditions": "",
       "exchange": "",
@@ -131,8 +131,8 @@
   "levels": [
     {
       "price": 114.7,
-      "volume": 92085775,
-      "dollars": 10560412497,
+      "volume": 92128637,
+      "dollars": 10565327550,
       "rank": 3
     },
     {
@@ -168,7 +168,7 @@
       "volume": 4646046,
       "dollars": 436041630,
       "trades": 12,
-      "date_range": "2026-03-12 to 2026-06-10",
+      "date_range": "2026-03-14 to 2026-06-12",
       "color": "#FF6B6B"
     }
   ]
