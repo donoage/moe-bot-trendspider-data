@@ -1,18 +1,42 @@
 {
   "metadata": {
     "ticker": "ASMG",
-    "generated_at": "2026-06-13T00:41:36.780786+00:00Z",
-    "date_range": "2026-03-14 to 2026-06-12",
+    "generated_at": "2026-06-16T00:35:01.147544+00:00Z",
+    "date_range": "2026-03-17 to 2026-06-15",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1781496000,
+      "price": 60.54,
+      "volume": 50900,
+      "dollars": 3081486,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1781496000,
+      "price": 60.24,
+      "volume": 15000,
+      "dollars": 903600,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1780977600,
       "price": 50.4,
       "volume": 14000,
       "dollars": 705600,
-      "rank": 6,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +48,7 @@
       "price": 30.43,
       "volume": 22500,
       "dollars": 684675,
-      "rank": 8,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,34 +58,34 @@
   ],
   "levels": [
     {
+      "price": 60.5,
+      "volume": 50900,
+      "dollars": 3081486,
+      "rank": 1
+    },
+    {
       "price": 36.4,
       "volume": 29292,
       "dollars": 1066228,
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "price": 60.2,
+      "volume": 15000,
+      "dollars": 903600,
+      "rank": 5
     },
     {
       "price": 38.8,
       "volume": 19990,
       "dollars": 776011,
-      "rank": 4
+      "rank": 6
     },
     {
       "price": 50.4,
       "volume": 14000,
       "dollars": 705600,
-      "rank": 6
-    },
-    {
-      "price": 30.4,
-      "volume": 22500,
-      "dollars": 684675,
       "rank": 8
-    },
-    {
-      "price": 37.4,
-      "volume": 13445,
-      "dollars": 503044,
-      "rank": 11
     }
   ],
   "boxes": []

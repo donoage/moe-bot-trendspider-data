@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "LRCU",
-    "generated_at": "2026-06-13T01:13:47.918449+00:00Z",
-    "date_range": "2026-03-14 to 2026-06-12",
+    "generated_at": "2026-06-16T00:49:11.100841+00:00Z",
+    "date_range": "2026-03-17 to 2026-06-15",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1781496000,
+      "price": 91.79,
+      "volume": 11000,
+      "dollars": 1009690,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1776916800,
       "price": 48.9,
       "volume": 11217,
       "dollars": 548511,
-      "rank": 2,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 45.79,
       "volume": 11228,
       "dollars": 514130,
-      "rank": 3,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,16 +46,22 @@
   ],
   "levels": [
     {
+      "price": 91.8,
+      "volume": 11000,
+      "dollars": 1009690,
+      "rank": 2
+    },
+    {
       "price": 48.9,
       "volume": 11217,
       "dollars": 548511,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 45.8,
       "volume": 11228,
       "dollars": 514130,
-      "rank": 3
+      "rank": 4
     }
   ],
   "boxes": []
