@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "QURE",
-    "generated_at": "2026-06-16T00:52:58.414273+00:00Z",
-    "date_range": "2026-03-17 to 2026-06-15",
+    "generated_at": "2026-06-18T00:55:34.622622+00:00Z",
+    "date_range": "2026-03-19 to 2026-06-17",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1781668800,
+      "price": 48.16,
+      "volume": 419249,
+      "dollars": 20191031,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1773979200,
       "price": 16.09,
       "volume": 955200,
       "dollars": 15369168,
-      "rank": 17,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,34 +46,34 @@
   ],
   "levels": [
     {
+      "price": 36.8,
+      "volume": 6605968,
+      "dollars": 243161197,
+      "rank": 1
+    },
+    {
       "price": 24.0,
       "volume": 4006750,
       "dollars": 96129052,
       "rank": 2
     },
     {
+      "price": 46.0,
+      "volume": 1729644,
+      "dollars": 79492337,
+      "rank": 3
+    },
+    {
+      "price": 41.7,
+      "volume": 1491831,
+      "dollars": 62194584,
+      "rank": 5
+    },
+    {
       "price": 19.4,
       "volume": 2746655,
       "dollars": 53281305,
       "rank": 6
-    },
-    {
-      "price": 21.2,
-      "volume": 2277047,
-      "dollars": 48313923,
-      "rank": 7
-    },
-    {
-      "price": 21.9,
-      "volume": 2178695,
-      "dollars": 47645933,
-      "rank": 8
-    },
-    {
-      "price": 16.1,
-      "volume": 2888710,
-      "dollars": 46487393,
-      "rank": 9
     }
   ],
   "boxes": []

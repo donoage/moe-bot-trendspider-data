@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "FDNI",
-    "generated_at": "2026-06-16T00:43:34.689288+00:00Z",
-    "date_range": "2026-03-17 to 2026-06-15",
+    "generated_at": "2026-06-18T00:47:06.356726+00:00Z",
+    "date_range": "2026-03-19 to 2026-06-17",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1781582400,
+      "price": 26.52,
+      "volume": 197562,
+      "dollars": 5239344,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1776916800,
       "price": 28.18,
       "volume": 138687,
       "dollars": 3908199,
-      "rank": 17,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -28,27 +40,27 @@
       "rank": 2
     },
     {
+      "price": 26.5,
+      "volume": 245376,
+      "dollars": 6506893,
+      "rank": 8
+    },
+    {
       "price": 25.7,
       "volume": 243362,
       "dollars": 6250056,
-      "rank": 9
+      "rank": 10
     },
     {
       "price": 28.2,
       "volume": 138687,
       "dollars": 3908199,
-      "rank": 17
+      "rank": 18
     },
     {
       "price": 29.0,
       "volume": 92477,
       "dollars": 2683338,
-      "rank": 23
-    },
-    {
-      "price": 26.8,
-      "volume": 100000,
-      "dollars": 2678470,
       "rank": 24
     }
   ],

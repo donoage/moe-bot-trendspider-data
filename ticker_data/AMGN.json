@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "AMGN",
-    "generated_at": "2026-06-16T00:33:16.814636+00:00Z",
-    "date_range": "2026-03-17 to 2026-06-15",
+    "generated_at": "2026-06-18T00:33:48.047721+00:00Z",
+    "date_range": "2026-03-19 to 2026-06-17",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1773979200,
+      "price": 347.8,
+      "volume": 3983704,
+      "dollars": 1385532251,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 327.4,
@@ -16,9 +29,9 @@
     },
     {
       "price": 347.8,
-      "volume": 6306980,
-      "dollars": 2193567914,
-      "rank": 10
+      "volume": 7365396,
+      "dollars": 2561726443,
+      "rank": 4
     },
     {
       "price": 329.1,
@@ -27,15 +40,15 @@
       "rank": 0
     },
     {
-      "price": 329.6,
-      "volume": 2312336,
-      "dollars": 762158440,
+      "price": 344.6,
+      "volume": 2268342,
+      "dollars": 781592886,
       "rank": 0
     },
     {
-      "price": 344.6,
-      "volume": 2168342,
-      "dollars": 747133386,
+      "price": 329.6,
+      "volume": 2312336,
+      "dollars": 762158440,
       "rank": 0
     }
   ],
@@ -47,7 +60,7 @@
       "volume": 591248,
       "dollars": 202755973,
       "trades": 6,
-      "date_range": "2026-03-17 to 2026-06-15",
+      "date_range": "2026-03-19 to 2026-06-17",
       "color": "#FF6B6B"
     }
   ]

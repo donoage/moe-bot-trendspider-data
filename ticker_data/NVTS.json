@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "NVTS",
-    "generated_at": "2026-06-16T00:51:00.020596+00:00Z",
-    "date_range": "2026-03-17 to 2026-06-15",
+    "generated_at": "2026-06-18T00:53:36.764321+00:00Z",
+    "date_range": "2026-03-19 to 2026-06-17",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -92,11 +92,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1781582400,
+      "price": 22.09,
+      "volume": 2063506,
+      "dollars": 45582847,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1780027200,
       "price": 26.6,
       "volume": 1664659,
       "dollars": 44279929,
-      "rank": 13,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 8.75,
       "volume": 4867260,
       "dollars": 42588525,
-      "rank": 14,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1779768000,
-      "price": 31.79,
-      "volume": 1336159,
-      "dollars": 42476494,
       "rank": 15,
       "conditions": "",
       "exchange": "",
@@ -168,7 +168,7 @@
       "volume": 4867700,
       "dollars": 91269375,
       "trades": 1,
-      "date_range": "2026-03-17 to 2026-06-15",
+      "date_range": "2026-03-19 to 2026-06-17",
       "color": "#FF6B6B"
     }
   ]

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "IONS",
-    "generated_at": "2026-06-16T00:47:07.267171+00:00Z",
-    "date_range": "2026-03-17 to 2026-06-15",
+    "generated_at": "2026-06-18T00:49:40.507229+00:00Z",
+    "date_range": "2026-03-19 to 2026-06-17",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -30,14 +30,26 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1781582400,
+      "price": 73.09,
+      "volume": 649217,
+      "dollars": 47451270,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
     {
       "price": 74.8,
-      "volume": 3302121,
-      "dollars": 247014901,
-      "rank": 4
+      "volume": 3330621,
+      "dollars": 249147556,
+      "rank": 3
     },
     {
       "price": 79.6,
@@ -52,16 +64,16 @@
       "rank": 23
     },
     {
+      "price": 73.1,
+      "volume": 2270364,
+      "dollars": 165952626,
+      "rank": 25
+    },
+    {
       "price": 75.8,
       "volume": 2000361,
       "dollars": 151652302,
-      "rank": 29
-    },
-    {
-      "price": 73.3,
-      "volume": 1963232,
-      "dollars": 143862100,
-      "rank": 34
+      "rank": 30
     }
   ],
   "boxes": []
