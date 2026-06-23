@@ -1,18 +1,18 @@
 {
   "metadata": {
     "ticker": "IBM",
-    "generated_at": "2026-06-18T00:49:40.499758+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:41:44.297096+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1773979200,
-      "price": 241.77,
-      "volume": 4726211,
-      "dollars": 1142656033,
-      "rank": 6,
+      "timestamp": 1780027200,
+      "price": 297.8,
+      "volume": 3568854,
+      "dollars": 1062804721,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -20,11 +20,11 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1780027200,
-      "price": 297.8,
-      "volume": 3568854,
-      "dollars": 1062804721,
-      "rank": 7,
+      "timestamp": 1781755200,
+      "price": 249.1,
+      "volume": 3784666,
+      "dollars": 942760300,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -64,5 +64,16 @@
       "rank": 23
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 250.43,
+      "low_price": 250.43,
+      "volume": 189732,
+      "dollars": 47514584,
+      "trades": 1,
+      "date_range": "2026-03-24 to 2026-06-22",
+      "color": "#FF6B6B"
+    }
+  ]
 }

@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "AVGU",
-    "generated_at": "2026-06-18T00:40:42.099400+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:35:13.762596+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782100800,
+      "price": 38.87,
+      "volume": 28500,
+      "dollars": 1107795,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781496000,
       "price": 38.5,
       "volume": 28200,
       "dollars": 1085700,
-      "rank": 1,
+      "rank": 2,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 38.99,
       "volume": 13151,
       "dollars": 512757,
-      "rank": 3,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,22 +46,28 @@
   ],
   "levels": [
     {
+      "price": 38.9,
+      "volume": 28500,
+      "dollars": 1107795,
+      "rank": 1
+    },
+    {
       "price": 38.5,
       "volume": 28200,
       "dollars": 1085700,
-      "rank": 1
+      "rank": 2
     },
     {
       "price": 51.2,
       "volume": 10275,
       "dollars": 525669,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 39.0,
       "volume": 13151,
       "dollars": 512757,
-      "rank": 3
+      "rank": 4
     }
   ],
   "boxes": []

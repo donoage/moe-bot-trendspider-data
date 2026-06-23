@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "LOW",
-    "generated_at": "2026-06-18T00:51:38.988892+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:43:50.321621+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1781755200,
+      "price": 222.2,
+      "volume": 3088215,
+      "dollars": 686201373,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 220.5,

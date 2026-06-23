@@ -1,17 +1,17 @@
 {
   "metadata": {
     "ticker": "TE",
-    "generated_at": "2026-06-18T00:58:32.917295+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:50:55.412825+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1776398400,
-      "price": 5.03,
-      "volume": 12553293,
-      "dollars": 63143063,
+      "timestamp": 1781755200,
+      "price": 9.35,
+      "volume": 18665105,
+      "dollars": 174518731,
       "rank": 1,
       "conditions": "",
       "exchange": "",
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1773979200,
-      "price": 6.6,
-      "volume": 9320462,
-      "dollars": 61515049,
+      "timestamp": 1781755200,
+      "price": 9.35,
+      "volume": 9654900,
+      "dollars": 90273315,
       "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1776398400,
+      "price": 5.03,
+      "volume": 12553293,
+      "dollars": 63143063,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 9.04,
       "volume": 2783093,
       "dollars": 25159160,
-      "rank": 5,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -48,7 +60,7 @@
       "price": 10.96,
       "volume": 2159404,
       "dollars": 23667067,
-      "rank": 6,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -60,7 +72,19 @@
       "price": 11.5,
       "volume": 1676862,
       "dollars": 19283913,
-      "rank": 8,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782100800,
+      "price": 10.4,
+      "volume": 1808710,
+      "dollars": 18810584,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -72,7 +96,7 @@
       "price": 4.86,
       "volume": 3251572,
       "dollars": 15802639,
-      "rank": 9,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -84,7 +108,7 @@
       "price": 10.56,
       "volume": 1438408,
       "dollars": 15189588,
-      "rank": 10,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,31 +120,7 @@
       "price": 10.96,
       "volume": 1322800,
       "dollars": 14497888,
-      "rank": 11,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1775620800,
-      "price": 4.17,
-      "volume": 3078025,
-      "dollars": 12835364,
-      "rank": 12,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1779163200,
-      "price": 6.88,
-      "volume": 1837973,
-      "dollars": 12645254,
-      "rank": 13,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -130,33 +130,33 @@
   ],
   "levels": [
     {
+      "price": 9.4,
+      "volume": 31710562,
+      "dollars": 296607203,
+      "rank": 1
+    },
+    {
       "price": 5.0,
       "volume": 19178302,
       "dollars": 96202150,
-      "rank": 1
+      "rank": 2
     },
     {
       "price": 6.6,
       "volume": 13871509,
       "dollars": 91562639,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 5.3,
       "volume": 12972920,
       "dollars": 68684662,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 8.5,
       "volume": 7982678,
       "dollars": 67762364,
-      "rank": 4
-    },
-    {
-      "price": 6.4,
-      "volume": 10490620,
-      "dollars": 67408979,
       "rank": 5
     }
   ],

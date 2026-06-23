@@ -1,36 +1,49 @@
 {
   "metadata": {
     "ticker": "CLBT",
-    "generated_at": "2026-06-18T00:42:14.800051+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:36:19.044145+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1781755200,
+      "price": 12.83,
+      "volume": 1908241,
+      "dollars": 24482732,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 12.8,
+      "volume": 5267171,
+      "dollars": 67465266,
+      "rank": 7
+    },
     {
       "price": 12.1,
       "volume": 5552327,
       "dollars": 67068741,
-      "rank": 8
+      "rank": 9
     },
     {
       "price": 14.3,
       "volume": 3748975,
       "dollars": 53504996,
-      "rank": 12
+      "rank": 13
     },
     {
       "price": 13.1,
       "volume": 3778803,
       "dollars": 49482795,
-      "rank": 14
-    },
-    {
-      "price": 12.8,
-      "volume": 3358930,
-      "dollars": 42982534,
-      "rank": 21
+      "rank": 15
     },
     {
       "price": 12.0,

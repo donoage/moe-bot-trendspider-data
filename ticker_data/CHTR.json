@@ -1,42 +1,55 @@
 {
   "metadata": {
     "ticker": "CHTR",
-    "generated_at": "2026-06-18T00:42:14.798646+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:36:19.042324+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1781755200,
+      "price": 126.23,
+      "volume": 8886599,
+      "dollars": 1121755391,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 126.2,
+      "volume": 14012359,
+      "dollars": 1768771392,
+      "rank": 2
+    },
     {
       "price": 225.0,
       "volume": 6706862,
       "dollars": 1509045699,
-      "rank": 4
+      "rank": 5
     },
     {
       "price": 221.1,
       "volume": 3782929,
       "dollars": 836226491,
-      "rank": 12
+      "rank": 13
     },
     {
       "price": 205.0,
       "volume": 3924701,
       "dollars": 804562248,
-      "rank": 14
+      "rank": 15
     },
     {
       "price": 215.9,
       "volume": 2962170,
       "dollars": 639475502,
-      "rank": 27
-    },
-    {
-      "price": 238.3,
-      "volume": 2457279,
-      "dollars": 585570313,
-      "rank": 35
+      "rank": 28
     }
   ],
   "boxes": []

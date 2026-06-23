@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "CWAN",
-    "generated_at": "2026-06-18T00:43:46.210230+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:37:24.672397+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1782100800,
+      "price": 24.53,
+      "volume": 3395006,
+      "dollars": 83279497,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 24.1,
@@ -16,14 +29,14 @@
     },
     {
       "price": 24.2,
-      "volume": 32420890,
-      "dollars": 783779135,
+      "volume": 32445890,
+      "dollars": 784385135,
       "rank": 2
     },
     {
       "price": 24.3,
-      "volume": 29495935,
-      "dollars": 716845945,
+      "volume": 31464796,
+      "dollars": 764667243,
       "rank": 3
     },
     {
@@ -36,7 +49,7 @@
       "price": 24.4,
       "volume": 20452618,
       "dollars": 498552546,
-      "rank": 5
+      "rank": 6
     }
   ],
   "boxes": []

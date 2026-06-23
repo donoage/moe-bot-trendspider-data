@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "MASS",
-    "generated_at": "2026-06-18T00:51:38.994471+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:43:50.326019+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1781755200,
+      "price": 8.21,
+      "volume": 506162,
+      "dollars": 4155590,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 7.3,
@@ -27,15 +40,15 @@
       "rank": 15
     },
     {
+      "price": 8.2,
+      "volume": 600667,
+      "dollars": 4927695,
+      "rank": 16
+    },
+    {
       "price": 7.1,
       "volume": 673522,
       "dollars": 4799002,
-      "rank": 17
-    },
-    {
-      "price": 6.0,
-      "volume": 775689,
-      "dollars": 4651018,
       "rank": 18
     }
   ],

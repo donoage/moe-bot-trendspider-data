@@ -1,17 +1,17 @@
 {
   "metadata": {
     "ticker": "GWRE",
-    "generated_at": "2026-06-18T00:48:41.567722+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:40:36.695263+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1775707200,
-      "price": 124.3,
-      "volume": 1500000,
-      "dollars": 186450000,
+      "timestamp": 1781755200,
+      "price": 107.86,
+      "volume": 1996936,
+      "dollars": 215389516,
       "rank": 5,
       "conditions": "",
       "exchange": "",
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1773979200,
-      "price": 155.61,
-      "volume": 970792,
-      "dollars": 151064943,
-      "rank": 7,
+      "timestamp": 1775707200,
+      "price": 124.3,
+      "volume": 1500000,
+      "dollars": 186450000,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1781755200,
+      "price": 107.86,
+      "volume": 1118668,
+      "dollars": 120659530,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,34 +46,34 @@
   ],
   "levels": [
     {
+      "price": 107.9,
+      "volume": 3604389,
+      "dollars": 388769089,
+      "rank": 2
+    },
+    {
       "price": 122.5,
       "volume": 2915884,
       "dollars": 357219682,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 124.3,
       "volume": 1654570,
       "dollars": 205663051,
-      "rank": 9
+      "rank": 10
     },
     {
       "price": 112.6,
       "volume": 1547377,
       "dollars": 174193661,
-      "rank": 13
+      "rank": 14
     },
     {
       "price": 155.6,
       "volume": 1074280,
       "dollars": 167166250,
-      "rank": 15
-    },
-    {
-      "price": 118.0,
-      "volume": 1357468,
-      "dollars": 160141360,
-      "rank": 17
+      "rank": 16
     }
   ],
   "boxes": [
@@ -72,7 +84,7 @@
       "volume": 199500,
       "dollars": 34164375,
       "trades": 1,
-      "date_range": "2026-03-19 to 2026-06-17",
+      "date_range": "2026-03-24 to 2026-06-22",
       "color": "#FF6B6B"
     }
   ]

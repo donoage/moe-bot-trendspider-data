@@ -1,24 +1,12 @@
 {
   "metadata": {
     "ticker": "EZPW",
-    "generated_at": "2026-06-18T00:47:06.353766+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:39:33.330512+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1773979200,
-      "price": 25.44,
-      "volume": 645335,
-      "dollars": 16417322,
-      "rank": 12,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1781150400,
       "price": 31.29,
@@ -42,6 +30,18 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1781755200,
+      "price": 31.72,
+      "volume": 448893,
+      "dollars": 14238885,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
@@ -58,22 +58,22 @@
       "rank": 46
     },
     {
+      "price": 31.7,
+      "volume": 840724,
+      "dollars": 26664310,
+      "rank": 57
+    },
+    {
       "price": 24.8,
       "volume": 1013639,
       "dollars": 25162732,
-      "rank": 63
+      "rank": 64
     },
     {
       "price": 24.9,
       "volume": 913870,
       "dollars": 22756991,
-      "rank": 72
-    },
-    {
-      "price": 31.3,
-      "volume": 682656,
-      "dollars": 21358297,
-      "rank": 78
+      "rank": 73
     }
   ],
   "boxes": []

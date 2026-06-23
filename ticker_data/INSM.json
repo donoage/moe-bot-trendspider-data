@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "INSM",
-    "generated_at": "2026-06-18T00:49:40.504648+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:41:44.300375+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1773979200,
-      "price": 136.0,
-      "volume": 2377451,
-      "dollars": 323333336,
-      "rank": 8,
+      "timestamp": 1781755200,
+      "price": 95.8,
+      "volume": 9823556,
+      "dollars": 941096664,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1781755200,
+      "price": 95.8,
+      "volume": 5826530,
+      "dollars": 558181574,
+      "rank": 5,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -28,28 +40,28 @@
       "rank": 1
     },
     {
+      "price": 95.8,
+      "volume": 17067209,
+      "dollars": 1635036560,
+      "rank": 4
+    },
+    {
       "price": 144.8,
       "volume": 5720336,
       "dollars": 828085804,
-      "rank": 4
+      "rank": 5
     },
     {
       "price": 136.0,
       "volume": 3060161,
       "dollars": 416176894,
-      "rank": 6
+      "rank": 7
     },
     {
       "price": 163.5,
       "volume": 2331404,
       "dollars": 381201504,
-      "rank": 9
-    },
-    {
-      "price": 148.6,
-      "volume": 1496940,
-      "dollars": 222399049,
-      "rank": 17
+      "rank": 10
     }
   ],
   "boxes": [
@@ -60,7 +72,7 @@
       "volume": 686011,
       "dollars": 71796665,
       "trades": 3,
-      "date_range": "2026-03-19 to 2026-06-17",
+      "date_range": "2026-03-24 to 2026-06-22",
       "color": "#FF6B6B"
     }
   ]

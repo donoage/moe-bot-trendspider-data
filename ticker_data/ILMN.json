@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "ILMN",
-    "generated_at": "2026-06-18T00:49:40.502527+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:41:44.299486+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1781755200,
+      "price": 161.93,
+      "volume": 1917834,
+      "dollars": 310554859,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 176.4,
@@ -47,7 +60,7 @@
       "volume": 794445,
       "dollars": 97926343,
       "trades": 2,
-      "date_range": "2026-03-19 to 2026-06-17",
+      "date_range": "2026-03-24 to 2026-06-22",
       "color": "#FF6B6B"
     }
   ]

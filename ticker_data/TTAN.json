@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "TTAN",
-    "generated_at": "2026-06-18T00:59:34.298971+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:51:54.624251+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1781755200,
+      "price": 64.23,
+      "volume": 614265,
+      "dollars": 39454240,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1778558400,
       "price": 57.5,
       "volume": 551009,
       "dollars": 31683017,
-      "rank": 18,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,21 +46,21 @@
       "rank": 21
     },
     {
+      "price": 64.2,
+      "volume": 638733,
+      "dollars": 41025815,
+      "rank": 25
+    },
+    {
       "price": 88.9,
       "volume": 444857,
       "dollars": 39543338,
-      "rank": 26
+      "rank": 27
     },
     {
-      "price": 66.6,
-      "volume": 518097,
-      "dollars": 34490815,
-      "rank": 33
-    },
-    {
-      "price": 62.5,
-      "volume": 548813,
-      "dollars": 34282798,
+      "price": 64.3,
+      "volume": 538827,
+      "dollars": 34635738,
       "rank": 34
     }
   ],

@@ -1,18 +1,18 @@
 {
   "metadata": {
     "ticker": "NHC",
-    "generated_at": "2026-06-18T00:52:37.969521+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:44:52.447966+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1773979200,
-      "price": 158.81,
-      "volume": 333254,
-      "dollars": 52924067,
-      "rank": 2,
+      "timestamp": 1781755200,
+      "price": 201.53,
+      "volume": 256345,
+      "dollars": 51661207,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +24,19 @@
       "price": 172.37,
       "volume": 60013,
       "dollars": 10344440,
-      "rank": 13,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1781755200,
+      "price": 201.53,
+      "volume": 42803,
+      "dollars": 8626088,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,34 +46,34 @@
   ],
   "levels": [
     {
+      "price": 201.5,
+      "volume": 337798,
+      "dollars": 68076430,
+      "rank": 2
+    },
+    {
       "price": 158.8,
       "volume": 333254,
       "dollars": 52924067,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 172.4,
       "volume": 60013,
       "dollars": 10344440,
-      "rank": 15
+      "rank": 16
+    },
+    {
+      "price": 201.4,
+      "volume": 29728,
+      "dollars": 5987219,
+      "rank": 35
     },
     {
       "price": 196.0,
       "volume": 27996,
       "dollars": 5486654,
-      "rank": 41
-    },
-    {
-      "price": 184.4,
-      "volume": 23326,
-      "dollars": 4301780,
-      "rank": 59
-    },
-    {
-      "price": 193.7,
-      "volume": 21217,
-      "dollars": 4108672,
-      "rank": 62
+      "rank": 43
     }
   ],
   "boxes": []

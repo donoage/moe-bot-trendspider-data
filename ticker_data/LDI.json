@@ -1,37 +1,12 @@
 {
   "metadata": {
     "ticker": "LDI",
-    "generated_at": "2026-06-18T00:50:39.355124+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:42:48.316053+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1773979200,
-      "price": 1.48,
-      "volume": 4676195,
-      "dollars": 6920768,
-      "rank": 3,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1773979200,
-      "price": 1.48,
-      "volume": 1221925,
-      "dollars": 1808449,
-      "rank": 19,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 1.3,
@@ -56,6 +31,12 @@
       "volume": 1179386,
       "dollars": 1839537,
       "rank": 31
+    },
+    {
+      "price": 1.2,
+      "volume": 1252380,
+      "dollars": 1465284,
+      "rank": 38
     }
   ],
   "boxes": []

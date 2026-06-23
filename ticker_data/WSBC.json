@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "WSBC",
-    "generated_at": "2026-06-18T01:01:23.374891+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:53:37.451166+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1773979200,
-      "price": 33.12,
-      "volume": 433621,
-      "dollars": 14361527,
-      "rank": 20,
+      "timestamp": 1781755200,
+      "price": 36.29,
+      "volume": 10058592,
+      "dollars": 365026303,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782100800,
+      "price": 36.7,
+      "volume": 521808,
+      "dollars": 19150353,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,34 +34,34 @@
   ],
   "levels": [
     {
+      "price": 36.3,
+      "volume": 14869599,
+      "dollars": 539637602,
+      "rank": 1
+    },
+    {
       "price": 35.1,
       "volume": 3265059,
       "dollars": 114540763,
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "price": 36.7,
+      "volume": 2175360,
+      "dollars": 79827591,
+      "rank": 7
     },
     {
       "price": 35.2,
       "volume": 2250434,
       "dollars": 79213910,
-      "rank": 6
+      "rank": 8
     },
     {
       "price": 33.3,
       "volume": 2361793,
       "dollars": 78677371,
-      "rank": 7
-    },
-    {
-      "price": 35.3,
-      "volume": 1993010,
-      "dollars": 70341082,
-      "rank": 10
-    },
-    {
-      "price": 32.9,
-      "volume": 2084772,
-      "dollars": 68525684,
-      "rank": 12
+      "rank": 9
     }
   ],
   "boxes": []

@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "ROKU",
-    "generated_at": "2026-06-18T00:56:33.639514+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:48:55.118544+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1781755200,
+      "price": 138.07,
+      "volume": 10998268,
+      "dollars": 1518530862,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781496000,
       "price": 140.9,
       "volume": 1365652,
       "dollars": 192420366,
-      "rank": 7,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,19 @@
       "price": 137.95,
       "volume": 1025787,
       "dollars": 141507316,
-      "rank": 16,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1781755200,
+      "price": 138.07,
+      "volume": 986848,
+      "dollars": 136254103,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,35 +58,46 @@
   ],
   "levels": [
     {
+      "price": 138.1,
+      "volume": 16562147,
+      "dollars": 2286742034,
+      "rank": 1
+    },
+    {
       "price": 147.0,
       "volume": 3892677,
       "dollars": 572273922,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 90.6,
       "volume": 5654784,
       "dollars": 512239442,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 138.0,
-      "volume": 2333264,
-      "dollars": 321910284,
-      "rank": 6
+      "volume": 2419151,
+      "dollars": 333762690,
+      "rank": 7
     },
     {
       "price": 98.8,
       "volume": 2612766,
       "dollars": 258075021,
-      "rank": 10
-    },
-    {
-      "price": 140.9,
-      "volume": 1772275,
-      "dollars": 249710120,
-      "rank": 12
+      "rank": 11
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 135.35,
+      "low_price": 135.35,
+      "volume": 339000,
+      "dollars": 45883650,
+      "trades": 1,
+      "date_range": "2026-03-24 to 2026-06-22",
+      "color": "#FF6B6B"
+    }
+  ]
 }

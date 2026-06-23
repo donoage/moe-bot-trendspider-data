@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "GOGO",
-    "generated_at": "2026-06-18T00:48:41.565737+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:40:36.691327+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1781755200,
+      "price": 3.41,
+      "volume": 8972288,
+      "dollars": 30595502,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 4.6,
@@ -21,22 +34,22 @@
       "rank": 40
     },
     {
+      "price": 3.4,
+      "volume": 10756980,
+      "dollars": 36679483,
+      "rank": 43
+    },
+    {
       "price": 4.2,
       "volume": 8682420,
       "dollars": 36381872,
-      "rank": 44
+      "rank": 45
     },
     {
       "price": 4.7,
       "volume": 6391231,
       "dollars": 29932564,
-      "rank": 65
-    },
-    {
-      "price": 4.3,
-      "volume": 6219295,
-      "dollars": 26593516,
-      "rank": 82
+      "rank": 66
     }
   ],
   "boxes": []

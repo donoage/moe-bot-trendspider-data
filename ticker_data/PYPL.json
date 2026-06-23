@@ -1,18 +1,18 @@
 {
   "metadata": {
     "ticker": "PYPL",
-    "generated_at": "2026-06-18T00:55:34.616424+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:47:54.300909+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1773979200,
-      "price": 44.01,
-      "volume": 10905299,
-      "dollars": 479942208,
-      "rank": 10,
+      "timestamp": 1781755200,
+      "price": 42.51,
+      "volume": 11120624,
+      "dollars": 472737726,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,16 +22,22 @@
   ],
   "levels": [
     {
+      "price": 42.5,
+      "volume": 25439525,
+      "dollars": 1081347018,
+      "rank": 41
+    },
+    {
       "price": 44.0,
       "volume": 23928922,
       "dollars": 1053062221,
-      "rank": 45
+      "rank": 46
     },
     {
       "price": 45.4,
       "volume": 21028748,
       "dollars": 954991168,
-      "rank": 57
+      "rank": 58
     },
     {
       "price": 41.5,
@@ -43,12 +49,6 @@
       "price": 41.3,
       "volume": 17724872,
       "dollars": 731692108,
-      "rank": 0
-    },
-    {
-      "price": 44.2,
-      "volume": 16407622,
-      "dollars": 725154005,
       "rank": 0
     }
   ],

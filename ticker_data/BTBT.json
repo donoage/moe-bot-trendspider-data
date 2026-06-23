@@ -1,30 +1,43 @@
 {
   "metadata": {
     "ticker": "BTBT",
-    "generated_at": "2026-06-18T00:42:14.774201+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:36:19.028428+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1781755200,
+      "price": 2.17,
+      "volume": 5994078,
+      "dollars": 13007149,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 2.2,
+      "volume": 39118692,
+      "dollars": 86197374,
+      "rank": 3
+    },
     {
       "price": 2.0,
       "volume": 34663144,
       "dollars": 69805266,
-      "rank": 4
-    },
-    {
-      "price": 2.2,
-      "volume": 30455631,
-      "dollars": 67328082,
       "rank": 5
     },
     {
       "price": 2.1,
-      "volume": 21039851,
-      "dollars": 44175693,
-      "rank": 14
+      "volume": 21469263,
+      "dollars": 45073164,
+      "rank": 12
     },
     {
       "price": 1.6,

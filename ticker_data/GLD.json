@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "GLD",
-    "generated_at": "2026-06-18T00:48:41.564490+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:40:36.689582+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1782100800,
+      "price": 385.0,
+      "volume": 1750000,
+      "dollars": 673750000,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 445.5,
@@ -27,15 +40,15 @@
       "rank": 0
     },
     {
-      "price": 398.6,
-      "volume": 1795683,
-      "dollars": 715750373,
+      "price": 385.0,
+      "volume": 2018346,
+      "dollars": 777062666,
       "rank": 0
     },
     {
-      "price": 446.0,
-      "volume": 1546458,
-      "dollars": 689714449,
+      "price": 398.6,
+      "volume": 1795683,
+      "dollars": 715750373,
       "rank": 0
     }
   ],
@@ -44,10 +57,10 @@
       "box_number": 1,
       "high_price": 443.66,
       "low_price": 379.44,
-      "volume": 4284234,
-      "dollars": 1770053537,
-      "trades": 34,
-      "date_range": "2026-03-19 to 2026-06-17",
+      "volume": 4399924,
+      "dollars": 1807949160,
+      "trades": 35,
+      "date_range": "2026-03-24 to 2026-06-22",
       "color": "#FF6B6B"
     }
   ]

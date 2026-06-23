@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "ARQQ",
-    "generated_at": "2026-06-18T00:39:07.225197+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:34:08.804212+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1781755200,
+      "price": 24.38,
+      "volume": 2948956,
+      "dollars": 71895547,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1778212800,
       "price": 14.96,
       "volume": 195047,
       "dollars": 2917903,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,10 +34,22 @@
   ],
   "levels": [
     {
+      "price": 24.4,
+      "volume": 3189155,
+      "dollars": 77750106,
+      "rank": 1
+    },
+    {
+      "price": 25.0,
+      "volume": 234178,
+      "dollars": 5853821,
+      "rank": 12
+    },
+    {
       "price": 15.0,
       "volume": 294491,
       "dollars": 4407517,
-      "rank": 17
+      "rank": 18
     },
     {
       "price": 15.9,
@@ -38,18 +62,6 @@
       "volume": 66537,
       "dollars": 1495074,
       "rank": 49
-    },
-    {
-      "price": 23.7,
-      "volume": 56769,
-      "dollars": 1347696,
-      "rank": 59
-    },
-    {
-      "price": 17.5,
-      "volume": 73340,
-      "dollars": 1282716,
-      "rank": 63
     }
   ],
   "boxes": []

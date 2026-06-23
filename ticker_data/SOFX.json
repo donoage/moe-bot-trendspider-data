@@ -1,24 +1,79 @@
 {
   "metadata": {
     "ticker": "SOFX",
-    "generated_at": "2026-06-18T00:57:33.545807+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:49:55.629968+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1781755200,
+      "price": 10.23,
+      "volume": 129695,
+      "dollars": 1326779,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1781755200,
+      "price": 10.25,
+      "volume": 128871,
+      "dollars": 1320927,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1781755200,
+      "price": 10.14,
+      "volume": 93000,
+      "dollars": 943020,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 10.2,
+      "volume": 264081,
+      "dollars": 2695627,
+      "rank": 1
+    },
+    {
+      "price": 10.1,
+      "volume": 165525,
+      "dollars": 1678423,
+      "rank": 5
+    },
+    {
+      "price": 10.3,
+      "volume": 128871,
+      "dollars": 1320927,
+      "rank": 7
+    },
     {
       "price": 12.7,
       "volume": 41600,
       "dollars": 526656,
-      "rank": 31
+      "rank": 34
     },
     {
       "price": 13.3,
       "volume": 38942,
       "dollars": 515981,
-      "rank": 34
+      "rank": 37
     }
   ],
   "boxes": []

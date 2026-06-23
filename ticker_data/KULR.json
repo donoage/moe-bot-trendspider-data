@@ -1,42 +1,67 @@
 {
   "metadata": {
     "ticker": "KULR",
-    "generated_at": "2026-06-18T00:50:39.341468+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:42:48.308694+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1781755200,
+      "price": 3.96,
+      "volume": 2064579,
+      "dollars": 8175732,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1781755200,
+      "price": 3.96,
+      "volume": 1340600,
+      "dollars": 5308776,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 4.0,
+      "volume": 3405179,
+      "dollars": 13484508,
+      "rank": 3
+    },
     {
       "price": 4.8,
       "volume": 1024247,
       "dollars": 4911072,
-      "rank": 6
+      "rank": 7
     },
     {
       "price": 5.3,
       "volume": 205307,
       "dollars": 1084187,
-      "rank": 34
+      "rank": 35
     },
     {
       "price": 4.1,
       "volume": 206336,
       "dollars": 845977,
-      "rank": 46
+      "rank": 47
     },
     {
       "price": 2.5,
       "volume": 319231,
       "dollars": 794885,
-      "rank": 49
-    },
-    {
-      "price": 3.2,
-      "volume": 216035,
-      "dollars": 684830,
-      "rank": 52
+      "rank": 50
     }
   ],
   "boxes": []

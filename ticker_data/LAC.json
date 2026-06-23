@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "LAC",
-    "generated_at": "2026-06-18T00:50:39.343062+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:42:48.310863+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1781755200,
+      "price": 4.37,
+      "volume": 3893466,
+      "dollars": 17014446,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1779422400,
       "price": 4.87,
       "volume": 2639420,
       "dollars": 12853975,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -28,27 +40,27 @@
       "rank": 1
     },
     {
+      "price": 4.4,
+      "volume": 12149162,
+      "dollars": 53283612,
+      "rank": 3
+    },
+    {
       "price": 4.9,
       "volume": 9800919,
       "dollars": 47808154,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 5.8,
       "volume": 7705838,
       "dollars": 44574452,
-      "rank": 5
+      "rank": 6
     },
     {
       "price": 5.0,
       "volume": 8585830,
       "dollars": 42903235,
-      "rank": 6
-    },
-    {
-      "price": 6.0,
-      "volume": 7156422,
-      "dollars": 42854990,
       "rank": 7
     }
   ],

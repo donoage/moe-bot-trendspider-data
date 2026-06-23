@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "DCTH",
-    "generated_at": "2026-06-18T00:43:46.212585+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:37:24.674775+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1781755200,
+      "price": 11.69,
+      "volume": 165934,
+      "dollars": 1939768,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 10.8,
@@ -16,9 +29,9 @@
     },
     {
       "price": 11.5,
-      "volume": 612020,
-      "dollars": 7062710,
-      "rank": 6
+      "volume": 664457,
+      "dollars": 7666260,
+      "rank": 5
     },
     {
       "price": 11.3,

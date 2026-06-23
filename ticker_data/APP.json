@@ -1,42 +1,55 @@
 {
   "metadata": {
     "ticker": "APP",
-    "generated_at": "2026-06-18T00:39:07.222203+00:00Z",
-    "date_range": "2026-03-19 to 2026-06-17",
+    "generated_at": "2026-06-23T00:34:08.801105+00:00Z",
+    "date_range": "2026-03-24 to 2026-06-22",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1781755200,
+      "price": 469.71,
+      "volume": 1696593,
+      "dollars": 796906698,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 469.7,
+      "volume": 2411988,
+      "dollars": 1132934650,
+      "rank": 6
+    },
     {
       "price": 393.0,
       "volume": 2703481,
       "dollars": 1062467320,
-      "rank": 6
+      "rank": 7
     },
     {
       "price": 613.1,
       "volume": 1564368,
       "dollars": 959097805,
-      "rank": 8
+      "rank": 9
     },
     {
       "price": 559.8,
       "volume": 1297560,
       "dollars": 726373792,
-      "rank": 15
+      "rank": 16
     },
     {
       "price": 568.8,
       "volume": 1266497,
       "dollars": 720332833,
-      "rank": 16
-    },
-    {
-      "price": 500.0,
-      "volume": 1262409,
-      "dollars": 631175996,
-      "rank": 18
+      "rank": 17
     }
   ],
   "boxes": [
@@ -47,7 +60,7 @@
       "volume": 147960,
       "dollars": 73632040,
       "trades": 3,
-      "date_range": "2026-03-19 to 2026-06-17",
+      "date_range": "2026-03-24 to 2026-06-22",
       "color": "#FF6B6B"
     }
   ]
