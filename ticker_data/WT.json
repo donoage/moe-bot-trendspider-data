@@ -1,24 +1,12 @@
 {
   "metadata": {
     "ticker": "WT",
-    "generated_at": "2026-06-23T00:53:37.451795+00:00Z",
-    "date_range": "2026-03-24 to 2026-06-22",
+    "generated_at": "2026-06-25T00:54:16.730843+00:00Z",
+    "date_range": "2026-03-26 to 2026-06-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
-    {
-      "timestamp": 1774324800,
-      "price": 13.49,
-      "volume": 4460171,
-      "dollars": 60167706,
-      "rank": 3,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
     {
       "timestamp": 1781755200,
       "price": 18.31,
@@ -58,12 +46,6 @@
   ],
   "levels": [
     {
-      "price": 13.5,
-      "volume": 15158087,
-      "dollars": 204345193,
-      "rank": 2
-    },
-    {
       "price": 13.6,
       "volume": 13504684,
       "dollars": 183512739,
@@ -76,16 +58,22 @@
       "rank": 6
     },
     {
+      "price": 18.3,
+      "volume": 5571029,
+      "dollars": 101970059,
+      "rank": 7
+    },
+    {
       "price": 16.5,
       "volume": 6062018,
       "dollars": 100030027,
-      "rank": 7
+      "rank": 8
     },
     {
       "price": 16.0,
       "volume": 6213479,
       "dollars": 99243921,
-      "rank": 8
+      "rank": 9
     }
   ],
   "boxes": []

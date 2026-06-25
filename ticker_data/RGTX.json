@@ -1,42 +1,55 @@
 {
   "metadata": {
     "ticker": "RGTX",
-    "generated_at": "2026-06-23T00:47:54.312167+00:00Z",
-    "date_range": "2026-03-24 to 2026-06-22",
+    "generated_at": "2026-06-25T00:48:20.225449+00:00Z",
+    "date_range": "2026-03-26 to 2026-06-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1782187200,
+      "price": 25.5,
+      "volume": 44322,
+      "dollars": 1130211,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 25.5,
+      "volume": 44322,
+      "dollars": 1130211,
+      "rank": 15
+    },
     {
       "price": 30.9,
       "volume": 21531,
       "dollars": 665307,
-      "rank": 42
+      "rank": 43
     },
     {
       "price": 31.5,
       "volume": 20738,
       "dollars": 652624,
-      "rank": 47
+      "rank": 48
     },
     {
       "price": 35.3,
       "volume": 18376,
       "dollars": 647937,
-      "rank": 48
+      "rank": 49
     },
     {
       "price": 18.9,
       "volume": 33477,
       "dollars": 633384,
-      "rank": 53
-    },
-    {
-      "price": 21.7,
-      "volume": 28500,
-      "dollars": 618450,
-      "rank": 56
+      "rank": 54
     }
   ],
   "boxes": []

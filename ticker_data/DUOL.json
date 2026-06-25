@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "DUOL",
-    "generated_at": "2026-06-23T00:38:28.366609+00:00Z",
-    "date_range": "2026-03-24 to 2026-06-22",
+    "generated_at": "2026-06-25T00:38:56.498212+00:00Z",
+    "date_range": "2026-03-26 to 2026-06-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782273600,
+      "price": 132.15,
+      "volume": 1301937,
+      "dollars": 172050974,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 125.56,
       "volume": 597517,
       "dollars": 75024234,
-      "rank": 17,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -28,27 +40,27 @@
       "rank": 4
     },
     {
+      "price": 132.2,
+      "volume": 1623168,
+      "dollars": 214507446,
+      "rank": 6
+    },
+    {
       "price": 122.9,
       "volume": 906840,
       "dollars": 111459704,
-      "rank": 11
+      "rank": 12
+    },
+    {
+      "price": 125.6,
+      "volume": 869662,
+      "dollars": 109196816,
+      "rank": 13
     },
     {
       "price": 98.1,
       "volume": 1013638,
       "dollars": 99398303,
-      "rank": 13
-    },
-    {
-      "price": 109.1,
-      "volume": 909080,
-      "dollars": 99144264,
-      "rank": 14
-    },
-    {
-      "price": 100.4,
-      "volume": 985365,
-      "dollars": 98926527,
       "rank": 15
     }
   ],

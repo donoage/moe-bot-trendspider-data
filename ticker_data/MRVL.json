@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "MRVL",
-    "generated_at": "2026-06-23T00:44:52.432738+00:00Z",
-    "date_range": "2026-03-24 to 2026-06-22",
+    "generated_at": "2026-06-25T00:45:17.456736+00:00Z",
+    "date_range": "2026-03-26 to 2026-06-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -56,11 +56,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1782187200,
+      "price": 279.04,
+      "volume": 7804072,
+      "dollars": 2177648250,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1780632000,
       "price": 263.47,
       "volume": 8137639,
       "dollars": 2144023747,
-      "rank": 5,
+      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -72,7 +84,7 @@
       "price": 290.79,
       "volume": 6312346,
       "dollars": 1835567093,
-      "rank": 6,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -84,7 +96,7 @@
       "price": 288.85,
       "volume": 6276117,
       "dollars": 1812856395,
-      "rank": 7,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,7 +108,7 @@
       "price": 280.71,
       "volume": 5776224,
       "dollars": 1621443839,
-      "rank": 8,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 307.86,
       "volume": 4985053,
       "dollars": 1534698416,
-      "rank": 9,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1780027200,
-      "price": 205.0,
-      "volume": 7421737,
-      "dollars": 1521456085,
       "rank": 10,
       "conditions": "",
       "exchange": "",
@@ -148,15 +148,15 @@
       "rank": 3
     },
     {
-      "price": 290.8,
-      "volume": 8131680,
-      "dollars": 2364611227,
+      "price": 279.0,
+      "volume": 8795979,
+      "dollars": 2454429041,
       "rank": 4
     },
     {
-      "price": 205.0,
-      "volume": 10840257,
-      "dollars": 2222250666,
+      "price": 290.8,
+      "volume": 8131680,
+      "dollars": 2364611227,
       "rank": 5
     }
   ],
@@ -168,7 +168,7 @@
       "volume": 1326674,
       "dollars": 173680339,
       "trades": 5,
-      "date_range": "2026-03-24 to 2026-06-22",
+      "date_range": "2026-03-26 to 2026-06-24",
       "color": "#FF6B6B"
     }
   ]

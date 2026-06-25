@@ -1,13 +1,19 @@
 {
   "metadata": {
     "ticker": "SMST",
-    "generated_at": "2026-06-23T00:49:55.627196+00:00Z",
-    "date_range": "2026-03-24 to 2026-06-22",
+    "generated_at": "2026-06-25T00:50:20.541856+00:00Z",
+    "date_range": "2026-03-26 to 2026-06-24",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [],
   "levels": [
+    {
+      "price": 76.1,
+      "volume": 40000,
+      "dollars": 3044000,
+      "rank": 5
+    },
     {
       "price": 74.3,
       "volume": 36646,
@@ -31,12 +37,6 @@
       "volume": 79303,
       "dollars": 2229363,
       "rank": 14
-    },
-    {
-      "price": 28.3,
-      "volume": 76552,
-      "dollars": 2164198,
-      "rank": 16
     }
   ],
   "boxes": []
