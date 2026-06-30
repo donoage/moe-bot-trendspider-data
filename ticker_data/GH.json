@@ -1,18 +1,54 @@
 {
   "metadata": {
     "ticker": "GH",
-    "generated_at": "2026-06-25T00:41:08.974659+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:42:50.901828+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 149.22,
+      "volume": 8374001,
+      "dollars": 1249568429,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782446400,
+      "price": 149.22,
+      "volume": 2553977,
+      "dollars": 381104447,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 131.78,
       "volume": 1417767,
       "dollars": 186833335,
-      "rank": 2,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782446400,
+      "price": 149.22,
+      "volume": 1242708,
+      "dollars": 185436887,
+      "rank": 5,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +60,7 @@
       "price": 129.11,
       "volume": 703235,
       "dollars": 90794670,
-      "rank": 7,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +72,7 @@
       "price": 127.34,
       "volume": 708081,
       "dollars": 90167034,
-      "rank": 9,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -44,11 +80,11 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1780027200,
-      "price": 129.69,
-      "volume": 459998,
-      "dollars": 59657140,
-      "rank": 19,
+      "timestamp": 1782446400,
+      "price": 149.22,
+      "volume": 597262,
+      "dollars": 89125227,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -56,11 +92,11 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1779336000,
-      "price": 118.01,
-      "volume": 495000,
-      "dollars": 58414950,
-      "rank": 20,
+      "timestamp": 1782446400,
+      "price": 149.22,
+      "volume": 490598,
+      "dollars": 73207033,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -70,34 +106,34 @@
   ],
   "levels": [
     {
+      "price": 149.2,
+      "volume": 14919607,
+      "dollars": 2226304999,
+      "rank": 1
+    },
+    {
       "price": 129.1,
       "volume": 1692948,
       "dollars": 218595047,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 131.8,
       "volume": 1582752,
       "dollars": 208574699,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 127.3,
       "volume": 1636826,
       "dollars": 208390263,
-      "rank": 4
+      "rank": 5
     },
     {
-      "price": 103.1,
-      "volume": 1671479,
-      "dollars": 172326772,
-      "rank": 7
-    },
-    {
-      "price": 99.7,
-      "volume": 1571238,
-      "dollars": 156690029,
-      "rank": 8
+      "price": 152.8,
+      "volume": 1245520,
+      "dollars": 190315456,
+      "rank": 6
     }
   ],
   "boxes": [
@@ -108,7 +144,7 @@
       "volume": 249500,
       "dollars": 31936000,
       "trades": 1,
-      "date_range": "2026-03-26 to 2026-06-24",
+      "date_range": "2026-03-31 to 2026-06-29",
       "color": "#FF6B6B"
     }
   ]

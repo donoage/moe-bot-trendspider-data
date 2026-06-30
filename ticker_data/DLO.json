@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "DLO",
-    "generated_at": "2026-06-25T00:38:56.495507+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:40:25.452162+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 12.69,
+      "volume": 8879259,
+      "dollars": 112677796,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1777521600,
       "price": 13.88,
       "volume": 1000000,
       "dollars": 13880000,
-      "rank": 18,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,34 +34,34 @@
   ],
   "levels": [
     {
+      "price": 12.7,
+      "volume": 15059246,
+      "dollars": 191119107,
+      "rank": 1
+    },
+    {
       "price": 12.8,
       "volume": 5180700,
       "dollars": 66329134,
-      "rank": 4
+      "rank": 5
+    },
+    {
+      "price": 12.9,
+      "volume": 3949640,
+      "dollars": 50897628,
+      "rank": 8
     },
     {
       "price": 13.1,
       "volume": 3744628,
       "dollars": 49118373,
-      "rank": 7
+      "rank": 9
     },
     {
       "price": 13.8,
       "volume": 3241958,
       "dollars": 44655520,
-      "rank": 10
-    },
-    {
-      "price": 13.9,
-      "volume": 3135663,
-      "dollars": 43538088,
-      "rank": 11
-    },
-    {
-      "price": 13.6,
-      "volume": 3079399,
-      "dollars": 41889236,
-      "rank": 13
+      "rank": 12
     }
   ],
   "boxes": []

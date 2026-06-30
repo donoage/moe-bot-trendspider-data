@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "GAP",
-    "generated_at": "2026-06-25T00:41:08.859397+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:42:50.883213+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -10,9 +10,15 @@
   "levels": [
     {
       "price": 21.0,
-      "volume": 81734349,
-      "dollars": 1715385014,
+      "volume": 81774869,
+      "dollars": 1716235529,
       "rank": 2
+    },
+    {
+      "price": 20.0,
+      "volume": 84964213,
+      "dollars": 1699099063,
+      "rank": 3
     },
     {
       "price": 21.5,
@@ -31,13 +37,18 @@
       "volume": 68235819,
       "dollars": 1446211102,
       "rank": 7
-    },
-    {
-      "price": 21.3,
-      "volume": 65123674,
-      "dollars": 1386850342,
-      "rank": 8
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 18.6,
+      "low_price": 18.6,
+      "volume": 1802338,
+      "dollars": 33523486,
+      "trades": 1,
+      "date_range": "2026-03-31 to 2026-06-29",
+      "color": "#FF6B6B"
+    }
+  ]
 }

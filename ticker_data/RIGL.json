@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "RIGL",
-    "generated_at": "2026-06-25T00:49:19.726937+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:53:41.164821+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 38.69,
+      "volume": 398272,
+      "dollars": 15409143,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 32.91,
       "volume": 383725,
       "dollars": 12628389,
-      "rank": 13,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,34 +34,34 @@
   ],
   "levels": [
     {
+      "price": 38.0,
+      "volume": 798234,
+      "dollars": 30298339,
+      "rank": 3
+    },
+    {
+      "price": 38.7,
+      "volume": 741299,
+      "dollars": 28681730,
+      "rank": 5
+    },
+    {
       "price": 34.5,
       "volume": 716101,
       "dollars": 24692642,
-      "rank": 5
+      "rank": 6
     },
     {
       "price": 32.9,
       "volume": 734159,
       "dollars": 24158301,
-      "rank": 6
+      "rank": 7
     },
     {
       "price": 32.0,
       "volume": 720210,
       "dollars": 23046774,
-      "rank": 8
-    },
-    {
-      "price": 26.0,
-      "volume": 867382,
-      "dollars": 22543404,
       "rank": 9
-    },
-    {
-      "price": 34.7,
-      "volume": 587167,
-      "dollars": 20387145,
-      "rank": 12
     }
   ],
   "boxes": []

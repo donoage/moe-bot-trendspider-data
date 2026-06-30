@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "RZLV",
-    "generated_at": "2026-06-25T00:49:19.746930+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:53:41.183571+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 2.41,
+      "volume": 23740355,
+      "dollars": 57214255,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1775534400,
       "price": 2.88,
       "volume": 2097388,
       "dollars": 6040477,
-      "rank": 8,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,33 +34,33 @@
   ],
   "levels": [
     {
-      "price": 2.7,
-      "volume": 20814347,
-      "dollars": 56494366,
+      "price": 2.4,
+      "volume": 33321170,
+      "dollars": 80144059,
       "rank": 1
     },
     {
+      "price": 2.7,
+      "volume": 20814347,
+      "dollars": 56494366,
+      "rank": 2
+    },
+    {
       "price": 2.6,
-      "volume": 18871044,
-      "dollars": 48733269,
-      "rank": 3
+      "volume": 19250777,
+      "dollars": 49720575,
+      "rank": 4
     },
     {
       "price": 2.8,
       "volume": 12287301,
       "dollars": 34269316,
-      "rank": 5
+      "rank": 6
     },
     {
       "price": 2.9,
       "volume": 10603261,
       "dollars": 30634423,
-      "rank": 6
-    },
-    {
-      "price": 2.5,
-      "volume": 11138843,
-      "dollars": 28018072,
       "rank": 7
     }
   ],

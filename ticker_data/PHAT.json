@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "PHAT",
-    "generated_at": "2026-06-25T00:47:19.590833+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:51:08.783322+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1782446400,
+      "price": 10.72,
+      "volume": 1107569,
+      "dollars": 11873139,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 10.5,

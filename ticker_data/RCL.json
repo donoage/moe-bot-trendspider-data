@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "RCL",
-    "generated_at": "2026-06-25T00:48:20.223109+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:52:23.414581+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 318.13,
+      "volume": 3599687,
+      "dollars": 1145168425,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1780027200,
       "price": 284.63,
       "volume": 1360315,
       "dollars": 387186458,
-      "rank": 6,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 267.5,
       "volume": 1383000,
       "dollars": 369952500,
-      "rank": 7,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 312.51,
       "volume": 919753,
       "dollars": 287432010,
-      "rank": 13,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -52,27 +64,27 @@
       "rank": 1
     },
     {
+      "price": 318.1,
+      "volume": 4564188,
+      "dollars": 1452005442,
+      "rank": 3
+    },
+    {
       "price": 255.6,
       "volume": 3546451,
       "dollars": 906366782,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 238.4,
       "volume": 3631520,
       "dollars": 865858380,
-      "rank": 4
+      "rank": 5
     },
     {
       "price": 284.6,
       "volume": 2105515,
       "dollars": 599292909,
-      "rank": 7
-    },
-    {
-      "price": 246.1,
-      "volume": 2070138,
-      "dollars": 509449471,
       "rank": 8
     }
   ],
@@ -84,7 +96,7 @@
       "volume": 552940,
       "dollars": 157473012,
       "trades": 3,
-      "date_range": "2026-03-26 to 2026-06-24",
+      "date_range": "2026-03-31 to 2026-06-29",
       "color": "#FF6B6B"
     }
   ]

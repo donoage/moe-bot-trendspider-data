@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SYK",
-    "generated_at": "2026-06-25T00:51:21.023233+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:56:22.467798+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1782446400,
+      "price": 332.71,
+      "volume": 1995188,
+      "dollars": 663818999,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 307.8,
       "volume": 1007236,
       "dollars": 310027240,
-      "rank": 12,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 343.32,
       "volume": 873744,
       "dollars": 299973790,
-      "rank": 14,
+      "rank": 15,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,34 +58,34 @@
   ],
   "levels": [
     {
+      "price": 332.7,
+      "volume": 3312753,
+      "dollars": 1102166924,
+      "rank": 1
+    },
+    {
       "price": 305.1,
       "volume": 3526470,
       "dollars": 1075891371,
-      "rank": 1
+      "rank": 2
     },
     {
       "price": 352.2,
       "volume": 1901871,
       "dollars": 669880978,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 349.1,
       "volume": 1731786,
       "dollars": 604539465,
-      "rank": 5
+      "rank": 6
     },
     {
       "price": 290.2,
       "volume": 1819892,
       "dollars": 528042122,
-      "rank": 15
-    },
-    {
-      "price": 352.5,
-      "volume": 1480356,
-      "dollars": 521801518,
-      "rank": 18
+      "rank": 16
     }
   ],
   "boxes": [
@@ -84,7 +96,7 @@
       "volume": 402590,
       "dollars": 122267440,
       "trades": 3,
-      "date_range": "2026-03-26 to 2026-06-24",
+      "date_range": "2026-03-31 to 2026-06-29",
       "color": "#FF6B6B"
     }
   ]

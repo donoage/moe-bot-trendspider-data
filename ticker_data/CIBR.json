@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "CIBR",
-    "generated_at": "2026-06-25T00:36:41.933820+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:37:57.463391+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1782446400,
+      "price": 84.51,
+      "volume": 764138,
+      "dollars": 64577302,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1780545600,
       "price": 90.6,
       "volume": 483000,
       "dollars": 43760572,
-      "rank": 14,
+      "rank": 15,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 63.24,
       "volume": 557822,
       "dollars": 35276663,
-      "rank": 18,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -53,8 +65,8 @@
     },
     {
       "price": 83.3,
-      "volume": 1471411,
-      "dollars": 122607585,
+      "volume": 1498008,
+      "dollars": 124823648,
       "rank": 3
     },
     {
@@ -64,27 +76,27 @@
       "rank": 6
     },
     {
-      "price": 64.6,
-      "volume": 1053025,
-      "dollars": 68016233,
+      "price": 84.5,
+      "volume": 828108,
+      "dollars": 69981640,
       "rank": 10
     },
     {
-      "price": 64.7,
-      "volume": 940782,
-      "dollars": 60857976,
-      "rank": 13
+      "price": 64.6,
+      "volume": 1053025,
+      "dollars": 68016233,
+      "rank": 11
     }
   ],
   "boxes": [
     {
       "box_number": 1,
-      "high_price": 83.33,
+      "high_price": 84.51,
       "low_price": 63.24,
-      "volume": 1965575,
-      "dollars": 152584720,
-      "trades": 2,
-      "date_range": "2026-03-26 to 2026-06-24",
+      "volume": 2729713,
+      "dollars": 217162022,
+      "trades": 3,
+      "date_range": "2026-03-31 to 2026-06-29",
       "color": "#FF6B6B"
     }
   ]

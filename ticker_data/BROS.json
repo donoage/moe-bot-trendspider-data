@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "BROS",
-    "generated_at": "2026-06-25T00:36:41.918558+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:37:57.438966+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 71.85,
+      "volume": 1708255,
+      "dollars": 122738121,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1775707200,
       "price": 55.85,
       "volume": 1373040,
       "dollars": 76684284,
-      "rank": 12,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,19 @@
       "price": 65.89,
       "volume": 1153851,
       "dollars": 76027242,
-      "rank": 14,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782360000,
+      "price": 66.6,
+      "volume": 1108667,
+      "dollars": 73837222,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,19 +60,7 @@
       "price": 53.03,
       "volume": 1286663,
       "dollars": 68231738,
-      "rank": 18,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1776139200,
-      "price": 52.11,
-      "volume": 1291378,
-      "dollars": 67293707,
-      "rank": 19,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -83,8 +95,8 @@
     },
     {
       "price": 69.3,
-      "volume": 3383833,
-      "dollars": 234577457,
+      "volume": 3602096,
+      "dollars": 249692170,
       "rank": 6
     }
   ],

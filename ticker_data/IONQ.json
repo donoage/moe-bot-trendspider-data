@@ -1,18 +1,42 @@
 {
   "metadata": {
     "ticker": "IONQ",
-    "generated_at": "2026-06-25T00:42:15.282544+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:44:11.011971+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 49.31,
+      "volume": 25691442,
+      "dollars": 1266845005,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781236800,
       "price": 57.85,
       "volume": 7000000,
       "dollars": 404950000,
-      "rank": 5,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782446400,
+      "price": 49.31,
+      "volume": 6386278,
+      "dollars": 314907368,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,18 +48,6 @@
       "price": 72.07,
       "volume": 4162837,
       "dollars": 300015662,
-      "rank": 12,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1778558400,
-      "price": 55.87,
-      "volume": 5000000,
-      "dollars": 279350000,
       "rank": 14,
       "conditions": "",
       "exchange": "",
@@ -48,7 +60,19 @@
       "price": 55.87,
       "volume": 5000000,
       "dollars": 279350000,
-      "rank": 14,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1778558400,
+      "price": 55.87,
+      "volume": 5000000,
+      "dollars": 279350000,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -60,7 +84,7 @@
       "price": 43.25,
       "volume": 6103721,
       "dollars": 263985933,
-      "rank": 16,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -72,30 +96,6 @@
       "price": 49.31,
       "volume": 5000000,
       "dollars": 246550000,
-      "rank": 17,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1779076800,
-      "price": 49.31,
-      "volume": 5000000,
-      "dollars": 246550000,
-      "rank": 17,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1777953600,
-      "price": 48.0,
-      "volume": 5000000,
-      "dollars": 240000000,
       "rank": 19,
       "conditions": "",
       "exchange": "",
@@ -104,10 +104,10 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1777953600,
-      "price": 48.0,
+      "timestamp": 1779076800,
+      "price": 49.31,
       "volume": 5000000,
-      "dollars": 240000000,
+      "dollars": 246550000,
       "rank": 19,
       "conditions": "",
       "exchange": "",
@@ -118,28 +118,28 @@
   ],
   "levels": [
     {
+      "price": 49.3,
+      "volume": 61270006,
+      "dollars": 3021264535,
+      "rank": 1
+    },
+    {
       "price": 37.1,
       "volume": 34881224,
       "dollars": 1294869402,
-      "rank": 1
+      "rank": 2
     },
     {
       "price": 46.8,
       "volume": 22609177,
       "dollars": 1057263015,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 70.4,
       "volume": 13884524,
       "dollars": 977604283,
-      "rank": 3
-    },
-    {
-      "price": 49.3,
-      "volume": 16367082,
-      "dollars": 807100554,
-      "rank": 5
+      "rank": 4
     },
     {
       "price": 48.5,
@@ -156,7 +156,7 @@
       "volume": 407100,
       "dollars": 24702828,
       "trades": 1,
-      "date_range": "2026-03-26 to 2026-06-24",
+      "date_range": "2026-03-31 to 2026-06-29",
       "color": "#FF6B6B"
     }
   ]

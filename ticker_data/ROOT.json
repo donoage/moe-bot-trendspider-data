@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "ROOT",
-    "generated_at": "2026-06-25T00:49:19.745717+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:53:41.180941+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1782446400,
+      "price": 55.69,
+      "volume": 279349,
+      "dollars": 15556945,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 51.6,
@@ -15,27 +28,27 @@
       "rank": 4
     },
     {
+      "price": 55.7,
+      "volume": 321115,
+      "dollars": 17883000,
+      "rank": 14
+    },
+    {
       "price": 44.1,
       "volume": 241530,
       "dollars": 10649400,
-      "rank": 29
+      "rank": 30
     },
     {
       "price": 57.7,
-      "volume": 136473,
-      "dollars": 7875937,
-      "rank": 56
+      "volume": 158556,
+      "dollars": 9150788,
+      "rank": 41
     },
     {
       "price": 46.9,
       "volume": 149495,
       "dollars": 7015212,
-      "rank": 75
-    },
-    {
-      "price": 50.8,
-      "volume": 135641,
-      "dollars": 6895967,
       "rank": 76
     }
   ],

@@ -1,18 +1,42 @@
 {
   "metadata": {
     "ticker": "DCTH",
-    "generated_at": "2026-06-25T00:37:47.701014+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:39:12.267206+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 12.94,
+      "volume": 504874,
+      "dollars": 6533069,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782446400,
+      "price": 12.94,
+      "volume": 241530,
+      "dollars": 3125398,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 11.69,
       "volume": 165934,
       "dollars": 1939768,
-      "rank": 18,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,33 +46,33 @@
   ],
   "levels": [
     {
+      "price": 12.9,
+      "volume": 796404,
+      "dollars": 10302967,
+      "rank": 3
+    },
+    {
       "price": 10.8,
       "volume": 896628,
       "dollars": 9665996,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 12.7,
       "volume": 659111,
       "dollars": 8378437,
-      "rank": 4
+      "rank": 5
     },
     {
       "price": 11.5,
       "volume": 664457,
       "dollars": 7666260,
-      "rank": 5
+      "rank": 6
     },
     {
       "price": 11.3,
       "volume": 615529,
       "dollars": 6949627,
-      "rank": 7
-    },
-    {
-      "price": 10.0,
-      "volume": 543421,
-      "dollars": 5432214,
       "rank": 8
     }
   ],

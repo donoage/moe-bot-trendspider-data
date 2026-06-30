@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "INTU",
-    "generated_at": "2026-06-25T00:42:15.281174+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:44:11.010477+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 267.72,
+      "volume": 4381858,
+      "dollars": 1173111023,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 267.0,
       "volume": 3686958,
       "dollars": 984417786,
-      "rank": 3,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 331.53,
       "volume": 2049552,
       "dollars": 679487974,
-      "rank": 14,
+      "rank": 15,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,33 +46,33 @@
   ],
   "levels": [
     {
-      "price": 419.1,
-      "volume": 3744345,
-      "dollars": 1569280204,
+      "price": 267.7,
+      "volume": 6088579,
+      "dollars": 1630029543,
       "rank": 2
     },
     {
+      "price": 419.1,
+      "volume": 3744345,
+      "dollars": 1569280204,
+      "rank": 3
+    },
+    {
       "price": 267.0,
-      "volume": 4291953,
-      "dollars": 1145951357,
-      "rank": 6
+      "volume": 4303194,
+      "dollars": 1148952086,
+      "rank": 7
     },
     {
       "price": 409.0,
       "volume": 2236130,
       "dollars": 914597935,
-      "rank": 17
+      "rank": 18
     },
     {
       "price": 414.5,
       "volume": 2166805,
       "dollars": 898054949,
-      "rank": 21
-    },
-    {
-      "price": 381.3,
-      "volume": 2347972,
-      "dollars": 895233806,
       "rank": 22
     }
   ],
@@ -72,7 +84,7 @@
       "volume": 420372,
       "dollars": 149037843,
       "trades": 4,
-      "date_range": "2026-03-26 to 2026-06-24",
+      "date_range": "2026-03-31 to 2026-06-29",
       "color": "#FF6B6B"
     }
   ]

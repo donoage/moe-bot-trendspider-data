@@ -1,18 +1,54 @@
 {
   "metadata": {
     "ticker": "HL",
-    "generated_at": "2026-06-25T00:42:15.235368+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:44:10.922259+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 15.54,
+      "volume": 42353054,
+      "dollars": 658166459,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 15.96,
       "volume": 17604283,
       "dollars": 280964356,
-      "rank": 4,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782446400,
+      "price": 15.54,
+      "volume": 10506620,
+      "dollars": 163272874,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782446400,
+      "price": 15.54,
+      "volume": 6364110,
+      "dollars": 98898269,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,19 +60,7 @@
       "price": 20.67,
       "volume": 4023325,
       "dollars": 83162127,
-      "rank": 12,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1776052800,
-      "price": 19.27,
-      "volume": 3091893,
-      "dollars": 59580778,
-      "rank": 20,
+      "rank": 15,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -52,28 +76,28 @@
       "rank": 1
     },
     {
+      "price": 15.5,
+      "volume": 78302832,
+      "dollars": 1216787425,
+      "rank": 3
+    },
+    {
       "price": 16.0,
       "volume": 25881240,
       "dollars": 413159885,
-      "rank": 12
+      "rank": 13
     },
     {
       "price": 17.2,
       "volume": 22410656,
       "dollars": 386033795,
-      "rank": 15
+      "rank": 16
     },
     {
       "price": 19.2,
       "volume": 10349348,
       "dollars": 198592726,
-      "rank": 26
-    },
-    {
-      "price": 19.5,
-      "volume": 10062036,
-      "dollars": 196241470,
-      "rank": 28
+      "rank": 27
     }
   ],
   "boxes": []

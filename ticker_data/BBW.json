@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "BBW",
-    "generated_at": "2026-06-25T00:35:36.529068+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:36:42.988043+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1782446400,
+      "price": 31.34,
+      "volume": 253531,
+      "dollars": 7945661,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 32.7,
@@ -33,9 +46,9 @@
       "rank": 27
     },
     {
-      "price": 37.1,
-      "volume": 338444,
-      "dollars": 12554563,
+      "price": 31.3,
+      "volume": 402069,
+      "dollars": 12592857,
       "rank": 28
     }
   ],

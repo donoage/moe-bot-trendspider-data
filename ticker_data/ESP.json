@@ -1,12 +1,56 @@
 {
   "metadata": {
     "ticker": "ESP",
-    "generated_at": "2026-06-25T00:38:56.504166+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:40:25.536712+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
-  "levels": [],
+  "prints": [
+    {
+      "timestamp": 1782446400,
+      "price": 67.12,
+      "volume": 200009,
+      "dollars": 13424604,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782446400,
+      "price": 67.12,
+      "volume": 25612,
+      "dollars": 1719077,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782446400,
+      "price": 67.12,
+      "volume": 12925,
+      "dollars": 867509,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
+  "levels": [
+    {
+      "price": 67.1,
+      "volume": 238546,
+      "dollars": 16011190,
+      "rank": 1
+    }
+  ],
   "boxes": []
 }

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "TIGO",
-    "generated_at": "2026-06-25T00:51:21.028839+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:56:22.472164+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1782446400,
+      "price": 84.68,
+      "volume": 3987793,
+      "dollars": 337672752,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1774929600,
       "price": 73.17,
       "volume": 2524433,
       "dollars": 184718063,
-      "rank": 2,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,19 @@
       "price": 85.36,
       "volume": 1174035,
       "dollars": 100215627,
-      "rank": 4,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782446400,
+      "price": 89.26,
+      "volume": 1092237,
+      "dollars": 97493074,
+      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -48,7 +72,7 @@
       "price": 84.41,
       "volume": 1099466,
       "dollars": 92805925,
-      "rank": 5,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -60,7 +84,7 @@
       "price": 85.36,
       "volume": 811395,
       "dollars": 69259865,
-      "rank": 7,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -72,7 +96,7 @@
       "price": 85.82,
       "volume": 436355,
       "dollars": 37447986,
-      "rank": 13,
+      "rank": 15,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -84,7 +108,7 @@
       "price": 85.36,
       "volume": 429274,
       "dollars": 36642013,
-      "rank": 14,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,19 +120,7 @@
       "price": 85.36,
       "volume": 375790,
       "dollars": 32077434,
-      "rank": 17,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1775534400,
-      "price": 81.26,
-      "volume": 357345,
-      "dollars": 29037854,
-      "rank": 18,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -124,28 +136,28 @@
       "rank": 1
     },
     {
+      "price": 84.7,
+      "volume": 4357592,
+      "dollars": 369001026,
+      "rank": 2
+    },
+    {
       "price": 73.2,
       "volume": 2537633,
       "dollars": 185683841,
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "price": 89.3,
+      "volume": 1287521,
+      "dollars": 114922451,
+      "rank": 7
     },
     {
       "price": 84.4,
       "volume": 1184543,
       "dollars": 99987396,
-      "rank": 7
-    },
-    {
-      "price": 72.0,
-      "volume": 1127358,
-      "dollars": 81153145,
-      "rank": 8
-    },
-    {
-      "price": 85.8,
-      "volume": 612175,
-      "dollars": 52539609,
-      "rank": 10
+      "rank": 9
     }
   ],
   "boxes": [
@@ -156,7 +168,7 @@
       "volume": 198872,
       "dollars": 18246506,
       "trades": 1,
-      "date_range": "2026-03-26 to 2026-06-24",
+      "date_range": "2026-03-31 to 2026-06-29",
       "color": "#FF6B6B"
     }
   ]

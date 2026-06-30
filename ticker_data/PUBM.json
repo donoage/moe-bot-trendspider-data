@@ -1,42 +1,55 @@
 {
   "metadata": {
     "ticker": "PUBM",
-    "generated_at": "2026-06-25T00:48:20.207605+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:52:23.395477+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1782446400,
+      "price": 12.65,
+      "volume": 834894,
+      "dollars": 10561409,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 12.7,
+      "volume": 1410994,
+      "dollars": 17855953,
+      "rank": 9
+    },
     {
       "price": 11.7,
       "volume": 1514596,
       "dollars": 17668657,
-      "rank": 9
+      "rank": 10
     },
     {
       "price": 9.8,
       "volume": 1079789,
       "dollars": 10548414,
-      "rank": 34
+      "rank": 35
     },
     {
       "price": 8.3,
       "volume": 1265447,
       "dollars": 10498063,
-      "rank": 35
+      "rank": 36
     },
     {
       "price": 11.0,
       "volume": 893817,
       "dollars": 9839336,
-      "rank": 43
-    },
-    {
-      "price": 8.7,
-      "volume": 1074529,
-      "dollars": 9315383,
-      "rank": 47
+      "rank": 44
     }
   ],
   "boxes": []

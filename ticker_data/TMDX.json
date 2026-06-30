@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "TMDX",
-    "generated_at": "2026-06-25T00:51:21.030548+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:56:22.474117+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1782446400,
+      "price": 68.44,
+      "volume": 747921,
+      "dollars": 51187713,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 113.4,
@@ -21,22 +34,22 @@
       "rank": 6
     },
     {
+      "price": 68.4,
+      "volume": 833075,
+      "dollars": 57013866,
+      "rank": 12
+    },
+    {
       "price": 114.5,
       "volume": 446153,
       "dollars": 51084818,
-      "rank": 16
+      "rank": 17
     },
     {
       "price": 79.4,
       "volume": 634629,
       "dollars": 50394675,
-      "rank": 18
-    },
-    {
-      "price": 88.5,
-      "volume": 565425,
-      "dollars": 50041766,
-      "rank": 21
+      "rank": 19
     }
   ],
   "boxes": []

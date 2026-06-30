@@ -1,42 +1,55 @@
 {
   "metadata": {
     "ticker": "LMND",
-    "generated_at": "2026-06-25T00:44:17.509796+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:47:04.306295+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1782446400,
+      "price": 58.86,
+      "volume": 2063302,
+      "dollars": 121445955,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 58.9,
+      "volume": 2909084,
+      "dollars": 171253375,
+      "rank": 1
+    },
     {
       "price": 55.1,
       "volume": 1714270,
       "dollars": 94428236,
-      "rank": 4
+      "rank": 5
     },
     {
       "price": 57.3,
       "volume": 1511542,
       "dollars": 86608320,
-      "rank": 7
+      "rank": 8
     },
     {
       "price": 55.2,
       "volume": 1555255,
       "dollars": 85878657,
-      "rank": 8
+      "rank": 9
     },
     {
       "price": 53.5,
       "volume": 1046625,
       "dollars": 55998520,
-      "rank": 20
-    },
-    {
-      "price": 61.0,
-      "volume": 841028,
-      "dollars": 51271160,
-      "rank": 24
+      "rank": 21
     }
   ],
   "boxes": []

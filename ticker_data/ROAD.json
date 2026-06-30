@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "ROAD",
-    "generated_at": "2026-06-25T00:49:19.744691+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:53:41.179119+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 122.87,
+      "volume": 717437,
+      "dollars": 88151484,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781496000,
       "price": 120.28,
       "volume": 281183,
       "dollars": 33820691,
-      "rank": 10,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 122.01,
       "volume": 258549,
       "dollars": 31545563,
-      "rank": 11,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,33 +46,33 @@
   ],
   "levels": [
     {
+      "price": 122.9,
+      "volume": 889940,
+      "dollars": 109346873,
+      "rank": 1
+    },
+    {
       "price": 115.0,
       "volume": 740203,
       "dollars": 85123555,
-      "rank": 1
+      "rank": 2
     },
     {
       "price": 106.0,
       "volume": 608824,
       "dollars": 64531404,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 127.1,
       "volume": 450938,
       "dollars": 57300656,
-      "rank": 4
+      "rank": 5
     },
     {
       "price": 112.2,
       "volume": 500368,
       "dollars": 56144645,
-      "rank": 5
-    },
-    {
-      "price": 105.6,
-      "volume": 508625,
-      "dollars": 53726058,
       "rank": 6
     }
   ],

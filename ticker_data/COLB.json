@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "COLB",
-    "generated_at": "2026-06-25T00:37:47.677610+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:39:12.220176+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1782446400,
+      "price": 32.15,
+      "volume": 1909041,
+      "dollars": 61375668,
+      "rank": 13,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1778731200,
       "price": 29.15,
       "volume": 1998964,
       "dollars": 58269800,
-      "rank": 13,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -40,28 +52,28 @@
       "rank": 1
     },
     {
-      "price": 26.8,
-      "volume": 18906758,
-      "dollars": 506282736,
-      "rank": 2
-    },
-    {
-      "price": 26.6,
-      "volume": 16222717,
-      "dollars": 431003834,
-      "rank": 3
-    },
-    {
-      "price": 27.0,
-      "volume": 13920551,
-      "dollars": 375995396,
-      "rank": 5
-    },
-    {
       "price": 29.0,
       "volume": 10290770,
       "dollars": 298445685,
       "rank": 6
+    },
+    {
+      "price": 29.2,
+      "volume": 9178107,
+      "dollars": 267791101,
+      "rank": 8
+    },
+    {
+      "price": 28.9,
+      "volume": 8346356,
+      "dollars": 241016421,
+      "rank": 10
+    },
+    {
+      "price": 27.2,
+      "volume": 8542429,
+      "dollars": 232220604,
+      "rank": 12
     }
   ],
   "boxes": [
@@ -72,7 +84,7 @@
       "volume": 1998964,
       "dollars": 58269800,
       "trades": 1,
-      "date_range": "2026-03-26 to 2026-06-24",
+      "date_range": "2026-03-31 to 2026-06-29",
       "color": "#FF6B6B"
     }
   ]

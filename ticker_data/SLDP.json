@@ -1,41 +1,54 @@
 {
   "metadata": {
     "ticker": "SLDP",
-    "generated_at": "2026-06-25T00:50:20.534776+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:55:03.140164+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1782446400,
+      "price": 2.59,
+      "volume": 5655000,
+      "dollars": 14646450,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 2.6,
+      "volume": 10365236,
+      "dollars": 26864533,
+      "rank": 6
+    },
     {
       "price": 3.0,
       "volume": 8693098,
       "dollars": 26153649,
-      "rank": 6
+      "rank": 7
     },
     {
       "price": 3.5,
       "volume": 6501549,
       "dollars": 22787755,
-      "rank": 9
+      "rank": 10
     },
     {
       "price": 3.1,
       "volume": 6721759,
       "dollars": 20751424,
-      "rank": 10
+      "rank": 11
     },
     {
       "price": 3.2,
       "volume": 5986742,
       "dollars": 19132728,
-      "rank": 11
-    },
-    {
-      "price": 3.4,
-      "volume": 5538686,
-      "dollars": 18768298,
       "rank": 12
     }
   ],

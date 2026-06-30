@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "ETN",
-    "generated_at": "2026-06-25T00:40:01.816720+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:41:38.070999+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 402.68,
+      "volume": 1518074,
+      "dollars": 611298038,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 421.77,
       "volume": 1449362,
       "dollars": 611297410,
-      "rank": 3,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 400.6,
       "volume": 956396,
       "dollars": 383132237,
-      "rank": 10,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,34 +46,34 @@
   ],
   "levels": [
     {
+      "price": 402.7,
+      "volume": 2638693,
+      "dollars": 1062544403,
+      "rank": 2
+    },
+    {
       "price": 376.7,
       "volume": 2216545,
       "dollars": 834948467,
-      "rank": 5
+      "rank": 6
     },
     {
       "price": 360.6,
       "volume": 1889694,
       "dollars": 681395214,
-      "rank": 8
+      "rank": 9
     },
     {
       "price": 348.6,
       "volume": 1897356,
       "dollars": 661374684,
-      "rank": 10
+      "rank": 11
     },
     {
       "price": 421.8,
       "volume": 1527188,
       "dollars": 644122122,
-      "rank": 12
-    },
-    {
-      "price": 360.1,
-      "volume": 1775388,
-      "dollars": 639320594,
-      "rank": 14
+      "rank": 13
     }
   ],
   "boxes": []

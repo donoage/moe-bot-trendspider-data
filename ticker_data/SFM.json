@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "SFM",
-    "generated_at": "2026-06-25T00:49:19.750057+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:53:41.189745+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 82.14,
+      "volume": 2306859,
+      "dollars": 189485398,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 80.49,
       "volume": 1788054,
       "dollars": 143920466,
-      "rank": 7,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,34 +34,34 @@
   ],
   "levels": [
     {
+      "price": 82.1,
+      "volume": 4124158,
+      "dollars": 338695789,
+      "rank": 5
+    },
+    {
       "price": 80.5,
       "volume": 2964906,
       "dollars": 238648075,
-      "rank": 9
+      "rank": 10
     },
     {
       "price": 81.8,
       "volume": 2785038,
       "dollars": 227829388,
-      "rank": 10
+      "rank": 11
     },
     {
       "price": 79.0,
       "volume": 2779975,
       "dollars": 219609441,
-      "rank": 12
+      "rank": 13
     },
     {
       "price": 80.7,
       "volume": 2172451,
       "dollars": 175283120,
-      "rank": 22
-    },
-    {
-      "price": 80.2,
-      "volume": 2151620,
-      "dollars": 172486342,
-      "rank": 24
+      "rank": 23
     }
   ],
   "boxes": []

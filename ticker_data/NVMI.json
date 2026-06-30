@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "NVMI",
-    "generated_at": "2026-06-25T00:46:17.028340+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:49:48.735605+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -92,11 +92,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1782446400,
+      "price": 488.58,
+      "volume": 178785,
+      "dollars": 87350775,
+      "rank": 10,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1780891200,
       "price": 507.96,
       "volume": 157465,
       "dollars": 79985921,
-      "rank": 10,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -108,18 +120,6 @@
       "price": 508.35,
       "volume": 152089,
       "dollars": 77314443,
-      "rank": 11,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1780372800,
-      "price": 523.13,
-      "volume": 139810,
-      "dollars": 73138805,
       "rank": 12,
       "conditions": "",
       "exchange": "",
@@ -142,21 +142,21 @@
       "rank": 4
     },
     {
+      "price": 534.2,
+      "volume": 280854,
+      "dollars": 150043440,
+      "rank": 5
+    },
+    {
       "price": 605.7,
       "volume": 240115,
       "dollars": 145425729,
-      "rank": 5
+      "rank": 6
     },
     {
       "price": 527.9,
       "volume": 275108,
       "dollars": 145224011,
-      "rank": 6
-    },
-    {
-      "price": 550.7,
-      "volume": 242842,
-      "dollars": 133730660,
       "rank": 7
     }
   ],

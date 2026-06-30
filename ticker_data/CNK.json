@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "CNK",
-    "generated_at": "2026-06-25T00:36:41.936919+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:37:57.466650+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1782446400,
+      "price": 33.44,
+      "volume": 2254296,
+      "dollars": 75383658,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 32.5,
@@ -28,8 +41,8 @@
     },
     {
       "price": 32.4,
-      "volume": 9068550,
-      "dollars": 293941636,
+      "volume": 9362364,
+      "dollars": 303452395,
       "rank": 6
     },
     {

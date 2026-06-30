@@ -1,12 +1,37 @@
 {
   "metadata": {
     "ticker": "PLTD",
-    "generated_at": "2026-06-25T00:47:19.592813+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:51:08.786102+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1782360000,
+      "price": 9.69,
+      "volume": 194581,
+      "dollars": 1885489,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782360000,
+      "price": 9.71,
+      "volume": 190600,
+      "dollars": 1850344,
+      "rank": 16,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 7.2,
@@ -33,9 +58,9 @@
       "rank": 6
     },
     {
-      "price": 6.8,
-      "volume": 1455083,
-      "dollars": 9879680,
+      "price": 9.7,
+      "volume": 1023265,
+      "dollars": 9916029,
       "rank": 9
     }
   ],

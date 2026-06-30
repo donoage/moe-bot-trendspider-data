@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "FSS",
-    "generated_at": "2026-06-25T00:40:01.837844+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:41:38.095167+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 125.37,
+      "volume": 1113067,
+      "dollars": 139545209,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 118.52,
       "volume": 440474,
       "dollars": 52204978,
-      "rank": 11,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 114.24,
       "volume": 335303,
       "dollars": 38305014,
-      "rank": 17,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -40,27 +52,27 @@
       "rank": 1
     },
     {
+      "price": 125.4,
+      "volume": 1521936,
+      "dollars": 190805801,
+      "rank": 2
+    },
+    {
       "price": 112.1,
       "volume": 1604558,
       "dollars": 179902601,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 110.9,
       "volume": 1548347,
       "dollars": 171755319,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 105.6,
       "volume": 1124433,
       "dollars": 118706391,
-      "rank": 4
-    },
-    {
-      "price": 104.5,
-      "volume": 1010487,
-      "dollars": 105545378,
       "rank": 5
     }
   ],

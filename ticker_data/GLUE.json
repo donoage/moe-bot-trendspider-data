@@ -1,18 +1,42 @@
 {
   "metadata": {
     "ticker": "GLUE",
-    "generated_at": "2026-06-25T00:41:08.986206+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:42:50.904033+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 22.29,
+      "volume": 2889047,
+      "dollars": 64396857,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 18.31,
       "volume": 861461,
       "dollars": 15773350,
-      "rank": 11,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782446400,
+      "price": 22.29,
+      "volume": 631662,
+      "dollars": 14079745,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +48,7 @@
       "price": 17.12,
       "volume": 697974,
       "dollars": 11949314,
-      "rank": 17,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,34 +58,34 @@
   ],
   "levels": [
     {
-      "price": 15.6,
-      "volume": 4135755,
-      "dollars": 64641777,
+      "price": 22.3,
+      "volume": 4141194,
+      "dollars": 92307110,
       "rank": 1
-    },
-    {
-      "price": 15.5,
-      "volume": 2369193,
-      "dollars": 36816158,
-      "rank": 6
     },
     {
       "price": 18.3,
       "volume": 1541482,
       "dollars": 28217666,
-      "rank": 10
+      "rank": 11
     },
     {
       "price": 22.0,
       "volume": 1056934,
       "dollars": 23247343,
-      "rank": 14
+      "rank": 15
+    },
+    {
+      "price": 23.7,
+      "volume": 847565,
+      "dollars": 20101023,
+      "rank": 16
     },
     {
       "price": 18.7,
       "volume": 1063858,
       "dollars": 19868053,
-      "rank": 16
+      "rank": 17
     }
   ],
   "boxes": []

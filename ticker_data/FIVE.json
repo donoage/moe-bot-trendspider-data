@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "FIVE",
-    "generated_at": "2026-06-25T00:40:01.834358+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:41:38.091555+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1782446400,
+      "price": 188.37,
+      "volume": 481412,
+      "dollars": 90683578,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 195.9,
@@ -21,21 +34,21 @@
       "rank": 6
     },
     {
+      "price": 188.4,
+      "volume": 1034001,
+      "dollars": 194776902,
+      "rank": 7
+    },
+    {
       "price": 201.6,
       "volume": 838021,
       "dollars": 168918344,
-      "rank": 8
+      "rank": 9
     },
     {
       "price": 231.1,
       "volume": 727651,
       "dollars": 168154680,
-      "rank": 9
-    },
-    {
-      "price": 194.4,
-      "volume": 859913,
-      "dollars": 167144401,
       "rank": 10
     }
   ],

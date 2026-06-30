@@ -1,18 +1,54 @@
 {
   "metadata": {
     "ticker": "STRL",
-    "generated_at": "2026-06-25T00:51:21.021453+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:56:22.465374+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 804.76,
+      "volume": 2426299,
+      "dollars": 1952588383,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782446400,
+      "price": 804.76,
+      "volume": 670743,
+      "dollars": 539787136,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 861.88,
       "volume": 545301,
       "dollars": 469984025,
-      "rank": 3,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782446400,
+      "price": 804.76,
+      "volume": 271235,
+      "dollars": 218279078,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +60,19 @@
       "price": 838.21,
       "volume": 142936,
       "dollars": 119810384,
-      "rank": 11,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782446400,
+      "price": 804.78,
+      "volume": 148754,
+      "dollars": 119713663,
+      "rank": 15,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +84,7 @@
       "price": 838.21,
       "volume": 126453,
       "dollars": 105994169,
-      "rank": 12,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -48,7 +96,19 @@
       "price": 932.75,
       "volume": 103488,
       "dollars": 96528432,
-      "rank": 14,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782446400,
+      "price": 804.76,
+      "volume": 115831,
+      "dollars": 93216155,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -60,31 +120,7 @@
       "price": 957.03,
       "volume": 93339,
       "dollars": 89328223,
-      "rank": 15,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1778126400,
-      "price": 811.41,
-      "volume": 109342,
-      "dollars": 88721192,
-      "rank": 16,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1778817600,
-      "price": 848.84,
-      "volume": 97913,
-      "dollars": 83112470,
-      "rank": 19,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -94,34 +130,34 @@
   ],
   "levels": [
     {
+      "price": 804.8,
+      "volume": 4036064,
+      "dollars": 3248066360,
+      "rank": 1
+    },
+    {
       "price": 380.7,
       "volume": 4558101,
       "dollars": 1735266743,
-      "rank": 1
+      "rank": 2
     },
     {
       "price": 861.9,
       "volume": 582551,
       "dollars": 502088855,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 838.2,
       "volume": 396892,
       "dollars": 332678843,
-      "rank": 5
+      "rank": 6
     },
     {
       "price": 401.6,
       "volume": 420123,
       "dollars": 168725598,
-      "rank": 9
-    },
-    {
-      "price": 732.9,
-      "volume": 177053,
-      "dollars": 129769225,
-      "rank": 12
+      "rank": 10
     }
   ],
   "boxes": []

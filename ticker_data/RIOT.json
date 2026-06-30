@@ -1,18 +1,42 @@
 {
   "metadata": {
     "ticker": "RIOT",
-    "generated_at": "2026-06-25T00:49:19.727150+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:53:41.164996+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 28.57,
+      "volume": 8495715,
+      "dollars": 242722577,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1780027200,
       "price": 27.11,
       "volume": 2516486,
       "dollars": 68221935,
-      "rank": 11,
+      "rank": 12,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782446400,
+      "price": 28.57,
+      "volume": 2373190,
+      "dollars": 67802038,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +48,7 @@
       "price": 25.3,
       "volume": 2658745,
       "dollars": 67252954,
-      "rank": 12,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +60,7 @@
       "price": 28.1,
       "volume": 2296156,
       "dollars": 64521983,
-      "rank": 13,
+      "rank": 15,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -48,7 +72,7 @@
       "price": 27.32,
       "volume": 2253698,
       "dollars": 61571029,
-      "rank": 15,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -60,7 +84,7 @@
       "price": 17.41,
       "volume": 3090422,
       "dollars": 53804247,
-      "rank": 16,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -70,33 +94,33 @@
   ],
   "levels": [
     {
+      "price": 28.6,
+      "volume": 14137903,
+      "dollars": 404016297,
+      "rank": 1
+    },
+    {
       "price": 11.6,
       "volume": 29724707,
       "dollars": 344304409,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 12.0,
       "volume": 23972500,
       "dollars": 287471420,
-      "rank": 4
+      "rank": 5
     },
     {
       "price": 14.0,
       "volume": 19249204,
       "dollars": 269382000,
-      "rank": 5
+      "rank": 6
     },
     {
       "price": 12.3,
       "volume": 20101205,
       "dollars": 247125153,
-      "rank": 6
-    },
-    {
-      "price": 15.0,
-      "volume": 16272140,
-      "dollars": 243784443,
       "rank": 7
     }
   ],
@@ -108,7 +132,7 @@
       "volume": 998811,
       "dollars": 23432106,
       "trades": 1,
-      "date_range": "2026-03-26 to 2026-06-24",
+      "date_range": "2026-03-31 to 2026-06-29",
       "color": "#FF6B6B"
     }
   ]

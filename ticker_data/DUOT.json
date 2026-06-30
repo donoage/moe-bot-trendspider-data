@@ -1,18 +1,54 @@
 {
   "metadata": {
     "ticker": "DUOT",
-    "generated_at": "2026-06-25T00:38:56.498268+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:40:25.456933+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 11.46,
+      "volume": 2538556,
+      "dollars": 29091851,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 13.15,
       "volume": 393281,
       "dollars": 5171645,
-      "rank": 1,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782446400,
+      "price": 11.46,
+      "volume": 289817,
+      "dollars": 3321302,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782446400,
+      "price": 11.46,
+      "volume": 146716,
+      "dollars": 1681336,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +60,7 @@
       "price": 13.15,
       "volume": 105241,
       "dollars": 1383919,
-      "rank": 5,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +72,7 @@
       "price": 12.7,
       "volume": 99500,
       "dollars": 1263650,
-      "rank": 7,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -48,7 +84,7 @@
       "price": 14.39,
       "volume": 66775,
       "dollars": 960892,
-      "rank": 9,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -60,7 +96,7 @@
       "price": 14.39,
       "volume": 58560,
       "dollars": 842678,
-      "rank": 10,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -72,7 +108,7 @@
       "price": 12.2,
       "volume": 68102,
       "dollars": 830844,
-      "rank": 11,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -84,42 +120,6 @@
       "price": 13.93,
       "volume": 59471,
       "dollars": 828431,
-      "rank": 12,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1781755200,
-      "price": 13.15,
-      "volume": 60824,
-      "dollars": 799835,
-      "rank": 14,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1780891200,
-      "price": 12.15,
-      "volume": 63800,
-      "dollars": 775170,
-      "rank": 15,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1780977600,
-      "price": 12.15,
-      "volume": 63800,
-      "dollars": 775170,
       "rank": 15,
       "conditions": "",
       "exchange": "",
@@ -130,33 +130,33 @@
   ],
   "levels": [
     {
+      "price": 11.5,
+      "volume": 3139246,
+      "dollars": 35975729,
+      "rank": 1
+    },
+    {
       "price": 13.2,
       "volume": 559346,
       "dollars": 7355399,
-      "rank": 1
+      "rank": 2
     },
     {
       "price": 8.1,
       "volume": 640000,
       "dollars": 5164800,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 7.5,
       "volume": 559969,
       "dollars": 4216566,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 7.6,
       "volume": 463249,
       "dollars": 3499042,
-      "rank": 4
-    },
-    {
-      "price": 12.2,
-      "volume": 195702,
-      "dollars": 2381184,
       "rank": 5
     }
   ],

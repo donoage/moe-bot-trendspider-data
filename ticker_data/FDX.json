@@ -1,18 +1,42 @@
 {
   "metadata": {
     "ticker": "FDX",
-    "generated_at": "2026-06-25T00:40:01.833025+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:41:38.087309+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782705600,
+      "price": 323.8,
+      "volume": 1250000,
+      "dollars": 404750000,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782446400,
+      "price": 318.53,
+      "volume": 1064963,
+      "dollars": 339222664,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1780027200,
       "price": 331.79,
       "volume": 993179,
       "dollars": 329525995,
-      "rank": 7,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +48,7 @@
       "price": 326.2,
       "volume": 920400,
       "dollars": 300234480,
-      "rank": 14,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -58,10 +82,10 @@
       "rank": 59
     },
     {
-      "price": 311.9,
-      "volume": 1069097,
-      "dollars": 333393534,
-      "rank": 0
+      "price": 323.8,
+      "volume": 1250000,
+      "dollars": 404750000,
+      "rank": 62
     }
   ],
   "boxes": []

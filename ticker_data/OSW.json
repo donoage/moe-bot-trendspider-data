@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "OSW",
-    "generated_at": "2026-06-25T00:47:19.586759+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:51:08.778950+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 28.2,
+      "volume": 997464,
+      "dollars": 28128484,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 27.53,
       "volume": 951179,
       "dollars": 26185957,
-      "rank": 9,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 24.66,
       "volume": 494740,
       "dollars": 12200288,
-      "rank": 18,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -52,16 +64,16 @@
       "rank": 12
     },
     {
+      "price": 28.2,
+      "volume": 1130748,
+      "dollars": 31887070,
+      "rank": 20
+    },
+    {
       "price": 22.4,
       "volume": 1403653,
       "dollars": 31451338,
-      "rank": 21
-    },
-    {
-      "price": 23.5,
-      "volume": 1189728,
-      "dollars": 27940382,
-      "rank": 26
+      "rank": 22
     }
   ],
   "boxes": []

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "PGR",
-    "generated_at": "2026-06-25T00:47:19.590305+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:51:08.782872+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1782446400,
+      "price": 224.34,
+      "volume": 2093188,
+      "dollars": 469585795,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1780027200,
       "price": 190.4,
       "volume": 2348838,
       "dollars": 447218755,
-      "rank": 11,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,22 +58,22 @@
       "rank": 3
     },
     {
+      "price": 224.3,
+      "volume": 7028647,
+      "dollars": 1576542047,
+      "rank": 4
+    },
+    {
       "price": 208.3,
       "volume": 4838142,
       "dollars": 1007645221,
-      "rank": 8
+      "rank": 9
     },
     {
       "price": 207.0,
       "volume": 4109349,
       "dollars": 850530253,
       "rank": 10
-    },
-    {
-      "price": 208.0,
-      "volume": 3888633,
-      "dollars": 808795032,
-      "rank": 16
     }
   ],
   "boxes": [
@@ -72,7 +84,7 @@
       "volume": 485094,
       "dollars": 97570482,
       "trades": 3,
-      "date_range": "2026-03-26 to 2026-06-24",
+      "date_range": "2026-03-31 to 2026-06-29",
       "color": "#FF6B6B"
     }
   ]

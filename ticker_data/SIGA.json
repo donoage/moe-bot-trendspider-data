@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "SIGA",
-    "generated_at": "2026-06-25T00:49:19.750831+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:53:41.192385+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1782446400,
+      "price": 3.92,
+      "volume": 1037559,
+      "dollars": 4067231,
+      "rank": 18,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 5.1,
@@ -27,16 +40,16 @@
       "rank": 39
     },
     {
-      "price": 5.0,
-      "volume": 1053559,
-      "dollars": 5273414,
+      "price": 3.9,
+      "volume": 1366449,
+      "dollars": 5356480,
       "rank": 50
     },
     {
-      "price": 4.9,
-      "volume": 847896,
-      "dollars": 4146658,
-      "rank": 65
+      "price": 5.0,
+      "volume": 1053559,
+      "dollars": 5273414,
+      "rank": 51
     }
   ],
   "boxes": []

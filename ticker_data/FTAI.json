@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "FTAI",
-    "generated_at": "2026-06-25T00:40:01.838373+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:41:38.095205+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 260.08,
+      "volume": 1267588,
+      "dollars": 329674287,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1780027200,
       "price": 260.34,
       "volume": 714421,
       "dollars": 185992363,
-      "rank": 6,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 276.11,
       "volume": 401162,
       "dollars": 110764839,
-      "rank": 10,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 280.36,
       "volume": 284960,
       "dollars": 79891385,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -52,28 +64,28 @@
       "rank": 3
     },
     {
+      "price": 260.1,
+      "volume": 1371064,
+      "dollars": 356586399,
+      "rank": 5
+    },
+    {
       "price": 260.3,
       "volume": 828659,
       "dollars": 215732989,
-      "rank": 5
+      "rank": 6
     },
     {
       "price": 276.1,
       "volume": 504981,
       "dollars": 139430303,
-      "rank": 9
+      "rank": 10
     },
     {
       "price": 280.4,
       "volume": 451541,
       "dollars": 126594034,
-      "rank": 18
-    },
-    {
-      "price": 244.0,
-      "volume": 450182,
-      "dollars": 109844408,
-      "rank": 26
+      "rank": 19
     }
   ],
   "boxes": []

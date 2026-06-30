@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "SRRK",
-    "generated_at": "2026-06-25T00:51:21.011255+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:56:22.447610+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 54.76,
+      "volume": 4497770,
+      "dollars": 246297885,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 47.33,
       "volume": 1363047,
       "dollars": 64513014,
-      "rank": 4,
+      "rank": 5,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 49.3,
       "volume": 694452,
       "dollars": 34236483,
-      "rank": 10,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 49.19,
       "volume": 671043,
       "dollars": 33008605,
-      "rank": 12,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -48,7 +60,7 @@
       "price": 46.45,
       "volume": 578131,
       "dollars": 26854184,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -60,7 +72,7 @@
       "price": 49.16,
       "volume": 489444,
       "dollars": 24061067,
-      "rank": 18,
+      "rank": 19,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -70,33 +82,33 @@
   ],
   "levels": [
     {
+      "price": 54.8,
+      "volume": 5641498,
+      "dollars": 308929574,
+      "rank": 1
+    },
+    {
       "price": 50.0,
       "volume": 2854143,
       "dollars": 142663010,
-      "rank": 1
+      "rank": 2
     },
     {
       "price": 49.2,
       "volume": 2467146,
       "dollars": 121341314,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 43.8,
       "volume": 2690153,
       "dollars": 117703089,
-      "rank": 4
+      "rank": 5
     },
     {
       "price": 47.3,
       "volume": 2396199,
       "dollars": 113399614,
-      "rank": 5
-    },
-    {
-      "price": 44.8,
-      "volume": 2166620,
-      "dollars": 97028434,
       "rank": 6
     }
   ],

@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "BUR",
-    "generated_at": "2026-06-25T00:36:41.929417+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:37:57.455524+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 4.19,
+      "volume": 3065913,
+      "dollars": 12846175,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1774929600,
       "price": 4.08,
       "volume": 1544648,
       "dollars": 6302163,
-      "rank": 19,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -28,28 +40,28 @@
       "rank": 19
     },
     {
-      "price": 7.8,
-      "volume": 1689472,
-      "dollars": 13168993,
-      "rank": 37
+      "price": 4.2,
+      "volume": 4248281,
+      "dollars": 17808215,
+      "rank": 31
+    },
+    {
+      "price": 4.1,
+      "volume": 3175803,
+      "dollars": 13040918,
+      "rank": 39
     },
     {
       "price": 4.6,
       "volume": 2816751,
       "dollars": 12933839,
-      "rank": 39
+      "rank": 41
     },
     {
       "price": 4.7,
       "volume": 2729516,
       "dollars": 12804923,
-      "rank": 40
-    },
-    {
-      "price": 4.1,
-      "volume": 2972777,
-      "dollars": 12210541,
-      "rank": 43
+      "rank": 42
     }
   ],
   "boxes": []

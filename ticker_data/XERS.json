@@ -1,18 +1,37 @@
 {
   "metadata": {
     "ticker": "XERS",
-    "generated_at": "2026-06-25T00:54:16.732393+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T01:00:03.026474+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1782446400,
+      "price": 7.69,
+      "volume": 3630051,
+      "dollars": 27915092,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 7.7,
+      "volume": 10737990,
+      "dollars": 82702360,
+      "rank": 1
+    },
     {
       "price": 6.6,
       "volume": 8113383,
       "dollars": 53691662,
-      "rank": 1
+      "rank": 2
     },
     {
       "price": 7.0,
@@ -31,12 +50,6 @@
       "volume": 5043765,
       "dollars": 29699187,
       "rank": 8
-    },
-    {
-      "price": 6.9,
-      "volume": 3791809,
-      "dollars": 26206032,
-      "rank": 9
     }
   ],
   "boxes": []

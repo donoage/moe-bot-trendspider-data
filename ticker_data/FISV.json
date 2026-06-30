@@ -1,42 +1,55 @@
 {
   "metadata": {
     "ticker": "FISV",
-    "generated_at": "2026-06-25T00:40:01.834312+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:41:38.091450+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1782446400,
+      "price": 49.45,
+      "volume": 7403528,
+      "dollars": 366104459,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 49.5,
+      "volume": 11704381,
+      "dollars": 578782896,
+      "rank": 21
+    },
     {
       "price": 56.6,
       "volume": 9679526,
       "dollars": 547652562,
-      "rank": 22
+      "rank": 23
     },
     {
       "price": 64.5,
       "volume": 6242763,
       "dollars": 402611384,
-      "rank": 33
+      "rank": 34
     },
     {
       "price": 57.1,
       "volume": 6949695,
       "dollars": 396696653,
-      "rank": 34
+      "rank": 35
     },
     {
       "price": 61.3,
       "volume": 6111437,
       "dollars": 374622784,
-      "rank": 36
-    },
-    {
-      "price": 61.6,
-      "volume": 5277273,
-      "dollars": 325111378,
-      "rank": 44
+      "rank": 37
     }
   ],
   "boxes": []

@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "HOOD",
-    "generated_at": "2026-06-25T00:42:15.274597+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:44:10.996165+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 98.69,
+      "volume": 13205561,
+      "dollars": 1303256815,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1780027200,
       "price": 94.3,
       "volume": 4359301,
       "dollars": 411082084,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,33 +34,33 @@
   ],
   "levels": [
     {
+      "price": 98.7,
+      "volume": 21188245,
+      "dollars": 2091087936,
+      "rank": 2
+    },
+    {
       "price": 105.7,
       "volume": 11012896,
       "dollars": 1164071116,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 66.2,
       "volume": 12522411,
       "dollars": 828369765,
-      "rank": 6
+      "rank": 7
     },
     {
       "price": 102.9,
-      "volume": 7052227,
-      "dollars": 725760221,
-      "rank": 9
+      "volume": 6988027,
+      "dollars": 719157251,
+      "rank": 10
     },
     {
       "price": 108.8,
       "volume": 6594699,
       "dollars": 717535909,
-      "rank": 10
-    },
-    {
-      "price": 83.0,
-      "volume": 8429214,
-      "dollars": 699863206,
       "rank": 11
     }
   ],

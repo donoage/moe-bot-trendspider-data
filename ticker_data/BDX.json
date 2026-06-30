@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "BDX",
-    "generated_at": "2026-06-25T00:35:36.529531+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:36:42.988926+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 155.92,
+      "volume": 4537324,
+      "dollars": 707459558,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 143.98,
       "volume": 3129612,
       "dollars": 450601535,
-      "rank": 3,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,10 +34,16 @@
   ],
   "levels": [
     {
+      "price": 155.9,
+      "volume": 8009568,
+      "dollars": 1248846912,
+      "rank": 2
+    },
+    {
       "price": 144.0,
       "volume": 3862279,
       "dollars": 556095075,
-      "rank": 33
+      "rank": 34
     },
     {
       "price": 143.5,
@@ -44,12 +62,6 @@
       "volume": 2189391,
       "dollars": 323509296,
       "rank": 0
-    },
-    {
-      "price": 147.1,
-      "volume": 2139027,
-      "dollars": 314687203,
-      "rank": 0
     }
   ],
   "boxes": [
@@ -60,7 +72,7 @@
       "volume": 735946,
       "dollars": 108042305,
       "trades": 3,
-      "date_range": "2026-03-26 to 2026-06-24",
+      "date_range": "2026-03-31 to 2026-06-29",
       "color": "#FF6B6B"
     }
   ]

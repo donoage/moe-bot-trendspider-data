@@ -1,42 +1,55 @@
 {
   "metadata": {
     "ticker": "PGY",
-    "generated_at": "2026-06-25T00:47:19.590356+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:51:08.783064+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1782446400,
+      "price": 15.87,
+      "volume": 6491358,
+      "dollars": 103017851,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 15.9,
+      "volume": 8008451,
+      "dollars": 127095900,
+      "rank": 1
+    },
     {
       "price": 12.8,
       "volume": 7040125,
       "dollars": 89848267,
-      "rank": 1
+      "rank": 2
     },
     {
       "price": 15.1,
-      "volume": 2690716,
-      "dollars": 40595894,
-      "rank": 6
+      "volume": 2735422,
+      "dollars": 41272296,
+      "rank": 7
     },
     {
       "price": 15.3,
-      "volume": 2118398,
-      "dollars": 32364710,
-      "rank": 11
-    },
-    {
-      "price": 11.0,
-      "volume": 2788586,
-      "dollars": 30628411,
-      "rank": 13
+      "volume": 2206797,
+      "dollars": 33717599,
+      "rank": 10
     },
     {
       "price": 12.0,
       "volume": 2487492,
       "dollars": 29847996,
-      "rank": 14
+      "rank": 15
     }
   ],
   "boxes": []

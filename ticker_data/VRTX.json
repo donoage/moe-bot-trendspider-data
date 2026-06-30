@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "VRTX",
-    "generated_at": "2026-06-25T00:53:28.709717+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:59:06.074397+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 491.34,
+      "volume": 2704926,
+      "dollars": 1329038340,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 451.63,
       "volume": 1040428,
       "dollars": 469888497,
-      "rank": 10,
+      "rank": 11,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,34 +34,34 @@
   ],
   "levels": [
     {
+      "price": 491.3,
+      "volume": 5427253,
+      "dollars": 2666624065,
+      "rank": 2
+    },
+    {
       "price": 456.2,
       "volume": 3706014,
       "dollars": 1690683242,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 468.7,
       "volume": 3292605,
       "dollars": 1543295996,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 441.3,
       "volume": 2347557,
       "dollars": 1035976882,
-      "rank": 8
+      "rank": 9
     },
     {
       "price": 442.1,
       "volume": 2157150,
       "dollars": 953589819,
-      "rank": 9
-    },
-    {
-      "price": 451.6,
-      "volume": 1678062,
-      "dollars": 757846575,
-      "rank": 11
+      "rank": 10
     }
   ],
   "boxes": [
@@ -60,7 +72,7 @@
       "volume": 59759,
       "dollars": 26975212,
       "trades": 1,
-      "date_range": "2026-03-26 to 2026-06-24",
+      "date_range": "2026-03-31 to 2026-06-29",
       "color": "#FF6B6B"
     }
   ]

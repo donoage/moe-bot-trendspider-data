@@ -1,18 +1,18 @@
 {
   "metadata": {
     "ticker": "GLXY",
-    "generated_at": "2026-06-25T00:41:08.986814+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:42:50.905046+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
-      "timestamp": 1780977600,
-      "price": 32.68,
-      "volume": 1108060,
-      "dollars": 36211400,
-      "rank": 16,
+      "timestamp": 1782446400,
+      "price": 29.26,
+      "volume": 7218835,
+      "dollars": 211223112,
+      "rank": 1,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -20,11 +20,23 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1781755200,
-      "price": 34.2,
-      "volume": 995732,
-      "dollars": 34054034,
-      "rank": 19,
+      "timestamp": 1780977600,
+      "price": 32.68,
+      "volume": 1108060,
+      "dollars": 36211400,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782705600,
+      "price": 28.53,
+      "volume": 1249311,
+      "dollars": 35642842,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,33 +46,33 @@
   ],
   "levels": [
     {
+      "price": 29.3,
+      "volume": 12150539,
+      "dollars": 355549882,
+      "rank": 1
+    },
+    {
       "price": 18.9,
       "volume": 15514381,
       "dollars": 292604846,
-      "rank": 1
+      "rank": 2
     },
     {
       "price": 24.8,
       "volume": 6375707,
       "dollars": 157987759,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 24.0,
       "volume": 5995072,
       "dollars": 143874098,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 18.5,
       "volume": 7503948,
       "dollars": 138640227,
-      "rank": 4
-    },
-    {
-      "price": 29.6,
-      "volume": 4368904,
-      "dollars": 129277647,
       "rank": 5
     }
   ],

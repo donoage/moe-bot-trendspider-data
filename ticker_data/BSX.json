@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "BSX",
-    "generated_at": "2026-06-25T00:36:41.918660+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:37:57.439081+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 44.23,
+      "volume": 9140249,
+      "dollars": 404273213,
+      "rank": 7,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 45.29,
       "volume": 7226987,
       "dollars": 327310241,
-      "rank": 14,
+      "rank": 15,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 48.31,
       "volume": 6677244,
       "dollars": 322577657,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -35,9 +47,9 @@
   "levels": [
     {
       "price": 44.2,
-      "volume": 31530027,
-      "dollars": 1393408913,
-      "rank": 11
+      "volume": 48297643,
+      "dollars": 2134890805,
+      "rank": 1
     },
     {
       "price": 51.5,
@@ -47,9 +59,9 @@
     },
     {
       "price": 44.3,
-      "volume": 23154448,
-      "dollars": 1025505821,
-      "rank": 42
+      "volume": 23317303,
+      "dollars": 1032718074,
+      "rank": 41
     },
     {
       "price": 45.3,
@@ -58,9 +70,9 @@
       "rank": 51
     },
     {
-      "price": 53.4,
-      "volume": 18481487,
-      "dollars": 986795117,
+      "price": 45.0,
+      "volume": 21974238,
+      "dollars": 988489469,
       "rank": 54
     }
   ],
@@ -72,7 +84,7 @@
       "volume": 6308528,
       "dollars": 343376261,
       "trades": 9,
-      "date_range": "2026-03-26 to 2026-06-24",
+      "date_range": "2026-03-31 to 2026-06-29",
       "color": "#FF6B6B"
     }
   ]

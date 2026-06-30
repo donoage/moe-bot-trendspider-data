@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "CVLT",
-    "generated_at": "2026-06-25T00:37:47.698392+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:39:12.263732+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 140.04,
+      "volume": 906126,
+      "dollars": 126893885,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 130.03,
       "volume": 553347,
       "dollars": 71951710,
-      "rank": 6,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 105.09,
       "volume": 483136,
       "dollars": 50772762,
-      "rank": 13,
+      "rank": 14,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,21 +58,21 @@
       "rank": 3
     },
     {
+      "price": 140.0,
+      "volume": 979570,
+      "dollars": 137178856,
+      "rank": 5
+    },
+    {
       "price": 79.4,
       "volume": 1723673,
       "dollars": 136872362,
-      "rank": 5
+      "rank": 6
     },
     {
       "price": 130.0,
       "volume": 666157,
       "dollars": 86620394,
-      "rank": 17
-    },
-    {
-      "price": 119.7,
-      "volume": 703448,
-      "dollars": 84181660,
       "rank": 18
     }
   ],

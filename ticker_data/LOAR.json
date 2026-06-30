@@ -1,13 +1,32 @@
 {
   "metadata": {
     "ticker": "LOAR",
-    "generated_at": "2026-06-25T00:44:17.511173+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:47:04.306667+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1782446400,
+      "price": 79.14,
+      "volume": 783671,
+      "dollars": 62019722,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 80.0,
+      "volume": 1929086,
+      "dollars": 154334969,
+      "rank": 1
+    },
     {
       "price": 72.8,
       "volume": 2002037,
@@ -15,28 +34,22 @@
       "rank": 2
     },
     {
-      "price": 71.7,
-      "volume": 1100890,
-      "dollars": 78910370,
-      "rank": 7
+      "price": 79.1,
+      "volume": 1258201,
+      "dollars": 99571650,
+      "rank": 3
     },
     {
-      "price": 72.7,
-      "volume": 1074071,
-      "dollars": 78065521,
-      "rank": 8
+      "price": 78.5,
+      "volume": 1263005,
+      "dollars": 99148980,
+      "rank": 4
     },
     {
-      "price": 64.5,
-      "volume": 1013958,
-      "dollars": 65387429,
-      "rank": 16
-    },
-    {
-      "price": 65.4,
-      "volume": 979355,
-      "dollars": 64017241,
-      "rank": 17
+      "price": 78.8,
+      "volume": 1108266,
+      "dollars": 87330956,
+      "rank": 5
     }
   ],
   "boxes": []

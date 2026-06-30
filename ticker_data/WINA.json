@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "WINA",
-    "generated_at": "2026-06-25T00:53:28.714877+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:59:06.079946+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 418.19,
+      "volume": 46734,
+      "dollars": 19543691,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 400.34,
       "volume": 42380,
       "dollars": 16966409,
-      "rank": 8,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -40,15 +52,15 @@
       "rank": 4
     },
     {
-      "price": 402.8,
-      "volume": 46340,
-      "dollars": 18665288,
+      "price": 418.2,
+      "volume": 46734,
+      "dollars": 19543691,
       "rank": 5
     },
     {
-      "price": 400.3,
-      "volume": 42380,
-      "dollars": 16966409,
+      "price": 402.8,
+      "volume": 46340,
+      "dollars": 18665288,
       "rank": 6
     }
   ],

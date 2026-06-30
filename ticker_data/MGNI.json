@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "MGNI",
-    "generated_at": "2026-06-25T00:44:17.526052+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:47:04.413331+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1782446400,
+      "price": 18.73,
+      "volume": 2487035,
+      "dollars": 46582165,
+      "rank": 5,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 13.3,
@@ -15,28 +28,28 @@
       "rank": 1
     },
     {
+      "price": 18.7,
+      "volume": 4862793,
+      "dollars": 91055251,
+      "rank": 6
+    },
+    {
       "price": 16.3,
       "volume": 4626709,
       "dollars": 75378875,
-      "rank": 6
+      "rank": 7
     },
     {
       "price": 17.5,
       "volume": 4272196,
       "dollars": 74693979,
-      "rank": 7
+      "rank": 8
     },
     {
       "price": 13.6,
       "volume": 5460996,
       "dollars": 74224545,
-      "rank": 8
-    },
-    {
-      "price": 16.4,
-      "volume": 4302257,
-      "dollars": 70535425,
-      "rank": 10
+      "rank": 9
     }
   ],
   "boxes": []

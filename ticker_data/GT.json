@@ -1,17 +1,36 @@
 {
   "metadata": {
     "ticker": "GT",
-    "generated_at": "2026-06-25T00:41:09.022318+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:42:50.909494+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1782446400,
+      "price": 6.84,
+      "volume": 7144028,
+      "dollars": 48865151,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 7.1,
       "volume": 27183206,
       "dollars": 192613762,
+      "rank": 0
+    },
+    {
+      "price": 6.8,
+      "volume": 15213981,
+      "dollars": 103727427,
       "rank": 0
     },
     {
@@ -28,14 +47,8 @@
     },
     {
       "price": 6.4,
-      "volume": 12101743,
-      "dollars": 77323212,
-      "rank": 0
-    },
-    {
-      "price": 6.6,
-      "volume": 10814155,
-      "dollars": 71469757,
+      "volume": 13010653,
+      "dollars": 83176592,
       "rank": 0
     }
   ],

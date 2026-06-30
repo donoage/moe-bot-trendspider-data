@@ -1,12 +1,25 @@
 {
   "metadata": {
     "ticker": "COUR",
-    "generated_at": "2026-06-25T00:37:47.691026+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:39:12.256060+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1782446400,
+      "price": 5.74,
+      "volume": 6065900,
+      "dollars": 34818266,
+      "rank": 9,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
     {
       "price": 5.3,
@@ -15,28 +28,28 @@
       "rank": 3
     },
     {
+      "price": 5.7,
+      "volume": 14022253,
+      "dollars": 80341206,
+      "rank": 9
+    },
+    {
       "price": 6.0,
       "volume": 9885795,
       "dollars": 59222391,
-      "rank": 16
+      "rank": 17
     },
     {
       "price": 5.9,
-      "volume": 8450653,
-      "dollars": 49917709,
-      "rank": 22
-    },
-    {
-      "price": 6.1,
-      "volume": 7519327,
-      "dollars": 45788027,
-      "rank": 24
+      "volume": 8792378,
+      "dollars": 51916800,
+      "rank": 23
     },
     {
       "price": 5.8,
-      "volume": 7701986,
-      "dollars": 44743581,
-      "rank": 28
+      "volume": 8672343,
+      "dollars": 50332838,
+      "rank": 24
     }
   ],
   "boxes": []

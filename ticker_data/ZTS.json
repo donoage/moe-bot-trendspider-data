@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "ZTS",
-    "generated_at": "2026-06-25T00:54:16.745236+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T01:00:03.083591+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 76.09,
+      "volume": 6872510,
+      "dollars": 522929285,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 78.71,
       "volume": 5946809,
       "dollars": 468073336,
-      "rank": 3,
+      "rank": 4,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,22 +46,22 @@
       "rank": 4
     },
     {
+      "price": 76.1,
+      "volume": 10363075,
+      "dollars": 788523342,
+      "rank": 8
+    },
+    {
       "price": 122.2,
       "volume": 6422869,
       "dollars": 785110040,
-      "rank": 8
+      "rank": 9
     },
     {
       "price": 78.7,
       "volume": 8400400,
       "dollars": 661192594,
-      "rank": 13
-    },
-    {
-      "price": 117.9,
-      "volume": 4627691,
-      "dollars": 545606913,
-      "rank": 35
+      "rank": 14
     }
   ],
   "boxes": [
@@ -60,7 +72,7 @@
       "volume": 1831776,
       "dollars": 144114601,
       "trades": 3,
-      "date_range": "2026-03-26 to 2026-06-24",
+      "date_range": "2026-03-31 to 2026-06-29",
       "color": "#FF6B6B"
     }
   ]

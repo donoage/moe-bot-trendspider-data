@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "LLY",
-    "generated_at": "2026-06-25T00:44:17.507226+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:47:04.217406+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 1208.12,
+      "volume": 1985687,
+      "dollars": 2398948178,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1780027200,
       "price": 1105.0,
       "volume": 1272678,
       "dollars": 1406309190,
-      "rank": 14,
+      "rank": 15,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 1098.57,
       "volume": 1130948,
       "dollars": 1242425544,
-      "rank": 17,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -40,28 +52,28 @@
       "rank": 2
     },
     {
+      "price": 1208.1,
+      "volume": 2277428,
+      "dollars": 2751405710,
+      "rank": 8
+    },
+    {
       "price": 1071.4,
       "volume": 2207702,
       "dollars": 2365420063,
-      "rank": 12
+      "rank": 13
     },
     {
       "price": 906.7,
       "volume": 2249290,
       "dollars": 2039433581,
-      "rank": 14
+      "rank": 15
     },
     {
       "price": 987.1,
       "volume": 1972723,
       "dollars": 1947176237,
-      "rank": 16
-    },
-    {
-      "price": 1070.2,
-      "volume": 1770495,
-      "dollars": 1894712929,
-      "rank": 18
+      "rank": 17
     }
   ],
   "boxes": [
@@ -72,7 +84,7 @@
       "volume": 324364,
       "dollars": 297251095,
       "trades": 4,
-      "date_range": "2026-03-26 to 2026-06-24",
+      "date_range": "2026-03-31 to 2026-06-29",
       "color": "#FF6B6B"
     }
   ]

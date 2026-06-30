@@ -1,18 +1,42 @@
 {
   "metadata": {
     "ticker": "VCTR",
-    "generated_at": "2026-06-25T00:53:28.706257+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:59:06.068520+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 83.43,
+      "volume": 504307,
+      "dollars": 42074333,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 87.01,
       "volume": 310369,
       "dollars": 27005206,
-      "rank": 10,
+      "rank": 11,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782446400,
+      "price": 83.43,
+      "volume": 289134,
+      "dollars": 24122449,
+      "rank": 13,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +48,7 @@
       "price": 62.83,
       "volume": 288127,
       "dollars": 18103019,
-      "rank": 15,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,22 +70,22 @@
       "rank": 3
     },
     {
+      "price": 83.4,
+      "volume": 971182,
+      "dollars": 81025714,
+      "rank": 4
+    },
+    {
       "price": 68.2,
       "volume": 976176,
       "dollars": 66567254,
-      "rank": 4
+      "rank": 5
     },
     {
       "price": 64.1,
       "volume": 830879,
       "dollars": 53242956,
-      "rank": 7
-    },
-    {
-      "price": 62.9,
-      "volume": 809396,
-      "dollars": 50923257,
-      "rank": 9
+      "rank": 8
     }
   ],
   "boxes": []

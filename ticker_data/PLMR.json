@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "PLMR",
-    "generated_at": "2026-06-25T00:47:19.592500+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:51:08.785669+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 126.32,
+      "volume": 511446,
+      "dollars": 64605858,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 111.7,
       "volume": 155080,
       "dollars": 17322436,
-      "rank": 19,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,33 +34,33 @@
   ],
   "levels": [
     {
+      "price": 126.3,
+      "volume": 620845,
+      "dollars": 78425840,
+      "rank": 2
+    },
+    {
       "price": 112.8,
       "volume": 474201,
       "dollars": 53466432,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 116.9,
       "volume": 455437,
       "dollars": 53240835,
-      "rank": 5
+      "rank": 6
     },
     {
       "price": 113.5,
       "volume": 445394,
       "dollars": 50552219,
-      "rank": 6
+      "rank": 7
     },
     {
       "price": 135.0,
       "volume": 344712,
       "dollars": 46525574,
-      "rank": 7
-    },
-    {
-      "price": 115.8,
-      "volume": 349926,
-      "dollars": 40529564,
       "rank": 8
     }
   ],

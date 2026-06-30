@@ -1,41 +1,54 @@
 {
   "metadata": {
     "ticker": "SBET",
-    "generated_at": "2026-06-25T00:49:19.747731+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:53:41.185563+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [],
+  "prints": [
+    {
+      "timestamp": 1782446400,
+      "price": 4.81,
+      "volume": 20647855,
+      "dollars": 99316182,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    }
+  ],
   "levels": [
+    {
+      "price": 4.8,
+      "volume": 25928795,
+      "dollars": 124717025,
+      "rank": 2
+    },
     {
       "price": 7.2,
       "volume": 5208332,
       "dollars": 37448956,
-      "rank": 26
+      "rank": 27
     },
     {
       "price": 7.6,
       "volume": 4287498,
       "dollars": 32558331,
-      "rank": 33
+      "rank": 34
     },
     {
       "price": 7.4,
       "volume": 4366222,
       "dollars": 32300053,
-      "rank": 34
+      "rank": 35
     },
     {
       "price": 6.2,
       "volume": 4825244,
       "dollars": 29875422,
-      "rank": 38
-    },
-    {
-      "price": 7.5,
-      "volume": 3954545,
-      "dollars": 29607360,
       "rank": 39
     }
   ],

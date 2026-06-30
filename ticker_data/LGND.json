@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "LGND",
-    "generated_at": "2026-06-25T00:44:17.496770+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:47:04.127532+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 303.59,
+      "volume": 577882,
+      "dollars": 175439196,
+      "rank": 3,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 274.88,
       "volume": 168672,
       "dollars": 46364559,
-      "rank": 16,
+      "rank": 17,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -22,34 +34,34 @@
   ],
   "levels": [
     {
+      "price": 303.6,
+      "volume": 780268,
+      "dollars": 236881489,
+      "rank": 3
+    },
+    {
       "price": 200.3,
       "volume": 432333,
       "dollars": 86607449,
-      "rank": 8
+      "rank": 9
     },
     {
       "price": 262.2,
-      "volume": 310898,
-      "dollars": 81508128,
-      "rank": 10
+      "volume": 288198,
+      "dollars": 75556869,
+      "rank": 15
     },
     {
       "price": 259.8,
       "volume": 274937,
       "dollars": 71439630,
-      "rank": 17
+      "rank": 18
     },
     {
-      "price": 191.6,
-      "volume": 346500,
-      "dollars": 66385977,
-      "rank": 21
-    },
-    {
-      "price": 191.1,
-      "volume": 320482,
-      "dollars": 61256029,
-      "rank": 25
+      "price": 276.0,
+      "volume": 189800,
+      "dollars": 52384800,
+      "rank": 36
     }
   ],
   "boxes": []

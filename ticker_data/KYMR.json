@@ -1,18 +1,42 @@
 {
   "metadata": {
     "ticker": "KYMR",
-    "generated_at": "2026-06-25T00:43:17.088226+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:45:34.045605+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 108.12,
+      "volume": 1588581,
+      "dollars": 171757377,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 90.43,
       "volume": 405149,
       "dollars": 36637624,
-      "rank": 13,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782446400,
+      "price": 108.12,
+      "volume": 292000,
+      "dollars": 31571040,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +48,7 @@
       "price": 99.45,
       "volume": 255097,
       "dollars": 25369396,
-      "rank": 18,
+      "rank": 20,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -34,34 +58,34 @@
   ],
   "levels": [
     {
+      "price": 108.1,
+      "volume": 2134441,
+      "dollars": 230775718,
+      "rank": 1
+    },
+    {
       "price": 89.9,
       "volume": 1113433,
       "dollars": 100086098,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 71.5,
       "volume": 1308201,
       "dollars": 93549453,
-      "rank": 4
+      "rank": 5
     },
     {
       "price": 89.7,
       "volume": 688437,
       "dollars": 61739046,
-      "rank": 8
+      "rank": 9
     },
     {
       "price": 84.0,
       "volume": 692618,
       "dollars": 58175505,
-      "rank": 9
-    },
-    {
-      "price": 77.9,
-      "volume": 668903,
-      "dollars": 52114232,
-      "rank": 11
+      "rank": 10
     }
   ],
   "boxes": []

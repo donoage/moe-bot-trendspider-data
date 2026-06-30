@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "ORLY",
-    "generated_at": "2026-06-25T00:47:19.577205+00:00Z",
-    "date_range": "2026-03-26 to 2026-06-24",
+    "generated_at": "2026-06-30T00:51:08.770705+00:00Z",
+    "date_range": "2026-03-31 to 2026-06-29",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782446400,
+      "price": 89.55,
+      "volume": 8487393,
+      "dollars": 760046043,
+      "rank": 1,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 86.84,
       "volume": 5353394,
       "dollars": 464888734,
-      "rank": 2,
+      "rank": 3,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 86.88,
       "volume": 3890344,
       "dollars": 337993086,
-      "rank": 11,
+      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,7 @@
       "price": 90.33,
       "volume": 3523613,
       "dollars": 318287962,
-      "rank": 17,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -46,33 +58,33 @@
   ],
   "levels": [
     {
+      "price": 89.6,
+      "volume": 15379796,
+      "dollars": 1377298205,
+      "rank": 1
+    },
+    {
       "price": 91.0,
       "volume": 12737332,
       "dollars": 1159061074,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 91.2,
       "volume": 11165129,
       "dollars": 1018104432,
-      "rank": 4
+      "rank": 5
     },
     {
       "price": 91.3,
-      "volume": 10697256,
-      "dollars": 976868396,
-      "rank": 5
+      "volume": 10712256,
+      "dollars": 978237521,
+      "rank": 6
     },
     {
       "price": 94.4,
       "volume": 10050751,
       "dollars": 948729185,
-      "rank": 6
-    },
-    {
-      "price": 89.9,
-      "volume": 10476762,
-      "dollars": 941680664,
       "rank": 7
     }
   ],
@@ -84,7 +96,7 @@
       "volume": 2524834,
       "dollars": 228580930,
       "trades": 7,
-      "date_range": "2026-03-26 to 2026-06-24",
+      "date_range": "2026-03-31 to 2026-06-29",
       "color": "#FF6B6B"
     }
   ]
