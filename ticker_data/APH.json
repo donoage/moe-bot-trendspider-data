@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "APH",
-    "generated_at": "2026-06-30T00:35:30.639515+00:00Z",
-    "date_range": "2026-03-31 to 2026-06-29",
+    "generated_at": "2026-07-02T00:34:14.056879+00:00Z",
+    "date_range": "2026-04-02 to 2026-07-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782792000,
+      "price": 176.32,
+      "volume": 3977041,
+      "dollars": 701231869,
+      "rank": 4,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1781755200,
       "price": 163.96,
       "volume": 4254114,
       "dollars": 697504531,
-      "rank": 4,
+      "rank": 5,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 163.72,
       "volume": 4107338,
       "dollars": 672453377,
-      "rank": 5,
+      "rank": 6,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,19 +48,7 @@
       "price": 148.76,
       "volume": 4471987,
       "dollars": 665252786,
-      "rank": 6,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1778472000,
-      "price": 122.47,
-      "volume": 3650733,
-      "dollars": 447105270,
-      "rank": 20,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,7 +96,7 @@
       "volume": 1046400,
       "dollars": 143076882,
       "trades": 2,
-      "date_range": "2026-03-31 to 2026-06-29",
+      "date_range": "2026-04-02 to 2026-07-01",
       "color": "#FF6B6B"
     }
   ]

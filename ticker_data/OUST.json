@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "OUST",
-    "generated_at": "2026-06-30T00:51:08.778988+00:00Z",
-    "date_range": "2026-03-31 to 2026-06-29",
+    "generated_at": "2026-07-02T00:46:09.402352+00:00Z",
+    "date_range": "2026-04-02 to 2026-07-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -42,6 +42,30 @@
       "is_dark_pool": false,
       "relative_size": 0.0,
       "vcd": 0.0
+    },
+    {
+      "timestamp": 1782878400,
+      "price": 60.02,
+      "volume": 293960,
+      "dollars": 17643479,
+      "rank": 15,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782792000,
+      "price": 62.52,
+      "volume": 258550,
+      "dollars": 16164546,
+      "rank": 19,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
     }
   ],
   "levels": [
@@ -58,6 +82,12 @@
       "rank": 2
     },
     {
+      "price": 55.6,
+      "volume": 1524089,
+      "dollars": 84739465,
+      "rank": 3
+    },
+    {
       "price": 34.7,
       "volume": 1817293,
       "dollars": 63016248,
@@ -68,12 +98,6 @@
       "volume": 1687839,
       "dollars": 52139658,
       "rank": 7
-    },
-    {
-      "price": 24.1,
-      "volume": 1934751,
-      "dollars": 46635199,
-      "rank": 8
     }
   ],
   "boxes": []

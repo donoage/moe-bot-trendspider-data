@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "GEV",
-    "generated_at": "2026-06-30T00:42:50.899539+00:00Z",
-    "date_range": "2026-03-31 to 2026-06-29",
+    "generated_at": "2026-07-02T00:40:12.586144+00:00Z",
+    "date_range": "2026-04-02 to 2026-07-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -56,11 +56,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1782792000,
+      "price": 1174.86,
+      "volume": 371683,
+      "dollars": 436675489,
+      "rank": 14,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1782100800,
       "price": 1127.59,
       "volume": 361771,
       "dollars": 407929361,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -74,12 +86,6 @@
       "volume": 1613457,
       "dollars": 1562341538,
       "rank": 2
-    },
-    {
-      "price": 851.1,
-      "volume": 1759571,
-      "dollars": 1497519244,
-      "rank": 3
     },
     {
       "price": 1109.7,
@@ -98,6 +104,12 @@
       "volume": 762068,
       "dollars": 859292706,
       "rank": 9
+    },
+    {
+      "price": 909.4,
+      "volume": 833385,
+      "dollars": 757888652,
+      "rank": 14
     }
   ],
   "boxes": [
@@ -108,7 +120,7 @@
       "volume": 56198,
       "dollars": 60721939,
       "trades": 1,
-      "date_range": "2026-03-31 to 2026-06-29",
+      "date_range": "2026-04-02 to 2026-07-01",
       "color": "#FF6B6B"
     }
   ]

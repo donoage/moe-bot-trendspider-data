@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "SNDK",
-    "generated_at": "2026-06-30T00:55:03.159372+00:00Z",
-    "date_range": "2026-03-31 to 2026-06-29",
+    "generated_at": "2026-07-02T00:49:02.954565+00:00Z",
+    "date_range": "2026-04-02 to 2026-07-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -56,11 +56,23 @@
       "vcd": 0.0
     },
     {
+      "timestamp": 1782792000,
+      "price": 2273.73,
+      "volume": 1012145,
+      "dollars": 2301344450,
+      "rank": 6,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1782187200,
       "price": 1963.6,
       "volume": 989435,
       "dollars": 1942854566,
-      "rank": 6,
+      "rank": 7,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -72,7 +84,19 @@
       "price": 1881.51,
       "volume": 953733,
       "dollars": 1794458176,
-      "rank": 7,
+      "rank": 8,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782878400,
+      "price": 2032.22,
+      "volume": 871949,
+      "dollars": 1771992196,
+      "rank": 9,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -84,7 +108,7 @@
       "price": 2273.73,
       "volume": 755245,
       "dollars": 1717223213,
-      "rank": 8,
+      "rank": 10,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -96,31 +120,7 @@
       "price": 1991.55,
       "volume": 830246,
       "dollars": 1653476421,
-      "rank": 9,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1782446400,
-      "price": 2090.71,
-      "volume": 597748,
-      "dollars": 1249717721,
       "rank": 11,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
-      "timestamp": 1781668800,
-      "price": 1958.8,
-      "volume": 630453,
-      "dollars": 1234931336,
-      "rank": 12,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -142,21 +142,21 @@
       "rank": 2
     },
     {
+      "price": 2273.7,
+      "volume": 2008784,
+      "dollars": 4567432444,
+      "rank": 4
+    },
+    {
       "price": 2184.8,
       "volume": 1888236,
       "dollars": 4125323601,
-      "rank": 4
+      "rank": 5
     },
     {
       "price": 2335.0,
       "volume": 1435673,
       "dollars": 3352296455,
-      "rank": 5
-    },
-    {
-      "price": 1646.5,
-      "volume": 1391350,
-      "dollars": 2290913429,
       "rank": 6
     }
   ],
@@ -168,7 +168,7 @@
       "volume": 48442,
       "dollars": 71571663,
       "trades": 3,
-      "date_range": "2026-03-31 to 2026-06-29",
+      "date_range": "2026-04-02 to 2026-07-01",
       "color": "#FF6B6B"
     }
   ]

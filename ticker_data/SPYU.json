@@ -1,37 +1,18 @@
 {
   "metadata": {
     "ticker": "SPYU",
-    "generated_at": "2026-06-30T00:56:22.441383+00:00Z",
-    "date_range": "2026-03-31 to 2026-06-29",
+    "generated_at": "2026-07-02T00:49:59.295774+00:00Z",
+    "date_range": "2026-04-02 to 2026-07-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
-  "prints": [
-    {
-      "timestamp": 1774929600,
-      "price": 19.5,
-      "volume": 169607,
-      "dollars": 3307336,
-      "rank": 3,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    }
-  ],
+  "prints": [],
   "levels": [
     {
       "price": 26.3,
       "volume": 429212,
       "dollars": 11291074,
       "rank": 2
-    },
-    {
-      "price": 19.7,
-      "volume": 411812,
-      "dollars": 8103870,
-      "rank": 5
     },
     {
       "price": 22.9,
@@ -50,6 +31,12 @@
       "volume": 272482,
       "dollars": 7293893,
       "rank": 8
+    },
+    {
+      "price": 24.6,
+      "volume": 293325,
+      "dollars": 7217947,
+      "rank": 9
     }
   ],
   "boxes": []

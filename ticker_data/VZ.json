@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "VZ",
-    "generated_at": "2026-06-30T00:59:06.077242+00:00Z",
-    "date_range": "2026-03-31 to 2026-06-29",
+    "generated_at": "2026-07-02T00:51:50.837968+00:00Z",
+    "date_range": "2026-04-02 to 2026-07-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -41,8 +41,8 @@
     },
     {
       "price": 44.0,
-      "volume": 190357202,
-      "dollars": 8370803703,
+      "volume": 190411452,
+      "dollars": 8373192665,
       "rank": 2
     },
     {
@@ -64,5 +64,16 @@
       "rank": 5
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 42.0,
+      "low_price": 41.49,
+      "volume": 3921932,
+      "dollars": 164361312,
+      "trades": 5,
+      "date_range": "2026-04-02 to 2026-07-01",
+      "color": "#FF6B6B"
+    }
+  ]
 }

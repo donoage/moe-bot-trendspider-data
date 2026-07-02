@@ -1,18 +1,30 @@
 {
   "metadata": {
     "ticker": "QXO",
-    "generated_at": "2026-06-30T00:52:23.413580+00:00Z",
-    "date_range": "2026-03-31 to 2026-06-29",
+    "generated_at": "2026-07-02T00:47:07.192093+00:00Z",
+    "date_range": "2026-04-02 to 2026-07-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
   "prints": [
     {
+      "timestamp": 1782792000,
+      "price": 17.28,
+      "volume": 21045902,
+      "dollars": 363673186,
+      "rank": 2,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
       "timestamp": 1779768000,
       "price": 17.16,
       "volume": 4715032,
       "dollars": 80909949,
-      "rank": 7,
+      "rank": 8,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -24,7 +36,7 @@
       "price": 18.76,
       "volume": 2496600,
       "dollars": 46836216,
-      "rank": 15,
+      "rank": 16,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -36,7 +48,19 @@
       "price": 17.78,
       "volume": 2583773,
       "dollars": 45939483,
-      "rank": 16,
+      "rank": 17,
+      "conditions": "",
+      "exchange": "",
+      "is_dark_pool": false,
+      "relative_size": 0.0,
+      "vcd": 0.0
+    },
+    {
+      "timestamp": 1782792000,
+      "price": 17.28,
+      "volume": 2614520,
+      "dollars": 45178905,
+      "rank": 18,
       "conditions": "",
       "exchange": "",
       "is_dark_pool": false,
@@ -52,27 +76,27 @@
       "rank": 1
     },
     {
+      "price": 17.3,
+      "volume": 30929629,
+      "dollars": 534398097,
+      "rank": 2
+    },
+    {
       "price": 21.0,
       "volume": 18694938,
       "dollars": 392350645,
-      "rank": 2
+      "rank": 3
     },
     {
       "price": 15.1,
       "volume": 25587507,
       "dollars": 385638749,
-      "rank": 3
+      "rank": 4
     },
     {
       "price": 21.8,
       "volume": 12498276,
       "dollars": 272503193,
-      "rank": 4
-    },
-    {
-      "price": 23.2,
-      "volume": 11630034,
-      "dollars": 269842386,
       "rank": 5
     }
   ],
@@ -84,7 +108,7 @@
       "volume": 846809,
       "dollars": 19561287,
       "trades": 1,
-      "date_range": "2026-03-31 to 2026-06-29",
+      "date_range": "2026-04-02 to 2026-07-01",
       "color": "#FF6B6B"
     }
   ]

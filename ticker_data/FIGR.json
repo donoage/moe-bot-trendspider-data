@@ -1,8 +1,8 @@
 {
   "metadata": {
     "ticker": "FIGR",
-    "generated_at": "2026-06-30T00:41:38.090831+00:00Z",
-    "date_range": "2026-03-31 to 2026-06-29",
+    "generated_at": "2026-07-02T00:39:15.524345+00:00Z",
+    "date_range": "2026-04-02 to 2026-07-01",
     "source": "volumeleaders.com",
     "script": "populate_ticker_data.py"
   },
@@ -68,18 +68,6 @@
       "vcd": 0.0
     },
     {
-      "timestamp": 1774929600,
-      "price": 33.95,
-      "volume": 910932,
-      "dollars": 30926141,
-      "rank": 18,
-      "conditions": "",
-      "exchange": "",
-      "is_dark_pool": false,
-      "relative_size": 0.0,
-      "vcd": 0.0
-    },
-    {
       "timestamp": 1781582400,
       "price": 29.65,
       "volume": 1014018,
@@ -136,5 +124,16 @@
       "rank": 6
     }
   ],
-  "boxes": []
+  "boxes": [
+    {
+      "box_number": 1,
+      "high_price": 28.7,
+      "low_price": 28.7,
+      "volume": 964797,
+      "dollars": 27689673,
+      "trades": 1,
+      "date_range": "2026-04-02 to 2026-07-01",
+      "color": "#FF6B6B"
+    }
+  ]
 }
